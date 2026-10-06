@@ -50,7 +50,8 @@ Work in the session scratchpad (`$S` below); only the PDF and its copy file go i
 9. **Verify claims.** Every number, rank, streak and "first/never/most" claim must trace to the digest.
    Points are written to two decimals, as Sleeper scores them (161.62, not 161.6), from the exact value.
    `grep -c "—"` on the copy file must be 0 (no em dashes, see voice.md).
-10. Copy the PDF to `almanac/<league>/<season>/week-NN.pdf` and the copy file to `almanac/<league>/<season>/src/week-NN.py`.
+10. Copy the PDF to `almanac/<league>/<season>/week-NN.pdf` and the copy file to `almanac/<league>/<season>/src/week-NN.py`,
+    then run `python3 -I $K/scripts/issues.py $R`. It rewrites `almanac/issues.json`, which the site reads to link each league's newest issue.
 
 **Done** when the PDFs asked for are in `almanac/<league>/<season>/`, every page has been looked at, and every claim
 traces to the digest. Don't commit unless asked.

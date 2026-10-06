@@ -10,6 +10,7 @@ everything is plain HTML reading public APIs and the saved data in `data/`.
 |---|---|
 | `index.html` | **The League Almanac.** Live from Sleeper on every load: weekly dispatch, standings, luck map, a scores heatmap, power rankings, playoff odds, awards, matchups, picks, coach ratings, draft and moves, plus a **History** tab with every champion and career standings across Yahoo and Sleeper. Click any team for its card; pick your team in "I am…" to highlight it everywhere. |
 | `history.html` | **Hall of Records.** One tab per season: champion, podium, awards, final standings and playoff bracket. League picker in the corner; `?league=aggtown` or `?league=sobergang`. |
+| `almanac/issues.json` | Which PDF issues exist, written by the dispatch skill, so the Almanac's header can link each league's newest one. |
 | `almanac/<league>/<year>/week-NN.pdf` | **The weekly PDF dispatch**, one per league per week, written from the same numbers as the Almanac plus the full history. Each issue's copy is in `src/` beside it; the `almanac-dispatch` Claude skill makes them. |
 | `deprecated/almanac-original.html` | The Almanac before the redesign, kept for reference. |
 | `deprecated/index.html` | An earlier Almanac version, kept for reference. |

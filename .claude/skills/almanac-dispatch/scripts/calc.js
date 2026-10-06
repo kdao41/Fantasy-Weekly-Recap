@@ -40,8 +40,9 @@ names.forEach((a, i) => names.slice(i + 1).forEach(b => { pairs[`${u(a)} | ${u(b
 const spot = Core.spotlight(T, Core.matchupPairs(CUR), Core.spotlightLast(CUR));
 const up = (Core.upcomingPicks(CUR) || {picks: []}).picks;
 const pr = Core.pickRecord(CUR);
-const txs = Array.from({length: pwk - 1}, (_, i) => { const p = `${D}/t${i + 1}.json`; return fs.existsSync(p) ? J(p) : []; });
-const moves = Core.rosterMoves(txs);
+// every week's transactions, playoffs included; FAAB totals come from Sleeper's own counts on the rosters
+const txs = Array.from({length: 18}, (_, i) => { const p = `${D}/t${i + 1}.json`; return fs.existsSync(p) ? J(p) : []; });
+const moves = Core.rosterMoves(txs, rosters);
 const mvps = Core.seasonMvps(CUR);
 const team = rid => u(CUR.rName[rid]);
 // names, positions and injury tags for every player the issue can mention, as the site shows them

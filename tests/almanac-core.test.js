@@ -333,3 +333,191 @@ describe("history", () => {
     expect(Core.startsLikeThese(starts, { n_teams: 4, spots: 2 })["0-2"]).toMatchObject({ n: 1, made_playoffs: 0, last: 1 });
   });
 });
+
+// A league from weeks of [roster a, roster b, a's points, b's points] games, every listed week finished.
+function leagueOf(Model, games, names = ["A", "B", "C", "D"]) {
+  const us = names.map((n, i) => ({ user_id: `u${i + 1}`, display_name: n }));
+  const rs = names.map((n, i) => ({ roster_id: i + 1, owner_id: `u${i + 1}`, settings: {} }));
+  const all = games.map(g => g.flatMap(([a, b, ap, bp], i) => [m(a, i + 1, ap), m(b, i + 1, bp)]));
+  const lg = { league_id: "9", season: "2026", settings: { playoff_week_start: 15, playoff_teams: 2 } };
+  const state = { season: "2026", season_type: "regular", week: games.length + 1 };
+  const CUR = { lg, rName: Model.teamNames(us, rs), rosters: rs, ...Model.splitWeeks(lg, state, all), pwk: 15, id: "9" };
+  const { T, games: G, completed } = Model.compute(CUR);
+  return Object.assign(CUR, { _T: T, _games: G, _completed: completed });
+}
+
+describe("weekly numbers", () => {
+  const CUR = league();
+  it("takes each week's median over every team", () => {
+    expect(Core.weekMedians(CUR)).toEqual({ 1: 105, 2: 105, 3: 100 });
+  });
+  it("ranks a score in its week, ties sharing a place", () => {
+    expect(Core.rankIn(CUR, 2, 130)).toBe(1);
+    expect(Core.rankIn(CUR, 2, 105)).toBe(2);
+    expect(Core.rankIn(CUR, 2, 95)).toBe(4);
+  });
+  it("lists every week's low score over every team that played, ties and byes included", () => {
+    expect(Core.weeklyLows(CUR).map(x => [x.wk, x.p, x.names])).toEqual([[1, 90, ["C"]], [2, 95, ["C"]], [3, 80, ["D"]]]);
+    // B and C tie for the low; C had no opponent, as in a bye week
+    const bye = { rName: { 1: "A", 2: "B", 3: "C" }, weeks: { 1: [m(1, 1, 100), m(2, 1, 80), m(3, null, 80)] } };
+    expect(Core.weeklyLows(bye)).toEqual([{ wk: 1, p: 80, rids: [2, 3], names: ["B", "C"] }]);
+  });
+  it("picks the standout games, and a tie is never the heartbreak loss", () => {
+    const h = Core.gameHighs(CUR._games);
+    expect([h.top.hi, h.top.hip, h.blow.hi, h.blow.lo, h.close.wk]).toEqual(["A", 140, "A", "D", 2]);
+    // the 105-105 tie has the highest losing-side score, but nobody lost it
+    expect(h.heart).toMatchObject({ wk: 1, lo: "B", lop: 100 });
+    expect(Core.gameHighs([])).toEqual({ top: null, blow: null, close: null, heart: null });
+  });
+});
+
+describe("rank history and schedule", () => {
+  const CUR = league();
+  it("traces standings and power places week by week", () => {
+    const st = Core.rankHistory(CUR, Core.byRec);
+    expect(st.A.map(p => p.rank)).toEqual([1, 1, 1]);
+    expect(st.B).toEqual([{ wk: 1, rank: 3, rec: "0-1" }, { wk: 2, rank: 3, rec: "0-1-1" }, { wk: 3, rank: 4, rec: "0-2-1" }]);
+    const pw = Core.rankHistory(CUR, Core.byPower);
+    expect(["A", "B", "D", "C"].map(n => pw[n][2].rank)).toEqual([1, 2, 3, 4]);
+  });
+  it("lists the games a team still has to play", () => {
+    expect(Core.remainingSchedule(CUR, 1)).toEqual([{ wk: 4, rid: 2, name: "B" }, { wk: 5, rid: 3, name: "C" }]);
+    expect(Core.remainingSchedule(CUR, "4").map(o => o.name)).toEqual(["C", "B"]);
+  });
+});
+
+describe("luck labels and bold calls", () => {
+  it("calls a full win either way lucky or robbed", () => {
+    expect([1, 0.99, 0, -0.99, -1].map(Core.luckLabel)).toEqual(["lucky", "fair", "fair", "fair", "robbed"]);
+  });
+  // A wins low-scoring games and C loses high-scoring ones for two weeks, then they meet
+  const games = [[[1, 2, 90, 85], [3, 4, 120, 130]], [[1, 2, 88, 86], [3, 4, 125, 130]], [[1, 3, 90, 120], [2, 4, 80, 110]]];
+  it("grades each week's calls, made from the weeks before it", () => {
+    const r = Core.boldReplay(leagueOf(Core, games));
+    expect(r.rows.map(x => [x.wk, x.type, x.name, x.ok])).toEqual([[3, "lucky", "A", true], [3, "robbed", "C", true]]);
+    expect([r.hit, r.tot]).toEqual([2, 2]);
+  });
+  it("makes next week's calls from every finished week", () => {
+    const CUR = leagueOf(Core, games);
+    CUR.upcoming = [m(1, 1, 0), m(4, 1, 0), m(2, 2, 0), m(3, 2, 0)];
+    CUR.upWeek = 4;
+    expect(Core.boldUpcoming(CUR)).toEqual({ week: 4, calls: [{ type: "lucky", rid: "1", name: "A" }, { type: "robbed", rid: "3", name: "C" }] });
+  });
+});
+
+describe("the Dispatch", () => {
+  it("orders unbeaten and winless teams by wins, then all-play, then points", () => {
+    const t = (name, w, l, appct, pf) => ({ name, w, l, appct, pf });
+    const T = [t("x", 1, 0, 0.3, 100), t("y", 1, 0, 0.9, 90), t("z", 1, 0, 0.9, 95), t("q", 2, 0, 0.5, 50),
+      t("p", 0, 1, 0.2, 80), t("r", 0, 1, 0.6, 70), t("s", 0, 1, 0.6, 75), t("n", 0, 0, 0, 0)];
+    const { unbeaten, winless } = Core.unbeatenWinless(T);
+    expect(unbeaten.map(x => x.name)).toEqual(["q", "z", "y", "x"]);
+    expect(winless.map(x => x.name)).toEqual(["s", "r", "p"]);
+  });
+  it("reads the upset bar from the model", () => {
+    expect(Core.model.upsetConf).toBe(0.7);
+    expect(Core.canary.model.upsetConf).toBe(0.56);
+  });
+  it("leads with an upset only the live model was sure of", () => {
+    // after one week the live model is near certain A beats B; the canary has barely moved off even
+    const games = [[[1, 3, 150, 100], [2, 4, 60, 110]], [[1, 2, 95, 100], [3, 4, 101, 99]]];
+    const live = Core.dispatchHeadline(leagueOf(Core, games)), can = Core.canary.dispatchHeadline(leagueOf(Core.canary, games));
+    expect(live.upset.conf).toBeGreaterThanOrEqual(0.7);
+    expect(live.head).toMatchObject({ type: "upset", a: "B", b: "A" });
+    expect(can.upset.conf).toBeLessThan(0.56);
+    expect(can.head.type).toBe("power");
+  });
+  it("leads with an upset only the canary was sure of", () => {
+    // A scores 101 every week, B swings 135 / 70: about the same points, but A wins far more of the all-play
+    const wk = i => [[1, 2, 101, i % 2 ? 135 : 70], [3, 4, i % 2 ? 100 : 99, i % 2 ? 99 : 100]];
+    const games = [...Array.from({ length: 10 }, (_, i) => wk(i)), [[1, 2, 100, 105], [3, 4, 100, 99]]];
+    const live = Core.dispatchHeadline(leagueOf(Core, games)), can = Core.canary.dispatchHeadline(leagueOf(Core.canary, games));
+    expect(live.upset).toMatchObject({ fav: "A", dog: "B" });
+    expect(live.upset.conf).toBeLessThan(0.7);
+    expect(live.head.type).toBe("power");
+    expect(can.upset.conf).toBeGreaterThanOrEqual(0.56);
+    expect(can.head).toMatchObject({ type: "upset", a: "B", b: "A" });
+  });
+  it("falls back to a big score when no upset qualifies", () => {
+    const CUR = league();
+    // week 3: A 140 is 40 over the 100 median
+    expect(Core.dispatchHeadline(CUR).head).toEqual({ type: "top", a: "A", p: 140 });
+    expect(Core.dispatchHeadline({ _completed: [] })).toBeNull();
+  });
+});
+
+describe("brackets", () => {
+  it("gives each model's chance for unplayed games with both teams set", () => {
+    const B = [{ m: 1, r: 1, t1: 1, t2: 4, w: null }, { m: 2, r: 1, t1: 2, t2: 3, w: 2, l: 3 }, { m: 3, r: 2, t1: null, t2: null, w: null }];
+    for (const Model of [Core, Core.canary]) {
+      const CUR = league(), rate = Model.ratingsNow(CUR), g = Model.bracketChances(CUR, B);
+      expect(g.map(x => x.m)).toEqual([1]);
+      expect(g[0].p).toBeCloseTo(Model.CONF(rate[1] - rate[4]), 12);
+      expect(g[0].p).toBeGreaterThan(0.5);
+    }
+    expect(Core.bracketChances({ ...league(), _completed: [] }, B)).toEqual([]);
+  });
+});
+
+describe("coach bars", () => {
+  it("start at the nearest 5% below the worst, never above 95%", () => {
+    expect(Core.coachFloor([{ eff: 0.97 }, { eff: 0.83 }])).toBe(0.8);
+    expect(Core.coachFloor([{ eff: 1 }, { eff: 1 }])).toBe(0.95);
+    expect(Core.coachFloor([])).toBe(0.95);
+  });
+});
+
+describe("FAAB", () => {
+  it("takes each roster's total from Sleeper when it has one", () => {
+    const txs = [[{ status: "complete", type: "waiver", adds: { a: 2 }, settings: { waiver_bid: 5 } },
+      { status: "complete", type: "waiver", adds: { d: 1 }, settings: { waiver_bid: 12 } }]];
+    // roster 1 sent $30 of FAAB to roster 3 in a trade; roster 2's total isn't reported
+    const rs = [{ roster_id: 1, settings: { waiver_budget_used: 42 } }, { roster_id: 2, settings: {} },
+      { roster_id: 3, settings: { waiver_budget_used: 0 } }, { roster_id: 4, settings: { waiver_budget_used: 7 } }];
+    expect(Core.rosterMoves(txs, rs).spent).toEqual([{ rid: 2, spent: 5 }, { rid: 1, spent: 42 }, { rid: 4, spent: 7 }]);
+    expect(Core.rosterMoves(txs).spent).toEqual([{ rid: 2, spent: 5 }, { rid: 1, spent: 12 }]);
+  });
+});
+
+describe("record book", () => {
+  const csv = [
+    "season,week,is_playoffs,is_consolation,manager,team,points,opponent_manager,opponent_team,opponent_points,result",
+    "2025,1,False,False,Z,Zed,100,A,Ay,90,W", "2025,1,False,False,A,Ay,90,Z,Zed,100,L",
+    "2025,2,False,False,Z,Zed,110,A,Ay,95,W", "2025,2,False,False,A,Ay,95,Z,Zed,110,L",
+  ].join("\n");
+  const mg = { a: { nicknames: ["A"] }, z: { nicknames: ["Z"] } };
+  const season = (manager, points_for, rw, rl, pw, pl) => ({ season: 2025, manager, team: "t", points_for, regular_wins: rw, regular_losses: rl,
+    regular_ties: 0, total_wins: rw + pw, total_losses: rl + pl, total_ties: 0, regular_season_record: `${rw}-${rl}`, final_rank: 1 });
+  it("divides regular-season points by regular-season games", () => {
+    const CUR = league();
+    CUR._h2hRaw = Core.h2hRawFrom(Core.parseCSV(csv), mg, "2026");
+    // P's points cover 14 regular-season games; its 3 playoff games don't count against them
+    const R = Core.recordBook(CUR, [season("P", 1680, 10, 4, 2, 1), season("Q", 1610, 7, 7, 0, 0)]);
+    expect(R.ppg.map(r => [r.manager, r.ppg])).toEqual([["P", 120], ["Q", 115]]);
+  });
+  it("calls a streak still going only for managers in this season", () => {
+    const CUR = league();
+    CUR._h2hRaw = Core.h2hRawFrom(Core.parseCSV(csv), mg, "2026");
+    const R = Core.recordBook(CUR, []);
+    // Z left after a 2-0 finish; A won all three games this season
+    expect(R.winStreaks.find(r => r.lab === "Z")).toMatchObject({ len: 2 });
+    expect(R.winStreaks.find(r => r.lab === "Z").ongoing).toBeUndefined();
+    expect(R.winStreaks.find(r => r.lab === "A")).toMatchObject({ len: 3, ongoing: true });
+  });
+  it("finds runs in one person's games", () => {
+    const g = ["W", "W", "L", "T", "W", "W", "W"].map((res, wk) => ({ res, wk }));
+    expect(Core.streaks(g, "W", true).map(r => [r.len, !!r.ongoing])).toEqual([[2, false], [3, true]]);
+    expect(Core.streaks(g, "W", false).map(r => [r.len, !!r.ongoing])).toEqual([[2, false], [3, false]]);
+    expect(Core.streaks(g, "L", true).map(r => r.len)).toEqual([1]);
+  });
+});
+
+describe("PDF issues", () => {
+  it("links the newest issue for the league's season, or nothing", () => {
+    const issues = { aggtown: { 2025: [17], 2026: [5, 7, 6] } };
+    expect(Core.latestIssue(issues, "aggtown", "2026")).toBe(7);
+    expect(Core.latestIssue(issues, "aggtown", 2025)).toBe(17);
+    expect(Core.latestIssue(issues, "sobergang", "2026")).toBeNull();
+    expect(Core.latestIssue({}, "aggtown", "2026")).toBeNull();
+  });
+});
