@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fantasy_content xml:lang="en-US" yahoo:uri="http://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/414.l.661675" time="10.943174362183ms" copyright="Certain Data by Sportradar, Stats Perform and Rotowire" refresh_rate="30" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
+ <league>
+  <league_key>414.l.661675</league_key>
+  <league_id>661675</league_id>
+  <name>Nooblets Season 2</name>
+  <url>https://football.fantasysports.yahoo.com/2022/f1/661675</url>
+  <recordbook_url>https://football.fantasysports.yahoo.com/2022/f1/661675/recordbook?layout=webview&amp;device=smartphone</recordbook_url>
+  <logo_url></logo_url>
+  <draft_status>postdraft</draft_status>
+  <num_teams>10</num_teams>
+  <max_teams>10</max_teams>
+  <edit_key>17</edit_key>
+  <weekly_deadline/>
+  <roster_type>week</roster_type>
+  <league_update_timestamp>1673508639</league_update_timestamp>
+  <scoring_type>head</scoring_type>
+  <scoring_label>H2H</scoring_label>
+  <league_type>private</league_type>
+  <renew>406_109270</renew>
+  <renewed>423_637143</renewed>
+  <felo_tier>silver</felo_tier>
+  <is_highscore></is_highscore>
+  <is_guillotine>0</is_guillotine>
+  <matchup_week>17</matchup_week>
+  <iris_group_chat_id/>
+  <allow_add_to_dl_extra_pos>1</allow_add_to_dl_extra_pos>
+  <is_pro_league>0</is_pro_league>
+  <is_cash_league>0</is_cash_league>
+  <current_week>17</current_week>
+  <start_week>1</start_week>
+  <start_date>2022-09-08</start_date>
+  <end_week>17</end_week>
+  <end_date>2023-01-03</end_date>
+  <is_finished>1</is_finished>
+  <is_plus_league>0</is_plus_league>
+  <game_code>nfl</game_code>
+  <season>2022</season>
+ </league>
+</fantasy_content>
+<!-- fantasy-sports-api- -public-production-use1-7954cd67c7-qkbpj Tue Oct  6 18:57:12 UTC 2026 -->

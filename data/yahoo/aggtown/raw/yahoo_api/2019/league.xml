@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fantasy_content xml:lang="en-US" yahoo:uri="http://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/390.l.598446" time="14.025211334229ms" copyright="Certain Data by Sportradar, Stats Perform and Rotowire" refresh_rate="30" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
+ <league>
+  <league_key>390.l.598446</league_key>
+  <league_id>598446</league_id>
+  <name>Aggtown FFL</name>
+  <url>https://football.fantasysports.yahoo.com/2019/f1/598446</url>
+  <recordbook_url>https://football.fantasysports.yahoo.com/2019/f1/598446/recordbook?layout=webview&amp;device=smartphone</recordbook_url>
+  <logo_url></logo_url>
+  <draft_status>postdraft</draft_status>
+  <num_teams>12</num_teams>
+  <max_teams>12</max_teams>
+  <edit_key>16</edit_key>
+  <weekly_deadline/>
+  <roster_type>week</roster_type>
+  <league_update_timestamp>1577870827</league_update_timestamp>
+  <scoring_type>head</scoring_type>
+  <scoring_label>H2H</scoring_label>
+  <league_type>private</league_type>
+  <renew>380_738482</renew>
+  <renewed>399_622714</renewed>
+  <felo_tier>silver</felo_tier>
+  <is_highscore></is_highscore>
+  <is_guillotine>0</is_guillotine>
+  <matchup_week>16</matchup_week>
+  <iris_group_chat_id/>
+  <allow_add_to_dl_extra_pos>1</allow_add_to_dl_extra_pos>
+  <is_pro_league>0</is_pro_league>
+  <is_cash_league>0</is_cash_league>
+  <current_week>16</current_week>
+  <start_week>1</start_week>
+  <start_date>2019-09-05</start_date>
+  <end_week>16</end_week>
+  <end_date>2019-12-23</end_date>
+  <is_finished>1</is_finished>
+  <is_plus_league>0</is_plus_league>
+  <game_code>nfl</game_code>
+  <season>2019</season>
+ </league>
+</fantasy_content>
+<!-- fantasy-sports-api- -public-production-use1-74dbbc8c45-lklws Tue Oct  6 18:26:02 UTC 2026 -->

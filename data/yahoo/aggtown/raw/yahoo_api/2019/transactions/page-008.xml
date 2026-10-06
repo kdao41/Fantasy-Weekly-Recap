@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fantasy_content xml:lang="en-US" yahoo:uri="http://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/league/390.l.598446/transactions;start=175;count=25" time="232.53297805786ms" copyright="Certain Data by Sportradar, Stats Perform and Rotowire" refresh_rate="30" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
+ <league>
+  <league_key>390.l.598446</league_key>
+  <league_id>598446</league_id>
+  <name>Aggtown FFL</name>
+  <url>https://football.fantasysports.yahoo.com/2019/f1/598446</url>
+  <recordbook_url>https://football.fantasysports.yahoo.com/2019/f1/598446/recordbook?layout=webview&amp;device=smartphone</recordbook_url>
+  <logo_url></logo_url>
+  <draft_status>postdraft</draft_status>
+  <num_teams>12</num_teams>
+  <max_teams>12</max_teams>
+  <edit_key>16</edit_key>
+  <weekly_deadline/>
+  <roster_type>week</roster_type>
+  <league_update_timestamp>1577870827</league_update_timestamp>
+  <scoring_type>head</scoring_type>
+  <scoring_label>H2H</scoring_label>
+  <league_type>private</league_type>
+  <renew>380_738482</renew>
+  <renewed>399_622714</renewed>
+  <felo_tier>silver</felo_tier>
+  <is_highscore></is_highscore>
+  <is_guillotine>0</is_guillotine>
+  <matchup_week>16</matchup_week>
+  <iris_group_chat_id/>
+  <allow_add_to_dl_extra_pos>1</allow_add_to_dl_extra_pos>
+  <is_pro_league>0</is_pro_league>
+  <is_cash_league>0</is_cash_league>
+  <current_week>16</current_week>
+  <start_week>1</start_week>
+  <start_date>2019-09-05</start_date>
+  <end_week>16</end_week>
+  <end_date>2019-12-23</end_date>
+  <is_finished>1</is_finished>
+  <is_plus_league>0</is_plus_league>
+  <game_code>nfl</game_code>
+  <season>2019</season>
+  <transactions count="25">
+   <transaction>
+    <transaction_key>390.l.598446.tr.232</transaction_key>
+    <transaction_id>232</transaction_id>
+    <type>add</type>
+    <status>successful</status>
+    <timestamp>1572161572</timestamp>
+    <players count="1">
+     <player>
+      <player_key>390.p.26561</player_key>
+      <player_id>26561</player_id>
+      <name>
+       <full>Josh Gordon</full>
+       <first>Josh</first>
+       <last>Gordon</last>
+       <ascii_first>Josh</ascii_first>
+       <ascii_last>Gordon</ascii_last>
+      </name>
+      <editorial_team_abbr>Ten</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.9</destination_team_key>
+       <destination_team_name>Loading FAILED.</destination_team_name>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.231</transaction_key>
+    <transaction_id>231</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1572134553</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.7520</player_key>
+      <player_id>7520</player_id>
+      <name>
+       <full>Robbie Gould</full>
+       <first>Robbie</first>
+       <last>Gould</last>
+       <ascii_first>Robbie</ascii_first>
+       <ascii_last>Gould</ascii_last>
+      </name>
+      <editorial_team_abbr>SF</editorial_team_abbr>
+      <display_position>K</display_position>
+      <position_type>K</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.5</destination_team_key>
+       <destination_team_name>Chubby Johnson</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.30337</player_key>
+      <player_id>30337</player_id>
+      <name>
+       <full>Zane Gonzalez</full>
+       <first>Zane</first>
+       <last>Gonzalez</last>
+       <ascii_first>Zane</ascii_first>
+       <ascii_last>Gonzalez</ascii_last>
+      </name>
+      <editorial_team_abbr>Mia</editorial_team_abbr>
+      <display_position>K</display_position>
+      <position_type>K</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.5</source_team_key>
+       <source_team_name>Chubby Johnson</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.230</transaction_key>
+    <transaction_id>230</transaction_id>
+    <type>drop</type>
+    <status>successful</status>
+    <timestamp>1572117476</timestamp>
+    <players count="1">
+     <player>
+      <player_key>390.p.27560</player_key>
+      <player_id>27560</player_id>
+      <name>
+       <full>Teddy Bridgewater</full>
+       <first>Teddy</first>
+       <last>Bridgewater</last>
+       <ascii_first>Teddy</ascii_first>
+       <ascii_last>Bridgewater</ascii_last>
+      </name>
+      <editorial_team_abbr>TB</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.3</source_team_key>
+       <source_team_name>Hide and Zeke</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.229</transaction_key>
+    <transaction_id>229</transaction_id>
+    <type>add</type>
+    <status>successful</status>
+    <timestamp>1572076821</timestamp>
+    <players count="1">
+     <player>
+      <player_key>390.p.30232</player_key>
+      <player_id>30232</player_id>
+      <name>
+       <full>Tarik Cohen</full>
+       <first>Tarik</first>
+       <last>Cohen</last>
+       <ascii_first>Tarik</ascii_first>
+       <ascii_last>Cohen</ascii_last>
+      </name>
+      <editorial_team_abbr>Car</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.3</destination_team_key>
+       <destination_team_name>Hide and Zeke</destination_team_name>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.228</transaction_key>
+    <transaction_id>228</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1572020093</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.28267</player_key>
+      <player_id>28267</player_id>
+      <name>
+       <full>Cameron Brate</full>
+       <first>Cameron</first>
+       <last>Brate</last>
+       <ascii_first>Cameron</ascii_first>
+       <ascii_last>Brate</ascii_last>
+      </name>
+      <editorial_team_abbr>TB</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.6</destination_team_key>
+       <destination_team_name>oOo Cody</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.30132</player_key>
+      <player_id>30132</player_id>
+      <name>
+       <full>O.J. Howard</full>
+       <first>O.J.</first>
+       <last>Howard</last>
+       <ascii_first>O.J.</ascii_first>
+       <ascii_last>Howard</ascii_last>
+      </name>
+      <editorial_team_abbr>Hou</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.6</source_team_key>
+       <source_team_name>oOo Cody</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.227</transaction_key>
+    <transaction_id>227</transaction_id>
+    <type>add</type>
+    <status>successful</status>
+    <timestamp>1571936673</timestamp>
+    <players count="1">
+     <player>
+      <player_key>390.p.25718</player_key>
+      <player_id>25718</player_id>
+      <name>
+       <full>Ryan Tannehill</full>
+       <first>Ryan</first>
+       <last>Tannehill</last>
+       <ascii_first>Ryan</ascii_first>
+       <ascii_last>Tannehill</ascii_last>
+      </name>
+      <editorial_team_abbr>Ten</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.3</destination_team_key>
+       <destination_team_name>Hide and Zeke</destination_team_name>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.226</transaction_key>
+    <transaction_id>226</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571927552</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.31883</player_key>
+      <player_id>31883</player_id>
+      <name>
+       <full>A.J. Brown</full>
+       <first>A.J.</first>
+       <last>Brown</last>
+       <ascii_first>A.J.</ascii_first>
+       <ascii_last>Brown</ascii_last>
+      </name>
+      <editorial_team_abbr>NE</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.10</destination_team_key>
+       <destination_team_name>GOD TIER</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.31833</player_key>
+      <player_id>31833</player_id>
+      <name>
+       <full>Kyler Murray</full>
+       <first>Kyler</first>
+       <last>Murray</last>
+       <ascii_first>Kyler</ascii_first>
+       <ascii_last>Murray</ascii_last>
+      </name>
+      <editorial_team_abbr>Min</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.10</source_team_key>
+       <source_team_name>GOD TIER</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.225</transaction_key>
+    <transaction_id>225</transaction_id>
+    <type>drop</type>
+    <status>successful</status>
+    <timestamp>1571864603</timestamp>
+    <players count="1">
+     <player>
+      <player_key>390.p.26561</player_key>
+      <player_id>26561</player_id>
+      <name>
+       <full>Josh Gordon</full>
+       <first>Josh</first>
+       <last>Gordon</last>
+       <ascii_first>Josh</ascii_first>
+       <ascii_last>Gordon</ascii_last>
+      </name>
+      <editorial_team_abbr>Ten</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.3</source_team_key>
+       <source_team_name>Hide and Zeke</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.224</transaction_key>
+    <transaction_id>224</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571852420</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.30213</player_key>
+      <player_id>30213</player_id>
+      <name>
+       <full>Jonnu Smith</full>
+       <first>Jonnu</first>
+       <last>Smith</last>
+       <ascii_first>Jonnu</ascii_first>
+       <ascii_last>Smith</ascii_last>
+      </name>
+      <editorial_team_abbr>GB</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.10</destination_team_key>
+       <destination_team_name>GOD TIER</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.31928</player_key>
+      <player_id>31928</player_id>
+      <name>
+       <full>Dawson Knox</full>
+       <first>Dawson</first>
+       <last>Knox</last>
+       <ascii_first>Dawson</ascii_first>
+       <ascii_last>Knox</ascii_last>
+      </name>
+      <editorial_team_abbr>Buf</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.10</source_team_key>
+       <source_team_name>GOD TIER</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.223</transaction_key>
+    <transaction_id>223</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571848642</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.9353</player_key>
+      <player_id>9353</player_id>
+      <name>
+       <full>Jared Cook</full>
+       <first>Jared</first>
+       <last>Cook</last>
+       <ascii_first>Jared</ascii_first>
+       <ascii_last>Cook</ascii_last>
+      </name>
+      <editorial_team_abbr>LAC</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.3</destination_team_key>
+       <destination_team_name>Hide and Zeke</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.31840</player_key>
+      <player_id>31840</player_id>
+      <name>
+       <full>T.J. Hockenson</full>
+       <first>T.J.</first>
+       <last>Hockenson</last>
+       <ascii_first>T.J.</ascii_first>
+       <ascii_last>Hockenson</ascii_last>
+      </name>
+      <editorial_team_abbr>Min</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.3</source_team_key>
+       <source_team_name>Hide and Zeke</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.222</transaction_key>
+    <transaction_id>222</transaction_id>
+    <type>drop</type>
+    <status>successful</status>
+    <timestamp>1571848428</timestamp>
+    <players count="1">
+     <player>
+      <player_key>390.p.7924</player_key>
+      <player_id>7924</player_id>
+      <name>
+       <full>Delanie Walker</full>
+       <first>Delanie</first>
+       <last>Walker</last>
+       <ascii_first>Delanie</ascii_first>
+       <ascii_last>Walker</ascii_last>
+      </name>
+      <editorial_team_abbr>Ten</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.10</source_team_key>
+       <source_team_name>GOD TIER</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.221</transaction_key>
+    <transaction_id>221</transaction_id>
+    <type>trade</type>
+    <status>successful</status>
+    <timestamp>1571848428</timestamp>
+    <trader_team_key>390.l.598446.t.10</trader_team_key>
+    <trader_team_name>GOD TIER</trader_team_name>
+    <tradee_team_key>390.l.598446.t.3</tradee_team_key>
+    <tradee_team_name>Hide and Zeke</tradee_team_name>
+    <players count="3">
+     <player>
+      <player_key>390.p.27589</player_key>
+      <player_id>27589</player_id>
+      <name>
+       <full>Allen Robinson</full>
+       <first>Allen</first>
+       <last>Robinson</last>
+       <ascii_first>Allen</ascii_first>
+       <ascii_last>Robinson</ascii_last>
+      </name>
+      <editorial_team_abbr>Det</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>trade</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.10</source_team_key>
+       <source_team_name>GOD TIER</source_team_name>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.3</destination_team_key>
+       <destination_team_name>Hide and Zeke</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.30161</player_key>
+      <player_id>30161</player_id>
+      <name>
+       <full>Joe Mixon</full>
+       <first>Joe</first>
+       <last>Mixon</last>
+       <ascii_first>Joe</ascii_first>
+       <ascii_last>Mixon</ascii_last>
+      </name>
+      <editorial_team_abbr>Sea</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>trade</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.3</source_team_key>
+       <source_team_name>Hide and Zeke</source_team_name>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.10</destination_team_key>
+       <destination_team_name>GOD TIER</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.31077</player_key>
+      <player_id>31077</player_id>
+      <name>
+       <full>Chris Herndon</full>
+       <first>Chris</first>
+       <last>Herndon</last>
+       <ascii_first>Chris</ascii_first>
+       <ascii_last>Herndon</ascii_last>
+      </name>
+      <editorial_team_abbr>Min</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>trade</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.3</source_team_key>
+       <source_team_name>Hide and Zeke</source_team_name>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.10</destination_team_key>
+       <destination_team_name>GOD TIER</destination_team_name>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.220</transaction_key>
+    <transaction_id>220</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571848192</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.27560</player_key>
+      <player_id>27560</player_id>
+      <name>
+       <full>Teddy Bridgewater</full>
+       <first>Teddy</first>
+       <last>Bridgewater</last>
+       <ascii_first>Teddy</ascii_first>
+       <ascii_last>Bridgewater</ascii_last>
+      </name>
+      <editorial_team_abbr>TB</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.3</destination_team_key>
+       <destination_team_name>Hide and Zeke</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.32231</player_key>
+      <player_id>32231</player_id>
+      <name>
+       <full>Jakobi Meyers</full>
+       <first>Jakobi</first>
+       <last>Meyers</last>
+       <ascii_first>Jakobi</ascii_first>
+       <ascii_last>Meyers</ascii_last>
+      </name>
+      <editorial_team_abbr>Jax</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.3</source_team_key>
+       <source_team_name>Hide and Zeke</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.219</transaction_key>
+    <transaction_id>219</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571846166</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.24830</player_key>
+      <player_id>24830</player_id>
+      <name>
+       <full>Kyle Rudolph</full>
+       <first>Kyle</first>
+       <last>Rudolph</last>
+       <ascii_first>Kyle</ascii_first>
+       <ascii_last>Rudolph</ascii_last>
+      </name>
+      <editorial_team_abbr>TB</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.8</destination_team_key>
+       <destination_team_name>Shake n Blake</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.100006</player_key>
+      <player_id>100006</player_id>
+      <name>
+       <full>Cowboys</full>
+       <first>Cowboys</first>
+       <last/>
+       <ascii_first>Cowboys</ascii_first>
+       <ascii_last/>
+      </name>
+      <editorial_team_abbr>Dal</editorial_team_abbr>
+      <display_position>DEF</display_position>
+      <position_type>DT</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.8</source_team_key>
+       <source_team_name>Shake n Blake</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.218</transaction_key>
+    <transaction_id>218</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571834757</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.29792</player_key>
+      <player_id>29792</player_id>
+      <name>
+       <full>Ka'imi Fairbairn</full>
+       <first>Ka'imi</first>
+       <last>Fairbairn</last>
+       <ascii_first>Ka'imi</ascii_first>
+       <ascii_last>Fairbairn</ascii_last>
+      </name>
+      <editorial_team_abbr>Hou</editorial_team_abbr>
+      <display_position>K</display_position>
+      <position_type>K</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.9</destination_team_key>
+       <destination_team_name>Loading FAILED.</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.30232</player_key>
+      <player_id>30232</player_id>
+      <name>
+       <full>Tarik Cohen</full>
+       <first>Tarik</first>
+       <last>Cohen</last>
+       <ascii_first>Tarik</ascii_first>
+       <ascii_last>Cohen</ascii_last>
+      </name>
+      <editorial_team_abbr>Car</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.9</source_team_key>
+       <source_team_name>Loading FAILED.</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.217</transaction_key>
+    <transaction_id>217</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571832608</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.28402</player_key>
+      <player_id>28402</player_id>
+      <name>
+       <full>DeVante Parker</full>
+       <first>DeVante</first>
+       <last>Parker</last>
+       <ascii_first>DeVante</ascii_first>
+       <ascii_last>Parker</ascii_last>
+      </name>
+      <editorial_team_abbr>NE</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.1</destination_team_key>
+       <destination_team_name>Lights Kamara ACTION</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.32003</player_key>
+      <player_id>32003</player_id>
+      <name>
+       <full>Darius Slayton</full>
+       <first>Darius</first>
+       <last>Slayton</last>
+       <ascii_first>Darius</ascii_first>
+       <ascii_last>Slayton</ascii_last>
+      </name>
+      <editorial_team_abbr>Ind</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.1</source_team_key>
+       <source_team_name>Lights Kamara ACTION</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.216</transaction_key>
+    <transaction_id>216</transaction_id>
+    <type>add</type>
+    <status>successful</status>
+    <timestamp>1571828538</timestamp>
+    <players count="1">
+     <player>
+      <player_key>390.p.29325</player_key>
+      <player_id>29325</player_id>
+      <name>
+       <full>Jacoby Brissett</full>
+       <first>Jacoby</first>
+       <last>Brissett</last>
+       <ascii_first>Jacoby</ascii_first>
+       <ascii_last>Brissett</ascii_last>
+      </name>
+      <editorial_team_abbr>Ari</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.4</destination_team_key>
+       <destination_team_name>King Goffrey</destination_team_name>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.215</transaction_key>
+    <transaction_id>215</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822491</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.100024</player_key>
+      <player_id>100024</player_id>
+      <name>
+       <full>Chargers</full>
+       <first>Chargers</first>
+       <last/>
+       <ascii_first>Chargers</ascii_first>
+       <ascii_last/>
+      </name>
+      <editorial_team_abbr>LAC</editorial_team_abbr>
+      <display_position>DEF</display_position>
+      <position_type>DT</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>freeagents</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.2</destination_team_key>
+       <destination_team_name>Run CMC</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.6243</player_key>
+      <player_id>6243</player_id>
+      <name>
+       <full>Matt Bryant</full>
+       <first>Matt</first>
+       <last>Bryant</last>
+       <ascii_first>Matt</ascii_first>
+       <ascii_last>Bryant</ascii_last>
+      </name>
+      <editorial_team_abbr>Atl</editorial_team_abbr>
+      <display_position>K</display_position>
+      <position_type>K</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.2</source_team_key>
+       <source_team_name>Run CMC</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.211</transaction_key>
+    <transaction_id>211</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822052</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.9265</player_key>
+      <player_id>9265</player_id>
+      <name>
+       <full>Matthew Stafford</full>
+       <first>Matthew</first>
+       <last>Stafford</last>
+       <ascii_first>Matthew</ascii_first>
+       <ascii_last>Stafford</ascii_last>
+      </name>
+      <editorial_team_abbr>LAR</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.6</destination_team_key>
+       <destination_team_name>oOo Cody</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.31096</player_key>
+      <player_id>31096</player_id>
+      <name>
+       <full>Ito Smith</full>
+       <first>Ito</first>
+       <last>Smith</last>
+       <ascii_first>Ito</ascii_first>
+       <ascii_last>Smith</ascii_last>
+      </name>
+      <editorial_team_abbr>Dal</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.6</source_team_key>
+       <source_team_name>oOo Cody</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.210</transaction_key>
+    <transaction_id>210</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822052</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.31073</player_key>
+      <player_id>31073</player_id>
+      <name>
+       <full>Keke Coutee</full>
+       <first>Keke</first>
+       <last>Coutee</last>
+       <ascii_first>Keke</ascii_first>
+       <ascii_last>Coutee</ascii_last>
+      </name>
+      <editorial_team_abbr>Mia</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.1</destination_team_key>
+       <destination_team_name>Lights Kamara ACTION</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.26781</player_key>
+      <player_id>26781</player_id>
+      <name>
+       <full>Luke Willson</full>
+       <first>Luke</first>
+       <last>Willson</last>
+       <ascii_first>Luke</ascii_first>
+       <ascii_last>Willson</ascii_last>
+      </name>
+      <editorial_team_abbr>Bal</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.1</source_team_key>
+       <source_team_name>Lights Kamara ACTION</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.209</transaction_key>
+    <transaction_id>209</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822052</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.29650</player_key>
+      <player_id>29650</player_id>
+      <name>
+       <full>J.D. McKissic</full>
+       <first>J.D.</first>
+       <last>McKissic</last>
+       <ascii_first>J.D.</ascii_first>
+       <ascii_last>McKissic</ascii_last>
+      </name>
+      <editorial_team_abbr>Was</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.4</destination_team_key>
+       <destination_team_name>King Goffrey</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.30973</player_key>
+      <player_id>30973</player_id>
+      <name>
+       <full>Sam Darnold</full>
+       <first>Sam</first>
+       <last>Darnold</last>
+       <ascii_first>Sam</ascii_first>
+       <ascii_last>Darnold</ascii_last>
+      </name>
+      <editorial_team_abbr>Sea</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.4</source_team_key>
+       <source_team_name>King Goffrey</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.208</transaction_key>
+    <transaction_id>208</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822052</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.30132</player_key>
+      <player_id>30132</player_id>
+      <name>
+       <full>O.J. Howard</full>
+       <first>O.J.</first>
+       <last>Howard</last>
+       <ascii_first>O.J.</ascii_first>
+       <ascii_last>Howard</ascii_last>
+      </name>
+      <editorial_team_abbr>Hou</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.6</destination_team_key>
+       <destination_team_name>oOo Cody</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.28408</player_key>
+      <player_id>28408</player_id>
+      <name>
+       <full>Nelson Agholor</full>
+       <first>Nelson</first>
+       <last>Agholor</last>
+       <ascii_first>Nelson</ascii_first>
+       <ascii_last>Agholor</ascii_last>
+      </name>
+      <editorial_team_abbr>Bal</editorial_team_abbr>
+      <display_position>WR</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.6</source_team_key>
+       <source_team_name>oOo Cody</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.207</transaction_key>
+    <transaction_id>207</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822052</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.100011</player_key>
+      <player_id>100011</player_id>
+      <name>
+       <full>Colts</full>
+       <first>Colts</first>
+       <last/>
+       <ascii_first>Colts</ascii_first>
+       <ascii_last/>
+      </name>
+      <editorial_team_abbr>Ind</editorial_team_abbr>
+      <display_position>DEF</display_position>
+      <position_type>DT</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.8</destination_team_key>
+       <destination_team_name>Shake n Blake</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.7520</player_key>
+      <player_id>7520</player_id>
+      <name>
+       <full>Robbie Gould</full>
+       <first>Robbie</first>
+       <last>Gould</last>
+       <ascii_first>Robbie</ascii_first>
+       <ascii_last>Gould</ascii_last>
+      </name>
+      <editorial_team_abbr>SF</editorial_team_abbr>
+      <display_position>K</display_position>
+      <position_type>K</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.8</source_team_key>
+       <source_team_name>Shake n Blake</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.206</transaction_key>
+    <transaction_id>206</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822052</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.25812</player_key>
+      <player_id>25812</player_id>
+      <name>
+       <full>Kirk Cousins</full>
+       <first>Kirk</first>
+       <last>Cousins</last>
+       <ascii_first>Kirk</ascii_first>
+       <ascii_last>Cousins</ascii_last>
+      </name>
+      <editorial_team_abbr>LV</editorial_team_abbr>
+      <display_position>QB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.7</destination_team_key>
+       <destination_team_name>Prince of Mahomes</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.31882</player_key>
+      <player_id>31882</player_id>
+      <name>
+       <full>Irv Smith Jr.</full>
+       <first>Irv</first>
+       <last>Smith Jr.</last>
+       <ascii_first>Irv</ascii_first>
+       <ascii_last>Smith Jr.</ascii_last>
+      </name>
+      <editorial_team_abbr>Hou</editorial_team_abbr>
+      <display_position>TE</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.7</source_team_key>
+       <source_team_name>Prince of Mahomes</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+   <transaction>
+    <transaction_key>390.l.598446.tr.205</transaction_key>
+    <transaction_id>205</transaction_id>
+    <type>add/drop</type>
+    <status>successful</status>
+    <timestamp>1571822052</timestamp>
+    <players count="2">
+     <player>
+      <player_key>390.p.32018</player_key>
+      <player_id>32018</player_id>
+      <name>
+       <full>Ty Johnson</full>
+       <first>Ty</first>
+       <last>Johnson</last>
+       <ascii_first>Ty</ascii_first>
+       <ascii_last>Johnson</ascii_last>
+      </name>
+      <editorial_team_abbr>Buf</editorial_team_abbr>
+      <display_position>RB</display_position>
+      <position_type>O</position_type>
+      <transaction_data>
+       <type>add</type>
+       <source_type>waivers</source_type>
+       <destination_type>team</destination_type>
+       <destination_team_key>390.l.598446.t.12</destination_team_key>
+       <destination_team_name>Saquanda Forever!</destination_team_name>
+      </transaction_data>
+     </player>
+     <player>
+      <player_key>390.p.100029</player_key>
+      <player_id>100029</player_id>
+      <name>
+       <full>Panthers</full>
+       <first>Panthers</first>
+       <last/>
+       <ascii_first>Panthers</ascii_first>
+       <ascii_last/>
+      </name>
+      <editorial_team_abbr>Car</editorial_team_abbr>
+      <display_position>DEF</display_position>
+      <position_type>DT</position_type>
+      <transaction_data>
+       <type>drop</type>
+       <source_type>team</source_type>
+       <source_team_key>390.l.598446.t.12</source_team_key>
+       <source_team_name>Saquanda Forever!</source_team_name>
+       <destination_type>waivers</destination_type>
+      </transaction_data>
+     </player>
+    </players>
+   </transaction>
+  </transactions>
+ </league>
+</fantasy_content>
+<!-- fantasy-sports-api- -public-production-use1-74dbbc8c45-d72xs Tue Oct  6 18:26:10 UTC 2026 -->

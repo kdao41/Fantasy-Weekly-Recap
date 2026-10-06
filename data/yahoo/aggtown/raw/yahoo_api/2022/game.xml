@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fantasy_content xml:lang="en-US" yahoo:uri="http://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/game/414" time="11.502981185913ms" copyright="Certain Data by Sportradar, Stats Perform and Rotowire" refresh_rate="30" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
+ <game>
+  <game_key>414</game_key>
+  <game_id>414</game_id>
+  <name>Football</name>
+  <code>nfl</code>
+  <type>full</type>
+  <url>https://football.fantasysports.yahoo.com/2022/f1</url>
+  <season>2022</season>
+  <is_registration_over>1</is_registration_over>
+  <is_game_over>1</is_game_over>
+  <is_offseason>1</is_offseason>
+ </game>
+</fantasy_content>
+<!-- fantasy-sports-api- -public-production-use1-74dbbc8c45-88wc8 Tue Oct  6 18:37:56 UTC 2026 -->
