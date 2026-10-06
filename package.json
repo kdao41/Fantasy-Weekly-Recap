@@ -1,0 +1,12 @@
+{
+  "name": "fantasy-weekly-recap",
+  "private": true,
+  "description": "Static fantasy football almanac pages; lib/ holds the shared calculations, tests/ their unit tests.",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.3"
+  }
+}

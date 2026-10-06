@@ -10,6 +10,7 @@ everything is plain HTML reading public APIs and the saved data in `data/`.
 |---|---|
 | `index.html` | **The League Almanac.** Live from Sleeper on every load: weekly dispatch, standings, luck map, a scores heatmap, power rankings, playoff odds, awards, matchups, picks, coach ratings, draft and moves, plus a **History** tab with every champion and career standings across Yahoo and Sleeper. Click any team for its card; pick your team in "I am…" to highlight it everywhere. |
 | `history.html` | **Hall of Records.** One tab per season: champion, podium, awards, final standings and playoff bracket. League picker in the corner; `?league=aggtown` or `?league=sobergang`. |
+| `almanac/<league>/<year>/week-NN.pdf` | **The weekly PDF dispatch**, one per league per week, written from the same numbers as the Almanac plus the full history. Each issue's copy is in `src/` beside it; the `almanac-dispatch` Claude skill makes them. |
 | `deprecated/almanac-original.html` | The Almanac before the redesign, kept for reference. |
 | `deprecated/index.html` | An earlier Almanac version, kept for reference. |
 
@@ -34,6 +35,25 @@ python3 -m http.server        # then open http://localhost:8000/
 
 In VS Code, the Live Server or Live Preview extension works too. On GitHub Pages everything works
 as is.
+
+## Calculations and tests
+
+Every number the Almanac computes (records, all-play, luck, power, odds, the matchup of the week, coach
+ratings, head-to-head, MVPs, moves) lives in `lib/almanac-core.js`. index.html loads it with a plain
+`<script src>`, so it must be committed alongside index.html; there is still no build step. The PDF
+dispatch runs the same file in Node, so the site and the PDF can't disagree. Change a calculation there,
+not in index.html, and cover it in `tests/almanac-core.test.js`.
+
+`AlmanacCore.canary` is the same code with the proposed settings (`MODELS.canary` at the top of the file).
+The 🐤 Canary model switch in the page header, or `&model=canary` in the link, shows it, with a Canary vs live
+tab comparing the two. To promote it, swap the settings in `MODELS.live`. `docs/almanac-audit.md` has the
+backtest behind it.
+
+
+```
+npm install       # once: installs Vitest (dev only; GitHub Pages never sees node_modules)
+npm test
+```
 
 ## Weekly and yearly upkeep
 
