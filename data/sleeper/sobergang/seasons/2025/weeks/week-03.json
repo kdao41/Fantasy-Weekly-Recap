@@ -1,0 +1,270 @@
+{
+ "season": 2025,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Fly cant mosquito ",
+     "manager": "keveezy",
+     "points": 105.92,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "dexclusive",
+     "manager": "dexclusive",
+     "points": 112.28,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "dexclusive"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Honeymoon Fund 2026",
+     "manager": "anth0nyng",
+     "points": 117.72,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "JJ & the AFC",
+     "manager": "lmphm",
+     "points": 95.12,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Pickens Noses Diggs Asses",
+     "manager": "donblood",
+     "points": 103.66,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "yckyb",
+     "manager": "yckyb",
+     "points": 113.02,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "yckyb"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "LANK",
+     "manager": "Abadahh",
+     "points": 94.1,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 123.72,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Tuten and bootin",
+     "manager": "jasonle",
+     "points": 127.94,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "jigri",
+     "manager": "jigri",
+     "points": 143.62,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "jigri"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "jigri",
+   "team": "jigri",
+   "points": 143.62
+  },
+  "low_score": {
+   "manager": "Abadahh",
+   "team": "LANK",
+   "points": 94.1
+  },
+  "closest_game": {
+   "winner": "dexclusive",
+   "winner_points": 112.28,
+   "loser": "keveezy",
+   "loser_points": 105.92,
+   "margin": 6.36
+  },
+  "biggest_blowout": {
+   "winner": "PutItOnYa",
+   "winner_points": 123.72,
+   "loser": "Abadahh",
+   "loser_points": 94.1,
+   "margin": 29.62
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "jigri",
+   "team": "jigri",
+   "record": "3-0",
+   "points_for": 410.68,
+   "points_against": 361.54,
+   "streak": "W3",
+   "week_points": 143.62,
+   "week_result": "W",
+   "opponent": "jasonle"
+  },
+  {
+   "rank": 2,
+   "manager": "yckyb",
+   "team": "yckyb",
+   "record": "3-0",
+   "points_for": 398.14,
+   "points_against": 338.56,
+   "streak": "W3",
+   "week_points": 113.02,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 3,
+   "manager": "jasonle",
+   "team": "Tuten and bootin",
+   "record": "2-1",
+   "points_for": 387.06,
+   "points_against": 349.08,
+   "streak": "L1",
+   "week_points": 127.94,
+   "week_result": "L",
+   "opponent": "jigri"
+  },
+  {
+   "rank": 4,
+   "manager": "anth0nyng",
+   "team": "Honeymoon Fund 2026",
+   "record": "2-1",
+   "points_for": 384.0,
+   "points_against": 335.76,
+   "streak": "W1",
+   "week_points": 117.72,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 5,
+   "manager": "dexclusive",
+   "team": "dexclusive",
+   "record": "2-1",
+   "points_for": 352.64,
+   "points_against": 371.22,
+   "streak": "W2",
+   "week_points": 112.28,
+   "week_result": "W",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 6,
+   "manager": "PutItOnYa",
+   "team": "PutItOnYa",
+   "record": "1-2",
+   "points_for": 360.92,
+   "points_against": 369.78,
+   "streak": "W1",
+   "week_points": 123.72,
+   "week_result": "W",
+   "opponent": "Abadahh"
+  },
+  {
+   "rank": 7,
+   "manager": "keveezy",
+   "team": "Fly cant mosquito ",
+   "record": "1-2",
+   "points_for": 308.4,
+   "points_against": 337.98,
+   "streak": "L1",
+   "week_points": 105.92,
+   "week_result": "L",
+   "opponent": "dexclusive"
+  },
+  {
+   "rank": 8,
+   "manager": "lmphm",
+   "team": "JJ & the AFC",
+   "record": "1-2",
+   "points_for": 293.6,
+   "points_against": 313.48,
+   "streak": "L2",
+   "week_points": 95.12,
+   "week_result": "L",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 9,
+   "manager": "donblood",
+   "team": "Pickens Noses Diggs Asses",
+   "record": "0-3",
+   "points_for": 317.76,
+   "points_against": 357.54,
+   "streak": "L3",
+   "week_points": 103.66,
+   "week_result": "L",
+   "opponent": "yckyb"
+  },
+  {
+   "rank": 10,
+   "manager": "Abadahh",
+   "team": "LANK",
+   "record": "0-3",
+   "points_for": 295.96,
+   "points_against": 374.22,
+   "streak": "L3",
+   "week_points": 94.1,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  }
+ ]
+}

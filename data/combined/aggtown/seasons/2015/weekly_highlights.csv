@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2015,1,False,donblood,159.92,keveezy,99.42,bvincenttt over --hidden-- by 3.82,anth0nyng over ramzz by 24.74
+2015,2,False,lmphm,153.6,anth0nyng,100.04,donblood over ramzz by 0.44,lmphm over Odeh1121 by 45.46
+2015,3,False,ramzz,191.0,bvincenttt,92.58,--hidden-- over keveezy by 10.2,lmphm over bvincenttt by 55.56
+2015,4,False,jimbo817,144.86,bvincenttt,77.16,Odeh1121 over donblood by 8.98,anth0nyng over bvincenttt by 46.22
+2015,5,False,lmphm,153.6,keveezy,81.56,Odeh1121 over jimbo817 by 1.5,anth0nyng over keveezy by 52.66
+2015,6,False,anth0nyng,158.04,Odeh1121,87.0,bvincenttt over jimbo817 by 0.52,ramzz over Odeh1121 by 51.78
+2015,7,False,wabaki (Lan Doan),175.98,bvincenttt,74.18,keveezy over jimbo817 by 1.26,ramzz over bvincenttt by 72.02
+2015,8,False,lmphm,164.94,--hidden--,95.14,wabaki (Lan Doan) over bvincenttt by 12.28,lmphm over jimbo817 by 62.06
+2015,9,False,donblood,183.36,keveezy,89.62,anth0nyng over jimbo817 by 4.42,donblood over --hidden-- by 57.84
+2015,10,False,donblood,141.86,wabaki (Lan Doan),92.88,keveezy over Odeh1121 by 2.28,donblood over jimbo817 by 48.34
+2015,11,False,keveezy,143.2,lmphm,67.22,ramzz over donblood by 0.76,keveezy over bvincenttt by 66.94
+2015,12,False,anth0nyng,187.9,bvincenttt,81.54,wabaki (Lan Doan) over donblood by 0.42,anth0nyng over Odeh1121 by 64.0
+2015,13,False,ramzz,175.48,wabaki (Lan Doan),95.2,keveezy over lmphm by 0.02,ramzz over --hidden-- by 65.8
+2015,14,True,anth0nyng,152.48,keveezy,80.62,ramzz over --hidden-- by 8.62,anth0nyng over keveezy by 71.86
+2015,15,True,ramzz,182.0,lmphm,95.56,Odeh1121 over anth0nyng by 7.6,ramzz over donblood by 32.92
+2015,16,True,wabaki (Lan Doan),163.24,keveezy,73.06,anth0nyng over donblood by 16.32,wabaki (Lan Doan) over keveezy by 90.18

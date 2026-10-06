@@ -1,0 +1,157 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2019,1,1,Anthony,Prince of Mahomes,1-0,170.72,105.22,W1,170.72,W,Daniel Vu
+2019,1,2,Ramzi,Chubby Johnson,1-0,156.4,118.3,W1,156.4,W,Ahmad
+2019,1,3,Don,Lights Kamara ACTION,1-0,152.94,132.1,W1,152.94,W,Blake
+2019,1,4,Jimmy,Run CMC,1-0,133.2,114.62,W1,133.2,W,Kevin D
+2019,1,5,Cody,oOo Cody,1-0,106.46,102.2,W1,106.46,W,mrlampham
+2019,1,6,Khoa,King Goffrey,1-0,105.04,94.82,W1,105.04,W,Alex
+2019,1,7,Blake,Shake n Blake,0-1,132.1,152.94,L1,132.1,L,Don
+2019,1,8,Ahmad,Hide and Zeke,0-1,118.3,156.4,L1,118.3,L,Ramzi
+2019,1,9,Kevin D,Loading FAILED.,0-1,114.62,133.2,L1,114.62,L,Jimmy
+2019,1,10,Daniel Vu,GOD TIER,0-1,105.22,170.72,L1,105.22,L,Anthony
+2019,1,11,mrlampham,Vegas,0-1,102.2,106.46,L1,102.2,L,Cody
+2019,1,12,Alex,Saquanda Forever!,0-1,94.82,105.04,L1,94.82,L,Khoa
+2019,2,1,Anthony,Prince of Mahomes,2-0,306.24,207.38,W2,135.52,W,Ahmad
+2019,2,2,Ramzi,Chubby Johnson,2-0,284.16,225.72,W2,127.76,W,Khoa
+2019,2,3,Jimmy,Run CMC,2-0,255.88,202.54,W2,122.68,W,Blake
+2019,2,4,Kevin D,Loading FAILED.,1-1,281.98,210.2,W1,167.36,W,mrlampham
+2019,2,5,Don,Lights Kamara ACTION,1-1,235.7,260.64,L1,82.76,L,Alex
+2019,2,6,Daniel Vu,GOD TIER,1-1,233.24,295.52,W1,128.02,W,Cody
+2019,2,7,Cody,oOo Cody,1-1,231.26,230.22,L1,124.8,L,Daniel Vu
+2019,2,8,Alex,Saquanda Forever!,1-1,223.36,187.8,W1,128.54,W,Don
+2019,2,9,Khoa,King Goffrey,1-1,212.46,222.58,L1,107.42,L,Ramzi
+2019,2,10,Ahmad,Hide and Zeke,0-2,220.46,291.92,L2,102.16,L,Anthony
+2019,2,11,Blake,Shake n Blake,0-2,220.02,275.62,L2,87.92,L,Jimmy
+2019,2,12,mrlampham,Vegas,0-2,179.2,273.82,L2,77.0,L,Kevin D
+2019,3,1,Anthony,Prince of Mahomes,3-0,472.5,310.7,W3,166.26,W,Khoa
+2019,3,2,Don,Lights Kamara ACTION,2-1,433.24,392.08,W1,197.54,W,Ramzi
+2019,3,3,Ramzi,Chubby Johnson,2-1,415.6,423.26,L1,131.44,L,Don
+2019,3,4,Kevin D,Loading FAILED.,2-1,382.08,295.48,W2,100.1,W,Blake
+2019,3,5,Daniel Vu,GOD TIER,2-1,381.36,416.08,W2,148.12,W,mrlampham
+2019,3,6,Jimmy,Run CMC,2-1,373.36,326.76,L1,117.48,L,Alex
+2019,3,7,Alex,Saquanda Forever!,2-1,347.58,305.28,W2,124.22,W,Jimmy
+2019,3,8,Cody,oOo Cody,1-2,364.12,368.36,L2,132.86,L,Ahmad
+2019,3,9,Ahmad,Hide and Zeke,1-2,358.6,424.78,W1,138.14,W,Cody
+2019,3,10,Khoa,King Goffrey,1-2,315.78,388.84,L2,103.32,L,Anthony
+2019,3,11,Blake,Shake n Blake,0-3,305.3,375.72,L3,85.28,L,Kevin D
+2019,3,12,mrlampham,Vegas,0-3,299.76,421.94,L3,120.56,L,Daniel Vu
+2019,4,1,Anthony,Prince of Mahomes,4-0,601.3,432.6,W4,128.8,W,Don
+2019,4,2,Ramzi,Chubby Johnson,3-1,585.9,578.16,W1,170.3,W,Jimmy
+2019,4,3,Daniel Vu,GOD TIER,3-1,529.96,519.56,W3,148.6,W,Kevin D
+2019,4,4,Alex,Saquanda Forever!,3-1,454.88,399.56,W3,107.3,W,Blake
+2019,4,5,Don,Lights Kamara ACTION,2-2,555.14,520.88,L1,121.9,L,Anthony
+2019,4,6,Jimmy,Run CMC,2-2,528.26,497.06,L2,154.9,L,Ramzi
+2019,4,7,Kevin D,Loading FAILED.,2-2,485.56,444.08,L1,103.48,L,Daniel Vu
+2019,4,8,Khoa,King Goffrey,2-2,453.06,493.02,W1,137.28,W,Cody
+2019,4,9,Cody,oOo Cody,1-3,468.3,505.64,L3,104.18,L,Khoa
+2019,4,10,Ahmad,Hide and Zeke,1-3,433.02,524.32,L1,74.42,L,mrlampham
+2019,4,11,mrlampham,Vegas,1-3,399.3,496.36,W1,99.54,W,Ahmad
+2019,4,12,Blake,Shake n Blake,0-4,399.58,483.02,L4,94.28,L,Alex
+2019,5,1,Anthony,Prince of Mahomes,5-0,765.64,572.84,W5,164.34,W,Jimmy
+2019,5,2,Ramzi,Chubby Johnson,4-1,787.74,686.3,W2,201.84,W,Blake
+2019,5,3,Daniel Vu,GOD TIER,3-2,642.6,639.68,L1,112.64,L,Ahmad
+2019,5,4,Kevin D,Loading FAILED.,3-2,614.78,562.14,W1,129.22,W,Alex
+2019,5,5,Alex,Saquanda Forever!,3-2,572.94,528.78,L1,118.06,L,Kevin D
+2019,5,6,Jimmy,Run CMC,2-3,668.5,661.4,L3,140.24,L,Anthony
+2019,5,7,Don,Lights Kamara ACTION,2-3,663.58,657.78,L2,108.44,L,Cody
+2019,5,8,Cody,oOo Cody,2-3,605.2,614.08,W1,136.9,W,Don
+2019,5,9,Khoa,King Goffrey,2-3,573.56,640.38,L1,120.5,L,mrlampham
+2019,5,10,Ahmad,Hide and Zeke,2-3,553.14,636.96,W1,120.12,W,Daniel Vu
+2019,5,11,mrlampham,Vegas,2-3,546.66,616.86,W2,147.36,W,Khoa
+2019,5,12,Blake,Shake n Blake,0-5,507.72,684.86,L5,108.14,L,Ramzi
+2019,6,1,Ramzi,Chubby Johnson,5-1,966.74,824.84,W3,179.0,W,Alex
+2019,6,2,Anthony,Prince of Mahomes,5-1,872.16,718.06,L1,106.52,L,Blake
+2019,6,3,Daniel Vu,GOD TIER,4-2,743.7,722.8,W1,101.1,W,Khoa
+2019,6,4,Kevin D,Loading FAILED.,4-2,730.2,671.06,W2,115.42,W,Ahmad
+2019,6,5,Jimmy,Run CMC,3-3,807.0,789.64,W1,138.5,W,Cody
+2019,6,6,Alex,Saquanda Forever!,3-3,711.48,707.78,L2,138.54,L,Ramzi
+2019,6,7,mrlampham,Vegas,3-3,672.58,720.62,W3,125.92,W,Don
+2019,6,8,Don,Lights Kamara ACTION,2-4,767.34,783.7,L3,103.76,L,mrlampham
+2019,6,9,Cody,oOo Cody,2-4,733.44,752.58,L1,128.24,L,Jimmy
+2019,6,10,Ahmad,Hide and Zeke,2-4,662.06,752.38,L1,108.92,L,Kevin D
+2019,6,11,Khoa,King Goffrey,2-4,656.68,741.48,L2,83.12,L,Daniel Vu
+2019,6,12,Blake,Shake n Blake,1-5,652.94,791.38,W1,145.22,W,Anthony
+2019,7,1,Anthony,Prince of Mahomes,6-1,1006.1,821.0,W1,133.94,W,Alex
+2019,7,2,Ramzi,Chubby Johnson,5-2,1074.76,973.1,L1,108.02,L,Kevin D
+2019,7,3,Kevin D,Loading FAILED.,5-2,878.46,779.08,W3,148.26,W,Ramzi
+2019,7,4,Daniel Vu,GOD TIER,5-2,851.48,816.36,W2,107.78,W,Don
+2019,7,5,mrlampham,Vegas,4-3,755.68,799.06,W4,83.1,W,Jimmy
+2019,7,6,Jimmy,Run CMC,3-4,885.44,872.74,L1,78.44,L,mrlampham
+2019,7,7,Alex,Saquanda Forever!,3-4,814.42,841.72,L3,102.94,L,Anthony
+2019,7,8,Ahmad,Hide and Zeke,3-4,804.22,841.1,W1,142.16,W,Khoa
+2019,7,9,Don,Lights Kamara ACTION,2-5,860.9,891.48,L4,93.56,L,Daniel Vu
+2019,7,10,Cody,oOo Cody,2-5,839.5,876.82,L2,106.06,L,Blake
+2019,7,11,Blake,Shake n Blake,2-5,777.18,897.44,W2,124.24,W,Cody
+2019,7,12,Khoa,King Goffrey,2-5,745.4,883.64,L3,88.72,L,Ahmad
+2019,8,1,Anthony,Prince of Mahomes,7-1,1150.2,950.46,W2,144.1,W,Ramzi
+2019,8,2,Daniel Vu,GOD TIER,6-2,1038.34,926.44,W3,186.86,W,Jimmy
+2019,8,3,Kevin D,Loading FAILED.,6-2,1035.46,905.56,W4,157.0,W,Khoa
+2019,8,4,Ramzi,Chubby Johnson,5-3,1204.22,1117.2,L2,129.46,L,Anthony
+2019,8,5,mrlampham,Vegas,4-4,864.84,918.48,L1,109.16,L,Blake
+2019,8,6,Don,Lights Kamara ACTION,3-5,1001.46,988.9,W1,140.56,W,Ahmad
+2019,8,7,Jimmy,Run CMC,3-5,995.52,1059.6,L2,110.08,L,Daniel Vu
+2019,8,8,Cody,oOo Cody,3-5,974.38,977.02,W1,134.88,W,Alex
+2019,8,9,Alex,Saquanda Forever!,3-5,914.62,976.6,L4,100.2,L,Cody
+2019,8,10,Ahmad,Hide and Zeke,3-5,901.64,981.66,L1,97.42,L,Don
+2019,8,11,Blake,Shake n Blake,3-5,896.6,1006.6,W3,119.42,W,mrlampham
+2019,8,12,Khoa,King Goffrey,2-6,871.88,1040.64,L4,126.48,L,Kevin D
+2019,9,1,Anthony,Prince of Mahomes,8-1,1250.3,1049.9,W3,100.1,W,Kevin D
+2019,9,2,Daniel Vu,GOD TIER,7-2,1155.24,1043.32,W4,116.9,W,Blake
+2019,9,3,Kevin D,Loading FAILED.,6-3,1134.9,1005.66,L1,99.44,L,Anthony
+2019,9,4,Ramzi,Chubby Johnson,5-4,1337.06,1268.04,L3,132.84,L,Cody
+2019,9,5,Jimmy,Run CMC,4-5,1180.54,1197.98,W1,185.02,W,Ahmad
+2019,9,6,Cody,oOo Cody,4-5,1125.22,1109.86,W2,150.84,W,Ramzi
+2019,9,7,Don,Lights Kamara ACTION,4-5,1123.16,1099.86,W2,121.7,W,Khoa
+2019,9,8,Alex,Saquanda Forever!,4-5,1020.58,1058.5,W1,105.96,W,mrlampham
+2019,9,9,mrlampham,Vegas,4-5,946.74,1024.44,L2,81.9,L,Alex
+2019,9,10,Ahmad,Hide and Zeke,3-6,1040.02,1166.68,L2,138.38,L,Jimmy
+2019,9,11,Blake,Shake n Blake,3-6,1013.48,1123.5,L1,116.88,L,Daniel Vu
+2019,9,12,Khoa,King Goffrey,2-7,982.84,1162.34,L5,110.96,L,Don
+2019,10,1,Anthony,Prince of Mahomes,9-1,1410.34,1198.58,W4,160.04,W,Cody
+2019,10,2,Daniel Vu,GOD TIER,7-3,1239.08,1168.88,L1,83.84,L,Alex
+2019,10,3,Ramzi,Chubby Johnson,6-4,1438.1,1343.76,W1,101.04,W,mrlampham
+2019,10,4,Kevin D,Loading FAILED.,6-4,1247.52,1123.94,L2,112.62,L,Don
+2019,10,5,Don,Lights Kamara ACTION,5-5,1241.44,1212.48,W3,118.28,W,Kevin D
+2019,10,6,Alex,Saquanda Forever!,5-5,1146.14,1142.34,W2,125.56,W,Daniel Vu
+2019,10,7,Jimmy,Run CMC,4-6,1312.16,1336.2,L1,131.62,L,Khoa
+2019,10,8,Cody,oOo Cody,4-6,1273.9,1269.9,L1,148.68,L,Anthony
+2019,10,9,Blake,Shake n Blake,4-6,1165.36,1232.88,W1,151.88,W,Ahmad
+2019,10,10,mrlampham,Vegas,4-6,1022.46,1125.48,L3,75.72,L,Ramzi
+2019,10,11,Ahmad,Hide and Zeke,3-7,1149.4,1318.56,L3,109.38,L,Blake
+2019,10,12,Khoa,King Goffrey,3-7,1121.06,1293.96,W1,138.22,W,Jimmy
+2019,11,1,Anthony,Prince of Mahomes,10-1,1515.52,1294.4,W5,105.18,W,mrlampham
+2019,11,2,Daniel Vu,GOD TIER,8-3,1377.72,1244.94,W1,138.64,W,Ramzi
+2019,11,3,Kevin D,Loading FAILED.,7-4,1377.9,1205.0,W1,130.38,W,Cody
+2019,11,4,Ramzi,Chubby Johnson,6-5,1514.16,1482.4,L1,76.06,L,Daniel Vu
+2019,11,5,Alex,Saquanda Forever!,6-5,1270.14,1254.0,W3,124.0,W,Ahmad
+2019,11,6,Jimmy,Run CMC,5-6,1464.94,1450.84,W1,152.78,W,Don
+2019,11,7,Don,Lights Kamara ACTION,5-6,1356.08,1365.26,L1,114.64,L,Jimmy
+2019,11,8,Blake,Shake n Blake,5-6,1278.08,1342.4,W2,112.72,W,Khoa
+2019,11,9,Cody,oOo Cody,4-7,1354.96,1400.28,L2,81.06,L,Kevin D
+2019,11,10,mrlampham,Vegas,4-7,1118.28,1230.66,L4,95.82,L,Anthony
+2019,11,11,Ahmad,Hide and Zeke,3-8,1261.06,1442.56,L4,111.66,L,Alex
+2019,11,12,Khoa,King Goffrey,3-8,1230.58,1406.68,L1,109.52,L,Blake
+2019,12,1,Anthony,Prince of Mahomes,11-1,1609.08,1374.58,W6,93.56,W,Daniel Vu
+2019,12,2,Daniel Vu,GOD TIER,8-4,1457.9,1338.5,L1,80.18,L,Anthony
+2019,12,3,Ramzi,Chubby Johnson,7-5,1675.38,1564.88,W1,161.22,W,Ahmad
+2019,12,4,Kevin D,Loading FAILED.,7-5,1450.96,1427.66,L1,73.06,L,Jimmy
+2019,12,5,Jimmy,Run CMC,6-6,1687.6,1523.9,W2,222.66,W,Kevin D
+2019,12,6,Don,Lights Kamara ACTION,6-6,1485.98,1484.1,W1,129.9,W,Blake
+2019,12,7,Alex,Saquanda Forever!,6-6,1372.64,1385.98,L1,102.5,L,Khoa
+2019,12,8,Blake,Shake n Blake,5-7,1396.92,1472.3,L1,118.84,L,Don
+2019,12,9,mrlampham,Vegas,5-7,1201.9,1311.2,W1,83.62,W,Cody
+2019,12,10,Cody,oOo Cody,4-8,1435.5,1483.9,L3,80.54,L,mrlampham
+2019,12,11,Khoa,King Goffrey,4-8,1362.56,1509.18,W1,131.98,W,Alex
+2019,12,12,Ahmad,Hide and Zeke,3-9,1343.54,1603.78,L5,82.48,L,Ramzi
+2019,13,1,Anthony,Prince of Mahomes,11-2,1719.98,1508.28,L1,110.9,L,Ahmad
+2019,13,2,Daniel Vu,GOD TIER,8-5,1554.62,1467.68,L2,96.72,L,Cody
+2019,13,3,Kevin D,Loading FAILED.,8-5,1546.58,1505.38,W1,95.62,W,mrlampham
+2019,13,4,Jimmy,Run CMC,7-6,1799.7,1612.3,W3,112.1,W,Blake
+2019,13,5,Ramzi,Chubby Johnson,7-6,1789.24,1713.74,L1,113.86,L,Khoa
+2019,13,6,Don,Lights Kamara ACTION,7-6,1652.32,1581.18,W2,166.34,W,Alex
+2019,13,7,Alex,Saquanda Forever!,6-7,1469.72,1552.32,L2,97.08,L,Don
+2019,13,8,Cody,oOo Cody,5-8,1564.68,1580.62,W1,129.18,W,Daniel Vu
+2019,13,9,Khoa,King Goffrey,5-8,1511.42,1623.04,W2,148.86,W,Ramzi
+2019,13,10,Blake,Shake n Blake,5-8,1485.32,1584.4,L2,88.4,L,Jimmy
+2019,13,11,mrlampham,Vegas,5-8,1279.62,1406.82,L1,77.72,L,Kevin D
+2019,13,12,Ahmad,Hide and Zeke,4-9,1477.24,1714.68,W1,133.7,W,Anthony

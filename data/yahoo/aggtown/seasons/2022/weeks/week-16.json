@@ -1,0 +1,171 @@
+{
+ "season": 2022,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Wolf of Waller Street",
+     "manager": "Don",
+     "points": 75.06,
+     "projected": 115.11,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+     "manager": "Alex",
+     "points": 110.0,
+     "projected": 123.24,
+     "won": true
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Aaron Earned an Iron Urn",
+     "manager": "Jimmy",
+     "points": 132.7,
+     "projected": 113.77,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 124.24,
+     "projected": 123.2,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "The Adam's Family",
+     "manager": "Ahmad",
+     "points": 132.2,
+     "projected": 117.46,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 106.28,
+     "projected": 112.89,
+     "won": false
+    }
+   ],
+   "winner": "Ahmad"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Cancun Booking Agency",
+     "manager": "Khoa",
+     "points": 98.76,
+     "projected": 122.04,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "KissMahomies",
+     "manager": "Muso (Lan Doan)",
+     "points": 106.66,
+     "projected": 117.48,
+     "won": true
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "King Koopa",
+     "manager": "Ramzi",
+     "points": 135.3,
+     "projected": 115.84,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+     "manager": "Kevin D",
+     "points": 121.4,
+     "projected": 121.38,
+     "won": false
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 113.86,
+     "projected": 112.83,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 95.62,
+     "projected": 125.5,
+     "won": false
+    }
+   ],
+   "winner": "Blake"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Ramzi",
+   "team": "King Koopa",
+   "points": 135.3
+  },
+  "low_score": {
+   "manager": "Don",
+   "team": "Wolf of Waller Street",
+   "points": 75.06
+  },
+  "closest_game": {
+   "winner": "Muso (Lan Doan)",
+   "winner_points": 106.66,
+   "loser": "Khoa",
+   "loser_points": 98.76,
+   "margin": 7.9
+  },
+  "biggest_blowout": {
+   "winner": "Alex",
+   "winner_points": 110.0,
+   "loser": "Don",
+   "loser_points": 75.06,
+   "margin": 34.94
+  }
+ }
+}

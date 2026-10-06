@@ -1,0 +1,79 @@
+{
+ "season": 2023,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Ra-Dogged",
+     "manager": "keveezy",
+     "points": 133.46,
+     "projected": 118.5,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "y c k y",
+     "manager": "yckyb",
+     "points": 115.18,
+     "projected": 123.82,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Waddleburger Pattymelt",
+     "manager": "donblood",
+     "points": 139.0,
+     "projected": 119.38,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "Dex",
+     "manager": "dexclusive",
+     "points": 102.26,
+     "projected": 115.39,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "donblood",
+   "team": "Waddleburger Pattymelt",
+   "points": 139.0
+  },
+  "low_score": {
+   "manager": "dexclusive",
+   "team": "Dex",
+   "points": 102.26
+  },
+  "closest_game": {
+   "winner": "keveezy",
+   "winner_points": 133.46,
+   "loser": "yckyb",
+   "loser_points": 115.18,
+   "margin": 18.28
+  },
+  "biggest_blowout": {
+   "winner": "donblood",
+   "winner_points": 139.0,
+   "loser": "dexclusive",
+   "loser_points": 102.26,
+   "margin": 36.74
+  }
+ }
+}

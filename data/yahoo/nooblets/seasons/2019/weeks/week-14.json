@@ -1,0 +1,79 @@
+{
+ "season": 2019,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "TheYayThatGotAway",
+     "manager": "Alex",
+     "points": 141.96,
+     "projected": 128.8,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 98.0,
+     "projected": 121.35,
+     "won": false
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Jigs",
+     "manager": "Justin",
+     "points": 105.1,
+     "projected": 124.85,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Is This Chris Lake?",
+     "manager": "Jason",
+     "points": 114.3,
+     "projected": 127.97,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Alex",
+   "team": "TheYayThatGotAway",
+   "points": 141.96
+  },
+  "low_score": {
+   "manager": "Anthony",
+   "team": "Princess Jelly",
+   "points": 98.0
+  },
+  "closest_game": {
+   "winner": "Jason",
+   "winner_points": 114.3,
+   "loser": "Justin",
+   "loser_points": 105.1,
+   "margin": 9.2
+  },
+  "biggest_blowout": {
+   "winner": "Alex",
+   "winner_points": 141.96,
+   "loser": "Anthony",
+   "loser_points": 98.0,
+   "margin": 43.96
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+ "season": 2019,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Champ is here",
+     "manager": "keveezy",
+     "points": 167.28,
+     "projected": 134.69,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Is This Chris Lake?",
+     "manager": "jasonle",
+     "points": 147.36,
+     "projected": 127.49,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "TheYayThatGotAway",
+     "manager": "PutItOnYa",
+     "points": 135.98,
+     "projected": 130.26,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "HOUSE YCK",
+     "manager": "yckyb",
+     "points": 146.32,
+     "projected": 140.89,
+     "won": true
+    }
+   ],
+   "winner": "yckyb"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Houston drivers",
+     "manager": "lmphm",
+     "points": 80.06,
+     "projected": 118.04,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Poopoo Philly Co. \ud83c\udf2f",
+     "manager": "donblood",
+     "points": 135.2,
+     "projected": 127.41,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Jigs",
+     "manager": "jigri",
+     "points": 123.58,
+     "projected": 119.38,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 133.64,
+     "projected": 126.8,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "FREE WIN",
+     "manager": "dexclusive",
+     "points": 109.78,
+     "projected": 107.92,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Wtf am I doing here",
+     "manager": "Abadahh",
+     "points": 119.36,
+     "projected": 124.96,
+     "won": true
+    }
+   ],
+   "winner": "Abadahh"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "keveezy",
+   "team": "Champ is here",
+   "points": 167.28
+  },
+  "low_score": {
+   "manager": "lmphm",
+   "team": "Houston drivers",
+   "points": 80.06
+  },
+  "closest_game": {
+   "winner": "Abadahh",
+   "winner_points": 119.36,
+   "loser": "dexclusive",
+   "loser_points": 109.78,
+   "margin": 9.58
+  },
+  "biggest_blowout": {
+   "winner": "donblood",
+   "winner_points": 135.2,
+   "loser": "lmphm",
+   "loser_points": 80.06,
+   "margin": 55.14
+  }
+ }
+}

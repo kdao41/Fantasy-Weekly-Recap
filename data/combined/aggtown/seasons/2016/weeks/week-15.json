@@ -1,0 +1,125 @@
+{
+ "season": 2016,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Daks Out for Harambe",
+     "manager": "donblood",
+     "points": 107.34,
+     "projected": 122.76,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Gordon Ramzi",
+     "manager": "ramzz",
+     "points": 105.54,
+     "projected": 115.9,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Harambe's Ghost",
+     "manager": "Odeh1121",
+     "points": 93.24,
+     "projected": 114.16,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "The Nick Folks",
+     "manager": "anth0nyng",
+     "points": 110.36,
+     "projected": 119.04,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Ding Ding Sauce",
+     "manager": "jimbo817",
+     "points": 86.7,
+     "projected": 130.19,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "AnyHolesTheGoal",
+     "manager": "keveezy",
+     "points": 126.18,
+     "projected": 111.83,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 130.9,
+     "projected": 120.47,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 137.92,
+     "projected": 133.16,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "lmphm",
+   "team": "Vegas",
+   "points": 137.92
+  },
+  "low_score": {
+   "manager": "jimbo817",
+   "team": "Ding Ding Sauce",
+   "points": 86.7
+  },
+  "closest_game": {
+   "winner": "donblood",
+   "winner_points": 107.34,
+   "loser": "ramzz",
+   "loser_points": 105.54,
+   "margin": 1.8
+  },
+  "biggest_blowout": {
+   "winner": "keveezy",
+   "winner_points": 126.18,
+   "loser": "jimbo817",
+   "loser_points": 86.7,
+   "margin": 39.48
+  }
+ }
+}

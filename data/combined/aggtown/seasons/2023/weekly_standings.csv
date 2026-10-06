@@ -1,0 +1,169 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2023,1,1,lmphm,Vegas,1-0,149.44,84.4,W1,149.44,W,donblood
+2023,1,2,kholabear,Cancun Tours,1-0,130.06,113.14,W1,130.06,W,anth0nyng
+2023,1,3,bvincenttt,Shake 'n Blake ,1-0,128.94,92.66,W1,128.94,W,ramzz
+2023,1,4,DVTV,JOVE DIRECTOR OF VIBEZ,1-0,102.62,90.68,W1,102.62,W,Odeh1121
+2023,1,5,PutItOnYa,PutItOnYa,1-0,96.46,93.86,W1,96.46,W,keveezy
+2023,1,6,oooEcho,ABCeeDee U Lost 2 Me,1-0,87.52,77.34,W1,87.52,W,jimbo817
+2023,1,7,anth0nyng,am i cursed? ,0-1,113.14,130.06,L1,113.14,L,kholabear
+2023,1,8,keveezy,Renegade renegade ,0-1,93.86,96.46,L1,93.86,L,PutItOnYa
+2023,1,9,ramzz,himzi,0-1,92.66,128.94,L1,92.66,L,bvincenttt
+2023,1,10,Odeh1121,Pukachu,0-1,90.68,102.62,L1,90.68,L,DVTV
+2023,1,11,donblood,Gibbs and Receive,0-1,84.4,149.44,L1,84.4,L,lmphm
+2023,1,12,jimbo817,Chase Mahomies,0-1,77.34,87.52,L1,77.34,L,oooEcho
+2023,2,1,bvincenttt,Shake 'n Blake ,2-0,246.58,208.76,W2,117.64,W,jimbo817
+2023,2,2,PutItOnYa,PutItOnYa,2-0,241.1,187.56,W2,144.64,W,kholabear
+2023,2,3,DVTV,JOVE DIRECTOR OF VIBEZ,2-0,225.44,195.22,W2,122.82,W,lmphm
+2023,2,4,lmphm,Vegas,1-1,253.98,207.22,L1,104.54,L,DVTV
+2023,2,5,keveezy,Renegade renegade ,1-1,248.64,225.22,W1,154.78,W,anth0nyng
+2023,2,6,ramzz,himzi,1-1,224.6,249.84,W1,131.94,W,oooEcho
+2023,2,7,kholabear,Cancun Tours,1-1,223.76,257.78,L1,93.7,L,PutItOnYa
+2023,2,8,donblood,Gibbs and Receive,1-1,213.92,241.62,W1,129.52,W,Odeh1121
+2023,2,9,oooEcho,ABCeeDee U Lost 2 Me,1-1,208.42,209.28,L1,120.9,L,ramzz
+2023,2,10,anth0nyng,am i cursed? ,0-2,241.9,284.84,L2,128.76,L,keveezy
+2023,2,11,jimbo817,Chase Mahomies,0-2,193.44,205.16,L2,116.1,L,bvincenttt
+2023,2,12,Odeh1121,Pukachu,0-2,182.86,232.14,L2,92.18,L,donblood
+2023,3,1,bvincenttt,Shake 'n Blake ,3-0,344.04,304.82,W3,97.46,W,oooEcho
+2023,3,2,PutItOnYa,PutItOnYa,2-1,364.52,335.28,L1,123.42,L,anth0nyng
+2023,3,3,DVTV,JOVE DIRECTOR OF VIBEZ,2-1,359.56,333.5,L1,134.12,L,donblood
+2023,3,4,kholabear,Cancun Tours,2-1,358.16,376.16,W1,134.4,W,keveezy
+2023,3,5,donblood,Gibbs and Receive,2-1,352.2,375.74,W2,138.28,W,DVTV
+2023,3,6,anth0nyng,am i cursed? ,1-2,389.62,408.26,W1,147.72,W,PutItOnYa
+2023,3,7,jimbo817,Chase Mahomies,1-2,371.92,341.86,W1,178.48,W,ramzz
+2023,3,8,keveezy,Renegade renegade ,1-2,367.02,359.62,L1,118.38,L,kholabear
+2023,3,9,ramzz,himzi,1-2,361.3,428.32,L1,136.7,L,jimbo817
+2023,3,10,lmphm,Vegas,1-2,349.24,324.08,L2,95.26,L,Odeh1121
+2023,3,11,oooEcho,ABCeeDee U Lost 2 Me,1-2,304.48,306.74,L2,96.06,L,bvincenttt
+2023,3,12,Odeh1121,Pukachu,1-2,299.72,327.4,W1,116.86,W,lmphm
+2023,4,1,bvincenttt,Shake 'n Blake ,4-0,528.42,429.82,W4,184.38,W,lmphm
+2023,4,2,PutItOnYa,PutItOnYa,3-1,514.3,421.0,W1,149.78,W,jimbo817
+2023,4,3,kholabear,Cancun Tours,3-1,480.14,476.86,W2,121.98,W,DVTV
+2023,4,4,donblood,Gibbs and Receive,3-1,446.76,466.36,W3,94.56,W,ramzz
+2023,4,5,DVTV,JOVE DIRECTOR OF VIBEZ,2-2,460.26,455.48,L2,100.7,L,kholabear
+2023,4,6,oooEcho,ABCeeDee U Lost 2 Me,2-2,432.44,422.88,W1,127.96,W,keveezy
+2023,4,7,Odeh1121,Pukachu,2-2,410.02,434.4,W2,110.3,W,anth0nyng
+2023,4,8,anth0nyng,am i cursed? ,1-3,496.62,518.56,L1,107.0,L,Odeh1121
+2023,4,9,keveezy,Renegade renegade ,1-3,483.16,487.58,L2,116.14,L,oooEcho
+2023,4,10,lmphm,Vegas,1-3,474.24,508.46,L3,125.0,L,bvincenttt
+2023,4,11,jimbo817,Chase Mahomies,1-3,457.64,491.64,L1,85.72,L,PutItOnYa
+2023,4,12,ramzz,himzi,1-3,451.92,522.88,L2,90.62,L,donblood
+2023,5,1,PutItOnYa,PutItOnYa,4-1,644.92,510.66,W2,130.62,W,oooEcho
+2023,5,2,bvincenttt,Shake 'n Blake ,4-1,617.18,558.44,L1,88.76,L,donblood
+2023,5,3,kholabear,Cancun Tours,4-1,602.18,595.94,W3,122.04,W,Odeh1121
+2023,5,4,donblood,Gibbs and Receive,4-1,575.38,555.12,W4,128.62,W,bvincenttt
+2023,5,5,anth0nyng,am i cursed? ,2-3,631.68,635.58,W1,135.06,W,DVTV
+2023,5,6,jimbo817,Chase Mahomies,2-3,619.68,590.06,W1,162.04,W,keveezy
+2023,5,7,lmphm,Vegas,2-3,595.22,608.94,W1,120.98,W,ramzz
+2023,5,8,DVTV,JOVE DIRECTOR OF VIBEZ,2-3,577.28,590.54,L3,117.02,L,anth0nyng
+2023,5,9,Odeh1121,Pukachu,2-3,529.1,556.44,L1,119.08,L,kholabear
+2023,5,10,oooEcho,ABCeeDee U Lost 2 Me,2-3,522.1,553.5,L1,89.66,L,PutItOnYa
+2023,5,11,keveezy,Renegade renegade ,1-4,581.58,649.62,L3,98.42,L,jimbo817
+2023,5,12,ramzz,himzi,1-4,552.4,643.86,L3,100.48,L,lmphm
+2023,6,1,PutItOnYa,PutItOnYa,5-1,766.06,613.68,W3,121.14,W,lmphm
+2023,6,2,kholabear,Cancun Tours,5-1,741.26,706.88,W4,139.08,W,jimbo817
+2023,6,3,donblood,Gibbs and Receive,5-1,664.68,635.84,W5,89.3,W,keveezy
+2023,6,4,bvincenttt,Shake 'n Blake ,4-2,723.72,702.88,L2,106.54,L,DVTV
+2023,6,5,DVTV,JOVE DIRECTOR OF VIBEZ,3-3,721.72,697.08,W1,144.44,W,bvincenttt
+2023,6,6,oooEcho,ABCeeDee U Lost 2 Me,3-3,639.64,645.66,W1,117.54,W,anth0nyng
+2023,6,7,Odeh1121,Pukachu,3-3,638.2,647.54,W1,109.1,W,ramzz
+2023,6,8,jimbo817,Chase Mahomies,2-4,730.62,729.14,L1,110.94,L,kholabear
+2023,6,9,anth0nyng,am i cursed? ,2-4,723.84,753.12,L1,92.16,L,oooEcho
+2023,6,10,lmphm,Vegas,2-4,698.24,730.08,L1,103.02,L,PutItOnYa
+2023,6,11,keveezy,Renegade renegade ,1-5,662.3,738.92,L4,80.72,L,donblood
+2023,6,12,ramzz,himzi,1-5,643.5,752.96,L4,91.1,L,Odeh1121
+2023,7,1,donblood,Gibbs and Receive,6-1,786.34,732.44,W6,121.66,W,PutItOnYa
+2023,7,2,PutItOnYa,PutItOnYa,5-2,862.66,735.34,L1,96.6,L,donblood
+2023,7,3,kholabear,Cancun Tours,5-2,844.22,820.4,L1,102.96,L,oooEcho
+2023,7,4,DVTV,JOVE DIRECTOR OF VIBEZ,4-3,862.58,799.56,W2,140.86,W,ramzz
+2023,7,5,bvincenttt,Shake 'n Blake ,4-3,817.78,826.22,L3,94.06,L,Odeh1121
+2023,7,6,Odeh1121,Pukachu,4-3,761.54,741.6,W2,123.34,W,bvincenttt
+2023,7,7,oooEcho,ABCeeDee U Lost 2 Me,4-3,753.16,748.62,W2,113.52,W,kholabear
+2023,7,8,jimbo817,Chase Mahomies,3-4,893.38,866.74,W1,162.76,W,anth0nyng
+2023,7,9,lmphm,Vegas,3-4,833.8,852.66,W1,135.56,W,keveezy
+2023,7,10,anth0nyng,am i cursed? ,2-5,861.44,915.88,L2,137.6,L,jimbo817
+2023,7,11,keveezy,Renegade renegade ,1-6,784.88,874.48,L5,122.58,L,lmphm
+2023,7,12,ramzz,himzi,1-6,745.98,893.82,L5,102.48,L,DVTV
+2023,8,1,PutItOnYa,PutItOnYa,6-2,1017.76,842.52,W1,155.1,W,bvincenttt
+2023,8,2,donblood,Gibbs and Receive,6-2,922.3,876.0,L1,135.96,L,anth0nyng
+2023,8,3,kholabear,Cancun Tours,5-3,939.9,975.66,L2,95.68,L,lmphm
+2023,8,4,oooEcho,ABCeeDee U Lost 2 Me,5-3,916.72,850.94,W3,163.56,W,Odeh1121
+2023,8,5,jimbo817,Chase Mahomies,4-4,1008.78,970.36,W2,115.4,W,DVTV
+2023,8,6,lmphm,Vegas,4-4,989.06,948.34,W2,155.26,W,kholabear
+2023,8,7,DVTV,JOVE DIRECTOR OF VIBEZ,4-4,966.2,914.96,L1,103.62,L,jimbo817
+2023,8,8,bvincenttt,Shake 'n Blake ,4-4,924.96,981.32,L4,107.18,L,PutItOnYa
+2023,8,9,Odeh1121,Pukachu,4-4,863.86,905.16,L1,102.32,L,oooEcho
+2023,8,10,anth0nyng,am i cursed? ,3-5,1005.0,1051.84,W1,143.56,W,donblood
+2023,8,11,keveezy,Renegade renegade ,2-6,916.96,977.58,W1,132.08,W,ramzz
+2023,8,12,ramzz,himzi,1-7,849.08,1025.9,L6,103.1,L,keveezy
+2023,9,1,PutItOnYa,PutItOnYa,7-2,1162.96,928.92,W2,145.2,W,ramzz
+2023,9,2,kholabear,Cancun Tours,6-3,1087.34,1061.84,W1,147.44,W,donblood
+2023,9,3,oooEcho,ABCeeDee U Lost 2 Me,6-3,1010.42,931.32,W4,93.7,W,DVTV
+2023,9,4,donblood,Gibbs and Receive,6-3,1008.48,1023.44,L2,86.18,L,kholabear
+2023,9,5,bvincenttt,Shake 'n Blake ,5-4,1063.0,1106.0,W1,138.04,W,keveezy
+2023,9,6,Odeh1121,Pukachu,5-4,953.28,984.26,W1,89.42,W,jimbo817
+2023,9,7,anth0nyng,am i cursed? ,4-5,1120.62,1148.32,W2,115.62,W,lmphm
+2023,9,8,jimbo817,Chase Mahomies,4-5,1087.88,1059.78,L1,79.1,L,Odeh1121
+2023,9,9,lmphm,Vegas,4-5,1085.54,1063.96,L1,96.48,L,anth0nyng
+2023,9,10,DVTV,JOVE DIRECTOR OF VIBEZ,4-5,1046.58,1008.66,L2,80.38,L,oooEcho
+2023,9,11,keveezy,Renegade renegade ,2-7,1041.64,1115.62,L1,124.68,L,bvincenttt
+2023,9,12,ramzz,himzi,1-8,935.48,1171.1,L7,86.4,L,PutItOnYa
+2023,10,1,PutItOnYa,PutItOnYa,8-2,1295.98,1037.76,W3,133.02,W,DVTV
+2023,10,2,donblood,Gibbs and Receive,7-3,1129.98,1128.72,W1,121.5,W,oooEcho
+2023,10,3,bvincenttt,Shake 'n Blake ,6-4,1191.0,1209.22,W2,128.0,W,kholabear
+2023,10,4,kholabear,Cancun Tours,6-4,1190.56,1189.84,L1,103.22,L,bvincenttt
+2023,10,5,oooEcho,ABCeeDee U Lost 2 Me,6-4,1115.7,1052.82,L1,105.28,L,donblood
+2023,10,6,anth0nyng,am i cursed? ,5-5,1248.7,1265.36,W3,128.08,W,ramzz
+2023,10,7,lmphm,Vegas,5-5,1222.6,1170.72,W1,137.06,W,jimbo817
+2023,10,8,Odeh1121,Pukachu,5-5,1032.46,1128.48,L1,79.18,L,keveezy
+2023,10,9,jimbo817,Chase Mahomies,4-6,1194.64,1196.84,L2,106.76,L,lmphm
+2023,10,10,DVTV,JOVE DIRECTOR OF VIBEZ,4-6,1155.42,1141.68,L3,108.84,L,PutItOnYa
+2023,10,11,keveezy,Renegade renegade ,3-7,1185.86,1194.8,W1,144.22,W,Odeh1121
+2023,10,12,ramzz,himzi,1-9,1052.52,1299.18,L8,117.04,L,anth0nyng
+2023,11,1,PutItOnYa,PutItOnYa,8-3,1392.22,1148.5,L1,96.24,L,Odeh1121
+2023,11,2,donblood,Gibbs and Receive,8-3,1268.48,1226.3,W2,138.5,W,jimbo817
+2023,11,3,anth0nyng,am i cursed? ,6-5,1353.8,1367.54,W4,105.1,W,bvincenttt
+2023,11,4,lmphm,Vegas,6-5,1329.12,1274.46,W2,106.52,W,oooEcho
+2023,11,5,kholabear,Cancun Tours,6-5,1310.6,1335.26,L2,120.04,L,ramzz
+2023,11,6,bvincenttt,Shake 'n Blake ,6-5,1293.18,1314.32,L1,102.18,L,anth0nyng
+2023,11,7,oooEcho,ABCeeDee U Lost 2 Me,6-5,1219.44,1159.34,L2,103.74,L,lmphm
+2023,11,8,Odeh1121,Pukachu,6-5,1143.2,1224.72,W1,110.74,W,PutItOnYa
+2023,11,9,keveezy,Renegade renegade ,4-7,1320.62,1297.84,W2,134.76,W,DVTV
+2023,11,10,jimbo817,Chase Mahomies,4-7,1292.22,1335.34,L3,97.58,L,donblood
+2023,11,11,DVTV,JOVE DIRECTOR OF VIBEZ,4-7,1258.46,1276.44,L4,103.04,L,keveezy
+2023,11,12,ramzz,himzi,2-9,1197.94,1419.22,W1,145.42,W,kholabear
+2023,12,1,PutItOnYa,PutItOnYa,8-4,1516.22,1283.78,L2,124.0,L,keveezy
+2023,12,2,donblood,Gibbs and Receive,8-4,1398.28,1360.78,L1,129.8,L,lmphm
+2023,12,3,anth0nyng,am i cursed? ,7-5,1498.86,1498.42,W5,145.06,W,kholabear
+2023,12,4,lmphm,Vegas,7-5,1463.6,1404.26,W3,134.48,W,donblood
+2023,12,5,bvincenttt,Shake 'n Blake ,7-5,1425.34,1424.58,W1,132.16,W,ramzz
+2023,12,6,oooEcho,ABCeeDee U Lost 2 Me,7-5,1355.94,1244.96,W1,136.5,W,jimbo817
+2023,12,7,Odeh1121,Pukachu,7-5,1297.66,1331.58,W2,154.46,W,DVTV
+2023,12,8,kholabear,Cancun Tours,6-6,1441.48,1480.32,L3,130.88,L,anth0nyng
+2023,12,9,keveezy,Renegade renegade ,5-7,1455.9,1421.84,W3,135.28,W,PutItOnYa
+2023,12,10,jimbo817,Chase Mahomies,4-8,1377.84,1471.84,L4,85.62,L,oooEcho
+2023,12,11,DVTV,JOVE DIRECTOR OF VIBEZ,4-8,1365.32,1430.9,L5,106.86,L,Odeh1121
+2023,12,12,ramzz,himzi,2-10,1308.2,1551.38,L1,110.26,L,bvincenttt
+2023,13,1,PutItOnYa,PutItOnYa,9-4,1646.92,1363.8,W1,130.7,W,kholabear
+2023,13,2,anth0nyng,am i cursed? ,8-5,1675.22,1655.3,W6,176.36,W,keveezy
+2023,13,3,lmphm,Vegas,8-5,1609.66,1537.42,W4,146.06,W,DVTV
+2023,13,4,bvincenttt,Shake 'n Blake ,8-5,1547.16,1509.7,W2,121.82,W,jimbo817
+2023,13,5,donblood,Gibbs and Receive,8-5,1514.8,1505.04,L2,116.52,L,Odeh1121
+2023,13,6,Odeh1121,Pukachu,8-5,1441.92,1448.1,W3,144.26,W,donblood
+2023,13,7,oooEcho,ABCeeDee U Lost 2 Me,7-6,1485.92,1375.72,L1,129.98,L,ramzz
+2023,13,8,kholabear,Cancun Tours,6-7,1521.5,1611.02,L4,80.02,L,PutItOnYa
+2023,13,9,keveezy,Renegade renegade ,5-8,1612.78,1598.2,L1,156.88,L,anth0nyng
+2023,13,10,DVTV,JOVE DIRECTOR OF VIBEZ,4-9,1498.48,1576.96,L6,133.16,L,lmphm
+2023,13,11,jimbo817,Chase Mahomies,4-9,1462.96,1593.66,L5,85.12,L,bvincenttt
+2023,13,12,ramzz,himzi,3-10,1438.96,1681.36,W1,130.76,W,oooEcho
+2023,14,1,anth0nyng,am i cursed? ,9-5,1779.24,1717.52,W7,104.02,W,PutItOnYa
+2023,14,2,PutItOnYa,PutItOnYa,9-5,1709.14,1467.82,L1,62.22,L,anth0nyng
+2023,14,3,Odeh1121,Pukachu,9-5,1591.18,1581.82,W4,149.26,W,lmphm
+2023,14,4,lmphm,Vegas,8-6,1743.38,1686.68,L1,133.72,L,Odeh1121
+2023,14,5,bvincenttt,Shake 'n Blake ,8-6,1661.04,1624.1,L1,113.88,L,oooEcho
+2023,14,6,donblood,Gibbs and Receive,8-6,1647.4,1641.98,L3,132.6,L,DVTV
+2023,14,7,oooEcho,ABCeeDee U Lost 2 Me,8-6,1600.32,1489.6,W1,114.4,W,bvincenttt
+2023,14,8,keveezy,Renegade renegade ,6-8,1798.12,1663.14,W1,185.34,W,kholabear
+2023,14,9,kholabear,Cancun Tours,6-8,1586.44,1796.36,L5,64.94,L,keveezy
+2023,14,10,DVTV,JOVE DIRECTOR OF VIBEZ,5-9,1635.42,1709.56,W1,136.94,W,donblood
+2023,14,11,ramzz,himzi,4-10,1583.08,1740.4,W2,144.12,W,jimbo817
+2023,14,12,jimbo817,Chase Mahomies,4-10,1522.0,1737.78,L6,59.04,L,ramzz

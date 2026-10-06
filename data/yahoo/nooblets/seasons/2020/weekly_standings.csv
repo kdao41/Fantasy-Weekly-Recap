@@ -1,0 +1,131 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2020,1,1,An,Wtf am I doing here,1-0,152.5,129.58,W1,152.5,W,Anthony
+2020,1,2,Don,CeeDeez Nutz,1-0,152.24,85.68,W1,152.24,W,Jason
+2020,1,3,mrlampham,simp.,1-0,145.34,107.66,W1,145.34,W,Tommy
+2020,1,4,Kevin D,Champs to chumps,1-0,143.7,118.42,W1,143.7,W,Alex
+2020,1,5,Justin,Jigs,1-0,139.0,129.68,W1,139.0,W,Dexter
+2020,1,6,Dexter,FREE WIN,0-1,129.68,139.0,L1,129.68,L,Justin
+2020,1,7,Anthony,Princess Jelly,0-1,129.58,152.5,L1,129.58,L,An
+2020,1,8,Alex,Dry Szn,0-1,118.42,143.7,L1,118.42,L,Kevin D
+2020,1,9,Tommy,DYNAHMIGHHHH,0-1,107.66,145.34,L1,107.66,L,mrlampham
+2020,1,10,Jason,This was Chris Lake,0-1,85.68,152.24,L1,85.68,L,Don
+2020,2,1,Don,CeeDeez Nutz,2-0,333.24,187.68,W2,181.0,W,Alex
+2020,2,2,Justin,Jigs,2-0,292.86,261.96,W2,153.86,W,Kevin D
+2020,2,3,An,Wtf am I doing here,2-0,278.12,249.64,W2,125.62,W,Jason
+2020,2,4,Anthony,Princess Jelly,1-1,284.32,287.08,W1,154.74,W,mrlampham
+2020,2,5,Dexter,FREE WIN,1-1,283.9,268.54,W1,154.22,W,Tommy
+2020,2,6,mrlampham,simp.,1-1,279.92,262.4,L1,134.58,L,Anthony
+2020,2,7,Kevin D,Champs to chumps,1-1,275.98,272.28,L1,132.28,L,Justin
+2020,2,8,Tommy,DYNAHMIGHHHH,0-2,237.2,299.56,L2,129.54,L,Dexter
+2020,2,9,Alex,Dry Szn,0-2,220.42,324.7,L2,102.0,L,Don
+2020,2,10,Jason,This was Chris Lake,0-2,205.74,277.86,L2,120.06,L,An
+2020,3,1,Don,CeeDeez Nutz,3-0,474.22,319.0,W3,140.98,W,Kevin D
+2020,3,2,mrlampham,simp.,2-1,433.72,407.2,W1,153.8,W,Jason
+2020,3,3,Anthony,Princess Jelly,2-1,427.72,427.58,W2,143.4,W,Dexter
+2020,3,4,An,Wtf am I doing here,2-1,384.64,392.6,L1,106.52,L,Alex
+2020,3,5,Justin,Jigs,2-1,382.94,423.6,L1,90.08,L,Tommy
+2020,3,6,Dexter,FREE WIN,1-2,424.4,411.94,L1,140.5,L,Anthony
+2020,3,7,Kevin D,Champs to chumps,1-2,407.3,413.26,L2,131.32,L,Don
+2020,3,8,Tommy,DYNAHMIGHHHH,1-2,398.84,389.64,W1,161.64,W,Justin
+2020,3,9,Alex,Dry Szn,1-2,363.38,431.22,W1,142.96,W,An
+2020,3,10,Jason,This was Chris Lake,0-3,350.54,431.66,L3,144.8,L,mrlampham
+2020,4,1,Don,CeeDeez Nutz,4-0,639.4,436.1,W4,165.18,W,An
+2020,4,2,mrlampham,simp.,3-1,553.42,524.0,W2,119.7,W,Alex
+2020,4,3,Justin,Jigs,3-1,513.46,518.12,W1,130.52,W,Anthony
+2020,4,4,Tommy,DYNAHMIGHHHH,2-2,554.54,489.38,W2,155.7,W,Kevin D
+2020,4,5,Anthony,Princess Jelly,2-2,522.24,558.1,L1,94.52,L,Justin
+2020,4,6,An,Wtf am I doing here,2-2,501.74,557.78,L2,117.1,L,Don
+2020,4,7,Dexter,FREE WIN,1-3,526.9,574.28,L2,102.5,L,Jason
+2020,4,8,Jason,This was Chris Lake,1-3,512.88,534.16,W1,162.34,W,Dexter
+2020,4,9,Kevin D,Champs to chumps,1-3,507.04,568.96,L3,99.74,L,Tommy
+2020,4,10,Alex,Dry Szn,1-3,480.18,550.92,L1,116.8,L,mrlampham
+2020,5,1,Don,CeeDeez Nutz,4-1,772.64,608.7,L1,133.24,L,mrlampham
+2020,5,2,mrlampham,simp.,4-1,726.02,657.24,W3,172.6,W,Don
+2020,5,3,Anthony,Princess Jelly,3-2,670.84,690.06,W1,148.6,W,Tommy
+2020,5,4,Justin,Jigs,3-2,634.06,640.58,L1,120.6,L,Jason
+2020,5,5,Tommy,DYNAHMIGHHHH,2-3,686.5,637.98,L1,131.96,L,Anthony
+2020,5,6,Dexter,FREE WIN,2-3,645.4,683.84,W1,118.5,W,Alex
+2020,5,7,Jason,This was Chris Lake,2-3,635.34,654.76,W2,122.46,W,Justin
+2020,5,8,Kevin D,Champs to chumps,2-3,610.84,660.5,W1,103.8,W,An
+2020,5,9,An,Wtf am I doing here,2-3,593.28,661.58,L3,91.54,L,Kevin D
+2020,5,10,Alex,Dry Szn,1-4,589.74,669.42,L2,109.56,L,Dexter
+2020,6,1,Don,CeeDeez Nutz,5-1,886.7,717.92,W1,114.06,W,Dexter
+2020,6,2,mrlampham,simp.,5-1,854.82,777.88,W4,128.8,W,An
+2020,6,3,Justin,Jigs,4-2,797.8,767.08,W1,163.74,W,Alex
+2020,6,4,Anthony,Princess Jelly,3-3,794.56,819.5,L1,123.72,L,Kevin D
+2020,6,5,Tommy,DYNAHMIGHHHH,3-3,770.94,716.5,W1,84.44,W,Jason
+2020,6,6,Kevin D,Champs to chumps,3-3,740.28,784.22,W2,129.44,W,Anthony
+2020,6,7,Dexter,FREE WIN,2-4,754.62,797.9,L1,109.22,L,Don
+2020,6,8,An,Wtf am I doing here,2-4,713.92,790.38,L4,120.64,L,mrlampham
+2020,6,9,Jason,This was Chris Lake,2-4,713.86,739.2,L1,78.52,L,Tommy
+2020,6,10,Alex,Dry Szn,1-5,716.24,833.16,L3,126.5,L,Justin
+2020,7,1,Don,CeeDeez Nutz,5-2,984.8,899.26,L1,98.1,L,Justin
+2020,7,2,Justin,Jigs,5-2,979.14,865.18,W2,181.34,W,Don
+2020,7,3,mrlampham,simp.,5-2,976.32,946.84,L1,121.5,L,Kevin D
+2020,7,4,Anthony,Princess Jelly,4-3,916.46,940.08,W1,121.9,W,Jason
+2020,7,5,Kevin D,Champs to chumps,4-3,909.24,905.72,W3,168.96,W,mrlampham
+2020,7,6,Dexter,FREE WIN,3-4,908.64,918.92,W1,154.02,W,An
+2020,7,7,Tommy,DYNAHMIGHHHH,3-4,899.46,876.0,L1,128.52,L,Alex
+2020,7,8,Alex,Dry Szn,2-5,875.74,961.68,W1,159.5,W,Tommy
+2020,7,9,An,Wtf am I doing here,2-5,834.94,944.4,L5,121.02,L,Dexter
+2020,7,10,Jason,This was Chris Lake,2-5,834.44,861.1,L2,120.58,L,Anthony
+2020,8,1,mrlampham,simp.,6-2,1130.66,1078.78,W1,154.34,W,Dexter
+2020,8,2,Don,CeeDeez Nutz,6-2,1117.62,972.44,W1,132.82,W,Tommy
+2020,8,3,Justin,Jigs,6-2,1110.36,950.8,W3,131.22,W,An
+2020,8,4,Anthony,Princess Jelly,5-3,1035.9,1032.72,W2,119.44,W,Alex
+2020,8,5,Kevin D,Champs to chumps,5-3,1024.1,1006.54,W4,114.86,W,Jason
+2020,8,6,Dexter,FREE WIN,3-5,1040.58,1073.26,L1,131.94,L,mrlampham
+2020,8,7,Tommy,DYNAHMIGHHHH,3-5,972.64,1008.82,L2,73.18,L,Don
+2020,8,8,Alex,Dry Szn,2-6,968.38,1081.12,L1,92.64,L,Anthony
+2020,8,9,Jason,This was Chris Lake,2-6,935.26,975.96,L3,100.82,L,Kevin D
+2020,8,10,An,Wtf am I doing here,2-6,920.56,1075.62,L6,85.62,L,Justin
+2020,9,1,mrlampham,simp.,7-2,1270.94,1207.28,W2,140.28,W,Justin
+2020,9,2,Don,CeeDeez Nutz,7-2,1259.44,1061.04,W2,141.82,W,Anthony
+2020,9,3,Justin,Jigs,6-3,1238.86,1091.08,L1,128.5,L,mrlampham
+2020,9,4,Anthony,Princess Jelly,5-4,1124.5,1174.54,L1,88.6,L,Don
+2020,9,5,Kevin D,Champs to chumps,5-4,1117.56,1120.04,L1,93.46,L,Dexter
+2020,9,6,Dexter,FREE WIN,4-5,1154.08,1166.72,W1,113.5,W,Kevin D
+2020,9,7,Tommy,DYNAHMIGHHHH,4-5,1128.58,1106.08,W1,155.94,W,An
+2020,9,8,Alex,Dry Szn,3-6,1084.12,1172.56,W1,115.74,W,Jason
+2020,9,9,Jason,This was Chris Lake,2-7,1026.7,1091.7,L4,91.44,L,Alex
+2020,9,10,An,Wtf am I doing here,2-7,1017.82,1231.56,L7,97.26,L,Tommy
+2020,10,1,Don,CeeDeez Nutz,7-3,1385.62,1187.62,L1,126.18,L,Jason
+2020,10,2,Justin,Jigs,7-3,1343.42,1164.4,W1,104.56,W,Dexter
+2020,10,3,mrlampham,simp.,7-3,1331.72,1306.62,L1,60.78,L,Tommy
+2020,10,4,Anthony,Princess Jelly,6-4,1238.7,1274.06,W1,114.2,W,An
+2020,10,5,Kevin D,Champs to chumps,6-4,1225.9,1219.56,W1,108.34,W,Alex
+2020,10,6,Tommy,DYNAHMIGHHHH,5-5,1227.92,1166.86,W2,99.34,W,mrlampham
+2020,10,7,Dexter,FREE WIN,4-6,1227.4,1271.28,L1,73.32,L,Justin
+2020,10,8,Alex,Dry Szn,3-7,1183.64,1280.9,L1,99.52,L,Kevin D
+2020,10,9,Jason,This was Chris Lake,3-7,1153.28,1217.88,W1,126.58,W,Don
+2020,10,10,An,Wtf am I doing here,2-8,1117.34,1345.76,L8,99.52,L,Anthony
+2020,11,1,Justin,Jigs,8-3,1472.36,1251.44,W2,128.94,W,Kevin D
+2020,11,2,Don,CeeDeez Nutz,7-4,1496.18,1335.98,L2,110.56,L,Alex
+2020,11,3,mrlampham,simp.,7-4,1462.4,1446.08,L2,130.68,L,Anthony
+2020,11,4,Anthony,Princess Jelly,7-4,1378.16,1404.74,W2,139.46,W,mrlampham
+2020,11,5,Kevin D,Champs to chumps,6-5,1312.94,1348.5,L1,87.04,L,Justin
+2020,11,6,Dexter,FREE WIN,5-6,1358.18,1395.16,W1,130.78,W,Tommy
+2020,11,7,Tommy,DYNAHMIGHHHH,5-6,1351.8,1297.64,L1,123.88,L,Dexter
+2020,11,8,Alex,Dry Szn,4-7,1332.0,1391.46,W1,148.36,W,Don
+2020,11,9,Jason,This was Chris Lake,3-8,1279.72,1350.66,L1,126.44,L,An
+2020,11,10,An,Wtf am I doing here,3-8,1250.12,1472.2,W1,132.78,W,Jason
+2020,12,1,Justin,Jigs,9-3,1621.14,1374.88,W3,148.78,W,Tommy
+2020,12,2,mrlampham,simp.,8-4,1623.58,1599.82,W1,161.18,W,Jason
+2020,12,3,Don,CeeDeez Nutz,8-4,1598.4,1427.88,W1,102.22,W,Kevin D
+2020,12,4,Anthony,Princess Jelly,7-5,1488.76,1548.14,L1,110.6,L,Dexter
+2020,12,5,Dexter,FREE WIN,6-6,1501.58,1505.76,W2,143.4,W,Anthony
+2020,12,6,Kevin D,Champs to chumps,6-6,1404.84,1450.72,L2,91.9,L,Don
+2020,12,7,Tommy,DYNAHMIGHHHH,5-7,1475.24,1446.42,L2,123.44,L,Justin
+2020,12,8,Alex,Dry Szn,5-7,1444.52,1501.86,W2,112.52,W,An
+2020,12,9,Jason,This was Chris Lake,3-9,1433.46,1511.84,L2,153.74,L,mrlampham
+2020,12,10,An,Wtf am I doing here,3-9,1360.52,1584.72,L1,110.4,L,Alex
+2020,13,1,Justin,Jigs,10-3,1781.2,1488.0,W4,160.06,W,Anthony
+2020,13,2,Don,CeeDeez Nutz,9-4,1746.08,1491.68,W2,147.68,W,An
+2020,13,3,mrlampham,simp.,9-4,1736.6,1702.16,W2,113.02,W,Alex
+2020,13,4,Dexter,FREE WIN,7-6,1626.2,1606.52,W3,124.62,W,Jason
+2020,13,5,Anthony,Princess Jelly,7-6,1601.88,1708.2,L2,113.12,L,Justin
+2020,13,6,Tommy,DYNAHMIGHHHH,6-7,1626.54,1596.32,W1,151.3,W,Kevin D
+2020,13,7,Kevin D,Champs to chumps,6-7,1554.74,1602.02,L3,149.9,L,Tommy
+2020,13,8,Alex,Dry Szn,5-8,1546.86,1614.88,L1,102.34,L,mrlampham
+2020,13,9,Jason,This was Chris Lake,3-10,1534.22,1636.46,L3,100.76,L,Dexter
+2020,13,10,An,Wtf am I doing here,3-10,1424.32,1732.4,L2,63.8,L,Don

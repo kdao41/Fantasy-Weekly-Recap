@@ -1,0 +1,317 @@
+{
+ "season": 2024,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 121.46,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Cee Deez Chubb in ya mouf",
+     "manager": "donblood",
+     "points": 97.18,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Hairy Son",
+     "manager": "Odeh1121",
+     "points": 78.38,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 87.18,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "GAWD TIER",
+     "manager": "DVTV",
+     "points": 115.88,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "\ud83c\udfc6 WORLD CHAMPION \ud83c\udfc6",
+     "manager": "anth0nyng",
+     "points": 136.12,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Bleed Blue",
+     "manager": "keveezy",
+     "points": 122.64,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 125.04,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "ABCeeDee U Lost 2 Me",
+     "manager": "oooEcho",
+     "points": 112.28,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "bAnmly",
+     "manager": "bAnmly (Bryan)",
+     "points": 70.2,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "oooEcho"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "Revenge Tour",
+     "manager": "jimbo817",
+     "points": 133.26,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Cancun Tours",
+     "manager": "kholabear",
+     "points": 99.28,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "anth0nyng",
+   "team": "\ud83c\udfc6 WORLD CHAMPION \ud83c\udfc6",
+   "points": 136.12
+  },
+  "low_score": {
+   "manager": "bAnmly (Bryan)",
+   "team": "bAnmly",
+   "points": 70.2
+  },
+  "closest_game": {
+   "winner": "PutItOnYa",
+   "winner_points": 125.04,
+   "loser": "keveezy",
+   "loser_points": 122.64,
+   "margin": 2.4
+  },
+  "biggest_blowout": {
+   "winner": "oooEcho",
+   "winner_points": 112.28,
+   "loser": "bAnmly (Bryan)",
+   "loser_points": 70.2,
+   "margin": 42.08
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "anth0nyng",
+   "team": "\ud83c\udfc6 WORLD CHAMPION \ud83c\udfc6",
+   "record": "3-0",
+   "points_for": 380.16,
+   "points_against": 322.88,
+   "streak": "W3",
+   "week_points": 136.12,
+   "week_result": "W",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 2,
+   "manager": "PutItOnYa",
+   "team": "PutItOnYa",
+   "record": "3-0",
+   "points_for": 358.78,
+   "points_against": 342.74,
+   "streak": "W3",
+   "week_points": 125.04,
+   "week_result": "W",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 3,
+   "manager": "DVTV",
+   "team": "GAWD TIER",
+   "record": "2-1",
+   "points_for": 376.1,
+   "points_against": 341.74,
+   "streak": "L1",
+   "week_points": 115.88,
+   "week_result": "L",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 4,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "2-1",
+   "points_for": 340.06,
+   "points_against": 293.0,
+   "streak": "W2",
+   "week_points": 87.18,
+   "week_result": "W",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 5,
+   "manager": "bvincenttt",
+   "team": "Shake 'n Blake ",
+   "record": "2-1",
+   "points_for": 337.04,
+   "points_against": 305.2,
+   "streak": "W1",
+   "week_points": 121.46,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 6,
+   "manager": "donblood",
+   "team": "Cee Deez Chubb in ya mouf",
+   "record": "2-1",
+   "points_for": 322.56,
+   "points_against": 309.6,
+   "streak": "L1",
+   "week_points": 97.18,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 7,
+   "manager": "oooEcho",
+   "team": "ABCeeDee U Lost 2 Me",
+   "record": "2-1",
+   "points_for": 304.28,
+   "points_against": 274.56,
+   "streak": "W2",
+   "week_points": 112.28,
+   "week_result": "W",
+   "opponent": "bAnmly (Bryan)"
+  },
+  {
+   "rank": 8,
+   "manager": "jimbo817",
+   "team": "Revenge Tour",
+   "record": "1-2",
+   "points_for": 367.44,
+   "points_against": 346.22,
+   "streak": "W1",
+   "week_points": 133.26,
+   "week_result": "W",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 9,
+   "manager": "keveezy",
+   "team": "Bleed Blue",
+   "record": "1-2",
+   "points_for": 355.84,
+   "points_against": 370.52,
+   "streak": "L2",
+   "week_points": 122.64,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 10,
+   "manager": "Odeh1121",
+   "team": "Hairy Son",
+   "record": "0-3",
+   "points_for": 291.08,
+   "points_against": 339.5,
+   "streak": "L3",
+   "week_points": 78.38,
+   "week_result": "L",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 11,
+   "manager": "kholabear",
+   "team": "Cancun Tours",
+   "record": "0-3",
+   "points_for": 277.72,
+   "points_against": 390.58,
+   "streak": "L3",
+   "week_points": 99.28,
+   "week_result": "L",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 12,
+   "manager": "bAnmly (Bryan)",
+   "team": "bAnmly",
+   "record": "0-3",
+   "points_for": 274.36,
+   "points_against": 348.88,
+   "streak": "L3",
+   "week_points": 70.2,
+   "week_result": "L",
+   "opponent": "oooEcho"
+  }
+ ]
+}

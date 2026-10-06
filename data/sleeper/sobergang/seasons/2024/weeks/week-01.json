@@ -1,0 +1,270 @@
+{
+ "season": 2024,
+ "week": 1,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Longtendo",
+     "manager": "keveezy",
+     "points": 68.36,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "dexclusive",
+     "manager": "dexclusive",
+     "points": 117.26,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "dexclusive"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "\ud83d\ude42\u200d\u2195\ufe0f",
+     "manager": "anth0nyng",
+     "points": 127.92,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "lmphm",
+     "manager": "lmphm",
+     "points": 142.24,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "CityBoyJJ",
+     "manager": "donblood",
+     "points": 132.76,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Amon Drugs",
+     "manager": "jasonle",
+     "points": 136.8,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "jasonle"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "LANK",
+     "manager": "Abadahh",
+     "points": 110.88,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 118.32,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "yckyb",
+     "manager": "yckyb",
+     "points": 131.38,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "jigri",
+     "manager": "jigri",
+     "points": 110.86,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "yckyb"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "lmphm",
+   "team": "lmphm",
+   "points": 142.24
+  },
+  "low_score": {
+   "manager": "keveezy",
+   "team": "Longtendo",
+   "points": 68.36
+  },
+  "closest_game": {
+   "winner": "jasonle",
+   "winner_points": 136.8,
+   "loser": "donblood",
+   "loser_points": 132.76,
+   "margin": 4.04
+  },
+  "biggest_blowout": {
+   "winner": "dexclusive",
+   "winner_points": 117.26,
+   "loser": "keveezy",
+   "loser_points": 68.36,
+   "margin": 48.9
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "lmphm",
+   "team": "lmphm",
+   "record": "1-0",
+   "points_for": 142.24,
+   "points_against": 127.92,
+   "streak": "W1",
+   "week_points": 142.24,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 2,
+   "manager": "jasonle",
+   "team": "Amon Drugs",
+   "record": "1-0",
+   "points_for": 136.8,
+   "points_against": 132.76,
+   "streak": "W1",
+   "week_points": 136.8,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 3,
+   "manager": "yckyb",
+   "team": "yckyb",
+   "record": "1-0",
+   "points_for": 131.38,
+   "points_against": 110.86,
+   "streak": "W1",
+   "week_points": 131.38,
+   "week_result": "W",
+   "opponent": "jigri"
+  },
+  {
+   "rank": 4,
+   "manager": "PutItOnYa",
+   "team": "PutItOnYa",
+   "record": "1-0",
+   "points_for": 118.32,
+   "points_against": 110.88,
+   "streak": "W1",
+   "week_points": 118.32,
+   "week_result": "W",
+   "opponent": "Abadahh"
+  },
+  {
+   "rank": 5,
+   "manager": "dexclusive",
+   "team": "dexclusive",
+   "record": "1-0",
+   "points_for": 117.26,
+   "points_against": 68.36,
+   "streak": "W1",
+   "week_points": 117.26,
+   "week_result": "W",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 6,
+   "manager": "donblood",
+   "team": "CityBoyJJ",
+   "record": "0-1",
+   "points_for": 132.76,
+   "points_against": 136.8,
+   "streak": "L1",
+   "week_points": 132.76,
+   "week_result": "L",
+   "opponent": "jasonle"
+  },
+  {
+   "rank": 7,
+   "manager": "anth0nyng",
+   "team": "\ud83d\ude42\u200d\u2195\ufe0f",
+   "record": "0-1",
+   "points_for": 127.92,
+   "points_against": 142.24,
+   "streak": "L1",
+   "week_points": 127.92,
+   "week_result": "L",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 8,
+   "manager": "Abadahh",
+   "team": "LANK",
+   "record": "0-1",
+   "points_for": 110.88,
+   "points_against": 118.32,
+   "streak": "L1",
+   "week_points": 110.88,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 9,
+   "manager": "jigri",
+   "team": "jigri",
+   "record": "0-1",
+   "points_for": 110.86,
+   "points_against": 131.38,
+   "streak": "L1",
+   "week_points": 110.86,
+   "week_result": "L",
+   "opponent": "yckyb"
+  },
+  {
+   "rank": 10,
+   "manager": "keveezy",
+   "team": "Longtendo",
+   "record": "0-1",
+   "points_for": 68.36,
+   "points_against": 117.26,
+   "streak": "L1",
+   "week_points": 68.36,
+   "week_result": "L",
+   "opponent": "dexclusive"
+  }
+ ]
+}

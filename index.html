@@ -3,79 +3,214 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The League Almanac — live</title>
+<title>The League Almanac</title>
 <style>
   :root{
-    --paper:#fbfaf7; --ink:#17161a; --navy:#16263f; --maroon:#6b1119;
-    --teal:#1f7a8c; --gold:#b58a2c; --muted:#6f6a63; --rule:#e2ddd2; --bad:#8f2230; --go:#2f7d55;
-    --card:#ffffff;
+    --bg:#0e1116; --panel:#161a21; --panel-2:#1c212a; --line:#272d37;
+    --ink:#e9ebee; --muted:#8a929e; --faint:#5d6571;
+    --gold:#d8aa3c; --gold-soft:rgba(216,170,60,.12);
+    --win:#56b985; --loss:#e26a6a; --cyan:#5fb4c9;
+    --head:"Avenir Next Condensed","Roboto Condensed","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+    --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    --r:10px;
   }
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){--paper:#14131a;--ink:#ece7df;--card:#1d1c24;--rule:#33313c;--muted:#9a93a6;--navy:#bcd0e6;}
+  @media (prefers-color-scheme: light){
+    :root:not([data-theme="dark"]){
+      --bg:#f3f2ee; --panel:#ffffff; --panel-2:#f8f7f3; --line:#e2dfd7;
+      --ink:#15181d; --muted:#5f6670; --faint:#9aa0a8;
+      --gold:#9c7210; --gold-soft:rgba(156,114,16,.10); --win:#2b8656; --loss:#c03b3b; --cyan:#1f7a8c;
+    }
   }
+  /* Names the page's script still uses inline, pointed at this palette. */
+  :root{--paper:var(--bg);--card:var(--panel);--rule:var(--line);--navy:var(--gold);--maroon:var(--gold);
+    --teal:var(--cyan);--bad:var(--loss);--go:var(--win)}
+
   *{box-sizing:border-box}
-  body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.55 Georgia,"Times New Roman",serif}
-  .wrap{max-width:860px;margin:0 auto;padding:0 20px 80px}
-  h1,h2,.kicker,th,.tabs button,.rk .mv,.award .t,.motw .vs,.badge{font-family:"Arial Black","Helvetica Neue",Helvetica,Arial,sans-serif}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);font-variant-numeric:tabular-nums}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 16px 80px}
+  a{color:var(--gold)}
 
-  header{border-bottom:5px solid var(--maroon);padding:26px 0 14px;margin-bottom:4px}
-  .kicker{font-size:12px;color:var(--gold);letter-spacing:.05em}
-  h1{font-size:clamp(30px,6.5vw,46px);line-height:.95;margin:4px 0 0;letter-spacing:-.03em;color:var(--maroon)}
-  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:14px}
-  select,button,input[type=text]{font:15px/1 "Helvetica Neue",Arial,sans-serif;padding:9px 12px;border-radius:7px;border:1px solid var(--rule);background:var(--card);color:var(--ink)}
-  button{cursor:pointer;background:var(--navy);color:#fff;border:0;font-weight:700}
-  button.ghost{background:transparent;border:1px solid var(--rule);color:var(--ink);font-weight:400}
-  button:hover{filter:brightness(1.08)}
+  header{padding:32px 0 18px}
+  .kicker{font:600 12px/1 var(--head);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+  h1{font:700 clamp(32px,6.5vw,54px)/.95 var(--head);text-transform:uppercase;letter-spacing:-.01em;margin:10px 0 0;color:var(--ink)}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:18px}
   .meta{color:var(--muted);font-size:13px;margin-left:auto}
+  select,button,input[type=text]{font:600 13px/1 var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--line);
+    background:var(--panel);color:var(--ink)}
+  select{padding-right:30px;appearance:none;cursor:pointer;
+    background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);
+    background-position:calc(100% - 16px) 52%,calc(100% - 11px) 52%;background-size:5px 5px;background-repeat:no-repeat}
+  input[type=text]{font-weight:400}
+  input[type=text]::placeholder{color:var(--faint)}
+  button{cursor:pointer;background:var(--gold);color:var(--bg);border-color:var(--gold)}
+  button.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+  button:hover{filter:brightness(1.1)} button.ghost:hover{border-color:var(--muted)}
+  .addrow{display:flex;gap:6px;margin-top:8px}
 
-  .note{background:var(--card);border:1px solid var(--rule);border-left:5px solid var(--gold);border-radius:8px;padding:14px 16px;margin:18px 0}
-  .note label{font-family:"Arial Black",Arial;font-size:12px;color:var(--gold);display:block;margin-bottom:6px}
-  .note textarea{width:100%;min-height:70px;resize:vertical;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink);padding:10px;font:16px/1.5 Georgia,serif}
-  .note .saved{font-size:12px;color:var(--go);margin-top:4px;height:14px}
-  .cnote-text{font:16px/1.55 Georgia,serif;color:var(--ink)} .cnote-text p{margin:8px 0}
+  .tabs{position:sticky;top:0;z-index:5;background:var(--bg);display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;
+    border-bottom:1px solid var(--line);margin:8px -16px 0;padding:0 16px}
+  .tabs::-webkit-scrollbar{display:none}
+  /* Wide screens: wrap so every tab, History included, is visible. Narrow: scroll, with a fade hinting at more. */
+  @media (min-width:621px){.tabs{flex-wrap:wrap;overflow-x:visible}}
+  @media (max-width:620px){.tabs{-webkit-mask-image:linear-gradient(90deg,#000 85%,transparent);mask-image:linear-gradient(90deg,#000 85%,transparent)}}
+  .tabs button{flex:0 0 auto;background:none;border:0;border-radius:0;color:var(--muted);padding:13px 13px 11px;
+    font:700 14px/1 var(--head);letter-spacing:.04em;text-transform:uppercase;border-bottom:3px solid transparent}
+  .tabs button:hover{color:var(--ink);filter:none}
+  .tabs button.on{color:var(--ink);border-bottom-color:var(--gold)}
 
-  .tabs{display:flex;flex-wrap:wrap;gap:4px;margin:18px 0 4px;border-bottom:2px solid var(--ink)}
-  .tabs button{background:transparent;color:var(--muted);border:0;border-radius:0;padding:9px 13px;font-size:13px;font-weight:700;letter-spacing:.02em}
-  .tabs button.on{color:var(--maroon);border-bottom:3px solid var(--maroon);margin-bottom:-2px}
+  section{display:none;padding:22px 0 4px;overflow-x:auto} section.on{display:block}
+  h2{font:700 22px/1.1 var(--head);text-transform:uppercase;letter-spacing:.03em;margin:30px 0 4px}
+  section > h2:first-child,section > .note + h2{margin-top:4px}
+  p.sub{color:var(--muted);font-size:13px;margin:2px 0 14px}
+  span.sub{color:var(--muted);font-size:12px}
 
-  section{display:none;padding:10px 0 4px} section.on{display:block}
-  h2{font-size:21px;margin:14px 0 6px;letter-spacing:-.02em}
-  p.sub{color:var(--muted);font-size:14px;margin:2px 0 12px}
-
-  table{width:100%;border-collapse:collapse;font-family:"Helvetica Neue",Arial,sans-serif;font-size:13.5px;margin:8px 0}
-  th{background:var(--ink);color:var(--paper);text-align:left;padding:7px 8px;font-size:12px;cursor:pointer;user-select:none;white-space:nowrap}
+  table{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;margin:8px 0 4px;background:var(--panel);
+    border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  th{font:600 11px/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;
+    padding:12px 12px 10px;background:var(--panel-2);border-bottom:1px solid var(--line);cursor:pointer;user-select:none;white-space:nowrap}
+  th:hover{color:var(--ink)}
   th.n,td.n{text-align:right}
-  td{padding:6px 8px;border-bottom:1px solid var(--rule)}
-  tr.me td{font-weight:bold;background:rgba(107,17,25,.06)}
-  tr.hot td{background:rgba(31,122,140,.08)} tr.cold td{background:rgba(143,34,48,.07)}
+  td{padding:9px 12px;border-bottom:1px solid var(--line)}
+  tr:last-child td{border-bottom:0}
+  tr.me td{font-weight:700;background:var(--gold-soft)}
+  tr.hot td{background:rgba(86,185,133,.08)} tr.cold td{background:rgba(226,106,106,.08)}
 
-  .rk{display:flex;gap:12px;align-items:baseline;border-bottom:1px solid var(--rule);padding:8px 0}
-  .rk .n{font-family:"Arial Black";font-size:18px;color:var(--maroon);min-width:26px}
-  .rk .mv{font-size:12px;min-width:44px}
-  .up{color:var(--go);font-weight:bold}.down{color:var(--bad);font-weight:bold}.flat{color:var(--muted)}
-  .rk .tm{font-weight:bold} .rk .tx{flex:1}
+  .rk{display:grid;grid-template-columns:34px 56px 1fr;gap:10px;align-items:baseline;background:var(--panel);
+    border:1px solid var(--line);border-radius:8px;padding:11px 14px;margin:6px 0}
+  .rk .n{font:700 20px/1 var(--head);color:var(--gold)}
+  .rk .mv{font-size:12px}
+  .rk .tm{font-weight:700} .rk .tx{color:var(--muted)} .rk .tx .tm{color:var(--ink)}
+  .up{color:var(--win);font-weight:700}.down{color:var(--loss);font-weight:700}.flat{color:var(--faint)}
 
-  .award{border-left:5px solid var(--gold);padding:3px 0 3px 14px;margin:9px 0}
-  .award .t{font-size:12px;color:var(--gold)} .award p{margin:2px 0;font-size:15px}
+  .award{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:8px;padding:11px 14px;margin:8px 0}
+  .award .t{font:600 11px/1.2 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+  .award p{margin:4px 0 0;font-size:15px}
 
-  .motw{background:var(--navy);color:#eef2f6;border-radius:8px;padding:16px 18px;margin:10px 0}
-  .motw .vs{font-size:20px}.motw p{margin:6px 0;color:#cdd8e4;font-size:14px}
+  .motw{background:linear-gradient(140deg,var(--gold-soft),transparent 60%),var(--panel);border:1px solid var(--line);
+    border-radius:var(--r);padding:18px 20px;margin:10px 0}
+  .motw .vs{font:700 24px/1.1 var(--head);text-transform:uppercase}
+  .motw p{margin:6px 0;color:var(--muted);font-size:14px}
 
   .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   @media(max-width:620px){.grid{grid-template-columns:1fr}}
 
-  svg .lbl{font:11px "Helvetica Neue",Arial;fill:var(--ink)}
-  svg .axis{stroke:var(--rule)} svg .diag{stroke:var(--muted);stroke-dasharray:5 4}
-  .status{padding:40px 10px;text-align:center;color:var(--muted)}
-  .spin{display:inline-block;width:22px;height:22px;border:3px solid var(--rule);border-top-color:var(--maroon);border-radius:50%;animation:sp .8s linear infinite;vertical-align:middle;margin-right:8px}
+  svg .lbl{font:11px var(--body);fill:var(--ink)}
+  svg .axis{stroke:var(--line)} svg .diag{stroke:var(--faint);stroke-dasharray:5 4}
+  .status{padding:56px 10px;text-align:center;color:var(--muted)}
+  .spin{display:inline-block;width:20px;height:20px;border:3px solid var(--line);border-top-color:var(--gold);border-radius:50%;
+    animation:sp .8s linear infinite;vertical-align:middle;margin-right:8px}
   @keyframes sp{to{transform:rotate(360deg)}}
-  .err{color:var(--bad);background:rgba(143,34,48,.08);border:1px solid var(--bad);border-radius:8px;padding:14px;margin:14px 0;font-size:14px}
-  .dispatch p{font-size:16px;margin:12px 0} .dispatch .lede-dispatch{font-size:19px;line-height:1.5}
-  .dispatch b{color:var(--maroon)}
-  @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .dispatch b{color:#e68a94}}
-  .foot{margin-top:40px;padding-top:14px;border-top:2px solid var(--ink);color:var(--muted);font-size:12px}
-  .addrow{display:flex;gap:6px;margin-top:8px}
-  .badge{display:inline-block;background:var(--maroon);color:#fff;font-size:10px;padding:2px 6px;border-radius:4px;vertical-align:middle;margin-left:6px}
+  .err{color:var(--loss);border:1px solid var(--loss);border-radius:var(--r);padding:16px;margin:16px 0;font-size:14px}
+
+  .note{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:var(--r);padding:14px 16px;margin:4px 0 18px}
+  .note label{font:600 11px/1 var(--head);letter-spacing:.16em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:8px}
+  .cnote-text{font-size:15px} .cnote-text p{margin:8px 0}
+
+  .dispatch{max-width:720px}
+  .dispatch p{font-size:16px;line-height:1.65;margin:14px 0}
+  .dispatch .lede-dispatch{font-size:20px;line-height:1.5}
+  .dispatch b{color:var(--gold)}
+
+  .badge{display:inline-block;background:var(--gold);color:var(--bg);font:700 10px/1 var(--head);letter-spacing:.06em;
+    text-transform:uppercase;padding:3px 6px;border-radius:4px;vertical-align:middle;margin-left:6px}
+  .foot{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);color:var(--faint);font-size:12px}
+
+  /* luck map: diverging bars (blue/red pair validated for both themes with the dataviz palette checker) */
+  :root{--lucky:#3987e5;--robbed:#e66767}
+  @media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--lucky:#2a78d6;--robbed:#e34948}}
+  .lk-legend{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin:0 0 10px}
+  .lk-legend .sw{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+  .sw.up{background:var(--lucky)} .sw.dn{background:var(--robbed)}
+  .lk{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:8px 16px 12px}
+  .lk-axis,.lk-row{display:grid;grid-template-columns:minmax(90px,150px) 1fr 52px;gap:12px;align-items:center}
+  .lk-ticks{display:flex;justify-content:space-between;font-size:11px;color:var(--faint);padding:4px 0}
+  .lk-ticks b{font-weight:400}
+  .lk-row{min-height:32px;border-radius:6px;outline:none;cursor:default}
+  .lk-row.hov,.lk-row:focus-visible{background:var(--panel-2)}
+  .lk-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px}
+  .lk-name.me{font-weight:700}
+  .lk-track{position:relative;height:16px;background:linear-gradient(var(--line),var(--line)) 50% 0/1px 100% no-repeat}
+  .lk-bar{position:absolute;top:0;height:16px}
+  .lk-bar.up{background:var(--lucky);border-radius:0 4px 4px 0}
+  .lk-bar.dn{background:var(--robbed);border-radius:4px 0 0 4px}
+  .lk-row.hov .lk-bar,.lk-row:focus-visible .lk-bar{filter:brightness(1.15)}
+  .lk-val{text-align:right;font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+  .lk-table{margin-top:10px} .lk-table summary{cursor:pointer;color:var(--muted);font-size:13px}
+  @media (max-width:620px){.lk-axis,.lk-row{grid-template-columns:86px 1fr 40px;gap:8px}}
+
+  /* shared hover card for every chart */
+  .tip{position:fixed;z-index:20;pointer-events:none;opacity:0;transition:opacity .1s;max-width:260px;
+    background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:8px 12px;box-shadow:0 6px 20px rgba(0,0,0,.35);
+    display:flex;flex-direction:column;gap:2px}
+  .tip.on{opacity:1}
+  .tip b{font-size:16px} .tip span{font-size:13px;color:var(--ink)} .tip small{font-size:12px;color:var(--muted)}
+
+  .seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;margin:0 0 10px}
+  .seg button{background:none;border:0;border-radius:0;color:var(--muted);padding:7px 12px}
+  .seg button.on{background:var(--panel-2);color:var(--ink)}
+  .chart{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:6px}
+  .chart svg{display:block;width:100%;height:auto}
+  svg .grid{stroke:var(--line)} svg .tick{font:11px var(--body);fill:var(--faint)}
+  svg .zone-up{fill:var(--lucky);opacity:.06} svg .zone-dn{fill:var(--robbed);opacity:.06}
+  svg .zlbl{font:700 13px var(--head);letter-spacing:.12em}
+  svg .dot{stroke:var(--panel);stroke-width:2;cursor:pointer;outline:none}
+  svg .dot:hover,svg .dot:focus-visible{stroke:var(--ink)}
+  svg .dot.me{stroke:var(--gold);stroke-width:3}
+  svg .lbl.me{font-weight:700}
+  svg .lead{stroke:var(--faint);stroke-width:1}
+
+  /* scores heatmap */
+  /* full width: week columns split the space and narrow as weeks are added, then scroll on small screens */
+  .hm{border-collapse:separate;border-spacing:2px;background:none;border:0;font-size:12px;width:100%;table-layout:fixed}
+  .hm col.tn{width:130px} .hm col.av{width:64px}
+  .hm th{background:none;border:0;padding:4px 6px;cursor:default;text-align:center}
+  .hm th.tn{text-align:left}
+  .hm td{border:0;padding:0;text-align:center;border-radius:4px;height:30px;min-width:52px;position:relative;cursor:pointer;outline:none}
+  .hm td.tn{text-align:left;padding:0 8px;background:none;cursor:default;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .hm td.cell:hover,.hm td.cell:focus-visible{box-shadow:inset 0 0 0 2px var(--ink)}
+  .hm td.cell{font-weight:600;color:var(--ink)}
+  .hm td.cell i{font:700 9px/1 var(--head);font-style:normal;color:var(--muted);margin-left:3px;vertical-align:1px}
+  .hm td.cell.w i{color:var(--ink)}
+  .hm tr.me td.cell{box-shadow:inset 0 0 0 2px var(--gold)}
+  .hm td.avg{color:var(--muted);background:none;cursor:default}
+  .hm tr.me td{background:none;font-weight:400}
+  .hm tr.me td.tn{font-weight:700;color:var(--gold)}
+  .ramp{display:inline-block;width:120px;height:10px;border-radius:3px;vertical-align:-1px;margin:0 6px;
+    background:linear-gradient(90deg,var(--robbed),var(--panel-2),var(--lucky))}
+
+  /* team names open the team card */
+  .tl{color:inherit;background:none;border:0;padding:0;font:inherit;cursor:pointer;text-align:left;text-decoration:underline dotted var(--faint);text-underline-offset:3px}
+  .tl:hover{color:var(--gold);filter:none}
+  dialog#card{width:min(640px,calc(100vw - 32px));max-height:calc(100vh - 48px);background:var(--bg);color:var(--ink);
+    border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  dialog#card::backdrop{background:rgba(0,0,0,.55)}
+  .card-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+  .card-head h3{font:700 26px/1 var(--head);text-transform:uppercase;margin:0}
+  .card-head button{padding:6px 10px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;margin:14px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 10px}
+  .stat .k{font:600 10px/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+  .stat .v{font:700 20px/1.2 var(--head);margin-top:4px}
+  th .ar{color:var(--gold);margin-left:4px}
+  #me{max-width:190px}
+
+  /* league history tab */
+  .hist-top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+  .hist-top a{font-weight:600;font-size:13px;text-decoration:none;border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+  .hist-top a:hover{border-color:var(--gold)}
+  .shelf{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:10px 0}
+  .trophy{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+  .trophy .yr{font:700 13px/1 var(--head);color:var(--gold);letter-spacing:.08em}
+  .trophy .who{font:700 18px/1.15 var(--head);text-transform:uppercase;margin:6px 0 2px;overflow-wrap:anywhere}
+  .trophy .sc{font-size:12px;color:var(--muted)}
+  .trophy.mine{border-color:var(--gold);background:var(--gold-soft)}
+  .cups{color:var(--gold);letter-spacing:1px}
+
+  @media (max-width:620px){
+    .meta{margin-left:0;width:100%}
+    .addrow{flex-wrap:wrap} .addrow input{flex:1 1 100%;width:auto!important}
+  }
 </style>
 </head>
 <body>
@@ -86,6 +221,8 @@
   <div class="bar">
     <select id="league"></select>
     <button class="ghost" id="refresh">⟳ Refresh</button>
+    <button class="ghost" id="copylink" title="Copy a link that opens straight to this league">🔗 Copy link</button>
+    <select id="me" title="Pick your team so it's highlighted everywhere"><option value="">I am…</option></select>
     <span class="meta" id="meta"></span>
   </div>
   <div class="addrow">
@@ -99,8 +236,11 @@
 
 <div id="app"><div class="status"><span class="spin"></span>Loading live data from Sleeper…</div></div>
 
+<div class="tip" id="tip" role="status"></div>
+<dialog id="card"></dialog>
+
 <div class="foot">
-  Data pulled live from Sleeper's public API every time this page loads — so it's always current. Power-ranking movement is tracked week over week in your browser. Playoff odds are a 4,000-season simulation run right here on the page. The Commissioner's Note saves locally to this browser only. Not affiliated with Sleeper or the NFL.
+  Data pulled live from Sleeper's public API every time this page loads — so it's always current. Power-ranking movement compares this week with last week's box scores. Playoff odds are a 4,000-season simulation run right here on the page. The Commissioner's Note is set in the page itself and shows for everyone who opens the link. Not affiliated with Sleeper or the NFL.
 </div>
 </div>
 
@@ -132,12 +272,28 @@ const SHOTGUN_LEAGUES = ["1377490959020855296"]; // Sea Squad
 const API="https://api.sleeper.app/v1";
 const $=s=>document.querySelector(s);
 const n1=x=>Math.round(x*10)/10;
-const esc=s=>(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const esc=s=>String(s??"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+// Team names are escaped once when loaded (rName), so they can go straight into HTML everywhere.
+const tl=nm=>`<button type="button" class="tl" data-team="${esc(nm)}">${nm}</button>`;
+// Seeded so the playoff odds don't wobble between refreshes of the same week.
+function rng(seed){let a=0;for(const c of String(seed))a=(a*31+c.charCodeAt(0))|0;
+  return ()=>{a=(a+0x6D2B79F5)|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return ((t^t>>>14)>>>0)/4294967296;};}
+function showTip(x,y,parts){const el=$("#tip");el.replaceChildren();
+  parts.forEach(([tag,txt])=>{const e=document.createElement(tag);e.textContent=txt;el.append(e);});
+  el.classList.add("on");const r=el.getBoundingClientRect();
+  el.style.left=Math.max(8,Math.min(x+14,innerWidth-r.width-8))+"px";
+  el.style.top=(y+r.height+24>innerHeight?y-r.height-12:y+14)+"px";}
+const hideTip=()=>$("#tip").classList.remove("on");
+// Hover and keyboard focus both show the card; focus places it at the element.
+function bindTips(root,sel,partsOf){root.querySelectorAll(sel).forEach(el=>{
+  el.addEventListener("pointermove",e=>showTip(e.clientX,e.clientY,partsOf(el)));
+  el.addEventListener("pointerleave",hideTip);el.addEventListener("blur",hideTip);
+  el.addEventListener("focus",()=>{const r=el.getBoundingClientRect();showTip(r.right,r.top,partsOf(el));});});}
 function erf(x){const t=1/(1+0.3275911*Math.abs(x));const y=1-(((((1.061405429*t-1.453152027)*t)+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x);return x>=0?y:-y;}
 const normcdf=z=>0.5*(1+erf(z/Math.SQRT2));
 const pct=x=>Math.round(x*1000)/10;
 const FLEX={FLEX:["RB","WR","TE"],WRRB_FLEX:["RB","WR"],REC_FLEX:["WR","TE"],SUPER_FLEX:["QB","RB","WR","TE"],IDP_FLEX:["DL","LB","DB"]};
-let PLAYERS=null, STATE={}, CUR=null;
+let PLAYERS=null, CUR=null, LOADING=0;
 
 //============ LEAGUE LIST (presets + user-added) ============
 function leagues(){
@@ -167,86 +323,108 @@ function bestLineup(slots,pp){
 }
 
 //============ LOAD A LEAGUE ============
+function leagueFromURL(){
+  const p=new URLSearchParams(location.search);
+  const q=(p.get("lg")||p.get("league")||(location.hash||"").replace(/^#/,"")||"").trim();
+  return /^\d{5,}$/.test(q)?q:null;
+}
 async function load(id){
+  const token=++LOADING; // a newer load() wins if the user switches leagues mid-fetch
   localStorage.setItem("almanac_last",id);
+  try{history.replaceState(null,"","?lg="+id+location.hash);}catch(e){}  // the address bar now IS the shareable link for this league
   $("#app").innerHTML='<div class="status"><span class="spin"></span>Pulling live data from Sleeper…</div>';
   try{
-    const lg=await j(`${API}/league/${id}`);
-    const [users,rosters]=await Promise.all([j(`${API}/league/${id}/users`),j(`${API}/league/${id}/rosters`)]);
+    const [lg,users,rosters,state]=await Promise.all([j(`${API}/league/${id}`),j(`${API}/league/${id}/users`),
+      j(`${API}/league/${id}/rosters`),j(`${API}/state/nfl`).catch(()=>null)]);
     const uname={};users.forEach(u=>uname[u.user_id]=u.display_name||u.username);
-    const rName={};rosters.forEach(r=>rName[r.roster_id]=(r.owner_id&&uname[r.owner_id])||("Team "+r.roster_id));
+    const rName={};rosters.forEach(r=>rName[r.roster_id]=esc((r.owner_id&&uname[r.owner_id])||("Team "+r.roster_id)));
     const pwk=lg.settings.playoff_week_start||15;
-    // pull weeks until an unplayed one
-    const weeks={}; let upcoming=null,upWeek=null;
-    for(let w=1;w<pwk;w++){
-      let m; try{m=await j(`${API}/league/${id}/matchups/${w}`)}catch(e){break}
-      if(m&&m.some(x=>x.points>0))weeks[w]=m; else {upcoming=m;upWeek=w;break;}
-    }
-    CUR={lg,rName,rosters,weeks,upcoming,upWeek,pwk,id};
-    // guess "my team" = keveezy if present
-    const mine=Object.keys(rName).find(r=>/keveezy/i.test(rName[r]));
-    CUR.mine=mine?rName[mine]:null;
+    const all=await Promise.all(Array.from({length:pwk-1},(_,i)=>j(`${API}/league/${id}/matchups/${i+1}`).catch(()=>null)));
+    if(token!==LOADING)return;
+    const weeks={},sched={}; let upcoming=null,upWeek=null;
+    all.forEach((m,i)=>{const w=i+1;if(!m||!m.length)return;
+      if(!upWeek&&isFinal(lg,state,w)&&m.some(x=>x.points>0))weeks[w]=m;
+      else{if(!upWeek){upcoming=m;upWeek=w;}sched[w]=m;}});
+    CUR={lg,rName,rosters,weeks,sched,upcoming,upWeek,pwk,id,live:!!(upcoming&&upcoming.some(x=>x.points>0))};
+    CUR.mine=myTeam();
+    fillMe();
     renderCore();
     // enrich with players/draft/transactions (needs the big player file)
-    enrich();
+    enrich(token);
   }catch(e){
-    $("#app").innerHTML=`<div class="err"><b>Couldn't load.</b> ${e.message}<br><br>
+    if(token!==LOADING)return;
+    $("#app").innerHTML=`<div class="err"><b>Couldn't load.</b> ${esc(e.message)}<br><br>
       If this says "Failed to fetch", your browser may be blocking the request to Sleeper. Open this file in Chrome or Safari (a normal tab, not a preview), and make sure you're online. If it persists, Sleeper may be rate-limiting — wait a minute and hit Refresh.</div>`;
   }
 }
+// Sleeper moves state.week on to the next week once Monday night ends, so any earlier week is final
+// and state.week itself is either upcoming or being played right now.
+function isFinal(lg,state,w){
+  if(!state||lg.season!==state.season||state.season_type!=="regular")return true;
+  return w<state.week;
+}
+function myTeam(){const v=localStorage.getItem("almanac_me_"+CUR.id);return v&&Object.values(CUR.rName).includes(v)?v:null;}
+function fillMe(){const sel=$("#me");
+  sel.innerHTML=`<option value="">I am…</option>`+Object.values(CUR.rName).sort((a,b)=>a.localeCompare(b))
+    .map(n=>`<option value="${esc(n)}"${n===CUR.mine?" selected":""}>${n}</option>`).join("");}
 
 //============ COMPUTE ============
 function compute(){
   const {rName,weeks,pwk}=CUR;
   const ids=Object.keys(rName);
-  const S={}; ids.forEach(r=>S[r]={name:rName[r],w:0,l:0,t:0,pf:0,pa:0,aw:0,al:0,left:0,scores:[]});
+  const S={}; ids.forEach(r=>S[r]={rid:r,name:rName[r],w:0,l:0,t:0,pf:0,pa:0,aw:0,al:0,scores:[],log:[]});
   const games=[]; // {wk,hi,lo,hip,lop}
   const completed=Object.keys(weeks).map(Number).sort((a,b)=>a-b);
   for(const w of completed){
     const m=weeks[w];
     const sc=m.map(x=>({r:x.roster_id,p:x.points||0}));
     sc.forEach(a=>sc.forEach(b=>{if(a.r!==b.r){if(a.p>b.p)S[a.r].aw++;else if(a.p<b.p)S[a.r].al++;}}));
-    m.forEach(x=>{S[x.roster_id].scores.push({wk:w,p:x.points||0});
-      if(x.players_points&&CUR.lg.roster_positions){const opt=bestLineup(CUR.lg.roster_positions,x.players_points);if(opt>(x.points||0))S[x.roster_id].left+=opt-(x.points||0);}});
+    m.forEach(x=>S[x.roster_id].scores.push({wk:w,p:x.points||0}));
     const bm={};m.forEach(x=>{(bm[x.matchup_id]=bm[x.matchup_id]||[]).push(x);});
     for(const k in bm){const [a,b]=bm[k];if(!a||!b)continue;const ap=a.points||0,bp=b.points||0;
       S[a.roster_id].pf+=ap;S[a.roster_id].pa+=bp;S[b.roster_id].pf+=bp;S[b.roster_id].pa+=ap;
       if(ap>bp){S[a.roster_id].w++;S[b.roster_id].l++;}else if(bp>ap){S[b.roster_id].w++;S[a.roster_id].l++;}else{S[a.roster_id].t++;S[b.roster_id].t++;}
+      const res=(x,y)=>x>y?"W":x<y?"L":"T";
+      S[a.roster_id].log.push({wk:w,p:ap,opp:rName[b.roster_id],op:bp,res:res(ap,bp)});
+      S[b.roster_id].log.push({wk:w,p:bp,opp:rName[a.roster_id],op:ap,res:res(bp,ap)});
       const hi=ap>=bp?a:b,lo=ap>=bp?b:a;
       games.push({wk:w,hi:rName[hi.roster_id],lo:rName[lo.roster_id],hip:Math.max(ap,bp),lop:Math.min(ap,bp)});}
   }
   const T=ids.map(r=>{const s=S[r];const g=s.w+s.l+s.t;const ap=s.aw+s.al;
-    return {...s,g,gp:completed.length,winpct:g?s.w/g:0,appct:ap?s.aw/ap:0,pfg:completed.length?s.pf/completed.length:0};});
+    return {...s,g,gp:completed.length,winpct:g?(s.w+0.5*s.t)/g:0,appct:ap?s.aw/ap:0,pfg:completed.length?s.pf/completed.length:0};});
   return {T,games,completed};
 }
 
-// generic playoff sim
+// Playoff sim: plays out the real remaining schedule (random pairings only where Sleeper hasn't posted one).
 function simulate(T,regWeeks,completed,spots,N){
-  const n=T.length;
+  const n=T.length,rand=rng(CUR.id+":"+completed);
   const mu=T.map(t=>0.62*t.pfg+0.38*(meanPF(T)+ (t.appct-0.5)*55));
   const mean=mu.reduce((a,b)=>a+b,0)/n; for(let i=0;i<n;i++)mu[i]=0.82*mu[i]+0.18*mean;
-  const W0=T.map(t=>t.w), PF0=T.map(t=>t.pf);
-  const rem=Math.max(0,regWeeks-completed);
+  const W0=T.map(t=>t.w+0.5*t.t), PF0=T.map(t=>t.pf);
+  const at={};T.forEach((t,i)=>at[t.rid]=i);
+  const future=[];
+  for(let w=completed+1;w<=regWeeks;w++){const m=CUR.sched[w];const bm={};
+    (m||[]).forEach(x=>{if(x.matchup_id!=null)(bm[x.matchup_id]=bm[x.matchup_id]||[]).push(at[x.roster_id]);});
+    const pairs=Object.values(bm).filter(p=>p.length===2);
+    future.push(pairs.length?pairs:null);}
   const byes=nextPow2(spots)-spots;
   let po=new Array(n).fill(0), ti=new Array(n).fill(0), s1=new Array(n).fill(0);
   const SD=27;
-  const rnd=()=>{let u=0,v=0;while(!u)u=Math.random();while(!v)v=Math.random();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);};
+  const rnd=()=>{let u=0,v=0;while(!u)u=rand();while(!v)v=rand();return Math.sqrt(-2*Math.log(u))*Math.cos(2*Math.PI*v);};
+  const shuffledPairs=()=>{const idx=[...Array(n).keys()];for(let i=n-1;i>0;i--){const k=Math.floor(rand()*(i+1));[idx[i],idx[k]]=[idx[k],idx[i]];}
+    const out=[];for(let i=0;i+1<n;i+=2)out.push([idx[i],idx[i+1]]);return out;};
   for(let s=0;s<N;s++){
     const w=W0.slice(),pf=PF0.slice();
-    for(let r=0;r<rem;r++){
-      const idx=[...Array(n).keys()].sort(()=>Math.random()-0.5);
+    for(const wk of future){
       const sc=mu.map(m=>m+SD*rnd());
-      for(let i=0;i<n;i+=2){const a=idx[i],b=idx[i+1];if(sc[a]>sc[b])w[a]++;else w[b]++;pf[a]+=sc[a];pf[b]+=sc[b];}
+      for(const [a,b] of (wk||shuffledPairs())){if(sc[a]>sc[b])w[a]++;else w[b]++;pf[a]+=sc[a];pf[b]+=sc[b];}
     }
     const order=[...Array(n).keys()].sort((a,b)=>(w[b]-w[a])||(pf[b]-pf[a]));
     const seeds=order.slice(0,spots); seeds.forEach(i=>po[i]++); s1[order[0]]++;
-    // bracket
-    let field=seeds.slice(); // already in seed order
-    // byes: top `byes` skip first round
-    let active=field.slice(byes), bench=field.slice(0,byes);
+    // top `byes` seeds skip the first round; each round pairs best vs worst remaining
+    let active=seeds.slice(byes), bench=seeds.slice(0,byes);
     const game=(a,b)=>((mu[a]+SD*rnd())>(mu[b]+SD*rnd()))?a:b;
     while(active.length+bench.length>1){
-      // pair active by seed: best vs worst
       let winners=[];
       for(let i=0;i<active.length/2;i++){winners.push(game(active[i],active[active.length-1-i]));}
       let pool=bench.concat(winners);
@@ -266,30 +444,27 @@ function renderCore(){
   const {lg,pwk}=CUR;
   $("#title").textContent=lg.name;
   const comp=Object.keys(CUR.weeks).length;
-  $("#meta").textContent=`${lg.season} · ${lg.total_rosters} teams · through Week ${comp} · ${lg.scoring_settings.rec||0} PPR`;
+  $("#meta").textContent=`${lg.season} · ${lg.total_rosters} teams · through Week ${comp}${CUR.live?` (Week ${CUR.upWeek} in progress)`:""} · ${lg.scoring_settings.rec||0} PPR`;
   const {T,games,completed}=compute();
   CUR._T=T; CUR._games=games; CUR._completed=completed;
-  // power order
-  const power=[...T].sort((a,b)=>(b.appct-a.appct)||(b.pf-a.pf));
+  const byPower=(a,b)=>(b.appct-a.appct)||(b.pf-a.pf);
+  const power=[...T].sort(byPower);
   CUR._power=power;
-  // movement vs stored
-  const key=`pw_${CUR.id}`; let prev={};
-  try{prev=JSON.parse(localStorage.getItem(key)||"{}")}catch(e){}
-  const curOrder=power.map(t=>t.name);
-  let move={};
-  if(prev.week!=null && prev.week<completed.length && prev.order){
-    prev.order.forEach((nm,i)=>{const now=curOrder.indexOf(nm);if(now>=0)move[nm]=i-now;});
-  } else if(prev.order){ prev.order.forEach((nm,i)=>{const now=curOrder.indexOf(nm);if(now>=0)move[nm]=i-now;}); }
+  // movement vs the same ranking one week earlier, rebuilt from the box scores so everyone sees the same arrows
+  const move={};
+  if(completed.length>1){const st=statsThrough(completed[completed.length-2]);
+    const prev=Object.keys(st).map(r=>({name:CUR.rName[r],...st[r]})).sort(byPower).map(t=>t.name);
+    power.forEach((t,i)=>{const was=prev.indexOf(t.name);if(was>=0)move[t.name]=was-i;});}
   CUR._move=move;
-  if(prev.week==null||prev.week<completed.length){localStorage.setItem(key,JSON.stringify({week:completed.length,order:curOrder}));}
 
   buildTabs();
-  renderStandings(); renderLuck(); renderPower(); renderOdds(); renderMatchup();
+  renderStandings(); renderLuck(); renderScores(); renderPower(); renderOdds(); renderMatchup();
   // award/coach that need only scores:
   renderHardwareCore(); renderCoach();
   renderPicks();
   renderDispatch();
   if(SHOTGUN_LEAGUES.includes(CUR.id)) renderShotgun();
+  if(historyFor(CUR.id)) renderHistory();
 }
 
 function shotgunData(){
@@ -482,7 +657,7 @@ function generateDispatch(){
   const byRec=[...T].sort((a,b)=>(b.w-a.w)||(b.pf-a.pf));
   const byPF=[...T].sort((a,b)=>b.pf-a.pf);
   const pfRank=nm=>byPF.findIndex(t=>t.name===nm)+1;
-  const byLuck=[...T].sort((a,b)=>(b.winpct-b.appct)-(a.winpct-a.appct));
+  const byLuck=[...T].sort((a,b)=>luckWins(b)-luckWins(a));
   const undef=T.filter(t=>t.l===0&&t.w>0).sort((a,b)=>b.w-a.w);
   const winless=T.filter(t=>t.w===0&&t.l>0).sort((a,b)=>b.appct-a.appct);
   const best=P[0];
@@ -526,87 +701,137 @@ function renderDispatch(){
 }
 
 function buildTabs(){
-  const tabs=[["dispatch","📰 Dispatch"],["standings","Standings"],["luck","Luck Map"],["power","Power"],["odds","Playoff Odds"],
+  const tabs=[["dispatch","📰 Dispatch"],["standings","Standings"],["luck","Luck Map"],["scores","Scores"],["power","Power"],["odds","Playoff Odds"],
     ["hardware","The Hardware"],["matchup","Matchup"],["picks","🔮 Picks"],["coach","Coach Ratings"],["draft","Draft & Moves"]];
   if(SHOTGUN_LEAGUES.includes(CUR.id)) tabs.splice(1,0,["shotgun","🥤 Shotgun"]);
-  $("#tabs").innerHTML=tabs.map((t,i)=>`<button data-t="${t[0]}" class="${i===0?'on':''}">${t[1]}</button>`).join("");
-  $("#app").innerHTML=tabs.map((t,i)=>`<section id="sec-${t[0]}" class="${i===0?'on':''}"></section>`).join("");
-  document.querySelectorAll("#tabs button").forEach(b=>b.onclick=()=>{
-    document.querySelectorAll("#tabs button").forEach(x=>x.classList.remove("on"));
-    document.querySelectorAll("section").forEach(x=>x.classList.remove("on"));
-    b.classList.add("on"); $("#sec-"+b.dataset.t).classList.add("on");
-  });
+  if(historyFor(CUR.id)) tabs.push(["history","🏛 History"]);
+  // the open tab lives in the URL hash, so refreshes and shared links land on the same tab
+  const want=(location.hash||"").slice(1), first=tabs.some(t=>t[0]===want)?want:tabs[0][0];
+  $("#tabs").setAttribute("role","tablist");
+  $("#tabs").innerHTML=tabs.map(t=>`<button role="tab" data-t="${t[0]}" aria-selected="${t[0]===first}" tabindex="${t[0]===first?0:-1}" class="${t[0]===first?'on':''}">${t[1]}</button>`).join("");
+  $("#app").innerHTML=tabs.map(t=>`<section role="tabpanel" id="sec-${t[0]}" class="${t[0]===first?'on':''}"></section>`).join("");
+  const btns=[...document.querySelectorAll("#tabs button")];
+  const open=b=>{btns.forEach(x=>{const on=x===b;x.classList.toggle("on",on);x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;});
+    document.querySelectorAll("#app > section").forEach(x=>x.classList.toggle("on",x.id==="sec-"+b.dataset.t));
+    hideTip();try{history.replaceState(null,"",location.search+"#"+b.dataset.t);}catch(e){}};
+  btns.forEach((b,i)=>{b.onclick=()=>open(b);
+    b.onkeydown=e=>{const k={ArrowRight:1,ArrowLeft:-1}[e.key];if(!k)return;e.preventDefault();
+      const nx=btns[(i+k+btns.length)%btns.length];nx.focus();open(nx);};});
 }
 const me=nm=>CUR.mine&&nm===CUR.mine?' class="me"':'';
 
 function recstr(t){return `${t.w}-${t.l}${t.t?('-'+t.t):''}`;}
 
+const luckWins=t=>(t.w+t.t/2)-t.appct*t.g; // actual wins minus the wins your scores earned (all-play % x games)
+const luckTag=t=>{const v=luckWins(t);return v>=1?'<span class="up">lucky</span>':v<=-1?'<span class="down">robbed</span>':'<span class="flat">fair</span>';};
+const signed=v=>(v>0?"+":v<0?"−":"")+Math.abs(v).toFixed(1);
+
 function renderStandings(){
-  const T=[...CUR._T].sort((a,b)=>(b.w-a.w)||(b.pf-a.pf));
-  let h=`<h2>Standings</h2><p class="sub">Click any header to sort. "All-play" is your record against the whole league each week.</p>
-  <table id="stbl"><thead><tr>
-  <th data-k="rank">#</th><th data-k="name">Team</th><th class="n" data-k="w">Rec</th>
-  <th class="n" data-k="pf">PF</th><th class="n" data-k="pa">PA</th>
-  <th class="n" data-k="appct">All-play</th><th class="n" data-k="luck">Luck</th></tr></thead><tbody>`;
-  T.forEach((t,i)=>{const luck=t.winpct-t.appct;const lk=luck>.08?'<span class="up">lucky</span>':luck<-.08?'<span class="down">robbed</span>':'<span class="flat">fair</span>';
-    h+=`<tr${me(t.name)}><td>${i+1}</td><td>${t.name}</td><td class="n">${recstr(t)}</td>
-    <td class="n">${n1(t.pf)}</td><td class="n">${n1(t.pa)}</td><td class="n">${t.aw}-${t.al}</td><td class="n">${lk}</td></tr>`;});
-  h+="</tbody></table>";
-  $("#sec-standings").innerHTML=h;
-  // sorting
-  document.querySelectorAll("#stbl th").forEach(th=>th.onclick=()=>{
-    const k=th.dataset.k; let arr=[...CUR._T];
-    if(k==="name")arr.sort((a,b)=>a.name.localeCompare(b.name));
-    else if(k==="luck")arr.sort((a,b)=>(b.winpct-b.appct)-(a.winpct-a.appct));
-    else if(k==="rank"||k==="w")arr.sort((a,b)=>(b.w-a.w)||(b.pf-a.pf));
-    else arr.sort((a,b)=>b[k]-a[k]);
-    const T2=arr;let h2=$("#stbl").outerHTML; // rebuild body
-    const tb=document.querySelector("#stbl tbody");tb.innerHTML="";
-    T2.forEach((t,i)=>{const luck=t.winpct-t.appct;const lk=luck>.08?'<span class="up">lucky</span>':luck<-.08?'<span class="down">robbed</span>':'<span class="flat">fair</span>';
-      const tr=document.createElement("tr");if(CUR.mine&&t.name===CUR.mine)tr.className="me";
-      tr.innerHTML=`<td>${i+1}</td><td>${t.name}</td><td class="n">${recstr(t)}</td><td class="n">${n1(t.pf)}</td><td class="n">${n1(t.pa)}</td><td class="n">${t.aw}-${t.al}</td><td class="n">${lk}</td>`;
-      tb.appendChild(tr);});
-  });
+  const byRec=(a,b)=>(b.winpct-a.winpct)||(b.pf-a.pf);
+  const place={};[...CUR._T].sort(byRec).forEach((t,i)=>place[t.name]=i+1);
+  const cols=[["rank","#",""],["name","Team",""],["w","Rec","n"],["pf","PF","n"],["pa","PA","n"],["appct","All-play","n"],["luck","Luck","n"]];
+  const key={rank:t=>-place[t.name],name:t=>t.name.toLowerCase(),w:t=>t.winpct*1e4+t.pf/1e3,pf:t=>t.pf,pa:t=>t.pa,appct:t=>t.appct,luck:luckWins};
+  let sortBy="rank",dir=1; // dir 1 = best first
+  const draw=()=>{
+    const T=[...CUR._T].sort((a,b)=>{const x=key[sortBy](a),y=key[sortBy](b);const c=sortBy==="name"?x.localeCompare(y):y-x;return c*dir;});
+    $("#sec-standings").innerHTML=`<h2>Standings</h2><p class="sub">Click a header to sort, again to flip it. "All-play" is your record against the whole league each week. Click a team for its card.</p>
+    <table id="stbl"><thead><tr>${cols.map(([k,l,c])=>`<th class="${c}" data-k="${k}" aria-sort="${k===sortBy?(dir===1?"descending":"ascending"):"none"}">${l}${k===sortBy?`<span class="ar">${dir===1?"▼":"▲"}</span>`:""}</th>`).join("")}</tr></thead><tbody>${
+      T.map(t=>`<tr${me(t.name)}><td>${place[t.name]}</td><td>${tl(t.name)}</td><td class="n">${recstr(t)}</td>
+      <td class="n">${n1(t.pf)}</td><td class="n">${n1(t.pa)}</td><td class="n">${t.aw}-${t.al}</td><td class="n">${luckTag(t)}</td></tr>`).join("")}</tbody></table>`;
+    document.querySelectorAll("#stbl th").forEach(th=>th.onclick=()=>{const k=th.dataset.k;dir=k===sortBy?-dir:1;sortBy=k;draw();});
+  };
+  draw();
 }
 
 function renderLuck(){
-  const T=CUR._T;const W=760,H=460,m=54;
-  const x=v=>m+v*(W-2*m), y=v=>H-m-v*(H-2*m);
-  let dots="",lbls="";
-  T.forEach(t=>{const px=x(t.appct),py=y(t.winpct);const d=t.winpct-t.appct;
-    const c=d>.06?'#1f7a8c':(d<-.06?'#8f2230':'#8b8178');
-    dots+=`<circle cx="${px}" cy="${py}" r="7" fill="${c}" stroke="var(--paper)" stroke-width="2"><title>${t.name}: ${recstr(t)} · all-play ${t.aw}-${t.al}</title></circle>`;
-    lbls+=`<text class="lbl" x="${px+10}" y="${py+4}"${CUR.mine&&t.name===CUR.mine?' font-weight="bold"':''}>${t.name}</text>`;});
-  $("#sec-luck").innerHTML=`<h2>The luck map</h2><p class="sub">Above the dotted line you're winning more than you deserve. Below it, you're getting robbed. Hover a dot for the record.</p>
-  <svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;background:var(--card);border:1px solid var(--rule);border-radius:8px">
+  const rows=CUR._T.map(t=>({t,exp:t.appct*t.g,luck:luckWins(t)})).sort((a,b)=>b.luck-a.luck);
+  let view="plot";try{view=localStorage.getItem("almanac_luckview")||"plot";}catch(e){}
+  const table=`<table><thead><tr><th>Team</th><th class="n">Record</th><th class="n">All-play</th><th class="n">Wins earned</th><th class="n">Luck</th></tr></thead><tbody>${
+    rows.map(r=>`<tr${me(r.t.name)}><td>${tl(r.t.name)}</td><td class="n">${recstr(r.t)}</td><td class="n">${r.t.aw}-${r.t.al}</td><td class="n">${r.exp.toFixed(1)}</td><td class="n">${signed(r.luck)}</td></tr>`).join("")}</tbody></table>`;
+  $("#sec-luck").innerHTML=`<h2>The luck map</h2>
+    <p class="sub">All-play asks how you'd do against every team every week: that's what your scores deserve. The gap between it and your real record is schedule luck.</p>
+    <div class="seg" role="group" aria-label="Chart type"><button data-v="plot">Plot</button><button data-v="bars">Bars</button></div>
+    <div class="lk-legend"><span><i class="sw up"></i>Lucky: more wins than earned</span><span><i class="sw dn"></i>Robbed: fewer wins than earned</span></div>
+    <div id="lk-body"></div>
+    <details class="lk-table"><summary>Show as a table</summary>${table}</details>`;
+  const draw=()=>{document.querySelectorAll("#sec-luck .seg button").forEach(b=>b.classList.toggle("on",b.dataset.v===view));
+    $("#lk-body").innerHTML=view==="plot"?luckPlot(rows):luckBars(rows);
+    bindTips($("#lk-body"),"[data-i]",el=>{const r=rows[+el.dataset.i];
+      return [["b",`${signed(r.luck)} wins`],["span",unesc(r.t.name)],["small",`${recstr(r.t)} record · ${r.t.aw}-${r.t.al} all-play · ${r.exp.toFixed(1)} wins earned`]];});};
+  document.querySelectorAll("#sec-luck .seg button").forEach(b=>b.onclick=()=>{view=b.dataset.v;try{localStorage.setItem("almanac_luckview",view);}catch(e){}draw();});
+  draw();
+}
+const unesc=s=>{const d=document.createElement("textarea");d.innerHTML=s;return d.value;};
+function luckBars(rows){
+  const lim=Math.ceil(Math.max(1,...rows.map(r=>Math.abs(r.luck))));
+  return `<div class="lk"><div class="lk-axis"><span></span><span class="lk-ticks"><b>−${lim}</b><b>0</b><b>+${lim}</b></span><span></span></div>${
+    rows.map((r,i)=>{const w=Math.abs(r.luck)/lim*50;
+      const bar=r.luck>=0?`<span class="lk-bar up" style="left:50%;width:${w}%"></span>`:`<span class="lk-bar dn" style="right:50%;width:${w}%"></span>`;
+      return `<div class="lk-row" tabindex="0" data-i="${i}"><span class="lk-name${CUR.mine===r.t.name?" me":""}">${tl(r.t.name)}</span>
+        <span class="lk-track">${bar}</span><span class="lk-val">${signed(r.luck)}</span></div>`;}).join("")}</div>`;
+}
+// Scatter: all-play % across, real win % up. On the diagonal your record matches your scores.
+function luckPlot(rows){
+  // drawn at the page's real width so labels stay 11px on phones instead of shrinking with the viewBox
+  const W=Math.max(320,Math.min(760,$(".wrap").clientWidth-46)),H=Math.round(Math.max(340,W*.63)),L=52,R=24,Tp=20,B=46,pw=W-L-R,ph=H-Tp-B;
+  const x=v=>L+v*pw,y=v=>Tp+(1-v)*ph;
+  const col=r=>r.luck>=1?"var(--lucky)":r.luck<=-1?"var(--robbed)":"var(--faint)";
+  const grid=[0,.25,.5,.75,1].map(v=>`<line class="grid" x1="${x(0)}" x2="${x(1)}" y1="${y(v)}" y2="${y(v)}"/><line class="grid" x1="${x(v)}" x2="${x(v)}" y1="${y(0)}" y2="${y(1)}"/>
+    <text class="tick" x="${L-8}" y="${y(v)+4}" text-anchor="end">${v*100}%</text><text class="tick" x="${x(v)}" y="${H-B+18}" text-anchor="middle">${v*100}%</text>`).join("");
+  // teams on the same spot share one dot and one label
+  const spots={};rows.forEach((r,i)=>{const k=r.t.appct.toFixed(4)+"|"+r.t.winpct.toFixed(4);(spots[k]=spots[k]||[]).push(i);});
+  const pts=Object.values(spots).map(ix=>{const r=rows[ix[0]];
+    const names=ix.map(i=>rows[i].t.name);
+    return {ix,names,cx:x(r.t.appct),cy:y(r.t.winpct),label:names.join(", "),mine:names.includes(CUR.mine),
+      w:Math.max(...names.map(n=>unesc(n).length))*6.6+4,h:names.length*13};});
+  // labels (tied teams stacked one per line) sit right of the dot, left near the edge,
+  // then get nudged apart vertically until they clear each other and every dot
+  pts.forEach(p=>{p.left=p.cx+10+p.w>W-R;p.lx=p.left?p.cx-10:p.cx+10;p.top=p.cy-p.h/2-2;});
+  const box=p=>p.left?[p.lx-p.w,p.lx]:[p.lx,p.lx+p.w];
+  for(let it=0;it<300;it++){let moved=false;
+    for(const a of pts)for(const b of pts){if(a===b)continue;const [a0,a1]=box(a),[b0,b1]=box(b);
+      const ov=Math.min(a.top+a.h,b.top+b.h)-Math.max(a.top,b.top);
+      if(a0<b1&&b0<a1&&ov>0){const s=a.top<=b.top?-1:1;a.top+=s*(ov/2+.5);b.top-=s*(ov/2+.5);moved=true;}
+      if(b.cx>a0-8&&b.cx<a1+8&&b.cy>a.top-8&&b.cy<a.top+a.h+8){a.top+=(a.top+a.h/2<=b.cy?-1:1)*1.5;moved=true;}}
+    pts.forEach(p=>{p.top=Math.max(Tp,Math.min(H-B-p.h,p.top));});
+    if(!moved)break;}
+  const labels=pts.map(p=>{const mid=p.top+p.h/2;
+    return `${Math.abs(mid-p.cy)>9?`<line class="lead" x1="${p.cx+(p.left?-7:7)}" y1="${p.cy}" x2="${p.lx}" y2="${mid}"/>`:""}
+    <text class="lbl${p.mine?" me":""}" text-anchor="${p.left?"end":"start"}">${p.names.map((n,k)=>`<tspan x="${p.lx}" y="${p.top+10+k*13}"${n===CUR.mine?' font-weight="700"':""}>${n}</tspan>`).join("")}</text>`;}).join("");
+  const dots=pts.map(p=>{const r=rows[p.ix[0]];return `<circle class="dot${p.mine?" me":""}" tabindex="0" data-i="${p.ix[0]}" data-team="${esc(r.t.name)}" cx="${p.cx}" cy="${p.cy}" r="${p.ix.length>1?9:7}" fill="${col(r)}"><title>${p.label}</title></circle>`;}).join("");
+  return `<div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Luck map: all-play win percentage against actual win percentage">
+    <polygon class="zone-up" points="${x(0)},${y(0)} ${x(0)},${y(1)} ${x(1)},${y(1)}"/>
+    <polygon class="zone-dn" points="${x(0)},${y(0)} ${x(1)},${y(0)} ${x(1)},${y(1)}"/>
+    ${grid}
     <line class="diag" x1="${x(0)}" y1="${y(0)}" x2="${x(1)}" y2="${y(1)}"/>
-    <line class="axis" x1="${m}" y1="${H-m}" x2="${W-m}" y2="${H-m}"/>
-    <line class="axis" x1="${m}" y1="${m}" x2="${m}" y2="${H-m}"/>
-    <text class="lbl" x="${x(.08)}" y="${y(.93)}" fill="#1f7a8c" font-weight="bold" font-style="italic" font-size="14">LUCKY</text>
-    <text class="lbl" x="${x(.72)}" y="${y(.07)}" fill="#8f2230" font-weight="bold" font-style="italic" font-size="14">ROBBED</text>
-    <text class="lbl" x="${W/2}" y="${H-14}" text-anchor="middle" fill="var(--muted)">All-play win% — how good you've actually been</text>
-    ${dots}${lbls}
-  </svg>`;
+    <text class="zlbl" x="${x(.03)}" y="${y(.94)}" fill="var(--lucky)">LUCKY</text>
+    <text class="zlbl" x="${x(.97)}" y="${y(.04)}" fill="var(--robbed)" text-anchor="end">ROBBED</text>
+    <text class="tick" x="${L+pw/2}" y="${H-6}" text-anchor="middle">All-play win %: how good your scores have been</text>
+    <text class="tick" transform="translate(13 ${Tp+ph/2}) rotate(-90)" text-anchor="middle">Actual win %</text>
+    ${dots}${labels}</svg></div>`;
 }
 
 function renderPower(){
   const P=CUR._power,mv=CUR._move;
-  let h=`<h2>Power rankings</h2><p class="sub">Ranked by all-play (true strength), with movement since you last opened this on an earlier week.</p>`;
+  let h=`<h2>Power rankings</h2><p class="sub">Ranked by all-play (true strength), with movement since last week.</p>`;
   P.forEach((t,i)=>{const d=mv[t.name];
     const arrow=d>0?`<span class="up">▲ ${d}</span>`:d<0?`<span class="down">▼ ${-d}</span>`:`<span class="flat">— 0</span>`;
-    h+=`<div class="rk"><div class="n">${i+1}</div><div class="mv">${arrow}</div><div class="tx"><span class="tm"${CUR.mine&&t.name===CUR.mine?' style="text-decoration:underline"':''}>${t.name}</span> — ${recstr(t)}, ${t.aw}-${t.al} all-play, ${n1(t.pfg)} pts/game</div></div>`;});
+    h+=`<div class="rk"><div class="n">${i+1}</div><div class="mv">${arrow}</div><div class="tx"><span class="tm"${CUR.mine&&t.name===CUR.mine?' style="color:var(--gold)"':''}>${tl(t.name)}</span> — ${recstr(t)}, ${t.aw}-${t.al} all-play, ${n1(t.pfg)} pts/game</div></div>`;});
   $("#sec-power").innerHTML=h;
 }
 
 function renderOdds(){
   $("#sec-odds").innerHTML=`<h2>Playoff &amp; title odds</h2><p class="sub"><span class="spin"></span>Running 4,000 simulated seasons in your browser…</p>`;
+  const cur=CUR;
   setTimeout(()=>{
+    if(cur!==CUR||!$("#sec-odds"))return; // league changed while waiting
     const spots=CUR.lg.settings.playoff_teams||6;
     const res=simulate(CUR._T,CUR.pwk-1,CUR._completed.length,spots,4000);
+    CUR._odds={};res.forEach(r=>CUR._odds[r.name]=r);
     res.sort((a,b)=>b.playoff-a.playoff);
-    let h=`<h2>Playoff &amp; title odds</h2><p class="sub">${spots} of ${CUR._T.length} make the playoffs. A 4,000-season Monte Carlo from current records — a forecast, not a promise.</p>
+    let h=`<h2>Playoff &amp; title odds</h2><p class="sub">${spots} of ${CUR._T.length} make the playoffs. 4,000 simulated seasons that play out the real remaining schedule. A forecast, not a promise.</p>
     <table><thead><tr><th>Team</th><th class="n">Playoffs</th><th class="n">1 seed</th><th class="n">Title</th></tr></thead><tbody>`;
-    res.forEach(r=>{h+=`<tr${me(r.name)}><td>${r.name}</td><td class="n">${pct(r.playoff)}%</td><td class="n">${pct(r.top)}%</td><td class="n">${pct(r.title)}%</td></tr>`;});
+    res.forEach(r=>{h+=`<tr${me(r.name)}><td>${tl(r.name)}</td><td class="n">${pct(r.playoff)}%</td><td class="n">${pct(r.top)}%</td><td class="n">${pct(r.title)}%</td></tr>`;});
     h+="</tbody></table>";
     $("#sec-odds").innerHTML=h;
   },30);
@@ -618,31 +843,53 @@ function renderMatchup(){
   const {rName,upcoming,upWeek}=CUR;
   const bm={};upcoming.forEach(x=>{(bm[x.matchup_id]=bm[x.matchup_id]||[]).push(x);});
   const byName={};CUR._T.forEach(t=>byName[t.name]=t);
-  const pairs=[];for(const k in bm){const [a,b]=bm[k];if(a&&b)pairs.push([rName[a.roster_id],rName[b.roster_id]]);}
+  const comp=CUR._completed;const rate=comp.length?strengthThrough(comp[comp.length-1]).rate:null;
+  const prob=(a,b)=>rate?CONF(rate[a]-rate[b]):.5; // P(a beats b)
+  const pairs=[];for(const k in bm){const [a,b]=bm[k];if(a&&b)pairs.push({a:rName[a.roster_id],b:rName[b.roster_id],pa:prob(a.roster_id,b.roster_id)});}
   // spotlight = pair maximizing combined all-play + closeness
   let best=null,bs=-1;
-  pairs.forEach(([a,b])=>{const A=byName[a],B=byName[b];if(!A||!B)return;
+  pairs.forEach(p=>{const A=byName[p.a],B=byName[p.b];if(!A||!B)return;
     const juice=(A.appct+B.appct)*2 - Math.abs(A.appct-B.appct);
-    if(juice>bs){bs=juice;best=[a,b];}});
-  CUR._matchSpot=best;
+    if(juice>bs){bs=juice;best=p;}});
+  CUR._matchSpot=best&&[best.a,best.b];
   let h=`<h2>Matchup of the week <span class="badge">WK ${upWeek}</span></h2>`;
-  if(best){const A=byName[best[0]],B=byName[best[1]];
-    h+=`<div class="motw"><div class="vs">${A.name} (${recstr(A)}) &nbsp;vs&nbsp; ${B.name} (${recstr(B)})</div>
-    <p>All-play: ${A.name} ${A.aw}-${A.al} · ${B.name} ${B.aw}-${B.al}. Scoring: ${n1(A.pfg)} vs ${n1(B.pfg)} per game.</p></div>`;}
-  h+=`<p class="sub" style="margin-top:14px">All week ${upWeek} matchups:</p><table><tbody>`;
-  pairs.forEach(([a,b])=>{const A=byName[a]||{},B=byName[b]||{};
-    h+=`<tr><td${CUR.mine&&(a===CUR.mine)?' style="font-weight:bold"':''}>${a} (${A.w||0}-${A.l||0})</td><td style="text-align:center;color:var(--muted)">vs</td><td style="text-align:right"${CUR.mine&&(b===CUR.mine)?' ':''}>${b} (${B.w||0}-${B.l||0})</td></tr>`;});
+  if(best){const A=byName[best.a],B=byName[best.b];
+    h+=`<div class="motw"><div class="vs">${tl(A.name)} (${recstr(A)}) &nbsp;vs&nbsp; ${tl(B.name)} (${recstr(B)})</div>
+    <p>All-play: ${A.name} ${A.aw}-${A.al} · ${B.name} ${B.aw}-${B.al}. Scoring: ${n1(A.pfg)} vs ${n1(B.pfg)} per game. Model: ${best.pa>=.5?A.name:B.name} ${pct(Math.max(best.pa,1-best.pa))}%.</p></div>`;}
+  h+=`<p class="sub" style="margin-top:14px">All week ${upWeek} matchups, with the model's win chance:</p><table><tbody>`;
+  const cell=(nm,p)=>{const t=byName[nm];return `<span${nm===CUR.mine?' style="font-weight:700;color:var(--gold)"':""}>${tl(nm)}</span> <span class="sub">${t?recstr(t):"0-0"} · ${pct(p)}%</span>`;};
+  pairs.forEach(p=>{h+=`<tr><td>${cell(p.a,p.pa)}</td><td style="text-align:center;color:var(--muted)">vs</td><td style="text-align:right">${cell(p.b,1-p.pa)}</td></tr>`;});
   h+="</tbody></table>";
   sec.innerHTML=h;
 }
 
+// Sleeper stores each roster's season points (fpts) and best-possible-lineup points (ppts), so use those.
+// Older leagues without ppts fall back to rebuilding the best lineup each week, which needs player positions.
+function coachRows(){
+  const dec=(a,b)=>(a||0)+(b||0)/100;
+  const fromSleeper=CUR.rosters.map(r=>({name:CUR.rName[r.roster_id],act:dec(r.settings.fpts,r.settings.fpts_decimal),opt:dec(r.settings.ppts,r.settings.ppts_decimal)}));
+  if(fromSleeper.every(r=>r.opt>0))return fromSleeper;
+  if(!PLAYERS||!CUR.lg.roster_positions)return null;
+  const tot={};
+  for(const w of CUR._completed)for(const x of CUR.weeks[w]){const t=tot[x.roster_id]=tot[x.roster_id]||{name:CUR.rName[x.roster_id],act:0,opt:0};
+    t.act+=x.points||0;t.opt+=Math.max(x.points||0,x.players_points?bestLineup(CUR.lg.roster_positions,x.players_points):0);}
+  return Object.values(tot);
+}
 function renderCoach(){
-  const T=[...CUR._T].sort((a,b)=>a.left-b.left);
-  let h=`<h2>Coach ratings</h2><p class="sub">Points left on the bench all season — the part you actually control. Lower is better.</p>
-  <table><thead><tr><th>#</th><th>Manager</th><th class="n">Points benched</th></tr></thead><tbody>`;
-  T.forEach((t,i)=>h+=`<tr${me(t.name)}><td>${i+1}</td><td>${t.name}</td><td class="n">${n1(t.left)}</td></tr>`);
-  h+="</tbody></table>";
-  $("#sec-coach").innerHTML=h;
+  const sec=$("#sec-coach");if(!sec)return;
+  const rows=coachRows();
+  const head=`<h2>Coach ratings</h2><p class="sub">How close each lineup came to the best one possible from the same roster, all season. Efficiency is points scored ÷ best possible; points benched is the gap. Higher efficiency is better.</p>`;
+  if(!rows){sec.innerHTML=head+`<p class="sub"><span class="spin"></span>Loading player positions from Sleeper…</p>`;return;}
+  rows.forEach(r=>{r.left=Math.max(0,r.opt-r.act);r.eff=r.opt?r.act/r.opt:1;});
+  rows.sort((a,b)=>b.eff-a.eff);
+  const lo=Math.floor(Math.min(...rows.map(r=>r.eff))*20)/20; // bars start at the nearest 5% below the worst, so gaps are visible
+  sec.innerHTML=head+`<table><thead><tr><th>#</th><th>Manager</th><th style="width:40%">Efficiency</th><th class="n">Scored</th><th class="n">Best possible</th><th class="n">Benched</th></tr></thead><tbody>${
+    rows.map((r,i)=>`<tr${me(r.name)}><td>${i+1}</td><td>${tl(r.name)}</td>
+      <td><span style="display:flex;align-items:center;gap:8px"><span style="flex:1;height:10px;background:var(--panel-2);border-radius:3px;overflow:hidden">
+        <span style="display:block;height:100%;width:${Math.max(2,(r.eff-lo)/(1-lo)*100)}%;background:var(--lucky);border-radius:0 3px 3px 0"></span></span>
+        <span style="min-width:44px;text-align:right">${(r.eff*100).toFixed(1)}%</span></span></td>
+      <td class="n">${r.act.toFixed(1)}</td><td class="n">${r.opt.toFixed(1)}</td><td class="n">${r.left.toFixed(1)}</td></tr>`).join("")}</tbody></table>
+    <p class="sub">Bars start at ${Math.round(lo*100)}% so the differences show.</p>`;
 }
 
 function renderHardwareCore(){
@@ -664,11 +911,120 @@ function renderHardwareCore(){
   <div id="hw-players"></div>`;
 }
 
+//============ SCORES HEATMAP ============
+// Each cell is shaded by how far the score sat above or below that week's median, so a big week in a low-scoring week still shows.
+function weekMedians(){const med={};
+  CUR._completed.forEach(w=>{const v=CUR.weeks[w].map(x=>x.points||0).sort((a,b)=>a-b),n=v.length;med[w]=n%2?v[(n-1)/2]:(v[n/2-1]+v[n/2])/2;});
+  return med;}
+function renderScores(){
+  const sec=$("#sec-scores"),wks=CUR._completed;
+  if(!wks.length){sec.innerHTML="<h2>Scores</h2><p class='sub'>No completed weeks yet.</p>";return;}
+  const med=weekMedians(),T=[...CUR._T].sort((a,b)=>b.pf-a.pf);
+  const lim=Math.max(10,...T.flatMap(t=>t.log.map(g=>Math.abs(g.p-med[g.wk]))));
+  const shade=d=>{const k=Math.round(Math.sqrt(Math.min(1,Math.abs(d)/lim))*80);return `color-mix(in srgb,${d>=0?"var(--lucky)":"var(--robbed)"} ${k}%,var(--panel-2))`;};
+  const rankIn=(w,p)=>1+CUR.weeks[w].filter(x=>(x.points||0)>p).length;
+  CUR._cells={};
+  const body=T.map(t=>{const by={};t.log.forEach(g=>by[g.wk]=g);
+    return `<tr${me(t.name)}><td class="tn">${tl(t.name)}</td>${wks.map(w=>{const g=by[w];if(!g)return `<td class="avg">–</td>`;
+      const id=t.rid+"-"+w;CUR._cells[id]={t,g,rank:rankIn(w,g.p),med:med[w]};
+      return `<td class="cell ${g.res==="W"?"w":""}" tabindex="0" data-c="${id}" data-team="${esc(t.name)}" style="background:${shade(g.p-med[w])}">${Math.round(g.p)}<i>${g.res}</i></td>`;}).join("")}
+      <td class="avg">${n1(t.pfg)}</td></tr>`;}).join("");
+  sec.innerHTML=`<h2>Scores</h2><p class="sub">Every team, every week. Shaded against that week's median score, so a big week stands out even when the whole league scored low. W or L marks the result. Hover a cell for the matchup; click it for the team card.</p>
+    <p class="sub"><span>Below median</span><span class="ramp"></span><span>Above median</span></p>
+    <div style="overflow-x:auto"><table class="hm" style="min-width:${194+wks.length*54}px"><colgroup><col class="tn">${wks.map(()=>"<col>").join("")}<col class="av"></colgroup><thead><tr><th class="tn">Team</th>${wks.map(w=>`<th>W${w}</th>`).join("")}<th>Avg</th></tr></thead>
+    <tbody>${body}</tbody><tfoot><tr><td class="tn sub">Median</td>${wks.map(w=>`<td class="avg">${Math.round(med[w])}</td>`).join("")}<td></td></tr></tfoot></table></div>`;
+  bindTips(sec,"td.cell",el=>{const c=CUR._cells[el.dataset.c],g=c.g,n=CUR.weeks[g.wk].length;
+    return [["b",`Week ${g.wk}: ${n1(g.p)}`],["span",`${g.res==="W"?"Beat":g.res==="L"?"Lost to":"Tied"} ${unesc(g.opp)} (${n1(g.op)})`],
+      ["small",`${ordinal(c.rank)} of ${n} this week · ${signed(g.p-c.med)} vs median`]];});
+}
+
+//============ TEAM CARD ============
+function openCard(name){
+  const t=CUR._T.find(x=>x.name===name);if(!t)return;
+  const dlg=$("#card"),med=weekMedians(),odds=CUR._odds&&CUR._odds[name];
+  const power=CUR._power.findIndex(x=>x.name===name)+1,lk=luckWins(t);
+  const stat=(k,v)=>`<div class="stat"><div class="k">${k}</div><div class="v">${v}</div></div>`;
+  // weekly scores as bars, with the league median as a tick so a "good" week reads at a glance
+  const W=580,H=170,L=34,B=22,top=10,max=Math.max(1,...t.log.map(g=>Math.max(g.p,med[g.wk]))),n=Math.max(1,t.log.length);
+  const bw=(W-L-8)/n,y=v=>top+(1-v/max)*(H-top-B);
+  const ticks=[0,.5,1].map(f=>{const v=Math.round(max*f);return `<line class="grid" x1="${L}" x2="${W-4}" y1="${y(v)}" y2="${y(v)}"/><text class="tick" x="${L-6}" y="${y(v)+4}" text-anchor="end">${v}</text>`;}).join("");
+  const bars=t.log.map((g,i)=>{const x0=L+i*bw+bw*.18,w=bw*.64;
+    return `<g class="bw" tabindex="0" data-i="${i}"><rect x="${L+i*bw}" y="${top}" width="${bw}" height="${H-top-B}" fill="transparent"/>
+      <rect x="${x0}" y="${y(g.p)}" width="${w}" height="${Math.max(1,y(0)-y(g.p))}" rx="3" fill="${g.res==="W"?"var(--lucky)":g.res==="L"?"var(--robbed)":"var(--faint)"}"/>
+      <line x1="${x0-3}" x2="${x0+w+3}" y1="${y(med[g.wk])}" y2="${y(med[g.wk])}" stroke="var(--ink)" stroke-width="2"/>
+      <text class="tick" x="${x0+w/2}" y="${H-6}" text-anchor="middle">${g.wk}</text></g>`;}).join("");
+  const left=[];for(let w=(CUR._completed.length||0)+1;w<CUR.pwk;w++){const m=CUR.sched[w];if(!m)continue;
+    const mine=m.find(x=>String(x.roster_id)===String(t.rid));const opp=mine&&m.find(x=>x.matchup_id===mine.matchup_id&&x.roster_id!==mine.roster_id);
+    if(opp)left.push(`W${w} ${tl(CUR.rName[opp.roster_id])}`);}
+  dlg.innerHTML=`<div class="card-head"><div><div class="kicker">${power?`#${power} in power`:""}${name===CUR.mine?" · you":""}</div><h3>${name}</h3></div>
+      <button class="ghost" id="card-x" aria-label="Close">✕</button></div>
+    <div class="stats">${stat("Record",recstr(t))}${stat("All-play",`${t.aw}-${t.al}`)}${stat("Luck",`${signed(lk)} W`)}${stat("Pts / game",n1(t.pfg))}
+      ${stat("PF / PA",`${Math.round(t.pf)} / ${Math.round(t.pa)}`)}${odds?stat("Playoffs",pct(odds.playoff)+"%"):""}${odds?stat("Title",pct(odds.title)+"%"):""}</div>
+    ${t.log.length?`<p class="sub" style="margin-bottom:4px"><span class="lk-legend" style="display:inline-flex;margin:0"><span><i class="sw up"></i>Win</span><span><i class="sw dn"></i>Loss</span><span>▬ week median</span></span></p>
+    <div class="chart"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Weekly scores">${ticks}${bars}</svg></div>`:""}
+    <table style="margin-top:12px"><tbody>${[...t.log].reverse().map(g=>`<tr><td>W${g.wk}</td><td><span class="${g.res==="W"?"up":g.res==="L"?"down":"flat"}">${g.res}</span></td>
+      <td>vs ${tl(g.opp)}</td><td class="n">${n1(g.p)}–${n1(g.op)}</td></tr>`).join("")}</tbody></table>
+    ${left.length?`<p class="sub" style="margin-top:12px">Still to play: ${left.join(" · ")}</p>`:""}`;
+  bindTips(dlg,".bw",el=>{const g=t.log[+el.dataset.i];
+    return [["b",`Week ${g.wk}: ${n1(g.p)}`],["span",`${g.res==="W"?"Beat":g.res==="L"?"Lost to":"Tied"} ${unesc(g.opp)} (${n1(g.op)})`],["small",`League median ${n1(med[g.wk])}`]];});
+  $("#card-x").onclick=()=>dlg.close();
+  if(!dlg.open)dlg.showModal();
+}
+
+//============ LEAGUE HISTORY (saved seasons from data/combined/) ============
+// data/leagues.json maps a Sleeper league id to its saved history, built by scripts/sleeper_export.py.
+let HIST_LEAGUES=[];
+const historyFor=id=>HIST_LEAGUES.find(l=>l.sleeper_league_id===id);
+async function loadHistoryIndex(){
+  try{const r=await fetch("data/leagues.json");if(r.ok)HIST_LEAGUES=(await r.json()).leagues||[];}catch(e){}
+}
+function parseCSV(text){
+  const rows=[];let row=[],f="",q=false;
+  for(let i=0;i<text.length;i++){const c=text[i];
+    if(q){if(c==='"'&&text[i+1]==='"'){f+='"';i++;}else if(c==='"')q=false;else f+=c;}
+    else if(c==='"')q=true;else if(c===","){row.push(f);f="";}
+    else if(c==="\n"||c==="\r"){if(c==="\r"&&text[i+1]==="\n")i++;row.push(f);rows.push(row);row=[];f="";}
+    else f+=c;}
+  if(f||row.length){row.push(f);rows.push(row);}
+  const [h,...b]=rows.filter(r=>r.length>1);
+  return b.map(r=>Object.fromEntries(h.map((k,i)=>{const v=r[i]??"";return [k,v!==""&&!isNaN(v)?Number(v):v];})));
+}
+async function renderHistory(){
+  const L=historyFor(CUR.id),sec=$("#sec-history");if(!L||!sec)return;
+  const base=`data/combined/${L.id}/`;
+  sec.innerHTML=`<div class="status"><span class="spin"></span>Loading league history…</div>`;
+  let hist,career;
+  try{
+    const [a,b]=await Promise.all([fetch(base+"league_history.json"),fetch(base+"manager_career_records.csv")]);
+    if(!a.ok||!b.ok)throw new Error("HTTP "+(a.ok?b.status:a.status));
+    hist=await a.json();career=parseCSV(await b.text());
+  }catch(e){if(!sec.isConnected)return;sec.innerHTML=`<div class="err">Couldn't load the saved history (${esc(e.message)}). Open this page through a local server or GitHub Pages, not straight from disk.</div>`;return;}
+  if(!sec.isConnected)return;
+  const done=hist.filter(h=>h.champion);
+  const first=done[0].season,last=done[done.length-1].season;
+  const f2=x=>(Math.round(x*100)/100).toFixed(2);
+  const shelf=done.slice().reverse().map(h=>{const g=h.championship_game;
+    return `<div class="trophy${CUR.mine&&h.champion.manager===CUR.mine?" mine":""}"><div class="yr">🏆 ${h.season}</div>
+      <div class="who">${esc(h.champion.manager)}</div>
+      <div class="sc">${esc(h.champion.team)}${g?`<br>beat ${esc(g.loser)} ${f2(g.winner_points)} to ${f2(g.loser_points)}`:""}</div></div>`;}).join("");
+  let t=`<table><thead><tr><th>Manager</th><th class="n">Titles</th><th class="n">2nd</th><th class="n">Playoffs</th><th class="n">Record</th><th class="n">Win %</th><th class="n">Pts / season</th></tr></thead><tbody>`;
+  career.forEach(r=>{t+=`<tr${me(r.manager)}><td>${esc(r.manager)}${r.championship_seasons?` <span class="sub">${esc(String(r.championship_seasons))}</span>`:""}</td>
+    <td class="n">${r.championships?`<span class="cups">${"🏆".repeat(r.championships)}</span>`:`<span class="sub">0</span>`}</td>
+    <td class="n">${r.runner_ups}</td><td class="n">${r.playoff_appearances}/${r.seasons}</td><td class="n">${r.total_record}</td>
+    <td class="n">${(r.win_pct||0).toFixed(3).replace(/^0/,"")}</td><td class="n">${f2(r.points_for/r.seasons)}</td></tr>`;});
+  t+="</tbody></table>";
+  sec.innerHTML=`<div class="hist-top"><div><h2 style="margin-top:4px">League history</h2>
+      <p class="sub">${done.length} finished seasons, ${first} to ${last}, across Yahoo and Sleeper. This season lives on the other tabs.</p></div>
+      <a href="history.html?league=${encodeURIComponent(L.id)}">Full history: standings, brackets, records →</a></div>
+    <h2>Champions</h2><div class="shelf">${shelf}</div>
+    <h2>Career standings</h2><p class="sub">Regular season plus championship-bracket games. Scoring rules changed over the years, so compare points across eras loosely.</p>${t}`;
+}
+
 //============ ENRICH (players, draft, transactions) ============
-async function enrich(){
-  const id=CUR.id;
+async function enrich(token){
   try{ if(!PLAYERS){PLAYERS=await j(`${API}/players/nfl`);} }catch(e){ return; }
-  renderTopPerformers(); renderMVPsInjuries(); renderDraftMoves();
+  if(token!==LOADING)return;
+  renderTopPerformers(); renderMVPsInjuries(); renderDraftMoves(); renderCoach();
 }
 function renderTopPerformers(){
   const {weeks,rName}=CUR;const tops=[];
@@ -709,7 +1065,8 @@ async function renderDraftMoves(){
       byVal.slice(0,12).map(r=>`<tr><td>${r.name} <span style="color:var(--muted)">${r.pos}</span></td><td class="n">${n1(r.pts)} pts</td><td class="n" style="color:var(--muted)">${isAuc?("$"+r.amt):("pk "+r.no)}</td></tr>`).join("")+"</tbody></table>";
   }catch(e){steals="<p class='sub'>Draft data unavailable.</p>";}
   try{const tr=[],ad=[];const spent={};
-    for(let w=1;w<CUR.pwk;w++){let tx;try{tx=await j(`${API}/league/${id}/transactions/${w}`)}catch(e){continue}
+    const txs=await Promise.all(Array.from({length:CUR.pwk-1},(_,i)=>j(`${API}/league/${id}/transactions/${i+1}`).catch(()=>[])));
+    for(let w=1;w<CUR.pwk;w++){const tx=txs[w-1]||[];
       for(const t of tx){if(t.status!=="complete")continue;
         if(t.type==="trade"){const parts=(t.roster_ids||[]).map(r=>rName[r]).join(" ↔ ");const mv=[];if(t.adds)for(const p in t.adds)mv.push(pname(p)+"→"+rName[t.adds[p]]);tr.push(`W${w}: ${parts} — ${mv.join(", ")}`);}
         else if((t.type==="waiver"||t.type==="free_agent")&&t.adds){const bid=t.settings&&t.settings.waiver_bid;for(const p in t.adds){ad.push({w,who:rName[t.adds[p]],p:pname(p),bid:bid||0});spent[rName[t.adds[p]]]=(spent[rName[t.adds[p]]]||0)+(bid||0);}}}}
@@ -718,15 +1075,24 @@ async function renderDraftMoves(){
     faab=`<h2 style="margin-top:14px">Top waiver pickups</h2><table><tbody>`+ad.slice(0,10).map(a=>`<tr><td>${a.p}</td><td>→ ${a.who}</td><td class="n">$${a.bid} (W${a.w})</td></tr>`).join("")+"</tbody></table>"+
       `<h2 style="margin-top:14px">FAAB spent</h2><table><tbody>`+Object.entries(spent).sort((a,b)=>b[1]-a[1]).map(([t,v])=>`<tr><td>${t}</td><td class="n">$${v}</td></tr>`).join("")+"</tbody></table>";
   }catch(e){}
+  if(id!==CUR.id||!$("#sec-draft"))return;
   $("#sec-draft").innerHTML=(CUR._mvpHTML||"")+steals+trades+faab;
 }
-
-//============ COMMISSIONER'S NOTE ============
-function noteKey(){return "almanac_note_"+ (CUR?CUR.id : ($("#league").value||""));}
 
 //============ WIRE UP ============
 $("#league").addEventListener("change",e=>{load(e.target.value);});
 $("#refresh").addEventListener("click",()=>load($("#league").value));
+let lastW=0;addEventListener("resize",()=>{const w=$(".wrap").clientWidth;
+  if(CUR&&CUR._T&&Math.abs(w-lastW)>40){lastW=w;renderLuck();}});
+$("#me").addEventListener("change",e=>{
+  try{localStorage.setItem("almanac_me_"+CUR.id,e.target.value);}catch(err){}
+  CUR.mine=e.target.value||null;renderCore();enrich(LOADING);});
+// any team name or chart mark carrying data-team opens that team's card
+document.addEventListener("click",e=>{const el=e.target.closest("[data-team]");
+  if(el&&!el.closest("#card .card-head")){hideTip();openCard(el.dataset.team);return;}
+  if(e.target===$("#card"))$("#card").close();});
+document.addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;
+  const el=e.target.closest&&e.target.closest("svg [data-team],td[data-team]");if(el){e.preventDefault();openCard(el.dataset.team);}});
 $("#addbtn").addEventListener("click",()=>{
   const id=$("#addid").value.trim(),nm=$("#addname").value.trim()||("League "+id.slice(-4));
   if(!/^\d{5,}$/.test(id)){alert("Enter a numeric Sleeper league ID.");return;}
@@ -735,8 +1101,22 @@ $("#addbtn").addEventListener("click",()=>{
   $("#addid").value="";$("#addname").value="";fillLeagueSelect();$("#league").value=id;load(id);
 });
 
+$("#copylink").addEventListener("click",()=>{
+  const url=location.origin+location.pathname+"?lg="+(CUR?CUR.id:$("#league").value);
+  const done=()=>{const b=$("#copylink");const t=b.textContent;b.textContent="✓ Copied!";setTimeout(()=>b.textContent=t,1500);};
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(done,()=>prompt("Copy this link:",url));}
+  else prompt("Copy this link:",url);
+});
+
 fillLeagueSelect();
-load($("#league").value||PRESETS[0].id);
+// A shared link like ...?lg=1389331035040260096 opens straight to that league. Otherwise fall back to last-viewed, then the first preset.
+const urlId=leagueFromURL();
+if(urlId && !leagues().find(l=>l.id===urlId)){
+  const o=document.createElement("option");o.value=urlId;o.textContent="League "+urlId.slice(-4);$("#league").appendChild(o);
+}
+const startId=urlId||localStorage.getItem("almanac_last")||$("#league").value||PRESETS[0].id;
+$("#league").value=startId;
+loadHistoryIndex().then(()=>load(startId));
 </script>
 </body>
 </html>

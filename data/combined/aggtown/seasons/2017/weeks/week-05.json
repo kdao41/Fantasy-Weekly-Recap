@@ -1,0 +1,317 @@
+{
+ "season": 2017,
+ "week": 5,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Dakstreet Boys",
+     "manager": "donblood",
+     "points": 109.74,
+     "projected": 115.61,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 111.52,
+     "projected": 122.07,
+     "won": true
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Odeh1121",
+     "points": 114.12,
+     "projected": 114.88,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "The end is near.",
+     "manager": "keveezy",
+     "points": 61.24,
+     "projected": 121.04,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Dak & Yak",
+     "manager": "jimbo817",
+     "points": 102.2,
+     "projected": 112.44,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "ramzz",
+     "points": 147.76,
+     "projected": 110.8,
+     "won": true
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "anth0nyng",
+     "points": 122.46,
+     "projected": 123.67,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "DVTV",
+     "points": 138.74,
+     "projected": 123.75,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 124.52,
+     "projected": 116.16,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 94.44,
+     "projected": 111.87,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 129.22,
+     "projected": 118.96,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "kholabear",
+     "points": 103.16,
+     "projected": 132.44,
+     "won": false
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "ramzz",
+   "team": "Leonard's booty gang",
+   "points": 147.76
+  },
+  "low_score": {
+   "manager": "keveezy",
+   "team": "The end is near.",
+   "points": 61.24
+  },
+  "closest_game": {
+   "winner": "bvincenttt",
+   "winner_points": 111.52,
+   "loser": "donblood",
+   "loser_points": 109.74,
+   "margin": 1.78
+  },
+  "biggest_blowout": {
+   "winner": "Odeh1121",
+   "winner_points": 114.12,
+   "loser": "keveezy",
+   "loser_points": 61.24,
+   "margin": 52.88
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "4-1",
+   "points_for": 612.08,
+   "points_against": 455.32,
+   "streak": "W1",
+   "week_points": 124.52,
+   "week_result": "W",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 2,
+   "manager": "Odeh1121",
+   "team": "Jerk Goff",
+   "record": "4-1",
+   "points_for": 582.18,
+   "points_against": 466.82,
+   "streak": "W1",
+   "week_points": 114.12,
+   "week_result": "W",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 3,
+   "manager": "DVTV",
+   "team": "The Spearmint Rhinos",
+   "record": "3-2",
+   "points_for": 586.26,
+   "points_against": 600.92,
+   "streak": "W2",
+   "week_points": 138.74,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 4,
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "record": "3-2",
+   "points_for": 578.84,
+   "points_against": 553.88,
+   "streak": "L2",
+   "week_points": 94.44,
+   "week_result": "L",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 5,
+   "manager": "ramzz",
+   "team": "Leonard's booty gang",
+   "record": "3-2",
+   "points_for": 577.28,
+   "points_against": 534.96,
+   "streak": "W2",
+   "week_points": 147.76,
+   "week_result": "W",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 6,
+   "manager": "wabaki (Lan Doan)",
+   "team": "Wabaki 88",
+   "record": "3-2",
+   "points_for": 553.44,
+   "points_against": 551.34,
+   "streak": "W2",
+   "week_points": 129.22,
+   "week_result": "W",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 7,
+   "manager": "kholabear",
+   "team": "Lavar Ballers",
+   "record": "2-3",
+   "points_for": 609.4,
+   "points_against": 619.56,
+   "streak": "L1",
+   "week_points": 103.16,
+   "week_result": "L",
+   "opponent": "wabaki (Lan Doan)"
+  },
+  {
+   "rank": 8,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "2-3",
+   "points_for": 553.38,
+   "points_against": 639.3,
+   "streak": "W1",
+   "week_points": 111.52,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 9,
+   "manager": "anth0nyng",
+   "team": "Prince of Plano",
+   "record": "2-3",
+   "points_for": 537.04,
+   "points_against": 611.38,
+   "streak": "L1",
+   "week_points": 122.46,
+   "week_result": "L",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 10,
+   "manager": "donblood",
+   "team": "The Dakstreet Boys",
+   "record": "2-3",
+   "points_for": 482.76,
+   "points_against": 508.4,
+   "streak": "L1",
+   "week_points": 109.74,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 11,
+   "manager": "keveezy",
+   "team": "The end is near.",
+   "record": "1-4",
+   "points_for": 541.68,
+   "points_against": 605.56,
+   "streak": "L2",
+   "week_points": 61.24,
+   "week_result": "L",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 12,
+   "manager": "jimbo817",
+   "team": "Dak & Yak",
+   "record": "1-4",
+   "points_for": 486.22,
+   "points_against": 553.12,
+   "streak": "L3",
+   "week_points": 102.2,
+   "week_result": "L",
+   "opponent": "ramzz"
+  }
+ ]
+}

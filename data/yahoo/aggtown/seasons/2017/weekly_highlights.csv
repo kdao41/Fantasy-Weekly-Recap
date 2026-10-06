@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2017,1,False,mrlampham,146.8,Jimmy,74.38,Cody over Ramzi by 5.42,mrlampham over Blake by 61.26
+2017,2,False,Ahmad,147.98,Anthony,67.52,Ramzi over Daniel Vu by 18.84,mrlampham over Anthony by 62.64
+2017,3,False,Kevin D,151.82,Ramzi,84.64,mrlampham over Khoa by 6.88,Kevin D over Daniel Vu by 55.12
+2017,4,False,Daniel Vu,154.34,mrlampham,88.3,Ramzi over Ahmad by 3.0,Daniel Vu over Blake by 33.36
+2017,5,False,Ramzi,147.76,Kevin D,61.24,Blake over Don by 1.78,Ahmad over Kevin D by 52.88
+2017,6,False,Anthony,153.36,Kevin D,82.62,Daniel Vu over mrlampham by 9.3,Blake over Ahmad by 39.64
+2017,7,False,Khoa,165.82,Kevin D,78.88,Blake over Jimmy by 3.54,Khoa over Cody by 68.38
+2017,8,False,Daniel Vu,175.38,Blake,91.26,Ahmad over mrlampham by 9.4,Ramzi over Blake by 75.68
+2017,9,False,Muso (Lan Doan),133.08,mrlampham,68.34,Cody over Don by 1.36,Muso (Lan Doan) over Ahmad by 27.94
+2017,10,False,Anthony,214.26,Kevin D,72.14,Khoa over Blake by 0.28,Anthony over Kevin D by 142.12
+2017,11,False,Muso (Lan Doan),164.02,mrlampham,73.64,Anthony over Blake by 11.96,Kevin D over mrlampham by 67.46
+2017,12,False,Jimmy,168.34,Don,44.86,mrlampham over Blake by 21.38,Ahmad over Don by 75.74
+2017,13,False,Kevin D,145.38,Jimmy,75.5,Khoa over Ahmad by 0.64,Don over Jimmy by 53.58
+2017,14,True,Ramzi,146.14,Khoa,88.84,Daniel Vu over Muso (Lan Doan) by 9.3,Ramzi over mrlampham by 44.88
+2017,15,True,Cody,175.34,Ahmad,91.0,Ramzi over Anthony by 3.96,Cody over Muso (Lan Doan) by 71.9
+2017,16,True,Cody,152.96,Muso (Lan Doan),65.16,Daniel Vu over Ramzi by 0.58,mrlampham over Muso (Lan Doan) by 46.24

@@ -1,0 +1,141 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2022,1,1,donblood,my team ass,1-0,159.38,95.76,W1,159.38,W,jigri
+2022,1,2,keveezy,Free money,1-0,150.0,108.7,W1,150.0,W,jasonle
+2022,1,3,anth0nyng,🏆 Champion Jelly 🏆,1-0,134.2,116.88,W1,134.2,W,Abadahh
+2022,1,4,dexclusive,SCENE INFILTRATED,1-0,127.62,114.92,W1,127.62,W,yckyb
+2022,1,5,PutItOnYa,Sports Betting,1-0,126.42,117.72,W1,126.42,W,lmphm
+2022,1,6,lmphm,lmphm,0-1,117.72,126.42,L1,117.72,L,PutItOnYa
+2022,1,7,Abadahh,Drier than a Popeyes biscuit,0-1,116.88,134.2,L1,116.88,L,anth0nyng
+2022,1,8,yckyb,y c k y,0-1,114.92,127.62,L1,114.92,L,dexclusive
+2022,1,9,jasonle,Felon,0-1,108.7,150.0,L1,108.7,L,keveezy
+2022,1,10,jigri,Washed,0-1,95.76,159.38,L1,95.76,L,donblood
+2022,2,1,PutItOnYa,Sports Betting,2-0,291.5,257.0,W2,165.08,W,donblood
+2022,2,2,dexclusive,SCENE INFILTRATED,2-0,271.14,228.54,W2,143.52,W,lmphm
+2022,2,3,anth0nyng,🏆 Champion Jelly 🏆,2-0,245.2,205.04,W2,111.0,W,keveezy
+2022,2,4,donblood,my team ass,1-1,298.66,260.84,L1,139.28,L,PutItOnYa
+2022,2,5,Abadahh,Drier than a Popeyes biscuit,1-1,279.52,272.06,W1,162.64,W,jigri
+2022,2,6,jasonle,Felon,1-1,271.68,208.66,W1,162.98,W,yckyb
+2022,2,7,keveezy,Free money,1-1,238.16,219.7,L1,88.16,L,anth0nyng
+2022,2,8,jigri,Washed,0-2,233.62,322.02,L2,137.86,L,Abadahh
+2022,2,9,lmphm,lmphm,0-2,231.34,269.94,L2,113.62,L,dexclusive
+2022,2,10,yckyb,y c k y,0-2,173.58,290.6,L2,58.66,L,jasonle
+2022,3,1,PutItOnYa,Sports Betting,3-0,397.36,356.9,W3,105.86,W,Abadahh
+2022,3,2,jasonle,Felon,2-1,394.24,317.68,W2,122.56,W,dexclusive
+2022,3,3,dexclusive,SCENE INFILTRATED,2-1,380.16,351.1,L1,109.02,L,jasonle
+2022,3,4,anth0nyng,🏆 Champion Jelly 🏆,2-1,347.78,318.84,L1,102.58,L,yckyb
+2022,3,5,donblood,my team ass,1-2,402.16,369.04,L2,103.5,L,lmphm
+2022,3,6,Abadahh,Drier than a Popeyes biscuit,1-2,379.42,377.92,L1,99.9,L,PutItOnYa
+2022,3,7,jigri,Washed,1-2,351.2,415.08,W1,117.58,W,keveezy
+2022,3,8,lmphm,lmphm,1-2,339.54,373.44,W1,108.2,W,donblood
+2022,3,9,keveezy,Free money,1-2,331.22,337.28,L2,93.06,L,jigri
+2022,3,10,yckyb,y c k y,1-2,287.38,393.18,W1,113.8,W,anth0nyng
+2022,4,1,PutItOnYa,Sports Betting,4-0,538.54,486.24,W4,141.18,W,keveezy
+2022,4,2,dexclusive,SCENE INFILTRATED,3-1,533.52,468.22,W1,153.36,W,donblood
+2022,4,3,jasonle,Felon,3-1,520.94,419.14,W3,126.7,W,anth0nyng
+2022,4,4,Abadahh,Drier than a Popeyes biscuit,2-2,506.22,448.08,W1,126.8,W,lmphm
+2022,4,5,jigri,Washed,2-2,494.3,530.16,W2,143.1,W,yckyb
+2022,4,6,anth0nyng,🏆 Champion Jelly 🏆,2-2,449.24,445.54,L2,101.46,L,jasonle
+2022,4,7,donblood,my team ass,1-3,519.28,522.4,L3,117.12,L,dexclusive
+2022,4,8,keveezy,Free money,1-3,460.56,478.46,L3,129.34,L,PutItOnYa
+2022,4,9,lmphm,lmphm,1-3,409.7,500.24,L1,70.16,L,Abadahh
+2022,4,10,yckyb,y c k y,1-3,402.46,536.28,L1,115.08,L,jigri
+2022,5,1,PutItOnYa,Sports Betting,5-0,662.44,605.62,W5,123.9,W,yckyb
+2022,5,2,dexclusive,SCENE INFILTRATED,4-1,679.8,584.6,W2,146.28,W,anth0nyng
+2022,5,3,jasonle,Felon,4-1,662.5,541.56,W4,141.56,W,jigri
+2022,5,4,Abadahh,Drier than a Popeyes biscuit,3-2,639.36,576.44,W2,133.14,W,donblood
+2022,5,5,jigri,Washed,2-3,616.72,671.72,L1,122.42,L,jasonle
+2022,5,6,keveezy,Free money,2-3,592.24,585.82,W1,131.68,W,lmphm
+2022,5,7,anth0nyng,🏆 Champion Jelly 🏆,2-3,565.62,591.82,L3,116.38,L,dexclusive
+2022,5,8,donblood,my team ass,1-4,647.64,655.54,L4,128.36,L,Abadahh
+2022,5,9,yckyb,y c k y,1-4,521.84,660.18,L2,119.38,L,PutItOnYa
+2022,5,10,lmphm,lmphm,1-4,517.06,631.92,L2,107.36,L,keveezy
+2022,6,1,dexclusive,SCENE INFILTRATED,5-1,825.8,651.12,W3,146.0,W,Abadahh
+2022,6,2,jasonle,Felon,5-1,777.18,654.54,W5,114.68,W,PutItOnYa
+2022,6,3,PutItOnYa,Sports Betting,5-1,775.42,720.3,L1,112.98,L,jasonle
+2022,6,4,keveezy,Free money,3-3,711.78,698.78,W2,119.54,W,donblood
+2022,6,5,Abadahh,Drier than a Popeyes biscuit,3-3,705.88,722.44,L1,66.52,L,dexclusive
+2022,6,6,anth0nyng,🏆 Champion Jelly 🏆,3-3,669.04,675.68,W1,103.42,W,jigri
+2022,6,7,jigri,Washed,2-4,700.58,775.14,L2,83.86,L,anth0nyng
+2022,6,8,lmphm,lmphm,2-4,654.26,762.22,W1,137.2,W,yckyb
+2022,6,9,donblood,my team ass,1-5,760.6,775.08,L5,112.96,L,keveezy
+2022,6,10,yckyb,y c k y,1-5,652.14,797.38,L3,130.3,L,lmphm
+2022,7,1,PutItOnYa,Sports Betting,6-1,888.08,832.32,W1,112.66,W,anth0nyng
+2022,7,2,dexclusive,SCENE INFILTRATED,5-2,943.5,783.96,L1,117.7,L,jigri
+2022,7,3,jasonle,Felon,5-2,866.76,765.98,L1,89.58,L,lmphm
+2022,7,4,keveezy,Free money,4-3,860.54,823.78,W3,148.76,W,Abadahh
+2022,7,5,jigri,Washed,3-4,833.42,892.84,W1,132.84,W,dexclusive
+2022,7,6,Abadahh,Drier than a Popeyes biscuit,3-4,830.88,871.2,L2,125.0,L,keveezy
+2022,7,7,anth0nyng,🏆 Champion Jelly 🏆,3-4,781.06,788.34,L1,112.02,L,PutItOnYa
+2022,7,8,lmphm,lmphm,3-4,765.7,851.8,W2,111.44,W,jasonle
+2022,7,9,yckyb,y c k y,2-5,792.08,908.72,W1,139.94,W,donblood
+2022,7,10,donblood,my team ass,1-6,871.94,915.02,L6,111.34,L,yckyb
+2022,8,1,PutItOnYa,Sports Betting,6-2,1017.22,967.64,L1,129.14,L,jigri
+2022,8,2,dexclusive,SCENE INFILTRATED,5-3,1062.32,910.88,L2,118.82,L,keveezy
+2022,8,3,jasonle,Felon,5-3,996.7,920.1,L2,129.94,L,donblood
+2022,8,4,keveezy,Free money,5-3,987.46,942.6,W4,126.92,W,dexclusive
+2022,8,5,jigri,Washed,4-4,968.74,1021.98,W2,135.32,W,PutItOnYa
+2022,8,6,Abadahh,Drier than a Popeyes biscuit,4-4,961.08,996.48,W1,130.2,W,yckyb
+2022,8,7,anth0nyng,🏆 Champion Jelly 🏆,4-4,923.3,908.18,W1,142.24,W,lmphm
+2022,8,8,lmphm,lmphm,3-5,885.54,994.04,L1,119.84,L,anth0nyng
+2022,8,9,donblood,my team ass,2-6,1026.06,1044.96,W1,154.12,W,jasonle
+2022,8,10,yckyb,y c k y,2-6,917.36,1038.92,L1,125.28,L,Abadahh
+2022,9,1,PutItOnYa,Sports Betting,7-2,1162.22,1060.46,W1,145.0,W,dexclusive
+2022,9,2,jasonle,Felon,6-3,1126.2,1013.2,W1,129.5,W,Abadahh
+2022,9,3,dexclusive,SCENE INFILTRATED,5-4,1155.14,1055.88,L3,92.82,L,PutItOnYa
+2022,9,4,keveezy,Free money,5-4,1073.1,1032.84,L1,85.64,L,yckyb
+2022,9,5,jigri,Washed,4-5,1080.26,1139.4,L1,111.52,L,lmphm
+2022,9,6,Abadahh,Drier than a Popeyes biscuit,4-5,1054.18,1125.98,L1,93.1,L,jasonle
+2022,9,7,anth0nyng,🏆 Champion Jelly 🏆,4-5,1044.24,1079.28,L1,120.94,L,donblood
+2022,9,8,lmphm,lmphm,4-5,1002.96,1105.56,W1,117.42,W,jigri
+2022,9,9,donblood,my team ass,3-6,1197.16,1165.9,W2,171.1,W,anth0nyng
+2022,9,10,yckyb,y c k y,3-6,1007.6,1124.56,W1,90.24,W,keveezy
+2022,10,1,PutItOnYa,Sports Betting,8-2,1284.28,1137.16,W2,122.06,W,lmphm
+2022,10,2,jasonle,Felon,6-4,1243.0,1137.96,L1,116.8,L,keveezy
+2022,10,3,keveezy,Free money,6-4,1197.86,1149.64,W1,124.76,W,jasonle
+2022,10,4,dexclusive,SCENE INFILTRATED,5-5,1295.62,1205.62,L4,140.48,L,yckyb
+2022,10,5,jigri,Washed,5-5,1190.64,1226.5,W1,110.38,W,donblood
+2022,10,6,Abadahh,Drier than a Popeyes biscuit,5-5,1167.16,1234.02,W1,112.98,W,anth0nyng
+2022,10,7,yckyb,y c k y,4-6,1157.34,1265.04,W2,149.74,W,dexclusive
+2022,10,8,anth0nyng,🏆 Champion Jelly 🏆,4-6,1152.28,1192.26,L2,108.04,L,Abadahh
+2022,10,9,lmphm,lmphm,4-6,1079.66,1227.62,L1,76.7,L,PutItOnYa
+2022,10,10,donblood,my team ass,3-7,1284.26,1276.28,L1,87.1,L,jigri
+2022,11,1,PutItOnYa,Sports Betting,9-2,1412.2,1243.34,W3,127.92,W,donblood
+2022,11,2,jasonle,Felon,7-4,1399.64,1266.96,W1,156.64,W,yckyb
+2022,11,3,dexclusive,SCENE INFILTRATED,6-5,1405.38,1309.82,W1,109.76,W,lmphm
+2022,11,4,jigri,Washed,6-5,1356.58,1308.9,W2,165.94,W,Abadahh
+2022,11,5,keveezy,Free money,6-5,1315.44,1281.7,L1,117.58,L,anth0nyng
+2022,11,6,anth0nyng,🏆 Champion Jelly 🏆,5-6,1284.34,1309.84,W1,132.06,W,keveezy
+2022,11,7,Abadahh,Drier than a Popeyes biscuit,5-6,1249.56,1399.96,L1,82.4,L,jigri
+2022,11,8,yckyb,y c k y,4-7,1286.34,1421.68,L1,129.0,L,jasonle
+2022,11,9,lmphm,lmphm,4-7,1183.86,1337.38,L2,104.2,L,dexclusive
+2022,11,10,donblood,my team ass,3-8,1390.44,1404.2,L2,106.18,L,PutItOnYa
+2022,12,1,PutItOnYa,Sports Betting,10-2,1546.98,1363.56,W4,134.78,W,Abadahh
+2022,12,2,dexclusive,SCENE INFILTRATED,7-5,1599.68,1413.66,W2,194.3,W,jasonle
+2022,12,3,jasonle,Felon,7-5,1503.48,1461.26,L1,103.84,L,dexclusive
+2022,12,4,keveezy,Free money,7-5,1438.2,1367.0,W1,122.76,W,jigri
+2022,12,5,jigri,Washed,6-6,1441.88,1431.66,L1,85.3,L,keveezy
+2022,12,6,anth0nyng,🏆 Champion Jelly 🏆,6-6,1404.24,1417.64,W2,119.9,W,yckyb
+2022,12,7,Abadahh,Drier than a Popeyes biscuit,5-7,1369.78,1534.74,L2,120.22,L,PutItOnYa
+2022,12,8,donblood,my team ass,4-8,1518.06,1504.92,W1,127.62,W,lmphm
+2022,12,9,yckyb,y c k y,4-8,1394.14,1541.58,L2,107.8,L,anth0nyng
+2022,12,10,lmphm,lmphm,4-8,1284.58,1465.0,L3,100.72,L,donblood
+2022,13,1,PutItOnYa,Sports Betting,11-2,1675.74,1488.06,W5,128.76,W,keveezy
+2022,13,2,jasonle,Felon,8-5,1630.58,1540.48,W1,127.1,W,anth0nyng
+2022,13,3,dexclusive,SCENE INFILTRATED,7-6,1713.32,1562.38,L1,113.64,L,donblood
+2022,13,4,jigri,Washed,7-6,1571.38,1553.6,W1,129.5,W,yckyb
+2022,13,5,keveezy,Free money,7-6,1562.7,1495.76,L1,124.5,L,PutItOnYa
+2022,13,6,anth0nyng,🏆 Champion Jelly 🏆,6-7,1483.46,1544.74,L1,79.22,L,jasonle
+2022,13,7,donblood,my team ass,5-8,1666.78,1618.56,W2,148.72,W,dexclusive
+2022,13,8,Abadahh,Drier than a Popeyes biscuit,5-8,1496.26,1664.64,L3,126.48,L,lmphm
+2022,13,9,lmphm,lmphm,5-8,1414.48,1591.48,W1,129.9,W,Abadahh
+2022,13,10,yckyb,y c k y,4-9,1516.08,1671.08,L3,121.94,L,jigri
+2022,14,1,PutItOnYa,Sports Betting,12-2,1768.6,1555.02,W6,92.86,W,yckyb
+2022,14,2,jasonle,Felon,9-5,1737.34,1638.5,W2,106.76,W,jigri
+2022,14,3,dexclusive,SCENE INFILTRATED,8-6,1820.04,1668.76,W1,106.72,W,anth0nyng
+2022,14,4,jigri,Washed,7-7,1669.4,1660.36,L1,98.02,L,jasonle
+2022,14,5,keveezy,Free money,7-7,1662.48,1677.24,L2,99.78,L,lmphm
+2022,14,6,Abadahh,Drier than a Popeyes biscuit,6-8,1626.56,1774.22,W1,130.3,W,donblood
+2022,14,7,lmphm,lmphm,6-8,1595.96,1691.26,W2,181.48,W,keveezy
+2022,14,8,anth0nyng,🏆 Champion Jelly 🏆,6-8,1589.84,1651.46,L2,106.38,L,dexclusive
+2022,14,9,donblood,my team ass,5-9,1776.36,1748.86,L1,109.58,L,Abadahh
+2022,14,10,yckyb,y c k y,4-10,1583.04,1763.94,L4,66.96,L,PutItOnYa

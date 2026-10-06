@@ -1,0 +1,148 @@
+{
+ "season": 2022,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Free money",
+     "manager": "Kevin D",
+     "points": 98.1,
+     "projected": 120.27,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 155.06,
+     "projected": 120.0,
+     "won": true
+    }
+   ],
+   "winner": "An"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "my team ass",
+     "manager": "Don",
+     "points": 124.78,
+     "projected": 118.62,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+     "manager": "Anthony",
+     "points": 111.36,
+     "projected": 114.53,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "Alex",
+     "points": 115.76,
+     "projected": 121.57,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 91.16,
+     "projected": 119.2,
+     "won": false
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "y c k y",
+     "manager": "Tommy",
+     "points": 102.0,
+     "projected": 116.0,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "lmphm",
+     "manager": "mrlampham",
+     "points": 108.8,
+     "projected": 100.33,
+     "won": true
+    }
+   ],
+   "winner": "mrlampham"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "Dexter",
+     "points": 105.64,
+     "projected": 121.88,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "Jason",
+     "points": 132.5,
+     "projected": 133.03,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "An",
+   "team": "Drier than a Popeyes biscuit",
+   "points": 155.06
+  },
+  "low_score": {
+   "manager": "Justin",
+   "team": "Washed",
+   "points": 91.16
+  },
+  "closest_game": {
+   "winner": "mrlampham",
+   "winner_points": 108.8,
+   "loser": "Tommy",
+   "loser_points": 102.0,
+   "margin": 6.8
+  },
+  "biggest_blowout": {
+   "winner": "An",
+   "winner_points": 155.06,
+   "loser": "Kevin D",
+   "loser_points": 98.1,
+   "margin": 56.96
+  }
+ }
+}

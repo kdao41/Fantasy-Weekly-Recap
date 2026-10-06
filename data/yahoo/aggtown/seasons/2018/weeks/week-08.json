@@ -1,0 +1,317 @@
+{
+ "season": 2018,
+ "week": 8,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Two Gurleys One Cup",
+     "manager": "Don",
+     "points": 128.12,
+     "projected": 111.74,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Like a Brees",
+     "manager": "Kevin D",
+     "points": 147.86,
+     "projected": 129.42,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Ligma",
+     "manager": "Jimmy",
+     "points": 120.84,
+     "projected": 124.16,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 118.02,
+     "projected": 125.43,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Kissing Cousins",
+     "manager": "Ahmad",
+     "points": 131.36,
+     "projected": 131.69,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "Anthony",
+     "points": 102.8,
+     "projected": 122.7,
+     "won": false
+    }
+   ],
+   "winner": "Ahmad"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "God Zuerline",
+     "manager": "Khoa",
+     "points": 113.16,
+     "projected": 135.0,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 101.66,
+     "projected": 118.8,
+     "won": false
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Small town Gurl",
+     "manager": "Ramzi",
+     "points": 155.5,
+     "projected": 141.56,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Wabaki 88",
+     "manager": "Muso (Lan Doan)",
+     "points": 144.88,
+     "projected": 144.85,
+     "won": false
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "The Asa Akiras",
+     "manager": "Daniel Vu",
+     "points": 135.1,
+     "projected": 131.65,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 143.3,
+     "projected": 130.27,
+     "won": true
+    }
+   ],
+   "winner": "mrlampham"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Ramzi",
+   "team": "Small town Gurl",
+   "points": 155.5
+  },
+  "low_score": {
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "points": 101.66
+  },
+  "closest_game": {
+   "winner": "Jimmy",
+   "winner_points": 120.84,
+   "loser": "Blake",
+   "loser_points": 118.02,
+   "margin": 2.82
+  },
+  "biggest_blowout": {
+   "winner": "Ahmad",
+   "winner_points": 131.36,
+   "loser": "Anthony",
+   "loser_points": 102.8,
+   "margin": 28.56
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Khoa",
+   "team": "God Zuerline",
+   "record": "6-2",
+   "points_for": 1104.42,
+   "points_against": 1005.16,
+   "streak": "W1",
+   "week_points": 113.16,
+   "week_result": "W",
+   "opponent": "Cody"
+  },
+  {
+   "rank": 2,
+   "manager": "Daniel Vu",
+   "team": "The Asa Akiras",
+   "record": "5-3",
+   "points_for": 1060.5,
+   "points_against": 952.66,
+   "streak": "L1",
+   "week_points": 135.1,
+   "week_result": "L",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 3,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "5-3",
+   "points_for": 1045.16,
+   "points_against": 1049.1,
+   "streak": "W2",
+   "week_points": 143.3,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 4,
+   "manager": "Don",
+   "team": "Two Gurleys One Cup",
+   "record": "5-3",
+   "points_for": 1025.8,
+   "points_against": 972.94,
+   "streak": "L1",
+   "week_points": 128.12,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 5,
+   "manager": "Kevin D",
+   "team": "Like a Brees",
+   "record": "5-3",
+   "points_for": 1017.38,
+   "points_against": 917.76,
+   "streak": "W1",
+   "week_points": 147.86,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 6,
+   "manager": "Jimmy",
+   "team": "Ligma",
+   "record": "5-3",
+   "points_for": 982.74,
+   "points_against": 1031.98,
+   "streak": "W4",
+   "week_points": 120.84,
+   "week_result": "W",
+   "opponent": "Blake"
+  },
+  {
+   "rank": 7,
+   "manager": "Muso (Lan Doan)",
+   "team": "Wabaki 88",
+   "record": "4-4",
+   "points_for": 1174.82,
+   "points_against": 1143.08,
+   "streak": "L3",
+   "week_points": 144.88,
+   "week_result": "L",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 8,
+   "manager": "Ramzi",
+   "team": "Small town Gurl",
+   "record": "4-4",
+   "points_for": 1056.32,
+   "points_against": 972.5,
+   "streak": "W3",
+   "week_points": 155.5,
+   "week_result": "W",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 9,
+   "manager": "Ahmad",
+   "team": "Kissing Cousins",
+   "record": "3-5",
+   "points_for": 999.44,
+   "points_against": 1077.2,
+   "streak": "W1",
+   "week_points": 131.36,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 10,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "2-6",
+   "points_for": 972.9,
+   "points_against": 979.86,
+   "streak": "L2",
+   "week_points": 118.02,
+   "week_result": "L",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 11,
+   "manager": "Anthony",
+   "team": "Prince of Plano",
+   "record": "2-6",
+   "points_for": 900.5,
+   "points_against": 1077.42,
+   "streak": "L3",
+   "week_points": 102.8,
+   "week_result": "L",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 12,
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "record": "2-6",
+   "points_for": 852.4,
+   "points_against": 1012.72,
+   "streak": "L1",
+   "week_points": 101.66,
+   "week_result": "L",
+   "opponent": "Khoa"
+  }
+ ]
+}

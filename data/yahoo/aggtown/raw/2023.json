@@ -1,0 +1,225 @@
+{
+ "source": "yahoo",
+ "league_key": "423.l.585044",
+ "name": "Aggtown FFL",
+ "season": 2023,
+ "num_teams": 12,
+ "start_week": 1,
+ "end_week": 17,
+ "is_finished": false,
+ "scoring_type": "head",
+ "draft_type": "self",
+ "playoff_week_start": 15,
+ "num_playoff_teams": 6,
+ "roster_positions": [
+  {
+   "position": "QB",
+   "count": 1
+  },
+  {
+   "position": "WR",
+   "count": 2
+  },
+  {
+   "position": "RB",
+   "count": 2
+  },
+  {
+   "position": "TE",
+   "count": 1
+  },
+  {
+   "position": "W/R/T",
+   "count": 1
+  },
+  {
+   "position": "K",
+   "count": 1
+  },
+  {
+   "position": "DEF",
+   "count": 1
+  },
+  {
+   "position": "BN",
+   "count": 6
+  },
+  {
+   "position": "IR",
+   "count": 3
+  }
+ ],
+ "teams": [
+  {
+   "team_id": 1,
+   "team_key": "423.l.585044.t.1",
+   "name": "Wolf of Waller Street",
+   "manager": "Don",
+   "manager_guid": "H6L7INJ6UEIIS6V4FFUMY2R7TQ",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 2,
+   "team_key": "423.l.585044.t.2",
+   "name": "Aaron Earned an Iron Urn",
+   "manager": "Jimmy",
+   "manager_guid": "OA6RRLQ7ZZK5CVKUSW2XGTGO3A",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 3,
+   "team_key": "423.l.585044.t.3",
+   "name": "The Adam's Family",
+   "manager": "Ahmad",
+   "manager_guid": "NVDXLD57KYMUXVLPCDT4VORAKY",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 4,
+   "team_key": "423.l.585044.t.4",
+   "name": "Cancun Booking Agency",
+   "manager": "Khoa",
+   "manager_guid": "YQGVLN5T6XQOCI4WWCDTK4DCC4",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 5,
+   "team_key": "423.l.585044.t.5",
+   "name": "King Koopa",
+   "manager": "Ramzi",
+   "manager_guid": "4O3C5BHIQCYX5O7EKHWFWKINKU",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 6,
+   "team_key": "423.l.585044.t.6",
+   "name": "Princess Jelly",
+   "manager": "Anthony",
+   "manager_guid": "QWKN5UMYN4OIO5EVK4AIYFQXLA",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 7,
+   "team_key": "423.l.585044.t.7",
+   "name": "Shake n Blake",
+   "manager": "Blake",
+   "manager_guid": "OT2D5QGHWDRIWFWNOCBUUOUGPA",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 8,
+   "team_key": "423.l.585044.t.8",
+   "name": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+   "manager": "Kevin D",
+   "manager_guid": "L6QSCYQ5SBLF3DFTGY6BYGPAD4",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 9,
+   "team_key": "423.l.585044.t.9",
+   "name": "GOD TIER",
+   "manager": "Daniel Vu",
+   "manager_guid": "HE2KBJQ4NEZH24QAJF7QFLOO24",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 10,
+   "team_key": "423.l.585044.t.10",
+   "name": "Vegas",
+   "manager": "mrlampham",
+   "manager_guid": "DRUYATULRNSZ3KGLMULWPDPLJ4",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 11,
+   "team_key": "423.l.585044.t.11",
+   "name": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+   "manager": "Alex",
+   "manager_guid": "Y6HNIHUOBEQ4T5Q4SIDRO2NEZE",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  },
+  {
+   "team_id": 12,
+   "team_key": "423.l.585044.t.12",
+   "name": "ABCeeDee U Lost 2 Me",
+   "manager": "Cody",
+   "manager_guid": "MD2AHQKRFWK4O7UQA623E6MNGY",
+   "rank": null,
+   "playoff_seed": null,
+   "wins": 0,
+   "losses": 0,
+   "ties": 0,
+   "points_for": 0.0,
+   "points_against": 0.0
+  }
+ ],
+ "weeks": {},
+ "week_info": {},
+ "draft": []
+}

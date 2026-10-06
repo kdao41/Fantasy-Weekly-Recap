@@ -1,0 +1,169 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2021,1,1,Ramzi,silky dingleberry,1-0,167.56,85.24,W1,167.56,W,mrlampham
+2021,1,2,Alex,Herb-a-Derp,1-0,159.98,112.94,W1,159.98,W,Khoa
+2021,1,3,Blake,Shake n Blake,1-0,149.16,142.48,W1,149.16,W,Anthony
+2021,1,4,Ahmad,Chubby Wood,1-0,144.32,115.3,W1,144.32,W,Don
+2021,1,5,Jimmy,I Love Me Some ME,1-0,123.52,106.16,W1,123.52,W,Cody
+2021,1,6,Kevin D,dalvin COOKED me,1-0,117.78,107.16,W1,117.78,W,Daniel Vu
+2021,1,7,Anthony,Princess Jelly,0-1,142.48,149.16,L1,142.48,L,Blake
+2021,1,8,Don,We’re Allen This Together,0-1,115.3,144.32,L1,115.3,L,Ahmad
+2021,1,9,Khoa,Usher Bucks,0-1,112.94,159.98,L1,112.94,L,Alex
+2021,1,10,Daniel Vu,GOD TIER,0-1,107.16,117.78,L1,107.16,L,Kevin D
+2021,1,11,Cody,oOo Cody,0-1,106.16,123.52,L1,106.16,L,Jimmy
+2021,1,12,mrlampham,Vegas,0-1,85.24,167.56,L1,85.24,L,Ramzi
+2021,2,1,Ramzi,silky dingleberry,2-0,317.06,181.22,W2,149.5,W,Ahmad
+2021,2,2,Blake,Shake n Blake,2-0,264.28,245.7,W2,115.12,W,Khoa
+2021,2,3,Kevin D,dalvin COOKED me,2-0,239.0,221.32,W2,121.22,W,Don
+2021,2,4,Anthony,Princess Jelly,1-1,308.74,239.7,W1,166.26,W,Daniel Vu
+2021,2,5,Alex,Herb-a-Derp,1-1,284.7,273.88,L1,124.72,L,Cody
+2021,2,6,Cody,oOo Cody,1-1,267.1,248.24,W1,160.94,W,Alex
+2021,2,7,Ahmad,Chubby Wood,1-1,240.3,264.8,L1,95.98,L,Ramzi
+2021,2,8,Jimmy,I Love Me Some ME,1-1,238.12,236.32,L1,114.6,L,mrlampham
+2021,2,9,mrlampham,Vegas,1-1,215.4,282.16,W1,130.16,W,Jimmy
+2021,2,10,Don,We’re Allen This Together,0-2,229.46,265.54,L2,114.16,L,Kevin D
+2021,2,11,Khoa,Usher Bucks,0-2,216.16,275.1,L2,103.22,L,Blake
+2021,2,12,Daniel Vu,GOD TIER,0-2,197.7,284.04,L2,90.54,L,Anthony
+2021,3,1,Kevin D,dalvin COOKED me,3-0,372.0,341.36,W3,133.0,W,Ramzi
+2021,3,2,Ramzi,silky dingleberry,2-1,437.1,314.22,L1,120.04,L,Kevin D
+2021,3,3,Cody,oOo Cody,2-1,426.58,341.76,W2,159.48,W,Blake
+2021,3,4,Alex,Herb-a-Derp,2-1,399.24,354.22,W1,114.54,W,Jimmy
+2021,3,5,Blake,Shake n Blake,2-1,357.8,405.18,L1,93.52,L,Cody
+2021,3,6,mrlampham,Vegas,2-1,341.78,398.98,W2,126.38,W,Ahmad
+2021,3,7,Anthony,Princess Jelly,1-2,421.08,382.42,L1,112.34,L,Don
+2021,3,8,Don,We’re Allen This Together,1-2,372.18,377.88,W1,142.72,W,Anthony
+2021,3,9,Ahmad,Chubby Wood,1-2,357.12,391.18,L2,116.82,L,mrlampham
+2021,3,10,Khoa,Usher Bucks,1-2,354.78,366.46,W1,138.62,W,Daniel Vu
+2021,3,11,Jimmy,I Love Me Some ME,1-2,318.46,350.86,L2,80.34,L,Alex
+2021,3,12,Daniel Vu,GOD TIER,0-3,289.06,422.66,L3,91.36,L,Khoa
+2021,4,1,Blake,Shake n Blake,3-1,495.06,519.66,W1,137.26,W,Alex
+2021,4,2,mrlampham,Vegas,3-1,487.72,510.8,W3,145.94,W,Kevin D
+2021,4,3,Kevin D,dalvin COOKED me,3-1,483.82,487.3,L1,111.82,L,mrlampham
+2021,4,4,Anthony,Princess Jelly,2-2,555.6,494.04,W1,134.52,W,Ramzi
+2021,4,5,Ramzi,silky dingleberry,2-2,548.72,448.74,L2,111.62,L,Anthony
+2021,4,6,Cody,oOo Cody,2-2,529.84,467.3,L1,103.26,L,Daniel Vu
+2021,4,7,Alex,Herb-a-Derp,2-2,513.72,491.48,L1,114.48,L,Blake
+2021,4,8,Jimmy,I Love Me Some ME,2-2,492.48,478.58,W1,174.02,W,Ahmad
+2021,4,9,Khoa,Usher Bucks,2-2,478.78,429.78,W2,124.0,W,Don
+2021,4,10,Ahmad,Chubby Wood,1-3,484.84,565.2,L3,127.72,L,Jimmy
+2021,4,11,Don,We’re Allen This Together,1-3,435.5,501.88,L1,63.32,L,Khoa
+2021,4,12,Daniel Vu,GOD TIER,1-3,414.6,525.92,W1,125.54,W,Cody
+2021,5,1,Cody,oOo Cody,3-2,729.18,637.1,W1,199.34,W,Don
+2021,5,2,Anthony,Princess Jelly,3-2,699.9,606.22,W2,144.3,W,mrlampham
+2021,5,3,Alex,Herb-a-Derp,3-2,676.34,603.96,W1,162.62,W,Daniel Vu
+2021,5,4,Blake,Shake n Blake,3-2,637.34,664.22,L1,142.28,L,Jimmy
+2021,5,5,Jimmy,I Love Me Some ME,3-2,637.04,620.86,W2,144.56,W,Blake
+2021,5,6,Kevin D,dalvin COOKED me,3-2,618.8,655.98,L2,134.98,L,Ahmad
+2021,5,7,Khoa,Usher Bucks,3-2,614.18,529.84,W3,135.4,W,Ramzi
+2021,5,8,mrlampham,Vegas,3-2,599.9,655.1,L1,112.18,L,Anthony
+2021,5,9,Ahmad,Chubby Wood,2-3,653.52,700.18,W1,168.68,W,Kevin D
+2021,5,10,Ramzi,silky dingleberry,2-3,648.78,584.14,L3,100.06,L,Khoa
+2021,5,11,Don,We’re Allen This Together,1-4,605.3,701.22,L2,169.8,L,Cody
+2021,5,12,Daniel Vu,GOD TIER,1-4,527.08,688.54,L1,112.48,L,Alex
+2021,6,1,Anthony,Princess Jelly,4-2,855.32,727.82,W3,155.42,W,Ahmad
+2021,6,2,Khoa,Usher Bucks,4-2,766.62,616.02,W4,152.44,W,mrlampham
+2021,6,3,Blake,Shake n Blake,4-2,760.9,767.66,W1,123.56,W,Daniel Vu
+2021,6,4,Kevin D,dalvin COOKED me,4-2,753.68,760.18,W1,134.88,W,Jimmy
+2021,6,5,Cody,oOo Cody,3-3,827.06,777.96,L1,97.88,L,Ramzi
+2021,6,6,Alex,Herb-a-Derp,3-3,808.64,754.88,L1,132.3,L,Don
+2021,6,7,Ramzi,silky dingleberry,3-3,789.64,682.02,W1,140.86,W,Cody
+2021,6,8,Jimmy,I Love Me Some ME,3-3,741.24,755.74,L1,104.2,L,Kevin D
+2021,6,9,mrlampham,Vegas,3-3,686.08,807.54,L2,86.18,L,Khoa
+2021,6,10,Ahmad,Chubby Wood,2-4,775.12,855.6,L1,121.6,L,Anthony
+2021,6,11,Don,We’re Allen This Together,2-4,756.22,833.52,W1,150.92,W,Alex
+2021,6,12,Daniel Vu,GOD TIER,1-5,630.52,812.1,L2,103.44,L,Blake
+2021,7,1,Anthony,Princess Jelly,5-2,975.62,831.86,W4,120.3,W,Kevin D
+2021,7,2,Khoa,Usher Bucks,5-2,930.98,762.66,W5,164.36,W,Ahmad
+2021,7,3,Blake,Shake n Blake,5-2,894.44,864.04,W2,133.54,W,Don
+2021,7,4,Cody,oOo Cody,4-3,952.7,889.04,W1,125.64,W,mrlampham
+2021,7,5,Alex,Herb-a-Derp,4-3,949.06,852.02,W1,140.42,W,Ramzi
+2021,7,6,Kevin D,dalvin COOKED me,4-3,857.72,880.48,L1,104.04,L,Anthony
+2021,7,7,Ramzi,silky dingleberry,3-4,886.78,822.44,L1,97.14,L,Alex
+2021,7,8,Jimmy,I Love Me Some ME,3-4,848.4,884.28,L2,107.16,L,Daniel Vu
+2021,7,9,mrlampham,Vegas,3-4,797.16,933.18,L3,111.08,L,Cody
+2021,7,10,Ahmad,Chubby Wood,2-5,921.76,1019.96,L2,146.64,L,Khoa
+2021,7,11,Don,We’re Allen This Together,2-5,852.6,967.06,L1,96.38,L,Blake
+2021,7,12,Daniel Vu,GOD TIER,2-5,759.06,919.26,W1,128.54,W,Jimmy
+2021,8,1,Anthony,Princess Jelly,6-2,1100.78,948.22,W5,125.16,W,Jimmy
+2021,8,2,Khoa,Usher Bucks,6-2,1050.68,868.96,W6,119.7,W,Kevin D
+2021,8,3,Blake,Shake n Blake,6-2,1024.32,962.2,W3,129.88,W,Ramzi
+2021,8,4,Alex,Herb-a-Derp,5-3,1057.78,955.76,W2,108.72,W,mrlampham
+2021,8,5,Cody,oOo Cody,4-4,1072.1,1012.04,L1,119.4,L,Ahmad
+2021,8,6,Kevin D,dalvin COOKED me,4-4,964.02,1000.18,L2,106.3,L,Khoa
+2021,8,7,Ahmad,Chubby Wood,3-5,1044.76,1139.36,W1,123.0,W,Cody
+2021,8,8,Don,We’re Allen This Together,3-5,986.86,1075.88,W1,134.26,W,Daniel Vu
+2021,8,9,Ramzi,silky dingleberry,3-5,984.94,952.32,L2,98.16,L,Blake
+2021,8,10,Jimmy,I Love Me Some ME,3-5,964.76,1009.44,L3,116.36,L,Anthony
+2021,8,11,mrlampham,Vegas,3-5,900.9,1041.9,L4,103.74,L,Alex
+2021,8,12,Daniel Vu,GOD TIER,2-6,867.88,1053.52,L1,108.82,L,Don
+2021,9,1,Khoa,Usher Bucks,7-2,1155.34,958.04,W7,104.66,W,Anthony
+2021,9,2,Anthony,Princess Jelly,6-3,1189.86,1052.88,L1,89.08,L,Khoa
+2021,9,3,Blake,Shake n Blake,6-3,1123.74,1065.84,L1,99.42,L,mrlampham
+2021,9,4,Alex,Herb-a-Derp,5-4,1192.62,1095.64,L1,134.84,L,Ahmad
+2021,9,5,Kevin D,dalvin COOKED me,5-4,1060.26,1082.8,W1,96.24,W,Cody
+2021,9,6,Ahmad,Chubby Wood,4-5,1184.64,1274.2,W2,139.88,W,Alex
+2021,9,7,Cody,oOo Cody,4-5,1154.72,1108.28,L2,82.62,L,Kevin D
+2021,9,8,Don,We’re Allen This Together,4-5,1105.12,1153.38,W2,118.26,W,Jimmy
+2021,9,9,Ramzi,silky dingleberry,4-5,1094.58,1058.5,W1,109.64,W,Daniel Vu
+2021,9,10,mrlampham,Vegas,4-5,1004.54,1141.32,W1,103.64,W,Blake
+2021,9,11,Jimmy,I Love Me Some ME,3-6,1042.26,1127.7,L4,77.5,L,Don
+2021,9,12,Daniel Vu,GOD TIER,2-7,974.06,1163.16,L2,106.18,L,Ramzi
+2021,10,1,Anthony,Princess Jelly,7-3,1300.08,1159.58,W1,110.22,W,Cody
+2021,10,2,Khoa,Usher Bucks,7-3,1242.42,1068.62,L1,87.08,L,Jimmy
+2021,10,3,Blake,Shake n Blake,6-4,1247.38,1194.78,L2,123.64,L,Ahmad
+2021,10,4,Kevin D,dalvin COOKED me,6-4,1205.4,1168.2,W2,145.14,W,Alex
+2021,10,5,Ahmad,Chubby Wood,5-5,1313.58,1397.84,W3,128.94,W,Blake
+2021,10,6,Alex,Herb-a-Derp,5-5,1278.02,1240.78,L2,85.4,L,Kevin D
+2021,10,7,Don,We’re Allen This Together,5-5,1232.16,1253.92,W3,127.04,W,Ramzi
+2021,10,8,mrlampham,Vegas,5-5,1120.86,1213.92,W2,116.32,W,Daniel Vu
+2021,10,9,Cody,oOo Cody,4-6,1261.42,1218.5,L3,106.7,L,Anthony
+2021,10,10,Ramzi,silky dingleberry,4-6,1195.12,1185.54,L1,100.54,L,Don
+2021,10,11,Jimmy,I Love Me Some ME,4-6,1152.84,1214.78,W1,110.58,W,Khoa
+2021,10,12,Daniel Vu,GOD TIER,2-8,1046.66,1279.48,L3,72.6,L,mrlampham
+2021,11,1,Anthony,Princess Jelly,7-4,1396.0,1335.76,L1,95.92,L,Alex
+2021,11,2,Blake,Shake n Blake,7-4,1369.36,1292.18,W1,121.98,W,Kevin D
+2021,11,3,Khoa,Usher Bucks,7-4,1335.48,1174.6,L2,93.06,L,Cody
+2021,11,4,Alex,Herb-a-Derp,6-5,1454.2,1336.7,W1,176.18,W,Anthony
+2021,11,5,Don,We’re Allen This Together,6-5,1355.82,1361.22,W4,123.66,W,mrlampham
+2021,11,6,Kevin D,dalvin COOKED me,6-5,1302.8,1290.18,L1,97.4,L,Blake
+2021,11,7,Ahmad,Chubby Wood,5-6,1414.72,1515.76,L1,101.14,L,Daniel Vu
+2021,11,8,Cody,oOo Cody,5-6,1367.4,1311.56,W1,105.98,W,Khoa
+2021,11,9,Jimmy,I Love Me Some ME,5-6,1311.14,1334.48,W2,158.3,W,Ramzi
+2021,11,10,mrlampham,Vegas,5-6,1228.16,1337.58,L1,107.3,L,Don
+2021,11,11,Ramzi,silky dingleberry,4-7,1314.82,1343.84,L2,119.7,L,Jimmy
+2021,11,12,Daniel Vu,GOD TIER,3-8,1164.58,1380.62,W1,117.92,W,Ahmad
+2021,12,1,Anthony,Princess Jelly,8-4,1505.52,1402.54,W1,109.52,W,Blake
+2021,12,2,Alex,Herb-a-Derp,7-5,1595.52,1458.58,W2,141.32,W,Khoa
+2021,12,3,Don,We’re Allen This Together,7-5,1492.52,1452.72,W5,136.7,W,Ahmad
+2021,12,4,Khoa,Usher Bucks,7-5,1457.36,1315.92,L3,121.88,L,Alex
+2021,12,5,Blake,Shake n Blake,7-5,1436.14,1401.7,L1,66.78,L,Anthony
+2021,12,6,Jimmy,I Love Me Some ME,6-6,1469.42,1440.42,W3,158.28,W,Cody
+2021,12,7,Kevin D,dalvin COOKED me,6-6,1390.96,1427.98,L2,88.16,L,Daniel Vu
+2021,12,8,Ahmad,Chubby Wood,5-7,1506.22,1652.46,L2,91.5,L,Don
+2021,12,9,Cody,oOo Cody,5-7,1473.34,1469.84,L1,105.94,L,Jimmy
+2021,12,10,Ramzi,silky dingleberry,5-7,1422.54,1416.2,W1,107.72,W,mrlampham
+2021,12,11,mrlampham,Vegas,5-7,1300.52,1445.3,L2,72.36,L,Ramzi
+2021,12,12,Daniel Vu,GOD TIER,4-8,1302.38,1468.78,W2,137.8,W,Kevin D
+2021,13,1,Alex,Herb-a-Derp,8-5,1768.1,1608.2,W3,172.58,W,Cody
+2021,13,2,Khoa,Usher Bucks,8-5,1600.56,1432.76,W1,143.2,W,Blake
+2021,13,3,Anthony,Princess Jelly,8-5,1577.62,1541.44,L1,72.1,L,Daniel Vu
+2021,13,4,Don,We’re Allen This Together,7-6,1608.82,1569.98,L1,116.3,L,Kevin D
+2021,13,5,Blake,Shake n Blake,7-6,1552.98,1544.9,L2,116.84,L,Khoa
+2021,13,6,Kevin D,dalvin COOKED me,7-6,1508.22,1544.28,W1,117.26,W,Don
+2021,13,7,Jimmy,I Love Me Some ME,6-7,1571.24,1553.24,L1,101.82,L,mrlampham
+2021,13,8,Ramzi,silky dingleberry,6-7,1526.56,1517.12,W2,104.02,W,Ahmad
+2021,13,9,mrlampham,Vegas,6-7,1413.34,1547.12,W1,112.82,W,Jimmy
+2021,13,10,Cody,oOo Cody,5-8,1622.96,1642.42,L2,149.62,L,Alex
+2021,13,11,Ahmad,Chubby Wood,5-8,1607.14,1756.48,L3,100.92,L,Ramzi
+2021,13,12,Daniel Vu,GOD TIER,5-8,1441.28,1540.88,W3,138.9,W,Anthony
+2021,14,1,Alex,Herb-a-Derp,8-6,1882.3,1734.74,L1,114.2,L,Jimmy
+2021,14,2,Don,We’re Allen This Together,8-6,1792.44,1679.22,W1,183.62,W,Anthony
+2021,14,3,Khoa,Usher Bucks,8-6,1743.54,1602.38,L1,142.98,L,Daniel Vu
+2021,14,4,Anthony,Princess Jelly,8-6,1686.86,1725.06,L2,109.24,L,Don
+2021,14,5,Blake,Shake n Blake,8-6,1681.38,1667.02,W1,128.4,W,Cody
+2021,14,6,Kevin D,dalvin COOKED me,8-6,1626.54,1636.7,W2,118.32,W,Ramzi
+2021,14,7,Jimmy,I Love Me Some ME,7-7,1697.78,1667.44,W1,126.54,W,Alex
+2021,14,8,Ahmad,Chubby Wood,6-8,1735.18,1852.16,W1,128.04,W,mrlampham
+2021,14,9,Ramzi,silky dingleberry,6-8,1618.98,1635.44,L1,92.42,L,Kevin D
+2021,14,10,Daniel Vu,GOD TIER,6-8,1610.9,1683.86,W4,169.62,W,Khoa
+2021,14,11,mrlampham,Vegas,6-8,1509.02,1675.16,L1,95.68,L,Ahmad
+2021,14,12,Cody,oOo Cody,5-9,1745.08,1770.82,L3,122.12,L,Blake

@@ -1,0 +1,125 @@
+{
+ "season": 2017,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Odeh1121",
+     "points": 137.06,
+     "projected": 119.62,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 104.14,
+     "projected": 122.27,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "ramzz",
+     "points": 146.14,
+     "projected": 111.15,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 101.26,
+     "projected": 110.29,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "anth0nyng",
+     "points": 100.78,
+     "projected": 123.62,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "kholabear",
+     "points": 88.84,
+     "projected": 119.47,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 113.02,
+     "projected": 118.76,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "DVTV",
+     "points": 122.32,
+     "projected": 111.37,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "ramzz",
+   "team": "Leonard's booty gang",
+   "points": 146.14
+  },
+  "low_score": {
+   "manager": "kholabear",
+   "team": "Lavar Ballers",
+   "points": 88.84
+  },
+  "closest_game": {
+   "winner": "DVTV",
+   "winner_points": 122.32,
+   "loser": "wabaki (Lan Doan)",
+   "loser_points": 113.02,
+   "margin": 9.3
+  },
+  "biggest_blowout": {
+   "winner": "ramzz",
+   "winner_points": 146.14,
+   "loser": "lmphm",
+   "loser_points": 101.26,
+   "margin": 44.88
+  }
+ }
+}

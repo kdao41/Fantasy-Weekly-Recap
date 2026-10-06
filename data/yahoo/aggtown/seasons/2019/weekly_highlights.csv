@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2019,1,False,Anthony,170.72,Alex,94.82,Cody over mrlampham by 4.26,Anthony over Daniel Vu by 65.5
+2019,2,False,Kevin D,167.36,mrlampham,77.0,Daniel Vu over Cody by 3.22,Kevin D over mrlampham by 90.36
+2019,3,False,Don,197.54,Blake,85.28,Ahmad over Cody by 5.28,Don over Ramzi by 66.1
+2019,4,False,Ramzi,170.3,Ahmad,74.42,Anthony over Don by 6.9,Daniel Vu over Kevin D by 45.12
+2019,5,False,Ramzi,201.84,Blake,108.14,Ahmad over Daniel Vu by 7.48,Ramzi over Blake by 93.7
+2019,6,False,Ramzi,179.0,Khoa,83.12,Kevin D over Ahmad by 6.5,Ramzi over Alex by 40.46
+2019,7,False,Kevin D,148.26,Jimmy,78.44,mrlampham over Jimmy by 4.66,Ahmad over Khoa by 53.44
+2019,8,False,Daniel Vu,186.86,Ahmad,97.42,Blake over mrlampham by 10.26,Daniel Vu over Jimmy by 76.78
+2019,9,False,Jimmy,185.02,mrlampham,81.9,Daniel Vu over Blake by 0.02,Jimmy over Ahmad by 46.64
+2019,10,False,Anthony,160.04,mrlampham,75.72,Don over Kevin D by 5.66,Blake over Ahmad by 42.5
+2019,11,False,Jimmy,152.78,Ramzi,76.06,Blake over Khoa by 3.2,Daniel Vu over Ramzi by 62.58
+2019,12,False,Jimmy,222.66,Kevin D,73.06,mrlampham over Cody by 3.08,Jimmy over Kevin D by 149.6
+2019,13,False,Don,166.34,mrlampham,77.72,Kevin D over mrlampham by 17.9,Don over Alex by 69.26
+2019,14,True,Ramzi,195.28,Don,90.46,Cody over Anthony by 5.9,Ramzi over Jimmy by 38.98
+2019,15,True,Jimmy,171.28,Kevin D,96.02,Alex over Don by 8.84,Daniel Vu over Kevin D by 45.44
+2019,16,True,Alex,188.72,Ramzi,89.06,Daniel Vu over Ramzi by 5.62,Alex over Jimmy by 58.7

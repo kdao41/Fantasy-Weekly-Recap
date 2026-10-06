@@ -1,0 +1,317 @@
+{
+ "season": 2020,
+ "week": 9,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Golladay Inn Express",
+     "manager": "Don",
+     "points": 80.44,
+     "projected": 103.66,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "I Want You Davant Me",
+     "manager": "Alex",
+     "points": 130.74,
+     "projected": 135.02,
+     "won": true
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "SponsoredByStatefarm",
+     "manager": "Jimmy",
+     "points": 123.1,
+     "projected": 131.7,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Boom or Bust",
+     "manager": "Kevin D",
+     "points": 99.56,
+     "projected": 140.7,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Hide and Zeke",
+     "manager": "Ahmad",
+     "points": 81.04,
+     "projected": 113.85,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "Anthony",
+     "points": 139.82,
+     "projected": 118.38,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "OnlyPain",
+     "manager": "Khoa",
+     "points": 155.9,
+     "projected": 126.64,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 136.9,
+     "projected": 131.47,
+     "won": false
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Winry fan club",
+     "manager": "Ramzi",
+     "points": 129.08,
+     "projected": 108.12,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 109.48,
+     "projected": 123.52,
+     "won": false
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 103.7,
+     "projected": 121.4,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 115.74,
+     "projected": 125.88,
+     "won": true
+    }
+   ],
+   "winner": "Daniel Vu"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Khoa",
+   "team": "OnlyPain",
+   "points": 155.9
+  },
+  "low_score": {
+   "manager": "Don",
+   "team": "Golladay Inn Express",
+   "points": 80.44
+  },
+  "closest_game": {
+   "winner": "Daniel Vu",
+   "winner_points": 115.74,
+   "loser": "Cody",
+   "loser_points": 103.7,
+   "margin": 12.04
+  },
+  "biggest_blowout": {
+   "winner": "Anthony",
+   "winner_points": 139.82,
+   "loser": "Ahmad",
+   "loser_points": 81.04,
+   "margin": 58.78
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "7-2",
+   "points_for": 1288.96,
+   "points_against": 1151.2,
+   "streak": "L1",
+   "week_points": 136.9,
+   "week_result": "L",
+   "opponent": "Khoa"
+  },
+  {
+   "rank": 2,
+   "manager": "Alex",
+   "team": "I Want You Davant Me",
+   "record": "7-2",
+   "points_for": 1146.0,
+   "points_against": 1066.08,
+   "streak": "W5",
+   "week_points": 130.74,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 3,
+   "manager": "Ramzi",
+   "team": "Winry fan club",
+   "record": "6-3",
+   "points_for": 1248.78,
+   "points_against": 1172.18,
+   "streak": "W1",
+   "week_points": 129.08,
+   "week_result": "W",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 4,
+   "manager": "Kevin D",
+   "team": "Boom or Bust",
+   "record": "5-4",
+   "points_for": 1207.42,
+   "points_against": 1011.32,
+   "streak": "L1",
+   "week_points": 99.56,
+   "week_result": "L",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 5,
+   "manager": "Khoa",
+   "team": "OnlyPain",
+   "record": "5-4",
+   "points_for": 1178.88,
+   "points_against": 1127.66,
+   "streak": "W1",
+   "week_points": 155.9,
+   "week_result": "W",
+   "opponent": "Blake"
+  },
+  {
+   "rank": 6,
+   "manager": "Anthony",
+   "team": "Prince of Mahomes",
+   "record": "5-4",
+   "points_for": 1123.32,
+   "points_against": 1062.12,
+   "streak": "W1",
+   "week_points": 139.82,
+   "week_result": "W",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 7,
+   "manager": "Daniel Vu",
+   "team": "GOD TIER",
+   "record": "5-4",
+   "points_for": 1101.98,
+   "points_against": 1144.9,
+   "streak": "W4",
+   "week_points": 115.74,
+   "week_result": "W",
+   "opponent": "Cody"
+  },
+  {
+   "rank": 8,
+   "manager": "Jimmy",
+   "team": "SponsoredByStatefarm",
+   "record": "4-5",
+   "points_for": 1128.14,
+   "points_against": 1198.06,
+   "streak": "W1",
+   "week_points": 123.1,
+   "week_result": "W",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 9,
+   "manager": "Ahmad",
+   "team": "Hide and Zeke",
+   "record": "4-5",
+   "points_for": 1096.14,
+   "points_against": 1151.08,
+   "streak": "L1",
+   "week_points": 81.04,
+   "week_result": "L",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 10,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "3-6",
+   "points_for": 982.7,
+   "points_against": 1111.74,
+   "streak": "L1",
+   "week_points": 109.48,
+   "week_result": "L",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 11,
+   "manager": "Don",
+   "team": "Golladay Inn Express",
+   "record": "2-7",
+   "points_for": 1010.16,
+   "points_against": 1153.46,
+   "streak": "L5",
+   "week_points": 80.44,
+   "week_result": "L",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 12,
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "record": "1-8",
+   "points_for": 960.28,
+   "points_against": 1122.96,
+   "streak": "L3",
+   "week_points": 103.7,
+   "week_result": "L",
+   "opponent": "Daniel Vu"
+  }
+ ]
+}

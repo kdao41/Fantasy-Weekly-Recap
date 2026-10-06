@@ -1,0 +1,325 @@
+season,week,is_playoffs,is_consolation,manager,team,points,opponent_manager,opponent_team,opponent_points,result
+2024,1,False,False,keveezy,Longtendo,68.36,dexclusive,dexclusive,117.26,L
+2024,1,False,False,dexclusive,dexclusive,117.26,keveezy,Longtendo,68.36,W
+2024,1,False,False,anth0nyng,🙂‍↕️,127.92,lmphm,lmphm,142.24,L
+2024,1,False,False,lmphm,lmphm,142.24,anth0nyng,🙂‍↕️,127.92,W
+2024,1,False,False,donblood,CityBoyJJ,132.76,jasonle,Amon Drugs,136.8,L
+2024,1,False,False,jasonle,Amon Drugs,136.8,donblood,CityBoyJJ,132.76,W
+2024,1,False,False,Abadahh,LANK,110.88,PutItOnYa,PutItOnYa,118.32,L
+2024,1,False,False,PutItOnYa,PutItOnYa,118.32,Abadahh,LANK,110.88,W
+2024,1,False,False,yckyb,yckyb,131.38,jigri,jigri,110.86,W
+2024,1,False,False,jigri,jigri,110.86,yckyb,yckyb,131.38,L
+2024,2,False,False,keveezy,Longtendo,116.92,anth0nyng,🙂‍↕️,143.28,L
+2024,2,False,False,anth0nyng,🙂‍↕️,143.28,keveezy,Longtendo,116.92,W
+2024,2,False,False,donblood,CityBoyJJ,121.52,Abadahh,LANK,143.86,L
+2024,2,False,False,Abadahh,LANK,143.86,donblood,CityBoyJJ,121.52,W
+2024,2,False,False,lmphm,lmphm,129.04,jigri,jigri,80.7,W
+2024,2,False,False,jigri,jigri,80.7,lmphm,lmphm,129.04,L
+2024,2,False,False,yckyb,yckyb,136.36,dexclusive,dexclusive,117.14,W
+2024,2,False,False,dexclusive,dexclusive,117.14,yckyb,yckyb,136.36,L
+2024,2,False,False,jasonle,Amon Drugs,126.6,PutItOnYa,PutItOnYa,141.22,L
+2024,2,False,False,PutItOnYa,PutItOnYa,141.22,jasonle,Amon Drugs,126.6,W
+2024,3,False,False,keveezy,Longtendo,140.16,yckyb,yckyb,160.52,L
+2024,3,False,False,yckyb,yckyb,160.52,keveezy,Longtendo,140.16,W
+2024,3,False,False,anth0nyng,🙂‍↕️,132.78,jigri,jigri,126.42,W
+2024,3,False,False,jigri,jigri,126.42,anth0nyng,🙂‍↕️,132.78,L
+2024,3,False,False,donblood,CityBoyJJ,125.36,PutItOnYa,PutItOnYa,100.34,W
+2024,3,False,False,PutItOnYa,PutItOnYa,100.34,donblood,CityBoyJJ,125.36,L
+2024,3,False,False,lmphm,lmphm,78.68,dexclusive,dexclusive,111.26,L
+2024,3,False,False,dexclusive,dexclusive,111.26,lmphm,lmphm,78.68,W
+2024,3,False,False,Abadahh,LANK,96.28,jasonle,Amon Drugs,86.52,W
+2024,3,False,False,jasonle,Amon Drugs,86.52,Abadahh,LANK,96.28,L
+2024,4,False,False,keveezy,Longtendo,154.18,lmphm,lmphm,100.5,W
+2024,4,False,False,lmphm,lmphm,100.5,keveezy,Longtendo,154.18,L
+2024,4,False,False,anth0nyng,🙂‍↕️,118.34,Abadahh,LANK,125.62,L
+2024,4,False,False,Abadahh,LANK,125.62,anth0nyng,🙂‍↕️,118.34,W
+2024,4,False,False,donblood,CityBoyJJ,94.94,jigri,jigri,143.8,L
+2024,4,False,False,jigri,jigri,143.8,donblood,CityBoyJJ,94.94,W
+2024,4,False,False,yckyb,yckyb,87.5,jasonle,Amon Drugs,144.3,L
+2024,4,False,False,jasonle,Amon Drugs,144.3,yckyb,yckyb,87.5,W
+2024,4,False,False,dexclusive,dexclusive,88.82,PutItOnYa,PutItOnYa,135.4,L
+2024,4,False,False,PutItOnYa,PutItOnYa,135.4,dexclusive,dexclusive,88.82,W
+2024,5,False,False,keveezy,Longtendo,156.58,PutItOnYa,PutItOnYa,117.74,W
+2024,5,False,False,PutItOnYa,PutItOnYa,117.74,keveezy,Longtendo,156.58,L
+2024,5,False,False,anth0nyng,🙂‍↕️,114.82,dexclusive,dexclusive,130.72,L
+2024,5,False,False,dexclusive,dexclusive,130.72,anth0nyng,🙂‍↕️,114.82,W
+2024,5,False,False,donblood,CityBoyJJ,143.18,yckyb,yckyb,95.84,W
+2024,5,False,False,yckyb,yckyb,95.84,donblood,CityBoyJJ,143.18,L
+2024,5,False,False,lmphm,lmphm,111.14,Abadahh,LANK,86.46,W
+2024,5,False,False,Abadahh,LANK,86.46,lmphm,lmphm,111.14,L
+2024,5,False,False,jasonle,Amon Drugs,151.36,jigri,jigri,146.8,W
+2024,5,False,False,jigri,jigri,146.8,jasonle,Amon Drugs,151.36,L
+2024,6,False,False,keveezy,Longtendo,123.72,donblood,CityBoyJJ,113.62,W
+2024,6,False,False,donblood,CityBoyJJ,113.62,keveezy,Longtendo,123.72,L
+2024,6,False,False,anth0nyng,🙂‍↕️,138.22,yckyb,yckyb,131.2,W
+2024,6,False,False,yckyb,yckyb,131.2,anth0nyng,🙂‍↕️,138.22,L
+2024,6,False,False,lmphm,lmphm,84.5,PutItOnYa,PutItOnYa,107.2,L
+2024,6,False,False,PutItOnYa,PutItOnYa,107.2,lmphm,lmphm,84.5,W
+2024,6,False,False,Abadahh,LANK,101.8,jigri,jigri,150.7,L
+2024,6,False,False,jigri,jigri,150.7,Abadahh,LANK,101.8,W
+2024,6,False,False,jasonle,Amon Drugs,142.12,dexclusive,dexclusive,114.96,W
+2024,6,False,False,dexclusive,dexclusive,114.96,jasonle,Amon Drugs,142.12,L
+2024,7,False,False,keveezy,Longtendo,105.44,jasonle,Amon Drugs,124.4,L
+2024,7,False,False,jasonle,Amon Drugs,124.4,keveezy,Longtendo,105.44,W
+2024,7,False,False,anth0nyng,🙂‍↕️,115.94,PutItOnYa,PutItOnYa,139.46,L
+2024,7,False,False,PutItOnYa,PutItOnYa,139.46,anth0nyng,🙂‍↕️,115.94,W
+2024,7,False,False,donblood,CityBoyJJ,144.86,lmphm,lmphm,94.26,W
+2024,7,False,False,lmphm,lmphm,94.26,donblood,CityBoyJJ,144.86,L
+2024,7,False,False,Abadahh,LANK,101.58,yckyb,yckyb,114.32,L
+2024,7,False,False,yckyb,yckyb,114.32,Abadahh,LANK,101.58,W
+2024,7,False,False,dexclusive,dexclusive,111.74,jigri,jigri,128.4,L
+2024,7,False,False,jigri,jigri,128.4,dexclusive,dexclusive,111.74,W
+2024,8,False,False,keveezy,Longtendo,105.36,jigri,jigri,123.9,L
+2024,8,False,False,jigri,jigri,123.9,keveezy,Longtendo,105.36,W
+2024,8,False,False,anth0nyng,🙂‍↕️,142.56,donblood,CityBoyJJ,141.7,W
+2024,8,False,False,donblood,CityBoyJJ,141.7,anth0nyng,🙂‍↕️,142.56,L
+2024,8,False,False,lmphm,lmphm,125.48,jasonle,Amon Drugs,131.54,L
+2024,8,False,False,jasonle,Amon Drugs,131.54,lmphm,lmphm,125.48,W
+2024,8,False,False,Abadahh,LANK,154.8,dexclusive,dexclusive,134.04,W
+2024,8,False,False,dexclusive,dexclusive,134.04,Abadahh,LANK,154.8,L
+2024,8,False,False,yckyb,yckyb,143.44,PutItOnYa,PutItOnYa,139.94,W
+2024,8,False,False,PutItOnYa,PutItOnYa,139.94,yckyb,yckyb,143.44,L
+2024,9,False,False,keveezy,Longtendo,131.54,Abadahh,LANK,98.4,W
+2024,9,False,False,Abadahh,LANK,98.4,keveezy,Longtendo,131.54,L
+2024,9,False,False,anth0nyng,🙂‍↕️,116.48,jasonle,Amon Drugs,127.14,L
+2024,9,False,False,jasonle,Amon Drugs,127.14,anth0nyng,🙂‍↕️,116.48,W
+2024,9,False,False,donblood,CityBoyJJ,167.6,dexclusive,dexclusive,109.06,W
+2024,9,False,False,dexclusive,dexclusive,109.06,donblood,CityBoyJJ,167.6,L
+2024,9,False,False,lmphm,lmphm,121.04,yckyb,yckyb,122.8,L
+2024,9,False,False,yckyb,yckyb,122.8,lmphm,lmphm,121.04,W
+2024,9,False,False,jigri,jigri,100.8,PutItOnYa,PutItOnYa,133.4,L
+2024,9,False,False,PutItOnYa,PutItOnYa,133.4,jigri,jigri,100.8,W
+2024,10,False,False,keveezy,Longtendo,114.42,dexclusive,dexclusive,124.58,L
+2024,10,False,False,dexclusive,dexclusive,124.58,keveezy,Longtendo,114.42,W
+2024,10,False,False,anth0nyng,🙂‍↕️,138.7,lmphm,lmphm,102.64,W
+2024,10,False,False,lmphm,lmphm,102.64,anth0nyng,🙂‍↕️,138.7,L
+2024,10,False,False,donblood,CityBoyJJ,77.44,jasonle,Amon Drugs,136.94,L
+2024,10,False,False,jasonle,Amon Drugs,136.94,donblood,CityBoyJJ,77.44,W
+2024,10,False,False,Abadahh,LANK,119.22,PutItOnYa,PutItOnYa,130.48,L
+2024,10,False,False,PutItOnYa,PutItOnYa,130.48,Abadahh,LANK,119.22,W
+2024,10,False,False,yckyb,yckyb,110.2,jigri,jigri,141.94,L
+2024,10,False,False,jigri,jigri,141.94,yckyb,yckyb,110.2,W
+2024,11,False,False,keveezy,Longtendo,134.44,anth0nyng,🙂‍↕️,121.28,W
+2024,11,False,False,anth0nyng,🙂‍↕️,121.28,keveezy,Longtendo,134.44,L
+2024,11,False,False,donblood,CityBoyJJ,156.84,Abadahh,LANK,102.26,W
+2024,11,False,False,Abadahh,LANK,102.26,donblood,CityBoyJJ,156.84,L
+2024,11,False,False,lmphm,lmphm,124.74,jigri,jigri,103.08,W
+2024,11,False,False,jigri,jigri,103.08,lmphm,lmphm,124.74,L
+2024,11,False,False,yckyb,yckyb,152.58,dexclusive,dexclusive,95.54,W
+2024,11,False,False,dexclusive,dexclusive,95.54,yckyb,yckyb,152.58,L
+2024,11,False,False,jasonle,Amon Drugs,136.18,PutItOnYa,PutItOnYa,119.14,W
+2024,11,False,False,PutItOnYa,PutItOnYa,119.14,jasonle,Amon Drugs,136.18,L
+2024,12,False,False,keveezy,Longtendo,111.02,yckyb,yckyb,101.58,W
+2024,12,False,False,yckyb,yckyb,101.58,keveezy,Longtendo,111.02,L
+2024,12,False,False,anth0nyng,🙂‍↕️,133.58,jigri,jigri,85.56,W
+2024,12,False,False,jigri,jigri,85.56,anth0nyng,🙂‍↕️,133.58,L
+2024,12,False,False,donblood,CityBoyJJ,157.66,PutItOnYa,PutItOnYa,129.06,W
+2024,12,False,False,PutItOnYa,PutItOnYa,129.06,donblood,CityBoyJJ,157.66,L
+2024,12,False,False,lmphm,lmphm,116.16,dexclusive,dexclusive,149.4,L
+2024,12,False,False,dexclusive,dexclusive,149.4,lmphm,lmphm,116.16,W
+2024,12,False,False,Abadahh,LANK,82.0,jasonle,Amon Drugs,124.02,L
+2024,12,False,False,jasonle,Amon Drugs,124.02,Abadahh,LANK,82.0,W
+2024,13,False,False,keveezy,Longtendo,126.76,lmphm,lmphm,136.44,L
+2024,13,False,False,lmphm,lmphm,136.44,keveezy,Longtendo,126.76,W
+2024,13,False,False,anth0nyng,🙂‍↕️,144.28,Abadahh,LANK,121.9,W
+2024,13,False,False,Abadahh,LANK,121.9,anth0nyng,🙂‍↕️,144.28,L
+2024,13,False,False,donblood,CityBoyJJ,123.06,jigri,jigri,136.8,L
+2024,13,False,False,jigri,jigri,136.8,donblood,CityBoyJJ,123.06,W
+2024,13,False,False,yckyb,yckyb,104.3,jasonle,Amon Drugs,102.36,W
+2024,13,False,False,jasonle,Amon Drugs,102.36,yckyb,yckyb,104.3,L
+2024,13,False,False,dexclusive,dexclusive,140.74,PutItOnYa,PutItOnYa,155.42,L
+2024,13,False,False,PutItOnYa,PutItOnYa,155.42,dexclusive,dexclusive,140.74,W
+2024,14,False,False,keveezy,Longtendo,126.06,PutItOnYa,PutItOnYa,140.02,L
+2024,14,False,False,PutItOnYa,PutItOnYa,140.02,keveezy,Longtendo,126.06,W
+2024,14,False,False,anth0nyng,🙂‍↕️,157.86,dexclusive,dexclusive,102.86,W
+2024,14,False,False,dexclusive,dexclusive,102.86,anth0nyng,🙂‍↕️,157.86,L
+2024,14,False,False,donblood,CityBoyJJ,126.24,yckyb,yckyb,175.18,L
+2024,14,False,False,yckyb,yckyb,175.18,donblood,CityBoyJJ,126.24,W
+2024,14,False,False,lmphm,lmphm,131.4,Abadahh,LANK,157.88,L
+2024,14,False,False,Abadahh,LANK,157.88,lmphm,lmphm,131.4,W
+2024,14,False,False,jasonle,Amon Drugs,112.56,jigri,jigri,123.4,L
+2024,14,False,False,jigri,jigri,123.4,jasonle,Amon Drugs,112.56,W
+2024,15,True,True,keveezy,Longtendo,118.14,lmphm,lmphm,161.76,L
+2024,15,True,True,lmphm,lmphm,161.76,keveezy,Longtendo,118.14,W
+2024,15,True,False,anth0nyng,🙂‍↕️,130.2,jigri,jigri,151.32,L
+2024,15,True,False,jigri,jigri,151.32,anth0nyng,🙂‍↕️,130.2,W
+2024,15,True,False,donblood,CityBoyJJ,119.36,yckyb,yckyb,127.38,L
+2024,15,True,False,yckyb,yckyb,127.38,donblood,CityBoyJJ,119.36,W
+2024,15,True,True,Abadahh,LANK,92.64,dexclusive,dexclusive,135.74,L
+2024,15,True,True,dexclusive,dexclusive,135.74,Abadahh,LANK,92.64,W
+2024,16,True,True,keveezy,Longtendo,84.98,Abadahh,LANK,132.04,L
+2024,16,True,True,Abadahh,LANK,132.04,keveezy,Longtendo,84.98,W
+2024,16,True,False,anth0nyng,🙂‍↕️,119.88,donblood,CityBoyJJ,157.58,L
+2024,16,True,False,donblood,CityBoyJJ,157.58,anth0nyng,🙂‍↕️,119.88,W
+2024,16,True,True,lmphm,lmphm,144.2,dexclusive,dexclusive,167.12,L
+2024,16,True,True,dexclusive,dexclusive,167.12,lmphm,lmphm,144.2,W
+2024,16,True,False,yckyb,yckyb,85.66,PutItOnYa,PutItOnYa,100.44,L
+2024,16,True,False,PutItOnYa,PutItOnYa,100.44,yckyb,yckyb,85.66,W
+2024,16,True,False,jasonle,Amon Drugs,131.72,jigri,jigri,158.02,L
+2024,16,True,False,jigri,jigri,158.02,jasonle,Amon Drugs,131.72,W
+2024,17,True,False,yckyb,yckyb,99.68,jasonle,Amon Drugs,64.86,W
+2024,17,True,False,jasonle,Amon Drugs,64.86,yckyb,yckyb,99.68,L
+2024,17,True,False,jigri,jigri,181.86,PutItOnYa,PutItOnYa,167.42,W
+2024,17,True,False,PutItOnYa,PutItOnYa,167.42,jigri,jigri,181.86,L
+2025,1,False,False,keveezy,Fly cant mosquito ,95.24,anth0nyng,Honeymoon Fund 2026,143.68,L
+2025,1,False,False,anth0nyng,Honeymoon Fund 2026,143.68,keveezy,Fly cant mosquito ,95.24,W
+2025,1,False,False,donblood,Pickens Noses Diggs Asses,88.52,lmphm,JJ & the AFC,116.46,L
+2025,1,False,False,lmphm,JJ & the AFC,116.46,donblood,Pickens Noses Diggs Asses,88.52,W
+2025,1,False,False,Abadahh,LANK,95.22,jigri,jigri,125.36,L
+2025,1,False,False,jigri,jigri,125.36,Abadahh,LANK,95.22,W
+2025,1,False,False,yckyb,yckyb,139.72,dexclusive,dexclusive,112.3,W
+2025,1,False,False,dexclusive,dexclusive,112.3,yckyb,yckyb,139.72,L
+2025,1,False,False,jasonle,Tuten and bootin,133.98,PutItOnYa,PutItOnYa,98.82,W
+2025,1,False,False,PutItOnYa,PutItOnYa,98.82,jasonle,Tuten and bootin,133.98,L
+2025,2,False,False,keveezy,Fly cant mosquito ,107.24,lmphm,JJ & the AFC,82.02,W
+2025,2,False,False,lmphm,JJ & the AFC,82.02,keveezy,Fly cant mosquito ,107.24,L
+2025,2,False,False,anth0nyng,Honeymoon Fund 2026,122.6,yckyb,yckyb,145.4,L
+2025,2,False,False,yckyb,yckyb,145.4,anth0nyng,Honeymoon Fund 2026,122.6,W
+2025,2,False,False,donblood,Pickens Noses Diggs Asses,125.58,dexclusive,dexclusive,128.06,L
+2025,2,False,False,dexclusive,dexclusive,128.06,donblood,Pickens Noses Diggs Asses,125.58,W
+2025,2,False,False,Abadahh,LANK,106.64,jasonle,Tuten and bootin,125.14,L
+2025,2,False,False,jasonle,Tuten and bootin,125.14,Abadahh,LANK,106.64,W
+2025,2,False,False,jigri,jigri,141.7,PutItOnYa,PutItOnYa,138.38,W
+2025,2,False,False,PutItOnYa,PutItOnYa,138.38,jigri,jigri,141.7,L
+2025,3,False,False,keveezy,Fly cant mosquito ,105.92,dexclusive,dexclusive,112.28,L
+2025,3,False,False,dexclusive,dexclusive,112.28,keveezy,Fly cant mosquito ,105.92,W
+2025,3,False,False,anth0nyng,Honeymoon Fund 2026,117.72,lmphm,JJ & the AFC,95.12,W
+2025,3,False,False,lmphm,JJ & the AFC,95.12,anth0nyng,Honeymoon Fund 2026,117.72,L
+2025,3,False,False,donblood,Pickens Noses Diggs Asses,103.66,yckyb,yckyb,113.02,L
+2025,3,False,False,yckyb,yckyb,113.02,donblood,Pickens Noses Diggs Asses,103.66,W
+2025,3,False,False,Abadahh,LANK,94.1,PutItOnYa,PutItOnYa,123.72,L
+2025,3,False,False,PutItOnYa,PutItOnYa,123.72,Abadahh,LANK,94.1,W
+2025,3,False,False,jasonle,Tuten and bootin,127.94,jigri,jigri,143.62,L
+2025,3,False,False,jigri,jigri,143.62,jasonle,Tuten and bootin,127.94,W
+2025,4,False,False,keveezy,Fly cant mosquito ,154.94,jigri,jigri,89.98,W
+2025,4,False,False,jigri,jigri,89.98,keveezy,Fly cant mosquito ,154.94,L
+2025,4,False,False,anth0nyng,Honeymoon Fund 2026,135.76,dexclusive,dexclusive,102.82,W
+2025,4,False,False,dexclusive,dexclusive,102.82,anth0nyng,Honeymoon Fund 2026,135.76,L
+2025,4,False,False,donblood,Pickens Noses Diggs Asses,163.9,jasonle,Tuten and bootin,130.3,W
+2025,4,False,False,jasonle,Tuten and bootin,130.3,donblood,Pickens Noses Diggs Asses,163.9,L
+2025,4,False,False,lmphm,JJ & the AFC,116.96,PutItOnYa,PutItOnYa,113.98,W
+2025,4,False,False,PutItOnYa,PutItOnYa,113.98,lmphm,JJ & the AFC,116.96,L
+2025,4,False,False,Abadahh,LANK,115.08,yckyb,yckyb,145.58,L
+2025,4,False,False,yckyb,yckyb,145.58,Abadahh,LANK,115.08,W
+2025,5,False,False,keveezy,Fly cant mosquito ,144.78,yckyb,yckyb,109.54,W
+2025,5,False,False,yckyb,yckyb,109.54,keveezy,Fly cant mosquito ,144.78,L
+2025,5,False,False,anth0nyng,Honeymoon Fund 2026,115.1,jigri,jigri,127.32,L
+2025,5,False,False,jigri,jigri,127.32,anth0nyng,Honeymoon Fund 2026,115.1,W
+2025,5,False,False,donblood,Pickens Noses Diggs Asses,132.72,PutItOnYa,PutItOnYa,131.12,W
+2025,5,False,False,PutItOnYa,PutItOnYa,131.12,donblood,Pickens Noses Diggs Asses,132.72,L
+2025,5,False,False,lmphm,JJ & the AFC,111.12,jasonle,Tuten and bootin,130.6,L
+2025,5,False,False,jasonle,Tuten and bootin,130.6,lmphm,JJ & the AFC,111.12,W
+2025,5,False,False,Abadahh,LANK,106.28,dexclusive,dexclusive,145.28,L
+2025,5,False,False,dexclusive,dexclusive,145.28,Abadahh,LANK,106.28,W
+2025,6,False,False,keveezy,Fly cant mosquito ,123.76,PutItOnYa,PutItOnYa,104.36,W
+2025,6,False,False,PutItOnYa,PutItOnYa,104.36,keveezy,Fly cant mosquito ,123.76,L
+2025,6,False,False,anth0nyng,Honeymoon Fund 2026,125.34,jasonle,Tuten and bootin,120.12,W
+2025,6,False,False,jasonle,Tuten and bootin,120.12,anth0nyng,Honeymoon Fund 2026,125.34,L
+2025,6,False,False,donblood,Pickens Noses Diggs Asses,127.48,Abadahh,LANK,135.9,L
+2025,6,False,False,Abadahh,LANK,135.9,donblood,Pickens Noses Diggs Asses,127.48,W
+2025,6,False,False,lmphm,JJ & the AFC,100.6,yckyb,yckyb,115.54,L
+2025,6,False,False,yckyb,yckyb,115.54,lmphm,JJ & the AFC,100.6,W
+2025,6,False,False,dexclusive,dexclusive,122.54,jigri,jigri,112.04,W
+2025,6,False,False,jigri,jigri,112.04,dexclusive,dexclusive,122.54,L
+2025,7,False,False,keveezy,Fly cant mosquito ,137.06,donblood,Pickens Noses Diggs Asses,123.84,W
+2025,7,False,False,donblood,Pickens Noses Diggs Asses,123.84,keveezy,Fly cant mosquito ,137.06,L
+2025,7,False,False,anth0nyng,Honeymoon Fund 2026,133.22,PutItOnYa,PutItOnYa,108.64,W
+2025,7,False,False,PutItOnYa,PutItOnYa,108.64,anth0nyng,Honeymoon Fund 2026,133.22,L
+2025,7,False,False,lmphm,JJ & the AFC,108.9,Abadahh,LANK,112.78,L
+2025,7,False,False,Abadahh,LANK,112.78,lmphm,JJ & the AFC,108.9,W
+2025,7,False,False,yckyb,yckyb,84.94,jigri,jigri,98.08,L
+2025,7,False,False,jigri,jigri,98.08,yckyb,yckyb,84.94,W
+2025,7,False,False,jasonle,Tuten and bootin,134.74,dexclusive,dexclusive,139.26,L
+2025,7,False,False,dexclusive,dexclusive,139.26,jasonle,Tuten and bootin,134.74,W
+2025,8,False,False,keveezy,Fly cant mosquito ,144.78,Abadahh,LANK,73.02,W
+2025,8,False,False,Abadahh,LANK,73.02,keveezy,Fly cant mosquito ,144.78,L
+2025,8,False,False,anth0nyng,Honeymoon Fund 2026,104.88,donblood,Pickens Noses Diggs Asses,103.16,W
+2025,8,False,False,donblood,Pickens Noses Diggs Asses,103.16,anth0nyng,Honeymoon Fund 2026,104.88,L
+2025,8,False,False,lmphm,JJ & the AFC,126.38,jigri,jigri,167.68,L
+2025,8,False,False,jigri,jigri,167.68,lmphm,JJ & the AFC,126.38,W
+2025,8,False,False,yckyb,yckyb,150.58,jasonle,Tuten and bootin,80.46,W
+2025,8,False,False,jasonle,Tuten and bootin,80.46,yckyb,yckyb,150.58,L
+2025,8,False,False,dexclusive,dexclusive,114.32,PutItOnYa,PutItOnYa,149.36,L
+2025,8,False,False,PutItOnYa,PutItOnYa,149.36,dexclusive,dexclusive,114.32,W
+2025,9,False,False,keveezy,Fly cant mosquito ,119.72,jasonle,Tuten and bootin,107.04,W
+2025,9,False,False,jasonle,Tuten and bootin,107.04,keveezy,Fly cant mosquito ,119.72,L
+2025,9,False,False,anth0nyng,Honeymoon Fund 2026,155.66,Abadahh,LANK,138.54,W
+2025,9,False,False,Abadahh,LANK,138.54,anth0nyng,Honeymoon Fund 2026,155.66,L
+2025,9,False,False,donblood,Pickens Noses Diggs Asses,110.5,jigri,jigri,114.56,L
+2025,9,False,False,jigri,jigri,114.56,donblood,Pickens Noses Diggs Asses,110.5,W
+2025,9,False,False,lmphm,JJ & the AFC,136.42,dexclusive,dexclusive,136.6,L
+2025,9,False,False,dexclusive,dexclusive,136.6,lmphm,JJ & the AFC,136.42,W
+2025,9,False,False,yckyb,yckyb,115.36,PutItOnYa,PutItOnYa,118.52,L
+2025,9,False,False,PutItOnYa,PutItOnYa,118.52,yckyb,yckyb,115.36,W
+2025,10,False,False,keveezy,Fly cant mosquito ,111.9,anth0nyng,Honeymoon Fund 2026,150.0,L
+2025,10,False,False,anth0nyng,Honeymoon Fund 2026,150.0,keveezy,Fly cant mosquito ,111.9,W
+2025,10,False,False,donblood,Pickens Noses Diggs Asses,103.12,lmphm,JJ & the AFC,114.24,L
+2025,10,False,False,lmphm,JJ & the AFC,114.24,donblood,Pickens Noses Diggs Asses,103.12,W
+2025,10,False,False,Abadahh,LANK,124.38,jigri,jigri,166.84,L
+2025,10,False,False,jigri,jigri,166.84,Abadahh,LANK,124.38,W
+2025,10,False,False,yckyb,yckyb,75.8,dexclusive,dexclusive,102.2,L
+2025,10,False,False,dexclusive,dexclusive,102.2,yckyb,yckyb,75.8,W
+2025,10,False,False,jasonle,Tuten and bootin,134.22,PutItOnYa,PutItOnYa,145.5,L
+2025,10,False,False,PutItOnYa,PutItOnYa,145.5,jasonle,Tuten and bootin,134.22,W
+2025,11,False,False,keveezy,Fly cant mosquito ,81.8,lmphm,JJ & the AFC,179.78,L
+2025,11,False,False,lmphm,JJ & the AFC,179.78,keveezy,Fly cant mosquito ,81.8,W
+2025,11,False,False,anth0nyng,Honeymoon Fund 2026,149.52,yckyb,yckyb,105.7,W
+2025,11,False,False,yckyb,yckyb,105.7,anth0nyng,Honeymoon Fund 2026,149.52,L
+2025,11,False,False,donblood,Pickens Noses Diggs Asses,127.94,dexclusive,dexclusive,76.46,W
+2025,11,False,False,dexclusive,dexclusive,76.46,donblood,Pickens Noses Diggs Asses,127.94,L
+2025,11,False,False,Abadahh,LANK,129.02,jasonle,Tuten and bootin,84.2,W
+2025,11,False,False,jasonle,Tuten and bootin,84.2,Abadahh,LANK,129.02,L
+2025,11,False,False,jigri,jigri,112.72,PutItOnYa,PutItOnYa,84.6,W
+2025,11,False,False,PutItOnYa,PutItOnYa,84.6,jigri,jigri,112.72,L
+2025,12,False,False,keveezy,Fly cant mosquito ,66.22,dexclusive,dexclusive,120.66,L
+2025,12,False,False,dexclusive,dexclusive,120.66,keveezy,Fly cant mosquito ,66.22,W
+2025,12,False,False,anth0nyng,Honeymoon Fund 2026,138.94,lmphm,JJ & the AFC,100.82,W
+2025,12,False,False,lmphm,JJ & the AFC,100.82,anth0nyng,Honeymoon Fund 2026,138.94,L
+2025,12,False,False,donblood,Pickens Noses Diggs Asses,138.28,yckyb,yckyb,131.96,W
+2025,12,False,False,yckyb,yckyb,131.96,donblood,Pickens Noses Diggs Asses,138.28,L
+2025,12,False,False,Abadahh,LANK,118.78,PutItOnYa,PutItOnYa,164.12,L
+2025,12,False,False,PutItOnYa,PutItOnYa,164.12,Abadahh,LANK,118.78,W
+2025,12,False,False,jasonle,Tuten and bootin,153.66,jigri,jigri,118.12,W
+2025,12,False,False,jigri,jigri,118.12,jasonle,Tuten and bootin,153.66,L
+2025,13,False,False,keveezy,Fly cant mosquito ,104.24,jigri,jigri,76.34,W
+2025,13,False,False,jigri,jigri,76.34,keveezy,Fly cant mosquito ,104.24,L
+2025,13,False,False,anth0nyng,Honeymoon Fund 2026,118.76,dexclusive,dexclusive,111.2,W
+2025,13,False,False,dexclusive,dexclusive,111.2,anth0nyng,Honeymoon Fund 2026,118.76,L
+2025,13,False,False,donblood,Pickens Noses Diggs Asses,142.14,jasonle,Tuten and bootin,89.4,W
+2025,13,False,False,jasonle,Tuten and bootin,89.4,donblood,Pickens Noses Diggs Asses,142.14,L
+2025,13,False,False,lmphm,JJ & the AFC,95.92,PutItOnYa,PutItOnYa,109.62,L
+2025,13,False,False,PutItOnYa,PutItOnYa,109.62,lmphm,JJ & the AFC,95.92,W
+2025,13,False,False,Abadahh,LANK,131.66,yckyb,yckyb,115.94,W
+2025,13,False,False,yckyb,yckyb,115.94,Abadahh,LANK,131.66,L
+2025,14,False,False,keveezy,Fly cant mosquito ,105.78,yckyb,yckyb,123.76,L
+2025,14,False,False,yckyb,yckyb,123.76,keveezy,Fly cant mosquito ,105.78,W
+2025,14,False,False,anth0nyng,Honeymoon Fund 2026,136.36,jigri,jigri,147.36,L
+2025,14,False,False,jigri,jigri,147.36,anth0nyng,Honeymoon Fund 2026,136.36,W
+2025,14,False,False,donblood,Pickens Noses Diggs Asses,89.3,PutItOnYa,PutItOnYa,139.84,L
+2025,14,False,False,PutItOnYa,PutItOnYa,139.84,donblood,Pickens Noses Diggs Asses,89.3,W
+2025,14,False,False,lmphm,JJ & the AFC,108.04,jasonle,Tuten and bootin,79.9,W
+2025,14,False,False,jasonle,Tuten and bootin,79.9,lmphm,JJ & the AFC,108.04,L
+2025,14,False,False,Abadahh,LANK,83.5,dexclusive,dexclusive,107.84,L
+2025,14,False,False,dexclusive,dexclusive,107.84,Abadahh,LANK,83.5,W
+2025,15,True,False,keveezy,Fly cant mosquito ,159.28,PutItOnYa,PutItOnYa,137.62,W
+2025,15,True,False,PutItOnYa,PutItOnYa,137.62,keveezy,Fly cant mosquito ,159.28,L
+2025,15,True,True,donblood,Pickens Noses Diggs Asses,86.26,Abadahh,LANK,137.14,L
+2025,15,True,True,Abadahh,LANK,137.14,donblood,Pickens Noses Diggs Asses,86.26,W
+2025,15,True,True,lmphm,JJ & the AFC,107.62,jasonle,Tuten and bootin,68.0,W
+2025,15,True,True,jasonle,Tuten and bootin,68.0,lmphm,JJ & the AFC,107.62,L
+2025,15,True,False,yckyb,yckyb,151.2,dexclusive,dexclusive,119.66,W
+2025,15,True,False,dexclusive,dexclusive,119.66,yckyb,yckyb,151.2,L
+2025,16,True,False,keveezy,Fly cant mosquito ,105.28,anth0nyng,Honeymoon Fund 2026,148.3,L
+2025,16,True,False,anth0nyng,Honeymoon Fund 2026,148.3,keveezy,Fly cant mosquito ,105.28,W
+2025,16,True,True,donblood,Pickens Noses Diggs Asses,97.1,jasonle,Tuten and bootin,112.1,L
+2025,16,True,True,jasonle,Tuten and bootin,112.1,donblood,Pickens Noses Diggs Asses,97.1,W
+2025,16,True,True,lmphm,JJ & the AFC,69.1,Abadahh,LANK,101.72,L
+2025,16,True,True,Abadahh,LANK,101.72,lmphm,JJ & the AFC,69.1,W
+2025,16,True,False,yckyb,yckyb,175.06,jigri,jigri,181.9,L
+2025,16,True,False,jigri,jigri,181.9,yckyb,yckyb,175.06,W
+2025,16,True,False,dexclusive,dexclusive,114.56,PutItOnYa,PutItOnYa,121.88,L
+2025,16,True,False,PutItOnYa,PutItOnYa,121.88,dexclusive,dexclusive,114.56,W
+2025,17,True,False,keveezy,Fly cant mosquito ,69.58,yckyb,yckyb,143.3,L
+2025,17,True,False,yckyb,yckyb,143.3,keveezy,Fly cant mosquito ,69.58,W
+2025,17,True,False,anth0nyng,Honeymoon Fund 2026,166.74,jigri,jigri,143.64,W
+2025,17,True,False,jigri,jigri,143.64,anth0nyng,Honeymoon Fund 2026,166.74,L

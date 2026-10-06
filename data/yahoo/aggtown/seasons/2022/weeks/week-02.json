@@ -1,0 +1,317 @@
+{
+ "season": 2022,
+ "week": 2,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Wolf of Waller Street",
+     "manager": "Don",
+     "points": 154.02,
+     "projected": 128.34,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "King Koopa",
+     "manager": "Ramzi",
+     "points": 149.48,
+     "projected": 125.79,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Aaron Earned an Iron Urn",
+     "manager": "Jimmy",
+     "points": 130.18,
+     "projected": 119.35,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Cancun Booking Agency",
+     "manager": "Khoa",
+     "points": 140.36,
+     "projected": 121.91,
+     "won": true
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "The Adam's Family",
+     "manager": "Ahmad",
+     "points": 92.96,
+     "projected": 119.74,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 110.78,
+     "projected": 116.64,
+     "won": true
+    }
+   ],
+   "winner": "Blake"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "KissMahomies",
+     "manager": "Muso (Lan Doan)",
+     "points": 143.9,
+     "projected": 128.13,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 114.28,
+     "projected": 129.61,
+     "won": false
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+     "manager": "Kevin D",
+     "points": 130.26,
+     "projected": 128.03,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+     "manager": "Alex",
+     "points": 115.56,
+     "projected": 125.59,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 75.78,
+     "projected": 93.51,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 111.32,
+     "projected": 134.98,
+     "won": true
+    }
+   ],
+   "winner": "mrlampham"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Don",
+   "team": "Wolf of Waller Street",
+   "points": 154.02
+  },
+  "low_score": {
+   "manager": "Daniel Vu",
+   "team": "GOD TIER",
+   "points": 75.78
+  },
+  "closest_game": {
+   "winner": "Don",
+   "winner_points": 154.02,
+   "loser": "Ramzi",
+   "loser_points": 149.48,
+   "margin": 4.54
+  },
+  "biggest_blowout": {
+   "winner": "mrlampham",
+   "winner_points": 111.32,
+   "loser": "Daniel Vu",
+   "loser_points": 75.78,
+   "margin": 35.54
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Kevin D",
+   "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+   "record": "2-0",
+   "points_for": 290.12,
+   "points_against": 258.58,
+   "streak": "W2",
+   "week_points": 130.26,
+   "week_result": "W",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 2,
+   "manager": "Don",
+   "team": "Wolf of Waller Street",
+   "record": "2-0",
+   "points_for": 277.04,
+   "points_against": 269.7,
+   "streak": "W2",
+   "week_points": 154.02,
+   "week_result": "W",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 3,
+   "manager": "Muso (Lan Doan)",
+   "team": "KissMahomies",
+   "record": "2-0",
+   "points_for": 270.8,
+   "points_against": 212.68,
+   "streak": "W2",
+   "week_points": 143.9,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 4,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "2-0",
+   "points_for": 234.24,
+   "points_against": 178.88,
+   "streak": "W2",
+   "week_points": 111.32,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 5,
+   "manager": "Khoa",
+   "team": "Cancun Booking Agency",
+   "record": "1-1",
+   "points_for": 243.46,
+   "points_against": 253.1,
+   "streak": "W1",
+   "week_points": 140.36,
+   "week_result": "W",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 6,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "1-1",
+   "points_for": 234.58,
+   "points_against": 229.14,
+   "streak": "W1",
+   "week_points": 110.78,
+   "week_result": "W",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 7,
+   "manager": "Alex",
+   "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+   "record": "1-1",
+   "points_for": 218.56,
+   "points_against": 226.02,
+   "streak": "L1",
+   "week_points": 115.56,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 8,
+   "manager": "Daniel Vu",
+   "team": "GOD TIER",
+   "record": "1-1",
+   "points_for": 211.96,
+   "points_against": 235.12,
+   "streak": "L1",
+   "week_points": 75.78,
+   "week_result": "L",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 9,
+   "manager": "Anthony",
+   "team": "Princess Jelly",
+   "record": "0-2",
+   "points_for": 257.3,
+   "points_against": 303.76,
+   "streak": "L2",
+   "week_points": 114.28,
+   "week_result": "L",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 10,
+   "manager": "Ramzi",
+   "team": "King Koopa",
+   "record": "0-2",
+   "points_for": 245.24,
+   "points_against": 257.02,
+   "streak": "L2",
+   "week_points": 149.48,
+   "week_result": "L",
+   "opponent": "Don"
+  },
+  {
+   "rank": 11,
+   "manager": "Jimmy",
+   "team": "Aaron Earned an Iron Urn",
+   "record": "0-2",
+   "points_for": 228.58,
+   "points_against": 267.26,
+   "streak": "L2",
+   "week_points": 130.18,
+   "week_result": "L",
+   "opponent": "Khoa"
+  },
+  {
+   "rank": 12,
+   "manager": "Ahmad",
+   "team": "The Adam's Family",
+   "record": "0-2",
+   "points_for": 213.18,
+   "points_against": 233.8,
+   "streak": "L2",
+   "week_points": 92.96,
+   "week_result": "L",
+   "opponent": "Blake"
+  }
+ ]
+}

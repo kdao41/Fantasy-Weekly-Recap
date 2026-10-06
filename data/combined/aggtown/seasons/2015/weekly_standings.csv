@@ -1,0 +1,131 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2015,1,1,donblood,donblood,1-0,159.92,144.06,W1,159.92,W,jimbo817
+2015,1,2,anth0nyng,The Nick Folks,1-0,139.94,115.2,W1,139.94,W,ramzz
+2015,1,3,lmphm,Vegas,1-0,138.16,128.94,W1,138.16,W,wabaki (Lan Doan)
+2015,1,4,bvincenttt,Shake n Blake,1-0,133.04,129.22,W1,133.04,W,--hidden--
+2015,1,5,Odeh1121,8====D,1-0,123.8,99.42,W1,123.8,W,keveezy
+2015,1,6,jimbo817,Blue Waffle,0-1,144.06,159.92,L1,144.06,L,donblood
+2015,1,7,--hidden--,DuuuuuhhhhhHelloooo,0-1,129.22,133.04,L1,129.22,L,bvincenttt
+2015,1,8,wabaki (Lan Doan),Wabaki 88,0-1,128.94,138.16,L1,128.94,L,lmphm
+2015,1,9,ramzz,Charizarkandrick,0-1,115.2,139.94,L1,115.2,L,anth0nyng
+2015,1,10,keveezy,Lost cause.,0-1,99.42,123.8,L1,99.42,L,Odeh1121
+2015,2,1,lmphm,Vegas,2-0,291.76,237.08,W2,153.6,W,Odeh1121
+2015,2,2,donblood,donblood,2-0,290.66,274.36,W2,130.74,W,ramzz
+2015,2,3,--hidden--,DuuuuuhhhhhHelloooo,1-1,242.32,245.4,W1,113.1,W,jimbo817
+2015,2,4,bvincenttt,Shake n Blake,1-1,241.0,240.64,L1,107.96,L,keveezy
+2015,2,5,anth0nyng,The Nick Folks,1-1,239.98,223.7,L1,100.04,L,wabaki (Lan Doan)
+2015,2,6,wabaki (Lan Doan),Wabaki 88,1-1,237.44,238.2,W1,108.5,W,anth0nyng
+2015,2,7,Odeh1121,8====D,1-1,231.94,253.02,L1,108.14,L,lmphm
+2015,2,8,keveezy,Lost cause.,1-1,210.84,231.76,W1,111.42,W,bvincenttt
+2015,2,9,jimbo817,Blue Waffle,0-2,256.42,273.02,L2,112.36,L,--hidden--
+2015,2,10,ramzz,Charizarkandrick,0-2,245.5,270.68,L2,130.3,L,donblood
+2015,3,1,donblood,donblood,3-0,462.88,432.88,W3,172.22,W,wabaki (Lan Doan)
+2015,3,2,lmphm,Vegas,3-0,439.9,329.66,W3,148.14,W,bvincenttt
+2015,3,3,anth0nyng,The Nick Folks,2-1,403.08,351.26,W1,163.1,W,Odeh1121
+2015,3,4,--hidden--,DuuuuuhhhhhHelloooo,2-1,354.22,347.1,W2,111.9,W,keveezy
+2015,3,5,ramzz,Charizarkandrick,1-2,436.5,419.0,W1,191.0,W,jimbo817
+2015,3,6,wabaki (Lan Doan),Wabaki 88,1-2,395.96,410.42,L1,158.52,L,donblood
+2015,3,7,Odeh1121,8====D,1-2,359.5,416.12,L2,127.56,L,anth0nyng
+2015,3,8,bvincenttt,Shake n Blake,1-2,333.58,388.78,L2,92.58,L,lmphm
+2015,3,9,keveezy,Lost cause.,1-2,312.54,343.66,L1,101.7,L,--hidden--
+2015,3,10,jimbo817,Blue Waffle,0-3,404.74,464.02,L3,148.32,L,ramzz
+2015,4,1,lmphm,Vegas,4-0,553.58,423.1,W4,113.68,W,keveezy
+2015,4,2,donblood,donblood,3-1,551.72,530.7,L1,88.84,L,Odeh1121
+2015,4,3,anth0nyng,The Nick Folks,3-1,526.46,428.42,W2,123.38,W,bvincenttt
+2015,4,4,ramzz,Charizarkandrick,2-2,545.66,504.38,W2,109.16,W,--hidden--
+2015,4,5,Odeh1121,8====D,2-2,457.32,504.96,W1,97.82,W,donblood
+2015,4,6,--hidden--,DuuuuuhhhhhHelloooo,2-2,439.6,456.26,L1,85.38,L,ramzz
+2015,4,7,jimbo817,Blue Waffle,1-3,549.6,577.46,W1,144.86,W,wabaki (Lan Doan)
+2015,4,8,wabaki (Lan Doan),Wabaki 88,1-3,509.4,555.28,L2,113.44,L,jimbo817
+2015,4,9,bvincenttt,Shake n Blake,1-3,410.74,512.16,L3,77.16,L,anth0nyng
+2015,4,10,keveezy,Lost cause.,1-3,405.98,457.34,L2,93.44,L,lmphm
+2015,5,1,lmphm,Vegas,5-0,707.18,532.64,W5,153.6,W,--hidden--
+2015,5,2,donblood,donblood,4-1,679.62,644.46,W1,127.9,W,bvincenttt
+2015,5,3,anth0nyng,The Nick Folks,4-1,660.68,509.98,W3,134.22,W,keveezy
+2015,5,4,ramzz,Charizarkandrick,3-2,679.06,629.12,W3,133.4,W,wabaki (Lan Doan)
+2015,5,5,Odeh1121,8====D,3-2,581.76,627.9,W2,124.44,W,jimbo817
+2015,5,6,--hidden--,DuuuuuhhhhhHelloooo,2-3,549.14,609.86,L2,109.54,L,lmphm
+2015,5,7,jimbo817,Blue Waffle,1-4,672.54,701.9,L1,122.94,L,Odeh1121
+2015,5,8,wabaki (Lan Doan),Wabaki 88,1-4,634.14,688.68,L3,124.74,L,ramzz
+2015,5,9,bvincenttt,Shake n Blake,1-4,524.5,640.06,L4,113.76,L,donblood
+2015,5,10,keveezy,Lost cause.,1-4,487.54,591.56,L3,81.56,L,anth0nyng
+2015,6,1,donblood,donblood,5-1,829.3,774.36,W2,149.68,W,keveezy
+2015,6,2,lmphm,Vegas,5-1,823.02,690.68,L1,115.84,L,anth0nyng
+2015,6,3,anth0nyng,The Nick Folks,5-1,818.72,625.82,W4,158.04,W,lmphm
+2015,6,4,ramzz,Charizarkandrick,4-2,817.84,716.12,W4,138.78,W,Odeh1121
+2015,6,5,Odeh1121,8====D,3-3,668.76,766.68,L1,87.0,L,ramzz
+2015,6,6,wabaki (Lan Doan),Wabaki 88,2-4,784.46,788.94,W1,150.32,W,--hidden--
+2015,6,7,--hidden--,DuuuuuhhhhhHelloooo,2-4,649.4,760.18,L3,100.26,L,wabaki (Lan Doan)
+2015,6,8,bvincenttt,Shake n Blake,2-4,632.72,747.76,W1,108.22,W,jimbo817
+2015,6,9,jimbo817,Blue Waffle,1-5,780.24,810.12,L2,107.7,L,bvincenttt
+2015,6,10,keveezy,Lost cause.,1-5,617.44,741.24,L4,129.9,L,donblood
+2015,7,1,lmphm,Vegas,6-1,963.86,819.28,W1,140.84,W,donblood
+2015,7,2,ramzz,Charizarkandrick,5-2,964.04,790.3,W5,146.2,W,bvincenttt
+2015,7,3,donblood,donblood,5-2,957.9,915.2,L1,128.6,L,lmphm
+2015,7,4,anth0nyng,The Nick Folks,5-2,929.12,745.34,L1,110.4,L,--hidden--
+2015,7,5,wabaki (Lan Doan),Wabaki 88,3-4,960.44,899.78,W2,175.98,W,Odeh1121
+2015,7,6,Odeh1121,8====D,3-4,779.6,942.66,L2,110.84,L,wabaki (Lan Doan)
+2015,7,7,--hidden--,DuuuuuhhhhhHelloooo,3-4,768.92,870.58,W1,119.52,W,anth0nyng
+2015,7,8,keveezy,Lost cause.,2-5,738.38,860.92,W1,120.94,W,jimbo817
+2015,7,9,bvincenttt,Shake n Blake,2-5,706.9,893.96,L1,74.18,L,ramzz
+2015,7,10,jimbo817,Blue Waffle,1-6,899.92,931.06,L3,119.68,L,keveezy
+2015,8,1,lmphm,Vegas,7-1,1128.8,922.16,W2,164.94,W,jimbo817
+2015,8,2,ramzz,Charizarkandrick,6-2,1090.96,894.48,W6,126.92,W,keveezy
+2015,8,3,anth0nyng,The Nick Folks,6-2,1088.52,890.78,W1,159.4,W,donblood
+2015,8,4,donblood,donblood,5-3,1103.34,1074.6,L2,145.44,L,anth0nyng
+2015,8,5,wabaki (Lan Doan),Wabaki 88,4-4,1075.08,1002.14,W3,114.64,W,bvincenttt
+2015,8,6,Odeh1121,8====D,4-4,926.48,1037.8,W1,146.88,W,--hidden--
+2015,8,7,--hidden--,DuuuuuhhhhhHelloooo,3-5,864.06,1017.46,L1,95.14,L,Odeh1121
+2015,8,8,keveezy,Lost cause.,2-6,842.56,987.84,L1,104.18,L,ramzz
+2015,8,9,bvincenttt,Shake n Blake,2-6,809.26,1008.6,L2,102.36,L,wabaki (Lan Doan)
+2015,8,10,jimbo817,Blue Waffle,1-7,1002.8,1096.0,L4,102.88,L,lmphm
+2015,9,1,ramzz,Charizarkandrick,7-2,1266.24,1020.34,W7,175.28,W,lmphm
+2015,9,2,lmphm,Vegas,7-2,1254.66,1097.44,L1,125.86,L,ramzz
+2015,9,3,anth0nyng,The Nick Folks,7-2,1237.3,1035.14,W2,148.78,W,jimbo817
+2015,9,4,donblood,donblood,6-3,1286.7,1200.12,W1,183.36,W,--hidden--
+2015,9,5,wabaki (Lan Doan),Wabaki 88,5-4,1216.64,1091.76,W4,141.56,W,keveezy
+2015,9,6,Odeh1121,8====D,5-4,1061.82,1133.7,W2,135.34,W,bvincenttt
+2015,9,7,--hidden--,DuuuuuhhhhhHelloooo,3-6,989.58,1200.82,L2,125.52,L,donblood
+2015,9,8,keveezy,Lost cause.,2-7,932.18,1129.4,L2,89.62,L,wabaki (Lan Doan)
+2015,9,9,bvincenttt,Shake n Blake,2-7,905.16,1143.94,L3,95.9,L,Odeh1121
+2015,9,10,jimbo817,Blue Waffle,1-8,1147.16,1244.78,L5,144.36,L,anth0nyng
+2015,10,1,ramzz,Charizarkandrick,8-2,1395.6,1139.24,W8,129.36,W,anth0nyng
+2015,10,2,lmphm,Vegas,8-2,1364.68,1190.32,W1,110.02,W,wabaki (Lan Doan)
+2015,10,3,donblood,donblood,7-3,1428.56,1293.64,W2,141.86,W,jimbo817
+2015,10,4,anth0nyng,The Nick Folks,7-3,1356.2,1164.5,L1,118.9,L,ramzz
+2015,10,5,wabaki (Lan Doan),Wabaki 88,5-5,1309.52,1201.78,L1,92.88,L,lmphm
+2015,10,6,Odeh1121,8====D,5-5,1179.2,1253.36,L1,117.38,L,keveezy
+2015,10,7,--hidden--,DuuuuuhhhhhHelloooo,4-6,1116.12,1319.36,W1,126.54,W,bvincenttt
+2015,10,8,keveezy,Lost cause.,3-7,1051.84,1246.78,W1,119.66,W,Odeh1121
+2015,10,9,bvincenttt,Shake n Blake,2-8,1023.7,1270.48,L4,118.54,L,--hidden--
+2015,10,10,jimbo817,Blue Waffle,1-9,1240.68,1386.64,L6,93.52,L,donblood
+2015,11,1,ramzz,Charizarkandrick,9-2,1498.54,1241.42,W9,102.94,W,donblood
+2015,11,2,anth0nyng,The Nick Folks,8-3,1447.6,1247.1,W1,91.4,W,wabaki (Lan Doan)
+2015,11,3,lmphm,Vegas,8-3,1431.9,1289.88,L1,67.22,L,Odeh1121
+2015,11,4,donblood,donblood,7-4,1530.74,1396.58,L1,102.18,L,ramzz
+2015,11,5,Odeh1121,8====D,6-5,1278.76,1320.58,W1,99.56,W,lmphm
+2015,11,6,wabaki (Lan Doan),Wabaki 88,5-6,1392.12,1293.18,L2,82.6,L,anth0nyng
+2015,11,7,--hidden--,DuuuuuhhhhhHelloooo,5-6,1244.0,1416.54,W2,127.88,W,jimbo817
+2015,11,8,keveezy,Lost cause.,4-7,1195.04,1323.04,W2,143.2,W,bvincenttt
+2015,11,9,bvincenttt,Shake n Blake,2-9,1099.96,1413.68,L5,76.26,L,keveezy
+2015,11,10,jimbo817,Blue Waffle,1-10,1337.86,1514.52,L7,97.18,L,--hidden--
+2015,12,1,ramzz,Charizarkandrick,10-2,1647.46,1340.7,W10,148.92,W,jimbo817
+2015,12,2,anth0nyng,The Nick Folks,9-3,1635.5,1371.0,W2,187.9,W,Odeh1121
+2015,12,3,lmphm,Vegas,9-3,1567.74,1371.42,W1,135.84,W,bvincenttt
+2015,12,4,donblood,donblood,7-5,1636.14,1502.4,L2,105.4,L,wabaki (Lan Doan)
+2015,12,5,wabaki (Lan Doan),Wabaki 88,6-6,1497.94,1398.58,W1,105.82,W,donblood
+2015,12,6,Odeh1121,8====D,6-6,1402.66,1508.48,L1,123.9,L,anth0nyng
+2015,12,7,--hidden--,DuuuuuhhhhhHelloooo,5-7,1328.44,1526.44,L1,84.44,L,keveezy
+2015,12,8,keveezy,Lost cause.,5-7,1304.94,1407.48,W3,109.9,W,--hidden--
+2015,12,9,bvincenttt,Shake n Blake,2-10,1181.5,1549.52,L6,81.54,L,lmphm
+2015,12,10,jimbo817,Blue Waffle,1-11,1437.14,1663.44,L8,99.28,L,ramzz
+2015,13,1,ramzz,Charizarkandrick,11-2,1822.94,1450.38,W11,175.48,W,--hidden--
+2015,13,2,anth0nyng,The Nick Folks,10-3,1789.36,1506.06,W3,153.86,W,bvincenttt
+2015,13,3,lmphm,Vegas,9-4,1698.08,1501.78,L1,130.34,L,keveezy
+2015,13,4,donblood,donblood,8-5,1785.12,1618.82,W1,148.98,W,Odeh1121
+2015,13,5,wabaki (Lan Doan),Wabaki 88,6-7,1593.14,1556.8,L1,95.2,L,jimbo817
+2015,13,6,Odeh1121,8====D,6-7,1519.08,1657.46,L2,116.42,L,donblood
+2015,13,7,keveezy,Lost cause.,6-7,1435.3,1537.82,W4,130.36,W,lmphm
+2015,13,8,--hidden--,DuuuuuhhhhhHelloooo,5-8,1438.12,1701.92,L2,109.68,L,ramzz
+2015,13,9,jimbo817,Blue Waffle,2-11,1595.36,1758.64,W1,158.22,W,wabaki (Lan Doan)
+2015,13,10,bvincenttt,Shake n Blake,2-11,1316.56,1703.38,L7,135.06,L,anth0nyng

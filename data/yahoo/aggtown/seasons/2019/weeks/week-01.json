@@ -1,0 +1,317 @@
+{
+ "season": 2019,
+ "week": 1,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "Don",
+     "points": 152.94,
+     "projected": 136.11,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 132.1,
+     "projected": 126.53,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "Jimmy",
+     "points": 133.2,
+     "projected": 136.19,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "Kevin D",
+     "points": 114.62,
+     "projected": 127.26,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Hide and Zeke",
+     "manager": "Ahmad",
+     "points": 118.3,
+     "projected": 127.17,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "Ramzi",
+     "points": 156.4,
+     "projected": 136.34,
+     "won": true
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "King Goffrey",
+     "manager": "Khoa",
+     "points": 105.04,
+     "projected": 132.36,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "Alex",
+     "points": 94.82,
+     "projected": 134.73,
+     "won": false
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 106.46,
+     "projected": 117.86,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 102.2,
+     "projected": 120.02,
+     "won": false
+    }
+   ],
+   "winner": "Cody"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "Anthony",
+     "points": 170.72,
+     "projected": 134.24,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 105.22,
+     "projected": 126.43,
+     "won": false
+    }
+   ],
+   "winner": "Anthony"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Anthony",
+   "team": "Prince of Mahomes",
+   "points": 170.72
+  },
+  "low_score": {
+   "manager": "Alex",
+   "team": "Saquanda Forever!",
+   "points": 94.82
+  },
+  "closest_game": {
+   "winner": "Cody",
+   "winner_points": 106.46,
+   "loser": "mrlampham",
+   "loser_points": 102.2,
+   "margin": 4.26
+  },
+  "biggest_blowout": {
+   "winner": "Anthony",
+   "winner_points": 170.72,
+   "loser": "Daniel Vu",
+   "loser_points": 105.22,
+   "margin": 65.5
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Anthony",
+   "team": "Prince of Mahomes",
+   "record": "1-0",
+   "points_for": 170.72,
+   "points_against": 105.22,
+   "streak": "W1",
+   "week_points": 170.72,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 2,
+   "manager": "Ramzi",
+   "team": "Chubby Johnson",
+   "record": "1-0",
+   "points_for": 156.4,
+   "points_against": 118.3,
+   "streak": "W1",
+   "week_points": 156.4,
+   "week_result": "W",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 3,
+   "manager": "Don",
+   "team": "Lights Kamara ACTION",
+   "record": "1-0",
+   "points_for": 152.94,
+   "points_against": 132.1,
+   "streak": "W1",
+   "week_points": 152.94,
+   "week_result": "W",
+   "opponent": "Blake"
+  },
+  {
+   "rank": 4,
+   "manager": "Jimmy",
+   "team": "Run CMC",
+   "record": "1-0",
+   "points_for": 133.2,
+   "points_against": 114.62,
+   "streak": "W1",
+   "week_points": 133.2,
+   "week_result": "W",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 5,
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "record": "1-0",
+   "points_for": 106.46,
+   "points_against": 102.2,
+   "streak": "W1",
+   "week_points": 106.46,
+   "week_result": "W",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 6,
+   "manager": "Khoa",
+   "team": "King Goffrey",
+   "record": "1-0",
+   "points_for": 105.04,
+   "points_against": 94.82,
+   "streak": "W1",
+   "week_points": 105.04,
+   "week_result": "W",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 7,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "0-1",
+   "points_for": 132.1,
+   "points_against": 152.94,
+   "streak": "L1",
+   "week_points": 132.1,
+   "week_result": "L",
+   "opponent": "Don"
+  },
+  {
+   "rank": 8,
+   "manager": "Ahmad",
+   "team": "Hide and Zeke",
+   "record": "0-1",
+   "points_for": 118.3,
+   "points_against": 156.4,
+   "streak": "L1",
+   "week_points": 118.3,
+   "week_result": "L",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 9,
+   "manager": "Kevin D",
+   "team": "Loading FAILED.",
+   "record": "0-1",
+   "points_for": 114.62,
+   "points_against": 133.2,
+   "streak": "L1",
+   "week_points": 114.62,
+   "week_result": "L",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 10,
+   "manager": "Daniel Vu",
+   "team": "GOD TIER",
+   "record": "0-1",
+   "points_for": 105.22,
+   "points_against": 170.72,
+   "streak": "L1",
+   "week_points": 105.22,
+   "week_result": "L",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 11,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "0-1",
+   "points_for": 102.2,
+   "points_against": 106.46,
+   "streak": "L1",
+   "week_points": 102.2,
+   "week_result": "L",
+   "opponent": "Cody"
+  },
+  {
+   "rank": 12,
+   "manager": "Alex",
+   "team": "Saquanda Forever!",
+   "record": "0-1",
+   "points_for": 94.82,
+   "points_against": 105.04,
+   "streak": "L1",
+   "week_points": 94.82,
+   "week_result": "L",
+   "opponent": "Khoa"
+  }
+ ]
+}

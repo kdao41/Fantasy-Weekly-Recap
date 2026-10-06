@@ -1,0 +1,270 @@
+{
+ "season": 2021,
+ "week": 13,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Win will I get a when",
+     "manager": "keveezy",
+     "points": 97.22,
+     "projected": 122.48,
+     "won": false
+    },
+    {
+     "team_id": 2,
+     "team": "CREASING MY SECRET SANTA GIFT",
+     "manager": "donblood",
+     "points": 121.06,
+     "projected": 134.66,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shrooms",
+     "manager": "PutItOnYa",
+     "points": 125.88,
+     "projected": 144.19,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "0.02 points",
+     "manager": "jasonle",
+     "points": 91.3,
+     "projected": 125.4,
+     "won": false
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Boards",
+     "manager": "yckyb",
+     "points": 147.4,
+     "projected": 126.98,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Fuck an",
+     "manager": "lmphm",
+     "points": 95.76,
+     "projected": 119.15,
+     "won": false
+    }
+   ],
+   "winner": "yckyb"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "dexclusive",
+     "points": 149.72,
+     "projected": 120.85,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "jigri",
+     "points": 146.12,
+     "projected": 130.17,
+     "won": false
+    }
+   ],
+   "winner": "dexclusive"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Queen Jelly",
+     "manager": "anth0nyng",
+     "points": 148.42,
+     "projected": 135.29,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "Abadahh",
+     "points": 133.34,
+     "projected": 130.32,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "dexclusive",
+   "team": "Dex_lab",
+   "points": 149.72
+  },
+  "low_score": {
+   "manager": "jasonle",
+   "team": "0.02 points",
+   "points": 91.3
+  },
+  "closest_game": {
+   "winner": "dexclusive",
+   "winner_points": 149.72,
+   "loser": "jigri",
+   "loser_points": 146.12,
+   "margin": 3.6
+  },
+  "biggest_blowout": {
+   "winner": "yckyb",
+   "winner_points": 147.4,
+   "loser": "lmphm",
+   "loser_points": 95.76,
+   "margin": 51.64
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "anth0nyng",
+   "team": "Queen Jelly",
+   "record": "12-1",
+   "points_for": 1869.42,
+   "points_against": 1538.56,
+   "streak": "W3",
+   "week_points": 148.42,
+   "week_result": "W",
+   "opponent": "Abadahh"
+  },
+  {
+   "rank": 2,
+   "manager": "donblood",
+   "team": "CREASING MY SECRET SANTA GIFT",
+   "record": "9-4",
+   "points_for": 1725.64,
+   "points_against": 1703.14,
+   "streak": "W2",
+   "week_points": 121.06,
+   "week_result": "W",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 3,
+   "manager": "PutItOnYa",
+   "team": "Shrooms",
+   "record": "9-4",
+   "points_for": 1692.82,
+   "points_against": 1522.18,
+   "streak": "W4",
+   "week_points": 125.88,
+   "week_result": "W",
+   "opponent": "jasonle"
+  },
+  {
+   "rank": 4,
+   "manager": "dexclusive",
+   "team": "Dex_lab",
+   "record": "8-5",
+   "points_for": 1507.8,
+   "points_against": 1537.76,
+   "streak": "W1",
+   "week_points": 149.72,
+   "week_result": "W",
+   "opponent": "jigri"
+  },
+  {
+   "rank": 5,
+   "manager": "jigri",
+   "team": "Washed",
+   "record": "7-6",
+   "points_for": 1598.84,
+   "points_against": 1637.44,
+   "streak": "L3",
+   "week_points": 146.12,
+   "week_result": "L",
+   "opponent": "dexclusive"
+  },
+  {
+   "rank": 6,
+   "manager": "Abadahh",
+   "team": "Drier than a Popeyes biscuit",
+   "record": "6-7",
+   "points_for": 1656.5,
+   "points_against": 1553.9,
+   "streak": "L1",
+   "week_points": 133.34,
+   "week_result": "L",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 7,
+   "manager": "yckyb",
+   "team": "Boards",
+   "record": "5-8",
+   "points_for": 1655.58,
+   "points_against": 1617.12,
+   "streak": "W1",
+   "week_points": 147.4,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 8,
+   "manager": "jasonle",
+   "team": "0.02 points",
+   "record": "5-8",
+   "points_for": 1494.28,
+   "points_against": 1520.72,
+   "streak": "L1",
+   "week_points": 91.3,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 9,
+   "manager": "lmphm",
+   "team": "Fuck an",
+   "record": "2-11",
+   "points_for": 1477.76,
+   "points_against": 1699.38,
+   "streak": "L10",
+   "week_points": 95.76,
+   "week_result": "L",
+   "opponent": "yckyb"
+  },
+  {
+   "rank": 10,
+   "manager": "keveezy",
+   "team": "Win will I get a when",
+   "record": "2-11",
+   "points_for": 1446.38,
+   "points_against": 1794.82,
+   "streak": "L5",
+   "week_points": 97.22,
+   "week_result": "L",
+   "opponent": "donblood"
+  }
+ ]
+}

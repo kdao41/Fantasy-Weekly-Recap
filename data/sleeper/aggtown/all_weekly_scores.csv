@@ -1,0 +1,589 @@
+season,week,is_playoffs,is_consolation,manager,team,points,opponent_manager,opponent_team,opponent_points,result
+2023,1,False,False,bvincenttt,Shake 'n Blake ,128.94,ramzz,himzi,92.66,W
+2023,1,False,False,ramzz,himzi,92.66,bvincenttt,Shake 'n Blake ,128.94,L
+2023,1,False,False,Odeh1121,Pukachu,90.68,DVTV,JOVE DIRECTOR OF VIBEZ,102.62,L
+2023,1,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,102.62,Odeh1121,Pukachu,90.68,W
+2023,1,False,False,donblood,Gibbs and Receive,84.4,lmphm,Vegas,149.44,L
+2023,1,False,False,lmphm,Vegas,149.44,donblood,Gibbs and Receive,84.4,W
+2023,1,False,False,keveezy,Renegade renegade ,93.86,PutItOnYa,PutItOnYa,96.46,L
+2023,1,False,False,PutItOnYa,PutItOnYa,96.46,keveezy,Renegade renegade ,93.86,W
+2023,1,False,False,oooEcho,ABCeeDee U Lost 2 Me,87.52,jimbo817,Chase Mahomies,77.34,W
+2023,1,False,False,jimbo817,Chase Mahomies,77.34,oooEcho,ABCeeDee U Lost 2 Me,87.52,L
+2023,1,False,False,anth0nyng,am i cursed? ,113.14,kholabear,Cancun Tours,130.06,L
+2023,1,False,False,kholabear,Cancun Tours,130.06,anth0nyng,am i cursed? ,113.14,W
+2023,2,False,False,bvincenttt,Shake 'n Blake ,117.64,jimbo817,Chase Mahomies,116.1,W
+2023,2,False,False,jimbo817,Chase Mahomies,116.1,bvincenttt,Shake 'n Blake ,117.64,L
+2023,2,False,False,Odeh1121,Pukachu,92.18,donblood,Gibbs and Receive,129.52,L
+2023,2,False,False,donblood,Gibbs and Receive,129.52,Odeh1121,Pukachu,92.18,W
+2023,2,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,122.82,lmphm,Vegas,104.54,W
+2023,2,False,False,lmphm,Vegas,104.54,DVTV,JOVE DIRECTOR OF VIBEZ,122.82,L
+2023,2,False,False,keveezy,Renegade renegade ,154.78,anth0nyng,am i cursed? ,128.76,W
+2023,2,False,False,anth0nyng,am i cursed? ,128.76,keveezy,Renegade renegade ,154.78,L
+2023,2,False,False,oooEcho,ABCeeDee U Lost 2 Me,120.9,ramzz,himzi,131.94,L
+2023,2,False,False,ramzz,himzi,131.94,oooEcho,ABCeeDee U Lost 2 Me,120.9,W
+2023,2,False,False,PutItOnYa,PutItOnYa,144.64,kholabear,Cancun Tours,93.7,W
+2023,2,False,False,kholabear,Cancun Tours,93.7,PutItOnYa,PutItOnYa,144.64,L
+2023,3,False,False,bvincenttt,Shake 'n Blake ,97.46,oooEcho,ABCeeDee U Lost 2 Me,96.06,W
+2023,3,False,False,oooEcho,ABCeeDee U Lost 2 Me,96.06,bvincenttt,Shake 'n Blake ,97.46,L
+2023,3,False,False,Odeh1121,Pukachu,116.86,lmphm,Vegas,95.26,W
+2023,3,False,False,lmphm,Vegas,95.26,Odeh1121,Pukachu,116.86,L
+2023,3,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,134.12,donblood,Gibbs and Receive,138.28,L
+2023,3,False,False,donblood,Gibbs and Receive,138.28,DVTV,JOVE DIRECTOR OF VIBEZ,134.12,W
+2023,3,False,False,keveezy,Renegade renegade ,118.38,kholabear,Cancun Tours,134.4,L
+2023,3,False,False,kholabear,Cancun Tours,134.4,keveezy,Renegade renegade ,118.38,W
+2023,3,False,False,ramzz,himzi,136.7,jimbo817,Chase Mahomies,178.48,L
+2023,3,False,False,jimbo817,Chase Mahomies,178.48,ramzz,himzi,136.7,W
+2023,3,False,False,anth0nyng,am i cursed? ,147.72,PutItOnYa,PutItOnYa,123.42,W
+2023,3,False,False,PutItOnYa,PutItOnYa,123.42,anth0nyng,am i cursed? ,147.72,L
+2023,4,False,False,bvincenttt,Shake 'n Blake ,184.38,lmphm,Vegas,125.0,W
+2023,4,False,False,lmphm,Vegas,125.0,bvincenttt,Shake 'n Blake ,184.38,L
+2023,4,False,False,Odeh1121,Pukachu,110.3,anth0nyng,am i cursed? ,107.0,W
+2023,4,False,False,anth0nyng,am i cursed? ,107.0,Odeh1121,Pukachu,110.3,L
+2023,4,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,100.7,kholabear,Cancun Tours,121.98,L
+2023,4,False,False,kholabear,Cancun Tours,121.98,DVTV,JOVE DIRECTOR OF VIBEZ,100.7,W
+2023,4,False,False,donblood,Gibbs and Receive,94.56,ramzz,himzi,90.62,W
+2023,4,False,False,ramzz,himzi,90.62,donblood,Gibbs and Receive,94.56,L
+2023,4,False,False,keveezy,Renegade renegade ,116.14,oooEcho,ABCeeDee U Lost 2 Me,127.96,L
+2023,4,False,False,oooEcho,ABCeeDee U Lost 2 Me,127.96,keveezy,Renegade renegade ,116.14,W
+2023,4,False,False,jimbo817,Chase Mahomies,85.72,PutItOnYa,PutItOnYa,149.78,L
+2023,4,False,False,PutItOnYa,PutItOnYa,149.78,jimbo817,Chase Mahomies,85.72,W
+2023,5,False,False,bvincenttt,Shake 'n Blake ,88.76,donblood,Gibbs and Receive,128.62,L
+2023,5,False,False,donblood,Gibbs and Receive,128.62,bvincenttt,Shake 'n Blake ,88.76,W
+2023,5,False,False,Odeh1121,Pukachu,119.08,kholabear,Cancun Tours,122.04,L
+2023,5,False,False,kholabear,Cancun Tours,122.04,Odeh1121,Pukachu,119.08,W
+2023,5,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,117.02,anth0nyng,am i cursed? ,135.06,L
+2023,5,False,False,anth0nyng,am i cursed? ,135.06,DVTV,JOVE DIRECTOR OF VIBEZ,117.02,W
+2023,5,False,False,keveezy,Renegade renegade ,98.42,jimbo817,Chase Mahomies,162.04,L
+2023,5,False,False,jimbo817,Chase Mahomies,162.04,keveezy,Renegade renegade ,98.42,W
+2023,5,False,False,lmphm,Vegas,120.98,ramzz,himzi,100.48,W
+2023,5,False,False,ramzz,himzi,100.48,lmphm,Vegas,120.98,L
+2023,5,False,False,oooEcho,ABCeeDee U Lost 2 Me,89.66,PutItOnYa,PutItOnYa,130.62,L
+2023,5,False,False,PutItOnYa,PutItOnYa,130.62,oooEcho,ABCeeDee U Lost 2 Me,89.66,W
+2023,6,False,False,bvincenttt,Shake 'n Blake ,106.54,DVTV,JOVE DIRECTOR OF VIBEZ,144.44,L
+2023,6,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,144.44,bvincenttt,Shake 'n Blake ,106.54,W
+2023,6,False,False,Odeh1121,Pukachu,109.1,ramzz,himzi,91.1,W
+2023,6,False,False,ramzz,himzi,91.1,Odeh1121,Pukachu,109.1,L
+2023,6,False,False,donblood,Gibbs and Receive,89.3,keveezy,Renegade renegade ,80.72,W
+2023,6,False,False,keveezy,Renegade renegade ,80.72,donblood,Gibbs and Receive,89.3,L
+2023,6,False,False,lmphm,Vegas,103.02,PutItOnYa,PutItOnYa,121.14,L
+2023,6,False,False,PutItOnYa,PutItOnYa,121.14,lmphm,Vegas,103.02,W
+2023,6,False,False,oooEcho,ABCeeDee U Lost 2 Me,117.54,anth0nyng,am i cursed? ,92.16,W
+2023,6,False,False,anth0nyng,am i cursed? ,92.16,oooEcho,ABCeeDee U Lost 2 Me,117.54,L
+2023,6,False,False,jimbo817,Chase Mahomies,110.94,kholabear,Cancun Tours,139.08,L
+2023,6,False,False,kholabear,Cancun Tours,139.08,jimbo817,Chase Mahomies,110.94,W
+2023,7,False,False,bvincenttt,Shake 'n Blake ,94.06,Odeh1121,Pukachu,123.34,L
+2023,7,False,False,Odeh1121,Pukachu,123.34,bvincenttt,Shake 'n Blake ,94.06,W
+2023,7,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,140.86,ramzz,himzi,102.48,W
+2023,7,False,False,ramzz,himzi,102.48,DVTV,JOVE DIRECTOR OF VIBEZ,140.86,L
+2023,7,False,False,donblood,Gibbs and Receive,121.66,PutItOnYa,PutItOnYa,96.6,W
+2023,7,False,False,PutItOnYa,PutItOnYa,96.6,donblood,Gibbs and Receive,121.66,L
+2023,7,False,False,keveezy,Renegade renegade ,122.58,lmphm,Vegas,135.56,L
+2023,7,False,False,lmphm,Vegas,135.56,keveezy,Renegade renegade ,122.58,W
+2023,7,False,False,oooEcho,ABCeeDee U Lost 2 Me,113.52,kholabear,Cancun Tours,102.96,W
+2023,7,False,False,kholabear,Cancun Tours,102.96,oooEcho,ABCeeDee U Lost 2 Me,113.52,L
+2023,7,False,False,anth0nyng,am i cursed? ,137.6,jimbo817,Chase Mahomies,162.76,L
+2023,7,False,False,jimbo817,Chase Mahomies,162.76,anth0nyng,am i cursed? ,137.6,W
+2023,8,False,False,bvincenttt,Shake 'n Blake ,107.18,PutItOnYa,PutItOnYa,155.1,L
+2023,8,False,False,PutItOnYa,PutItOnYa,155.1,bvincenttt,Shake 'n Blake ,107.18,W
+2023,8,False,False,Odeh1121,Pukachu,102.32,oooEcho,ABCeeDee U Lost 2 Me,163.56,L
+2023,8,False,False,oooEcho,ABCeeDee U Lost 2 Me,163.56,Odeh1121,Pukachu,102.32,W
+2023,8,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,103.62,jimbo817,Chase Mahomies,115.4,L
+2023,8,False,False,jimbo817,Chase Mahomies,115.4,DVTV,JOVE DIRECTOR OF VIBEZ,103.62,W
+2023,8,False,False,donblood,Gibbs and Receive,135.96,anth0nyng,am i cursed? ,143.56,L
+2023,8,False,False,anth0nyng,am i cursed? ,143.56,donblood,Gibbs and Receive,135.96,W
+2023,8,False,False,keveezy,Renegade renegade ,132.08,ramzz,himzi,103.1,W
+2023,8,False,False,ramzz,himzi,103.1,keveezy,Renegade renegade ,132.08,L
+2023,8,False,False,lmphm,Vegas,155.26,kholabear,Cancun Tours,95.68,W
+2023,8,False,False,kholabear,Cancun Tours,95.68,lmphm,Vegas,155.26,L
+2023,9,False,False,bvincenttt,Shake 'n Blake ,138.04,keveezy,Renegade renegade ,124.68,W
+2023,9,False,False,keveezy,Renegade renegade ,124.68,bvincenttt,Shake 'n Blake ,138.04,L
+2023,9,False,False,Odeh1121,Pukachu,89.42,jimbo817,Chase Mahomies,79.1,W
+2023,9,False,False,jimbo817,Chase Mahomies,79.1,Odeh1121,Pukachu,89.42,L
+2023,9,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,80.38,oooEcho,ABCeeDee U Lost 2 Me,93.7,L
+2023,9,False,False,oooEcho,ABCeeDee U Lost 2 Me,93.7,DVTV,JOVE DIRECTOR OF VIBEZ,80.38,W
+2023,9,False,False,donblood,Gibbs and Receive,86.18,kholabear,Cancun Tours,147.44,L
+2023,9,False,False,kholabear,Cancun Tours,147.44,donblood,Gibbs and Receive,86.18,W
+2023,9,False,False,lmphm,Vegas,96.48,anth0nyng,am i cursed? ,115.62,L
+2023,9,False,False,anth0nyng,am i cursed? ,115.62,lmphm,Vegas,96.48,W
+2023,9,False,False,ramzz,himzi,86.4,PutItOnYa,PutItOnYa,145.2,L
+2023,9,False,False,PutItOnYa,PutItOnYa,145.2,ramzz,himzi,86.4,W
+2023,10,False,False,bvincenttt,Shake 'n Blake ,128.0,kholabear,Cancun Tours,103.22,W
+2023,10,False,False,kholabear,Cancun Tours,103.22,bvincenttt,Shake 'n Blake ,128.0,L
+2023,10,False,False,Odeh1121,Pukachu,79.18,keveezy,Renegade renegade ,144.22,L
+2023,10,False,False,keveezy,Renegade renegade ,144.22,Odeh1121,Pukachu,79.18,W
+2023,10,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,108.84,PutItOnYa,PutItOnYa,133.02,L
+2023,10,False,False,PutItOnYa,PutItOnYa,133.02,DVTV,JOVE DIRECTOR OF VIBEZ,108.84,W
+2023,10,False,False,donblood,Gibbs and Receive,121.5,oooEcho,ABCeeDee U Lost 2 Me,105.28,W
+2023,10,False,False,oooEcho,ABCeeDee U Lost 2 Me,105.28,donblood,Gibbs and Receive,121.5,L
+2023,10,False,False,lmphm,Vegas,137.06,jimbo817,Chase Mahomies,106.76,W
+2023,10,False,False,jimbo817,Chase Mahomies,106.76,lmphm,Vegas,137.06,L
+2023,10,False,False,ramzz,himzi,117.04,anth0nyng,am i cursed? ,128.08,L
+2023,10,False,False,anth0nyng,am i cursed? ,128.08,ramzz,himzi,117.04,W
+2023,11,False,False,bvincenttt,Shake 'n Blake ,102.18,anth0nyng,am i cursed? ,105.1,L
+2023,11,False,False,anth0nyng,am i cursed? ,105.1,bvincenttt,Shake 'n Blake ,102.18,W
+2023,11,False,False,Odeh1121,Pukachu,110.74,PutItOnYa,PutItOnYa,96.24,W
+2023,11,False,False,PutItOnYa,PutItOnYa,96.24,Odeh1121,Pukachu,110.74,L
+2023,11,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,103.04,keveezy,Renegade renegade ,134.76,L
+2023,11,False,False,keveezy,Renegade renegade ,134.76,DVTV,JOVE DIRECTOR OF VIBEZ,103.04,W
+2023,11,False,False,donblood,Gibbs and Receive,138.5,jimbo817,Chase Mahomies,97.58,W
+2023,11,False,False,jimbo817,Chase Mahomies,97.58,donblood,Gibbs and Receive,138.5,L
+2023,11,False,False,lmphm,Vegas,106.52,oooEcho,ABCeeDee U Lost 2 Me,103.74,W
+2023,11,False,False,oooEcho,ABCeeDee U Lost 2 Me,103.74,lmphm,Vegas,106.52,L
+2023,11,False,False,ramzz,himzi,145.42,kholabear,Cancun Tours,120.04,W
+2023,11,False,False,kholabear,Cancun Tours,120.04,ramzz,himzi,145.42,L
+2023,12,False,False,bvincenttt,Shake 'n Blake ,132.16,ramzz,himzi,110.26,W
+2023,12,False,False,ramzz,himzi,110.26,bvincenttt,Shake 'n Blake ,132.16,L
+2023,12,False,False,Odeh1121,Pukachu,154.46,DVTV,JOVE DIRECTOR OF VIBEZ,106.86,W
+2023,12,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,106.86,Odeh1121,Pukachu,154.46,L
+2023,12,False,False,donblood,Gibbs and Receive,129.8,lmphm,Vegas,134.48,L
+2023,12,False,False,lmphm,Vegas,134.48,donblood,Gibbs and Receive,129.8,W
+2023,12,False,False,keveezy,Renegade renegade ,135.28,PutItOnYa,PutItOnYa,124.0,W
+2023,12,False,False,PutItOnYa,PutItOnYa,124.0,keveezy,Renegade renegade ,135.28,L
+2023,12,False,False,oooEcho,ABCeeDee U Lost 2 Me,136.5,jimbo817,Chase Mahomies,85.62,W
+2023,12,False,False,jimbo817,Chase Mahomies,85.62,oooEcho,ABCeeDee U Lost 2 Me,136.5,L
+2023,12,False,False,anth0nyng,am i cursed? ,145.06,kholabear,Cancun Tours,130.88,W
+2023,12,False,False,kholabear,Cancun Tours,130.88,anth0nyng,am i cursed? ,145.06,L
+2023,13,False,False,bvincenttt,Shake 'n Blake ,121.82,jimbo817,Chase Mahomies,85.12,W
+2023,13,False,False,jimbo817,Chase Mahomies,85.12,bvincenttt,Shake 'n Blake ,121.82,L
+2023,13,False,False,Odeh1121,Pukachu,144.26,donblood,Gibbs and Receive,116.52,W
+2023,13,False,False,donblood,Gibbs and Receive,116.52,Odeh1121,Pukachu,144.26,L
+2023,13,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,133.16,lmphm,Vegas,146.06,L
+2023,13,False,False,lmphm,Vegas,146.06,DVTV,JOVE DIRECTOR OF VIBEZ,133.16,W
+2023,13,False,False,keveezy,Renegade renegade ,156.88,anth0nyng,am i cursed? ,176.36,L
+2023,13,False,False,anth0nyng,am i cursed? ,176.36,keveezy,Renegade renegade ,156.88,W
+2023,13,False,False,oooEcho,ABCeeDee U Lost 2 Me,129.98,ramzz,himzi,130.76,L
+2023,13,False,False,ramzz,himzi,130.76,oooEcho,ABCeeDee U Lost 2 Me,129.98,W
+2023,13,False,False,PutItOnYa,PutItOnYa,130.7,kholabear,Cancun Tours,80.02,W
+2023,13,False,False,kholabear,Cancun Tours,80.02,PutItOnYa,PutItOnYa,130.7,L
+2023,14,False,False,bvincenttt,Shake 'n Blake ,113.88,oooEcho,ABCeeDee U Lost 2 Me,114.4,L
+2023,14,False,False,oooEcho,ABCeeDee U Lost 2 Me,114.4,bvincenttt,Shake 'n Blake ,113.88,W
+2023,14,False,False,Odeh1121,Pukachu,149.26,lmphm,Vegas,133.72,W
+2023,14,False,False,lmphm,Vegas,133.72,Odeh1121,Pukachu,149.26,L
+2023,14,False,False,DVTV,JOVE DIRECTOR OF VIBEZ,136.94,donblood,Gibbs and Receive,132.6,W
+2023,14,False,False,donblood,Gibbs and Receive,132.6,DVTV,JOVE DIRECTOR OF VIBEZ,136.94,L
+2023,14,False,False,keveezy,Renegade renegade ,185.34,kholabear,Cancun Tours,64.94,W
+2023,14,False,False,kholabear,Cancun Tours,64.94,keveezy,Renegade renegade ,185.34,L
+2023,14,False,False,ramzz,himzi,144.12,jimbo817,Chase Mahomies,59.04,W
+2023,14,False,False,jimbo817,Chase Mahomies,59.04,ramzz,himzi,144.12,L
+2023,14,False,False,anth0nyng,am i cursed? ,104.02,PutItOnYa,PutItOnYa,62.22,W
+2023,14,False,False,PutItOnYa,PutItOnYa,62.22,anth0nyng,am i cursed? ,104.02,L
+2023,15,True,False,bvincenttt,Shake 'n Blake ,88.76,lmphm,Vegas,96.04,L
+2023,15,True,False,lmphm,Vegas,96.04,bvincenttt,Shake 'n Blake ,88.76,W
+2023,15,True,False,Odeh1121,Pukachu,116.32,donblood,Gibbs and Receive,139.46,L
+2023,15,True,False,donblood,Gibbs and Receive,139.46,Odeh1121,Pukachu,116.32,W
+2023,15,True,True,DVTV,JOVE DIRECTOR OF VIBEZ,97.16,oooEcho,ABCeeDee U Lost 2 Me,131.28,L
+2023,15,True,True,oooEcho,ABCeeDee U Lost 2 Me,131.28,DVTV,JOVE DIRECTOR OF VIBEZ,97.16,W
+2023,15,True,True,keveezy,Renegade renegade ,125.24,kholabear,Cancun Tours,116.92,W
+2023,15,True,True,kholabear,Cancun Tours,116.92,keveezy,Renegade renegade ,125.24,L
+2023,16,True,False,bvincenttt,Shake 'n Blake ,141.54,Odeh1121,Pukachu,134.02,W
+2023,16,True,False,Odeh1121,Pukachu,134.02,bvincenttt,Shake 'n Blake ,141.54,L
+2023,16,True,True,DVTV,JOVE DIRECTOR OF VIBEZ,126.72,ramzz,himzi,102.3,W
+2023,16,True,True,ramzz,himzi,102.3,DVTV,JOVE DIRECTOR OF VIBEZ,126.72,L
+2023,16,True,False,donblood,Gibbs and Receive,130.94,PutItOnYa,PutItOnYa,121.54,W
+2023,16,True,False,PutItOnYa,PutItOnYa,121.54,donblood,Gibbs and Receive,130.94,L
+2023,16,True,True,keveezy,Renegade renegade ,149.88,oooEcho,ABCeeDee U Lost 2 Me,86.4,W
+2023,16,True,True,oooEcho,ABCeeDee U Lost 2 Me,86.4,keveezy,Renegade renegade ,149.88,L
+2023,16,True,False,lmphm,Vegas,112.5,anth0nyng,am i cursed? ,124.78,L
+2023,16,True,False,anth0nyng,am i cursed? ,124.78,lmphm,Vegas,112.5,W
+2023,16,True,True,jimbo817,Chase Mahomies,120.3,kholabear,Cancun Tours,131.78,L
+2023,16,True,True,kholabear,Cancun Tours,131.78,jimbo817,Chase Mahomies,120.3,W
+2023,17,True,True,DVTV,JOVE DIRECTOR OF VIBEZ,118.46,kholabear,Cancun Tours,110.14,W
+2023,17,True,True,kholabear,Cancun Tours,110.14,DVTV,JOVE DIRECTOR OF VIBEZ,118.46,L
+2023,17,True,False,donblood,Gibbs and Receive,104.08,anth0nyng,am i cursed? ,107.36,L
+2023,17,True,False,anth0nyng,am i cursed? ,107.36,donblood,Gibbs and Receive,104.08,W
+2023,17,True,False,lmphm,Vegas,127.62,PutItOnYa,PutItOnYa,94.24,W
+2023,17,True,False,PutItOnYa,PutItOnYa,94.24,lmphm,Vegas,127.62,L
+2023,17,True,True,ramzz,himzi,138.6,jimbo817,Chase Mahomies,123.0,W
+2023,17,True,True,jimbo817,Chase Mahomies,123.0,ramzz,himzi,138.6,L
+2024,1,False,False,bvincenttt,Shake 'n Blake ,127.86,bAnmly (Bryan),bAnmly,105.86,W
+2024,1,False,False,bAnmly (Bryan),bAnmly,105.86,bvincenttt,Shake 'n Blake ,127.86,L
+2024,1,False,False,Odeh1121,Hairy Son,83.72,keveezy,Bleed Blue,123.1,L
+2024,1,False,False,keveezy,Bleed Blue,123.1,Odeh1121,Hairy Son,83.72,W
+2024,1,False,False,DVTV,GAWD TIER,128.48,jimbo817,Revenge Tour,124.76,W
+2024,1,False,False,jimbo817,Revenge Tour,124.76,DVTV,GAWD TIER,128.48,L
+2024,1,False,False,donblood,Cee Deez Chubb in ya mouf,116.64,oooEcho,ABCeeDee U Lost 2 Me,89.84,W
+2024,1,False,False,oooEcho,ABCeeDee U Lost 2 Me,89.84,donblood,Cee Deez Chubb in ya mouf,116.64,L
+2024,1,False,False,lmphm,Vegas,91.12,PutItOnYa,PutItOnYa,104.52,L
+2024,1,False,False,PutItOnYa,PutItOnYa,104.52,lmphm,Vegas,91.12,W
+2024,1,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,125.58,kholabear,Cancun Tours,97.58,W
+2024,1,False,False,kholabear,Cancun Tours,97.58,anth0nyng,🏆 WORLD CHAMPION 🏆,125.58,L
+2024,2,False,False,bvincenttt,Shake 'n Blake ,87.72,oooEcho,ABCeeDee U Lost 2 Me,102.16,L
+2024,2,False,False,oooEcho,ABCeeDee U Lost 2 Me,102.16,bvincenttt,Shake 'n Blake ,87.72,W
+2024,2,False,False,Odeh1121,Hairy Son,128.98,PutItOnYa,PutItOnYa,129.22,L
+2024,2,False,False,PutItOnYa,PutItOnYa,129.22,Odeh1121,Hairy Son,128.98,W
+2024,2,False,False,DVTV,GAWD TIER,131.74,kholabear,Cancun Tours,80.86,W
+2024,2,False,False,kholabear,Cancun Tours,80.86,DVTV,GAWD TIER,131.74,L
+2024,2,False,False,donblood,Cee Deez Chubb in ya mouf,108.74,bAnmly (Bryan),bAnmly,98.3,W
+2024,2,False,False,bAnmly (Bryan),bAnmly,98.3,donblood,Cee Deez Chubb in ya mouf,108.74,L
+2024,2,False,False,keveezy,Bleed Blue,110.1,lmphm,Vegas,161.76,L
+2024,2,False,False,lmphm,Vegas,161.76,keveezy,Bleed Blue,110.1,W
+2024,2,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,118.46,jimbo817,Revenge Tour,109.42,W
+2024,2,False,False,jimbo817,Revenge Tour,109.42,anth0nyng,🏆 WORLD CHAMPION 🏆,118.46,L
+2024,3,False,False,bvincenttt,Shake 'n Blake ,121.46,donblood,Cee Deez Chubb in ya mouf,97.18,W
+2024,3,False,False,donblood,Cee Deez Chubb in ya mouf,97.18,bvincenttt,Shake 'n Blake ,121.46,L
+2024,3,False,False,Odeh1121,Hairy Son,78.38,lmphm,Vegas,87.18,L
+2024,3,False,False,lmphm,Vegas,87.18,Odeh1121,Hairy Son,78.38,W
+2024,3,False,False,DVTV,GAWD TIER,115.88,anth0nyng,🏆 WORLD CHAMPION 🏆,136.12,L
+2024,3,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,136.12,DVTV,GAWD TIER,115.88,W
+2024,3,False,False,keveezy,Bleed Blue,122.64,PutItOnYa,PutItOnYa,125.04,L
+2024,3,False,False,PutItOnYa,PutItOnYa,125.04,keveezy,Bleed Blue,122.64,W
+2024,3,False,False,oooEcho,ABCeeDee U Lost 2 Me,112.28,bAnmly (Bryan),bAnmly,70.2,W
+2024,3,False,False,bAnmly (Bryan),bAnmly,70.2,oooEcho,ABCeeDee U Lost 2 Me,112.28,L
+2024,3,False,False,jimbo817,Revenge Tour,133.26,kholabear,Cancun Tours,99.28,W
+2024,3,False,False,kholabear,Cancun Tours,99.28,jimbo817,Revenge Tour,133.26,L
+2024,4,False,False,bvincenttt,Shake 'n Blake ,103.04,lmphm,Vegas,100.26,W
+2024,4,False,False,lmphm,Vegas,100.26,bvincenttt,Shake 'n Blake ,103.04,L
+2024,4,False,False,Odeh1121,Hairy Son,126.34,kholabear,Cancun Tours,109.18,W
+2024,4,False,False,kholabear,Cancun Tours,109.18,Odeh1121,Hairy Son,126.34,L
+2024,4,False,False,DVTV,GAWD TIER,106.68,donblood,Cee Deez Chubb in ya mouf,134.1,L
+2024,4,False,False,donblood,Cee Deez Chubb in ya mouf,134.1,DVTV,GAWD TIER,106.68,W
+2024,4,False,False,keveezy,Bleed Blue,130.96,anth0nyng,🏆 WORLD CHAMPION 🏆,63.1,W
+2024,4,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,63.1,keveezy,Bleed Blue,130.96,L
+2024,4,False,False,oooEcho,ABCeeDee U Lost 2 Me,107.02,jimbo817,Revenge Tour,133.98,L
+2024,4,False,False,jimbo817,Revenge Tour,133.98,oooEcho,ABCeeDee U Lost 2 Me,107.02,W
+2024,4,False,False,bAnmly (Bryan),bAnmly,125.1,PutItOnYa,PutItOnYa,109.72,W
+2024,4,False,False,PutItOnYa,PutItOnYa,109.72,bAnmly (Bryan),bAnmly,125.1,L
+2024,5,False,False,bvincenttt,Shake 'n Blake ,115.38,PutItOnYa,PutItOnYa,95.26,W
+2024,5,False,False,PutItOnYa,PutItOnYa,95.26,bvincenttt,Shake 'n Blake ,115.38,L
+2024,5,False,False,Odeh1121,Hairy Son,125.92,anth0nyng,🏆 WORLD CHAMPION 🏆,92.04,W
+2024,5,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,92.04,Odeh1121,Hairy Son,125.92,L
+2024,5,False,False,DVTV,GAWD TIER,109.36,oooEcho,ABCeeDee U Lost 2 Me,109.86,L
+2024,5,False,False,oooEcho,ABCeeDee U Lost 2 Me,109.86,DVTV,GAWD TIER,109.36,W
+2024,5,False,False,donblood,Cee Deez Chubb in ya mouf,117.34,jimbo817,Revenge Tour,116.88,W
+2024,5,False,False,jimbo817,Revenge Tour,116.88,donblood,Cee Deez Chubb in ya mouf,117.34,L
+2024,5,False,False,keveezy,Bleed Blue,97.16,kholabear,Cancun Tours,161.54,L
+2024,5,False,False,kholabear,Cancun Tours,161.54,keveezy,Bleed Blue,97.16,W
+2024,5,False,False,lmphm,Vegas,117.06,bAnmly (Bryan),bAnmly,120.44,L
+2024,5,False,False,bAnmly (Bryan),bAnmly,120.44,lmphm,Vegas,117.06,W
+2024,6,False,False,bvincenttt,Shake 'n Blake ,85.02,anth0nyng,🏆 WORLD CHAMPION 🏆,134.4,L
+2024,6,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,134.4,bvincenttt,Shake 'n Blake ,85.02,W
+2024,6,False,False,Odeh1121,Hairy Son,88.22,DVTV,GAWD TIER,133.26,L
+2024,6,False,False,DVTV,GAWD TIER,133.26,Odeh1121,Hairy Son,88.22,W
+2024,6,False,False,donblood,Cee Deez Chubb in ya mouf,121.8,PutItOnYa,PutItOnYa,131.16,L
+2024,6,False,False,PutItOnYa,PutItOnYa,131.16,donblood,Cee Deez Chubb in ya mouf,121.8,W
+2024,6,False,False,keveezy,Bleed Blue,137.5,jimbo817,Revenge Tour,134.92,W
+2024,6,False,False,jimbo817,Revenge Tour,134.92,keveezy,Bleed Blue,137.5,L
+2024,6,False,False,lmphm,Vegas,95.58,oooEcho,ABCeeDee U Lost 2 Me,153.6,L
+2024,6,False,False,oooEcho,ABCeeDee U Lost 2 Me,153.6,lmphm,Vegas,95.58,W
+2024,6,False,False,bAnmly (Bryan),bAnmly,108.68,kholabear,Cancun Tours,91.8,W
+2024,6,False,False,kholabear,Cancun Tours,91.8,bAnmly (Bryan),bAnmly,108.68,L
+2024,7,False,False,bvincenttt,Shake 'n Blake ,88.94,kholabear,Cancun Tours,140.36,L
+2024,7,False,False,kholabear,Cancun Tours,140.36,bvincenttt,Shake 'n Blake ,88.94,W
+2024,7,False,False,Odeh1121,Hairy Son,143.84,jimbo817,Revenge Tour,125.34,W
+2024,7,False,False,jimbo817,Revenge Tour,125.34,Odeh1121,Hairy Son,143.84,L
+2024,7,False,False,DVTV,GAWD TIER,161.0,keveezy,Bleed Blue,107.8,W
+2024,7,False,False,keveezy,Bleed Blue,107.8,DVTV,GAWD TIER,161.0,L
+2024,7,False,False,donblood,Cee Deez Chubb in ya mouf,102.46,lmphm,Vegas,118.08,L
+2024,7,False,False,lmphm,Vegas,118.08,donblood,Cee Deez Chubb in ya mouf,102.46,W
+2024,7,False,False,oooEcho,ABCeeDee U Lost 2 Me,96.58,PutItOnYa,PutItOnYa,137.46,L
+2024,7,False,False,PutItOnYa,PutItOnYa,137.46,oooEcho,ABCeeDee U Lost 2 Me,96.58,W
+2024,7,False,False,bAnmly (Bryan),bAnmly,79.64,anth0nyng,🏆 WORLD CHAMPION 🏆,66.94,W
+2024,7,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,66.94,bAnmly (Bryan),bAnmly,79.64,L
+2024,8,False,False,bvincenttt,Shake 'n Blake ,93.72,keveezy,Bleed Blue,93.26,W
+2024,8,False,False,keveezy,Bleed Blue,93.26,bvincenttt,Shake 'n Blake ,93.72,L
+2024,8,False,False,Odeh1121,Hairy Son,152.86,bAnmly (Bryan),bAnmly,84.3,W
+2024,8,False,False,bAnmly (Bryan),bAnmly,84.3,Odeh1121,Hairy Son,152.86,L
+2024,8,False,False,DVTV,GAWD TIER,123.68,PutItOnYa,PutItOnYa,165.34,L
+2024,8,False,False,PutItOnYa,PutItOnYa,165.34,DVTV,GAWD TIER,123.68,W
+2024,8,False,False,donblood,Cee Deez Chubb in ya mouf,156.28,kholabear,Cancun Tours,117.32,W
+2024,8,False,False,kholabear,Cancun Tours,117.32,donblood,Cee Deez Chubb in ya mouf,156.28,L
+2024,8,False,False,lmphm,Vegas,133.66,jimbo817,Revenge Tour,101.96,W
+2024,8,False,False,jimbo817,Revenge Tour,101.96,lmphm,Vegas,133.66,L
+2024,8,False,False,oooEcho,ABCeeDee U Lost 2 Me,137.3,anth0nyng,🏆 WORLD CHAMPION 🏆,138.82,L
+2024,8,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,138.82,oooEcho,ABCeeDee U Lost 2 Me,137.3,W
+2024,9,False,False,bvincenttt,Shake 'n Blake ,104.92,Odeh1121,Hairy Son,138.28,L
+2024,9,False,False,Odeh1121,Hairy Son,138.28,bvincenttt,Shake 'n Blake ,104.92,W
+2024,9,False,False,DVTV,GAWD TIER,105.36,lmphm,Vegas,137.16,L
+2024,9,False,False,lmphm,Vegas,137.16,DVTV,GAWD TIER,105.36,W
+2024,9,False,False,donblood,Cee Deez Chubb in ya mouf,133.24,anth0nyng,🏆 WORLD CHAMPION 🏆,132.5,W
+2024,9,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,132.5,donblood,Cee Deez Chubb in ya mouf,133.24,L
+2024,9,False,False,keveezy,Bleed Blue,119.0,bAnmly (Bryan),bAnmly,69.44,W
+2024,9,False,False,bAnmly (Bryan),bAnmly,69.44,keveezy,Bleed Blue,119.0,L
+2024,9,False,False,oooEcho,ABCeeDee U Lost 2 Me,130.54,kholabear,Cancun Tours,102.2,W
+2024,9,False,False,kholabear,Cancun Tours,102.2,oooEcho,ABCeeDee U Lost 2 Me,130.54,L
+2024,9,False,False,jimbo817,Revenge Tour,112.64,PutItOnYa,PutItOnYa,134.2,L
+2024,9,False,False,PutItOnYa,PutItOnYa,134.2,jimbo817,Revenge Tour,112.64,W
+2024,10,False,False,bvincenttt,Shake 'n Blake ,71.34,jimbo817,Revenge Tour,111.02,L
+2024,10,False,False,jimbo817,Revenge Tour,111.02,bvincenttt,Shake 'n Blake ,71.34,W
+2024,10,False,False,Odeh1121,Hairy Son,130.7,donblood,Cee Deez Chubb in ya mouf,100.04,W
+2024,10,False,False,donblood,Cee Deez Chubb in ya mouf,100.04,Odeh1121,Hairy Son,130.7,L
+2024,10,False,False,DVTV,GAWD TIER,116.66,bAnmly (Bryan),bAnmly,115.78,W
+2024,10,False,False,bAnmly (Bryan),bAnmly,115.78,DVTV,GAWD TIER,116.66,L
+2024,10,False,False,keveezy,Bleed Blue,112.34,oooEcho,ABCeeDee U Lost 2 Me,110.82,W
+2024,10,False,False,oooEcho,ABCeeDee U Lost 2 Me,110.82,keveezy,Bleed Blue,112.34,L
+2024,10,False,False,lmphm,Vegas,108.9,anth0nyng,🏆 WORLD CHAMPION 🏆,96.5,W
+2024,10,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,96.5,lmphm,Vegas,108.9,L
+2024,10,False,False,PutItOnYa,PutItOnYa,152.98,kholabear,Cancun Tours,133.44,W
+2024,10,False,False,kholabear,Cancun Tours,133.44,PutItOnYa,PutItOnYa,152.98,L
+2024,11,False,False,bvincenttt,Shake 'n Blake ,90.3,DVTV,GAWD TIER,127.58,L
+2024,11,False,False,DVTV,GAWD TIER,127.58,bvincenttt,Shake 'n Blake ,90.3,W
+2024,11,False,False,Odeh1121,Hairy Son,87.98,oooEcho,ABCeeDee U Lost 2 Me,88.26,L
+2024,11,False,False,oooEcho,ABCeeDee U Lost 2 Me,88.26,Odeh1121,Hairy Son,87.98,W
+2024,11,False,False,donblood,Cee Deez Chubb in ya mouf,140.34,keveezy,Bleed Blue,148.34,L
+2024,11,False,False,keveezy,Bleed Blue,148.34,donblood,Cee Deez Chubb in ya mouf,140.34,W
+2024,11,False,False,lmphm,Vegas,167.28,kholabear,Cancun Tours,113.74,W
+2024,11,False,False,kholabear,Cancun Tours,113.74,lmphm,Vegas,167.28,L
+2024,11,False,False,bAnmly (Bryan),bAnmly,123.1,jimbo817,Revenge Tour,134.74,L
+2024,11,False,False,jimbo817,Revenge Tour,134.74,bAnmly (Bryan),bAnmly,123.1,W
+2024,11,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,146.18,PutItOnYa,PutItOnYa,73.94,W
+2024,11,False,False,PutItOnYa,PutItOnYa,73.94,anth0nyng,🏆 WORLD CHAMPION 🏆,146.18,L
+2024,12,False,False,bvincenttt,Shake 'n Blake ,144.0,bAnmly (Bryan),bAnmly,81.08,W
+2024,12,False,False,bAnmly (Bryan),bAnmly,81.08,bvincenttt,Shake 'n Blake ,144.0,L
+2024,12,False,False,Odeh1121,Hairy Son,85.88,keveezy,Bleed Blue,90.86,L
+2024,12,False,False,keveezy,Bleed Blue,90.86,Odeh1121,Hairy Son,85.88,W
+2024,12,False,False,DVTV,GAWD TIER,141.12,jimbo817,Revenge Tour,130.98,W
+2024,12,False,False,jimbo817,Revenge Tour,130.98,DVTV,GAWD TIER,141.12,L
+2024,12,False,False,donblood,Cee Deez Chubb in ya mouf,144.56,oooEcho,ABCeeDee U Lost 2 Me,132.0,W
+2024,12,False,False,oooEcho,ABCeeDee U Lost 2 Me,132.0,donblood,Cee Deez Chubb in ya mouf,144.56,L
+2024,12,False,False,lmphm,Vegas,119.82,PutItOnYa,PutItOnYa,123.46,L
+2024,12,False,False,PutItOnYa,PutItOnYa,123.46,lmphm,Vegas,119.82,W
+2024,12,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,118.3,kholabear,Cancun Tours,101.5,W
+2024,12,False,False,kholabear,Cancun Tours,101.5,anth0nyng,🏆 WORLD CHAMPION 🏆,118.3,L
+2024,13,False,False,bvincenttt,Shake 'n Blake ,118.9,oooEcho,ABCeeDee U Lost 2 Me,109.7,W
+2024,13,False,False,oooEcho,ABCeeDee U Lost 2 Me,109.7,bvincenttt,Shake 'n Blake ,118.9,L
+2024,13,False,False,Odeh1121,Hairy Son,132.38,PutItOnYa,PutItOnYa,149.12,L
+2024,13,False,False,PutItOnYa,PutItOnYa,149.12,Odeh1121,Hairy Son,132.38,W
+2024,13,False,False,DVTV,GAWD TIER,103.58,kholabear,Cancun Tours,93.8,W
+2024,13,False,False,kholabear,Cancun Tours,93.8,DVTV,GAWD TIER,103.58,L
+2024,13,False,False,donblood,Cee Deez Chubb in ya mouf,102.84,bAnmly (Bryan),bAnmly,135.28,L
+2024,13,False,False,bAnmly (Bryan),bAnmly,135.28,donblood,Cee Deez Chubb in ya mouf,102.84,W
+2024,13,False,False,keveezy,Bleed Blue,126.1,lmphm,Vegas,150.06,L
+2024,13,False,False,lmphm,Vegas,150.06,keveezy,Bleed Blue,126.1,W
+2024,13,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,160.62,jimbo817,Revenge Tour,99.46,W
+2024,13,False,False,jimbo817,Revenge Tour,99.46,anth0nyng,🏆 WORLD CHAMPION 🏆,160.62,L
+2024,14,False,False,bvincenttt,Shake 'n Blake ,115.06,donblood,Cee Deez Chubb in ya mouf,113.7,W
+2024,14,False,False,donblood,Cee Deez Chubb in ya mouf,113.7,bvincenttt,Shake 'n Blake ,115.06,L
+2024,14,False,False,Odeh1121,Hairy Son,130.22,lmphm,Vegas,82.78,W
+2024,14,False,False,lmphm,Vegas,82.78,Odeh1121,Hairy Son,130.22,L
+2024,14,False,False,DVTV,GAWD TIER,108.62,anth0nyng,🏆 WORLD CHAMPION 🏆,137.78,L
+2024,14,False,False,anth0nyng,🏆 WORLD CHAMPION 🏆,137.78,DVTV,GAWD TIER,108.62,W
+2024,14,False,False,keveezy,Bleed Blue,143.5,PutItOnYa,PutItOnYa,119.72,W
+2024,14,False,False,PutItOnYa,PutItOnYa,119.72,keveezy,Bleed Blue,143.5,L
+2024,14,False,False,oooEcho,ABCeeDee U Lost 2 Me,175.84,bAnmly (Bryan),bAnmly,105.3,W
+2024,14,False,False,bAnmly (Bryan),bAnmly,105.3,oooEcho,ABCeeDee U Lost 2 Me,175.84,L
+2024,14,False,False,jimbo817,Revenge Tour,84.56,kholabear,Cancun Tours,170.78,L
+2024,14,False,False,kholabear,Cancun Tours,170.78,jimbo817,Revenge Tour,84.56,W
+2024,15,True,False,bvincenttt,Shake 'n Blake ,134.26,DVTV,GAWD TIER,81.7,W
+2024,15,True,False,DVTV,GAWD TIER,81.7,bvincenttt,Shake 'n Blake ,134.26,L
+2024,15,True,True,Odeh1121,Hairy Son,150.4,oooEcho,ABCeeDee U Lost 2 Me,105.64,W
+2024,15,True,True,oooEcho,ABCeeDee U Lost 2 Me,105.64,Odeh1121,Hairy Son,150.4,L
+2024,15,True,True,donblood,Cee Deez Chubb in ya mouf,114.16,bAnmly (Bryan),bAnmly,102.44,W
+2024,15,True,True,bAnmly (Bryan),bAnmly,102.44,donblood,Cee Deez Chubb in ya mouf,114.16,L
+2024,15,True,False,keveezy,Bleed Blue,155.82,lmphm,Vegas,161.0,L
+2024,15,True,False,lmphm,Vegas,161.0,keveezy,Bleed Blue,155.82,W
+2024,16,True,False,bvincenttt,Shake 'n Blake ,112.18,anth0nyng,🏆 WORLD CHAMPION 🏆,70.46,W
+2024,16,True,False,anth0nyng,🏆 WORLD CHAMPION 🏆,70.46,bvincenttt,Shake 'n Blake ,112.18,L
+2024,16,True,True,Odeh1121,Hairy Son,137.58,donblood,Cee Deez Chubb in ya mouf,102.9,W
+2024,16,True,True,donblood,Cee Deez Chubb in ya mouf,102.9,Odeh1121,Hairy Son,137.58,L
+2024,16,True,False,DVTV,GAWD TIER,130.9,keveezy,Bleed Blue,137.12,L
+2024,16,True,False,keveezy,Bleed Blue,137.12,DVTV,GAWD TIER,130.9,W
+2024,16,True,False,lmphm,Vegas,141.12,PutItOnYa,PutItOnYa,139.04,W
+2024,16,True,False,PutItOnYa,PutItOnYa,139.04,lmphm,Vegas,141.12,L
+2024,16,True,True,oooEcho,ABCeeDee U Lost 2 Me,143.62,kholabear,Cancun Tours,120.44,W
+2024,16,True,True,kholabear,Cancun Tours,120.44,oooEcho,ABCeeDee U Lost 2 Me,143.62,L
+2024,16,True,True,bAnmly (Bryan),bAnmly,150.36,jimbo817,Revenge Tour,156.58,L
+2024,16,True,True,jimbo817,Revenge Tour,156.58,bAnmly (Bryan),bAnmly,150.36,W
+2024,17,True,False,bvincenttt,Shake 'n Blake ,110.44,lmphm,Vegas,98.36,W
+2024,17,True,False,lmphm,Vegas,98.36,bvincenttt,Shake 'n Blake ,110.44,L
+2024,17,True,True,oooEcho,ABCeeDee U Lost 2 Me,146.18,jimbo817,Revenge Tour,139.18,W
+2024,17,True,True,jimbo817,Revenge Tour,139.18,oooEcho,ABCeeDee U Lost 2 Me,146.18,L
+2024,17,True,True,bAnmly (Bryan),bAnmly,88.4,kholabear,Cancun Tours,132.18,L
+2024,17,True,True,kholabear,Cancun Tours,132.18,bAnmly (Bryan),bAnmly,88.4,W
+2024,17,True,False,anth0nyng,🏆 WORLD CHAMPION 🏆,106.28,PutItOnYa,PutItOnYa,110.52,L
+2024,17,True,False,PutItOnYa,PutItOnYa,110.52,anth0nyng,🏆 WORLD CHAMPION 🏆,106.28,W
+2025,1,False,False,bvincenttt,Shake 'n Blake ,106.68,lmphm,Vegas,86.64,W
+2025,1,False,False,lmphm,Vegas,86.64,bvincenttt,Shake 'n Blake ,106.68,L
+2025,1,False,False,Odeh1121,I Gibbs the Dicker,97.32,oooEcho,ABCeeDee U Lost 2 Me,90.42,W
+2025,1,False,False,oooEcho,ABCeeDee U Lost 2 Me,90.42,Odeh1121,I Gibbs the Dicker,97.32,L
+2025,1,False,False,DVTV,Pablo Torre Scores Out,137.82,wabaki (Lan Doan),Knuck if U Buck,94.82,W
+2025,1,False,False,wabaki (Lan Doan),Knuck if U Buck,94.82,DVTV,Pablo Torre Scores Out,137.82,L
+2025,1,False,False,donblood,Cee Deez Chubb in ya mouf,117.46,PutItOnYa,PutItOnYa,143.16,L
+2025,1,False,False,PutItOnYa,PutItOnYa,143.16,donblood,Cee Deez Chubb in ya mouf,117.46,W
+2025,1,False,False,keveezy,We bleed blue,121.02,jimbo817,Mac Daddy,113.48,W
+2025,1,False,False,jimbo817,Mac Daddy,113.48,keveezy,We bleed blue,121.02,L
+2025,1,False,False,anth0nyng,Van Jefferson III,103.82,kholabear,Parkland Hospital,115.82,L
+2025,1,False,False,kholabear,Parkland Hospital,115.82,anth0nyng,Van Jefferson III,103.82,W
+2025,2,False,False,bvincenttt,Shake 'n Blake ,112.64,PutItOnYa,PutItOnYa,82.02,W
+2025,2,False,False,PutItOnYa,PutItOnYa,82.02,bvincenttt,Shake 'n Blake ,112.64,L
+2025,2,False,False,Odeh1121,I Gibbs the Dicker,115.34,anth0nyng,Van Jefferson III,122.44,L
+2025,2,False,False,anth0nyng,Van Jefferson III,122.44,Odeh1121,I Gibbs the Dicker,115.34,W
+2025,2,False,False,DVTV,Pablo Torre Scores Out,125.88,keveezy,We bleed blue,121.5,W
+2025,2,False,False,keveezy,We bleed blue,121.5,DVTV,Pablo Torre Scores Out,125.88,L
+2025,2,False,False,donblood,Cee Deez Chubb in ya mouf,136.5,lmphm,Vegas,90.64,W
+2025,2,False,False,lmphm,Vegas,90.64,donblood,Cee Deez Chubb in ya mouf,136.5,L
+2025,2,False,False,oooEcho,ABCeeDee U Lost 2 Me,137.18,kholabear,Parkland Hospital,121.92,W
+2025,2,False,False,kholabear,Parkland Hospital,121.92,oooEcho,ABCeeDee U Lost 2 Me,137.18,L
+2025,2,False,False,wabaki (Lan Doan),Knuck if U Buck,115.9,jimbo817,Mac Daddy,121.0,L
+2025,2,False,False,jimbo817,Mac Daddy,121.0,wabaki (Lan Doan),Knuck if U Buck,115.9,W
+2025,3,False,False,bvincenttt,Shake 'n Blake ,128.14,donblood,Cee Deez Chubb in ya mouf,122.92,W
+2025,3,False,False,donblood,Cee Deez Chubb in ya mouf,122.92,bvincenttt,Shake 'n Blake ,128.14,L
+2025,3,False,False,Odeh1121,I Gibbs the Dicker,122.34,kholabear,Parkland Hospital,105.8,W
+2025,3,False,False,kholabear,Parkland Hospital,105.8,Odeh1121,I Gibbs the Dicker,122.34,L
+2025,3,False,False,DVTV,Pablo Torre Scores Out,97.8,jimbo817,Mac Daddy,105.62,L
+2025,3,False,False,jimbo817,Mac Daddy,105.62,DVTV,Pablo Torre Scores Out,97.8,W
+2025,3,False,False,keveezy,We bleed blue,120.86,wabaki (Lan Doan),Knuck if U Buck,99.02,W
+2025,3,False,False,wabaki (Lan Doan),Knuck if U Buck,99.02,keveezy,We bleed blue,120.86,L
+2025,3,False,False,lmphm,Vegas,82.82,PutItOnYa,PutItOnYa,114.42,L
+2025,3,False,False,PutItOnYa,PutItOnYa,114.42,lmphm,Vegas,82.82,W
+2025,3,False,False,oooEcho,ABCeeDee U Lost 2 Me,113.76,anth0nyng,Van Jefferson III,112.56,W
+2025,3,False,False,anth0nyng,Van Jefferson III,112.56,oooEcho,ABCeeDee U Lost 2 Me,113.76,L
+2025,4,False,False,bvincenttt,Shake 'n Blake ,185.4,keveezy,We bleed blue,147.2,W
+2025,4,False,False,keveezy,We bleed blue,147.2,bvincenttt,Shake 'n Blake ,185.4,L
+2025,4,False,False,Odeh1121,I Gibbs the Dicker,130.76,donblood,Cee Deez Chubb in ya mouf,111.48,W
+2025,4,False,False,donblood,Cee Deez Chubb in ya mouf,111.48,Odeh1121,I Gibbs the Dicker,130.76,L
+2025,4,False,False,DVTV,Pablo Torre Scores Out,87.62,kholabear,Parkland Hospital,95.98,L
+2025,4,False,False,kholabear,Parkland Hospital,95.98,DVTV,Pablo Torre Scores Out,87.62,W
+2025,4,False,False,lmphm,Vegas,108.84,jimbo817,Mac Daddy,145.36,L
+2025,4,False,False,jimbo817,Mac Daddy,145.36,lmphm,Vegas,108.84,W
+2025,4,False,False,oooEcho,ABCeeDee U Lost 2 Me,111.4,PutItOnYa,PutItOnYa,129.76,L
+2025,4,False,False,PutItOnYa,PutItOnYa,129.76,oooEcho,ABCeeDee U Lost 2 Me,111.4,W
+2025,4,False,False,wabaki (Lan Doan),Knuck if U Buck,136.32,anth0nyng,Van Jefferson III,140.38,L
+2025,4,False,False,anth0nyng,Van Jefferson III,140.38,wabaki (Lan Doan),Knuck if U Buck,136.32,W
+2025,5,False,False,bvincenttt,Shake 'n Blake ,104.7,jimbo817,Mac Daddy,158.32,L
+2025,5,False,False,jimbo817,Mac Daddy,158.32,bvincenttt,Shake 'n Blake ,104.7,W
+2025,5,False,False,Odeh1121,I Gibbs the Dicker,123.18,PutItOnYa,PutItOnYa,122.22,W
+2025,5,False,False,PutItOnYa,PutItOnYa,122.22,Odeh1121,I Gibbs the Dicker,123.18,L
+2025,5,False,False,DVTV,Pablo Torre Scores Out,107.64,anth0nyng,Van Jefferson III,124.18,L
+2025,5,False,False,anth0nyng,Van Jefferson III,124.18,DVTV,Pablo Torre Scores Out,107.64,W
+2025,5,False,False,donblood,Cee Deez Chubb in ya mouf,106.12,oooEcho,ABCeeDee U Lost 2 Me,114.42,L
+2025,5,False,False,oooEcho,ABCeeDee U Lost 2 Me,114.42,donblood,Cee Deez Chubb in ya mouf,106.12,W
+2025,5,False,False,keveezy,We bleed blue,145.8,lmphm,Vegas,98.98,W
+2025,5,False,False,lmphm,Vegas,98.98,keveezy,We bleed blue,145.8,L
+2025,5,False,False,wabaki (Lan Doan),Knuck if U Buck,77.34,kholabear,Parkland Hospital,157.74,L
+2025,5,False,False,kholabear,Parkland Hospital,157.74,wabaki (Lan Doan),Knuck if U Buck,77.34,W
+2025,6,False,False,bvincenttt,Shake 'n Blake ,112.22,oooEcho,ABCeeDee U Lost 2 Me,107.88,W
+2025,6,False,False,oooEcho,ABCeeDee U Lost 2 Me,107.88,bvincenttt,Shake 'n Blake ,112.22,L
+2025,6,False,False,Odeh1121,I Gibbs the Dicker,125.24,lmphm,Vegas,111.76,W
+2025,6,False,False,lmphm,Vegas,111.76,Odeh1121,I Gibbs the Dicker,125.24,L
+2025,6,False,False,DVTV,Pablo Torre Scores Out,111.76,PutItOnYa,PutItOnYa,103.7,W
+2025,6,False,False,PutItOnYa,PutItOnYa,103.7,DVTV,Pablo Torre Scores Out,111.76,L
+2025,6,False,False,donblood,Cee Deez Chubb in ya mouf,101.3,wabaki (Lan Doan),Knuck if U Buck,115.74,L
+2025,6,False,False,wabaki (Lan Doan),Knuck if U Buck,115.74,donblood,Cee Deez Chubb in ya mouf,101.3,W
+2025,6,False,False,keveezy,We bleed blue,104.14,kholabear,Parkland Hospital,98.5,W
+2025,6,False,False,kholabear,Parkland Hospital,98.5,keveezy,We bleed blue,104.14,L
+2025,6,False,False,anth0nyng,Van Jefferson III,144.1,jimbo817,Mac Daddy,140.64,W
+2025,6,False,False,jimbo817,Mac Daddy,140.64,anth0nyng,Van Jefferson III,144.1,L
+2025,7,False,False,bvincenttt,Shake 'n Blake ,100.54,Odeh1121,I Gibbs the Dicker,171.46,L
+2025,7,False,False,Odeh1121,I Gibbs the Dicker,171.46,bvincenttt,Shake 'n Blake ,100.54,W
+2025,7,False,False,DVTV,Pablo Torre Scores Out,128.8,donblood,Cee Deez Chubb in ya mouf,80.84,W
+2025,7,False,False,donblood,Cee Deez Chubb in ya mouf,80.84,DVTV,Pablo Torre Scores Out,128.8,L
+2025,7,False,False,keveezy,We bleed blue,167.28,anth0nyng,Van Jefferson III,129.52,W
+2025,7,False,False,anth0nyng,Van Jefferson III,129.52,keveezy,We bleed blue,167.28,L
+2025,7,False,False,lmphm,Vegas,97.76,oooEcho,ABCeeDee U Lost 2 Me,109.94,L
+2025,7,False,False,oooEcho,ABCeeDee U Lost 2 Me,109.94,lmphm,Vegas,97.76,W
+2025,7,False,False,wabaki (Lan Doan),Knuck if U Buck,124.74,PutItOnYa,PutItOnYa,158.96,L
+2025,7,False,False,PutItOnYa,PutItOnYa,158.96,wabaki (Lan Doan),Knuck if U Buck,124.74,W
+2025,7,False,False,jimbo817,Mac Daddy,111.72,kholabear,Parkland Hospital,97.52,W
+2025,7,False,False,kholabear,Parkland Hospital,97.52,jimbo817,Mac Daddy,111.72,L
+2025,8,False,False,bvincenttt,Shake 'n Blake ,120.72,kholabear,Parkland Hospital,88.86,W
+2025,8,False,False,kholabear,Parkland Hospital,88.86,bvincenttt,Shake 'n Blake ,120.72,L
+2025,8,False,False,Odeh1121,I Gibbs the Dicker,130.72,wabaki (Lan Doan),Knuck if U Buck,116.18,W
+2025,8,False,False,wabaki (Lan Doan),Knuck if U Buck,116.18,Odeh1121,I Gibbs the Dicker,130.72,L
+2025,8,False,False,DVTV,Pablo Torre Scores Out,135.18,oooEcho,ABCeeDee U Lost 2 Me,97.46,W
+2025,8,False,False,oooEcho,ABCeeDee U Lost 2 Me,97.46,DVTV,Pablo Torre Scores Out,135.18,L
+2025,8,False,False,donblood,Cee Deez Chubb in ya mouf,150.02,jimbo817,Mac Daddy,65.18,W
+2025,8,False,False,jimbo817,Mac Daddy,65.18,donblood,Cee Deez Chubb in ya mouf,150.02,L
+2025,8,False,False,keveezy,We bleed blue,135.02,PutItOnYa,PutItOnYa,124.92,W
+2025,8,False,False,PutItOnYa,PutItOnYa,124.92,keveezy,We bleed blue,135.02,L
+2025,8,False,False,lmphm,Vegas,86.68,anth0nyng,Van Jefferson III,162.98,L
+2025,8,False,False,anth0nyng,Van Jefferson III,162.98,lmphm,Vegas,86.68,W
+2025,9,False,False,bvincenttt,Shake 'n Blake ,139.7,anth0nyng,Van Jefferson III,129.28,W
+2025,9,False,False,anth0nyng,Van Jefferson III,129.28,bvincenttt,Shake 'n Blake ,139.7,L
+2025,9,False,False,Odeh1121,I Gibbs the Dicker,85.9,DVTV,Pablo Torre Scores Out,161.2,L
+2025,9,False,False,DVTV,Pablo Torre Scores Out,161.2,Odeh1121,I Gibbs the Dicker,85.9,W
+2025,9,False,False,donblood,Cee Deez Chubb in ya mouf,126.66,keveezy,We bleed blue,164.04,L
+2025,9,False,False,keveezy,We bleed blue,164.04,donblood,Cee Deez Chubb in ya mouf,126.66,W
+2025,9,False,False,lmphm,Vegas,79.72,kholabear,Parkland Hospital,111.4,L
+2025,9,False,False,kholabear,Parkland Hospital,111.4,lmphm,Vegas,79.72,W
+2025,9,False,False,oooEcho,ABCeeDee U Lost 2 Me,105.2,wabaki (Lan Doan),Knuck if U Buck,123.44,L
+2025,9,False,False,wabaki (Lan Doan),Knuck if U Buck,123.44,oooEcho,ABCeeDee U Lost 2 Me,105.2,W
+2025,9,False,False,jimbo817,Mac Daddy,120.46,PutItOnYa,PutItOnYa,94.32,W
+2025,9,False,False,PutItOnYa,PutItOnYa,94.32,jimbo817,Mac Daddy,120.46,L
+2025,10,False,False,bvincenttt,Shake 'n Blake ,133.02,DVTV,Pablo Torre Scores Out,123.5,W
+2025,10,False,False,DVTV,Pablo Torre Scores Out,123.5,bvincenttt,Shake 'n Blake ,133.02,L
+2025,10,False,False,Odeh1121,I Gibbs the Dicker,140.92,jimbo817,Mac Daddy,104.9,W
+2025,10,False,False,jimbo817,Mac Daddy,104.9,Odeh1121,I Gibbs the Dicker,140.92,L
+2025,10,False,False,donblood,Cee Deez Chubb in ya mouf,100.04,anth0nyng,Van Jefferson III,160.8,L
+2025,10,False,False,anth0nyng,Van Jefferson III,160.8,donblood,Cee Deez Chubb in ya mouf,100.04,W
+2025,10,False,False,keveezy,We bleed blue,140.7,oooEcho,ABCeeDee U Lost 2 Me,82.78,W
+2025,10,False,False,oooEcho,ABCeeDee U Lost 2 Me,82.78,keveezy,We bleed blue,140.7,L
+2025,10,False,False,lmphm,Vegas,108.7,wabaki (Lan Doan),Knuck if U Buck,92.8,W
+2025,10,False,False,wabaki (Lan Doan),Knuck if U Buck,92.8,lmphm,Vegas,108.7,L
+2025,10,False,False,PutItOnYa,PutItOnYa,115.24,kholabear,Parkland Hospital,89.92,W
+2025,10,False,False,kholabear,Parkland Hospital,89.92,PutItOnYa,PutItOnYa,115.24,L
+2025,11,False,False,bvincenttt,Shake 'n Blake ,109.8,wabaki (Lan Doan),Knuck if U Buck,109.34,W
+2025,11,False,False,wabaki (Lan Doan),Knuck if U Buck,109.34,bvincenttt,Shake 'n Blake ,109.8,L
+2025,11,False,False,Odeh1121,I Gibbs the Dicker,99.02,keveezy,We bleed blue,88.3,W
+2025,11,False,False,keveezy,We bleed blue,88.3,Odeh1121,I Gibbs the Dicker,99.02,L
+2025,11,False,False,DVTV,Pablo Torre Scores Out,97.44,lmphm,Vegas,109.3,L
+2025,11,False,False,lmphm,Vegas,109.3,DVTV,Pablo Torre Scores Out,97.44,W
+2025,11,False,False,donblood,Cee Deez Chubb in ya mouf,82.62,kholabear,Parkland Hospital,121.66,L
+2025,11,False,False,kholabear,Parkland Hospital,121.66,donblood,Cee Deez Chubb in ya mouf,82.62,W
+2025,11,False,False,oooEcho,ABCeeDee U Lost 2 Me,141.74,jimbo817,Mac Daddy,101.5,W
+2025,11,False,False,jimbo817,Mac Daddy,101.5,oooEcho,ABCeeDee U Lost 2 Me,141.74,L
+2025,11,False,False,anth0nyng,Van Jefferson III,115.24,PutItOnYa,PutItOnYa,137.48,L
+2025,11,False,False,PutItOnYa,PutItOnYa,137.48,anth0nyng,Van Jefferson III,115.24,W
+2025,12,False,False,bvincenttt,Shake 'n Blake ,136.26,lmphm,Vegas,77.42,W
+2025,12,False,False,lmphm,Vegas,77.42,bvincenttt,Shake 'n Blake ,136.26,L
+2025,12,False,False,Odeh1121,I Gibbs the Dicker,187.96,oooEcho,ABCeeDee U Lost 2 Me,129.08,W
+2025,12,False,False,oooEcho,ABCeeDee U Lost 2 Me,129.08,Odeh1121,I Gibbs the Dicker,187.96,L
+2025,12,False,False,DVTV,Pablo Torre Scores Out,107.18,wabaki (Lan Doan),Knuck if U Buck,102.66,W
+2025,12,False,False,wabaki (Lan Doan),Knuck if U Buck,102.66,DVTV,Pablo Torre Scores Out,107.18,L
+2025,12,False,False,donblood,Cee Deez Chubb in ya mouf,110.82,PutItOnYa,PutItOnYa,119.22,L
+2025,12,False,False,PutItOnYa,PutItOnYa,119.22,donblood,Cee Deez Chubb in ya mouf,110.82,W
+2025,12,False,False,keveezy,We bleed blue,131.12,jimbo817,Mac Daddy,102.96,W
+2025,12,False,False,jimbo817,Mac Daddy,102.96,keveezy,We bleed blue,131.12,L
+2025,12,False,False,anth0nyng,Van Jefferson III,97.64,kholabear,Parkland Hospital,123.26,L
+2025,12,False,False,kholabear,Parkland Hospital,123.26,anth0nyng,Van Jefferson III,97.64,W
+2025,13,False,False,bvincenttt,Shake 'n Blake ,130.5,PutItOnYa,PutItOnYa,101.92,W
+2025,13,False,False,PutItOnYa,PutItOnYa,101.92,bvincenttt,Shake 'n Blake ,130.5,L
+2025,13,False,False,Odeh1121,I Gibbs the Dicker,107.8,anth0nyng,Van Jefferson III,88.84,W
+2025,13,False,False,anth0nyng,Van Jefferson III,88.84,Odeh1121,I Gibbs the Dicker,107.8,L
+2025,13,False,False,DVTV,Pablo Torre Scores Out,115.44,keveezy,We bleed blue,122.22,L
+2025,13,False,False,keveezy,We bleed blue,122.22,DVTV,Pablo Torre Scores Out,115.44,W
+2025,13,False,False,donblood,Cee Deez Chubb in ya mouf,107.34,lmphm,Vegas,110.14,L
+2025,13,False,False,lmphm,Vegas,110.14,donblood,Cee Deez Chubb in ya mouf,107.34,W
+2025,13,False,False,oooEcho,ABCeeDee U Lost 2 Me,132.24,kholabear,Parkland Hospital,70.52,W
+2025,13,False,False,kholabear,Parkland Hospital,70.52,oooEcho,ABCeeDee U Lost 2 Me,132.24,L
+2025,13,False,False,wabaki (Lan Doan),Knuck if U Buck,103.38,jimbo817,Mac Daddy,125.94,L
+2025,13,False,False,jimbo817,Mac Daddy,125.94,wabaki (Lan Doan),Knuck if U Buck,103.38,W
+2025,14,False,False,bvincenttt,Shake 'n Blake ,112.5,donblood,Cee Deez Chubb in ya mouf,146.96,L
+2025,14,False,False,donblood,Cee Deez Chubb in ya mouf,146.96,bvincenttt,Shake 'n Blake ,112.5,W
+2025,14,False,False,Odeh1121,I Gibbs the Dicker,136.04,kholabear,Parkland Hospital,125.96,W
+2025,14,False,False,kholabear,Parkland Hospital,125.96,Odeh1121,I Gibbs the Dicker,136.04,L
+2025,14,False,False,DVTV,Pablo Torre Scores Out,94.94,jimbo817,Mac Daddy,95.06,L
+2025,14,False,False,jimbo817,Mac Daddy,95.06,DVTV,Pablo Torre Scores Out,94.94,W
+2025,14,False,False,keveezy,We bleed blue,114.04,wabaki (Lan Doan),Knuck if U Buck,74.96,W
+2025,14,False,False,wabaki (Lan Doan),Knuck if U Buck,74.96,keveezy,We bleed blue,114.04,L
+2025,14,False,False,lmphm,Vegas,98.68,PutItOnYa,PutItOnYa,106.04,L
+2025,14,False,False,PutItOnYa,PutItOnYa,106.04,lmphm,Vegas,98.68,W
+2025,14,False,False,oooEcho,ABCeeDee U Lost 2 Me,76.3,anth0nyng,Van Jefferson III,143.76,L
+2025,14,False,False,anth0nyng,Van Jefferson III,143.76,oooEcho,ABCeeDee U Lost 2 Me,76.3,W
+2025,15,True,False,bvincenttt,Shake 'n Blake ,96.7,anth0nyng,Van Jefferson III,124.8,L
+2025,15,True,False,anth0nyng,Van Jefferson III,124.8,bvincenttt,Shake 'n Blake ,96.7,W
+2025,15,True,True,DVTV,Pablo Torre Scores Out,129.56,donblood,Cee Deez Chubb in ya mouf,158.9,L
+2025,15,True,True,donblood,Cee Deez Chubb in ya mouf,158.9,DVTV,Pablo Torre Scores Out,129.56,W
+2025,15,True,True,oooEcho,ABCeeDee U Lost 2 Me,134.16,kholabear,Parkland Hospital,119.54,W
+2025,15,True,True,kholabear,Parkland Hospital,119.54,oooEcho,ABCeeDee U Lost 2 Me,134.16,L
+2025,15,True,False,jimbo817,Mac Daddy,135.82,PutItOnYa,PutItOnYa,90.62,W
+2025,15,True,False,PutItOnYa,PutItOnYa,90.62,jimbo817,Mac Daddy,135.82,L
+2025,16,True,False,bvincenttt,Shake 'n Blake ,155.7,PutItOnYa,PutItOnYa,134.4,W
+2025,16,True,False,PutItOnYa,PutItOnYa,134.4,bvincenttt,Shake 'n Blake ,155.7,L
+2025,16,True,False,Odeh1121,I Gibbs the Dicker,124.96,jimbo817,Mac Daddy,123.16,W
+2025,16,True,False,jimbo817,Mac Daddy,123.16,Odeh1121,I Gibbs the Dicker,124.96,L
+2025,16,True,True,DVTV,Pablo Torre Scores Out,91.42,lmphm,Vegas,87.28,W
+2025,16,True,True,lmphm,Vegas,87.28,DVTV,Pablo Torre Scores Out,91.42,L
+2025,16,True,True,donblood,Cee Deez Chubb in ya mouf,128.24,oooEcho,ABCeeDee U Lost 2 Me,102.28,W
+2025,16,True,True,oooEcho,ABCeeDee U Lost 2 Me,102.28,donblood,Cee Deez Chubb in ya mouf,128.24,L
+2025,16,True,False,keveezy,We bleed blue,155.08,anth0nyng,Van Jefferson III,120.16,W
+2025,16,True,False,anth0nyng,Van Jefferson III,120.16,keveezy,We bleed blue,155.08,L
+2025,16,True,True,wabaki (Lan Doan),Knuck if U Buck,117.5,kholabear,Parkland Hospital,137.52,L
+2025,16,True,True,kholabear,Parkland Hospital,137.52,wabaki (Lan Doan),Knuck if U Buck,117.5,W
+2025,17,True,False,Odeh1121,I Gibbs the Dicker,81.98,keveezy,We bleed blue,114.76,L
+2025,17,True,False,keveezy,We bleed blue,114.76,Odeh1121,I Gibbs the Dicker,81.98,W
+2025,17,True,True,DVTV,Pablo Torre Scores Out,92.78,kholabear,Parkland Hospital,71.58,W
+2025,17,True,True,kholabear,Parkland Hospital,71.58,DVTV,Pablo Torre Scores Out,92.78,L
+2025,17,True,True,lmphm,Vegas,115.72,wabaki (Lan Doan),Knuck if U Buck,101.24,W
+2025,17,True,True,wabaki (Lan Doan),Knuck if U Buck,101.24,lmphm,Vegas,115.72,L
+2025,17,True,False,anth0nyng,Van Jefferson III,90.1,jimbo817,Mac Daddy,112.28,L
+2025,17,True,False,jimbo817,Mac Daddy,112.28,anth0nyng,Van Jefferson III,90.1,W

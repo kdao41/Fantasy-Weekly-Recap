@@ -1,0 +1,131 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2019,1,1,PutItOnYa,TheYayThatGotAway,1-0,166.4,107.16,W1,166.4,W,keveezy
+2019,1,2,Abadahh,Wtf am I doing here,1-0,157.62,130.6,W1,157.62,W,dexclusive
+2019,1,3,lmphm,Houston drivers,1-0,131.94,130.52,W1,131.94,W,jasonle
+2019,1,4,donblood,Poopoo Philly Co. 🌯,1-0,121.32,90.92,W1,121.32,W,jigri
+2019,1,5,yckyb,HOUSE YCK,1-0,117.04,113.4,W1,117.04,W,anth0nyng
+2019,1,6,dexclusive,FREE WIN,0-1,130.6,157.62,L1,130.6,L,Abadahh
+2019,1,7,jasonle,Is This Chris Lake?,0-1,130.52,131.94,L1,130.52,L,lmphm
+2019,1,8,anth0nyng,Princess Jelly,0-1,113.4,117.04,L1,113.4,L,yckyb
+2019,1,9,keveezy,Champ is here,0-1,107.16,166.4,L1,107.16,L,PutItOnYa
+2019,1,10,jigri,Jigs,0-1,90.92,121.32,L1,90.92,L,donblood
+2019,2,1,Abadahh,Wtf am I doing here,2-0,290.66,207.72,W2,133.04,W,PutItOnYa
+2019,2,2,yckyb,HOUSE YCK,2-0,254.74,237.26,W2,137.7,W,dexclusive
+2019,2,3,anth0nyng,Princess Jelly,1-1,262.7,219.96,W1,149.3,W,donblood
+2019,2,4,keveezy,Champ is here,1-1,251.58,267.22,W1,144.42,W,lmphm
+2019,2,5,PutItOnYa,TheYayThatGotAway,1-1,243.52,240.2,L1,77.12,L,Abadahh
+2019,2,6,lmphm,Houston drivers,1-1,232.76,274.94,L1,100.82,L,keveezy
+2019,2,7,jigri,Jigs,1-1,232.08,230.88,W1,141.16,W,jasonle
+2019,2,8,donblood,Poopoo Philly Co. 🌯,1-1,224.24,240.22,L1,102.92,L,anth0nyng
+2019,2,9,dexclusive,FREE WIN,0-2,254.46,295.32,L2,123.86,L,yckyb
+2019,2,10,jasonle,Is This Chris Lake?,0-2,240.08,273.1,L2,109.56,L,jigri
+2019,3,1,yckyb,HOUSE YCK,3-0,398.6,380.98,W3,143.86,W,Abadahh
+2019,3,2,Abadahh,Wtf am I doing here,2-1,434.38,351.58,L1,143.72,L,yckyb
+2019,3,3,PutItOnYa,TheYayThatGotAway,2-1,403.54,319.42,W1,160.02,W,lmphm
+2019,3,4,keveezy,Champ is here,2-1,389.4,388.7,W2,137.82,W,jigri
+2019,3,5,donblood,Poopoo Philly Co. 🌯,2-1,358.5,363.36,W1,134.26,W,dexclusive
+2019,3,6,anth0nyng,Princess Jelly,1-2,380.94,357.46,L1,118.24,L,jasonle
+2019,3,7,jasonle,Is This Chris Lake?,1-2,377.58,391.34,W1,137.5,W,anth0nyng
+2019,3,8,jigri,Jigs,1-2,353.56,368.7,L1,121.48,L,keveezy
+2019,3,9,lmphm,Houston drivers,1-2,311.98,434.96,L2,79.22,L,PutItOnYa
+2019,3,10,dexclusive,FREE WIN,0-3,377.6,429.58,L3,123.14,L,donblood
+2019,4,1,yckyb,HOUSE YCK,4-0,538.88,461.78,W4,140.28,W,donblood
+2019,4,2,keveezy,Champ is here,3-1,550.2,512.6,W3,160.8,W,anth0nyng
+2019,4,3,Abadahh,Wtf am I doing here,2-2,534.58,466.52,L2,100.2,L,lmphm
+2019,4,4,PutItOnYa,TheYayThatGotAway,2-2,497.26,423.5,L1,93.72,L,jigri
+2019,4,5,jasonle,Is This Chris Lake?,2-2,493.06,498.26,W2,115.48,W,dexclusive
+2019,4,6,jigri,Jigs,2-2,457.64,462.42,W1,104.08,W,PutItOnYa
+2019,4,7,donblood,Poopoo Philly Co. 🌯,2-2,439.3,503.64,L1,80.8,L,yckyb
+2019,4,8,lmphm,Houston drivers,2-2,426.92,535.16,W1,114.94,W,Abadahh
+2019,4,9,anth0nyng,Princess Jelly,1-3,504.84,518.26,L2,123.9,L,keveezy
+2019,4,10,dexclusive,FREE WIN,0-4,484.52,545.06,L4,106.92,L,jasonle
+2019,5,1,yckyb,HOUSE YCK,4-1,680.78,631.94,L1,141.9,L,jasonle
+2019,5,2,keveezy,Champ is here,3-2,706.34,671.62,L1,156.14,L,dexclusive
+2019,5,3,Abadahh,Wtf am I doing here,3-2,681.64,579.66,W1,147.06,W,donblood
+2019,5,4,jasonle,Is This Chris Lake?,3-2,663.22,640.16,W3,170.16,W,yckyb
+2019,5,5,PutItOnYa,TheYayThatGotAway,3-2,635.56,530.12,W1,138.3,W,anth0nyng
+2019,5,6,lmphm,Houston drivers,3-2,527.32,610.1,W2,100.4,W,jigri
+2019,5,7,donblood,Poopoo Philly Co. 🌯,2-3,552.44,650.7,L2,113.14,L,Abadahh
+2019,5,8,jigri,Jigs,2-3,532.58,562.82,L1,74.94,L,lmphm
+2019,5,9,dexclusive,FREE WIN,1-4,643.54,701.2,W1,159.02,W,keveezy
+2019,5,10,anth0nyng,Princess Jelly,1-4,611.46,656.56,L3,106.62,L,PutItOnYa
+2019,6,1,yckyb,HOUSE YCK,5-1,814.92,757.24,W1,134.14,W,keveezy
+2019,6,2,jasonle,Is This Chris Lake?,4-2,779.22,754.18,W4,116.0,W,donblood
+2019,6,3,keveezy,Champ is here,3-3,831.64,805.76,L2,125.3,L,yckyb
+2019,6,4,Abadahh,Wtf am I doing here,3-3,763.08,690.5,L1,81.44,L,jigri
+2019,6,5,PutItOnYa,TheYayThatGotAway,3-3,708.58,690.74,L1,73.02,L,dexclusive
+2019,6,6,jigri,Jigs,3-3,643.42,644.26,W1,110.84,W,Abadahh
+2019,6,7,lmphm,Houston drivers,3-3,611.04,784.0,L1,83.72,L,anth0nyng
+2019,6,8,dexclusive,FREE WIN,2-4,804.16,774.22,W2,160.62,W,PutItOnYa
+2019,6,9,anth0nyng,Princess Jelly,2-4,785.36,740.28,W1,173.9,W,lmphm
+2019,6,10,donblood,Poopoo Philly Co. 🌯,2-4,666.46,766.7,L3,114.02,L,jasonle
+2019,7,1,yckyb,HOUSE YCK,5-2,905.58,854.92,L1,90.66,L,PutItOnYa
+2019,7,2,keveezy,Champ is here,4-3,973.3,901.6,W1,141.66,W,donblood
+2019,7,3,Abadahh,Wtf am I doing here,4-3,884.12,767.36,W1,121.04,W,jasonle
+2019,7,4,jasonle,Is This Chris Lake?,4-3,856.08,875.22,L1,76.86,L,Abadahh
+2019,7,5,PutItOnYa,TheYayThatGotAway,4-3,806.26,781.4,W1,97.68,W,yckyb
+2019,7,6,jigri,Jigs,4-3,755.74,733.6,W2,112.32,W,anth0nyng
+2019,7,7,lmphm,Houston drivers,4-3,729.46,874.66,W1,118.42,W,dexclusive
+2019,7,8,dexclusive,FREE WIN,2-5,894.82,892.64,L1,90.66,L,lmphm
+2019,7,9,anth0nyng,Princess Jelly,2-5,874.7,852.6,L1,89.34,L,jigri
+2019,7,10,donblood,Poopoo Philly Co. 🌯,2-5,762.3,908.36,L4,95.84,L,keveezy
+2019,8,1,yckyb,HOUSE YCK,6-2,1020.52,961.9,W1,114.94,W,lmphm
+2019,8,2,keveezy,Champ is here,5-3,1107.24,1030.9,W2,133.94,W,jasonle
+2019,8,3,jigri,Jigs,5-3,933.2,835.4,W3,177.46,W,dexclusive
+2019,8,4,Abadahh,Wtf am I doing here,4-4,1019.0,912.44,L1,134.88,L,anth0nyng
+2019,8,5,jasonle,Is This Chris Lake?,4-4,985.38,1009.16,L2,129.3,L,keveezy
+2019,8,6,PutItOnYa,TheYayThatGotAway,4-4,930.62,916.66,L1,124.36,L,donblood
+2019,8,7,lmphm,Houston drivers,4-4,836.44,989.6,L1,106.98,L,yckyb
+2019,8,8,anth0nyng,Princess Jelly,3-5,1019.78,987.48,W1,145.08,W,Abadahh
+2019,8,9,donblood,Poopoo Philly Co. 🌯,3-5,897.56,1032.72,W1,135.26,W,PutItOnYa
+2019,8,10,dexclusive,FREE WIN,2-6,996.62,1070.1,L2,101.8,L,jigri
+2019,9,1,keveezy,Champ is here,6-3,1198.5,1109.86,W3,91.26,W,Abadahh
+2019,9,2,yckyb,HOUSE YCK,6-3,1149.92,1100.74,L1,129.4,L,jigri
+2019,9,3,jigri,Jigs,6-3,1072.04,964.8,W4,138.84,W,yckyb
+2019,9,4,PutItOnYa,TheYayThatGotAway,5-4,1038.62,1015.5,W1,108.0,W,jasonle
+2019,9,5,anth0nyng,Princess Jelly,4-5,1158.3,1098.46,W2,138.52,W,dexclusive
+2019,9,6,Abadahh,Wtf am I doing here,4-5,1097.96,1003.7,L2,78.96,L,keveezy
+2019,9,7,jasonle,Is This Chris Lake?,4-5,1084.22,1117.16,L3,98.84,L,PutItOnYa
+2019,9,8,donblood,Poopoo Philly Co. 🌯,4-5,1047.26,1156.86,W2,149.7,W,lmphm
+2019,9,9,lmphm,Houston drivers,4-5,960.58,1139.3,L2,124.14,L,donblood
+2019,9,10,dexclusive,FREE WIN,2-7,1107.6,1208.62,L3,110.98,L,anth0nyng
+2019,10,1,keveezy,Champ is here,7-3,1302.78,1213.34,W4,104.28,W,PutItOnYa
+2019,10,2,yckyb,HOUSE YCK,7-3,1274.24,1213.12,W1,124.32,W,anth0nyng
+2019,10,3,jigri,Jigs,6-4,1200.76,1107.44,L1,128.72,L,donblood
+2019,10,4,Abadahh,Wtf am I doing here,5-5,1243.34,1103.58,W1,145.38,W,dexclusive
+2019,10,5,jasonle,Is This Chris Lake?,5-5,1236.98,1217.66,W1,152.76,W,lmphm
+2019,10,6,donblood,Poopoo Philly Co. 🌯,5-5,1189.9,1285.58,W3,142.64,W,jigri
+2019,10,7,PutItOnYa,TheYayThatGotAway,5-5,1142.1,1119.78,L1,103.48,L,keveezy
+2019,10,8,anth0nyng,Princess Jelly,4-6,1270.68,1222.78,L1,112.38,L,yckyb
+2019,10,9,lmphm,Houston drivers,4-6,1061.08,1292.06,L3,100.5,L,jasonle
+2019,10,10,dexclusive,FREE WIN,2-8,1207.48,1354.0,L4,99.88,L,Abadahh
+2019,11,1,keveezy,Champ is here,8-3,1430.3,1329.5,W5,127.52,W,lmphm
+2019,11,2,yckyb,HOUSE YCK,8-3,1407.46,1313.68,W2,133.22,W,dexclusive
+2019,11,3,jasonle,Is This Chris Lake?,6-5,1378.08,1331.56,W2,141.1,W,jigri
+2019,11,4,jigri,Jigs,6-5,1314.66,1248.54,L2,113.9,L,jasonle
+2019,11,5,PutItOnYa,TheYayThatGotAway,6-5,1275.62,1214.46,W1,133.52,W,Abadahh
+2019,11,6,anth0nyng,Princess Jelly,5-6,1388.54,1304.66,W1,117.86,W,donblood
+2019,11,7,Abadahh,Wtf am I doing here,5-6,1338.02,1237.1,L1,94.68,L,PutItOnYa
+2019,11,8,donblood,Poopoo Philly Co. 🌯,5-6,1271.78,1403.44,L1,81.88,L,anth0nyng
+2019,11,9,lmphm,Houston drivers,4-7,1177.24,1419.58,L4,116.16,L,keveezy
+2019,11,10,dexclusive,FREE WIN,2-9,1308.04,1487.22,L5,100.56,L,yckyb
+2019,12,1,keveezy,Champ is here,9-3,1585.98,1431.76,W6,155.68,W,jigri
+2019,12,2,yckyb,HOUSE YCK,9-3,1555.48,1441.52,W3,148.02,W,Abadahh
+2019,12,3,jasonle,Is This Chris Lake?,7-5,1499.74,1442.26,W3,121.66,W,anth0nyng
+2019,12,4,PutItOnYa,TheYayThatGotAway,7-5,1411.46,1323.08,W2,135.84,W,lmphm
+2019,12,5,jigri,Jigs,6-6,1416.92,1404.22,L3,102.26,L,keveezy
+2019,12,6,anth0nyng,Princess Jelly,5-7,1499.24,1426.32,L1,110.7,L,jasonle
+2019,12,7,Abadahh,Wtf am I doing here,5-7,1465.86,1385.12,L2,127.84,L,yckyb
+2019,12,8,donblood,Poopoo Philly Co. 🌯,5-7,1332.28,1496.62,L2,60.5,L,dexclusive
+2019,12,9,lmphm,Houston drivers,4-8,1285.86,1555.42,L5,108.62,L,PutItOnYa
+2019,12,10,dexclusive,FREE WIN,3-9,1401.22,1547.72,W1,93.18,W,donblood
+2019,13,1,yckyb,HOUSE YCK,10-3,1665.7,1539.62,W4,110.22,W,donblood
+2019,13,2,keveezy,Champ is here,9-4,1696.22,1552.66,L1,110.24,L,anth0nyng
+2019,13,3,jasonle,Is This Chris Lake?,8-5,1616.96,1549.16,W4,117.22,W,dexclusive
+2019,13,4,PutItOnYa,TheYayThatGotAway,8-5,1519.92,1424.18,W3,108.46,W,jigri
+2019,13,5,anth0nyng,Princess Jelly,6-7,1620.14,1536.56,W1,120.9,W,keveezy
+2019,13,6,jigri,Jigs,6-7,1518.02,1512.68,L4,101.1,L,PutItOnYa
+2019,13,7,Abadahh,Wtf am I doing here,5-8,1568.62,1515.32,L3,102.76,L,lmphm
+2019,13,8,donblood,Poopoo Philly Co. 🌯,5-8,1430.38,1606.84,L3,98.1,L,yckyb
+2019,13,9,lmphm,Houston drivers,5-8,1416.06,1658.18,W1,130.2,W,Abadahh
+2019,13,10,dexclusive,FREE WIN,3-10,1508.12,1664.94,L1,106.9,L,jasonle

@@ -1,0 +1,446 @@
+{
+ "season": 2023,
+ "league": "AGGTOWN FANTASY LEAGUE",
+ "finished": true,
+ "champion": {
+  "team_id": 9,
+  "team": "am i cursed? ",
+  "manager": "anth0nyng",
+  "final_rank": 1,
+  "playoff_seed": 1,
+  "wins": 9,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1778.24,
+  "points_against": 1717.52
+ },
+ "championship_game": {
+  "week": 17,
+  "winner": "anth0nyng",
+  "winner_team": "am i cursed? ",
+  "winner_points": 107.36,
+  "loser": "donblood",
+  "loser_team": "Gibbs and Receive",
+  "loser_points": 104.08
+ },
+ "runner_up": {
+  "team_id": 4,
+  "team": "Gibbs and Receive",
+  "manager": "donblood",
+  "final_rank": 2,
+  "playoff_seed": 6,
+  "wins": 8,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1647.4,
+  "points_against": 1641.98
+ },
+ "third_place": {
+  "team_id": 6,
+  "team": "Vegas",
+  "manager": "lmphm",
+  "final_rank": 3,
+  "playoff_seed": 4,
+  "wins": 8,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1743.38,
+  "points_against": 1686.68
+ },
+ "last_place": {
+  "team_id": 5,
+  "team": "Renegade renegade ",
+  "manager": "keveezy",
+  "final_rank": 12,
+  "playoff_seed": null,
+  "wins": 6,
+  "losses": 8,
+  "ties": 0,
+  "points_for": 1798.12,
+  "points_against": 1663.14
+ },
+ "regular_season_winner": {
+  "team_id": 9,
+  "team": "am i cursed? ",
+  "manager": "anth0nyng",
+  "final_rank": 1,
+  "playoff_seed": 1,
+  "wins": 9,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1778.24,
+  "points_against": 1717.52
+ },
+ "most_points": {
+  "team_id": 5,
+  "team": "Renegade renegade ",
+  "manager": "keveezy",
+  "final_rank": 12,
+  "playoff_seed": null,
+  "wins": 6,
+  "losses": 8,
+  "ties": 0,
+  "points_for": 1798.12,
+  "points_against": 1663.14
+ },
+ "settings": {
+  "league_key": "1000972946384461824",
+  "num_teams": 12,
+  "start_week": 1,
+  "end_week": 17,
+  "playoff_week_start": 15,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "snake",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "FLEX",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 9,
+   "team": "am i cursed? ",
+   "manager": "anth0nyng",
+   "final_rank": 1,
+   "playoff_seed": 1,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1778.24,
+   "points_against": 1717.52
+  },
+  {
+   "team_id": 4,
+   "team": "Gibbs and Receive",
+   "manager": "donblood",
+   "final_rank": 2,
+   "playoff_seed": 6,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1647.4,
+   "points_against": 1641.98
+  },
+  {
+   "team_id": 6,
+   "team": "Vegas",
+   "manager": "lmphm",
+   "final_rank": 3,
+   "playoff_seed": 4,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1743.38,
+   "points_against": 1686.68
+  },
+  {
+   "team_id": 11,
+   "team": "PutItOnYa",
+   "manager": "PutItOnYa",
+   "final_rank": 4,
+   "playoff_seed": 2,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1709.14,
+   "points_against": 1467.82
+  },
+  {
+   "team_id": 1,
+   "team": "Shake 'n Blake ",
+   "manager": "bvincenttt",
+   "final_rank": 5,
+   "playoff_seed": 5,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1661.04,
+   "points_against": 1624.1
+  },
+  {
+   "team_id": 2,
+   "team": "Pukachu",
+   "manager": "Odeh1121",
+   "final_rank": 6,
+   "playoff_seed": 3,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1591.18,
+   "points_against": 1581.82
+  },
+  {
+   "team_id": 10,
+   "team": "Chase Mahomies",
+   "manager": "jimbo817",
+   "final_rank": 7,
+   "playoff_seed": null,
+   "wins": 4,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1521.99,
+   "points_against": 1737.78
+  },
+  {
+   "team_id": 8,
+   "team": "himzi",
+   "manager": "ramzz",
+   "final_rank": 8,
+   "playoff_seed": null,
+   "wins": 4,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1583.08,
+   "points_against": 1740.4
+  },
+  {
+   "team_id": 12,
+   "team": "Cancun Tours",
+   "manager": "kholabear",
+   "final_rank": 9,
+   "playoff_seed": null,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1586.44,
+   "points_against": 1796.36
+  },
+  {
+   "team_id": 3,
+   "team": "JOVE DIRECTOR OF VIBEZ",
+   "manager": "DVTV",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1635.42,
+   "points_against": 1709.56
+  },
+  {
+   "team_id": 7,
+   "team": "ABCeeDee U Lost 2 Me",
+   "manager": "oooEcho",
+   "final_rank": 11,
+   "playoff_seed": null,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1600.32,
+   "points_against": 1488.6
+  },
+  {
+   "team_id": 5,
+   "team": "Renegade renegade ",
+   "manager": "keveezy",
+   "final_rank": 12,
+   "playoff_seed": null,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1798.12,
+   "points_against": 1663.14
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 88.76,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 96.04,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Pukachu",
+     "manager": "Odeh1121",
+     "points": 116.32,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Gibbs and Receive",
+     "manager": "donblood",
+     "points": 139.46,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 141.54,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 2,
+     "team": "Pukachu",
+     "manager": "Odeh1121",
+     "points": 134.02,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Gibbs and Receive",
+     "manager": "donblood",
+     "points": 130.94,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 121.54,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 112.5,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "am i cursed? ",
+     "manager": "anth0nyng",
+     "points": 124.78,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Gibbs and Receive",
+     "manager": "donblood",
+     "points": 104.08,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "am i cursed? ",
+     "manager": "anth0nyng",
+     "points": 107.36,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 127.62,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 94.24,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  }
+ ]
+}

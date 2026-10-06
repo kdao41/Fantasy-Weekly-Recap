@@ -1,0 +1,125 @@
+{
+ "season": 2019,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "Don",
+     "points": 150.84,
+     "projected": 121.51,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "Anthony",
+     "points": 141.74,
+     "projected": 116.35,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "Jimmy",
+     "points": 130.02,
+     "projected": 142.87,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "Alex",
+     "points": 188.72,
+     "projected": 127.0,
+     "won": true
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "Ramzi",
+     "points": 89.06,
+     "projected": 124.23,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 94.68,
+     "projected": 121.43,
+     "won": true
+    }
+   ],
+   "winner": "Daniel Vu"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 100.86,
+     "projected": 124.36,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "Kevin D",
+     "points": 132.14,
+     "projected": 125.51,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Alex",
+   "team": "Saquanda Forever!",
+   "points": 188.72
+  },
+  "low_score": {
+   "manager": "Ramzi",
+   "team": "Chubby Johnson",
+   "points": 89.06
+  },
+  "closest_game": {
+   "winner": "Daniel Vu",
+   "winner_points": 94.68,
+   "loser": "Ramzi",
+   "loser_points": 89.06,
+   "margin": 5.62
+  },
+  "biggest_blowout": {
+   "winner": "Alex",
+   "winner_points": 188.72,
+   "loser": "Jimmy",
+   "loser_points": 130.02,
+   "margin": 58.7
+  }
+ }
+}

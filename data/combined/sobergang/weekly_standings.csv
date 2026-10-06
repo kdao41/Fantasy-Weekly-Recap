@@ -1,0 +1,961 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2019,1,1,PutItOnYa,TheYayThatGotAway,1-0,166.4,107.16,W1,166.4,W,keveezy
+2019,1,2,Abadahh,Wtf am I doing here,1-0,157.62,130.6,W1,157.62,W,dexclusive
+2019,1,3,lmphm,Houston drivers,1-0,131.94,130.52,W1,131.94,W,jasonle
+2019,1,4,donblood,Poopoo Philly Co. 🌯,1-0,121.32,90.92,W1,121.32,W,jigri
+2019,1,5,yckyb,HOUSE YCK,1-0,117.04,113.4,W1,117.04,W,anth0nyng
+2019,1,6,dexclusive,FREE WIN,0-1,130.6,157.62,L1,130.6,L,Abadahh
+2019,1,7,jasonle,Is This Chris Lake?,0-1,130.52,131.94,L1,130.52,L,lmphm
+2019,1,8,anth0nyng,Princess Jelly,0-1,113.4,117.04,L1,113.4,L,yckyb
+2019,1,9,keveezy,Champ is here,0-1,107.16,166.4,L1,107.16,L,PutItOnYa
+2019,1,10,jigri,Jigs,0-1,90.92,121.32,L1,90.92,L,donblood
+2019,2,1,Abadahh,Wtf am I doing here,2-0,290.66,207.72,W2,133.04,W,PutItOnYa
+2019,2,2,yckyb,HOUSE YCK,2-0,254.74,237.26,W2,137.7,W,dexclusive
+2019,2,3,anth0nyng,Princess Jelly,1-1,262.7,219.96,W1,149.3,W,donblood
+2019,2,4,keveezy,Champ is here,1-1,251.58,267.22,W1,144.42,W,lmphm
+2019,2,5,PutItOnYa,TheYayThatGotAway,1-1,243.52,240.2,L1,77.12,L,Abadahh
+2019,2,6,lmphm,Houston drivers,1-1,232.76,274.94,L1,100.82,L,keveezy
+2019,2,7,jigri,Jigs,1-1,232.08,230.88,W1,141.16,W,jasonle
+2019,2,8,donblood,Poopoo Philly Co. 🌯,1-1,224.24,240.22,L1,102.92,L,anth0nyng
+2019,2,9,dexclusive,FREE WIN,0-2,254.46,295.32,L2,123.86,L,yckyb
+2019,2,10,jasonle,Is This Chris Lake?,0-2,240.08,273.1,L2,109.56,L,jigri
+2019,3,1,yckyb,HOUSE YCK,3-0,398.6,380.98,W3,143.86,W,Abadahh
+2019,3,2,Abadahh,Wtf am I doing here,2-1,434.38,351.58,L1,143.72,L,yckyb
+2019,3,3,PutItOnYa,TheYayThatGotAway,2-1,403.54,319.42,W1,160.02,W,lmphm
+2019,3,4,keveezy,Champ is here,2-1,389.4,388.7,W2,137.82,W,jigri
+2019,3,5,donblood,Poopoo Philly Co. 🌯,2-1,358.5,363.36,W1,134.26,W,dexclusive
+2019,3,6,anth0nyng,Princess Jelly,1-2,380.94,357.46,L1,118.24,L,jasonle
+2019,3,7,jasonle,Is This Chris Lake?,1-2,377.58,391.34,W1,137.5,W,anth0nyng
+2019,3,8,jigri,Jigs,1-2,353.56,368.7,L1,121.48,L,keveezy
+2019,3,9,lmphm,Houston drivers,1-2,311.98,434.96,L2,79.22,L,PutItOnYa
+2019,3,10,dexclusive,FREE WIN,0-3,377.6,429.58,L3,123.14,L,donblood
+2019,4,1,yckyb,HOUSE YCK,4-0,538.88,461.78,W4,140.28,W,donblood
+2019,4,2,keveezy,Champ is here,3-1,550.2,512.6,W3,160.8,W,anth0nyng
+2019,4,3,Abadahh,Wtf am I doing here,2-2,534.58,466.52,L2,100.2,L,lmphm
+2019,4,4,PutItOnYa,TheYayThatGotAway,2-2,497.26,423.5,L1,93.72,L,jigri
+2019,4,5,jasonle,Is This Chris Lake?,2-2,493.06,498.26,W2,115.48,W,dexclusive
+2019,4,6,jigri,Jigs,2-2,457.64,462.42,W1,104.08,W,PutItOnYa
+2019,4,7,donblood,Poopoo Philly Co. 🌯,2-2,439.3,503.64,L1,80.8,L,yckyb
+2019,4,8,lmphm,Houston drivers,2-2,426.92,535.16,W1,114.94,W,Abadahh
+2019,4,9,anth0nyng,Princess Jelly,1-3,504.84,518.26,L2,123.9,L,keveezy
+2019,4,10,dexclusive,FREE WIN,0-4,484.52,545.06,L4,106.92,L,jasonle
+2019,5,1,yckyb,HOUSE YCK,4-1,680.78,631.94,L1,141.9,L,jasonle
+2019,5,2,keveezy,Champ is here,3-2,706.34,671.62,L1,156.14,L,dexclusive
+2019,5,3,Abadahh,Wtf am I doing here,3-2,681.64,579.66,W1,147.06,W,donblood
+2019,5,4,jasonle,Is This Chris Lake?,3-2,663.22,640.16,W3,170.16,W,yckyb
+2019,5,5,PutItOnYa,TheYayThatGotAway,3-2,635.56,530.12,W1,138.3,W,anth0nyng
+2019,5,6,lmphm,Houston drivers,3-2,527.32,610.1,W2,100.4,W,jigri
+2019,5,7,donblood,Poopoo Philly Co. 🌯,2-3,552.44,650.7,L2,113.14,L,Abadahh
+2019,5,8,jigri,Jigs,2-3,532.58,562.82,L1,74.94,L,lmphm
+2019,5,9,dexclusive,FREE WIN,1-4,643.54,701.2,W1,159.02,W,keveezy
+2019,5,10,anth0nyng,Princess Jelly,1-4,611.46,656.56,L3,106.62,L,PutItOnYa
+2019,6,1,yckyb,HOUSE YCK,5-1,814.92,757.24,W1,134.14,W,keveezy
+2019,6,2,jasonle,Is This Chris Lake?,4-2,779.22,754.18,W4,116.0,W,donblood
+2019,6,3,keveezy,Champ is here,3-3,831.64,805.76,L2,125.3,L,yckyb
+2019,6,4,Abadahh,Wtf am I doing here,3-3,763.08,690.5,L1,81.44,L,jigri
+2019,6,5,PutItOnYa,TheYayThatGotAway,3-3,708.58,690.74,L1,73.02,L,dexclusive
+2019,6,6,jigri,Jigs,3-3,643.42,644.26,W1,110.84,W,Abadahh
+2019,6,7,lmphm,Houston drivers,3-3,611.04,784.0,L1,83.72,L,anth0nyng
+2019,6,8,dexclusive,FREE WIN,2-4,804.16,774.22,W2,160.62,W,PutItOnYa
+2019,6,9,anth0nyng,Princess Jelly,2-4,785.36,740.28,W1,173.9,W,lmphm
+2019,6,10,donblood,Poopoo Philly Co. 🌯,2-4,666.46,766.7,L3,114.02,L,jasonle
+2019,7,1,yckyb,HOUSE YCK,5-2,905.58,854.92,L1,90.66,L,PutItOnYa
+2019,7,2,keveezy,Champ is here,4-3,973.3,901.6,W1,141.66,W,donblood
+2019,7,3,Abadahh,Wtf am I doing here,4-3,884.12,767.36,W1,121.04,W,jasonle
+2019,7,4,jasonle,Is This Chris Lake?,4-3,856.08,875.22,L1,76.86,L,Abadahh
+2019,7,5,PutItOnYa,TheYayThatGotAway,4-3,806.26,781.4,W1,97.68,W,yckyb
+2019,7,6,jigri,Jigs,4-3,755.74,733.6,W2,112.32,W,anth0nyng
+2019,7,7,lmphm,Houston drivers,4-3,729.46,874.66,W1,118.42,W,dexclusive
+2019,7,8,dexclusive,FREE WIN,2-5,894.82,892.64,L1,90.66,L,lmphm
+2019,7,9,anth0nyng,Princess Jelly,2-5,874.7,852.6,L1,89.34,L,jigri
+2019,7,10,donblood,Poopoo Philly Co. 🌯,2-5,762.3,908.36,L4,95.84,L,keveezy
+2019,8,1,yckyb,HOUSE YCK,6-2,1020.52,961.9,W1,114.94,W,lmphm
+2019,8,2,keveezy,Champ is here,5-3,1107.24,1030.9,W2,133.94,W,jasonle
+2019,8,3,jigri,Jigs,5-3,933.2,835.4,W3,177.46,W,dexclusive
+2019,8,4,Abadahh,Wtf am I doing here,4-4,1019.0,912.44,L1,134.88,L,anth0nyng
+2019,8,5,jasonle,Is This Chris Lake?,4-4,985.38,1009.16,L2,129.3,L,keveezy
+2019,8,6,PutItOnYa,TheYayThatGotAway,4-4,930.62,916.66,L1,124.36,L,donblood
+2019,8,7,lmphm,Houston drivers,4-4,836.44,989.6,L1,106.98,L,yckyb
+2019,8,8,anth0nyng,Princess Jelly,3-5,1019.78,987.48,W1,145.08,W,Abadahh
+2019,8,9,donblood,Poopoo Philly Co. 🌯,3-5,897.56,1032.72,W1,135.26,W,PutItOnYa
+2019,8,10,dexclusive,FREE WIN,2-6,996.62,1070.1,L2,101.8,L,jigri
+2019,9,1,keveezy,Champ is here,6-3,1198.5,1109.86,W3,91.26,W,Abadahh
+2019,9,2,yckyb,HOUSE YCK,6-3,1149.92,1100.74,L1,129.4,L,jigri
+2019,9,3,jigri,Jigs,6-3,1072.04,964.8,W4,138.84,W,yckyb
+2019,9,4,PutItOnYa,TheYayThatGotAway,5-4,1038.62,1015.5,W1,108.0,W,jasonle
+2019,9,5,anth0nyng,Princess Jelly,4-5,1158.3,1098.46,W2,138.52,W,dexclusive
+2019,9,6,Abadahh,Wtf am I doing here,4-5,1097.96,1003.7,L2,78.96,L,keveezy
+2019,9,7,jasonle,Is This Chris Lake?,4-5,1084.22,1117.16,L3,98.84,L,PutItOnYa
+2019,9,8,donblood,Poopoo Philly Co. 🌯,4-5,1047.26,1156.86,W2,149.7,W,lmphm
+2019,9,9,lmphm,Houston drivers,4-5,960.58,1139.3,L2,124.14,L,donblood
+2019,9,10,dexclusive,FREE WIN,2-7,1107.6,1208.62,L3,110.98,L,anth0nyng
+2019,10,1,keveezy,Champ is here,7-3,1302.78,1213.34,W4,104.28,W,PutItOnYa
+2019,10,2,yckyb,HOUSE YCK,7-3,1274.24,1213.12,W1,124.32,W,anth0nyng
+2019,10,3,jigri,Jigs,6-4,1200.76,1107.44,L1,128.72,L,donblood
+2019,10,4,Abadahh,Wtf am I doing here,5-5,1243.34,1103.58,W1,145.38,W,dexclusive
+2019,10,5,jasonle,Is This Chris Lake?,5-5,1236.98,1217.66,W1,152.76,W,lmphm
+2019,10,6,donblood,Poopoo Philly Co. 🌯,5-5,1189.9,1285.58,W3,142.64,W,jigri
+2019,10,7,PutItOnYa,TheYayThatGotAway,5-5,1142.1,1119.78,L1,103.48,L,keveezy
+2019,10,8,anth0nyng,Princess Jelly,4-6,1270.68,1222.78,L1,112.38,L,yckyb
+2019,10,9,lmphm,Houston drivers,4-6,1061.08,1292.06,L3,100.5,L,jasonle
+2019,10,10,dexclusive,FREE WIN,2-8,1207.48,1354.0,L4,99.88,L,Abadahh
+2019,11,1,keveezy,Champ is here,8-3,1430.3,1329.5,W5,127.52,W,lmphm
+2019,11,2,yckyb,HOUSE YCK,8-3,1407.46,1313.68,W2,133.22,W,dexclusive
+2019,11,3,jasonle,Is This Chris Lake?,6-5,1378.08,1331.56,W2,141.1,W,jigri
+2019,11,4,jigri,Jigs,6-5,1314.66,1248.54,L2,113.9,L,jasonle
+2019,11,5,PutItOnYa,TheYayThatGotAway,6-5,1275.62,1214.46,W1,133.52,W,Abadahh
+2019,11,6,anth0nyng,Princess Jelly,5-6,1388.54,1304.66,W1,117.86,W,donblood
+2019,11,7,Abadahh,Wtf am I doing here,5-6,1338.02,1237.1,L1,94.68,L,PutItOnYa
+2019,11,8,donblood,Poopoo Philly Co. 🌯,5-6,1271.78,1403.44,L1,81.88,L,anth0nyng
+2019,11,9,lmphm,Houston drivers,4-7,1177.24,1419.58,L4,116.16,L,keveezy
+2019,11,10,dexclusive,FREE WIN,2-9,1308.04,1487.22,L5,100.56,L,yckyb
+2019,12,1,keveezy,Champ is here,9-3,1585.98,1431.76,W6,155.68,W,jigri
+2019,12,2,yckyb,HOUSE YCK,9-3,1555.48,1441.52,W3,148.02,W,Abadahh
+2019,12,3,jasonle,Is This Chris Lake?,7-5,1499.74,1442.26,W3,121.66,W,anth0nyng
+2019,12,4,PutItOnYa,TheYayThatGotAway,7-5,1411.46,1323.08,W2,135.84,W,lmphm
+2019,12,5,jigri,Jigs,6-6,1416.92,1404.22,L3,102.26,L,keveezy
+2019,12,6,anth0nyng,Princess Jelly,5-7,1499.24,1426.32,L1,110.7,L,jasonle
+2019,12,7,Abadahh,Wtf am I doing here,5-7,1465.86,1385.12,L2,127.84,L,yckyb
+2019,12,8,donblood,Poopoo Philly Co. 🌯,5-7,1332.28,1496.62,L2,60.5,L,dexclusive
+2019,12,9,lmphm,Houston drivers,4-8,1285.86,1555.42,L5,108.62,L,PutItOnYa
+2019,12,10,dexclusive,FREE WIN,3-9,1401.22,1547.72,W1,93.18,W,donblood
+2019,13,1,yckyb,HOUSE YCK,10-3,1665.7,1539.62,W4,110.22,W,donblood
+2019,13,2,keveezy,Champ is here,9-4,1696.22,1552.66,L1,110.24,L,anth0nyng
+2019,13,3,jasonle,Is This Chris Lake?,8-5,1616.96,1549.16,W4,117.22,W,dexclusive
+2019,13,4,PutItOnYa,TheYayThatGotAway,8-5,1519.92,1424.18,W3,108.46,W,jigri
+2019,13,5,anth0nyng,Princess Jelly,6-7,1620.14,1536.56,W1,120.9,W,keveezy
+2019,13,6,jigri,Jigs,6-7,1518.02,1512.68,L4,101.1,L,PutItOnYa
+2019,13,7,Abadahh,Wtf am I doing here,5-8,1568.62,1515.32,L3,102.76,L,lmphm
+2019,13,8,donblood,Poopoo Philly Co. 🌯,5-8,1430.38,1606.84,L3,98.1,L,yckyb
+2019,13,9,lmphm,Houston drivers,5-8,1416.06,1658.18,W1,130.2,W,Abadahh
+2019,13,10,dexclusive,FREE WIN,3-10,1508.12,1664.94,L1,106.9,L,jasonle
+2020,1,1,Abadahh,Wtf am I doing here,1-0,152.5,129.58,W1,152.5,W,anth0nyng
+2020,1,2,donblood,CeeDeez Nutz,1-0,152.24,85.68,W1,152.24,W,jasonle
+2020,1,3,lmphm,simp.,1-0,145.34,107.66,W1,145.34,W,yckyb
+2020,1,4,keveezy,Champs to chumps,1-0,143.7,118.42,W1,143.7,W,PutItOnYa
+2020,1,5,jigri,Jigs,1-0,139.0,129.68,W1,139.0,W,dexclusive
+2020,1,6,dexclusive,FREE WIN,0-1,129.68,139.0,L1,129.68,L,jigri
+2020,1,7,anth0nyng,Princess Jelly,0-1,129.58,152.5,L1,129.58,L,Abadahh
+2020,1,8,PutItOnYa,Dry Szn,0-1,118.42,143.7,L1,118.42,L,keveezy
+2020,1,9,yckyb,DYNAHMIGHHHH,0-1,107.66,145.34,L1,107.66,L,lmphm
+2020,1,10,jasonle,This was Chris Lake,0-1,85.68,152.24,L1,85.68,L,donblood
+2020,2,1,donblood,CeeDeez Nutz,2-0,333.24,187.68,W2,181.0,W,PutItOnYa
+2020,2,2,jigri,Jigs,2-0,292.86,261.96,W2,153.86,W,keveezy
+2020,2,3,Abadahh,Wtf am I doing here,2-0,278.12,249.64,W2,125.62,W,jasonle
+2020,2,4,anth0nyng,Princess Jelly,1-1,284.32,287.08,W1,154.74,W,lmphm
+2020,2,5,dexclusive,FREE WIN,1-1,283.9,268.54,W1,154.22,W,yckyb
+2020,2,6,lmphm,simp.,1-1,279.92,262.4,L1,134.58,L,anth0nyng
+2020,2,7,keveezy,Champs to chumps,1-1,275.98,272.28,L1,132.28,L,jigri
+2020,2,8,yckyb,DYNAHMIGHHHH,0-2,237.2,299.56,L2,129.54,L,dexclusive
+2020,2,9,PutItOnYa,Dry Szn,0-2,220.42,324.7,L2,102.0,L,donblood
+2020,2,10,jasonle,This was Chris Lake,0-2,205.74,277.86,L2,120.06,L,Abadahh
+2020,3,1,donblood,CeeDeez Nutz,3-0,474.22,319.0,W3,140.98,W,keveezy
+2020,3,2,lmphm,simp.,2-1,433.72,407.2,W1,153.8,W,jasonle
+2020,3,3,anth0nyng,Princess Jelly,2-1,427.72,427.58,W2,143.4,W,dexclusive
+2020,3,4,Abadahh,Wtf am I doing here,2-1,384.64,392.6,L1,106.52,L,PutItOnYa
+2020,3,5,jigri,Jigs,2-1,382.94,423.6,L1,90.08,L,yckyb
+2020,3,6,dexclusive,FREE WIN,1-2,424.4,411.94,L1,140.5,L,anth0nyng
+2020,3,7,keveezy,Champs to chumps,1-2,407.3,413.26,L2,131.32,L,donblood
+2020,3,8,yckyb,DYNAHMIGHHHH,1-2,398.84,389.64,W1,161.64,W,jigri
+2020,3,9,PutItOnYa,Dry Szn,1-2,363.38,431.22,W1,142.96,W,Abadahh
+2020,3,10,jasonle,This was Chris Lake,0-3,350.54,431.66,L3,144.8,L,lmphm
+2020,4,1,donblood,CeeDeez Nutz,4-0,639.4,436.1,W4,165.18,W,Abadahh
+2020,4,2,lmphm,simp.,3-1,553.42,524.0,W2,119.7,W,PutItOnYa
+2020,4,3,jigri,Jigs,3-1,513.46,518.12,W1,130.52,W,anth0nyng
+2020,4,4,yckyb,DYNAHMIGHHHH,2-2,554.54,489.38,W2,155.7,W,keveezy
+2020,4,5,anth0nyng,Princess Jelly,2-2,522.24,558.1,L1,94.52,L,jigri
+2020,4,6,Abadahh,Wtf am I doing here,2-2,501.74,557.78,L2,117.1,L,donblood
+2020,4,7,dexclusive,FREE WIN,1-3,526.9,574.28,L2,102.5,L,jasonle
+2020,4,8,jasonle,This was Chris Lake,1-3,512.88,534.16,W1,162.34,W,dexclusive
+2020,4,9,keveezy,Champs to chumps,1-3,507.04,568.96,L3,99.74,L,yckyb
+2020,4,10,PutItOnYa,Dry Szn,1-3,480.18,550.92,L1,116.8,L,lmphm
+2020,5,1,donblood,CeeDeez Nutz,4-1,772.64,608.7,L1,133.24,L,lmphm
+2020,5,2,lmphm,simp.,4-1,726.02,657.24,W3,172.6,W,donblood
+2020,5,3,anth0nyng,Princess Jelly,3-2,670.84,690.06,W1,148.6,W,yckyb
+2020,5,4,jigri,Jigs,3-2,634.06,640.58,L1,120.6,L,jasonle
+2020,5,5,yckyb,DYNAHMIGHHHH,2-3,686.5,637.98,L1,131.96,L,anth0nyng
+2020,5,6,dexclusive,FREE WIN,2-3,645.4,683.84,W1,118.5,W,PutItOnYa
+2020,5,7,jasonle,This was Chris Lake,2-3,635.34,654.76,W2,122.46,W,jigri
+2020,5,8,keveezy,Champs to chumps,2-3,610.84,660.5,W1,103.8,W,Abadahh
+2020,5,9,Abadahh,Wtf am I doing here,2-3,593.28,661.58,L3,91.54,L,keveezy
+2020,5,10,PutItOnYa,Dry Szn,1-4,589.74,669.42,L2,109.56,L,dexclusive
+2020,6,1,donblood,CeeDeez Nutz,5-1,886.7,717.92,W1,114.06,W,dexclusive
+2020,6,2,lmphm,simp.,5-1,854.82,777.88,W4,128.8,W,Abadahh
+2020,6,3,jigri,Jigs,4-2,797.8,767.08,W1,163.74,W,PutItOnYa
+2020,6,4,anth0nyng,Princess Jelly,3-3,794.56,819.5,L1,123.72,L,keveezy
+2020,6,5,yckyb,DYNAHMIGHHHH,3-3,770.94,716.5,W1,84.44,W,jasonle
+2020,6,6,keveezy,Champs to chumps,3-3,740.28,784.22,W2,129.44,W,anth0nyng
+2020,6,7,dexclusive,FREE WIN,2-4,754.62,797.9,L1,109.22,L,donblood
+2020,6,8,Abadahh,Wtf am I doing here,2-4,713.92,790.38,L4,120.64,L,lmphm
+2020,6,9,jasonle,This was Chris Lake,2-4,713.86,739.2,L1,78.52,L,yckyb
+2020,6,10,PutItOnYa,Dry Szn,1-5,716.24,833.16,L3,126.5,L,jigri
+2020,7,1,donblood,CeeDeez Nutz,5-2,984.8,899.26,L1,98.1,L,jigri
+2020,7,2,jigri,Jigs,5-2,979.14,865.18,W2,181.34,W,donblood
+2020,7,3,lmphm,simp.,5-2,976.32,946.84,L1,121.5,L,keveezy
+2020,7,4,anth0nyng,Princess Jelly,4-3,916.46,940.08,W1,121.9,W,jasonle
+2020,7,5,keveezy,Champs to chumps,4-3,909.24,905.72,W3,168.96,W,lmphm
+2020,7,6,dexclusive,FREE WIN,3-4,908.64,918.92,W1,154.02,W,Abadahh
+2020,7,7,yckyb,DYNAHMIGHHHH,3-4,899.46,876.0,L1,128.52,L,PutItOnYa
+2020,7,8,PutItOnYa,Dry Szn,2-5,875.74,961.68,W1,159.5,W,yckyb
+2020,7,9,Abadahh,Wtf am I doing here,2-5,834.94,944.4,L5,121.02,L,dexclusive
+2020,7,10,jasonle,This was Chris Lake,2-5,834.44,861.1,L2,120.58,L,anth0nyng
+2020,8,1,lmphm,simp.,6-2,1130.66,1078.78,W1,154.34,W,dexclusive
+2020,8,2,donblood,CeeDeez Nutz,6-2,1117.62,972.44,W1,132.82,W,yckyb
+2020,8,3,jigri,Jigs,6-2,1110.36,950.8,W3,131.22,W,Abadahh
+2020,8,4,anth0nyng,Princess Jelly,5-3,1035.9,1032.72,W2,119.44,W,PutItOnYa
+2020,8,5,keveezy,Champs to chumps,5-3,1024.1,1006.54,W4,114.86,W,jasonle
+2020,8,6,dexclusive,FREE WIN,3-5,1040.58,1073.26,L1,131.94,L,lmphm
+2020,8,7,yckyb,DYNAHMIGHHHH,3-5,972.64,1008.82,L2,73.18,L,donblood
+2020,8,8,PutItOnYa,Dry Szn,2-6,968.38,1081.12,L1,92.64,L,anth0nyng
+2020,8,9,jasonle,This was Chris Lake,2-6,935.26,975.96,L3,100.82,L,keveezy
+2020,8,10,Abadahh,Wtf am I doing here,2-6,920.56,1075.62,L6,85.62,L,jigri
+2020,9,1,lmphm,simp.,7-2,1270.94,1207.28,W2,140.28,W,jigri
+2020,9,2,donblood,CeeDeez Nutz,7-2,1259.44,1061.04,W2,141.82,W,anth0nyng
+2020,9,3,jigri,Jigs,6-3,1238.86,1091.08,L1,128.5,L,lmphm
+2020,9,4,anth0nyng,Princess Jelly,5-4,1124.5,1174.54,L1,88.6,L,donblood
+2020,9,5,keveezy,Champs to chumps,5-4,1117.56,1120.04,L1,93.46,L,dexclusive
+2020,9,6,dexclusive,FREE WIN,4-5,1154.08,1166.72,W1,113.5,W,keveezy
+2020,9,7,yckyb,DYNAHMIGHHHH,4-5,1128.58,1106.08,W1,155.94,W,Abadahh
+2020,9,8,PutItOnYa,Dry Szn,3-6,1084.12,1172.56,W1,115.74,W,jasonle
+2020,9,9,jasonle,This was Chris Lake,2-7,1026.7,1091.7,L4,91.44,L,PutItOnYa
+2020,9,10,Abadahh,Wtf am I doing here,2-7,1017.82,1231.56,L7,97.26,L,yckyb
+2020,10,1,donblood,CeeDeez Nutz,7-3,1385.62,1187.62,L1,126.18,L,jasonle
+2020,10,2,jigri,Jigs,7-3,1343.42,1164.4,W1,104.56,W,dexclusive
+2020,10,3,lmphm,simp.,7-3,1331.72,1306.62,L1,60.78,L,yckyb
+2020,10,4,anth0nyng,Princess Jelly,6-4,1238.7,1274.06,W1,114.2,W,Abadahh
+2020,10,5,keveezy,Champs to chumps,6-4,1225.9,1219.56,W1,108.34,W,PutItOnYa
+2020,10,6,yckyb,DYNAHMIGHHHH,5-5,1227.92,1166.86,W2,99.34,W,lmphm
+2020,10,7,dexclusive,FREE WIN,4-6,1227.4,1271.28,L1,73.32,L,jigri
+2020,10,8,PutItOnYa,Dry Szn,3-7,1183.64,1280.9,L1,99.52,L,keveezy
+2020,10,9,jasonle,This was Chris Lake,3-7,1153.28,1217.88,W1,126.58,W,donblood
+2020,10,10,Abadahh,Wtf am I doing here,2-8,1117.34,1345.76,L8,99.52,L,anth0nyng
+2020,11,1,jigri,Jigs,8-3,1472.36,1251.44,W2,128.94,W,keveezy
+2020,11,2,donblood,CeeDeez Nutz,7-4,1496.18,1335.98,L2,110.56,L,PutItOnYa
+2020,11,3,lmphm,simp.,7-4,1462.4,1446.08,L2,130.68,L,anth0nyng
+2020,11,4,anth0nyng,Princess Jelly,7-4,1378.16,1404.74,W2,139.46,W,lmphm
+2020,11,5,keveezy,Champs to chumps,6-5,1312.94,1348.5,L1,87.04,L,jigri
+2020,11,6,dexclusive,FREE WIN,5-6,1358.18,1395.16,W1,130.78,W,yckyb
+2020,11,7,yckyb,DYNAHMIGHHHH,5-6,1351.8,1297.64,L1,123.88,L,dexclusive
+2020,11,8,PutItOnYa,Dry Szn,4-7,1332.0,1391.46,W1,148.36,W,donblood
+2020,11,9,jasonle,This was Chris Lake,3-8,1279.72,1350.66,L1,126.44,L,Abadahh
+2020,11,10,Abadahh,Wtf am I doing here,3-8,1250.12,1472.2,W1,132.78,W,jasonle
+2020,12,1,jigri,Jigs,9-3,1621.14,1374.88,W3,148.78,W,yckyb
+2020,12,2,lmphm,simp.,8-4,1623.58,1599.82,W1,161.18,W,jasonle
+2020,12,3,donblood,CeeDeez Nutz,8-4,1598.4,1427.88,W1,102.22,W,keveezy
+2020,12,4,anth0nyng,Princess Jelly,7-5,1488.76,1548.14,L1,110.6,L,dexclusive
+2020,12,5,dexclusive,FREE WIN,6-6,1501.58,1505.76,W2,143.4,W,anth0nyng
+2020,12,6,keveezy,Champs to chumps,6-6,1404.84,1450.72,L2,91.9,L,donblood
+2020,12,7,yckyb,DYNAHMIGHHHH,5-7,1475.24,1446.42,L2,123.44,L,jigri
+2020,12,8,PutItOnYa,Dry Szn,5-7,1444.52,1501.86,W2,112.52,W,Abadahh
+2020,12,9,jasonle,This was Chris Lake,3-9,1433.46,1511.84,L2,153.74,L,lmphm
+2020,12,10,Abadahh,Wtf am I doing here,3-9,1360.52,1584.72,L1,110.4,L,PutItOnYa
+2020,13,1,jigri,Jigs,10-3,1781.2,1488.0,W4,160.06,W,anth0nyng
+2020,13,2,donblood,CeeDeez Nutz,9-4,1746.08,1491.68,W2,147.68,W,Abadahh
+2020,13,3,lmphm,simp.,9-4,1736.6,1702.16,W2,113.02,W,PutItOnYa
+2020,13,4,dexclusive,FREE WIN,7-6,1626.2,1606.52,W3,124.62,W,jasonle
+2020,13,5,anth0nyng,Princess Jelly,7-6,1601.88,1708.2,L2,113.12,L,jigri
+2020,13,6,yckyb,DYNAHMIGHHHH,6-7,1626.54,1596.32,W1,151.3,W,keveezy
+2020,13,7,keveezy,Champs to chumps,6-7,1554.74,1602.02,L3,149.9,L,yckyb
+2020,13,8,PutItOnYa,Dry Szn,5-8,1546.86,1614.88,L1,102.34,L,lmphm
+2020,13,9,jasonle,This was Chris Lake,3-10,1534.22,1636.46,L3,100.76,L,dexclusive
+2020,13,10,Abadahh,Wtf am I doing here,3-10,1424.32,1732.4,L2,63.8,L,donblood
+2021,1,1,anth0nyng,Queen Jelly,1-0,165.96,102.12,W1,165.96,W,jigri
+2021,1,2,Abadahh,Drier than a Popeyes biscuit,1-0,164.96,127.0,W1,164.96,W,keveezy
+2021,1,3,donblood,CREASING MY SECRET SANTA GIFT,1-0,150.08,124.86,W1,150.08,W,dexclusive
+2021,1,4,PutItOnYa,Shrooms,1-0,135.68,125.58,W1,135.68,W,yckyb
+2021,1,5,lmphm,Fuck an,1-0,110.18,108.8,W1,110.18,W,jasonle
+2021,1,6,keveezy,Win will I get a when,0-1,127.0,164.96,L1,127.0,L,Abadahh
+2021,1,7,yckyb,Boards,0-1,125.58,135.68,L1,125.58,L,PutItOnYa
+2021,1,8,dexclusive,Dex_lab,0-1,124.86,150.08,L1,124.86,L,donblood
+2021,1,9,jasonle,0.02 points,0-1,108.8,110.18,L1,108.8,L,lmphm
+2021,1,10,jigri,Washed,0-1,102.12,165.96,L1,102.12,L,anth0nyng
+2021,2,1,anth0nyng,Queen Jelly,2-0,313.4,236.78,W2,147.44,W,jasonle
+2021,2,2,donblood,CREASING MY SECRET SANTA GIFT,2-0,273.5,242.08,W2,123.42,W,Abadahh
+2021,2,3,yckyb,Boards,1-1,309.9,268.24,W1,184.32,W,keveezy
+2021,2,4,Abadahh,Drier than a Popeyes biscuit,1-1,282.18,250.42,L1,117.22,L,donblood
+2021,2,5,dexclusive,Dex_lab,1-1,251.86,265.16,W1,127.0,W,lmphm
+2021,2,6,PutItOnYa,Shrooms,1-1,242.5,259.36,L1,106.82,L,jigri
+2021,2,7,jigri,Washed,1-1,235.9,272.78,W1,133.78,W,PutItOnYa
+2021,2,8,lmphm,Fuck an,1-1,225.26,235.8,L1,115.08,L,dexclusive
+2021,2,9,keveezy,Win will I get a when,0-2,259.56,349.28,L2,132.56,L,yckyb
+2021,2,10,jasonle,0.02 points,0-2,243.46,257.62,L2,134.66,L,anth0nyng
+2021,3,1,anth0nyng,Queen Jelly,3-0,450.08,355.32,W3,136.68,W,dexclusive
+2021,3,2,yckyb,Boards,2-1,446.92,376.64,W2,137.02,W,donblood
+2021,3,3,donblood,CREASING MY SECRET SANTA GIFT,2-1,381.9,379.1,L1,108.4,L,yckyb
+2021,3,4,PutItOnYa,Shrooms,2-1,377.54,359.04,W1,135.04,W,keveezy
+2021,3,5,jigri,Washed,2-1,369.42,391.7,W2,133.52,W,jasonle
+2021,3,6,lmphm,Fuck an,2-1,358.5,349.02,W1,133.24,W,Abadahh
+2021,3,7,Abadahh,Drier than a Popeyes biscuit,1-2,395.4,383.66,L2,113.22,L,lmphm
+2021,3,8,dexclusive,Dex_lab,1-2,370.4,401.84,L1,118.54,L,anth0nyng
+2021,3,9,jasonle,0.02 points,0-3,362.38,391.14,L3,118.92,L,jigri
+2021,3,10,keveezy,Win will I get a when,0-3,359.24,484.32,L3,99.68,L,PutItOnYa
+2021,4,1,anth0nyng,Queen Jelly,4-0,574.14,441.38,W4,124.06,W,Abadahh
+2021,4,2,yckyb,Boards,3-1,583.92,478.08,W3,137.0,W,lmphm
+2021,4,3,donblood,CREASING MY SECRET SANTA GIFT,3-1,518.52,488.74,W1,136.62,W,keveezy
+2021,4,4,PutItOnYa,Shrooms,3-1,514.72,488.26,W2,137.18,W,jasonle
+2021,4,5,dexclusive,Dex_lab,2-2,490.32,501.86,W1,119.92,W,jigri
+2021,4,6,jigri,Washed,2-2,469.44,511.62,L1,100.02,L,dexclusive
+2021,4,7,lmphm,Fuck an,2-2,459.94,486.02,L1,101.44,L,yckyb
+2021,4,8,Abadahh,Drier than a Popeyes biscuit,1-3,481.46,507.72,L3,86.06,L,anth0nyng
+2021,4,9,jasonle,0.02 points,0-4,491.6,528.32,L4,129.22,L,PutItOnYa
+2021,4,10,keveezy,Win will I get a when,0-4,468.88,620.94,L4,109.64,L,donblood
+2021,5,1,anth0nyng,Queen Jelly,5-0,720.18,570.38,W5,146.04,W,yckyb
+2021,5,2,PutItOnYa,Shrooms,4-1,706.84,646.94,W3,192.12,W,donblood
+2021,5,3,yckyb,Boards,3-2,712.92,624.12,L1,129.0,L,anth0nyng
+2021,5,4,donblood,CREASING MY SECRET SANTA GIFT,3-2,677.2,680.86,L1,158.68,L,PutItOnYa
+2021,5,5,jigri,Washed,3-2,624.92,656.3,W1,155.48,W,Abadahh
+2021,5,6,lmphm,Fuck an,2-3,596.52,641.0,L2,136.58,L,keveezy
+2021,5,7,dexclusive,Dex_lab,2-3,591.68,613.16,L1,101.36,L,jasonle
+2021,5,8,Abadahh,Drier than a Popeyes biscuit,1-4,626.14,663.2,L4,144.68,L,jigri
+2021,5,9,keveezy,Win will I get a when,1-4,623.86,757.52,W1,154.98,W,lmphm
+2021,5,10,jasonle,0.02 points,1-4,602.9,629.68,W1,111.3,W,dexclusive
+2021,6,1,anth0nyng,Queen Jelly,6-0,884.76,698.96,W6,164.58,W,keveezy
+2021,6,2,donblood,CREASING MY SECRET SANTA GIFT,4-2,854.08,826.0,W1,176.88,W,lmphm
+2021,6,3,PutItOnYa,Shrooms,4-2,828.54,772.6,L1,121.7,L,dexclusive
+2021,6,4,jigri,Washed,4-2,769.72,794.54,W2,144.8,W,yckyb
+2021,6,5,yckyb,Boards,3-3,851.16,768.92,L2,138.24,L,jigri
+2021,6,6,dexclusive,Dex_lab,3-3,717.34,734.86,W1,125.66,W,PutItOnYa
+2021,6,7,lmphm,Fuck an,2-4,741.66,817.88,L3,145.14,L,donblood
+2021,6,8,jasonle,0.02 points,2-4,729.32,729.04,W2,126.42,W,Abadahh
+2021,6,9,keveezy,Win will I get a when,1-5,752.44,922.1,L1,128.58,L,anth0nyng
+2021,6,10,Abadahh,Drier than a Popeyes biscuit,1-5,725.5,789.62,L5,99.36,L,jasonle
+2021,7,1,anth0nyng,Queen Jelly,7-0,1031.1,843.2,W7,146.34,W,donblood
+2021,7,2,PutItOnYa,Shrooms,5-2,952.78,871.1,W1,124.24,W,lmphm
+2021,7,3,jigri,Washed,5-2,929.76,901.42,W3,160.04,W,keveezy
+2021,7,4,donblood,CREASING MY SECRET SANTA GIFT,4-3,998.32,972.34,L1,144.24,L,anth0nyng
+2021,7,5,dexclusive,Dex_lab,4-3,854.48,819.8,W2,137.14,W,Abadahh
+2021,7,6,yckyb,Boards,3-4,955.82,884.1,L3,104.66,L,jasonle
+2021,7,7,jasonle,0.02 points,3-4,844.5,833.7,W3,115.18,W,yckyb
+2021,7,8,lmphm,Fuck an,2-5,840.16,942.12,L4,98.5,L,PutItOnYa
+2021,7,9,keveezy,Win will I get a when,1-6,859.32,1082.14,L2,106.88,L,jigri
+2021,7,10,Abadahh,Drier than a Popeyes biscuit,1-6,810.44,926.76,L6,84.94,L,dexclusive
+2021,8,1,anth0nyng,Queen Jelly,8-0,1209.4,980.0,W8,178.3,W,lmphm
+2021,8,2,donblood,CREASING MY SECRET SANTA GIFT,5-3,1103.42,1065.84,W1,105.1,W,jigri
+2021,8,3,PutItOnYa,Shrooms,5-3,1062.1,996.64,L1,109.32,L,Abadahh
+2021,8,4,jigri,Washed,5-3,1023.26,1006.52,L1,93.5,L,donblood
+2021,8,5,dexclusive,Dex_lab,5-3,949.94,886.8,W3,95.46,W,yckyb
+2021,8,6,yckyb,Boards,3-5,1022.82,979.56,L4,67.0,L,dexclusive
+2021,8,7,jasonle,0.02 points,3-5,949.32,940.64,L1,104.82,L,keveezy
+2021,8,8,lmphm,Fuck an,2-6,976.96,1120.42,L5,136.8,L,anth0nyng
+2021,8,9,keveezy,Win will I get a when,2-6,966.26,1186.96,W1,106.94,W,jasonle
+2021,8,10,Abadahh,Drier than a Popeyes biscuit,2-6,935.98,1036.08,W1,125.54,W,PutItOnYa
+2021,9,1,anth0nyng,Queen Jelly,9-0,1338.08,1095.84,W9,128.68,W,PutItOnYa
+2021,9,2,donblood,CREASING MY SECRET SANTA GIFT,6-3,1200.46,1155.3,W2,97.04,W,jasonle
+2021,9,3,jigri,Washed,6-3,1115.14,1084.94,W1,91.88,W,lmphm
+2021,9,4,dexclusive,Dex_lab,6-3,1056.24,986.54,W4,106.3,W,keveezy
+2021,9,5,PutItOnYa,Shrooms,5-4,1177.94,1125.32,L2,115.84,L,anth0nyng
+2021,9,6,yckyb,Boards,3-6,1116.78,1151.84,L5,93.96,L,Abadahh
+2021,9,7,Abadahh,Drier than a Popeyes biscuit,3-6,1108.26,1130.04,W2,172.28,W,yckyb
+2021,9,8,jasonle,0.02 points,3-6,1038.78,1037.68,L2,89.46,L,donblood
+2021,9,9,keveezy,Win will I get a when,2-7,1066.0,1293.26,L1,99.74,L,dexclusive
+2021,9,10,lmphm,Fuck an,2-7,1055.38,1212.3,L6,78.42,L,jigri
+2021,10,1,anth0nyng,Queen Jelly,9-1,1446.68,1212.28,L1,108.6,L,jigri
+2021,10,2,donblood,CREASING MY SECRET SANTA GIFT,7-3,1355.0,1256.8,W3,154.54,W,dexclusive
+2021,10,3,jigri,Washed,7-3,1231.58,1193.54,W2,116.44,W,anth0nyng
+2021,10,4,PutItOnYa,Shrooms,6-4,1282.84,1223.84,W1,104.9,W,yckyb
+2021,10,5,dexclusive,Dex_lab,6-4,1157.74,1141.08,L1,101.5,L,donblood
+2021,10,6,Abadahh,Drier than a Popeyes biscuit,4-6,1210.6,1216.16,W3,102.34,W,keveezy
+2021,10,7,jasonle,0.02 points,4-6,1163.82,1154.56,W1,125.04,W,lmphm
+2021,10,8,yckyb,Boards,3-7,1215.3,1256.74,L6,98.52,L,PutItOnYa
+2021,10,9,lmphm,Fuck an,2-8,1172.26,1337.34,L7,116.88,L,jasonle
+2021,10,10,keveezy,Win will I get a when,2-8,1152.12,1395.6,L2,86.12,L,Abadahh
+2021,11,1,anth0nyng,Queen Jelly,10-1,1583.76,1319.54,W1,137.08,W,jasonle
+2021,11,2,donblood,CREASING MY SECRET SANTA GIFT,7-4,1447.9,1469.38,L1,92.9,L,Abadahh
+2021,11,3,PutItOnYa,Shrooms,7-4,1445.12,1341.78,W2,162.28,W,jigri
+2021,11,4,jigri,Washed,7-4,1349.52,1355.82,L1,117.94,L,PutItOnYa
+2021,11,5,dexclusive,Dex_lab,7-4,1272.4,1254.4,W1,114.66,W,lmphm
+2021,11,6,Abadahh,Drier than a Popeyes biscuit,5-6,1423.18,1309.06,W4,212.58,W,donblood
+2021,11,7,yckyb,Boards,4-7,1371.64,1364.68,W1,156.34,W,keveezy
+2021,11,8,jasonle,0.02 points,4-7,1271.08,1291.64,L1,107.26,L,anth0nyng
+2021,11,9,lmphm,Fuck an,2-9,1285.58,1452.0,L8,113.32,L,dexclusive
+2021,11,10,keveezy,Win will I get a when,2-9,1260.06,1551.94,L3,107.94,L,yckyb
+2021,12,1,anth0nyng,Queen Jelly,11-1,1721.0,1405.22,W2,137.24,W,dexclusive
+2021,12,2,donblood,CREASING MY SECRET SANTA GIFT,8-4,1604.58,1605.92,W1,156.68,W,yckyb
+2021,12,3,PutItOnYa,Shrooms,8-4,1566.94,1430.88,W3,121.82,W,keveezy
+2021,12,4,jigri,Washed,7-5,1452.72,1487.72,L2,103.2,L,jasonle
+2021,12,5,dexclusive,Dex_lab,7-5,1358.08,1391.64,L1,85.68,L,anth0nyng
+2021,12,6,Abadahh,Drier than a Popeyes biscuit,6-6,1523.16,1405.48,W5,99.98,W,lmphm
+2021,12,7,jasonle,0.02 points,5-7,1402.98,1394.84,W1,131.9,W,jigri
+2021,12,8,yckyb,Boards,4-8,1508.18,1521.36,L1,136.54,L,donblood
+2021,12,9,lmphm,Fuck an,2-10,1382.0,1551.98,L9,96.42,L,Abadahh
+2021,12,10,keveezy,Win will I get a when,2-10,1349.16,1673.76,L4,89.1,L,PutItOnYa
+2021,13,1,anth0nyng,Queen Jelly,12-1,1869.42,1538.56,W3,148.42,W,Abadahh
+2021,13,2,donblood,CREASING MY SECRET SANTA GIFT,9-4,1725.64,1703.14,W2,121.06,W,keveezy
+2021,13,3,PutItOnYa,Shrooms,9-4,1692.82,1522.18,W4,125.88,W,jasonle
+2021,13,4,dexclusive,Dex_lab,8-5,1507.8,1537.76,W1,149.72,W,jigri
+2021,13,5,jigri,Washed,7-6,1598.84,1637.44,L3,146.12,L,dexclusive
+2021,13,6,Abadahh,Drier than a Popeyes biscuit,6-7,1656.5,1553.9,L1,133.34,L,anth0nyng
+2021,13,7,yckyb,Boards,5-8,1655.58,1617.12,W1,147.4,W,lmphm
+2021,13,8,jasonle,0.02 points,5-8,1494.28,1520.72,L1,91.3,L,PutItOnYa
+2021,13,9,lmphm,Fuck an,2-11,1477.76,1699.38,L10,95.76,L,yckyb
+2021,13,10,keveezy,Win will I get a when,2-11,1446.38,1794.82,L5,97.22,L,donblood
+2021,14,1,anth0nyng,Queen Jelly,13-1,2036.24,1660.84,W4,166.82,W,yckyb
+2021,14,2,donblood,CREASING MY SECRET SANTA GIFT,10-4,1860.36,1815.84,W3,134.72,W,PutItOnYa
+2021,14,3,PutItOnYa,Shrooms,9-5,1805.52,1656.9,L1,112.7,L,donblood
+2021,14,4,dexclusive,Dex_lab,9-5,1650.22,1663.58,W2,142.42,W,jasonle
+2021,14,5,jigri,Washed,8-6,1747.28,1743.84,W1,148.44,W,Abadahh
+2021,14,6,Abadahh,Drier than a Popeyes biscuit,6-8,1762.9,1702.34,L2,106.4,L,jigri
+2021,14,7,yckyb,Boards,5-9,1777.86,1783.94,L1,122.28,L,anth0nyng
+2021,14,8,jasonle,0.02 points,5-9,1620.1,1663.14,L2,125.82,L,dexclusive
+2021,14,9,keveezy,Win will I get a when,3-11,1558.36,1894.74,W1,111.98,W,lmphm
+2021,14,10,lmphm,Fuck an,2-12,1577.68,1811.36,L11,99.92,L,keveezy
+2022,1,1,donblood,my team ass,1-0,159.38,95.76,W1,159.38,W,jigri
+2022,1,2,keveezy,Free money,1-0,150.0,108.7,W1,150.0,W,jasonle
+2022,1,3,anth0nyng,🏆 Champion Jelly 🏆,1-0,134.2,116.88,W1,134.2,W,Abadahh
+2022,1,4,dexclusive,SCENE INFILTRATED,1-0,127.62,114.92,W1,127.62,W,yckyb
+2022,1,5,PutItOnYa,Sports Betting,1-0,126.42,117.72,W1,126.42,W,lmphm
+2022,1,6,lmphm,lmphm,0-1,117.72,126.42,L1,117.72,L,PutItOnYa
+2022,1,7,Abadahh,Drier than a Popeyes biscuit,0-1,116.88,134.2,L1,116.88,L,anth0nyng
+2022,1,8,yckyb,y c k y,0-1,114.92,127.62,L1,114.92,L,dexclusive
+2022,1,9,jasonle,Felon,0-1,108.7,150.0,L1,108.7,L,keveezy
+2022,1,10,jigri,Washed,0-1,95.76,159.38,L1,95.76,L,donblood
+2022,2,1,PutItOnYa,Sports Betting,2-0,291.5,257.0,W2,165.08,W,donblood
+2022,2,2,dexclusive,SCENE INFILTRATED,2-0,271.14,228.54,W2,143.52,W,lmphm
+2022,2,3,anth0nyng,🏆 Champion Jelly 🏆,2-0,245.2,205.04,W2,111.0,W,keveezy
+2022,2,4,donblood,my team ass,1-1,298.66,260.84,L1,139.28,L,PutItOnYa
+2022,2,5,Abadahh,Drier than a Popeyes biscuit,1-1,279.52,272.06,W1,162.64,W,jigri
+2022,2,6,jasonle,Felon,1-1,271.68,208.66,W1,162.98,W,yckyb
+2022,2,7,keveezy,Free money,1-1,238.16,219.7,L1,88.16,L,anth0nyng
+2022,2,8,jigri,Washed,0-2,233.62,322.02,L2,137.86,L,Abadahh
+2022,2,9,lmphm,lmphm,0-2,231.34,269.94,L2,113.62,L,dexclusive
+2022,2,10,yckyb,y c k y,0-2,173.58,290.6,L2,58.66,L,jasonle
+2022,3,1,PutItOnYa,Sports Betting,3-0,397.36,356.9,W3,105.86,W,Abadahh
+2022,3,2,jasonle,Felon,2-1,394.24,317.68,W2,122.56,W,dexclusive
+2022,3,3,dexclusive,SCENE INFILTRATED,2-1,380.16,351.1,L1,109.02,L,jasonle
+2022,3,4,anth0nyng,🏆 Champion Jelly 🏆,2-1,347.78,318.84,L1,102.58,L,yckyb
+2022,3,5,donblood,my team ass,1-2,402.16,369.04,L2,103.5,L,lmphm
+2022,3,6,Abadahh,Drier than a Popeyes biscuit,1-2,379.42,377.92,L1,99.9,L,PutItOnYa
+2022,3,7,jigri,Washed,1-2,351.2,415.08,W1,117.58,W,keveezy
+2022,3,8,lmphm,lmphm,1-2,339.54,373.44,W1,108.2,W,donblood
+2022,3,9,keveezy,Free money,1-2,331.22,337.28,L2,93.06,L,jigri
+2022,3,10,yckyb,y c k y,1-2,287.38,393.18,W1,113.8,W,anth0nyng
+2022,4,1,PutItOnYa,Sports Betting,4-0,538.54,486.24,W4,141.18,W,keveezy
+2022,4,2,dexclusive,SCENE INFILTRATED,3-1,533.52,468.22,W1,153.36,W,donblood
+2022,4,3,jasonle,Felon,3-1,520.94,419.14,W3,126.7,W,anth0nyng
+2022,4,4,Abadahh,Drier than a Popeyes biscuit,2-2,506.22,448.08,W1,126.8,W,lmphm
+2022,4,5,jigri,Washed,2-2,494.3,530.16,W2,143.1,W,yckyb
+2022,4,6,anth0nyng,🏆 Champion Jelly 🏆,2-2,449.24,445.54,L2,101.46,L,jasonle
+2022,4,7,donblood,my team ass,1-3,519.28,522.4,L3,117.12,L,dexclusive
+2022,4,8,keveezy,Free money,1-3,460.56,478.46,L3,129.34,L,PutItOnYa
+2022,4,9,lmphm,lmphm,1-3,409.7,500.24,L1,70.16,L,Abadahh
+2022,4,10,yckyb,y c k y,1-3,402.46,536.28,L1,115.08,L,jigri
+2022,5,1,PutItOnYa,Sports Betting,5-0,662.44,605.62,W5,123.9,W,yckyb
+2022,5,2,dexclusive,SCENE INFILTRATED,4-1,679.8,584.6,W2,146.28,W,anth0nyng
+2022,5,3,jasonle,Felon,4-1,662.5,541.56,W4,141.56,W,jigri
+2022,5,4,Abadahh,Drier than a Popeyes biscuit,3-2,639.36,576.44,W2,133.14,W,donblood
+2022,5,5,jigri,Washed,2-3,616.72,671.72,L1,122.42,L,jasonle
+2022,5,6,keveezy,Free money,2-3,592.24,585.82,W1,131.68,W,lmphm
+2022,5,7,anth0nyng,🏆 Champion Jelly 🏆,2-3,565.62,591.82,L3,116.38,L,dexclusive
+2022,5,8,donblood,my team ass,1-4,647.64,655.54,L4,128.36,L,Abadahh
+2022,5,9,yckyb,y c k y,1-4,521.84,660.18,L2,119.38,L,PutItOnYa
+2022,5,10,lmphm,lmphm,1-4,517.06,631.92,L2,107.36,L,keveezy
+2022,6,1,dexclusive,SCENE INFILTRATED,5-1,825.8,651.12,W3,146.0,W,Abadahh
+2022,6,2,jasonle,Felon,5-1,777.18,654.54,W5,114.68,W,PutItOnYa
+2022,6,3,PutItOnYa,Sports Betting,5-1,775.42,720.3,L1,112.98,L,jasonle
+2022,6,4,keveezy,Free money,3-3,711.78,698.78,W2,119.54,W,donblood
+2022,6,5,Abadahh,Drier than a Popeyes biscuit,3-3,705.88,722.44,L1,66.52,L,dexclusive
+2022,6,6,anth0nyng,🏆 Champion Jelly 🏆,3-3,669.04,675.68,W1,103.42,W,jigri
+2022,6,7,jigri,Washed,2-4,700.58,775.14,L2,83.86,L,anth0nyng
+2022,6,8,lmphm,lmphm,2-4,654.26,762.22,W1,137.2,W,yckyb
+2022,6,9,donblood,my team ass,1-5,760.6,775.08,L5,112.96,L,keveezy
+2022,6,10,yckyb,y c k y,1-5,652.14,797.38,L3,130.3,L,lmphm
+2022,7,1,PutItOnYa,Sports Betting,6-1,888.08,832.32,W1,112.66,W,anth0nyng
+2022,7,2,dexclusive,SCENE INFILTRATED,5-2,943.5,783.96,L1,117.7,L,jigri
+2022,7,3,jasonle,Felon,5-2,866.76,765.98,L1,89.58,L,lmphm
+2022,7,4,keveezy,Free money,4-3,860.54,823.78,W3,148.76,W,Abadahh
+2022,7,5,jigri,Washed,3-4,833.42,892.84,W1,132.84,W,dexclusive
+2022,7,6,Abadahh,Drier than a Popeyes biscuit,3-4,830.88,871.2,L2,125.0,L,keveezy
+2022,7,7,anth0nyng,🏆 Champion Jelly 🏆,3-4,781.06,788.34,L1,112.02,L,PutItOnYa
+2022,7,8,lmphm,lmphm,3-4,765.7,851.8,W2,111.44,W,jasonle
+2022,7,9,yckyb,y c k y,2-5,792.08,908.72,W1,139.94,W,donblood
+2022,7,10,donblood,my team ass,1-6,871.94,915.02,L6,111.34,L,yckyb
+2022,8,1,PutItOnYa,Sports Betting,6-2,1017.22,967.64,L1,129.14,L,jigri
+2022,8,2,dexclusive,SCENE INFILTRATED,5-3,1062.32,910.88,L2,118.82,L,keveezy
+2022,8,3,jasonle,Felon,5-3,996.7,920.1,L2,129.94,L,donblood
+2022,8,4,keveezy,Free money,5-3,987.46,942.6,W4,126.92,W,dexclusive
+2022,8,5,jigri,Washed,4-4,968.74,1021.98,W2,135.32,W,PutItOnYa
+2022,8,6,Abadahh,Drier than a Popeyes biscuit,4-4,961.08,996.48,W1,130.2,W,yckyb
+2022,8,7,anth0nyng,🏆 Champion Jelly 🏆,4-4,923.3,908.18,W1,142.24,W,lmphm
+2022,8,8,lmphm,lmphm,3-5,885.54,994.04,L1,119.84,L,anth0nyng
+2022,8,9,donblood,my team ass,2-6,1026.06,1044.96,W1,154.12,W,jasonle
+2022,8,10,yckyb,y c k y,2-6,917.36,1038.92,L1,125.28,L,Abadahh
+2022,9,1,PutItOnYa,Sports Betting,7-2,1162.22,1060.46,W1,145.0,W,dexclusive
+2022,9,2,jasonle,Felon,6-3,1126.2,1013.2,W1,129.5,W,Abadahh
+2022,9,3,dexclusive,SCENE INFILTRATED,5-4,1155.14,1055.88,L3,92.82,L,PutItOnYa
+2022,9,4,keveezy,Free money,5-4,1073.1,1032.84,L1,85.64,L,yckyb
+2022,9,5,jigri,Washed,4-5,1080.26,1139.4,L1,111.52,L,lmphm
+2022,9,6,Abadahh,Drier than a Popeyes biscuit,4-5,1054.18,1125.98,L1,93.1,L,jasonle
+2022,9,7,anth0nyng,🏆 Champion Jelly 🏆,4-5,1044.24,1079.28,L1,120.94,L,donblood
+2022,9,8,lmphm,lmphm,4-5,1002.96,1105.56,W1,117.42,W,jigri
+2022,9,9,donblood,my team ass,3-6,1197.16,1165.9,W2,171.1,W,anth0nyng
+2022,9,10,yckyb,y c k y,3-6,1007.6,1124.56,W1,90.24,W,keveezy
+2022,10,1,PutItOnYa,Sports Betting,8-2,1284.28,1137.16,W2,122.06,W,lmphm
+2022,10,2,jasonle,Felon,6-4,1243.0,1137.96,L1,116.8,L,keveezy
+2022,10,3,keveezy,Free money,6-4,1197.86,1149.64,W1,124.76,W,jasonle
+2022,10,4,dexclusive,SCENE INFILTRATED,5-5,1295.62,1205.62,L4,140.48,L,yckyb
+2022,10,5,jigri,Washed,5-5,1190.64,1226.5,W1,110.38,W,donblood
+2022,10,6,Abadahh,Drier than a Popeyes biscuit,5-5,1167.16,1234.02,W1,112.98,W,anth0nyng
+2022,10,7,yckyb,y c k y,4-6,1157.34,1265.04,W2,149.74,W,dexclusive
+2022,10,8,anth0nyng,🏆 Champion Jelly 🏆,4-6,1152.28,1192.26,L2,108.04,L,Abadahh
+2022,10,9,lmphm,lmphm,4-6,1079.66,1227.62,L1,76.7,L,PutItOnYa
+2022,10,10,donblood,my team ass,3-7,1284.26,1276.28,L1,87.1,L,jigri
+2022,11,1,PutItOnYa,Sports Betting,9-2,1412.2,1243.34,W3,127.92,W,donblood
+2022,11,2,jasonle,Felon,7-4,1399.64,1266.96,W1,156.64,W,yckyb
+2022,11,3,dexclusive,SCENE INFILTRATED,6-5,1405.38,1309.82,W1,109.76,W,lmphm
+2022,11,4,jigri,Washed,6-5,1356.58,1308.9,W2,165.94,W,Abadahh
+2022,11,5,keveezy,Free money,6-5,1315.44,1281.7,L1,117.58,L,anth0nyng
+2022,11,6,anth0nyng,🏆 Champion Jelly 🏆,5-6,1284.34,1309.84,W1,132.06,W,keveezy
+2022,11,7,Abadahh,Drier than a Popeyes biscuit,5-6,1249.56,1399.96,L1,82.4,L,jigri
+2022,11,8,yckyb,y c k y,4-7,1286.34,1421.68,L1,129.0,L,jasonle
+2022,11,9,lmphm,lmphm,4-7,1183.86,1337.38,L2,104.2,L,dexclusive
+2022,11,10,donblood,my team ass,3-8,1390.44,1404.2,L2,106.18,L,PutItOnYa
+2022,12,1,PutItOnYa,Sports Betting,10-2,1546.98,1363.56,W4,134.78,W,Abadahh
+2022,12,2,dexclusive,SCENE INFILTRATED,7-5,1599.68,1413.66,W2,194.3,W,jasonle
+2022,12,3,jasonle,Felon,7-5,1503.48,1461.26,L1,103.84,L,dexclusive
+2022,12,4,keveezy,Free money,7-5,1438.2,1367.0,W1,122.76,W,jigri
+2022,12,5,jigri,Washed,6-6,1441.88,1431.66,L1,85.3,L,keveezy
+2022,12,6,anth0nyng,🏆 Champion Jelly 🏆,6-6,1404.24,1417.64,W2,119.9,W,yckyb
+2022,12,7,Abadahh,Drier than a Popeyes biscuit,5-7,1369.78,1534.74,L2,120.22,L,PutItOnYa
+2022,12,8,donblood,my team ass,4-8,1518.06,1504.92,W1,127.62,W,lmphm
+2022,12,9,yckyb,y c k y,4-8,1394.14,1541.58,L2,107.8,L,anth0nyng
+2022,12,10,lmphm,lmphm,4-8,1284.58,1465.0,L3,100.72,L,donblood
+2022,13,1,PutItOnYa,Sports Betting,11-2,1675.74,1488.06,W5,128.76,W,keveezy
+2022,13,2,jasonle,Felon,8-5,1630.58,1540.48,W1,127.1,W,anth0nyng
+2022,13,3,dexclusive,SCENE INFILTRATED,7-6,1713.32,1562.38,L1,113.64,L,donblood
+2022,13,4,jigri,Washed,7-6,1571.38,1553.6,W1,129.5,W,yckyb
+2022,13,5,keveezy,Free money,7-6,1562.7,1495.76,L1,124.5,L,PutItOnYa
+2022,13,6,anth0nyng,🏆 Champion Jelly 🏆,6-7,1483.46,1544.74,L1,79.22,L,jasonle
+2022,13,7,donblood,my team ass,5-8,1666.78,1618.56,W2,148.72,W,dexclusive
+2022,13,8,Abadahh,Drier than a Popeyes biscuit,5-8,1496.26,1664.64,L3,126.48,L,lmphm
+2022,13,9,lmphm,lmphm,5-8,1414.48,1591.48,W1,129.9,W,Abadahh
+2022,13,10,yckyb,y c k y,4-9,1516.08,1671.08,L3,121.94,L,jigri
+2022,14,1,PutItOnYa,Sports Betting,12-2,1768.6,1555.02,W6,92.86,W,yckyb
+2022,14,2,jasonle,Felon,9-5,1737.34,1638.5,W2,106.76,W,jigri
+2022,14,3,dexclusive,SCENE INFILTRATED,8-6,1820.04,1668.76,W1,106.72,W,anth0nyng
+2022,14,4,jigri,Washed,7-7,1669.4,1660.36,L1,98.02,L,jasonle
+2022,14,5,keveezy,Free money,7-7,1662.48,1677.24,L2,99.78,L,lmphm
+2022,14,6,Abadahh,Drier than a Popeyes biscuit,6-8,1626.56,1774.22,W1,130.3,W,donblood
+2022,14,7,lmphm,lmphm,6-8,1595.96,1691.26,W2,181.48,W,keveezy
+2022,14,8,anth0nyng,🏆 Champion Jelly 🏆,6-8,1589.84,1651.46,L2,106.38,L,dexclusive
+2022,14,9,donblood,my team ass,5-9,1776.36,1748.86,L1,109.58,L,Abadahh
+2022,14,10,yckyb,y c k y,4-10,1583.04,1763.94,L4,66.96,L,PutItOnYa
+2023,1,1,yckyb,y c k y,1-0,164.66,107.46,W1,164.66,W,Abadahh
+2023,1,2,lmphm,lmphm,1-0,140.58,100.76,W1,140.58,W,anth0nyng
+2023,1,3,PutItOnYa,Sports Betting,1-0,113.74,63.0,W1,113.74,W,jasonle
+2023,1,4,jigri,Jiggly,1-0,111.84,99.36,W1,111.84,W,keveezy
+2023,1,5,dexclusive,Dex,1-0,109.74,105.14,W1,109.74,W,donblood
+2023,1,6,Abadahh,Drier than a Popeyes biscuit,0-1,107.46,164.66,L1,107.46,L,yckyb
+2023,1,7,donblood,Waddleburger Pattymelt,0-1,105.14,109.74,L1,105.14,L,dexclusive
+2023,1,8,anth0nyng,🏆 Champion Jelly 🏆,0-1,100.76,140.58,L1,100.76,L,lmphm
+2023,1,9,keveezy,Ra-Dogged,0-1,99.36,111.84,L1,99.36,L,jigri
+2023,1,10,jasonle,Felon,0-1,63.0,113.74,L1,63.0,L,PutItOnYa
+2023,2,1,yckyb,y c k y,2-0,277.06,193.06,W2,112.4,W,keveezy
+2023,2,2,jigri,Jiggly,2-0,224.28,198.6,W2,112.44,W,PutItOnYa
+2023,2,3,lmphm,lmphm,1-1,269.76,238.46,L1,129.18,L,donblood
+2023,2,4,dexclusive,Dex,1-1,246.4,262.06,L1,136.66,L,jasonle
+2023,2,5,donblood,Waddleburger Pattymelt,1-1,242.84,238.92,W1,137.7,W,lmphm
+2023,2,6,jasonle,Felon,1-1,219.92,250.4,W1,156.92,W,dexclusive
+2023,2,7,Abadahh,Drier than a Popeyes biscuit,1-1,214.2,236.14,W1,106.74,W,anth0nyng
+2023,2,8,PutItOnYa,Sports Betting,1-1,212.98,175.44,L1,99.24,L,jigri
+2023,2,9,keveezy,Ra-Dogged,0-2,184.96,224.24,L2,85.6,L,yckyb
+2023,2,10,anth0nyng,🏆 Champion Jelly 🏆,0-2,172.24,247.32,L2,71.48,L,Abadahh
+2023,3,1,yckyb,y c k y,3-0,397.32,301.02,W3,120.26,W,jigri
+2023,3,2,donblood,Waddleburger Pattymelt,2-1,415.82,378.98,W2,172.98,W,Abadahh
+2023,3,3,PutItOnYa,Sports Betting,2-1,357.06,306.42,W1,144.08,W,dexclusive
+2023,3,4,jasonle,Felon,2-1,340.2,361.46,W2,120.28,W,lmphm
+2023,3,5,jigri,Jiggly,2-1,332.24,318.86,L1,107.96,L,yckyb
+2023,3,6,lmphm,lmphm,1-2,380.82,358.74,L2,111.06,L,jasonle
+2023,3,7,dexclusive,Dex,1-2,377.38,406.14,L2,130.98,L,PutItOnYa
+2023,3,8,Abadahh,Drier than a Popeyes biscuit,1-2,354.26,409.12,L1,140.06,L,donblood
+2023,3,9,keveezy,Ra-Dogged,1-2,316.36,346.42,W1,131.4,W,anth0nyng
+2023,3,10,anth0nyng,🏆 Champion Jelly 🏆,0-3,294.42,378.72,L3,122.18,L,keveezy
+2023,4,1,yckyb,y c k y,4-0,565.94,419.76,W4,168.62,W,anth0nyng
+2023,4,2,jigri,Jiggly,3-1,465.68,436.66,W1,133.44,W,dexclusive
+2023,4,3,jasonle,Felon,3-1,457.96,439.7,W3,117.76,W,Abadahh
+2023,4,4,PutItOnYa,Sports Betting,3-1,452.12,395.6,W2,95.06,W,lmphm
+2023,4,5,donblood,Waddleburger Pattymelt,2-2,520.14,505.76,L1,104.32,L,keveezy
+2023,4,6,keveezy,Ra-Dogged,2-2,443.14,450.74,W2,126.78,W,donblood
+2023,4,7,dexclusive,Dex,1-3,495.18,539.58,L3,117.8,L,jigri
+2023,4,8,lmphm,lmphm,1-3,470.0,453.8,L3,89.18,L,PutItOnYa
+2023,4,9,Abadahh,Drier than a Popeyes biscuit,1-3,432.5,526.88,L2,78.24,L,jasonle
+2023,4,10,anth0nyng,🏆 Champion Jelly 🏆,0-4,413.16,547.34,L4,118.74,L,yckyb
+2023,5,1,yckyb,y c k y,5-0,708.52,540.1,W5,142.58,W,donblood
+2023,5,2,PutItOnYa,Sports Betting,4-1,577.88,468.56,W3,125.76,W,Abadahh
+2023,5,3,jasonle,Felon,3-2,597.08,588.22,L1,139.12,L,keveezy
+2023,5,4,keveezy,Ra-Dogged,3-2,591.66,589.86,W3,148.52,W,jasonle
+2023,5,5,jigri,Jiggly,3-2,564.86,563.3,L1,99.18,L,anth0nyng
+2023,5,6,donblood,Waddleburger Pattymelt,2-3,640.48,648.34,L2,120.34,L,yckyb
+2023,5,7,lmphm,lmphm,2-3,604.78,567.26,W1,134.78,W,dexclusive
+2023,5,8,dexclusive,Dex,1-4,608.64,674.36,L4,113.46,L,lmphm
+2023,5,9,anth0nyng,🏆 Champion Jelly 🏆,1-4,539.8,646.52,W1,126.64,W,jigri
+2023,5,10,Abadahh,Drier than a Popeyes biscuit,1-4,505.46,652.64,L3,72.96,L,PutItOnYa
+2023,6,1,yckyb,y c k y,5-1,807.42,658.9,L1,98.9,L,jasonle
+2023,6,2,keveezy,Ra-Dogged,4-2,734.14,690.58,W4,142.48,W,PutItOnYa
+2023,6,3,jasonle,Felon,4-2,715.88,687.12,W1,118.8,W,yckyb
+2023,6,4,PutItOnYa,Sports Betting,4-2,678.6,611.04,L1,100.72,L,keveezy
+2023,6,5,lmphm,lmphm,3-3,728.88,689.58,W2,124.1,W,jigri
+2023,6,6,jigri,Jiggly,3-3,687.18,687.4,L2,122.32,L,lmphm
+2023,6,7,donblood,Waddleburger Pattymelt,2-4,747.72,824.76,L3,107.24,L,anth0nyng
+2023,6,8,dexclusive,Dex,2-4,721.1,758.72,W1,112.46,W,Abadahh
+2023,6,9,anth0nyng,🏆 Champion Jelly 🏆,2-4,716.22,753.76,W2,176.42,W,donblood
+2023,6,10,Abadahh,Drier than a Popeyes biscuit,1-5,589.82,765.1,L4,84.36,L,dexclusive
+2023,7,1,yckyb,y c k y,5-2,921.7,777.96,L2,114.28,L,PutItOnYa
+2023,7,2,keveezy,Ra-Dogged,5-2,860.7,787.38,W5,126.56,W,dexclusive
+2023,7,3,PutItOnYa,Sports Betting,5-2,797.66,725.32,W1,119.06,W,yckyb
+2023,7,4,lmphm,lmphm,4-3,858.02,771.34,W3,129.14,W,Abadahh
+2023,7,5,jasonle,Felon,4-3,852.24,825.7,L1,136.36,L,anth0nyng
+2023,7,6,donblood,Waddleburger Pattymelt,3-4,879.48,942.72,W1,131.76,W,jigri
+2023,7,7,anth0nyng,🏆 Champion Jelly 🏆,3-4,854.8,890.12,W3,138.58,W,jasonle
+2023,7,8,jigri,Jiggly,3-4,805.14,819.16,L3,117.96,L,donblood
+2023,7,9,dexclusive,Dex,2-5,817.9,885.28,L1,96.8,L,keveezy
+2023,7,10,Abadahh,Drier than a Popeyes biscuit,1-6,671.58,894.24,L5,81.76,L,lmphm
+2023,8,1,PutItOnYa,Sports Betting,6-2,944.02,838.8,W2,146.36,W,anth0nyng
+2023,8,2,yckyb,y c k y,5-3,1040.3,918.02,L3,118.6,L,dexclusive
+2023,8,3,lmphm,lmphm,5-3,1015.64,907.26,W4,157.62,W,keveezy
+2023,8,4,keveezy,Ra-Dogged,5-3,996.62,945.0,L1,135.92,L,lmphm
+2023,8,5,jasonle,Felon,5-3,975.3,937.2,W1,123.06,W,donblood
+2023,8,6,jigri,Jiggly,4-4,940.02,922.22,W1,134.88,W,Abadahh
+2023,8,7,donblood,Waddleburger Pattymelt,3-5,990.98,1065.78,L1,111.5,L,jasonle
+2023,8,8,anth0nyng,🏆 Champion Jelly 🏆,3-5,968.28,1036.48,L1,113.48,L,PutItOnYa
+2023,8,9,dexclusive,Dex,3-5,957.96,1003.88,W1,140.06,W,yckyb
+2023,8,10,Abadahh,Drier than a Popeyes biscuit,1-7,774.64,1029.12,L6,103.06,L,jigri
+2023,9,1,lmphm,lmphm,6-3,1144.16,1008.96,W5,128.52,W,yckyb
+2023,9,2,PutItOnYa,Sports Betting,6-3,1047.82,951.9,L1,103.8,L,donblood
+2023,9,3,yckyb,y c k y,5-4,1142.0,1046.54,L4,101.7,L,lmphm
+2023,9,4,keveezy,Ra-Dogged,5-4,1093.06,1083.86,L2,96.44,L,Abadahh
+2023,9,5,jasonle,Felon,5-4,1079.68,1046.32,L1,104.38,L,jigri
+2023,9,6,jigri,Jiggly,5-4,1049.14,1026.6,W2,109.12,W,jasonle
+2023,9,7,donblood,Waddleburger Pattymelt,4-5,1104.08,1169.58,W1,113.1,W,PutItOnYa
+2023,9,8,dexclusive,Dex,4-5,1089.08,1127.46,W2,131.12,W,anth0nyng
+2023,9,9,anth0nyng,🏆 Champion Jelly 🏆,3-6,1091.86,1167.6,L2,123.58,L,dexclusive
+2023,9,10,Abadahh,Drier than a Popeyes biscuit,2-7,913.5,1125.56,W1,138.86,W,keveezy
+2023,10,1,PutItOnYa,Sports Betting,7-3,1172.9,1049.36,W1,125.08,W,jasonle
+2023,10,2,keveezy,Ra-Dogged,6-4,1243.48,1217.0,W1,150.42,W,jigri
+2023,10,3,lmphm,lmphm,6-4,1237.94,1110.98,L1,93.78,L,anth0nyng
+2023,10,4,dexclusive,Dex,5-5,1271.46,1255.18,W3,182.38,W,donblood
+2023,10,5,yckyb,y c k y,5-5,1238.44,1215.2,L5,96.44,L,Abadahh
+2023,10,6,jigri,Jiggly,5-5,1182.28,1177.02,L1,133.14,L,keveezy
+2023,10,7,jasonle,Felon,5-5,1177.14,1171.4,L2,97.46,L,PutItOnYa
+2023,10,8,donblood,Waddleburger Pattymelt,4-6,1231.8,1351.96,L1,127.72,L,dexclusive
+2023,10,9,anth0nyng,🏆 Champion Jelly 🏆,4-6,1193.88,1261.38,W1,102.02,W,lmphm
+2023,10,10,Abadahh,Drier than a Popeyes biscuit,3-7,1082.16,1222.0,W2,168.66,W,yckyb
+2023,11,1,PutItOnYa,Sports Betting,8-3,1274.34,1138.6,W2,101.44,W,jigri
+2023,11,2,lmphm,lmphm,7-4,1346.08,1211.86,W1,108.14,W,donblood
+2023,11,3,dexclusive,Dex,6-5,1436.96,1383.98,W4,165.5,W,jasonle
+2023,11,4,yckyb,y c k y,6-5,1400.66,1324.9,W1,162.22,W,keveezy
+2023,11,5,keveezy,Ra-Dogged,6-5,1353.18,1379.22,L1,109.7,L,yckyb
+2023,11,6,jasonle,Felon,5-6,1305.94,1336.9,L3,128.8,L,dexclusive
+2023,11,7,jigri,Jiggly,5-6,1271.52,1278.46,L2,89.24,L,PutItOnYa
+2023,11,8,donblood,Waddleburger Pattymelt,4-7,1332.68,1460.1,L2,100.88,L,lmphm
+2023,11,9,anth0nyng,🏆 Champion Jelly 🏆,4-7,1290.34,1380.74,L1,96.46,L,Abadahh
+2023,11,10,Abadahh,Drier than a Popeyes biscuit,4-7,1201.52,1318.46,W3,119.36,W,anth0nyng
+2023,12,1,lmphm,lmphm,8-4,1489.78,1330.26,W2,143.7,W,jasonle
+2023,12,2,PutItOnYa,Sports Betting,8-4,1378.72,1303.36,L1,104.38,L,dexclusive
+2023,12,3,dexclusive,Dex,7-5,1601.72,1488.36,W5,164.76,W,PutItOnYa
+2023,12,4,keveezy,Ra-Dogged,7-5,1473.66,1486.8,W1,120.48,W,anth0nyng
+2023,12,5,yckyb,y c k y,6-6,1504.82,1489.86,L1,104.16,L,jigri
+2023,12,6,jigri,Jiggly,6-6,1436.48,1382.62,W1,164.96,W,yckyb
+2023,12,7,jasonle,Felon,5-7,1424.34,1480.6,L4,118.4,L,lmphm
+2023,12,8,Abadahh,Drier than a Popeyes biscuit,5-7,1336.26,1448.68,W4,134.74,W,donblood
+2023,12,9,donblood,Waddleburger Pattymelt,4-8,1462.9,1594.84,L3,130.22,L,Abadahh
+2023,12,10,anth0nyng,🏆 Champion Jelly 🏆,4-8,1397.92,1501.22,L2,107.58,L,keveezy
+2023,13,1,lmphm,lmphm,9-4,1646.92,1460.34,W3,157.14,W,PutItOnYa
+2023,13,2,dexclusive,Dex,8-5,1745.56,1607.42,W6,143.84,W,jigri
+2023,13,3,PutItOnYa,Sports Betting,8-5,1508.8,1460.5,L2,130.08,L,lmphm
+2023,13,4,yckyb,y c k y,7-6,1651.78,1602.14,W1,146.96,W,anth0nyng
+2023,13,5,keveezy,Ra-Dogged,7-6,1595.36,1609.3,L1,121.7,L,donblood
+2023,13,6,jigri,Jiggly,6-7,1555.54,1526.46,L1,119.06,L,dexclusive
+2023,13,7,Abadahh,Drier than a Popeyes biscuit,6-7,1459.32,1522.6,W5,123.06,W,jasonle
+2023,13,8,donblood,Waddleburger Pattymelt,5-8,1585.4,1716.54,W1,122.5,W,keveezy
+2023,13,9,jasonle,Felon,5-8,1498.26,1603.66,L5,73.92,L,Abadahh
+2023,13,10,anth0nyng,🏆 Champion Jelly 🏆,4-9,1510.2,1648.18,L3,112.28,L,yckyb
+2023,14,1,lmphm,lmphm,10-4,1786.88,1575.36,W4,139.96,W,dexclusive
+2023,14,2,PutItOnYa,Sports Betting,9-5,1662.72,1571.04,W1,153.92,W,Abadahh
+2023,14,3,dexclusive,Dex,8-6,1860.58,1747.38,L1,115.02,L,lmphm
+2023,14,4,yckyb,y c k y,7-7,1760.2,1716.74,L1,108.42,L,donblood
+2023,14,5,keveezy,Ra-Dogged,7-7,1667.9,1740.18,L2,72.54,L,jasonle
+2023,14,6,donblood,Waddleburger Pattymelt,6-8,1700.0,1824.96,W2,114.6,W,yckyb
+2023,14,7,jigri,Jiggly,6-8,1646.38,1662.72,L2,90.84,L,anth0nyng
+2023,14,8,jasonle,Felon,6-8,1629.14,1676.2,W1,130.88,W,keveezy
+2023,14,9,Abadahh,Drier than a Popeyes biscuit,6-8,1569.86,1676.52,L1,110.54,L,PutItOnYa
+2023,14,10,anth0nyng,🏆 Champion Jelly 🏆,5-9,1646.46,1739.02,W1,136.26,W,jigri
+2024,1,1,lmphm,lmphm,1-0,142.24,127.92,W1,142.24,W,anth0nyng
+2024,1,2,jasonle,Amon Drugs,1-0,136.8,132.76,W1,136.8,W,donblood
+2024,1,3,yckyb,yckyb,1-0,131.38,110.86,W1,131.38,W,jigri
+2024,1,4,PutItOnYa,PutItOnYa,1-0,118.32,110.88,W1,118.32,W,Abadahh
+2024,1,5,dexclusive,dexclusive,1-0,117.26,68.36,W1,117.26,W,keveezy
+2024,1,6,donblood,CityBoyJJ,0-1,132.76,136.8,L1,132.76,L,jasonle
+2024,1,7,anth0nyng,🙂‍↕️,0-1,127.92,142.24,L1,127.92,L,lmphm
+2024,1,8,Abadahh,LANK,0-1,110.88,118.32,L1,110.88,L,PutItOnYa
+2024,1,9,jigri,jigri,0-1,110.86,131.38,L1,110.86,L,yckyb
+2024,1,10,keveezy,Longtendo,0-1,68.36,117.26,L1,68.36,L,dexclusive
+2024,2,1,lmphm,lmphm,2-0,271.28,208.62,W2,129.04,W,jigri
+2024,2,2,yckyb,yckyb,2-0,267.74,228.0,W2,136.36,W,dexclusive
+2024,2,3,PutItOnYa,PutItOnYa,2-0,259.54,237.48,W2,141.22,W,jasonle
+2024,2,4,anth0nyng,🙂‍↕️,1-1,271.2,259.16,W1,143.28,W,keveezy
+2024,2,5,jasonle,Amon Drugs,1-1,263.4,273.98,L1,126.6,L,PutItOnYa
+2024,2,6,Abadahh,LANK,1-1,254.74,239.84,W1,143.86,W,donblood
+2024,2,7,dexclusive,dexclusive,1-1,234.4,204.72,L1,117.14,L,yckyb
+2024,2,8,donblood,CityBoyJJ,0-2,254.28,280.66,L2,121.52,L,Abadahh
+2024,2,9,jigri,jigri,0-2,191.56,260.42,L2,80.7,L,lmphm
+2024,2,10,keveezy,Longtendo,0-2,185.28,260.54,L2,116.92,L,anth0nyng
+2024,3,1,yckyb,yckyb,3-0,428.26,368.16,W3,160.52,W,keveezy
+2024,3,2,anth0nyng,🙂‍↕️,2-1,403.98,385.58,W2,132.78,W,jigri
+2024,3,3,PutItOnYa,PutItOnYa,2-1,359.88,362.84,L1,100.34,L,donblood
+2024,3,4,Abadahh,LANK,2-1,351.02,326.36,W2,96.28,W,jasonle
+2024,3,5,lmphm,lmphm,2-1,349.96,319.88,L1,78.68,L,dexclusive
+2024,3,6,dexclusive,dexclusive,2-1,345.66,283.4,W1,111.26,W,lmphm
+2024,3,7,donblood,CityBoyJJ,1-2,379.64,381.0,W1,125.36,W,PutItOnYa
+2024,3,8,jasonle,Amon Drugs,1-2,349.92,370.26,L2,86.52,L,Abadahh
+2024,3,9,keveezy,Longtendo,0-3,325.44,421.06,L3,140.16,L,yckyb
+2024,3,10,jigri,jigri,0-3,317.98,393.2,L3,126.42,L,anth0nyng
+2024,4,1,yckyb,yckyb,3-1,515.76,512.46,L1,87.5,L,jasonle
+2024,4,2,PutItOnYa,PutItOnYa,3-1,495.28,451.66,W1,135.4,W,dexclusive
+2024,4,3,Abadahh,LANK,3-1,476.64,444.7,W3,125.62,W,anth0nyng
+2024,4,4,anth0nyng,🙂‍↕️,2-2,522.32,511.2,L1,118.34,L,Abadahh
+2024,4,5,jasonle,Amon Drugs,2-2,494.22,457.76,W1,144.3,W,yckyb
+2024,4,6,lmphm,lmphm,2-2,450.46,474.06,L2,100.5,L,keveezy
+2024,4,7,dexclusive,dexclusive,2-2,434.48,418.8,L1,88.82,L,PutItOnYa
+2024,4,8,keveezy,Longtendo,1-3,479.62,521.56,W1,154.18,W,lmphm
+2024,4,9,donblood,CityBoyJJ,1-3,474.58,524.8,L1,94.94,L,jigri
+2024,4,10,jigri,jigri,1-3,461.78,488.14,W1,143.8,W,donblood
+2024,5,1,jasonle,Amon Drugs,3-2,645.58,604.56,W2,151.36,W,jigri
+2024,5,2,PutItOnYa,PutItOnYa,3-2,613.02,608.24,L1,117.74,L,keveezy
+2024,5,3,yckyb,yckyb,3-2,611.6,655.64,L2,95.84,L,donblood
+2024,5,4,dexclusive,dexclusive,3-2,565.2,533.62,W1,130.72,W,anth0nyng
+2024,5,5,Abadahh,LANK,3-2,563.1,555.84,L1,86.46,L,lmphm
+2024,5,6,lmphm,lmphm,3-2,561.6,560.52,W1,111.14,W,Abadahh
+2024,5,7,anth0nyng,🙂‍↕️,2-3,637.14,641.92,L2,114.82,L,dexclusive
+2024,5,8,keveezy,Longtendo,2-3,636.2,639.3,W2,156.58,W,PutItOnYa
+2024,5,9,donblood,CityBoyJJ,2-3,617.76,620.64,W1,143.18,W,yckyb
+2024,5,10,jigri,jigri,1-4,608.58,639.5,L1,146.8,L,jasonle
+2024,6,1,jasonle,Amon Drugs,4-2,787.7,719.52,W3,142.12,W,dexclusive
+2024,6,2,PutItOnYa,PutItOnYa,4-2,720.22,692.74,W1,107.2,W,lmphm
+2024,6,3,anth0nyng,🙂‍↕️,3-3,775.36,773.12,W1,138.22,W,yckyb
+2024,6,4,keveezy,Longtendo,3-3,759.92,752.92,W3,123.72,W,donblood
+2024,6,5,yckyb,yckyb,3-3,742.8,793.86,L3,131.2,L,anth0nyng
+2024,6,6,dexclusive,dexclusive,3-3,680.16,675.74,L1,114.96,L,jasonle
+2024,6,7,Abadahh,LANK,3-3,664.9,706.54,L2,101.8,L,jigri
+2024,6,8,lmphm,lmphm,3-3,646.1,667.72,L1,84.5,L,PutItOnYa
+2024,6,9,jigri,jigri,2-4,759.28,741.3,W1,150.7,W,Abadahh
+2024,6,10,donblood,CityBoyJJ,2-4,731.38,744.36,L1,113.62,L,keveezy
+2024,7,1,jasonle,Amon Drugs,5-2,912.1,824.96,W4,124.4,W,keveezy
+2024,7,2,PutItOnYa,PutItOnYa,5-2,859.68,808.68,W2,139.46,W,anth0nyng
+2024,7,3,yckyb,yckyb,4-3,857.12,895.44,W1,114.32,W,Abadahh
+2024,7,4,anth0nyng,🙂‍↕️,3-4,891.3,912.58,L1,115.94,L,PutItOnYa
+2024,7,5,jigri,jigri,3-4,887.68,853.04,W2,128.4,W,dexclusive
+2024,7,6,donblood,CityBoyJJ,3-4,876.24,838.62,W1,144.86,W,lmphm
+2024,7,7,keveezy,Longtendo,3-4,865.36,877.32,L1,105.44,L,jasonle
+2024,7,8,dexclusive,dexclusive,3-4,791.9,804.14,L2,111.74,L,jigri
+2024,7,9,Abadahh,LANK,3-4,766.48,820.86,L3,101.58,L,yckyb
+2024,7,10,lmphm,lmphm,3-4,740.36,812.58,L2,94.26,L,donblood
+2024,8,1,jasonle,Amon Drugs,6-2,1043.64,950.44,W5,131.54,W,lmphm
+2024,8,2,yckyb,yckyb,5-3,1000.56,1035.38,W2,143.44,W,PutItOnYa
+2024,8,3,PutItOnYa,PutItOnYa,5-3,999.62,952.12,L1,139.94,L,yckyb
+2024,8,4,anth0nyng,🙂‍↕️,4-4,1033.86,1054.28,W1,142.56,W,donblood
+2024,8,5,jigri,jigri,4-4,1011.58,958.4,W3,123.9,W,keveezy
+2024,8,6,Abadahh,LANK,4-4,921.28,954.9,W1,154.8,W,dexclusive
+2024,8,7,donblood,CityBoyJJ,3-5,1017.94,981.18,L1,141.7,L,anth0nyng
+2024,8,8,keveezy,Longtendo,3-5,970.72,1001.22,L2,105.36,L,jigri
+2024,8,9,dexclusive,dexclusive,3-5,925.94,958.94,L3,134.04,L,Abadahh
+2024,8,10,lmphm,lmphm,3-5,865.84,944.12,L3,125.48,L,jasonle
+2024,9,1,jasonle,Amon Drugs,7-2,1170.78,1066.92,W6,127.14,W,anth0nyng
+2024,9,2,PutItOnYa,PutItOnYa,6-3,1133.02,1052.92,W1,133.4,W,jigri
+2024,9,3,yckyb,yckyb,6-3,1123.36,1156.42,W3,122.8,W,lmphm
+2024,9,4,donblood,CityBoyJJ,4-5,1185.54,1090.24,W1,167.6,W,dexclusive
+2024,9,5,anth0nyng,🙂‍↕️,4-5,1150.34,1181.42,L1,116.48,L,jasonle
+2024,9,6,jigri,jigri,4-5,1112.38,1091.8,L1,100.8,L,PutItOnYa
+2024,9,7,keveezy,Longtendo,4-5,1102.26,1099.62,W1,131.54,W,Abadahh
+2024,9,8,Abadahh,LANK,4-5,1019.68,1086.44,L1,98.4,L,keveezy
+2024,9,9,dexclusive,dexclusive,3-6,1035.0,1126.54,L4,109.06,L,donblood
+2024,9,10,lmphm,lmphm,3-6,986.88,1066.92,L4,121.04,L,yckyb
+2024,10,1,jasonle,Amon Drugs,8-2,1307.72,1144.36,W7,136.94,W,donblood
+2024,10,2,PutItOnYa,PutItOnYa,7-3,1263.5,1172.14,W2,130.48,W,Abadahh
+2024,10,3,yckyb,yckyb,6-4,1233.56,1298.36,L1,110.2,L,jigri
+2024,10,4,anth0nyng,🙂‍↕️,5-5,1289.04,1284.06,W1,138.7,W,lmphm
+2024,10,5,jigri,jigri,5-5,1254.32,1202.0,W1,141.94,W,yckyb
+2024,10,6,donblood,CityBoyJJ,4-6,1262.98,1227.18,L1,77.44,L,jasonle
+2024,10,7,keveezy,Longtendo,4-6,1216.68,1224.2,L1,114.42,L,dexclusive
+2024,10,8,dexclusive,dexclusive,4-6,1159.58,1240.96,W1,124.58,W,keveezy
+2024,10,9,Abadahh,LANK,4-6,1138.9,1216.92,L2,119.22,L,PutItOnYa
+2024,10,10,lmphm,lmphm,3-7,1089.52,1205.62,L5,102.64,L,anth0nyng
+2024,11,1,jasonle,Amon Drugs,9-2,1443.9,1263.5,W8,136.18,W,PutItOnYa
+2024,11,2,yckyb,yckyb,7-4,1386.14,1393.9,W1,152.58,W,dexclusive
+2024,11,3,PutItOnYa,PutItOnYa,7-4,1382.64,1308.32,L1,119.14,L,jasonle
+2024,11,4,donblood,CityBoyJJ,5-6,1419.82,1329.44,W1,156.84,W,Abadahh
+2024,11,5,anth0nyng,🙂‍↕️,5-6,1410.32,1418.5,L1,121.28,L,keveezy
+2024,11,6,jigri,jigri,5-6,1357.4,1326.74,L1,103.08,L,lmphm
+2024,11,7,keveezy,Longtendo,5-6,1351.12,1345.48,W1,134.44,W,anth0nyng
+2024,11,8,dexclusive,dexclusive,4-7,1255.12,1393.54,L1,95.54,L,yckyb
+2024,11,9,Abadahh,LANK,4-7,1241.16,1373.76,L3,102.26,L,donblood
+2024,11,10,lmphm,lmphm,4-7,1214.26,1308.7,W1,124.74,W,jigri
+2024,12,1,jasonle,Amon Drugs,10-2,1567.92,1345.5,W9,124.02,W,Abadahh
+2024,12,2,PutItOnYa,PutItOnYa,7-5,1511.7,1465.98,L2,129.06,L,donblood
+2024,12,3,yckyb,yckyb,7-5,1487.72,1504.92,L1,101.58,L,keveezy
+2024,12,4,donblood,CityBoyJJ,6-6,1577.48,1458.5,W2,157.66,W,PutItOnYa
+2024,12,5,anth0nyng,🙂‍↕️,6-6,1543.9,1504.06,W1,133.58,W,jigri
+2024,12,6,keveezy,Longtendo,6-6,1462.14,1447.06,W2,111.02,W,yckyb
+2024,12,7,jigri,jigri,5-7,1442.96,1460.32,L2,85.56,L,anth0nyng
+2024,12,8,dexclusive,dexclusive,5-7,1404.52,1509.7,W1,149.4,W,lmphm
+2024,12,9,lmphm,lmphm,4-8,1330.42,1458.1,L1,116.16,L,dexclusive
+2024,12,10,Abadahh,LANK,4-8,1323.16,1497.78,L4,82.0,L,jasonle
+2024,13,1,jasonle,Amon Drugs,10-3,1670.28,1449.8,L1,102.36,L,yckyb
+2024,13,2,PutItOnYa,PutItOnYa,8-5,1667.12,1606.72,W1,155.42,W,dexclusive
+2024,13,3,yckyb,yckyb,8-5,1592.02,1607.28,W1,104.3,W,jasonle
+2024,13,4,anth0nyng,🙂‍↕️,7-6,1688.18,1625.96,W2,144.28,W,Abadahh
+2024,13,5,donblood,CityBoyJJ,6-7,1700.54,1595.3,L1,123.06,L,jigri
+2024,13,6,keveezy,Longtendo,6-7,1588.9,1583.5,L1,126.76,L,lmphm
+2024,13,7,jigri,jigri,6-7,1579.76,1583.38,W1,136.8,W,donblood
+2024,13,8,dexclusive,dexclusive,5-8,1545.26,1665.12,L1,140.74,L,PutItOnYa
+2024,13,9,lmphm,lmphm,5-8,1466.86,1584.86,W1,136.44,W,keveezy
+2024,13,10,Abadahh,LANK,4-9,1445.06,1642.06,L5,121.9,L,anth0nyng
+2024,14,1,jasonle,Amon Drugs,10-4,1782.84,1573.2,L2,112.56,L,jigri
+2024,14,2,PutItOnYa,PutItOnYa,9-5,1807.14,1732.78,W2,140.02,W,keveezy
+2024,14,3,yckyb,yckyb,9-5,1767.2,1733.52,W2,175.18,W,donblood
+2024,14,4,anth0nyng,🙂‍↕️,8-6,1846.04,1728.82,W3,157.86,W,dexclusive
+2024,14,5,jigri,jigri,7-7,1703.16,1695.94,W2,123.4,W,jasonle
+2024,14,6,donblood,CityBoyJJ,6-8,1826.78,1770.48,L2,126.24,L,yckyb
+2024,14,7,keveezy,Longtendo,6-8,1714.96,1723.52,L2,126.06,L,PutItOnYa
+2024,14,8,dexclusive,dexclusive,5-9,1648.12,1822.98,L2,102.86,L,anth0nyng
+2024,14,9,Abadahh,LANK,5-9,1602.94,1773.46,W1,157.88,W,lmphm
+2024,14,10,lmphm,lmphm,5-9,1598.26,1742.74,L1,131.4,L,Abadahh
+2025,1,1,anth0nyng,Honeymoon Fund 2026,1-0,143.68,95.24,W1,143.68,W,keveezy
+2025,1,2,yckyb,yckyb,1-0,139.72,112.3,W1,139.72,W,dexclusive
+2025,1,3,jasonle,Tuten and bootin,1-0,133.98,98.82,W1,133.98,W,PutItOnYa
+2025,1,4,jigri,jigri,1-0,125.36,95.22,W1,125.36,W,Abadahh
+2025,1,5,lmphm,JJ & the AFC,1-0,116.46,88.52,W1,116.46,W,donblood
+2025,1,6,dexclusive,dexclusive,0-1,112.3,139.72,L1,112.3,L,yckyb
+2025,1,7,PutItOnYa,PutItOnYa,0-1,98.82,133.98,L1,98.82,L,jasonle
+2025,1,8,keveezy,Fly cant mosquito ,0-1,95.24,143.68,L1,95.24,L,anth0nyng
+2025,1,9,Abadahh,LANK,0-1,95.22,125.36,L1,95.22,L,jigri
+2025,1,10,donblood,Pickens Noses Diggs Asses,0-1,88.52,116.46,L1,88.52,L,lmphm
+2025,2,1,yckyb,yckyb,2-0,285.12,234.9,W2,145.4,W,anth0nyng
+2025,2,2,jigri,jigri,2-0,267.06,233.6,W2,141.7,W,PutItOnYa
+2025,2,3,jasonle,Tuten and bootin,2-0,259.12,205.46,W2,125.14,W,Abadahh
+2025,2,4,anth0nyng,Honeymoon Fund 2026,1-1,266.28,240.64,L1,122.6,L,yckyb
+2025,2,5,dexclusive,dexclusive,1-1,240.36,265.3,W1,128.06,W,donblood
+2025,2,6,keveezy,Fly cant mosquito ,1-1,202.48,225.7,W1,107.24,W,lmphm
+2025,2,7,lmphm,JJ & the AFC,1-1,198.48,195.76,L1,82.02,L,keveezy
+2025,2,8,PutItOnYa,PutItOnYa,0-2,237.2,275.68,L2,138.38,L,jigri
+2025,2,9,donblood,Pickens Noses Diggs Asses,0-2,214.1,244.52,L2,125.58,L,dexclusive
+2025,2,10,Abadahh,LANK,0-2,201.86,250.5,L2,106.64,L,jasonle
+2025,3,1,jigri,jigri,3-0,410.68,361.54,W3,143.62,W,jasonle
+2025,3,2,yckyb,yckyb,3-0,398.14,338.56,W3,113.02,W,donblood
+2025,3,3,jasonle,Tuten and bootin,2-1,387.06,349.08,L1,127.94,L,jigri
+2025,3,4,anth0nyng,Honeymoon Fund 2026,2-1,384.0,335.76,W1,117.72,W,lmphm
+2025,3,5,dexclusive,dexclusive,2-1,352.64,371.22,W2,112.28,W,keveezy
+2025,3,6,PutItOnYa,PutItOnYa,1-2,360.92,369.78,W1,123.72,W,Abadahh
+2025,3,7,keveezy,Fly cant mosquito ,1-2,308.4,337.98,L1,105.92,L,dexclusive
+2025,3,8,lmphm,JJ & the AFC,1-2,293.6,313.48,L2,95.12,L,anth0nyng
+2025,3,9,donblood,Pickens Noses Diggs Asses,0-3,317.76,357.54,L3,103.66,L,yckyb
+2025,3,10,Abadahh,LANK,0-3,295.96,374.22,L3,94.1,L,PutItOnYa
+2025,4,1,yckyb,yckyb,4-0,543.72,453.64,W4,145.58,W,Abadahh
+2025,4,2,anth0nyng,Honeymoon Fund 2026,3-1,519.76,438.58,W2,135.76,W,dexclusive
+2025,4,3,jigri,jigri,3-1,500.66,516.48,L1,89.98,L,keveezy
+2025,4,4,jasonle,Tuten and bootin,2-2,517.36,512.98,L2,130.3,L,donblood
+2025,4,5,keveezy,Fly cant mosquito ,2-2,463.34,427.96,W1,154.94,W,jigri
+2025,4,6,dexclusive,dexclusive,2-2,455.46,506.98,L1,102.82,L,anth0nyng
+2025,4,7,lmphm,JJ & the AFC,2-2,410.56,427.46,W1,116.96,W,PutItOnYa
+2025,4,8,donblood,Pickens Noses Diggs Asses,1-3,481.66,487.84,W1,163.9,W,jasonle
+2025,4,9,PutItOnYa,PutItOnYa,1-3,474.9,486.74,L1,113.98,L,lmphm
+2025,4,10,Abadahh,LANK,0-4,411.04,519.8,L4,115.08,L,yckyb
+2025,5,1,yckyb,yckyb,4-1,653.26,598.42,L1,109.54,L,keveezy
+2025,5,2,jigri,jigri,4-1,627.98,631.58,W1,127.32,W,anth0nyng
+2025,5,3,jasonle,Tuten and bootin,3-2,647.96,624.1,W1,130.6,W,lmphm
+2025,5,4,anth0nyng,Honeymoon Fund 2026,3-2,634.86,565.9,L1,115.1,L,jigri
+2025,5,5,keveezy,Fly cant mosquito ,3-2,608.12,537.5,W2,144.78,W,yckyb
+2025,5,6,dexclusive,dexclusive,3-2,600.74,613.26,W1,145.28,W,Abadahh
+2025,5,7,donblood,Pickens Noses Diggs Asses,2-3,614.38,618.96,W2,132.72,W,PutItOnYa
+2025,5,8,lmphm,JJ & the AFC,2-3,521.68,558.06,L1,111.12,L,jasonle
+2025,5,9,PutItOnYa,PutItOnYa,1-4,606.02,619.46,L2,131.12,L,donblood
+2025,5,10,Abadahh,LANK,0-5,517.32,665.08,L5,106.28,L,dexclusive
+2025,6,1,yckyb,yckyb,5-1,768.8,699.02,W1,115.54,W,lmphm
+2025,6,2,anth0nyng,Honeymoon Fund 2026,4-2,760.2,686.02,W1,125.34,W,jasonle
+2025,6,3,jigri,jigri,4-2,740.02,754.12,L1,112.04,L,dexclusive
+2025,6,4,keveezy,Fly cant mosquito ,4-2,731.88,641.86,W3,123.76,W,PutItOnYa
+2025,6,5,dexclusive,dexclusive,4-2,723.28,725.3,W2,122.54,W,jigri
+2025,6,6,jasonle,Tuten and bootin,3-3,768.08,749.44,L1,120.12,L,anth0nyng
+2025,6,7,donblood,Pickens Noses Diggs Asses,2-4,741.86,754.86,L1,127.48,L,Abadahh
+2025,6,8,lmphm,JJ & the AFC,2-4,622.28,673.6,L2,100.6,L,yckyb
+2025,6,9,PutItOnYa,PutItOnYa,1-5,710.38,743.22,L3,104.36,L,keveezy
+2025,6,10,Abadahh,LANK,1-5,653.22,792.56,W1,135.9,W,donblood
+2025,7,1,anth0nyng,Honeymoon Fund 2026,5-2,893.42,794.66,W2,133.22,W,PutItOnYa
+2025,7,2,keveezy,Fly cant mosquito ,5-2,868.94,765.7,W4,137.06,W,donblood
+2025,7,3,dexclusive,dexclusive,5-2,862.54,860.04,W3,139.26,W,jasonle
+2025,7,4,yckyb,yckyb,5-2,853.74,797.1,L1,84.94,L,jigri
+2025,7,5,jigri,jigri,5-2,838.1,839.06,W1,98.08,W,yckyb
+2025,7,6,jasonle,Tuten and bootin,3-4,902.82,888.7,L2,134.74,L,dexclusive
+2025,7,7,donblood,Pickens Noses Diggs Asses,2-5,865.7,891.92,L2,123.84,L,keveezy
+2025,7,8,Abadahh,LANK,2-5,766.0,901.46,W2,112.78,W,lmphm
+2025,7,9,lmphm,JJ & the AFC,2-5,731.18,786.38,L3,108.9,L,Abadahh
+2025,7,10,PutItOnYa,PutItOnYa,1-6,819.02,876.44,L4,108.64,L,anth0nyng
+2025,8,1,keveezy,Fly cant mosquito ,6-2,1013.72,838.72,W5,144.78,W,Abadahh
+2025,8,2,jigri,jigri,6-2,1005.78,965.44,W2,167.68,W,lmphm
+2025,8,3,yckyb,yckyb,6-2,1004.32,877.56,W1,150.58,W,jasonle
+2025,8,4,anth0nyng,Honeymoon Fund 2026,6-2,998.3,897.82,W3,104.88,W,donblood
+2025,8,5,dexclusive,dexclusive,5-3,976.86,1009.4,L1,114.32,L,PutItOnYa
+2025,8,6,jasonle,Tuten and bootin,3-5,983.28,1039.28,L3,80.46,L,yckyb
+2025,8,7,donblood,Pickens Noses Diggs Asses,2-6,968.86,996.8,L3,103.16,L,anth0nyng
+2025,8,8,PutItOnYa,PutItOnYa,2-6,968.38,990.76,W1,149.36,W,dexclusive
+2025,8,9,lmphm,JJ & the AFC,2-6,857.56,954.06,L4,126.38,L,jigri
+2025,8,10,Abadahh,LANK,2-6,839.02,1046.24,L1,73.02,L,keveezy
+2025,9,1,anth0nyng,Honeymoon Fund 2026,7-2,1153.96,1036.36,W4,155.66,W,Abadahh
+2025,9,2,keveezy,Fly cant mosquito ,7-2,1133.44,945.76,W6,119.72,W,jasonle
+2025,9,3,jigri,jigri,7-2,1120.34,1075.94,W3,114.56,W,donblood
+2025,9,4,yckyb,yckyb,6-3,1119.68,996.08,L1,115.36,L,PutItOnYa
+2025,9,5,dexclusive,dexclusive,6-3,1113.46,1145.82,W1,136.6,W,lmphm
+2025,9,6,jasonle,Tuten and bootin,3-6,1090.32,1159.0,L4,107.04,L,keveezy
+2025,9,7,PutItOnYa,PutItOnYa,3-6,1086.9,1106.12,W2,118.52,W,yckyb
+2025,9,8,donblood,Pickens Noses Diggs Asses,2-7,1079.36,1111.36,L4,110.5,L,jigri
+2025,9,9,lmphm,JJ & the AFC,2-7,993.98,1090.66,L5,136.42,L,dexclusive
+2025,9,10,Abadahh,LANK,2-7,977.56,1201.9,L2,138.54,L,anth0nyng
+2025,10,1,anth0nyng,Honeymoon Fund 2026,8-2,1303.96,1148.26,W5,150.0,W,keveezy
+2025,10,2,jigri,jigri,8-2,1287.18,1200.32,W4,166.84,W,Abadahh
+2025,10,3,keveezy,Fly cant mosquito ,7-3,1245.34,1095.76,L1,111.9,L,anth0nyng
+2025,10,4,dexclusive,dexclusive,7-3,1215.66,1221.62,W2,102.2,W,yckyb
+2025,10,5,yckyb,yckyb,6-4,1195.48,1098.28,L2,75.8,L,dexclusive
+2025,10,6,PutItOnYa,PutItOnYa,4-6,1232.4,1240.34,W3,145.5,W,jasonle
+2025,10,7,jasonle,Tuten and bootin,3-7,1224.54,1304.5,L5,134.22,L,PutItOnYa
+2025,10,8,lmphm,JJ & the AFC,3-7,1108.22,1193.78,W1,114.24,W,donblood
+2025,10,9,donblood,Pickens Noses Diggs Asses,2-8,1182.48,1225.6,L5,103.12,L,lmphm
+2025,10,10,Abadahh,LANK,2-8,1101.94,1368.74,L3,124.38,L,jigri
+2025,11,1,anth0nyng,Honeymoon Fund 2026,9-2,1453.48,1253.96,W6,149.52,W,yckyb
+2025,11,2,jigri,jigri,9-2,1399.9,1284.92,W5,112.72,W,PutItOnYa
+2025,11,3,keveezy,Fly cant mosquito ,7-4,1327.14,1275.54,L2,81.8,L,lmphm
+2025,11,4,dexclusive,dexclusive,7-4,1292.12,1349.56,L1,76.46,L,donblood
+2025,11,5,yckyb,yckyb,6-5,1301.18,1247.8,L3,105.7,L,anth0nyng
+2025,11,6,PutItOnYa,PutItOnYa,4-7,1317.0,1353.06,L1,84.6,L,jigri
+2025,11,7,lmphm,JJ & the AFC,4-7,1288.0,1275.58,W2,179.78,W,keveezy
+2025,11,8,donblood,Pickens Noses Diggs Asses,3-8,1310.42,1302.06,W1,127.94,W,dexclusive
+2025,11,9,jasonle,Tuten and bootin,3-8,1308.74,1433.52,L6,84.2,L,Abadahh
+2025,11,10,Abadahh,LANK,3-8,1230.96,1452.94,W1,129.02,W,jasonle
+2025,12,1,anth0nyng,Honeymoon Fund 2026,10-2,1592.42,1354.78,W7,138.94,W,lmphm
+2025,12,2,jigri,jigri,9-3,1518.02,1438.58,L1,118.12,L,jasonle
+2025,12,3,dexclusive,dexclusive,8-4,1412.78,1415.78,W1,120.66,W,keveezy
+2025,12,4,keveezy,Fly cant mosquito ,7-5,1393.36,1396.2,L3,66.22,L,dexclusive
+2025,12,5,yckyb,yckyb,6-6,1433.14,1386.08,L4,131.96,L,donblood
+2025,12,6,PutItOnYa,PutItOnYa,5-7,1481.12,1471.84,W1,164.12,W,Abadahh
+2025,12,7,jasonle,Tuten and bootin,4-8,1462.4,1551.64,W1,153.66,W,jigri
+2025,12,8,donblood,Pickens Noses Diggs Asses,4-8,1448.7,1434.02,W2,138.28,W,yckyb
+2025,12,9,lmphm,JJ & the AFC,4-8,1388.82,1414.52,L1,100.82,L,anth0nyng
+2025,12,10,Abadahh,LANK,3-9,1349.74,1617.06,L1,118.78,L,PutItOnYa
+2025,13,1,anth0nyng,Honeymoon Fund 2026,11-2,1711.18,1465.98,W8,118.76,W,dexclusive
+2025,13,2,jigri,jigri,9-4,1594.36,1542.82,L2,76.34,L,keveezy
+2025,13,3,dexclusive,dexclusive,8-5,1523.98,1534.54,L1,111.2,L,anth0nyng
+2025,13,4,keveezy,Fly cant mosquito ,8-5,1497.6,1472.54,W1,104.24,W,jigri
+2025,13,5,PutItOnYa,PutItOnYa,6-7,1590.74,1567.76,W2,109.62,W,lmphm
+2025,13,6,yckyb,yckyb,6-7,1549.08,1517.74,L5,115.94,L,Abadahh
+2025,13,7,donblood,Pickens Noses Diggs Asses,5-8,1590.84,1523.42,W3,142.14,W,jasonle
+2025,13,8,jasonle,Tuten and bootin,4-9,1551.8,1693.78,L1,89.4,L,donblood
+2025,13,9,lmphm,JJ & the AFC,4-9,1484.74,1524.14,L2,95.92,L,PutItOnYa
+2025,13,10,Abadahh,LANK,4-9,1481.4,1733.0,W1,131.66,W,yckyb
+2025,14,1,anth0nyng,Honeymoon Fund 2026,11-3,1847.54,1613.34,L1,136.36,L,jigri
+2025,14,2,jigri,jigri,10-4,1741.72,1679.18,W1,147.36,W,anth0nyng
+2025,14,3,dexclusive,dexclusive,9-5,1631.82,1618.04,W1,107.84,W,Abadahh
+2025,14,4,keveezy,Fly cant mosquito ,8-6,1603.38,1596.3,L1,105.78,L,yckyb
+2025,14,5,PutItOnYa,PutItOnYa,7-7,1730.58,1657.06,W3,139.84,W,donblood
+2025,14,6,yckyb,yckyb,7-7,1672.84,1623.52,W1,123.76,W,keveezy
+2025,14,7,donblood,Pickens Noses Diggs Asses,5-9,1680.14,1663.26,L1,89.3,L,PutItOnYa
+2025,14,8,lmphm,JJ & the AFC,5-9,1592.78,1604.04,W1,108.04,W,jasonle
+2025,14,9,jasonle,Tuten and bootin,4-10,1631.7,1801.82,L2,79.9,L,lmphm
+2025,14,10,Abadahh,LANK,4-10,1564.9,1840.84,L1,83.5,L,dexclusive

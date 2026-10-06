@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2018,1,False,bvincenttt,169.22,oooEcho,95.78,kholabear over DVTV by 0.32,bvincenttt over oooEcho by 73.44
+2018,2,False,wabaki (Lan Doan),178.38,keveezy,93.22,anth0nyng over bvincenttt by 17.04,Odeh1121 over donblood by 56.36
+2018,3,False,keveezy,174.74,oooEcho,83.62,lmphm over ramzz by 0.26,keveezy over anth0nyng by 68.46
+2018,4,False,lmphm,183.26,bvincenttt,68.08,ramzz over donblood by 6.36,kholabear over jimbo817 by 62.04
+2018,5,False,wabaki (Lan Doan),166.8,oooEcho,95.24,jimbo817 over ramzz by 4.56,kholabear over Odeh1121 by 29.14
+2018,6,False,ramzz,179.06,Odeh1121,76.62,kholabear over wabaki (Lan Doan) by 1.54,ramzz over Odeh1121 by 102.44
+2018,7,False,donblood,149.92,Odeh1121,97.34,DVTV over wabaki (Lan Doan) by 1.76,jimbo817 over anth0nyng by 28.22
+2018,8,False,ramzz,155.5,oooEcho,101.66,jimbo817 over bvincenttt by 2.82,Odeh1121 over anth0nyng by 28.56
+2018,9,False,bvincenttt,157.8,anth0nyng,80.84,keveezy over jimbo817 by 6.1,kholabear over anth0nyng by 70.84
+2018,10,False,DVTV,179.32,oooEcho,74.06,anth0nyng over ramzz by 18.68,DVTV over jimbo817 by 74.7
+2018,11,False,kholabear,163.98,oooEcho,61.42,wabaki (Lan Doan) over donblood by 7.24,anth0nyng over oooEcho by 54.88
+2018,12,False,DVTV,163.28,oooEcho,90.52,ramzz over keveezy by 2.2,lmphm over Odeh1121 by 32.5
+2018,13,False,lmphm,163.84,bvincenttt,98.1,DVTV over ramzz by 2.02,lmphm over kholabear by 44.94
+2018,14,True,kholabear,154.1,ramzz,87.92,donblood over lmphm by 2.7,kholabear over ramzz by 66.18
+2018,15,True,jimbo817,156.8,ramzz,67.24,lmphm over DVTV by 0.62,jimbo817 over donblood by 30.98
+2018,16,True,DVTV,174.14,ramzz,96.06,wabaki (Lan Doan) over donblood by 8.68,DVTV over ramzz by 78.08

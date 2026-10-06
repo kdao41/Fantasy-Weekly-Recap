@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2019,1,False,Alex,166.4,Justin,90.92,mrlampham over Jason by 1.42,Alex over Kevin D by 59.24
+2019,2,False,Anthony,149.3,Alex,77.12,Tommy over Dexter by 13.84,An over Alex by 55.92
+2019,3,False,Alex,160.02,mrlampham,79.22,Tommy over An by 0.14,Alex over mrlampham by 80.8
+2019,4,False,Kevin D,160.8,Don,80.8,Jason over Dexter by 8.56,Tommy over Don by 59.48
+2019,5,False,Jason,170.16,Justin,74.94,Dexter over Kevin D by 2.88,An over Don by 33.92
+2019,6,False,Anthony,173.9,Alex,73.02,Jason over Don by 1.98,Anthony over mrlampham by 90.18
+2019,7,False,Kevin D,141.66,Jason,76.86,Alex over Tommy by 7.02,Kevin D over Don by 45.82
+2019,8,False,Justin,177.46,Dexter,101.8,Kevin D over Jason by 4.64,Justin over Dexter by 75.66
+2019,9,False,Don,149.7,An,78.96,Alex over Jason by 9.16,Anthony over Dexter by 27.54
+2019,10,False,Jason,152.76,Dexter,99.88,Kevin D over Alex by 0.8,Jason over mrlampham by 52.26
+2019,11,False,Jason,141.1,Don,81.88,Kevin D over mrlampham by 11.36,Alex over An by 38.84
+2019,12,False,Kevin D,155.68,Don,60.5,Jason over Anthony by 10.96,Kevin D over Justin by 53.42
+2019,13,False,mrlampham,130.2,Don,98.1,Alex over Justin by 7.36,mrlampham over An by 27.44
+2019,14,True,Alex,141.96,Anthony,98.0,Jason over Justin by 9.2,Alex over Anthony by 43.96
+2019,15,True,Kevin D,167.28,mrlampham,80.06,An over Dexter by 9.58,Don over mrlampham by 55.14
+2019,16,True,Kevin D,138.36,Dexter,81.4,mrlampham over Dexter by 15.02,Kevin D over Tommy by 31.66

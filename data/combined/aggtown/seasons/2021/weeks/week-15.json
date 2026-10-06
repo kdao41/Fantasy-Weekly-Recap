@@ -1,0 +1,125 @@
+{
+ "season": 2021,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "We\u2019re Allen This Together",
+     "manager": "donblood",
+     "points": 135.2,
+     "projected": 139.06,
+     "won": true
+    },
+    {
+     "team_id": 2,
+     "team": "I Love Me Some ME",
+     "manager": "jimbo817",
+     "points": 114.72,
+     "projected": 133.68,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Chubby Wood",
+     "manager": "Odeh1121",
+     "points": 90.68,
+     "projected": 131.63,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Herb-a-Derp",
+     "manager": "PutItOnYa",
+     "points": 106.04,
+     "projected": 125.52,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Usher Bucks",
+     "manager": "kholabear",
+     "points": 123.46,
+     "projected": 131.43,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "dalvin COOKED me",
+     "manager": "keveezy",
+     "points": 109.0,
+     "projected": 134.32,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 114.88,
+     "projected": 123.3,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 98.34,
+     "projected": 96.95,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "donblood",
+   "team": "We\u2019re Allen This Together",
+   "points": 135.2
+  },
+  "low_score": {
+   "manager": "Odeh1121",
+   "team": "Chubby Wood",
+   "points": 90.68
+  },
+  "closest_game": {
+   "winner": "kholabear",
+   "winner_points": 123.46,
+   "loser": "keveezy",
+   "loser_points": 109.0,
+   "margin": 14.46
+  },
+  "biggest_blowout": {
+   "winner": "donblood",
+   "winner_points": 135.2,
+   "loser": "jimbo817",
+   "loser_points": 114.72,
+   "margin": 20.48
+  }
+ }
+}

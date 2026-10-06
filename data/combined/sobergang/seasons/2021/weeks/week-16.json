@@ -1,0 +1,148 @@
+{
+ "season": 2021,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Win will I get a when",
+     "manager": "keveezy",
+     "points": 71.4,
+     "projected": 86.34,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "0.02 points",
+     "manager": "jasonle",
+     "points": 116.16,
+     "projected": 99.23,
+     "won": true
+    }
+   ],
+   "winner": "jasonle"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "CREASING MY SECRET SANTA GIFT",
+     "manager": "donblood",
+     "points": 120.52,
+     "projected": 137.66,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "dexclusive",
+     "points": 124.8,
+     "projected": 126.61,
+     "won": true
+    }
+   ],
+   "winner": "dexclusive"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shrooms",
+     "manager": "PutItOnYa",
+     "points": 101.14,
+     "projected": 117.24,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "jigri",
+     "points": 135.7,
+     "projected": 134.3,
+     "won": true
+    }
+   ],
+   "winner": "jigri"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Boards",
+     "manager": "yckyb",
+     "points": 77.88,
+     "projected": 125.86,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Fuck an",
+     "manager": "lmphm",
+     "points": 94.44,
+     "projected": 100.33,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Queen Jelly",
+     "manager": "anth0nyng",
+     "points": 180.46,
+     "projected": 138.51,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "Abadahh",
+     "points": 151.14,
+     "projected": 132.35,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "anth0nyng",
+   "team": "Queen Jelly",
+   "points": 180.46
+  },
+  "low_score": {
+   "manager": "keveezy",
+   "team": "Win will I get a when",
+   "points": 71.4
+  },
+  "closest_game": {
+   "winner": "dexclusive",
+   "winner_points": 124.8,
+   "loser": "donblood",
+   "loser_points": 120.52,
+   "margin": 4.28
+  },
+  "biggest_blowout": {
+   "winner": "jasonle",
+   "winner_points": 116.16,
+   "loser": "keveezy",
+   "loser_points": 71.4,
+   "margin": 44.76
+  }
+ }
+}

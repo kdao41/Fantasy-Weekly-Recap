@@ -1,0 +1,11 @@
+season,manager,team,final_rank,playoff_seed,made_playoffs,regular_season_record,playoff_record,consolation_record,total_record,total_wins,total_losses,total_ties,regular_wins,regular_losses,regular_ties,playoff_wins,playoff_losses,points_for,points_against
+2020,jigri,Jigs,1,1,True,10-3,2-0,0-0,12-3,12,3,0,10,3,0,2,0,1781.2,1488.0
+2020,donblood,CeeDeez Nutz,2,2,True,9-4,1-1,0-0,10-5,10,5,0,9,4,0,1,1,1746.08,1491.68
+2020,anth0nyng,Princess Jelly,3,5,True,7-6,2-1,0-0,9-7,9,7,0,7,6,0,2,1,1601.88,1708.2
+2020,lmphm,simp.,4,3,True,9-4,1-2,0-0,10-6,10,6,0,9,4,0,1,2,1736.6,1702.16
+2020,yckyb,DYNAHMIGHHHH,5,6,True,6-7,1-1,0-0,7-8,7,8,0,6,7,0,1,1,1626.54,1596.32
+2020,dexclusive,FREE WIN,6,4,True,7-6,0-2,0-0,7-8,7,8,0,7,6,0,0,2,1626.2,1606.52
+2020,jasonle,This was Chris Lake,7,9,False,3-10,0-0,2-0,3-10,3,10,0,3,10,0,0,0,1534.22,1636.46
+2020,keveezy,Champs to chumps,8,7,False,6-7,0-0,1-1,6-7,6,7,0,6,7,0,0,0,1554.74,1602.02
+2020,PutItOnYa,Dry Szn,9,8,False,5-8,0-0,1-1,5-8,5,8,0,5,8,0,0,0,1546.86,1614.88
+2020,Abadahh,Wtf am I doing here,10,10,False,3-10,0-0,0-2,3-10,3,10,0,3,10,0,0,0,1424.32,1732.4

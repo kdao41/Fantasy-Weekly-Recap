@@ -1,0 +1,18 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2024,1,False,lmphm,142.24,keveezy,68.36,jasonle over donblood by 4.04,dexclusive over keveezy by 48.9
+2024,2,False,Abadahh,143.86,jigri,80.7,PutItOnYa over jasonle by 14.62,lmphm over jigri by 48.34
+2024,3,False,yckyb,160.52,lmphm,78.68,anth0nyng over jigri by 6.36,dexclusive over lmphm by 32.58
+2024,4,False,keveezy,154.18,yckyb,87.5,Abadahh over anth0nyng by 7.28,jasonle over yckyb by 56.8
+2024,5,False,keveezy,156.58,Abadahh,86.46,jasonle over jigri by 4.56,donblood over yckyb by 47.34
+2024,6,False,jigri,150.7,lmphm,84.5,anth0nyng over yckyb by 7.02,jigri over Abadahh by 48.9
+2024,7,False,donblood,144.86,lmphm,94.26,yckyb over Abadahh by 12.74,donblood over lmphm by 50.6
+2024,8,False,Abadahh,154.8,keveezy,105.36,anth0nyng over donblood by 0.86,Abadahh over dexclusive by 20.76
+2024,9,False,donblood,167.6,Abadahh,98.4,yckyb over lmphm by 1.76,donblood over dexclusive by 58.54
+2024,10,False,jigri,141.94,donblood,77.44,dexclusive over keveezy by 10.16,jasonle over donblood by 59.5
+2024,11,False,donblood,156.84,dexclusive,95.54,keveezy over anth0nyng by 13.16,yckyb over dexclusive by 57.04
+2024,12,False,donblood,157.66,Abadahh,82.0,keveezy over yckyb by 9.44,anth0nyng over jigri by 48.02
+2024,13,False,PutItOnYa,155.42,jasonle,102.36,yckyb over jasonle by 1.94,anth0nyng over Abadahh by 22.38
+2024,14,False,yckyb,175.18,dexclusive,102.86,jigri over jasonle by 10.84,anth0nyng over dexclusive by 55.0
+2024,15,True,lmphm,161.76,Abadahh,92.64,yckyb over donblood by 8.02,lmphm over keveezy by 43.62
+2024,16,True,dexclusive,167.12,keveezy,84.98,PutItOnYa over yckyb by 14.78,Abadahh over keveezy by 47.06
+2024,17,True,jigri,181.86,jasonle,64.86,jigri over PutItOnYa by 14.44,yckyb over jasonle by 34.82

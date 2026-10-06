@@ -1,0 +1,125 @@
+{
+ "season": 2020,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "SponsoredByStatefarm",
+     "manager": "Jimmy",
+     "points": 150.9,
+     "projected": 130.71,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "OnlyPain",
+     "manager": "Khoa",
+     "points": 140.52,
+     "projected": 123.24,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Winry fan club",
+     "manager": "Ramzi",
+     "points": 137.72,
+     "projected": 139.49,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "Anthony",
+     "points": 138.46,
+     "projected": 124.25,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 109.14,
+     "projected": 128.3,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 110.82,
+     "projected": 124.59,
+     "won": true
+    }
+   ],
+   "winner": "Daniel Vu"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Boom or Bust",
+     "manager": "Kevin D",
+     "points": 144.74,
+     "projected": 127.98,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "I Want You Davant Me",
+     "manager": "Alex",
+     "points": 138.86,
+     "projected": 136.64,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Jimmy",
+   "team": "SponsoredByStatefarm",
+   "points": 150.9
+  },
+  "low_score": {
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "points": 109.14
+  },
+  "closest_game": {
+   "winner": "Anthony",
+   "winner_points": 138.46,
+   "loser": "Ramzi",
+   "loser_points": 137.72,
+   "margin": 0.74
+  },
+  "biggest_blowout": {
+   "winner": "Jimmy",
+   "winner_points": 150.9,
+   "loser": "Khoa",
+   "loser_points": 140.52,
+   "margin": 10.38
+  }
+ }
+}

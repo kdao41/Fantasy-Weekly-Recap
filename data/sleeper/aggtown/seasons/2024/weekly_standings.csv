@@ -1,0 +1,169 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2024,1,1,DVTV,GAWD TIER,1-0,128.48,124.76,W1,128.48,W,jimbo817
+2024,1,2,bvincenttt,Shake 'n Blake ,1-0,127.86,105.86,W1,127.86,W,bAnmly (Bryan)
+2024,1,3,anth0nyng,🏆 WORLD CHAMPION 🏆,1-0,125.58,97.58,W1,125.58,W,kholabear
+2024,1,4,keveezy,Bleed Blue,1-0,123.1,83.72,W1,123.1,W,Odeh1121
+2024,1,5,donblood,Cee Deez Chubb in ya mouf,1-0,116.64,89.84,W1,116.64,W,oooEcho
+2024,1,6,PutItOnYa,PutItOnYa,1-0,104.52,91.12,W1,104.52,W,lmphm
+2024,1,7,jimbo817,Revenge Tour,0-1,124.76,128.48,L1,124.76,L,DVTV
+2024,1,8,bAnmly (Bryan),bAnmly,0-1,105.86,127.86,L1,105.86,L,bvincenttt
+2024,1,9,kholabear,Cancun Tours,0-1,97.58,125.58,L1,97.58,L,anth0nyng
+2024,1,10,lmphm,Vegas,0-1,91.12,104.52,L1,91.12,L,PutItOnYa
+2024,1,11,oooEcho,ABCeeDee U Lost 2 Me,0-1,89.84,116.64,L1,89.84,L,donblood
+2024,1,12,Odeh1121,Hairy Son,0-1,83.72,123.1,L1,83.72,L,keveezy
+2024,2,1,DVTV,GAWD TIER,2-0,260.22,205.62,W2,131.74,W,kholabear
+2024,2,2,anth0nyng,🏆 WORLD CHAMPION 🏆,2-0,244.04,207.0,W2,118.46,W,jimbo817
+2024,2,3,PutItOnYa,PutItOnYa,2-0,233.74,220.1,W2,129.22,W,Odeh1121
+2024,2,4,donblood,Cee Deez Chubb in ya mouf,2-0,225.38,188.14,W2,108.74,W,bAnmly (Bryan)
+2024,2,5,lmphm,Vegas,1-1,252.88,214.62,W1,161.76,W,keveezy
+2024,2,6,keveezy,Bleed Blue,1-1,233.2,245.48,L1,110.1,L,lmphm
+2024,2,7,bvincenttt,Shake 'n Blake ,1-1,215.58,208.02,L1,87.72,L,oooEcho
+2024,2,8,oooEcho,ABCeeDee U Lost 2 Me,1-1,192.0,204.36,W1,102.16,W,bvincenttt
+2024,2,9,jimbo817,Revenge Tour,0-2,234.18,246.94,L2,109.42,L,anth0nyng
+2024,2,10,Odeh1121,Hairy Son,0-2,212.7,252.32,L2,128.98,L,PutItOnYa
+2024,2,11,bAnmly (Bryan),bAnmly,0-2,204.16,236.6,L2,98.3,L,donblood
+2024,2,12,kholabear,Cancun Tours,0-2,178.44,257.32,L2,80.86,L,DVTV
+2024,3,1,anth0nyng,🏆 WORLD CHAMPION 🏆,3-0,380.16,322.88,W3,136.12,W,DVTV
+2024,3,2,PutItOnYa,PutItOnYa,3-0,358.78,342.74,W3,125.04,W,keveezy
+2024,3,3,DVTV,GAWD TIER,2-1,376.1,341.74,L1,115.88,L,anth0nyng
+2024,3,4,lmphm,Vegas,2-1,340.06,293.0,W2,87.18,W,Odeh1121
+2024,3,5,bvincenttt,Shake 'n Blake ,2-1,337.04,305.2,W1,121.46,W,donblood
+2024,3,6,donblood,Cee Deez Chubb in ya mouf,2-1,322.56,309.6,L1,97.18,L,bvincenttt
+2024,3,7,oooEcho,ABCeeDee U Lost 2 Me,2-1,304.28,274.56,W2,112.28,W,bAnmly (Bryan)
+2024,3,8,jimbo817,Revenge Tour,1-2,367.44,346.22,W1,133.26,W,kholabear
+2024,3,9,keveezy,Bleed Blue,1-2,355.84,370.52,L2,122.64,L,PutItOnYa
+2024,3,10,Odeh1121,Hairy Son,0-3,291.08,339.5,L3,78.38,L,lmphm
+2024,3,11,kholabear,Cancun Tours,0-3,277.72,390.58,L3,99.28,L,jimbo817
+2024,3,12,bAnmly (Bryan),bAnmly,0-3,274.36,348.88,L3,70.2,L,oooEcho
+2024,4,1,PutItOnYa,PutItOnYa,3-1,468.5,467.84,L1,109.72,L,bAnmly (Bryan)
+2024,4,2,donblood,Cee Deez Chubb in ya mouf,3-1,456.66,416.28,W1,134.1,W,DVTV
+2024,4,3,anth0nyng,🏆 WORLD CHAMPION 🏆,3-1,443.26,453.84,L1,63.1,L,keveezy
+2024,4,4,bvincenttt,Shake 'n Blake ,3-1,440.08,405.46,W2,103.04,W,lmphm
+2024,4,5,jimbo817,Revenge Tour,2-2,501.42,453.24,W2,133.98,W,oooEcho
+2024,4,6,keveezy,Bleed Blue,2-2,486.8,433.62,W1,130.96,W,anth0nyng
+2024,4,7,DVTV,GAWD TIER,2-2,482.78,475.84,L2,106.68,L,donblood
+2024,4,8,lmphm,Vegas,2-2,440.32,396.04,L1,100.26,L,bvincenttt
+2024,4,9,oooEcho,ABCeeDee U Lost 2 Me,2-2,411.3,408.54,L1,107.02,L,jimbo817
+2024,4,10,Odeh1121,Hairy Son,1-3,417.42,448.68,W1,126.34,W,kholabear
+2024,4,11,bAnmly (Bryan),bAnmly,1-3,399.46,458.6,W1,125.1,W,PutItOnYa
+2024,4,12,kholabear,Cancun Tours,0-4,386.9,516.92,L4,109.18,L,Odeh1121
+2024,5,1,donblood,Cee Deez Chubb in ya mouf,4-1,574.0,533.16,W2,117.34,W,jimbo817
+2024,5,2,bvincenttt,Shake 'n Blake ,4-1,555.46,500.72,W3,115.38,W,PutItOnYa
+2024,5,3,PutItOnYa,PutItOnYa,3-2,563.76,583.22,L2,95.26,L,bvincenttt
+2024,5,4,anth0nyng,🏆 WORLD CHAMPION 🏆,3-2,535.3,579.76,L2,92.04,L,Odeh1121
+2024,5,5,oooEcho,ABCeeDee U Lost 2 Me,3-2,521.16,517.9,W1,109.86,W,DVTV
+2024,5,6,jimbo817,Revenge Tour,2-3,618.3,570.58,L1,116.88,L,donblood
+2024,5,7,DVTV,GAWD TIER,2-3,592.14,585.7,L3,109.36,L,oooEcho
+2024,5,8,keveezy,Bleed Blue,2-3,583.96,595.16,L1,97.16,L,kholabear
+2024,5,9,lmphm,Vegas,2-3,557.38,516.48,L2,117.06,L,bAnmly (Bryan)
+2024,5,10,Odeh1121,Hairy Son,2-3,543.34,540.72,W2,125.92,W,anth0nyng
+2024,5,11,bAnmly (Bryan),bAnmly,2-3,519.9,575.66,W2,120.44,W,lmphm
+2024,5,12,kholabear,Cancun Tours,1-4,548.44,614.08,W1,161.54,W,keveezy
+2024,6,1,donblood,Cee Deez Chubb in ya mouf,4-2,695.8,664.32,L1,121.8,L,PutItOnYa
+2024,6,2,PutItOnYa,PutItOnYa,4-2,694.92,705.02,W1,131.16,W,donblood
+2024,6,3,oooEcho,ABCeeDee U Lost 2 Me,4-2,674.76,613.48,W2,153.6,W,lmphm
+2024,6,4,anth0nyng,🏆 WORLD CHAMPION 🏆,4-2,669.7,664.78,W1,134.4,W,bvincenttt
+2024,6,5,bvincenttt,Shake 'n Blake ,4-2,640.48,635.12,L1,85.02,L,anth0nyng
+2024,6,6,DVTV,GAWD TIER,3-3,725.4,673.92,W1,133.26,W,Odeh1121
+2024,6,7,keveezy,Bleed Blue,3-3,721.46,730.08,W1,137.5,W,jimbo817
+2024,6,8,bAnmly (Bryan),bAnmly,3-3,628.58,667.46,W3,108.68,W,kholabear
+2024,6,9,jimbo817,Revenge Tour,2-4,753.22,708.08,L2,134.92,L,keveezy
+2024,6,10,lmphm,Vegas,2-4,652.96,670.08,L3,95.58,L,oooEcho
+2024,6,11,Odeh1121,Hairy Son,2-4,631.56,673.98,L1,88.22,L,DVTV
+2024,6,12,kholabear,Cancun Tours,1-5,640.24,722.76,L1,91.8,L,bAnmly (Bryan)
+2024,7,1,PutItOnYa,PutItOnYa,5-2,832.38,801.6,W2,137.46,W,oooEcho
+2024,7,2,DVTV,GAWD TIER,4-3,886.4,781.72,W2,161.0,W,keveezy
+2024,7,3,donblood,Cee Deez Chubb in ya mouf,4-3,798.26,782.4,L2,102.46,L,lmphm
+2024,7,4,oooEcho,ABCeeDee U Lost 2 Me,4-3,771.34,750.94,L1,96.58,L,PutItOnYa
+2024,7,5,anth0nyng,🏆 WORLD CHAMPION 🏆,4-3,736.64,744.42,L1,66.94,L,bAnmly (Bryan)
+2024,7,6,bvincenttt,Shake 'n Blake ,4-3,729.42,775.48,L2,88.94,L,kholabear
+2024,7,7,bAnmly (Bryan),bAnmly,4-3,708.22,734.4,W4,79.64,W,anth0nyng
+2024,7,8,keveezy,Bleed Blue,3-4,829.26,891.08,L1,107.8,L,DVTV
+2024,7,9,Odeh1121,Hairy Son,3-4,775.4,799.32,W1,143.84,W,jimbo817
+2024,7,10,lmphm,Vegas,3-4,771.04,772.54,W1,118.08,W,donblood
+2024,7,11,jimbo817,Revenge Tour,2-5,878.56,851.92,L3,125.34,L,Odeh1121
+2024,7,12,kholabear,Cancun Tours,2-5,780.6,811.7,W1,140.36,W,bvincenttt
+2024,8,1,PutItOnYa,PutItOnYa,6-2,997.72,925.28,W3,165.34,W,DVTV
+2024,8,2,donblood,Cee Deez Chubb in ya mouf,5-3,954.54,899.72,W1,156.28,W,kholabear
+2024,8,3,anth0nyng,🏆 WORLD CHAMPION 🏆,5-3,875.46,881.72,W1,138.82,W,oooEcho
+2024,8,4,bvincenttt,Shake 'n Blake ,5-3,823.14,868.74,W1,93.72,W,keveezy
+2024,8,5,DVTV,GAWD TIER,4-4,1010.08,947.06,L1,123.68,L,PutItOnYa
+2024,8,6,Odeh1121,Hairy Son,4-4,928.26,883.62,W2,152.86,W,bAnmly (Bryan)
+2024,8,7,oooEcho,ABCeeDee U Lost 2 Me,4-4,908.64,889.76,L2,137.3,L,anth0nyng
+2024,8,8,lmphm,Vegas,4-4,904.7,874.5,W2,133.66,W,jimbo817
+2024,8,9,bAnmly (Bryan),bAnmly,4-4,792.52,887.26,L1,84.3,L,Odeh1121
+2024,8,10,keveezy,Bleed Blue,3-5,922.52,984.8,L2,93.26,L,bvincenttt
+2024,8,11,jimbo817,Revenge Tour,2-6,980.52,985.58,L4,101.96,L,lmphm
+2024,8,12,kholabear,Cancun Tours,2-6,897.92,967.98,L1,117.32,L,donblood
+2024,9,1,PutItOnYa,PutItOnYa,7-2,1131.92,1037.92,W4,134.2,W,jimbo817
+2024,9,2,donblood,Cee Deez Chubb in ya mouf,6-3,1087.78,1032.22,W2,133.24,W,anth0nyng
+2024,9,3,Odeh1121,Hairy Son,5-4,1066.54,988.54,W3,138.28,W,bvincenttt
+2024,9,4,lmphm,Vegas,5-4,1041.86,979.86,W3,137.16,W,DVTV
+2024,9,5,oooEcho,ABCeeDee U Lost 2 Me,5-4,1039.18,991.96,W1,130.54,W,kholabear
+2024,9,6,anth0nyng,🏆 WORLD CHAMPION 🏆,5-4,1007.96,1014.96,L1,132.5,L,donblood
+2024,9,7,bvincenttt,Shake 'n Blake ,5-4,928.06,1007.02,L1,104.92,L,Odeh1121
+2024,9,8,DVTV,GAWD TIER,4-5,1115.44,1084.22,L2,105.36,L,lmphm
+2024,9,9,keveezy,Bleed Blue,4-5,1041.52,1054.24,W1,119.0,W,bAnmly (Bryan)
+2024,9,10,bAnmly (Bryan),bAnmly,4-5,861.96,1006.26,L2,69.44,L,keveezy
+2024,9,11,jimbo817,Revenge Tour,2-7,1093.16,1119.78,L5,112.64,L,PutItOnYa
+2024,9,12,kholabear,Cancun Tours,2-7,1000.12,1098.52,L2,102.2,L,oooEcho
+2024,10,1,PutItOnYa,PutItOnYa,8-2,1284.9,1171.36,W5,152.98,W,kholabear
+2024,10,2,Odeh1121,Hairy Son,6-4,1197.24,1088.58,W4,130.7,W,donblood
+2024,10,3,donblood,Cee Deez Chubb in ya mouf,6-4,1187.82,1162.92,L1,100.04,L,Odeh1121
+2024,10,4,lmphm,Vegas,6-4,1150.76,1076.36,W4,108.9,W,anth0nyng
+2024,10,5,DVTV,GAWD TIER,5-5,1232.1,1200.0,W1,116.66,W,bAnmly (Bryan)
+2024,10,6,keveezy,Bleed Blue,5-5,1153.86,1165.06,W2,112.34,W,oooEcho
+2024,10,7,oooEcho,ABCeeDee U Lost 2 Me,5-5,1150.0,1104.3,L1,110.82,L,keveezy
+2024,10,8,anth0nyng,🏆 WORLD CHAMPION 🏆,5-5,1104.46,1123.86,L2,96.5,L,lmphm
+2024,10,9,bvincenttt,Shake 'n Blake ,5-5,999.4,1118.04,L2,71.34,L,jimbo817
+2024,10,10,bAnmly (Bryan),bAnmly,4-6,977.74,1122.92,L3,115.78,L,DVTV
+2024,10,11,jimbo817,Revenge Tour,3-7,1204.18,1191.12,W1,111.02,W,bvincenttt
+2024,10,12,kholabear,Cancun Tours,2-8,1133.56,1251.5,L3,133.44,L,PutItOnYa
+2024,11,1,PutItOnYa,PutItOnYa,8-3,1358.84,1317.54,L1,73.94,L,anth0nyng
+2024,11,2,lmphm,Vegas,7-4,1318.04,1190.1,W5,167.28,W,kholabear
+2024,11,3,DVTV,GAWD TIER,6-5,1359.68,1290.3,W2,127.58,W,bvincenttt
+2024,11,4,donblood,Cee Deez Chubb in ya mouf,6-5,1328.16,1311.26,L2,140.34,L,keveezy
+2024,11,5,keveezy,Bleed Blue,6-5,1302.2,1305.4,W3,148.34,W,donblood
+2024,11,6,Odeh1121,Hairy Son,6-5,1285.22,1176.84,L1,87.98,L,oooEcho
+2024,11,7,anth0nyng,🏆 WORLD CHAMPION 🏆,6-5,1250.64,1197.8,W1,146.18,W,PutItOnYa
+2024,11,8,oooEcho,ABCeeDee U Lost 2 Me,6-5,1238.26,1192.28,W1,88.26,W,Odeh1121
+2024,11,9,bvincenttt,Shake 'n Blake ,5-6,1089.7,1245.62,L3,90.3,L,DVTV
+2024,11,10,jimbo817,Revenge Tour,4-7,1338.92,1314.22,W2,134.74,W,bAnmly (Bryan)
+2024,11,11,bAnmly (Bryan),bAnmly,4-7,1100.84,1257.66,L4,123.1,L,jimbo817
+2024,11,12,kholabear,Cancun Tours,2-9,1247.3,1418.78,L4,113.74,L,lmphm
+2024,12,1,PutItOnYa,PutItOnYa,9-3,1482.3,1437.36,W1,123.46,W,lmphm
+2024,12,2,DVTV,GAWD TIER,7-5,1500.8,1421.28,W3,141.12,W,jimbo817
+2024,12,3,donblood,Cee Deez Chubb in ya mouf,7-5,1472.72,1443.26,W1,144.56,W,oooEcho
+2024,12,4,lmphm,Vegas,7-5,1437.86,1313.56,L1,119.82,L,PutItOnYa
+2024,12,5,keveezy,Bleed Blue,7-5,1393.06,1391.28,W4,90.86,W,Odeh1121
+2024,12,6,anth0nyng,🏆 WORLD CHAMPION 🏆,7-5,1368.94,1299.3,W2,118.3,W,kholabear
+2024,12,7,Odeh1121,Hairy Son,6-6,1371.1,1267.7,L2,85.88,L,keveezy
+2024,12,8,oooEcho,ABCeeDee U Lost 2 Me,6-6,1370.26,1336.84,L1,132.0,L,donblood
+2024,12,9,bvincenttt,Shake 'n Blake ,6-6,1233.7,1326.7,W1,144.0,W,bAnmly (Bryan)
+2024,12,10,jimbo817,Revenge Tour,4-8,1469.9,1455.34,L1,130.98,L,DVTV
+2024,12,11,bAnmly (Bryan),bAnmly,4-8,1181.92,1401.66,L5,81.08,L,bvincenttt
+2024,12,12,kholabear,Cancun Tours,2-10,1348.8,1537.08,L5,101.5,L,anth0nyng
+2024,13,1,PutItOnYa,PutItOnYa,10-3,1631.42,1569.74,W2,149.12,W,Odeh1121
+2024,13,2,DVTV,GAWD TIER,8-5,1604.38,1515.08,W4,103.58,W,kholabear
+2024,13,3,lmphm,Vegas,8-5,1587.92,1439.66,W1,150.06,W,keveezy
+2024,13,4,anth0nyng,🏆 WORLD CHAMPION 🏆,8-5,1529.56,1398.76,W3,160.62,W,jimbo817
+2024,13,5,donblood,Cee Deez Chubb in ya mouf,7-6,1575.56,1578.54,L1,102.84,L,bAnmly (Bryan)
+2024,13,6,keveezy,Bleed Blue,7-6,1519.16,1541.34,L1,126.1,L,lmphm
+2024,13,7,bvincenttt,Shake 'n Blake ,7-6,1352.6,1436.4,W2,118.9,W,oooEcho
+2024,13,8,Odeh1121,Hairy Son,6-7,1503.48,1416.82,L3,132.38,L,PutItOnYa
+2024,13,9,oooEcho,ABCeeDee U Lost 2 Me,6-7,1479.96,1455.74,L2,109.7,L,bvincenttt
+2024,13,10,bAnmly (Bryan),bAnmly,5-8,1317.2,1504.5,W1,135.28,W,donblood
+2024,13,11,jimbo817,Revenge Tour,4-9,1569.36,1615.96,L2,99.46,L,anth0nyng
+2024,13,12,kholabear,Cancun Tours,2-11,1442.6,1640.66,L6,93.8,L,DVTV
+2024,14,1,PutItOnYa,PutItOnYa,10-4,1751.14,1713.24,L1,119.72,L,keveezy
+2024,14,2,anth0nyng,🏆 WORLD CHAMPION 🏆,9-5,1667.34,1507.38,W4,137.78,W,DVTV
+2024,14,3,DVTV,GAWD TIER,8-6,1713.0,1652.86,L1,108.62,L,anth0nyng
+2024,14,4,lmphm,Vegas,8-6,1670.7,1569.88,L1,82.78,L,Odeh1121
+2024,14,5,keveezy,Bleed Blue,8-6,1662.66,1661.06,W1,143.5,W,PutItOnYa
+2024,14,6,bvincenttt,Shake 'n Blake ,8-6,1467.66,1550.1,W3,115.06,W,donblood
+2024,14,7,donblood,Cee Deez Chubb in ya mouf,7-7,1689.26,1693.6,L2,113.7,L,bvincenttt
+2024,14,8,oooEcho,ABCeeDee U Lost 2 Me,7-7,1655.8,1561.04,W1,175.84,W,bAnmly (Bryan)
+2024,14,9,Odeh1121,Hairy Son,7-7,1633.7,1499.6,W1,130.22,W,lmphm
+2024,14,10,bAnmly (Bryan),bAnmly,5-9,1422.5,1680.34,L1,105.3,L,oooEcho
+2024,14,11,jimbo817,Revenge Tour,4-10,1653.92,1786.74,L3,84.56,L,kholabear
+2024,14,12,kholabear,Cancun Tours,3-11,1613.38,1725.22,W1,170.78,W,jimbo817

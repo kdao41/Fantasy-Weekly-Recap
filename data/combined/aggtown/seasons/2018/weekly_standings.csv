@@ -1,0 +1,157 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2018,1,1,bvincenttt,Shake n Blake,1-0,169.22,95.78,W1,169.22,W,oooEcho
+2018,1,2,lmphm,Vegas,1-0,156.94,141.76,W1,156.94,W,Odeh1121
+2018,1,3,kholabear,God Zuerline,1-0,139.74,139.42,W1,139.74,W,DVTV
+2018,1,4,donblood,Two Gurleys One Cup,1-0,117.04,105.54,W1,117.04,W,jimbo817
+2018,1,5,wabaki (Lan Doan),Wabaki 88,1-0,113.1,108.24,W1,113.1,W,anth0nyng
+2018,1,6,keveezy,Like a Brees,1-0,109.56,106.22,W1,109.56,W,ramzz
+2018,1,7,Odeh1121,Kissing Cousins,0-1,141.76,156.94,L1,141.76,L,lmphm
+2018,1,8,DVTV,The Asa Akiras,0-1,139.42,139.74,L1,139.42,L,kholabear
+2018,1,9,anth0nyng,Prince of Plano,0-1,108.24,113.1,L1,108.24,L,wabaki (Lan Doan)
+2018,1,10,ramzz,Small town Gurl,0-1,106.22,109.56,L1,106.22,L,keveezy
+2018,1,11,jimbo817,Ligma,0-1,105.54,117.04,L1,105.54,L,donblood
+2018,1,12,oooEcho,oOo Cody,0-1,95.78,169.22,L1,95.78,L,bvincenttt
+2018,2,1,wabaki (Lan Doan),Wabaki 88,2-0,291.48,241.54,W2,178.38,W,jimbo817
+2018,2,2,kholabear,God Zuerline,2-0,285.64,258.66,W2,145.9,W,lmphm
+2018,2,3,Odeh1121,Kissing Cousins,1-1,296.16,254.98,W1,154.4,W,donblood
+2018,2,4,DVTV,The Asa Akiras,1-1,291.48,256.18,W1,152.06,W,ramzz
+2018,2,5,bvincenttt,Shake n Blake,1-1,280.76,224.36,L1,111.54,L,anth0nyng
+2018,2,6,lmphm,Vegas,1-1,276.18,287.66,L1,119.24,L,kholabear
+2018,2,7,anth0nyng,Prince of Plano,1-1,236.82,224.64,W1,128.58,W,bvincenttt
+2018,2,8,oooEcho,oOo Cody,1-1,217.54,262.44,W1,121.76,W,keveezy
+2018,2,9,donblood,Two Gurleys One Cup,1-1,215.08,259.94,L1,98.04,L,Odeh1121
+2018,2,10,keveezy,Like a Brees,1-1,202.78,227.98,L1,93.22,L,oooEcho
+2018,2,11,jimbo817,Ligma,0-2,238.84,295.42,L2,133.3,L,wabaki (Lan Doan)
+2018,2,12,ramzz,Small town Gurl,0-2,222.66,261.62,L2,116.44,L,DVTV
+2018,3,1,wabaki (Lan Doan),Wabaki 88,3-0,422.3,363.42,W3,130.82,W,bvincenttt
+2018,3,2,DVTV,The Asa Akiras,2-1,416.44,339.8,W2,124.96,W,oooEcho
+2018,3,3,lmphm,Vegas,2-1,395.64,406.86,W1,119.46,W,ramzz
+2018,3,4,kholabear,God Zuerline,2-1,394.24,391.02,L1,108.6,L,donblood
+2018,3,5,keveezy,Like a Brees,2-1,377.52,334.26,W1,174.74,W,anth0nyng
+2018,3,6,donblood,Two Gurleys One Cup,2-1,347.44,368.54,W1,132.36,W,kholabear
+2018,3,7,Odeh1121,Kissing Cousins,1-2,407.6,392.22,L1,111.44,L,jimbo817
+2018,3,8,bvincenttt,Shake n Blake,1-2,402.64,355.18,L2,121.88,L,wabaki (Lan Doan)
+2018,3,9,jimbo817,Ligma,1-2,376.08,406.86,W1,137.24,W,Odeh1121
+2018,3,10,anth0nyng,Prince of Plano,1-2,343.1,399.38,L1,106.28,L,keveezy
+2018,3,11,oooEcho,oOo Cody,1-2,301.16,387.4,L1,83.62,L,DVTV
+2018,3,12,ramzz,Small town Gurl,0-3,341.86,381.08,L3,119.2,L,lmphm
+2018,4,1,lmphm,Vegas,3-1,578.9,544.32,W2,183.26,W,oooEcho
+2018,4,2,wabaki (Lan Doan),Wabaki 88,3-1,569.16,538.2,L1,146.86,L,Odeh1121
+2018,4,3,DVTV,The Asa Akiras,3-1,557.24,441.58,W3,140.8,W,anth0nyng
+2018,4,4,kholabear,God Zuerline,3-1,556.82,491.56,W1,162.58,W,jimbo817
+2018,4,5,keveezy,Like a Brees,3-1,486.3,402.34,W2,108.78,W,bvincenttt
+2018,4,6,Odeh1121,Kissing Cousins,2-2,582.38,539.08,W1,174.78,W,wabaki (Lan Doan)
+2018,4,7,donblood,Two Gurleys One Cup,2-2,464.6,492.06,L1,117.16,L,ramzz
+2018,4,8,jimbo817,Ligma,1-3,476.62,569.44,L1,100.54,L,kholabear
+2018,4,9,bvincenttt,Shake n Blake,1-3,470.72,463.96,L3,68.08,L,keveezy
+2018,4,10,ramzz,Small town Gurl,1-3,465.38,498.24,W1,123.52,W,donblood
+2018,4,11,anth0nyng,Prince of Plano,1-3,444.88,540.18,L2,101.78,L,DVTV
+2018,4,12,oooEcho,oOo Cody,1-3,438.62,570.66,L2,137.46,L,lmphm
+2018,5,1,wabaki (Lan Doan),Wabaki 88,4-1,735.96,690.3,W1,166.8,W,keveezy
+2018,5,2,DVTV,The Asa Akiras,4-1,702.08,561.7,W4,144.84,W,bvincenttt
+2018,5,3,kholabear,God Zuerline,4-1,697.7,603.3,W2,140.88,W,Odeh1121
+2018,5,4,lmphm,Vegas,3-2,675.2,665.34,L1,96.3,L,anth0nyng
+2018,5,5,keveezy,Like a Brees,3-2,638.4,569.14,L1,152.1,L,wabaki (Lan Doan)
+2018,5,6,donblood,Two Gurleys One Cup,3-2,586.68,587.3,W1,122.08,W,oooEcho
+2018,5,7,Odeh1121,Kissing Cousins,2-3,694.12,679.96,L1,111.74,L,kholabear
+2018,5,8,jimbo817,Ligma,2-3,603.92,692.18,W1,127.3,W,ramzz
+2018,5,9,anth0nyng,Prince of Plano,2-3,565.9,636.48,W1,121.02,W,lmphm
+2018,5,10,bvincenttt,Shake n Blake,1-4,590.84,608.8,L4,120.12,L,DVTV
+2018,5,11,ramzz,Small town Gurl,1-4,588.12,625.54,L1,122.74,L,jimbo817
+2018,5,12,oooEcho,oOo Cody,1-4,533.86,692.74,L3,95.24,L,donblood
+2018,6,1,kholabear,God Zuerline,5-1,865.8,769.86,W3,168.1,W,wabaki (Lan Doan)
+2018,6,2,wabaki (Lan Doan),Wabaki 88,4-2,902.52,858.4,L1,166.56,L,kholabear
+2018,6,3,DVTV,The Asa Akiras,4-2,796.22,681.94,L1,94.14,L,keveezy
+2018,6,4,keveezy,Like a Brees,4-2,758.64,663.28,W1,120.24,W,DVTV
+2018,6,5,donblood,Two Gurleys One Cup,4-2,747.76,698.82,W2,161.08,W,anth0nyng
+2018,6,6,lmphm,Vegas,3-3,775.5,803.12,L2,100.3,L,bvincenttt
+2018,6,7,jimbo817,Ligma,3-3,713.4,793.68,W2,109.48,W,oooEcho
+2018,6,8,Odeh1121,Kissing Cousins,2-4,770.74,859.02,L2,76.62,L,ramzz
+2018,6,9,ramzz,Small town Gurl,2-4,767.18,702.16,W1,179.06,W,Odeh1121
+2018,6,10,bvincenttt,Shake n Blake,2-4,728.62,709.1,W1,137.78,W,lmphm
+2018,6,11,anth0nyng,Prince of Plano,2-4,677.42,797.56,L1,111.52,L,donblood
+2018,6,12,oooEcho,oOo Cody,1-5,635.36,802.22,L4,101.5,L,jimbo817
+2018,7,1,kholabear,God Zuerline,5-2,991.26,903.5,L1,125.46,L,ramzz
+2018,7,2,DVTV,The Asa Akiras,5-2,925.4,809.36,W1,129.18,W,wabaki (Lan Doan)
+2018,7,3,donblood,Two Gurleys One Cup,5-2,897.68,825.08,W3,149.92,W,bvincenttt
+2018,7,4,wabaki (Lan Doan),Wabaki 88,4-3,1029.94,987.58,L2,127.42,L,DVTV
+2018,7,5,lmphm,Vegas,4-3,901.86,914.0,W1,126.36,W,keveezy
+2018,7,6,keveezy,Like a Brees,4-3,869.52,789.64,L1,110.88,L,lmphm
+2018,7,7,jimbo817,Ligma,4-3,861.9,913.96,W3,148.5,W,anth0nyng
+2018,7,8,ramzz,Small town Gurl,3-4,900.82,827.62,W2,133.64,W,kholabear
+2018,7,9,Odeh1121,Kissing Cousins,2-5,868.08,974.4,L3,97.34,L,oooEcho
+2018,7,10,bvincenttt,Shake n Blake,2-5,854.88,859.02,L1,126.26,L,donblood
+2018,7,11,anth0nyng,Prince of Plano,2-5,797.7,946.06,L2,120.28,L,jimbo817
+2018,7,12,oooEcho,oOo Cody,2-5,750.74,899.56,W1,115.38,W,Odeh1121
+2018,8,1,kholabear,God Zuerline,6-2,1104.42,1005.16,W1,113.16,W,oooEcho
+2018,8,2,DVTV,The Asa Akiras,5-3,1060.5,952.66,L1,135.1,L,lmphm
+2018,8,3,lmphm,Vegas,5-3,1045.16,1049.1,W2,143.3,W,DVTV
+2018,8,4,donblood,Two Gurleys One Cup,5-3,1025.8,972.94,L1,128.12,L,keveezy
+2018,8,5,keveezy,Like a Brees,5-3,1017.38,917.76,W1,147.86,W,donblood
+2018,8,6,jimbo817,Ligma,5-3,982.74,1031.98,W4,120.84,W,bvincenttt
+2018,8,7,wabaki (Lan Doan),Wabaki 88,4-4,1174.82,1143.08,L3,144.88,L,ramzz
+2018,8,8,ramzz,Small town Gurl,4-4,1056.32,972.5,W3,155.5,W,wabaki (Lan Doan)
+2018,8,9,Odeh1121,Kissing Cousins,3-5,999.44,1077.2,W1,131.36,W,anth0nyng
+2018,8,10,bvincenttt,Shake n Blake,2-6,972.9,979.86,L2,118.02,L,jimbo817
+2018,8,11,anth0nyng,Prince of Plano,2-6,900.5,1077.42,L3,102.8,L,Odeh1121
+2018,8,12,oooEcho,oOo Cody,2-6,852.4,1012.72,L1,101.66,L,kholabear
+2018,9,1,kholabear,God Zuerline,7-2,1256.1,1086.0,W2,151.68,W,anth0nyng
+2018,9,2,donblood,Two Gurleys One Cup,6-3,1169.6,1108.48,W1,143.8,W,DVTV
+2018,9,3,lmphm,Vegas,6-3,1166.56,1148.5,W3,121.4,W,wabaki (Lan Doan)
+2018,9,4,keveezy,Like a Brees,6-3,1156.4,1050.68,W2,139.02,W,jimbo817
+2018,9,5,DVTV,The Asa Akiras,5-4,1196.04,1096.46,L2,135.54,L,donblood
+2018,9,6,jimbo817,Ligma,5-4,1115.66,1171.0,L1,132.92,L,keveezy
+2018,9,7,wabaki (Lan Doan),Wabaki 88,4-5,1274.22,1264.48,L4,99.4,L,lmphm
+2018,9,8,ramzz,Small town Gurl,4-5,1153.24,1081.76,L1,96.92,L,oooEcho
+2018,9,9,bvincenttt,Shake n Blake,3-6,1130.7,1084.42,W1,157.8,W,Odeh1121
+2018,9,10,Odeh1121,Kissing Cousins,3-6,1104.0,1235.0,L1,104.56,L,bvincenttt
+2018,9,11,oooEcho,oOo Cody,3-6,961.66,1109.64,W1,109.26,W,ramzz
+2018,9,12,anth0nyng,Prince of Plano,2-7,981.34,1229.1,L4,80.84,L,kholabear
+2018,10,1,kholabear,God Zuerline,8-2,1409.02,1184.44,W3,152.92,W,bvincenttt
+2018,10,2,donblood,Two Gurleys One Cup,7-3,1314.36,1219.08,W2,144.76,W,lmphm
+2018,10,3,keveezy,Like a Brees,7-3,1311.44,1177.9,W3,155.04,W,Odeh1121
+2018,10,4,DVTV,The Asa Akiras,6-4,1375.36,1201.08,W1,179.32,W,jimbo817
+2018,10,5,lmphm,Vegas,6-4,1277.16,1293.26,L1,110.6,L,donblood
+2018,10,6,wabaki (Lan Doan),Wabaki 88,5-5,1415.44,1338.54,W1,141.22,W,oooEcho
+2018,10,7,jimbo817,Ligma,5-5,1220.28,1350.32,L2,104.62,L,DVTV
+2018,10,8,ramzz,Small town Gurl,4-6,1263.08,1210.28,L2,109.84,L,anth0nyng
+2018,10,9,Odeh1121,Kissing Cousins,3-7,1231.22,1390.04,L2,127.22,L,keveezy
+2018,10,10,bvincenttt,Shake n Blake,3-7,1229.14,1237.34,L1,98.44,L,kholabear
+2018,10,11,anth0nyng,Prince of Plano,3-7,1109.86,1338.94,W1,128.52,W,ramzz
+2018,10,12,oooEcho,oOo Cody,3-7,1035.72,1250.86,L1,74.06,L,wabaki (Lan Doan)
+2018,11,1,kholabear,God Zuerline,9-2,1573.0,1306.66,W4,163.98,W,keveezy
+2018,11,2,DVTV,The Asa Akiras,7-4,1520.08,1328.16,W2,144.72,W,Odeh1121
+2018,11,3,donblood,Two Gurleys One Cup,7-4,1461.88,1373.84,L1,147.52,L,wabaki (Lan Doan)
+2018,11,4,keveezy,Like a Brees,7-4,1433.66,1341.88,L1,122.22,L,kholabear
+2018,11,5,lmphm,Vegas,7-4,1430.9,1404.08,W1,153.74,W,jimbo817
+2018,11,6,wabaki (Lan Doan),Wabaki 88,6-5,1570.2,1486.06,W2,154.76,W,donblood
+2018,11,7,jimbo817,Ligma,5-6,1331.1,1504.06,L3,110.82,L,lmphm
+2018,11,8,ramzz,Small town Gurl,4-7,1371.92,1332.98,L3,108.84,L,bvincenttt
+2018,11,9,bvincenttt,Shake n Blake,4-7,1351.84,1346.18,W1,122.7,W,ramzz
+2018,11,10,anth0nyng,Prince of Plano,4-7,1226.16,1400.36,W2,116.3,W,oooEcho
+2018,11,11,Odeh1121,Kissing Cousins,3-8,1358.3,1534.76,L3,127.08,L,DVTV
+2018,11,12,oooEcho,oOo Cody,3-8,1097.14,1367.16,L2,61.42,L,anth0nyng
+2018,12,1,kholabear,God Zuerline,9-3,1720.24,1469.94,L1,147.24,L,DVTV
+2018,12,2,DVTV,The Asa Akiras,8-4,1683.36,1475.4,W3,163.28,W,kholabear
+2018,12,3,lmphm,Vegas,8-4,1555.98,1496.66,W2,125.08,W,Odeh1121
+2018,12,4,wabaki (Lan Doan),Wabaki 88,7-5,1703.88,1612.98,W3,133.68,W,anth0nyng
+2018,12,5,donblood,Two Gurleys One Cup,7-5,1596.9,1524.14,L2,135.02,L,jimbo817
+2018,12,6,keveezy,Like a Brees,7-5,1546.4,1456.82,L2,112.74,L,ramzz
+2018,12,7,jimbo817,Ligma,6-6,1481.4,1639.08,W1,150.3,W,donblood
+2018,12,8,ramzz,Small town Gurl,5-7,1486.86,1445.72,W1,114.94,W,keveezy
+2018,12,9,bvincenttt,Shake n Blake,5-7,1469.6,1436.7,W2,117.76,W,oooEcho
+2018,12,10,anth0nyng,Prince of Plano,4-8,1353.08,1534.04,L1,126.92,L,wabaki (Lan Doan)
+2018,12,11,Odeh1121,Kissing Cousins,3-9,1450.88,1659.84,L4,92.58,L,lmphm
+2018,12,12,oooEcho,oOo Cody,3-9,1187.66,1484.92,L3,90.52,L,bvincenttt
+2018,13,1,kholabear,God Zuerline,9-4,1839.14,1633.78,L2,118.9,L,lmphm
+2018,13,2,DVTV,The Asa Akiras,9-4,1805.14,1595.16,W4,121.78,W,ramzz
+2018,13,3,lmphm,Vegas,9-4,1719.82,1615.56,W3,163.84,W,kholabear
+2018,13,4,keveezy,Like a Brees,8-5,1654.48,1559.56,W1,108.08,W,oooEcho
+2018,13,5,wabaki (Lan Doan),Wabaki 88,7-6,1815.52,1731.04,L1,111.64,L,jimbo817
+2018,13,6,donblood,Two Gurleys One Cup,7-6,1702.4,1649.58,L3,105.5,L,Odeh1121
+2018,13,7,jimbo817,Ligma,7-6,1599.46,1750.72,W2,118.06,W,wabaki (Lan Doan)
+2018,13,8,ramzz,Small town Gurl,5-8,1606.62,1567.5,L1,119.76,L,DVTV
+2018,13,9,bvincenttt,Shake n Blake,5-8,1567.7,1544.34,L1,98.1,L,anth0nyng
+2018,13,10,anth0nyng,Prince of Plano,5-8,1460.72,1632.14,W1,107.64,W,bvincenttt
+2018,13,11,Odeh1121,Kissing Cousins,4-9,1576.32,1765.34,W1,125.44,W,donblood
+2018,13,12,oooEcho,oOo Cody,3-10,1290.4,1593.0,L4,102.74,L,keveezy

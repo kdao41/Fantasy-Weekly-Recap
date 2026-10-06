@@ -1,0 +1,79 @@
+{
+ "season": 2020,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "FREE WIN",
+     "manager": "dexclusive",
+     "points": 128.04,
+     "projected": 131.53,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 142.5,
+     "projected": 129.87,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "DYNAHMIGHHHH",
+     "manager": "yckyb",
+     "points": 134.6,
+     "projected": 127.74,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "simp.",
+     "manager": "lmphm",
+     "points": 162.52,
+     "projected": 137.07,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "lmphm",
+   "team": "simp.",
+   "points": 162.52
+  },
+  "low_score": {
+   "manager": "dexclusive",
+   "team": "FREE WIN",
+   "points": 128.04
+  },
+  "closest_game": {
+   "winner": "anth0nyng",
+   "winner_points": 142.5,
+   "loser": "dexclusive",
+   "loser_points": 128.04,
+   "margin": 14.46
+  },
+  "biggest_blowout": {
+   "winner": "lmphm",
+   "winner_points": 162.52,
+   "loser": "yckyb",
+   "loser_points": 134.6,
+   "margin": 27.92
+  }
+ }
+}

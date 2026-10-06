@@ -1,0 +1,570 @@
+{
+ "season": 2019,
+ "league": "Aggtown FFL",
+ "finished": true,
+ "champion": {
+  "team_id": 10,
+  "team": "GOD TIER",
+  "manager": "DVTV",
+  "final_rank": 1,
+  "playoff_seed": 2,
+  "wins": 8,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1554.62,
+  "points_against": 1467.68
+ },
+ "championship_game": {
+  "week": 16,
+  "winner": "DVTV",
+  "winner_team": "GOD TIER",
+  "winner_points": 94.68,
+  "loser": "ramzz",
+  "loser_team": "Chubby Johnson",
+  "loser_points": 89.06
+ },
+ "runner_up": {
+  "team_id": 5,
+  "team": "Chubby Johnson",
+  "manager": "ramzz",
+  "final_rank": 2,
+  "playoff_seed": 5,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1789.24,
+  "points_against": 1713.74
+ },
+ "third_place": {
+  "team_id": 9,
+  "team": "Loading FAILED.",
+  "manager": "keveezy",
+  "final_rank": 3,
+  "playoff_seed": 3,
+  "wins": 8,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1546.58,
+  "points_against": 1505.38
+ },
+ "last_place": {
+  "team_id": 3,
+  "team": "Hide and Zeke",
+  "manager": "Odeh1121",
+  "final_rank": 12,
+  "playoff_seed": null,
+  "wins": 4,
+  "losses": 9,
+  "ties": 0,
+  "points_for": 1477.24,
+  "points_against": 1714.68
+ },
+ "regular_season_winner": {
+  "team_id": 7,
+  "team": "Prince of Mahomes",
+  "manager": "anth0nyng",
+  "final_rank": 8,
+  "playoff_seed": 1,
+  "wins": 11,
+  "losses": 2,
+  "ties": 0,
+  "points_for": 1719.98,
+  "points_against": 1508.28
+ },
+ "most_points": {
+  "team_id": 2,
+  "team": "Run CMC",
+  "manager": "jimbo817",
+  "final_rank": 6,
+  "playoff_seed": 4,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1799.7,
+  "points_against": 1612.3
+ },
+ "settings": {
+  "league_key": "390.l.598446",
+  "num_teams": 12,
+  "start_week": 1,
+  "end_week": 16,
+  "playoff_week_start": 14,
+  "num_playoff_teams": 8,
+  "scoring_type": "head",
+  "draft_type": "self",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R/T",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   },
+   {
+    "position": "IR",
+    "count": 1
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 10,
+   "team": "GOD TIER",
+   "manager": "DVTV",
+   "final_rank": 1,
+   "playoff_seed": 2,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1554.62,
+   "points_against": 1467.68
+  },
+  {
+   "team_id": 5,
+   "team": "Chubby Johnson",
+   "manager": "ramzz",
+   "final_rank": 2,
+   "playoff_seed": 5,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1789.24,
+   "points_against": 1713.74
+  },
+  {
+   "team_id": 9,
+   "team": "Loading FAILED.",
+   "manager": "keveezy",
+   "final_rank": 3,
+   "playoff_seed": 3,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1546.58,
+   "points_against": 1505.38
+  },
+  {
+   "team_id": 6,
+   "team": "oOo Cody",
+   "manager": "oooEcho",
+   "final_rank": 4,
+   "playoff_seed": 8,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1564.68,
+   "points_against": 1580.62
+  },
+  {
+   "team_id": 12,
+   "team": "Saquanda Forever!",
+   "manager": "PutItOnYa",
+   "final_rank": 5,
+   "playoff_seed": 7,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1469.72,
+   "points_against": 1552.32
+  },
+  {
+   "team_id": 2,
+   "team": "Run CMC",
+   "manager": "jimbo817",
+   "final_rank": 6,
+   "playoff_seed": 4,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1799.7,
+   "points_against": 1612.3
+  },
+  {
+   "team_id": 1,
+   "team": "Lights Kamara ACTION",
+   "manager": "donblood",
+   "final_rank": 7,
+   "playoff_seed": 6,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1652.32,
+   "points_against": 1581.18
+  },
+  {
+   "team_id": 7,
+   "team": "Prince of Mahomes",
+   "manager": "anth0nyng",
+   "final_rank": 8,
+   "playoff_seed": 1,
+   "wins": 11,
+   "losses": 2,
+   "ties": 0,
+   "points_for": 1719.98,
+   "points_against": 1508.28
+  },
+  {
+   "team_id": 4,
+   "team": "King Goffrey",
+   "manager": "kholabear",
+   "final_rank": 9,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1511.42,
+   "points_against": 1623.04
+  },
+  {
+   "team_id": 8,
+   "team": "Shake n Blake",
+   "manager": "bvincenttt",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1485.32,
+   "points_against": 1584.4
+  },
+  {
+   "team_id": 11,
+   "team": "Vegas",
+   "manager": "lmphm",
+   "final_rank": 11,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1279.62,
+   "points_against": 1406.82
+  },
+  {
+   "team_id": 3,
+   "team": "Hide and Zeke",
+   "manager": "Odeh1121",
+   "final_rank": 12,
+   "playoff_seed": null,
+   "wins": 4,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1477.24,
+   "points_against": 1714.68
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "donblood",
+     "points": 90.46,
+     "projected": 128.78,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "keveezy",
+     "points": 120.5,
+     "projected": 129.8,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "jimbo817",
+     "points": 156.3,
+     "projected": 141.13,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "ramzz",
+     "points": 195.28,
+     "projected": 132.48,
+     "won": true
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 131.62,
+     "projected": 122.59,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 125.72,
+     "projected": 133.86,
+     "won": false
+    }
+   ],
+   "winner": "oooEcho"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 119.54,
+     "projected": 113.74,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "PutItOnYa",
+     "points": 97.0,
+     "projected": 125.58,
+     "won": false
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "donblood",
+     "points": 133.62,
+     "projected": 127.59,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "PutItOnYa",
+     "points": 142.46,
+     "projected": 114.68,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "jimbo817",
+     "points": 171.28,
+     "projected": 140.11,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 129.8,
+     "projected": 138.05,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "ramzz",
+     "points": 125.12,
+     "projected": 144.98,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 113.0,
+     "projected": 122.77,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "keveezy",
+     "points": 96.02,
+     "projected": 121.67,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 141.46,
+     "projected": 101.22,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "donblood",
+     "points": 150.84,
+     "projected": 121.51,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 141.74,
+     "projected": 116.35,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "jimbo817",
+     "points": 130.02,
+     "projected": 142.87,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "PutItOnYa",
+     "points": 188.72,
+     "projected": 127.0,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "ramzz",
+     "points": 89.06,
+     "projected": 124.23,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 94.68,
+     "projected": 121.43,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 100.86,
+     "projected": 124.36,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "keveezy",
+     "points": 132.14,
+     "projected": 125.51,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  }
+ ]
+}

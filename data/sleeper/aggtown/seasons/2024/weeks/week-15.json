@@ -1,0 +1,125 @@
+{
+ "season": 2024,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 134.26,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "GAWD TIER",
+     "manager": "DVTV",
+     "points": 81.7,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Hairy Son",
+     "manager": "Odeh1121",
+     "points": 150.4,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "ABCeeDee U Lost 2 Me",
+     "manager": "oooEcho",
+     "points": 105.64,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Cee Deez Chubb in ya mouf",
+     "manager": "donblood",
+     "points": 114.16,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "bAnmly",
+     "manager": "bAnmly (Bryan)",
+     "points": 102.44,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Bleed Blue",
+     "manager": "keveezy",
+     "points": 155.82,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 161.0,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "lmphm",
+   "team": "Vegas",
+   "points": 161.0
+  },
+  "low_score": {
+   "manager": "DVTV",
+   "team": "GAWD TIER",
+   "points": 81.7
+  },
+  "closest_game": {
+   "winner": "lmphm",
+   "winner_points": 161.0,
+   "loser": "keveezy",
+   "loser_points": 155.82,
+   "margin": 5.18
+  },
+  "biggest_blowout": {
+   "winner": "bvincenttt",
+   "winner_points": 134.26,
+   "loser": "DVTV",
+   "loser_points": 81.7,
+   "margin": 52.56
+  }
+ }
+}

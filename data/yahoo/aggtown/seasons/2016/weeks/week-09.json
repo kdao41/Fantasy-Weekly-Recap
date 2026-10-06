@@ -1,0 +1,317 @@
+{
+ "season": 2016,
+ "week": 9,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Daks Out for Harambe",
+     "manager": "Don",
+     "points": 105.26,
+     "projected": 128.9,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 114.72,
+     "projected": 120.19,
+     "won": true
+    }
+   ],
+   "winner": "Cody"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Harambe's Ghost",
+     "manager": "Ahmad",
+     "points": 120.36,
+     "projected": 112.68,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "Muso (Lan Doan)",
+     "points": 91.46,
+     "projected": 105.12,
+     "won": false
+    }
+   ],
+   "winner": "Ahmad"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Ding Ding Sauce",
+     "manager": "Jimmy",
+     "points": 116.3,
+     "projected": 130.56,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 125.36,
+     "projected": 138.8,
+     "won": true
+    }
+   ],
+   "winner": "mrlampham"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Gordon Ramzi",
+     "manager": "Ramzi",
+     "points": 173.8,
+     "projected": 123.7,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "The Nick Folks",
+     "manager": "Anthony",
+     "points": 126.18,
+     "projected": 119.26,
+     "won": false
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "AnyHolesTheGoal",
+     "manager": "Kevin D",
+     "points": 138.68,
+     "projected": 114.14,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 130.44,
+     "projected": 128.75,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 11,
+     "team": "Learner of the Drugs",
+     "manager": "Daniel Vu",
+     "points": 116.86,
+     "projected": 108.21,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Need Sum Milk",
+     "manager": "Khoa",
+     "points": 99.14,
+     "projected": 115.3,
+     "won": false
+    }
+   ],
+   "winner": "Daniel Vu"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Ramzi",
+   "team": "Gordon Ramzi",
+   "points": 173.8
+  },
+  "low_score": {
+   "manager": "Muso (Lan Doan)",
+   "team": "Wabaki 88",
+   "points": 91.46
+  },
+  "closest_game": {
+   "winner": "Kevin D",
+   "winner_points": 138.68,
+   "loser": "Blake",
+   "loser_points": 130.44,
+   "margin": 8.24
+  },
+  "biggest_blowout": {
+   "winner": "Ramzi",
+   "winner_points": 173.8,
+   "loser": "Anthony",
+   "loser_points": 126.18,
+   "margin": 47.62
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Ramzi",
+   "team": "Gordon Ramzi",
+   "record": "7-2",
+   "points_for": 1349.52,
+   "points_against": 1052.82,
+   "streak": "W1",
+   "week_points": 173.8,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 2,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "7-2",
+   "points_for": 1174.3,
+   "points_against": 1033.86,
+   "streak": "W1",
+   "week_points": 125.36,
+   "week_result": "W",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 3,
+   "manager": "Jimmy",
+   "team": "Ding Ding Sauce",
+   "record": "6-3",
+   "points_for": 1086.6,
+   "points_against": 1008.48,
+   "streak": "L1",
+   "week_points": 116.3,
+   "week_result": "L",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 4,
+   "manager": "Ahmad",
+   "team": "Harambe's Ghost",
+   "record": "6-3",
+   "points_for": 1078.12,
+   "points_against": 1041.7,
+   "streak": "W3",
+   "week_points": 120.36,
+   "week_result": "W",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 5,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "6-3",
+   "points_for": 1052.8,
+   "points_against": 1007.68,
+   "streak": "L1",
+   "week_points": 130.44,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 6,
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "record": "5-4",
+   "points_for": 989.14,
+   "points_against": 1019.74,
+   "streak": "W4",
+   "week_points": 114.72,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 7,
+   "manager": "Kevin D",
+   "team": "AnyHolesTheGoal",
+   "record": "4-5",
+   "points_for": 1113.3,
+   "points_against": 1178.06,
+   "streak": "W2",
+   "week_points": 138.68,
+   "week_result": "W",
+   "opponent": "Blake"
+  },
+  {
+   "rank": 8,
+   "manager": "Don",
+   "team": "Daks Out for Harambe",
+   "record": "4-5",
+   "points_for": 1070.22,
+   "points_against": 1029.5,
+   "streak": "L1",
+   "week_points": 105.26,
+   "week_result": "L",
+   "opponent": "Cody"
+  },
+  {
+   "rank": 9,
+   "manager": "Anthony",
+   "team": "The Nick Folks",
+   "record": "3-6",
+   "points_for": 1032.74,
+   "points_against": 1134.84,
+   "streak": "L4",
+   "week_points": 126.18,
+   "week_result": "L",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 10,
+   "manager": "Daniel Vu",
+   "team": "Learner of the Drugs",
+   "record": "3-6",
+   "points_for": 995.46,
+   "points_against": 1104.16,
+   "streak": "W1",
+   "week_points": 116.86,
+   "week_result": "W",
+   "opponent": "Khoa"
+  },
+  {
+   "rank": 11,
+   "manager": "Muso (Lan Doan)",
+   "team": "Wabaki 88",
+   "record": "2-7",
+   "points_for": 955.24,
+   "points_against": 1161.16,
+   "streak": "L4",
+   "week_points": 91.46,
+   "week_result": "L",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 12,
+   "manager": "Khoa",
+   "team": "Need Sum Milk",
+   "record": "1-8",
+   "points_for": 976.34,
+   "points_against": 1101.78,
+   "streak": "L3",
+   "week_points": 99.14,
+   "week_result": "L",
+   "opponent": "Daniel Vu"
+  }
+ ]
+}

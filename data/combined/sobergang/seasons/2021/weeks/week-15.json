@@ -1,0 +1,79 @@
+{
+ "season": 2021,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shrooms",
+     "manager": "PutItOnYa",
+     "points": 109.34,
+     "projected": 113.38,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "Abadahh",
+     "points": 109.66,
+     "projected": 134.28,
+     "won": true
+    }
+   ],
+   "winner": "Abadahh"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "dexclusive",
+     "points": 85.58,
+     "projected": 137.92,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "jigri",
+     "points": 73.98,
+     "projected": 136.17,
+     "won": false
+    }
+   ],
+   "winner": "dexclusive"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Abadahh",
+   "team": "Drier than a Popeyes biscuit",
+   "points": 109.66
+  },
+  "low_score": {
+   "manager": "jigri",
+   "team": "Washed",
+   "points": 73.98
+  },
+  "closest_game": {
+   "winner": "Abadahh",
+   "winner_points": 109.66,
+   "loser": "PutItOnYa",
+   "loser_points": 109.34,
+   "margin": 0.32
+  },
+  "biggest_blowout": {
+   "winner": "dexclusive",
+   "winner_points": 85.58,
+   "loser": "jigri",
+   "loser_points": 73.98,
+   "margin": 11.6
+  }
+ }
+}

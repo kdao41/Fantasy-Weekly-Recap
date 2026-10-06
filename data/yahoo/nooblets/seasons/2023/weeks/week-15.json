@@ -1,0 +1,79 @@
+{
+ "season": 2023,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Ra-Dogged",
+     "manager": "Kevin D",
+     "points": 133.46,
+     "projected": 118.5,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "y c k y",
+     "manager": "Tommy",
+     "points": 115.18,
+     "projected": 123.82,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Waddleburger Pattymelt",
+     "manager": "Don",
+     "points": 139.0,
+     "projected": 119.38,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "Dex",
+     "manager": "Dexter",
+     "points": 102.26,
+     "projected": 115.39,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Don",
+   "team": "Waddleburger Pattymelt",
+   "points": 139.0
+  },
+  "low_score": {
+   "manager": "Dexter",
+   "team": "Dex",
+   "points": 102.26
+  },
+  "closest_game": {
+   "winner": "Kevin D",
+   "winner_points": 133.46,
+   "loser": "Tommy",
+   "loser_points": 115.18,
+   "margin": 18.28
+  },
+  "biggest_blowout": {
+   "winner": "Don",
+   "winner_points": 139.0,
+   "loser": "Dexter",
+   "loser_points": 102.26,
+   "margin": 36.74
+  }
+ }
+}

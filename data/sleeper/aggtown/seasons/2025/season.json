@@ -1,0 +1,446 @@
+{
+ "season": 2025,
+ "league": "AGGTOWN FANTASY LEAGUE",
+ "finished": true,
+ "champion": {
+  "team_id": 5,
+  "team": "We bleed blue",
+  "manager": "keveezy",
+  "final_rank": 1,
+  "playoff_seed": 2,
+  "wins": 11,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1823.24,
+  "points_against": 1577.52
+ },
+ "championship_game": {
+  "week": 17,
+  "winner": "keveezy",
+  "winner_team": "We bleed blue",
+  "winner_points": 114.76,
+  "loser": "Odeh1121",
+  "loser_team": "I Gibbs the Dicker",
+  "loser_points": 81.98
+ },
+ "runner_up": {
+  "team_id": 2,
+  "team": "I Gibbs the Dicker",
+  "manager": "Odeh1121",
+  "final_rank": 2,
+  "playoff_seed": 1,
+  "wins": 12,
+  "losses": 2,
+  "ties": 0,
+  "points_for": 1773.99,
+  "points_against": 1579.12
+ },
+ "third_place": {
+  "team_id": 10,
+  "team": "Mac Daddy",
+  "manager": "jimbo817",
+  "final_rank": 3,
+  "playoff_seed": 5,
+  "wins": 8,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1612.14,
+  "points_against": 1646.32
+ },
+ "last_place": {
+  "team_id": 4,
+  "team": "Cee Deez Chubb in ya mouf",
+  "manager": "donblood",
+  "final_rank": 12,
+  "playoff_seed": null,
+  "wins": 3,
+  "losses": 11,
+  "ties": 0,
+  "points_for": 1601.08,
+  "points_against": 1705.2
+ },
+ "regular_season_winner": {
+  "team_id": 2,
+  "team": "I Gibbs the Dicker",
+  "manager": "Odeh1121",
+  "final_rank": 2,
+  "playoff_seed": 1,
+  "wins": 12,
+  "losses": 2,
+  "ties": 0,
+  "points_for": 1773.99,
+  "points_against": 1579.12
+ },
+ "most_points": {
+  "team_id": 5,
+  "team": "We bleed blue",
+  "manager": "keveezy",
+  "final_rank": 1,
+  "playoff_seed": 2,
+  "wins": 11,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1823.24,
+  "points_against": 1577.52
+ },
+ "settings": {
+  "league_key": "1257116455862808576",
+  "num_teams": 12,
+  "start_week": 1,
+  "end_week": 17,
+  "playoff_week_start": 15,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "snake",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "FLEX",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 5,
+   "team": "We bleed blue",
+   "manager": "keveezy",
+   "final_rank": 1,
+   "playoff_seed": 2,
+   "wins": 11,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1823.24,
+   "points_against": 1577.52
+  },
+  {
+   "team_id": 2,
+   "team": "I Gibbs the Dicker",
+   "manager": "Odeh1121",
+   "final_rank": 2,
+   "playoff_seed": 1,
+   "wins": 12,
+   "losses": 2,
+   "ties": 0,
+   "points_for": 1773.99,
+   "points_against": 1579.12
+  },
+  {
+   "team_id": 10,
+   "team": "Mac Daddy",
+   "manager": "jimbo817",
+   "final_rank": 3,
+   "playoff_seed": 5,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1612.14,
+   "points_against": 1646.32
+  },
+  {
+   "team_id": 9,
+   "team": "Van Jefferson III",
+   "manager": "anth0nyng",
+   "final_rank": 4,
+   "playoff_seed": 6,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1775.54,
+   "points_against": 1668.06
+  },
+  {
+   "team_id": 1,
+   "team": "Shake 'n Blake ",
+   "manager": "bvincenttt",
+   "final_rank": 5,
+   "playoff_seed": 3,
+   "wins": 11,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1732.82,
+   "points_against": 1653.72
+  },
+  {
+   "team_id": 11,
+   "team": "PutItOnYa",
+   "manager": "PutItOnYa",
+   "final_rank": 6,
+   "playoff_seed": 4,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1653.38,
+   "points_against": 1584.64
+  },
+  {
+   "team_id": 8,
+   "team": "Knuck if U Buck",
+   "manager": "wabaki (Lan Doan)",
+   "final_rank": 7,
+   "playoff_seed": null,
+   "wins": 2,
+   "losses": 12,
+   "ties": 0,
+   "points_for": 1486.64,
+   "points_against": 1739.64
+  },
+  {
+   "team_id": 6,
+   "team": "Vegas",
+   "manager": "lmphm",
+   "final_rank": 8,
+   "playoff_seed": null,
+   "wins": 3,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1348.08,
+   "points_against": 1698.2
+  },
+  {
+   "team_id": 12,
+   "team": "Parkland Hospital",
+   "manager": "kholabear",
+   "final_rank": 9,
+   "playoff_seed": null,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1524.86,
+   "points_against": 1508.38
+  },
+  {
+   "team_id": 3,
+   "team": "Pablo Torre Scores Out",
+   "manager": "DVTV",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1632.2,
+   "points_against": 1472.26
+  },
+  {
+   "team_id": 7,
+   "team": "ABCeeDee U Lost 2 Me",
+   "manager": "oooEcho",
+   "final_rank": 11,
+   "playoff_seed": null,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1549.8,
+   "points_against": 1680.72
+  },
+  {
+   "team_id": 4,
+   "team": "Cee Deez Chubb in ya mouf",
+   "manager": "donblood",
+   "final_rank": 12,
+   "playoff_seed": null,
+   "wins": 3,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1601.08,
+   "points_against": 1705.2
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 96.7,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Van Jefferson III",
+     "manager": "anth0nyng",
+     "points": 124.8,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "Mac Daddy",
+     "manager": "jimbo817",
+     "points": 135.82,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 90.62,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 155.7,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 134.4,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "I Gibbs the Dicker",
+     "manager": "Odeh1121",
+     "points": 124.96,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Mac Daddy",
+     "manager": "jimbo817",
+     "points": 123.16,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "We bleed blue",
+     "manager": "keveezy",
+     "points": 155.08,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Van Jefferson III",
+     "manager": "anth0nyng",
+     "points": 120.16,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "I Gibbs the Dicker",
+     "manager": "Odeh1121",
+     "points": 81.98,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "We bleed blue",
+     "manager": "keveezy",
+     "points": 114.76,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Van Jefferson III",
+     "manager": "anth0nyng",
+     "points": 90.1,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Mac Daddy",
+     "manager": "jimbo817",
+     "points": 112.28,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "jimbo817"
+  }
+ ]
+}

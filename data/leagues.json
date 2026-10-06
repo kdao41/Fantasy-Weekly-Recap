@@ -1,0 +1,44 @@
+{
+ "_about": "Each league's Sleeper id and the Yahoo history it continues. `people` links a Sleeper display name to that person's Yahoo nickname in the matching Yahoo folder, so one person has one record across both platforms. Used by scripts/sleeper_export.py and index.html (the Almanac).",
+ "leagues": [
+  {
+   "id": "aggtown",
+   "name": "Aggtown FFL",
+   "sleeper_league_id": "1389331035040260096",
+   "yahoo_folder": "aggtown",
+   "people": {
+    "lmphm": "mrlampham",
+    "keveezy": "Kevin D",
+    "kholabear": "Khoa",
+    "anth0nyng": "Anthony",
+    "donblood": "Don",
+    "DVTV": "Daniel Vu",
+    "jimbo817": "Jimmy",
+    "bvincenttt": "Blake",
+    "oooEcho": "Cody",
+    "Odeh1121": "Ahmad",
+    "PutItOnYa": "Alex",
+    "wabaki": "Muso",
+    "ramzz": "Ramzi"
+   }
+  },
+  {
+   "id": "sobergang",
+   "name": "Sober Gang",
+   "sleeper_league_id": "1389735540009500672",
+   "yahoo_folder": "nooblets",
+   "people": {
+    "lmphm": "mrlampham",
+    "jigri": "Justin",
+    "yckyb": "Tommy",
+    "dexclusive": "Dexter",
+    "donblood": "Don",
+    "keveezy": "Kevin D",
+    "anth0nyng": "Anthony",
+    "jasonle": "Jason",
+    "PutItOnYa": "Alex",
+    "Abadahh": "An"
+   }
+  }
+ ]
+}

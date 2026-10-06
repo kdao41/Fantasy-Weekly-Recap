@@ -1,0 +1,450 @@
+{
+ "season": 2022,
+ "league": "Aggtown FFL",
+ "finished": true,
+ "champion": {
+  "team_id": 6,
+  "team": "KissMahomies",
+  "manager": "Muso (Lan Doan)",
+  "final_rank": 1,
+  "playoff_seed": 3,
+  "wins": 9,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1723.14,
+  "points_against": 1544.48
+ },
+ "championship_game": {
+  "week": 17,
+  "winner": "Muso (Lan Doan)",
+  "winner_team": "KissMahomies",
+  "winner_points": 109.18,
+  "loser": "Blake",
+  "loser_team": "Shake n Blake",
+  "loser_points": 78.16
+ },
+ "runner_up": {
+  "team_id": 8,
+  "team": "Shake n Blake",
+  "manager": "Blake",
+  "final_rank": 2,
+  "playoff_seed": 5,
+  "wins": 8,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1620.9,
+  "points_against": 1560.22
+ },
+ "third_place": {
+  "team_id": 4,
+  "team": "Cancun Booking Agency",
+  "manager": "Khoa",
+  "final_rank": 3,
+  "playoff_seed": 2,
+  "wins": 11,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1677.78,
+  "points_against": 1453.66
+ },
+ "last_place": {
+  "team_id": 7,
+  "team": "Princess Jelly",
+  "manager": "Anthony",
+  "final_rank": 12,
+  "playoff_seed": 10,
+  "wins": 5,
+  "losses": 9,
+  "ties": 0,
+  "points_for": 1635.24,
+  "points_against": 1667.32
+ },
+ "regular_season_winner": {
+  "team_id": 11,
+  "team": "Vegas",
+  "manager": "mrlampham",
+  "final_rank": 4,
+  "playoff_seed": 1,
+  "wins": 12,
+  "losses": 2,
+  "ties": 0,
+  "points_for": 1835.02,
+  "points_against": 1557.8
+ },
+ "most_points": {
+  "team_id": 11,
+  "team": "Vegas",
+  "manager": "mrlampham",
+  "final_rank": 4,
+  "playoff_seed": 1,
+  "wins": 12,
+  "losses": 2,
+  "ties": 0,
+  "points_for": 1835.02,
+  "points_against": 1557.8
+ },
+ "settings": {
+  "league_key": "414.l.219555",
+  "num_teams": 12,
+  "start_week": 1,
+  "end_week": 17,
+  "playoff_week_start": 15,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "self",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R/T",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   },
+   {
+    "position": "IR",
+    "count": 3
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 6,
+   "team": "KissMahomies",
+   "manager": "Muso (Lan Doan)",
+   "final_rank": 1,
+   "playoff_seed": 3,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1723.14,
+   "points_against": 1544.48
+  },
+  {
+   "team_id": 8,
+   "team": "Shake n Blake",
+   "manager": "Blake",
+   "final_rank": 2,
+   "playoff_seed": 5,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1620.9,
+   "points_against": 1560.22
+  },
+  {
+   "team_id": 4,
+   "team": "Cancun Booking Agency",
+   "manager": "Khoa",
+   "final_rank": 3,
+   "playoff_seed": 2,
+   "wins": 11,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1677.78,
+   "points_against": 1453.66
+  },
+  {
+   "team_id": 11,
+   "team": "Vegas",
+   "manager": "mrlampham",
+   "final_rank": 4,
+   "playoff_seed": 1,
+   "wins": 12,
+   "losses": 2,
+   "ties": 0,
+   "points_for": 1835.02,
+   "points_against": 1557.8
+  },
+  {
+   "team_id": 12,
+   "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+   "manager": "Alex",
+   "final_rank": 5,
+   "playoff_seed": 6,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1589.58,
+   "points_against": 1612.08
+  },
+  {
+   "team_id": 1,
+   "team": "Wolf of Waller Street",
+   "manager": "Don",
+   "final_rank": 6,
+   "playoff_seed": 4,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1646.18,
+   "points_against": 1623.42
+  },
+  {
+   "team_id": 5,
+   "team": "King Koopa",
+   "manager": "Ramzi",
+   "final_rank": 7,
+   "playoff_seed": 11,
+   "wins": 3,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1502.92,
+   "points_against": 1691.44
+  },
+  {
+   "team_id": 3,
+   "team": "The Adam's Family",
+   "manager": "Ahmad",
+   "final_rank": 8,
+   "playoff_seed": 9,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1734.16,
+   "points_against": 1792.58
+  },
+  {
+   "team_id": 10,
+   "team": "GOD TIER",
+   "manager": "Daniel Vu",
+   "final_rank": 9,
+   "playoff_seed": 8,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1533.64,
+   "points_against": 1641.2
+  },
+  {
+   "team_id": 9,
+   "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+   "manager": "Kevin D",
+   "final_rank": 10,
+   "playoff_seed": 7,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1587.88,
+   "points_against": 1646.58
+  },
+  {
+   "team_id": 2,
+   "team": "Aaron Earned an Iron Urn",
+   "manager": "Jimmy",
+   "final_rank": 11,
+   "playoff_seed": 12,
+   "wins": 2,
+   "losses": 12,
+   "ties": 0,
+   "points_for": 1390.72,
+   "points_against": 1686.38
+  },
+  {
+   "team_id": 7,
+   "team": "Princess Jelly",
+   "manager": "Anthony",
+   "final_rank": 12,
+   "playoff_seed": 10,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1635.24,
+   "points_against": 1667.32
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Wolf of Waller Street",
+     "manager": "Don",
+     "points": 97.4,
+     "projected": 124.63,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 104.48,
+     "projected": 113.22,
+     "won": true
+    }
+   ],
+   "winner": "Blake"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "KissMahomies",
+     "manager": "Muso (Lan Doan)",
+     "points": 116.04,
+     "projected": 122.23,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+     "manager": "Alex",
+     "points": 102.74,
+     "projected": 127.97,
+     "won": false
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Wolf of Waller Street",
+     "manager": "Don",
+     "points": 75.06,
+     "projected": 115.11,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+     "manager": "Alex",
+     "points": 110.0,
+     "projected": 123.24,
+     "won": true
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Cancun Booking Agency",
+     "manager": "Khoa",
+     "points": 98.76,
+     "projected": 122.04,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "KissMahomies",
+     "manager": "Muso (Lan Doan)",
+     "points": 106.66,
+     "projected": 117.48,
+     "won": true
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 113.86,
+     "projected": 112.83,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 95.62,
+     "projected": 125.5,
+     "won": false
+    }
+   ],
+   "winner": "Blake"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Cancun Booking Agency",
+     "manager": "Khoa",
+     "points": 74.7,
+     "projected": 122.8,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 71.1,
+     "projected": 103.42,
+     "won": false
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "KissMahomies",
+     "manager": "Muso (Lan Doan)",
+     "points": 109.18,
+     "projected": 119.27,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 78.16,
+     "projected": 117.09,
+     "won": false
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  }
+ ]
+}

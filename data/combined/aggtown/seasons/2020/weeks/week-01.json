@@ -1,0 +1,317 @@
+{
+ "season": 2020,
+ "week": 1,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Golladay Inn Express",
+     "manager": "donblood",
+     "points": 81.96,
+     "projected": 123.39,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Boom or Bust",
+     "manager": "keveezy",
+     "points": 160.6,
+     "projected": 136.35,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "SponsoredByStatefarm",
+     "manager": "jimbo817",
+     "points": 146.1,
+     "projected": 125.75,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 113.5,
+     "projected": 135.65,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Hide and Zeke",
+     "manager": "Odeh1121",
+     "points": 117.24,
+     "projected": 137.64,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 91.0,
+     "projected": 121.41,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "OnlyPain",
+     "manager": "kholabear",
+     "points": 123.88,
+     "projected": 132.27,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Winry fan club",
+     "manager": "ramzz",
+     "points": 148.34,
+     "projected": 142.58,
+     "won": true
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 113.3,
+     "projected": 124.42,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 132.58,
+     "projected": 128.01,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 136.08,
+     "projected": 128.19,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "I Want You Davant Me",
+     "manager": "PutItOnYa",
+     "points": 145.02,
+     "projected": 135.35,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "keveezy",
+   "team": "Boom or Bust",
+   "points": 160.6
+  },
+  "low_score": {
+   "manager": "donblood",
+   "team": "Golladay Inn Express",
+   "points": 81.96
+  },
+  "closest_game": {
+   "winner": "PutItOnYa",
+   "winner_points": 145.02,
+   "loser": "bvincenttt",
+   "loser_points": 136.08,
+   "margin": 8.94
+  },
+  "biggest_blowout": {
+   "winner": "keveezy",
+   "winner_points": 160.6,
+   "loser": "donblood",
+   "loser_points": 81.96,
+   "margin": 78.64
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "keveezy",
+   "team": "Boom or Bust",
+   "record": "1-0",
+   "points_for": 160.6,
+   "points_against": 81.96,
+   "streak": "W1",
+   "week_points": 160.6,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 2,
+   "manager": "ramzz",
+   "team": "Winry fan club",
+   "record": "1-0",
+   "points_for": 148.34,
+   "points_against": 123.88,
+   "streak": "W1",
+   "week_points": 148.34,
+   "week_result": "W",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 3,
+   "manager": "jimbo817",
+   "team": "SponsoredByStatefarm",
+   "record": "1-0",
+   "points_for": 146.1,
+   "points_against": 113.5,
+   "streak": "W1",
+   "week_points": 146.1,
+   "week_result": "W",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 4,
+   "manager": "PutItOnYa",
+   "team": "I Want You Davant Me",
+   "record": "1-0",
+   "points_for": 145.02,
+   "points_against": 136.08,
+   "streak": "W1",
+   "week_points": 145.02,
+   "week_result": "W",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 5,
+   "manager": "DVTV",
+   "team": "GOD TIER",
+   "record": "1-0",
+   "points_for": 132.58,
+   "points_against": 113.3,
+   "streak": "W1",
+   "week_points": 132.58,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 6,
+   "manager": "Odeh1121",
+   "team": "Hide and Zeke",
+   "record": "1-0",
+   "points_for": 117.24,
+   "points_against": 91.0,
+   "streak": "W1",
+   "week_points": 117.24,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 7,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "0-1",
+   "points_for": 136.08,
+   "points_against": 145.02,
+   "streak": "L1",
+   "week_points": 136.08,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 8,
+   "manager": "kholabear",
+   "team": "OnlyPain",
+   "record": "0-1",
+   "points_for": 123.88,
+   "points_against": 148.34,
+   "streak": "L1",
+   "week_points": 123.88,
+   "week_result": "L",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 9,
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "record": "0-1",
+   "points_for": 113.5,
+   "points_against": 146.1,
+   "streak": "L1",
+   "week_points": 113.5,
+   "week_result": "L",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 10,
+   "manager": "anth0nyng",
+   "team": "Prince of Mahomes",
+   "record": "0-1",
+   "points_for": 113.3,
+   "points_against": 132.58,
+   "streak": "L1",
+   "week_points": 113.3,
+   "week_result": "L",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 11,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "0-1",
+   "points_for": 91.0,
+   "points_against": 117.24,
+   "streak": "L1",
+   "week_points": 91.0,
+   "week_result": "L",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 12,
+   "manager": "donblood",
+   "team": "Golladay Inn Express",
+   "record": "0-1",
+   "points_for": 81.96,
+   "points_against": 160.6,
+   "streak": "L1",
+   "week_points": 81.96,
+   "week_result": "L",
+   "opponent": "keveezy"
+  }
+ ]
+}

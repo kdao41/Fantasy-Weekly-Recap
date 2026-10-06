@@ -1,0 +1,270 @@
+{
+ "season": 2023,
+ "week": 12,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Ra-Dogged",
+     "manager": "Kevin D",
+     "points": 120.48,
+     "projected": 123.54,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+     "manager": "Anthony",
+     "points": 107.58,
+     "projected": 122.17,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Waddleburger Pattymelt",
+     "manager": "Don",
+     "points": 130.22,
+     "projected": 115.46,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 134.74,
+     "projected": 114.76,
+     "won": true
+    }
+   ],
+   "winner": "An"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "Alex",
+     "points": 104.38,
+     "projected": 115.16,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Dex",
+     "manager": "Dexter",
+     "points": 164.76,
+     "projected": 124.23,
+     "won": true
+    }
+   ],
+   "winner": "Dexter"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "y c k y",
+     "manager": "Tommy",
+     "points": 104.16,
+     "projected": 118.54,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Jiggly",
+     "manager": "Justin",
+     "points": 164.96,
+     "projected": 121.56,
+     "won": true
+    }
+   ],
+   "winner": "Justin"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "lmphm",
+     "manager": "mrlampham",
+     "points": 143.7,
+     "projected": 109.73,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "Jason",
+     "points": 118.4,
+     "projected": 124.47,
+     "won": false
+    }
+   ],
+   "winner": "mrlampham"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Justin",
+   "team": "Jiggly",
+   "points": 164.96
+  },
+  "low_score": {
+   "manager": "Tommy",
+   "team": "y c k y",
+   "points": 104.16
+  },
+  "closest_game": {
+   "winner": "An",
+   "winner_points": 134.74,
+   "loser": "Don",
+   "loser_points": 130.22,
+   "margin": 4.52
+  },
+  "biggest_blowout": {
+   "winner": "Justin",
+   "winner_points": 164.96,
+   "loser": "Tommy",
+   "loser_points": 104.16,
+   "margin": 60.8
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "mrlampham",
+   "team": "lmphm",
+   "record": "8-4",
+   "points_for": 1489.78,
+   "points_against": 1330.26,
+   "streak": "W2",
+   "week_points": 143.7,
+   "week_result": "W",
+   "opponent": "Jason"
+  },
+  {
+   "rank": 2,
+   "manager": "Alex",
+   "team": "Sports Betting",
+   "record": "8-4",
+   "points_for": 1378.72,
+   "points_against": 1303.36,
+   "streak": "L1",
+   "week_points": 104.38,
+   "week_result": "L",
+   "opponent": "Dexter"
+  },
+  {
+   "rank": 3,
+   "manager": "Dexter",
+   "team": "Dex",
+   "record": "7-5",
+   "points_for": 1601.72,
+   "points_against": 1488.36,
+   "streak": "W5",
+   "week_points": 164.76,
+   "week_result": "W",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 4,
+   "manager": "Kevin D",
+   "team": "Ra-Dogged",
+   "record": "7-5",
+   "points_for": 1473.66,
+   "points_against": 1486.8,
+   "streak": "W1",
+   "week_points": 120.48,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 5,
+   "manager": "Tommy",
+   "team": "y c k y",
+   "record": "6-6",
+   "points_for": 1504.82,
+   "points_against": 1489.86,
+   "streak": "L1",
+   "week_points": 104.16,
+   "week_result": "L",
+   "opponent": "Justin"
+  },
+  {
+   "rank": 6,
+   "manager": "Justin",
+   "team": "Jiggly",
+   "record": "6-6",
+   "points_for": 1436.48,
+   "points_against": 1382.62,
+   "streak": "W1",
+   "week_points": 164.96,
+   "week_result": "W",
+   "opponent": "Tommy"
+  },
+  {
+   "rank": 7,
+   "manager": "Jason",
+   "team": "Felon",
+   "record": "5-7",
+   "points_for": 1424.34,
+   "points_against": 1480.6,
+   "streak": "L4",
+   "week_points": 118.4,
+   "week_result": "L",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 8,
+   "manager": "An",
+   "team": "Drier than a Popeyes biscuit",
+   "record": "5-7",
+   "points_for": 1336.26,
+   "points_against": 1448.68,
+   "streak": "W4",
+   "week_points": 134.74,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 9,
+   "manager": "Don",
+   "team": "Waddleburger Pattymelt",
+   "record": "4-8",
+   "points_for": 1462.9,
+   "points_against": 1594.84,
+   "streak": "L3",
+   "week_points": 130.22,
+   "week_result": "L",
+   "opponent": "An"
+  },
+  {
+   "rank": 10,
+   "manager": "Anthony",
+   "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+   "record": "4-8",
+   "points_for": 1397.92,
+   "points_against": 1501.22,
+   "streak": "L2",
+   "week_points": 107.58,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  }
+ ]
+}

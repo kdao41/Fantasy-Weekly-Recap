@@ -1,0 +1,141 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2021,1,1,anth0nyng,Queen Jelly,1-0,165.96,102.12,W1,165.96,W,jigri
+2021,1,2,Abadahh,Drier than a Popeyes biscuit,1-0,164.96,127.0,W1,164.96,W,keveezy
+2021,1,3,donblood,CREASING MY SECRET SANTA GIFT,1-0,150.08,124.86,W1,150.08,W,dexclusive
+2021,1,4,PutItOnYa,Shrooms,1-0,135.68,125.58,W1,135.68,W,yckyb
+2021,1,5,lmphm,Fuck an,1-0,110.18,108.8,W1,110.18,W,jasonle
+2021,1,6,keveezy,Win will I get a when,0-1,127.0,164.96,L1,127.0,L,Abadahh
+2021,1,7,yckyb,Boards,0-1,125.58,135.68,L1,125.58,L,PutItOnYa
+2021,1,8,dexclusive,Dex_lab,0-1,124.86,150.08,L1,124.86,L,donblood
+2021,1,9,jasonle,0.02 points,0-1,108.8,110.18,L1,108.8,L,lmphm
+2021,1,10,jigri,Washed,0-1,102.12,165.96,L1,102.12,L,anth0nyng
+2021,2,1,anth0nyng,Queen Jelly,2-0,313.4,236.78,W2,147.44,W,jasonle
+2021,2,2,donblood,CREASING MY SECRET SANTA GIFT,2-0,273.5,242.08,W2,123.42,W,Abadahh
+2021,2,3,yckyb,Boards,1-1,309.9,268.24,W1,184.32,W,keveezy
+2021,2,4,Abadahh,Drier than a Popeyes biscuit,1-1,282.18,250.42,L1,117.22,L,donblood
+2021,2,5,dexclusive,Dex_lab,1-1,251.86,265.16,W1,127.0,W,lmphm
+2021,2,6,PutItOnYa,Shrooms,1-1,242.5,259.36,L1,106.82,L,jigri
+2021,2,7,jigri,Washed,1-1,235.9,272.78,W1,133.78,W,PutItOnYa
+2021,2,8,lmphm,Fuck an,1-1,225.26,235.8,L1,115.08,L,dexclusive
+2021,2,9,keveezy,Win will I get a when,0-2,259.56,349.28,L2,132.56,L,yckyb
+2021,2,10,jasonle,0.02 points,0-2,243.46,257.62,L2,134.66,L,anth0nyng
+2021,3,1,anth0nyng,Queen Jelly,3-0,450.08,355.32,W3,136.68,W,dexclusive
+2021,3,2,yckyb,Boards,2-1,446.92,376.64,W2,137.02,W,donblood
+2021,3,3,donblood,CREASING MY SECRET SANTA GIFT,2-1,381.9,379.1,L1,108.4,L,yckyb
+2021,3,4,PutItOnYa,Shrooms,2-1,377.54,359.04,W1,135.04,W,keveezy
+2021,3,5,jigri,Washed,2-1,369.42,391.7,W2,133.52,W,jasonle
+2021,3,6,lmphm,Fuck an,2-1,358.5,349.02,W1,133.24,W,Abadahh
+2021,3,7,Abadahh,Drier than a Popeyes biscuit,1-2,395.4,383.66,L2,113.22,L,lmphm
+2021,3,8,dexclusive,Dex_lab,1-2,370.4,401.84,L1,118.54,L,anth0nyng
+2021,3,9,jasonle,0.02 points,0-3,362.38,391.14,L3,118.92,L,jigri
+2021,3,10,keveezy,Win will I get a when,0-3,359.24,484.32,L3,99.68,L,PutItOnYa
+2021,4,1,anth0nyng,Queen Jelly,4-0,574.14,441.38,W4,124.06,W,Abadahh
+2021,4,2,yckyb,Boards,3-1,583.92,478.08,W3,137.0,W,lmphm
+2021,4,3,donblood,CREASING MY SECRET SANTA GIFT,3-1,518.52,488.74,W1,136.62,W,keveezy
+2021,4,4,PutItOnYa,Shrooms,3-1,514.72,488.26,W2,137.18,W,jasonle
+2021,4,5,dexclusive,Dex_lab,2-2,490.32,501.86,W1,119.92,W,jigri
+2021,4,6,jigri,Washed,2-2,469.44,511.62,L1,100.02,L,dexclusive
+2021,4,7,lmphm,Fuck an,2-2,459.94,486.02,L1,101.44,L,yckyb
+2021,4,8,Abadahh,Drier than a Popeyes biscuit,1-3,481.46,507.72,L3,86.06,L,anth0nyng
+2021,4,9,jasonle,0.02 points,0-4,491.6,528.32,L4,129.22,L,PutItOnYa
+2021,4,10,keveezy,Win will I get a when,0-4,468.88,620.94,L4,109.64,L,donblood
+2021,5,1,anth0nyng,Queen Jelly,5-0,720.18,570.38,W5,146.04,W,yckyb
+2021,5,2,PutItOnYa,Shrooms,4-1,706.84,646.94,W3,192.12,W,donblood
+2021,5,3,yckyb,Boards,3-2,712.92,624.12,L1,129.0,L,anth0nyng
+2021,5,4,donblood,CREASING MY SECRET SANTA GIFT,3-2,677.2,680.86,L1,158.68,L,PutItOnYa
+2021,5,5,jigri,Washed,3-2,624.92,656.3,W1,155.48,W,Abadahh
+2021,5,6,lmphm,Fuck an,2-3,596.52,641.0,L2,136.58,L,keveezy
+2021,5,7,dexclusive,Dex_lab,2-3,591.68,613.16,L1,101.36,L,jasonle
+2021,5,8,Abadahh,Drier than a Popeyes biscuit,1-4,626.14,663.2,L4,144.68,L,jigri
+2021,5,9,keveezy,Win will I get a when,1-4,623.86,757.52,W1,154.98,W,lmphm
+2021,5,10,jasonle,0.02 points,1-4,602.9,629.68,W1,111.3,W,dexclusive
+2021,6,1,anth0nyng,Queen Jelly,6-0,884.76,698.96,W6,164.58,W,keveezy
+2021,6,2,donblood,CREASING MY SECRET SANTA GIFT,4-2,854.08,826.0,W1,176.88,W,lmphm
+2021,6,3,PutItOnYa,Shrooms,4-2,828.54,772.6,L1,121.7,L,dexclusive
+2021,6,4,jigri,Washed,4-2,769.72,794.54,W2,144.8,W,yckyb
+2021,6,5,yckyb,Boards,3-3,851.16,768.92,L2,138.24,L,jigri
+2021,6,6,dexclusive,Dex_lab,3-3,717.34,734.86,W1,125.66,W,PutItOnYa
+2021,6,7,lmphm,Fuck an,2-4,741.66,817.88,L3,145.14,L,donblood
+2021,6,8,jasonle,0.02 points,2-4,729.32,729.04,W2,126.42,W,Abadahh
+2021,6,9,keveezy,Win will I get a when,1-5,752.44,922.1,L1,128.58,L,anth0nyng
+2021,6,10,Abadahh,Drier than a Popeyes biscuit,1-5,725.5,789.62,L5,99.36,L,jasonle
+2021,7,1,anth0nyng,Queen Jelly,7-0,1031.1,843.2,W7,146.34,W,donblood
+2021,7,2,PutItOnYa,Shrooms,5-2,952.78,871.1,W1,124.24,W,lmphm
+2021,7,3,jigri,Washed,5-2,929.76,901.42,W3,160.04,W,keveezy
+2021,7,4,donblood,CREASING MY SECRET SANTA GIFT,4-3,998.32,972.34,L1,144.24,L,anth0nyng
+2021,7,5,dexclusive,Dex_lab,4-3,854.48,819.8,W2,137.14,W,Abadahh
+2021,7,6,yckyb,Boards,3-4,955.82,884.1,L3,104.66,L,jasonle
+2021,7,7,jasonle,0.02 points,3-4,844.5,833.7,W3,115.18,W,yckyb
+2021,7,8,lmphm,Fuck an,2-5,840.16,942.12,L4,98.5,L,PutItOnYa
+2021,7,9,keveezy,Win will I get a when,1-6,859.32,1082.14,L2,106.88,L,jigri
+2021,7,10,Abadahh,Drier than a Popeyes biscuit,1-6,810.44,926.76,L6,84.94,L,dexclusive
+2021,8,1,anth0nyng,Queen Jelly,8-0,1209.4,980.0,W8,178.3,W,lmphm
+2021,8,2,donblood,CREASING MY SECRET SANTA GIFT,5-3,1103.42,1065.84,W1,105.1,W,jigri
+2021,8,3,PutItOnYa,Shrooms,5-3,1062.1,996.64,L1,109.32,L,Abadahh
+2021,8,4,jigri,Washed,5-3,1023.26,1006.52,L1,93.5,L,donblood
+2021,8,5,dexclusive,Dex_lab,5-3,949.94,886.8,W3,95.46,W,yckyb
+2021,8,6,yckyb,Boards,3-5,1022.82,979.56,L4,67.0,L,dexclusive
+2021,8,7,jasonle,0.02 points,3-5,949.32,940.64,L1,104.82,L,keveezy
+2021,8,8,lmphm,Fuck an,2-6,976.96,1120.42,L5,136.8,L,anth0nyng
+2021,8,9,keveezy,Win will I get a when,2-6,966.26,1186.96,W1,106.94,W,jasonle
+2021,8,10,Abadahh,Drier than a Popeyes biscuit,2-6,935.98,1036.08,W1,125.54,W,PutItOnYa
+2021,9,1,anth0nyng,Queen Jelly,9-0,1338.08,1095.84,W9,128.68,W,PutItOnYa
+2021,9,2,donblood,CREASING MY SECRET SANTA GIFT,6-3,1200.46,1155.3,W2,97.04,W,jasonle
+2021,9,3,jigri,Washed,6-3,1115.14,1084.94,W1,91.88,W,lmphm
+2021,9,4,dexclusive,Dex_lab,6-3,1056.24,986.54,W4,106.3,W,keveezy
+2021,9,5,PutItOnYa,Shrooms,5-4,1177.94,1125.32,L2,115.84,L,anth0nyng
+2021,9,6,yckyb,Boards,3-6,1116.78,1151.84,L5,93.96,L,Abadahh
+2021,9,7,Abadahh,Drier than a Popeyes biscuit,3-6,1108.26,1130.04,W2,172.28,W,yckyb
+2021,9,8,jasonle,0.02 points,3-6,1038.78,1037.68,L2,89.46,L,donblood
+2021,9,9,keveezy,Win will I get a when,2-7,1066.0,1293.26,L1,99.74,L,dexclusive
+2021,9,10,lmphm,Fuck an,2-7,1055.38,1212.3,L6,78.42,L,jigri
+2021,10,1,anth0nyng,Queen Jelly,9-1,1446.68,1212.28,L1,108.6,L,jigri
+2021,10,2,donblood,CREASING MY SECRET SANTA GIFT,7-3,1355.0,1256.8,W3,154.54,W,dexclusive
+2021,10,3,jigri,Washed,7-3,1231.58,1193.54,W2,116.44,W,anth0nyng
+2021,10,4,PutItOnYa,Shrooms,6-4,1282.84,1223.84,W1,104.9,W,yckyb
+2021,10,5,dexclusive,Dex_lab,6-4,1157.74,1141.08,L1,101.5,L,donblood
+2021,10,6,Abadahh,Drier than a Popeyes biscuit,4-6,1210.6,1216.16,W3,102.34,W,keveezy
+2021,10,7,jasonle,0.02 points,4-6,1163.82,1154.56,W1,125.04,W,lmphm
+2021,10,8,yckyb,Boards,3-7,1215.3,1256.74,L6,98.52,L,PutItOnYa
+2021,10,9,lmphm,Fuck an,2-8,1172.26,1337.34,L7,116.88,L,jasonle
+2021,10,10,keveezy,Win will I get a when,2-8,1152.12,1395.6,L2,86.12,L,Abadahh
+2021,11,1,anth0nyng,Queen Jelly,10-1,1583.76,1319.54,W1,137.08,W,jasonle
+2021,11,2,donblood,CREASING MY SECRET SANTA GIFT,7-4,1447.9,1469.38,L1,92.9,L,Abadahh
+2021,11,3,PutItOnYa,Shrooms,7-4,1445.12,1341.78,W2,162.28,W,jigri
+2021,11,4,jigri,Washed,7-4,1349.52,1355.82,L1,117.94,L,PutItOnYa
+2021,11,5,dexclusive,Dex_lab,7-4,1272.4,1254.4,W1,114.66,W,lmphm
+2021,11,6,Abadahh,Drier than a Popeyes biscuit,5-6,1423.18,1309.06,W4,212.58,W,donblood
+2021,11,7,yckyb,Boards,4-7,1371.64,1364.68,W1,156.34,W,keveezy
+2021,11,8,jasonle,0.02 points,4-7,1271.08,1291.64,L1,107.26,L,anth0nyng
+2021,11,9,lmphm,Fuck an,2-9,1285.58,1452.0,L8,113.32,L,dexclusive
+2021,11,10,keveezy,Win will I get a when,2-9,1260.06,1551.94,L3,107.94,L,yckyb
+2021,12,1,anth0nyng,Queen Jelly,11-1,1721.0,1405.22,W2,137.24,W,dexclusive
+2021,12,2,donblood,CREASING MY SECRET SANTA GIFT,8-4,1604.58,1605.92,W1,156.68,W,yckyb
+2021,12,3,PutItOnYa,Shrooms,8-4,1566.94,1430.88,W3,121.82,W,keveezy
+2021,12,4,jigri,Washed,7-5,1452.72,1487.72,L2,103.2,L,jasonle
+2021,12,5,dexclusive,Dex_lab,7-5,1358.08,1391.64,L1,85.68,L,anth0nyng
+2021,12,6,Abadahh,Drier than a Popeyes biscuit,6-6,1523.16,1405.48,W5,99.98,W,lmphm
+2021,12,7,jasonle,0.02 points,5-7,1402.98,1394.84,W1,131.9,W,jigri
+2021,12,8,yckyb,Boards,4-8,1508.18,1521.36,L1,136.54,L,donblood
+2021,12,9,lmphm,Fuck an,2-10,1382.0,1551.98,L9,96.42,L,Abadahh
+2021,12,10,keveezy,Win will I get a when,2-10,1349.16,1673.76,L4,89.1,L,PutItOnYa
+2021,13,1,anth0nyng,Queen Jelly,12-1,1869.42,1538.56,W3,148.42,W,Abadahh
+2021,13,2,donblood,CREASING MY SECRET SANTA GIFT,9-4,1725.64,1703.14,W2,121.06,W,keveezy
+2021,13,3,PutItOnYa,Shrooms,9-4,1692.82,1522.18,W4,125.88,W,jasonle
+2021,13,4,dexclusive,Dex_lab,8-5,1507.8,1537.76,W1,149.72,W,jigri
+2021,13,5,jigri,Washed,7-6,1598.84,1637.44,L3,146.12,L,dexclusive
+2021,13,6,Abadahh,Drier than a Popeyes biscuit,6-7,1656.5,1553.9,L1,133.34,L,anth0nyng
+2021,13,7,yckyb,Boards,5-8,1655.58,1617.12,W1,147.4,W,lmphm
+2021,13,8,jasonle,0.02 points,5-8,1494.28,1520.72,L1,91.3,L,PutItOnYa
+2021,13,9,lmphm,Fuck an,2-11,1477.76,1699.38,L10,95.76,L,yckyb
+2021,13,10,keveezy,Win will I get a when,2-11,1446.38,1794.82,L5,97.22,L,donblood
+2021,14,1,anth0nyng,Queen Jelly,13-1,2036.24,1660.84,W4,166.82,W,yckyb
+2021,14,2,donblood,CREASING MY SECRET SANTA GIFT,10-4,1860.36,1815.84,W3,134.72,W,PutItOnYa
+2021,14,3,PutItOnYa,Shrooms,9-5,1805.52,1656.9,L1,112.7,L,donblood
+2021,14,4,dexclusive,Dex_lab,9-5,1650.22,1663.58,W2,142.42,W,jasonle
+2021,14,5,jigri,Washed,8-6,1747.28,1743.84,W1,148.44,W,Abadahh
+2021,14,6,Abadahh,Drier than a Popeyes biscuit,6-8,1762.9,1702.34,L2,106.4,L,jigri
+2021,14,7,yckyb,Boards,5-9,1777.86,1783.94,L1,122.28,L,anth0nyng
+2021,14,8,jasonle,0.02 points,5-9,1620.1,1663.14,L2,125.82,L,dexclusive
+2021,14,9,keveezy,Win will I get a when,3-11,1558.36,1894.74,W1,111.98,W,lmphm
+2021,14,10,lmphm,Fuck an,2-12,1577.68,1811.36,L11,99.92,L,keveezy

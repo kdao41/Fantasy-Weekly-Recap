@@ -1,0 +1,18 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2021,1,False,ramzz,167.56,lmphm,85.24,bvincenttt over anth0nyng by 6.68,ramzz over lmphm by 82.32
+2021,2,False,anth0nyng,166.26,DVTV,90.54,keveezy over donblood by 7.06,anth0nyng over DVTV by 75.72
+2021,3,False,oooEcho,159.48,jimbo817,80.34,lmphm over Odeh1121 by 9.56,oooEcho over bvincenttt by 65.96
+2021,4,False,jimbo817,174.02,donblood,63.32,DVTV over oooEcho by 22.28,kholabear over donblood by 60.68
+2021,5,False,oooEcho,199.34,ramzz,100.06,jimbo817 over bvincenttt by 2.28,PutItOnYa over DVTV by 50.14
+2021,6,False,anth0nyng,155.42,lmphm,86.18,donblood over PutItOnYa by 18.62,kholabear over lmphm by 66.26
+2021,7,False,kholabear,164.36,donblood,96.38,oooEcho over lmphm by 14.56,PutItOnYa over ramzz by 43.28
+2021,8,False,donblood,134.26,ramzz,98.16,Odeh1121 over oooEcho by 3.6,bvincenttt over ramzz by 31.72
+2021,9,False,Odeh1121,139.88,jimbo817,77.5,ramzz over DVTV by 3.46,donblood over jimbo817 by 40.76
+2021,10,False,keveezy,145.14,DVTV,72.6,anth0nyng over oooEcho by 3.52,keveezy over PutItOnYa by 59.74
+2021,11,False,PutItOnYa,176.18,kholabear,93.06,oooEcho over kholabear by 12.92,PutItOnYa over anth0nyng by 80.26
+2021,12,False,jimbo817,158.28,bvincenttt,66.78,PutItOnYa over kholabear by 19.44,jimbo817 over oooEcho by 52.34
+2021,13,False,PutItOnYa,172.58,anth0nyng,72.1,keveezy over donblood by 0.96,DVTV over anth0nyng by 66.8
+2021,14,False,donblood,183.62,ramzz,92.42,bvincenttt over oooEcho by 6.28,donblood over anth0nyng by 74.38
+2021,15,True,donblood,135.2,Odeh1121,90.68,kholabear over keveezy by 14.46,donblood over jimbo817 by 20.48
+2021,16,True,donblood,164.46,bvincenttt,92.44,jimbo817 over keveezy by 27.46,Odeh1121 over bvincenttt by 65.96
+2021,17,True,Odeh1121,171.94,anth0nyng,101.08,bvincenttt over keveezy by 4.98,Odeh1121 over jimbo817 by 64.72

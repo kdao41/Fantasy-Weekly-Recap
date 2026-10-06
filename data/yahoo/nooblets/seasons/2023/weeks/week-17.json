@@ -1,0 +1,125 @@
+{
+ "season": 2023,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Ra-Dogged",
+     "manager": "Kevin D",
+     "points": 151.84,
+     "projected": 116.76,
+     "won": true
+    },
+    {
+     "team_id": 2,
+     "team": "Waddleburger Pattymelt",
+     "manager": "Don",
+     "points": 128.0,
+     "projected": 124.83,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "Alex",
+     "points": 112.82,
+     "projected": 120.25,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "lmphm",
+     "manager": "mrlampham",
+     "points": 102.58,
+     "projected": 116.16,
+     "won": false
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Jiggly",
+     "manager": "Justin",
+     "points": 76.14,
+     "projected": 98.5,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "Jason",
+     "points": 85.78,
+     "projected": 120.65,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+     "manager": "Anthony",
+     "points": 124.36,
+     "projected": 94.38,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 106.8,
+     "projected": 115.32,
+     "won": false
+    }
+   ],
+   "winner": "Anthony"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Kevin D",
+   "team": "Ra-Dogged",
+   "points": 151.84
+  },
+  "low_score": {
+   "manager": "Justin",
+   "team": "Jiggly",
+   "points": 76.14
+  },
+  "closest_game": {
+   "winner": "Jason",
+   "winner_points": 85.78,
+   "loser": "Justin",
+   "loser_points": 76.14,
+   "margin": 9.64
+  },
+  "biggest_blowout": {
+   "winner": "Kevin D",
+   "winner_points": 151.84,
+   "loser": "Don",
+   "loser_points": 128.0,
+   "margin": 23.84
+  }
+ }
+}

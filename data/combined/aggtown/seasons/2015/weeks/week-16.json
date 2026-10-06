@@ -1,0 +1,125 @@
+{
+ "season": 2015,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "donblood",
+     "points": 110.24,
+     "projected": 121.41,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "The Nick Folks",
+     "manager": "anth0nyng",
+     "points": 126.56,
+     "projected": 130.53,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Charizarkandrick",
+     "manager": "ramzz",
+     "points": 136.88,
+     "projected": 141.25,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "8====D",
+     "manager": "Odeh1121",
+     "points": 117.64,
+     "projected": 124.62,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 163.24,
+     "projected": 128.5,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Lost cause.",
+     "manager": "keveezy",
+     "points": 73.06,
+     "projected": 120.72,
+     "won": false
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 111.0,
+     "projected": 122.05,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "DuuuuuhhhhhHelloooo",
+     "manager": "--hidden--",
+     "points": 90.46,
+     "projected": 120.04,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "wabaki (Lan Doan)",
+   "team": "Wabaki 88",
+   "points": 163.24
+  },
+  "low_score": {
+   "manager": "keveezy",
+   "team": "Lost cause.",
+   "points": 73.06
+  },
+  "closest_game": {
+   "winner": "anth0nyng",
+   "winner_points": 126.56,
+   "loser": "donblood",
+   "loser_points": 110.24,
+   "margin": 16.32
+  },
+  "biggest_blowout": {
+   "winner": "wabaki (Lan Doan)",
+   "winner_points": 163.24,
+   "loser": "keveezy",
+   "loser_points": 73.06,
+   "margin": 90.18
+  }
+ }
+}

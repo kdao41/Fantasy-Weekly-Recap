@@ -1,0 +1,125 @@
+{
+ "season": 2018,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Two Gurleys One Cup",
+     "manager": "donblood",
+     "points": 140.28,
+     "projected": 126.61,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 137.58,
+     "projected": 138.09,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Ligma",
+     "manager": "jimbo817",
+     "points": 109.08,
+     "projected": 127.29,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "The Asa Akiras",
+     "manager": "DVTV",
+     "points": 99.5,
+     "projected": 139.63,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "God Zuerline",
+     "manager": "kholabear",
+     "points": 154.1,
+     "projected": 145.83,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "Small town Gurl",
+     "manager": "ramzz",
+     "points": 87.92,
+     "projected": 126.54,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Like a Brees",
+     "manager": "keveezy",
+     "points": 102.74,
+     "projected": 129.06,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 126.78,
+     "projected": 134.79,
+     "won": true
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "kholabear",
+   "team": "God Zuerline",
+   "points": 154.1
+  },
+  "low_score": {
+   "manager": "ramzz",
+   "team": "Small town Gurl",
+   "points": 87.92
+  },
+  "closest_game": {
+   "winner": "donblood",
+   "winner_points": 140.28,
+   "loser": "lmphm",
+   "loser_points": 137.58,
+   "margin": 2.7
+  },
+  "biggest_blowout": {
+   "winner": "kholabear",
+   "winner_points": 154.1,
+   "loser": "ramzz",
+   "loser_points": 87.92,
+   "margin": 66.18
+  }
+ }
+}

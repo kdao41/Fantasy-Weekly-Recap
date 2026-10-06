@@ -1,0 +1,125 @@
+{
+ "season": 2019,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "Don",
+     "points": 90.46,
+     "projected": 128.78,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "Kevin D",
+     "points": 120.5,
+     "projected": 129.8,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "Jimmy",
+     "points": 156.3,
+     "projected": 141.13,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "Ramzi",
+     "points": 195.28,
+     "projected": 132.48,
+     "won": true
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 131.62,
+     "projected": 122.59,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "Anthony",
+     "points": 125.72,
+     "projected": 133.86,
+     "won": false
+    }
+   ],
+   "winner": "Cody"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 119.54,
+     "projected": 113.74,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "Alex",
+     "points": 97.0,
+     "projected": 125.58,
+     "won": false
+    }
+   ],
+   "winner": "Daniel Vu"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Ramzi",
+   "team": "Chubby Johnson",
+   "points": 195.28
+  },
+  "low_score": {
+   "manager": "Don",
+   "team": "Lights Kamara ACTION",
+   "points": 90.46
+  },
+  "closest_game": {
+   "winner": "Cody",
+   "winner_points": 131.62,
+   "loser": "Anthony",
+   "loser_points": 125.72,
+   "margin": 5.9
+  },
+  "biggest_blowout": {
+   "winner": "Ramzi",
+   "winner_points": 195.28,
+   "loser": "Jimmy",
+   "loser_points": 156.3,
+   "margin": 38.98
+  }
+ }
+}

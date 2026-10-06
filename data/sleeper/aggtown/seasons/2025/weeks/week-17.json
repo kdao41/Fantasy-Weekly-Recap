@@ -1,0 +1,125 @@
+{
+ "season": 2025,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "I Gibbs the Dicker",
+     "manager": "Odeh1121",
+     "points": 81.98,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "We bleed blue",
+     "manager": "keveezy",
+     "points": 114.76,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Pablo Torre Scores Out",
+     "manager": "DVTV",
+     "points": 92.78,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Parkland Hospital",
+     "manager": "kholabear",
+     "points": 71.58,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 115.72,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Knuck if U Buck",
+     "manager": "wabaki (Lan Doan)",
+     "points": 101.24,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Van Jefferson III",
+     "manager": "anth0nyng",
+     "points": 90.1,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Mac Daddy",
+     "manager": "jimbo817",
+     "points": 112.28,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "jimbo817"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "lmphm",
+   "team": "Vegas",
+   "points": 115.72
+  },
+  "low_score": {
+   "manager": "kholabear",
+   "team": "Parkland Hospital",
+   "points": 71.58
+  },
+  "closest_game": {
+   "winner": "lmphm",
+   "winner_points": 115.72,
+   "loser": "wabaki (Lan Doan)",
+   "loser_points": 101.24,
+   "margin": 14.48
+  },
+  "biggest_blowout": {
+   "winner": "keveezy",
+   "winner_points": 114.76,
+   "loser": "Odeh1121",
+   "loser_points": 81.98,
+   "margin": 32.78
+  }
+ }
+}

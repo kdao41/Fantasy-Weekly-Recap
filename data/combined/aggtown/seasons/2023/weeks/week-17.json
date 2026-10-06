@@ -1,0 +1,125 @@
+{
+ "season": 2023,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "JOVE DIRECTOR OF VIBEZ",
+     "manager": "DVTV",
+     "points": 118.46,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Cancun Tours",
+     "manager": "kholabear",
+     "points": 110.14,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Gibbs and Receive",
+     "manager": "donblood",
+     "points": 104.08,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "am i cursed? ",
+     "manager": "anth0nyng",
+     "points": 107.36,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 127.62,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 94.24,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "himzi",
+     "manager": "ramzz",
+     "points": 138.6,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Chase Mahomies",
+     "manager": "jimbo817",
+     "points": 123.0,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "ramzz",
+   "team": "himzi",
+   "points": 138.6
+  },
+  "low_score": {
+   "manager": "PutItOnYa",
+   "team": "PutItOnYa",
+   "points": 94.24
+  },
+  "closest_game": {
+   "winner": "anth0nyng",
+   "winner_points": 107.36,
+   "loser": "donblood",
+   "loser_points": 104.08,
+   "margin": 3.28
+  },
+  "biggest_blowout": {
+   "winner": "lmphm",
+   "winner_points": 127.62,
+   "loser": "PutItOnYa",
+   "loser_points": 94.24,
+   "margin": 33.38
+  }
+ }
+}

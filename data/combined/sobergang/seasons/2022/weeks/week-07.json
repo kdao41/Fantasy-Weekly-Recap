@@ -1,0 +1,270 @@
+{
+ "season": 2022,
+ "week": 7,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Free money",
+     "manager": "keveezy",
+     "points": 148.76,
+     "projected": 129.37,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "Abadahh",
+     "points": 125.0,
+     "projected": 125.39,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "my team ass",
+     "manager": "donblood",
+     "points": 111.34,
+     "projected": 114.1,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "y c k y",
+     "manager": "yckyb",
+     "points": 139.94,
+     "projected": 114.94,
+     "won": true
+    }
+   ],
+   "winner": "yckyb"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "PutItOnYa",
+     "points": 112.66,
+     "projected": 123.16,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+     "manager": "anth0nyng",
+     "points": 112.02,
+     "projected": 114.16,
+     "won": false
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "dexclusive",
+     "points": 117.7,
+     "projected": 118.65,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "jigri",
+     "points": 132.84,
+     "projected": 116.04,
+     "won": true
+    }
+   ],
+   "winner": "jigri"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "lmphm",
+     "manager": "lmphm",
+     "points": 111.44,
+     "projected": 119.9,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "jasonle",
+     "points": 89.58,
+     "projected": 122.02,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "keveezy",
+   "team": "Free money",
+   "points": 148.76
+  },
+  "low_score": {
+   "manager": "jasonle",
+   "team": "Felon",
+   "points": 89.58
+  },
+  "closest_game": {
+   "winner": "PutItOnYa",
+   "winner_points": 112.66,
+   "loser": "anth0nyng",
+   "loser_points": 112.02,
+   "margin": 0.64
+  },
+  "biggest_blowout": {
+   "winner": "yckyb",
+   "winner_points": 139.94,
+   "loser": "donblood",
+   "loser_points": 111.34,
+   "margin": 28.6
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "PutItOnYa",
+   "team": "Sports Betting",
+   "record": "6-1",
+   "points_for": 888.08,
+   "points_against": 832.32,
+   "streak": "W1",
+   "week_points": 112.66,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 2,
+   "manager": "dexclusive",
+   "team": "SCENE INFILTRATED",
+   "record": "5-2",
+   "points_for": 943.5,
+   "points_against": 783.96,
+   "streak": "L1",
+   "week_points": 117.7,
+   "week_result": "L",
+   "opponent": "jigri"
+  },
+  {
+   "rank": 3,
+   "manager": "jasonle",
+   "team": "Felon",
+   "record": "5-2",
+   "points_for": 866.76,
+   "points_against": 765.98,
+   "streak": "L1",
+   "week_points": 89.58,
+   "week_result": "L",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 4,
+   "manager": "keveezy",
+   "team": "Free money",
+   "record": "4-3",
+   "points_for": 860.54,
+   "points_against": 823.78,
+   "streak": "W3",
+   "week_points": 148.76,
+   "week_result": "W",
+   "opponent": "Abadahh"
+  },
+  {
+   "rank": 5,
+   "manager": "jigri",
+   "team": "Washed",
+   "record": "3-4",
+   "points_for": 833.42,
+   "points_against": 892.84,
+   "streak": "W1",
+   "week_points": 132.84,
+   "week_result": "W",
+   "opponent": "dexclusive"
+  },
+  {
+   "rank": 6,
+   "manager": "Abadahh",
+   "team": "Drier than a Popeyes biscuit",
+   "record": "3-4",
+   "points_for": 830.88,
+   "points_against": 871.2,
+   "streak": "L2",
+   "week_points": 125.0,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 7,
+   "manager": "anth0nyng",
+   "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+   "record": "3-4",
+   "points_for": 781.06,
+   "points_against": 788.34,
+   "streak": "L1",
+   "week_points": 112.02,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 8,
+   "manager": "lmphm",
+   "team": "lmphm",
+   "record": "3-4",
+   "points_for": 765.7,
+   "points_against": 851.8,
+   "streak": "W2",
+   "week_points": 111.44,
+   "week_result": "W",
+   "opponent": "jasonle"
+  },
+  {
+   "rank": 9,
+   "manager": "yckyb",
+   "team": "y c k y",
+   "record": "2-5",
+   "points_for": 792.08,
+   "points_against": 908.72,
+   "streak": "W1",
+   "week_points": 139.94,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 10,
+   "manager": "donblood",
+   "team": "my team ass",
+   "record": "1-6",
+   "points_for": 871.94,
+   "points_against": 915.02,
+   "streak": "L6",
+   "week_points": 111.34,
+   "week_result": "L",
+   "opponent": "yckyb"
+  }
+ ]
+}

@@ -1,0 +1,317 @@
+{
+ "season": 2021,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "We\u2019re Allen This Together",
+     "manager": "donblood",
+     "points": 142.72,
+     "projected": 137.76,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 112.34,
+     "projected": 136.76,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "I Love Me Some ME",
+     "manager": "jimbo817",
+     "points": 80.34,
+     "projected": 129.21,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Herb-a-Derp",
+     "manager": "PutItOnYa",
+     "points": 114.54,
+     "projected": 137.24,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Chubby Wood",
+     "manager": "Odeh1121",
+     "points": 116.82,
+     "projected": 127.3,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 126.38,
+     "projected": 138.81,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Usher Bucks",
+     "manager": "kholabear",
+     "points": 138.62,
+     "projected": 129.78,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 91.36,
+     "projected": 130.91,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "silky dingleberry",
+     "manager": "ramzz",
+     "points": 120.04,
+     "projected": 151.01,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "dalvin COOKED me",
+     "manager": "keveezy",
+     "points": 133.0,
+     "projected": 122.61,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 159.48,
+     "projected": 133.36,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 93.52,
+     "projected": 128.49,
+     "won": false
+    }
+   ],
+   "winner": "oooEcho"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "points": 159.48
+  },
+  "low_score": {
+   "manager": "jimbo817",
+   "team": "I Love Me Some ME",
+   "points": 80.34
+  },
+  "closest_game": {
+   "winner": "lmphm",
+   "winner_points": 126.38,
+   "loser": "Odeh1121",
+   "loser_points": 116.82,
+   "margin": 9.56
+  },
+  "biggest_blowout": {
+   "winner": "oooEcho",
+   "winner_points": 159.48,
+   "loser": "bvincenttt",
+   "loser_points": 93.52,
+   "margin": 65.96
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "keveezy",
+   "team": "dalvin COOKED me",
+   "record": "3-0",
+   "points_for": 372.0,
+   "points_against": 341.36,
+   "streak": "W3",
+   "week_points": 133.0,
+   "week_result": "W",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 2,
+   "manager": "ramzz",
+   "team": "silky dingleberry",
+   "record": "2-1",
+   "points_for": 437.1,
+   "points_against": 314.22,
+   "streak": "L1",
+   "week_points": 120.04,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 3,
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "record": "2-1",
+   "points_for": 426.58,
+   "points_against": 341.76,
+   "streak": "W2",
+   "week_points": 159.48,
+   "week_result": "W",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 4,
+   "manager": "PutItOnYa",
+   "team": "Herb-a-Derp",
+   "record": "2-1",
+   "points_for": 399.24,
+   "points_against": 354.22,
+   "streak": "W1",
+   "week_points": 114.54,
+   "week_result": "W",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 5,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "2-1",
+   "points_for": 357.8,
+   "points_against": 405.18,
+   "streak": "L1",
+   "week_points": 93.52,
+   "week_result": "L",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 6,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "2-1",
+   "points_for": 341.78,
+   "points_against": 398.98,
+   "streak": "W2",
+   "week_points": 126.38,
+   "week_result": "W",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 7,
+   "manager": "anth0nyng",
+   "team": "Princess Jelly",
+   "record": "1-2",
+   "points_for": 421.08,
+   "points_against": 382.42,
+   "streak": "L1",
+   "week_points": 112.34,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 8,
+   "manager": "donblood",
+   "team": "We\u2019re Allen This Together",
+   "record": "1-2",
+   "points_for": 372.18,
+   "points_against": 377.88,
+   "streak": "W1",
+   "week_points": 142.72,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 9,
+   "manager": "Odeh1121",
+   "team": "Chubby Wood",
+   "record": "1-2",
+   "points_for": 357.12,
+   "points_against": 391.18,
+   "streak": "L2",
+   "week_points": 116.82,
+   "week_result": "L",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 10,
+   "manager": "kholabear",
+   "team": "Usher Bucks",
+   "record": "1-2",
+   "points_for": 354.78,
+   "points_against": 366.46,
+   "streak": "W1",
+   "week_points": 138.62,
+   "week_result": "W",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 11,
+   "manager": "jimbo817",
+   "team": "I Love Me Some ME",
+   "record": "1-2",
+   "points_for": 318.46,
+   "points_against": 350.86,
+   "streak": "L2",
+   "week_points": 80.34,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 12,
+   "manager": "DVTV",
+   "team": "GOD TIER",
+   "record": "0-3",
+   "points_for": 289.06,
+   "points_against": 422.66,
+   "streak": "L3",
+   "week_points": 91.36,
+   "week_result": "L",
+   "opponent": "kholabear"
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2020,1,1,keveezy,Boom or Bust,1-0,160.6,81.96,W1,160.6,W,donblood
+2020,1,2,ramzz,Winry fan club,1-0,148.34,123.88,W1,148.34,W,kholabear
+2020,1,3,jimbo817,SponsoredByStatefarm,1-0,146.1,113.5,W1,146.1,W,oooEcho
+2020,1,4,PutItOnYa,I Want You Davant Me,1-0,145.02,136.08,W1,145.02,W,bvincenttt
+2020,1,5,DVTV,GOD TIER,1-0,132.58,113.3,W1,132.58,W,anth0nyng
+2020,1,6,Odeh1121,Hide and Zeke,1-0,117.24,91.0,W1,117.24,W,lmphm
+2020,1,7,bvincenttt,Shake n Blake,0-1,136.08,145.02,L1,136.08,L,PutItOnYa
+2020,1,8,kholabear,OnlyPain,0-1,123.88,148.34,L1,123.88,L,ramzz
+2020,1,9,oooEcho,oOo Cody,0-1,113.5,146.1,L1,113.5,L,jimbo817
+2020,1,10,anth0nyng,Prince of Mahomes,0-1,113.3,132.58,L1,113.3,L,DVTV
+2020,1,11,lmphm,Vegas,0-1,91.0,117.24,L1,91.0,L,Odeh1121
+2020,1,12,donblood,Golladay Inn Express,0-1,81.96,160.6,L1,81.96,L,keveezy
+2020,2,1,keveezy,Boom or Bust,2-0,325.92,172.36,W2,165.32,W,PutItOnYa
+2020,2,2,ramzz,Winry fan club,2-0,323.02,237.32,W2,174.68,W,anth0nyng
+2020,2,3,jimbo817,SponsoredByStatefarm,2-0,275.3,217.28,W2,129.2,W,lmphm
+2020,2,4,bvincenttt,Shake n Blake,1-1,286.2,283.42,W1,150.12,W,Odeh1121
+2020,2,5,kholabear,OnlyPain,1-1,273.68,239.6,W1,149.8,W,oooEcho
+2020,2,6,Odeh1121,Hide and Zeke,1-1,255.64,241.12,L1,138.4,L,bvincenttt
+2020,2,7,donblood,Golladay Inn Express,1-1,250.84,262.44,W1,168.88,W,DVTV
+2020,2,8,PutItOnYa,I Want You Davant Me,1-1,235.42,301.4,L1,90.4,L,keveezy
+2020,2,9,DVTV,GOD TIER,1-1,234.42,282.18,L1,101.84,L,donblood
+2020,2,10,anth0nyng,Prince of Mahomes,0-2,226.74,307.26,L2,113.44,L,ramzz
+2020,2,11,oooEcho,oOo Cody,0-2,204.76,295.9,L2,91.26,L,kholabear
+2020,2,12,lmphm,Vegas,0-2,194.78,246.44,L2,103.78,L,jimbo817
+2020,3,1,keveezy,Boom or Bust,3-0,508.14,303.94,W3,182.22,W,Odeh1121
+2020,3,2,ramzz,Winry fan club,3-0,473.12,362.4,W3,150.1,W,donblood
+2020,3,3,bvincenttt,Shake n Blake,2-1,449.0,407.54,W2,162.8,W,lmphm
+2020,3,4,kholabear,OnlyPain,2-1,401.52,361.78,W2,127.84,W,jimbo817
+2020,3,5,jimbo817,SponsoredByStatefarm,2-1,397.48,345.12,L1,122.18,L,kholabear
+2020,3,6,PutItOnYa,I Want You Davant Me,2-1,356.68,414.3,W1,121.26,W,DVTV
+2020,3,7,Odeh1121,Hide and Zeke,1-2,387.22,423.34,L2,131.58,L,keveezy
+2020,3,8,donblood,Golladay Inn Express,1-2,375.92,412.54,L1,125.08,L,ramzz
+2020,3,9,anth0nyng,Prince of Mahomes,1-2,363.54,400.64,W1,136.8,W,oooEcho
+2020,3,10,DVTV,GOD TIER,1-2,347.32,403.44,L2,112.9,L,PutItOnYa
+2020,3,11,lmphm,Vegas,0-3,318.9,409.24,L3,124.12,L,bvincenttt
+2020,3,12,oooEcho,oOo Cody,0-3,298.14,432.7,L3,93.38,L,anth0nyng
+2020,4,1,ramzz,Winry fan club,4-0,601.06,476.9,W4,127.94,W,PutItOnYa
+2020,4,2,keveezy,Boom or Bust,3-1,628.14,448.24,L1,120.0,L,bvincenttt
+2020,4,3,bvincenttt,Shake n Blake,3-1,593.3,527.54,W3,144.3,W,keveezy
+2020,4,4,kholabear,OnlyPain,3-1,538.14,442.88,W3,136.62,W,lmphm
+2020,4,5,jimbo817,SponsoredByStatefarm,2-2,547.06,513.54,L2,149.58,L,anth0nyng
+2020,4,6,donblood,Golladay Inn Express,2-2,533.08,563.06,W1,157.16,W,oooEcho
+2020,4,7,anth0nyng,Prince of Mahomes,2-2,531.96,550.22,W2,168.42,W,jimbo817
+2020,4,8,Odeh1121,Hide and Zeke,2-2,513.0,522.14,W1,125.78,W,DVTV
+2020,4,9,PutItOnYa,I Want You Davant Me,2-2,471.18,542.24,L1,114.5,L,ramzz
+2020,4,10,DVTV,GOD TIER,1-3,446.12,529.22,L3,98.8,L,Odeh1121
+2020,4,11,oooEcho,oOo Cody,0-4,448.66,589.86,L4,150.52,L,donblood
+2020,4,12,lmphm,Vegas,0-4,400.0,545.86,L4,81.1,L,kholabear
+2020,5,1,ramzz,Winry fan club,5-0,755.26,615.74,W5,154.2,W,Odeh1121
+2020,5,2,bvincenttt,Shake n Blake,4-1,740.48,654.2,W4,147.18,W,DVTV
+2020,5,3,keveezy,Boom or Bust,3-2,741.98,570.54,L2,113.84,L,lmphm
+2020,5,4,kholabear,OnlyPain,3-2,673.56,581.38,L1,135.42,L,anth0nyng
+2020,5,5,anth0nyng,Prince of Mahomes,3-2,670.46,685.64,W3,138.5,W,kholabear
+2020,5,6,jimbo817,SponsoredByStatefarm,3-2,661.18,624.52,W1,114.12,W,donblood
+2020,5,7,PutItOnYa,I Want You Davant Me,3-2,581.24,633.94,W1,110.06,W,oooEcho
+2020,5,8,Odeh1121,Hide and Zeke,2-3,651.84,676.34,L1,138.84,L,ramzz
+2020,5,9,donblood,Golladay Inn Express,2-3,644.06,677.18,L1,110.98,L,jimbo817
+2020,5,10,DVTV,GOD TIER,1-4,572.78,676.4,L4,126.66,L,bvincenttt
+2020,5,11,lmphm,Vegas,1-4,522.3,659.7,W1,122.3,W,keveezy
+2020,5,12,oooEcho,oOo Cody,0-5,540.36,699.92,L5,91.7,L,PutItOnYa
+2020,6,1,ramzz,Winry fan club,5-1,876.06,739.96,L1,120.8,L,bvincenttt
+2020,6,2,bvincenttt,Shake n Blake,5-1,864.7,775.0,W5,124.22,W,ramzz
+2020,6,3,kholabear,OnlyPain,4-2,785.04,692.72,W1,111.48,W,donblood
+2020,6,4,PutItOnYa,I Want You Davant Me,4-2,756.34,770.34,W2,175.1,W,jimbo817
+2020,6,5,keveezy,Boom or Bust,3-3,847.5,689.6,L3,105.52,L,DVTV
+2020,6,6,jimbo817,SponsoredByStatefarm,3-3,797.58,799.62,L1,136.4,L,PutItOnYa
+2020,6,7,anth0nyng,Prince of Mahomes,3-3,767.18,795.66,L1,96.72,L,lmphm
+2020,6,8,donblood,Golladay Inn Express,2-4,755.4,788.66,L2,111.34,L,kholabear
+2020,6,9,Odeh1121,Hide and Zeke,2-4,751.98,795.98,L2,100.14,L,oooEcho
+2020,6,10,DVTV,GOD TIER,2-4,691.84,781.92,W1,119.06,W,keveezy
+2020,6,11,lmphm,Vegas,2-4,632.32,756.42,W2,110.02,W,anth0nyng
+2020,6,12,oooEcho,oOo Cody,1-5,660.0,800.06,W1,119.64,W,Odeh1121
+2020,7,1,bvincenttt,Shake n Blake,6-1,981.82,889.86,W6,117.12,W,oooEcho
+2020,7,2,ramzz,Winry fan club,5-2,992.96,910.28,L2,116.9,L,keveezy
+2020,7,3,PutItOnYa,I Want You Davant Me,5-2,919.9,895.02,W3,163.56,W,kholabear
+2020,7,4,keveezy,Boom or Bust,4-3,1017.82,806.5,W1,170.32,W,ramzz
+2020,7,5,kholabear,OnlyPain,4-3,909.72,856.28,L1,124.68,L,PutItOnYa
+2020,7,6,anth0nyng,Prince of Mahomes,4-3,892.88,885.72,W1,125.7,W,donblood
+2020,7,7,jimbo817,SponsoredByStatefarm,3-4,899.6,928.26,L2,102.02,L,Odeh1121
+2020,7,8,Odeh1121,Hide and Zeke,3-4,880.62,898.0,W1,128.64,W,jimbo817
+2020,7,9,DVTV,GOD TIER,3-4,833.82,914.46,W2,141.98,W,lmphm
+2020,7,10,donblood,Golladay Inn Express,2-5,845.46,914.36,L3,90.06,L,anth0nyng
+2020,7,11,lmphm,Vegas,2-5,764.86,898.4,L1,132.54,L,DVTV
+2020,7,12,oooEcho,oOo Cody,1-6,774.86,917.18,L1,114.86,L,bvincenttt
+2020,8,1,bvincenttt,Shake n Blake,7-1,1152.06,995.3,W7,170.24,W,jimbo817
+2020,8,2,PutItOnYa,I Want You Davant Me,6-2,1015.26,985.64,W4,95.36,W,anth0nyng
+2020,8,3,ramzz,Winry fan club,5-3,1119.7,1062.7,L3,126.74,L,DVTV
+2020,8,4,keveezy,Boom or Bust,5-3,1107.86,888.22,W2,90.04,W,oooEcho
+2020,8,5,kholabear,OnlyPain,4-4,1022.98,990.76,L2,113.26,L,Odeh1121
+2020,8,6,Odeh1121,Hide and Zeke,4-4,1015.1,1011.26,W2,134.48,W,kholabear
+2020,8,7,DVTV,GOD TIER,4-4,986.24,1041.2,W3,152.42,W,ramzz
+2020,8,8,anth0nyng,Prince of Mahomes,4-4,983.5,981.08,L1,90.62,L,PutItOnYa
+2020,8,9,jimbo817,SponsoredByStatefarm,3-5,1005.04,1098.5,L3,105.44,L,bvincenttt
+2020,8,10,lmphm,Vegas,3-5,873.22,982.66,W1,108.36,W,donblood
+2020,8,11,donblood,Golladay Inn Express,2-6,929.72,1022.72,L4,84.26,L,lmphm
+2020,8,12,oooEcho,oOo Cody,1-7,856.58,1007.22,L2,81.72,L,keveezy
+2020,9,1,bvincenttt,Shake n Blake,7-2,1288.96,1151.2,L1,136.9,L,kholabear
+2020,9,2,PutItOnYa,I Want You Davant Me,7-2,1146.0,1066.08,W5,130.74,W,donblood
+2020,9,3,ramzz,Winry fan club,6-3,1248.78,1172.18,W1,129.08,W,lmphm
+2020,9,4,keveezy,Boom or Bust,5-4,1207.42,1011.32,L1,99.56,L,jimbo817
+2020,9,5,kholabear,OnlyPain,5-4,1178.88,1127.66,W1,155.9,W,bvincenttt
+2020,9,6,anth0nyng,Prince of Mahomes,5-4,1123.32,1062.12,W1,139.82,W,Odeh1121
+2020,9,7,DVTV,GOD TIER,5-4,1101.98,1144.9,W4,115.74,W,oooEcho
+2020,9,8,jimbo817,SponsoredByStatefarm,4-5,1128.14,1198.06,W1,123.1,W,keveezy
+2020,9,9,Odeh1121,Hide and Zeke,4-5,1096.14,1151.08,L1,81.04,L,anth0nyng
+2020,9,10,lmphm,Vegas,3-6,982.7,1111.74,L1,109.48,L,ramzz
+2020,9,11,donblood,Golladay Inn Express,2-7,1010.16,1153.46,L5,80.44,L,PutItOnYa
+2020,9,12,oooEcho,oOo Cody,1-8,960.28,1122.96,L3,103.7,L,DVTV
+2020,10,1,PutItOnYa,I Want You Davant Me,8-2,1254.92,1157.42,W6,108.92,W,lmphm
+2020,10,2,bvincenttt,Shake n Blake,7-3,1385.38,1271.3,L2,96.42,L,anth0nyng
+2020,10,3,ramzz,Winry fan club,6-4,1342.06,1274.44,L1,93.28,L,oooEcho
+2020,10,4,kholabear,OnlyPain,6-4,1339.24,1272.12,W2,160.36,W,keveezy
+2020,10,5,anth0nyng,Prince of Mahomes,6-4,1243.42,1158.54,W2,120.1,W,bvincenttt
+2020,10,6,keveezy,Boom or Bust,5-5,1351.88,1171.68,L2,144.46,L,kholabear
+2020,10,7,jimbo817,SponsoredByStatefarm,5-5,1260.04,1279.94,W2,131.9,W,DVTV
+2020,10,8,DVTV,GOD TIER,5-5,1183.86,1276.8,L1,81.88,L,jimbo817
+2020,10,9,Odeh1121,Hide and Zeke,4-6,1164.72,1271.22,L2,68.58,L,donblood
+2020,10,10,donblood,Golladay Inn Express,3-7,1130.3,1222.04,W1,120.14,W,Odeh1121
+2020,10,11,lmphm,Vegas,3-7,1074.04,1220.66,L2,91.34,L,PutItOnYa
+2020,10,12,oooEcho,oOo Cody,2-8,1062.54,1216.24,W1,102.26,W,ramzz
+2020,11,1,PutItOnYa,I Want You Davant Me,9-2,1405.58,1290.34,W7,150.66,W,Odeh1121
+2020,11,2,bvincenttt,Shake n Blake,8-3,1510.26,1367.78,W1,124.88,W,donblood
+2020,11,3,kholabear,OnlyPain,7-4,1474.4,1382.46,W3,135.16,W,DVTV
+2020,11,4,anth0nyng,Prince of Mahomes,7-4,1363.98,1261.62,W3,120.56,W,keveezy
+2020,11,5,ramzz,Winry fan club,6-5,1481.48,1416.88,L2,139.42,L,jimbo817
+2020,11,6,jimbo817,SponsoredByStatefarm,6-5,1402.48,1419.36,W3,142.44,W,ramzz
+2020,11,7,keveezy,Boom or Bust,5-6,1454.96,1292.24,L3,103.08,L,anth0nyng
+2020,11,8,DVTV,GOD TIER,5-6,1294.2,1411.96,L2,110.34,L,kholabear
+2020,11,9,Odeh1121,Hide and Zeke,4-7,1297.64,1421.88,L3,132.92,L,PutItOnYa
+2020,11,10,donblood,Golladay Inn Express,3-8,1226.78,1346.92,L1,96.48,L,bvincenttt
+2020,11,11,oooEcho,oOo Cody,3-8,1194.18,1324.7,W2,131.64,W,lmphm
+2020,11,12,lmphm,Vegas,3-8,1182.5,1352.3,L3,108.46,L,oooEcho
+2020,12,1,PutItOnYa,I Want You Davant Me,10-2,1587.0,1420.44,W8,181.42,W,bvincenttt
+2020,12,2,bvincenttt,Shake n Blake,8-4,1640.36,1549.2,L1,130.1,L,PutItOnYa
+2020,12,3,kholabear,OnlyPain,8-4,1595.58,1502.94,W4,121.18,W,ramzz
+2020,12,4,jimbo817,SponsoredByStatefarm,7-5,1546.82,1500.66,W4,144.34,W,oooEcho
+2020,12,5,anth0nyng,Prince of Mahomes,7-5,1522.48,1420.36,L1,158.5,L,DVTV
+2020,12,6,ramzz,Winry fan club,6-6,1601.96,1538.06,L3,120.48,L,kholabear
+2020,12,7,DVTV,GOD TIER,6-6,1452.94,1570.46,W1,158.74,W,anth0nyng
+2020,12,8,keveezy,Boom or Bust,5-7,1534.98,1408.48,L4,80.02,L,donblood
+2020,12,9,Odeh1121,Hide and Zeke,4-8,1380.36,1523.16,L4,82.72,L,lmphm
+2020,12,10,donblood,Golladay Inn Express,4-8,1343.02,1426.94,W1,116.24,W,keveezy
+2020,12,11,lmphm,Vegas,4-8,1283.78,1435.02,W1,101.28,W,Odeh1121
+2020,12,12,oooEcho,oOo Cody,3-9,1275.48,1469.04,L1,81.3,L,jimbo817
+2020,13,1,PutItOnYa,I Want You Davant Me,11-2,1737.34,1540.08,W9,150.34,W,keveezy
+2020,13,2,bvincenttt,Shake n Blake,9-4,1754.38,1656.9,W1,114.02,W,Odeh1121
+2020,13,3,kholabear,OnlyPain,8-5,1702.38,1636.92,L1,106.8,L,oooEcho
+2020,13,4,ramzz,Winry fan club,7-6,1760.22,1683.08,W1,158.26,W,anth0nyng
+2020,13,5,anth0nyng,Prince of Mahomes,7-6,1667.5,1578.62,L2,145.02,L,ramzz
+2020,13,6,jimbo817,SponsoredByStatefarm,7-6,1646.02,1613.36,L1,99.2,L,lmphm
+2020,13,7,DVTV,GOD TIER,6-7,1541.1,1682.26,L1,88.16,L,donblood
+2020,13,8,keveezy,Boom or Bust,5-8,1654.62,1558.82,L5,119.64,L,PutItOnYa
+2020,13,9,donblood,Golladay Inn Express,5-8,1454.82,1515.1,W2,111.8,W,DVTV
+2020,13,10,lmphm,Vegas,5-8,1396.48,1534.22,W2,112.7,W,jimbo817
+2020,13,11,Odeh1121,Hide and Zeke,4-9,1488.06,1637.18,L5,107.7,L,bvincenttt
+2020,13,12,oooEcho,oOo Cody,4-9,1409.46,1575.84,W1,133.98,W,kholabear

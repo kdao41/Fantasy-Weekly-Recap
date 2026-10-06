@@ -1,0 +1,125 @@
+{
+ "season": 2020,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Champs to chumps",
+     "manager": "Kevin D",
+     "points": 147.4,
+     "projected": 130.13,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "This was Chris Lake",
+     "manager": "Jason",
+     "points": 162.82,
+     "projected": 123.4,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "simp.",
+     "manager": "mrlampham",
+     "points": 100.32,
+     "projected": 120.45,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 124.24,
+     "projected": 129.63,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Jigs",
+     "manager": "Justin",
+     "points": 147.92,
+     "projected": 151.78,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "CeeDeez Nutz",
+     "manager": "Don",
+     "points": 135.98,
+     "projected": 136.25,
+     "won": false
+    }
+   ],
+   "winner": "Justin"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Dry Szn",
+     "manager": "Alex",
+     "points": 103.26,
+     "projected": 64.57,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Wtf am I doing here",
+     "manager": "An",
+     "points": 66.9,
+     "projected": 70.75,
+     "won": false
+    }
+   ],
+   "winner": "Alex"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Jason",
+   "team": "This was Chris Lake",
+   "points": 162.82
+  },
+  "low_score": {
+   "manager": "An",
+   "team": "Wtf am I doing here",
+   "points": 66.9
+  },
+  "closest_game": {
+   "winner": "Justin",
+   "winner_points": 147.92,
+   "loser": "Don",
+   "loser_points": 135.98,
+   "margin": 11.94
+  },
+  "biggest_blowout": {
+   "winner": "Alex",
+   "winner_points": 103.26,
+   "loser": "An",
+   "loser_points": 66.9,
+   "margin": 36.36
+  }
+ }
+}

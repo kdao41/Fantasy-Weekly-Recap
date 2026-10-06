@@ -1,0 +1,270 @@
+{
+ "season": 2015,
+ "week": 2,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "Don",
+     "points": 130.74,
+     "projected": 116.82,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "Charizarkandrick",
+     "manager": "Ramzi",
+     "points": 130.3,
+     "projected": 118.34,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Blue Waffle",
+     "manager": "Jimmy",
+     "points": 112.36,
+     "projected": 124.2,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "DuuuuuhhhhhHelloooo",
+     "manager": "--hidden--",
+     "points": 113.1,
+     "projected": 120.17,
+     "won": true
+    }
+   ],
+   "winner": "--hidden--"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Wabaki 88",
+     "manager": "Muso (Lan Doan)",
+     "points": 108.5,
+     "projected": 124.22,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "The Nick Folks",
+     "manager": "Anthony",
+     "points": 100.04,
+     "projected": 121.72,
+     "won": false
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "8====D",
+     "manager": "Ahmad",
+     "points": 108.14,
+     "projected": 114.75,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 153.6,
+     "projected": 123.68,
+     "won": true
+    }
+   ],
+   "winner": "mrlampham"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 107.96,
+     "projected": 101.79,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Lost cause.",
+     "manager": "Kevin D",
+     "points": 111.42,
+     "projected": 114.61,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "points": 153.6
+  },
+  "low_score": {
+   "manager": "Anthony",
+   "team": "The Nick Folks",
+   "points": 100.04
+  },
+  "closest_game": {
+   "winner": "Don",
+   "winner_points": 130.74,
+   "loser": "Ramzi",
+   "loser_points": 130.3,
+   "margin": 0.44
+  },
+  "biggest_blowout": {
+   "winner": "mrlampham",
+   "winner_points": 153.6,
+   "loser": "Ahmad",
+   "loser_points": 108.14,
+   "margin": 45.46
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "2-0",
+   "points_for": 291.76,
+   "points_against": 237.08,
+   "streak": "W2",
+   "week_points": 153.6,
+   "week_result": "W",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 2,
+   "manager": "Don",
+   "team": "donblood",
+   "record": "2-0",
+   "points_for": 290.66,
+   "points_against": 274.36,
+   "streak": "W2",
+   "week_points": 130.74,
+   "week_result": "W",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 3,
+   "manager": "--hidden--",
+   "team": "DuuuuuhhhhhHelloooo",
+   "record": "1-1",
+   "points_for": 242.32,
+   "points_against": 245.4,
+   "streak": "W1",
+   "week_points": 113.1,
+   "week_result": "W",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 4,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "1-1",
+   "points_for": 241.0,
+   "points_against": 240.64,
+   "streak": "L1",
+   "week_points": 107.96,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 5,
+   "manager": "Anthony",
+   "team": "The Nick Folks",
+   "record": "1-1",
+   "points_for": 239.98,
+   "points_against": 223.7,
+   "streak": "L1",
+   "week_points": 100.04,
+   "week_result": "L",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 6,
+   "manager": "Muso (Lan Doan)",
+   "team": "Wabaki 88",
+   "record": "1-1",
+   "points_for": 237.44,
+   "points_against": 238.2,
+   "streak": "W1",
+   "week_points": 108.5,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 7,
+   "manager": "Ahmad",
+   "team": "8====D",
+   "record": "1-1",
+   "points_for": 231.94,
+   "points_against": 253.02,
+   "streak": "L1",
+   "week_points": 108.14,
+   "week_result": "L",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 8,
+   "manager": "Kevin D",
+   "team": "Lost cause.",
+   "record": "1-1",
+   "points_for": 210.84,
+   "points_against": 231.76,
+   "streak": "W1",
+   "week_points": 111.42,
+   "week_result": "W",
+   "opponent": "Blake"
+  },
+  {
+   "rank": 9,
+   "manager": "Jimmy",
+   "team": "Blue Waffle",
+   "record": "0-2",
+   "points_for": 256.42,
+   "points_against": 273.02,
+   "streak": "L2",
+   "week_points": 112.36,
+   "week_result": "L",
+   "opponent": "--hidden--"
+  },
+  {
+   "rank": 10,
+   "manager": "Ramzi",
+   "team": "Charizarkandrick",
+   "record": "0-2",
+   "points_for": 245.5,
+   "points_against": 270.68,
+   "streak": "L2",
+   "week_points": 130.3,
+   "week_result": "L",
+   "opponent": "Don"
+  }
+ ]
+}

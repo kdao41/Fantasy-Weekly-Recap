@@ -1,0 +1,7 @@
+__pycache__/
+.DS_Store
+
+# Full API download archives stay local (about 160 MB); the per-season raw/<year>.json summaries are committed
+data/*/*/raw/yahoo_api/
+data/*/*/raw/sleeper_api/
+data/sleeper/players_nfl.json

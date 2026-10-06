@@ -1,0 +1,79 @@
+{
+ "season": 2024,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "yckyb",
+     "manager": "yckyb",
+     "points": 99.68,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Amon Drugs",
+     "manager": "jasonle",
+     "points": 64.86,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "yckyb"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "jigri",
+     "manager": "jigri",
+     "points": 181.86,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 167.42,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "jigri"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "jigri",
+   "team": "jigri",
+   "points": 181.86
+  },
+  "low_score": {
+   "manager": "jasonle",
+   "team": "Amon Drugs",
+   "points": 64.86
+  },
+  "closest_game": {
+   "winner": "jigri",
+   "winner_points": 181.86,
+   "loser": "PutItOnYa",
+   "loser_points": 167.42,
+   "margin": 14.44
+  },
+  "biggest_blowout": {
+   "winner": "yckyb",
+   "winner_points": 99.68,
+   "loser": "jasonle",
+   "loser_points": 64.86,
+   "margin": 34.82
+  }
+ }
+}

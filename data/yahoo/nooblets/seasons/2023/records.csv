@@ -1,0 +1,11 @@
+season,manager,team,final_rank,playoff_seed,made_playoffs,regular_season_record,playoff_record,consolation_record,total_record,total_wins,total_losses,total_ties,regular_wins,regular_losses,regular_ties,playoff_wins,playoff_losses,points_for,points_against
+2023,Alex,Sports Betting,1,2,True,9-5,2-0,0-0,11-5,11,5,0,9,5,0,2,0,1662.72,1571.04
+2023,mrlampham,lmphm,2,1,True,10-4,1-1,0-0,11-5,11,5,0,10,4,0,1,1,1786.88,1575.36
+2023,Kevin D,Ra-Dogged,3,5,True,7-7,2-1,0-0,9-8,9,8,0,7,7,0,2,1,1667.9,1740.18
+2023,Don,Waddleburger Pattymelt,4,6,True,6-8,1-2,0-0,7-10,7,10,0,6,8,0,1,2,1700.0,1824.96
+2023,Dexter,Dex,5,3,True,8-6,1-1,0-0,9-7,9,7,0,8,6,0,1,1,1860.58,1747.38
+2023,Tommy,y c k y,6,4,True,7-7,0-2,0-0,7-9,7,9,0,7,7,0,0,2,1760.2,1716.74
+2023,Jason,Felon,7,8,False,6-8,0-0,2-0,6-8,6,8,0,6,8,0,0,0,1629.14,1676.2
+2023,Justin,Jiggly,8,7,False,6-8,0-0,1-1,6-8,6,8,0,6,8,0,0,0,1646.38,1662.72
+2023,Anthony,🏆 Champion Jelly 🏆,9,10,False,5-9,0-0,1-1,5-9,5,9,0,5,9,0,0,0,1646.46,1739.02
+2023,An,Drier than a Popeyes biscuit,10,9,False,6-8,0-0,0-2,6-8,6,8,0,6,8,0,0,0,1569.86,1676.52

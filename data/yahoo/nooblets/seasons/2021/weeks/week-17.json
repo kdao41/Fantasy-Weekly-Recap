@@ -1,0 +1,125 @@
+{
+ "season": 2021,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Win will I get a when",
+     "manager": "Kevin D",
+     "points": 78.1,
+     "projected": 85.62,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Boards",
+     "manager": "Tommy",
+     "points": 72.46,
+     "projected": 86.7,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "CREASING MY SECRET SANTA GIFT",
+     "manager": "Don",
+     "points": 131.66,
+     "projected": 139.57,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 128.74,
+     "projected": 137.57,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "Dexter",
+     "points": 100.42,
+     "projected": 132.88,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Queen Jelly",
+     "manager": "Anthony",
+     "points": 157.1,
+     "projected": 157.95,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Fuck an",
+     "manager": "mrlampham",
+     "points": 74.1,
+     "projected": 97.96,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "0.02 points",
+     "manager": "Jason",
+     "points": 91.4,
+     "projected": 115.29,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Anthony",
+   "team": "Queen Jelly",
+   "points": 157.1
+  },
+  "low_score": {
+   "manager": "Tommy",
+   "team": "Boards",
+   "points": 72.46
+  },
+  "closest_game": {
+   "winner": "Don",
+   "winner_points": 131.66,
+   "loser": "An",
+   "loser_points": 128.74,
+   "margin": 2.92
+  },
+  "biggest_blowout": {
+   "winner": "Anthony",
+   "winner_points": 157.1,
+   "loser": "Dexter",
+   "loser_points": 100.42,
+   "margin": 56.68
+  }
+ }
+}

@@ -1,0 +1,426 @@
+{
+ "season": 2022,
+ "league": "Nooblets Season 2",
+ "finished": true,
+ "champion": {
+  "team_id": 9,
+  "team": "Felon",
+  "manager": "Jason",
+  "final_rank": 1,
+  "playoff_seed": 2,
+  "wins": 9,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1737.34,
+  "points_against": 1638.5
+ },
+ "championship_game": {
+  "week": 17,
+  "winner": "Jason",
+  "winner_team": "Felon",
+  "winner_points": 144.1,
+  "loser": "Alex",
+  "loser_team": "Sports Betting",
+  "loser_points": 112.28
+ },
+ "runner_up": {
+  "team_id": 3,
+  "team": "Sports Betting",
+  "manager": "Alex",
+  "final_rank": 2,
+  "playoff_seed": 1,
+  "wins": 12,
+  "losses": 2,
+  "ties": 0,
+  "points_for": 1768.6,
+  "points_against": 1555.02
+ },
+ "third_place": {
+  "team_id": 5,
+  "team": "SCENE INFILTRATED",
+  "manager": "Dexter",
+  "final_rank": 3,
+  "playoff_seed": 3,
+  "wins": 8,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1820.04,
+  "points_against": 1668.76
+ },
+ "last_place": {
+  "team_id": 4,
+  "team": "y c k y",
+  "manager": "Tommy",
+  "final_rank": 10,
+  "playoff_seed": 10,
+  "wins": 4,
+  "losses": 10,
+  "ties": 0,
+  "points_for": 1583.04,
+  "points_against": 1763.94
+ },
+ "regular_season_winner": {
+  "team_id": 3,
+  "team": "Sports Betting",
+  "manager": "Alex",
+  "final_rank": 2,
+  "playoff_seed": 1,
+  "wins": 12,
+  "losses": 2,
+  "ties": 0,
+  "points_for": 1768.6,
+  "points_against": 1555.02
+ },
+ "most_points": {
+  "team_id": 5,
+  "team": "SCENE INFILTRATED",
+  "manager": "Dexter",
+  "final_rank": 3,
+  "playoff_seed": 3,
+  "wins": 8,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1820.04,
+  "points_against": 1668.76
+ },
+ "settings": {
+  "league_key": "414.l.661675",
+  "num_teams": 10,
+  "start_week": 1,
+  "end_week": 17,
+  "playoff_week_start": 15,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "live",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R/T",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   },
+   {
+    "position": "IR",
+    "count": 2
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 9,
+   "team": "Felon",
+   "manager": "Jason",
+   "final_rank": 1,
+   "playoff_seed": 2,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1737.34,
+   "points_against": 1638.5
+  },
+  {
+   "team_id": 3,
+   "team": "Sports Betting",
+   "manager": "Alex",
+   "final_rank": 2,
+   "playoff_seed": 1,
+   "wins": 12,
+   "losses": 2,
+   "ties": 0,
+   "points_for": 1768.6,
+   "points_against": 1555.02
+  },
+  {
+   "team_id": 5,
+   "team": "SCENE INFILTRATED",
+   "manager": "Dexter",
+   "final_rank": 3,
+   "playoff_seed": 3,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1820.04,
+   "points_against": 1668.76
+  },
+  {
+   "team_id": 6,
+   "team": "Washed",
+   "manager": "Justin",
+   "final_rank": 4,
+   "playoff_seed": 4,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1669.4,
+   "points_against": 1660.36
+  },
+  {
+   "team_id": 10,
+   "team": "Drier than a Popeyes biscuit",
+   "manager": "An",
+   "final_rank": 5,
+   "playoff_seed": 6,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1626.56,
+   "points_against": 1774.22
+  },
+  {
+   "team_id": 1,
+   "team": "Free money",
+   "manager": "Kevin D",
+   "final_rank": 6,
+   "playoff_seed": 5,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1662.48,
+   "points_against": 1677.24
+  },
+  {
+   "team_id": 2,
+   "team": "my team ass",
+   "manager": "Don",
+   "final_rank": 7,
+   "playoff_seed": 9,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1776.36,
+   "points_against": 1748.86
+  },
+  {
+   "team_id": 8,
+   "team": "lmphm",
+   "manager": "mrlampham",
+   "final_rank": 8,
+   "playoff_seed": 7,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1595.96,
+   "points_against": 1691.26
+  },
+  {
+   "team_id": 7,
+   "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+   "manager": "Anthony",
+   "final_rank": 9,
+   "playoff_seed": 8,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1589.84,
+   "points_against": 1651.46
+  },
+  {
+   "team_id": 4,
+   "team": "y c k y",
+   "manager": "Tommy",
+   "final_rank": 10,
+   "playoff_seed": 10,
+   "wins": 4,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1583.04,
+   "points_against": 1763.94
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Free money",
+     "manager": "Kevin D",
+     "points": 105.82,
+     "projected": 126.99,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 136.58,
+     "projected": 121.66,
+     "won": true
+    }
+   ],
+   "winner": "Justin"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "Dexter",
+     "points": 130.48,
+     "projected": 120.14,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 127.3,
+     "projected": 124.99,
+     "won": false
+    }
+   ],
+   "winner": "Dexter"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Free money",
+     "manager": "Kevin D",
+     "points": 98.1,
+     "projected": 120.27,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 155.06,
+     "projected": 120.0,
+     "won": true
+    }
+   ],
+   "winner": "An"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "Alex",
+     "points": 115.76,
+     "projected": 121.57,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 91.16,
+     "projected": 119.2,
+     "won": false
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "Dexter",
+     "points": 105.64,
+     "projected": 121.88,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "Jason",
+     "points": 132.5,
+     "projected": 133.03,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "Alex",
+     "points": 112.28,
+     "projected": 124.35,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "Jason",
+     "points": 144.1,
+     "projected": 134.84,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "Dexter",
+     "points": 120.76,
+     "projected": 117.77,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 72.56,
+     "projected": 108.75,
+     "won": false
+    }
+   ],
+   "winner": "Dexter"
+  }
+ ]
+}

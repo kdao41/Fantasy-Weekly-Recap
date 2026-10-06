@@ -1,0 +1,125 @@
+{
+ "season": 2022,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "my team ass",
+     "manager": "Don",
+     "points": 71.9,
+     "projected": 108.61,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "lmphm",
+     "manager": "mrlampham",
+     "points": 66.6,
+     "projected": 103.67,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "Alex",
+     "points": 112.28,
+     "projected": 124.35,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "Jason",
+     "points": 144.1,
+     "projected": 134.84,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "y c k y",
+     "manager": "Tommy",
+     "points": 72.9,
+     "projected": 117.62,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+     "manager": "Anthony",
+     "points": 93.12,
+     "projected": 114.61,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "Dexter",
+     "points": 120.76,
+     "projected": 117.77,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 72.56,
+     "projected": 108.75,
+     "won": false
+    }
+   ],
+   "winner": "Dexter"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Jason",
+   "team": "Felon",
+   "points": 144.1
+  },
+  "low_score": {
+   "manager": "mrlampham",
+   "team": "lmphm",
+   "points": 66.6
+  },
+  "closest_game": {
+   "winner": "Don",
+   "winner_points": 71.9,
+   "loser": "mrlampham",
+   "loser_points": 66.6,
+   "margin": 5.3
+  },
+  "biggest_blowout": {
+   "winner": "Dexter",
+   "winner_points": 120.76,
+   "loser": "Justin",
+   "loser_points": 72.56,
+   "margin": 48.2
+  }
+ }
+}

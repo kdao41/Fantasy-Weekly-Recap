@@ -1,0 +1,270 @@
+{
+ "season": 2021,
+ "week": 10,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Win will I get a when",
+     "manager": "Kevin D",
+     "points": 86.12,
+     "projected": 137.75,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 102.34,
+     "projected": 132.75,
+     "won": true
+    }
+   ],
+   "winner": "An"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "CREASING MY SECRET SANTA GIFT",
+     "manager": "Don",
+     "points": 154.54,
+     "projected": 136.96,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "Dexter",
+     "points": 101.5,
+     "projected": 120.3,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shrooms",
+     "manager": "Alex",
+     "points": 104.9,
+     "projected": 133.37,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Boards",
+     "manager": "Tommy",
+     "points": 98.52,
+     "projected": 116.6,
+     "won": false
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 116.44,
+     "projected": 138.46,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Queen Jelly",
+     "manager": "Anthony",
+     "points": 108.6,
+     "projected": 141.91,
+     "won": false
+    }
+   ],
+   "winner": "Justin"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Fuck an",
+     "manager": "mrlampham",
+     "points": 116.88,
+     "projected": 130.45,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "0.02 points",
+     "manager": "Jason",
+     "points": 125.04,
+     "projected": 128.52,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Don",
+   "team": "CREASING MY SECRET SANTA GIFT",
+   "points": 154.54
+  },
+  "low_score": {
+   "manager": "Kevin D",
+   "team": "Win will I get a when",
+   "points": 86.12
+  },
+  "closest_game": {
+   "winner": "Alex",
+   "winner_points": 104.9,
+   "loser": "Tommy",
+   "loser_points": 98.52,
+   "margin": 6.38
+  },
+  "biggest_blowout": {
+   "winner": "Don",
+   "winner_points": 154.54,
+   "loser": "Dexter",
+   "loser_points": 101.5,
+   "margin": 53.04
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Anthony",
+   "team": "Queen Jelly",
+   "record": "9-1",
+   "points_for": 1446.68,
+   "points_against": 1212.28,
+   "streak": "L1",
+   "week_points": 108.6,
+   "week_result": "L",
+   "opponent": "Justin"
+  },
+  {
+   "rank": 2,
+   "manager": "Don",
+   "team": "CREASING MY SECRET SANTA GIFT",
+   "record": "7-3",
+   "points_for": 1355.0,
+   "points_against": 1256.8,
+   "streak": "W3",
+   "week_points": 154.54,
+   "week_result": "W",
+   "opponent": "Dexter"
+  },
+  {
+   "rank": 3,
+   "manager": "Justin",
+   "team": "Washed",
+   "record": "7-3",
+   "points_for": 1231.58,
+   "points_against": 1193.54,
+   "streak": "W2",
+   "week_points": 116.44,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 4,
+   "manager": "Alex",
+   "team": "Shrooms",
+   "record": "6-4",
+   "points_for": 1282.84,
+   "points_against": 1223.84,
+   "streak": "W1",
+   "week_points": 104.9,
+   "week_result": "W",
+   "opponent": "Tommy"
+  },
+  {
+   "rank": 5,
+   "manager": "Dexter",
+   "team": "Dex_lab",
+   "record": "6-4",
+   "points_for": 1157.74,
+   "points_against": 1141.08,
+   "streak": "L1",
+   "week_points": 101.5,
+   "week_result": "L",
+   "opponent": "Don"
+  },
+  {
+   "rank": 6,
+   "manager": "An",
+   "team": "Drier than a Popeyes biscuit",
+   "record": "4-6",
+   "points_for": 1210.6,
+   "points_against": 1216.16,
+   "streak": "W3",
+   "week_points": 102.34,
+   "week_result": "W",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 7,
+   "manager": "Jason",
+   "team": "0.02 points",
+   "record": "4-6",
+   "points_for": 1163.82,
+   "points_against": 1154.56,
+   "streak": "W1",
+   "week_points": 125.04,
+   "week_result": "W",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 8,
+   "manager": "Tommy",
+   "team": "Boards",
+   "record": "3-7",
+   "points_for": 1215.3,
+   "points_against": 1256.74,
+   "streak": "L6",
+   "week_points": 98.52,
+   "week_result": "L",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 9,
+   "manager": "mrlampham",
+   "team": "Fuck an",
+   "record": "2-8",
+   "points_for": 1172.26,
+   "points_against": 1337.34,
+   "streak": "L7",
+   "week_points": 116.88,
+   "week_result": "L",
+   "opponent": "Jason"
+  },
+  {
+   "rank": 10,
+   "manager": "Kevin D",
+   "team": "Win will I get a when",
+   "record": "2-8",
+   "points_for": 1152.12,
+   "points_against": 1395.6,
+   "streak": "L2",
+   "week_points": 86.12,
+   "week_result": "L",
+   "opponent": "An"
+  }
+ ]
+}

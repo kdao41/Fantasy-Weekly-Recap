@@ -1,0 +1,84 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2019,1,False,Alex,166.4,Justin,90.92,mrlampham over Jason by 1.42,Alex over Kevin D by 59.24
+2019,2,False,Anthony,149.3,Alex,77.12,Tommy over Dexter by 13.84,An over Alex by 55.92
+2019,3,False,Alex,160.02,mrlampham,79.22,Tommy over An by 0.14,Alex over mrlampham by 80.8
+2019,4,False,Kevin D,160.8,Don,80.8,Jason over Dexter by 8.56,Tommy over Don by 59.48
+2019,5,False,Jason,170.16,Justin,74.94,Dexter over Kevin D by 2.88,An over Don by 33.92
+2019,6,False,Anthony,173.9,Alex,73.02,Jason over Don by 1.98,Anthony over mrlampham by 90.18
+2019,7,False,Kevin D,141.66,Jason,76.86,Alex over Tommy by 7.02,Kevin D over Don by 45.82
+2019,8,False,Justin,177.46,Dexter,101.8,Kevin D over Jason by 4.64,Justin over Dexter by 75.66
+2019,9,False,Don,149.7,An,78.96,Alex over Jason by 9.16,Anthony over Dexter by 27.54
+2019,10,False,Jason,152.76,Dexter,99.88,Kevin D over Alex by 0.8,Jason over mrlampham by 52.26
+2019,11,False,Jason,141.1,Don,81.88,Kevin D over mrlampham by 11.36,Alex over An by 38.84
+2019,12,False,Kevin D,155.68,Don,60.5,Jason over Anthony by 10.96,Kevin D over Justin by 53.42
+2019,13,False,mrlampham,130.2,Don,98.1,Alex over Justin by 7.36,mrlampham over An by 27.44
+2019,14,True,Alex,141.96,Anthony,98.0,Jason over Justin by 9.2,Alex over Anthony by 43.96
+2019,15,True,Kevin D,167.28,mrlampham,80.06,An over Dexter by 9.58,Don over mrlampham by 55.14
+2019,16,True,Kevin D,138.36,Dexter,81.4,mrlampham over Dexter by 15.02,Kevin D over Tommy by 31.66
+2020,1,False,An,152.5,Jason,85.68,Justin over Dexter by 9.32,Don over Jason by 66.56
+2020,2,False,Don,181.0,Alex,102.0,An over Jason by 5.56,Don over Alex by 79.0
+2020,3,False,Tommy,161.64,Justin,90.08,Anthony over Dexter by 2.9,Tommy over Justin by 71.56
+2020,4,False,Don,165.18,Anthony,94.52,mrlampham over Alex by 2.9,Jason over Dexter by 59.84
+2020,5,False,mrlampham,172.6,An,91.54,Jason over Justin by 1.86,mrlampham over Don by 39.36
+2020,6,False,Justin,163.74,Jason,78.52,Don over Dexter by 4.84,Justin over Alex by 37.24
+2020,7,False,Justin,181.34,Don,98.1,Anthony over Jason by 1.32,Justin over Don by 83.24
+2020,8,False,mrlampham,154.34,Tommy,73.18,Kevin D over Jason by 14.04,Don over Tommy by 59.64
+2020,9,False,Tommy,155.94,Anthony,88.6,mrlampham over Justin by 11.78,Tommy over An by 58.68
+2020,10,False,Jason,126.58,mrlampham,60.78,Jason over Don by 0.4,Tommy over mrlampham by 38.56
+2020,11,False,Alex,148.36,Kevin D,87.04,An over Jason by 6.34,Justin over Kevin D by 41.9
+2020,12,False,mrlampham,161.18,Kevin D,91.9,Alex over An by 2.12,Dexter over Anthony by 32.8
+2020,13,False,Justin,160.06,An,63.8,Tommy over Kevin D by 1.4,Don over An by 83.88
+2020,14,True,mrlampham,162.52,Dexter,128.04,Anthony over Dexter by 14.46,mrlampham over Tommy by 27.92
+2020,15,True,Justin,154.22,Alex,89.32,Tommy over Dexter by 10.24,Don over mrlampham by 38.64
+2020,16,True,Jason,162.82,An,66.9,Justin over Don by 11.94,Alex over An by 36.36
+2021,1,False,Anthony,165.96,Justin,102.12,mrlampham over Jason by 1.38,Anthony over Justin by 63.84
+2021,2,False,Tommy,184.32,Alex,106.82,Don over An by 6.2,Tommy over Kevin D by 51.76
+2021,3,False,Tommy,137.02,Kevin D,99.68,Justin over Jason by 14.6,Alex over Kevin D by 35.36
+2021,4,False,Alex,137.18,An,86.06,Alex over Jason by 7.96,Anthony over An by 38.0
+2021,5,False,Alex,192.12,Dexter,101.36,Jason over Dexter by 9.94,Alex over Don by 33.44
+2021,6,False,Don,176.88,An,99.36,Dexter over Alex by 3.96,Anthony over Kevin D by 36.0
+2021,7,False,Justin,160.04,An,84.94,Anthony over Don by 2.1,Justin over Kevin D by 53.16
+2021,8,False,Anthony,178.3,Tommy,67.0,Kevin D over Jason by 2.12,Anthony over mrlampham by 41.5
+2021,9,False,An,172.28,mrlampham,78.42,Dexter over Kevin D by 6.56,An over Tommy by 78.32
+2021,10,False,Don,154.54,Kevin D,86.12,Alex over Tommy by 6.38,Don over Dexter by 53.04
+2021,11,False,An,212.58,Don,92.9,Dexter over mrlampham by 1.34,An over Don by 119.68
+2021,12,False,Don,156.68,Dexter,85.68,An over mrlampham by 3.56,Anthony over Dexter by 51.56
+2021,13,False,Dexter,149.72,Jason,91.3,Dexter over Justin by 3.6,Tommy over mrlampham by 51.64
+2021,14,False,Anthony,166.82,mrlampham,99.92,Kevin D over mrlampham by 12.06,Anthony over Tommy by 44.54
+2021,15,True,An,109.66,Justin,73.98,An over Alex by 0.32,Dexter over Justin by 11.6
+2021,16,True,Anthony,180.46,Kevin D,71.4,Dexter over Don by 4.28,Jason over Kevin D by 44.76
+2021,17,True,Anthony,157.1,Tommy,72.46,Don over An by 2.92,Anthony over Dexter by 56.68
+2022,1,False,Don,159.38,Justin,95.76,Alex over mrlampham by 8.7,Don over Justin by 63.62
+2022,2,False,Alex,165.08,Tommy,58.66,Anthony over Kevin D by 22.84,Jason over Tommy by 104.32
+2022,3,False,Jason,122.56,Kevin D,93.06,mrlampham over Don by 4.7,Justin over Kevin D by 24.52
+2022,4,False,Dexter,153.36,mrlampham,70.16,Alex over Kevin D by 11.84,An over mrlampham by 56.64
+2022,5,False,Dexter,146.28,mrlampham,107.36,Alex over Tommy by 4.52,Dexter over Anthony by 29.9
+2022,6,False,Dexter,146.0,An,66.52,Jason over Alex by 1.7,Dexter over An by 79.48
+2022,7,False,Kevin D,148.76,Jason,89.58,Alex over Anthony by 0.64,Tommy over Don by 28.6
+2022,8,False,Don,154.12,Dexter,118.82,An over Tommy by 4.92,Don over Jason by 24.18
+2022,9,False,Don,171.1,Kevin D,85.64,Tommy over Kevin D by 4.6,Alex over Dexter by 52.18
+2022,10,False,Tommy,149.74,mrlampham,76.7,An over Anthony by 4.94,Alex over mrlampham by 45.36
+2022,11,False,Justin,165.94,An,82.4,Dexter over mrlampham by 5.56,Justin over An by 83.54
+2022,12,False,Dexter,194.3,Justin,85.3,Anthony over Tommy by 12.1,Dexter over Jason by 90.46
+2022,13,False,Don,148.72,Anthony,79.22,mrlampham over An by 3.42,Jason over Anthony by 47.88
+2022,14,False,mrlampham,181.48,Tommy,66.96,Dexter over Anthony by 0.34,mrlampham over Kevin D by 81.7
+2022,15,True,Justin,136.58,Kevin D,105.82,Dexter over An by 3.18,Justin over Kevin D by 30.76
+2022,16,True,An,155.06,Justin,91.16,mrlampham over Tommy by 6.8,An over Kevin D by 56.96
+2022,17,True,Jason,144.1,mrlampham,66.6,Don over mrlampham by 5.3,Dexter over Justin by 48.2
+2023,1,False,Tommy,164.66,Jason,63.0,Dexter over Don by 4.6,Tommy over An by 57.2
+2023,2,False,Jason,156.92,Anthony,71.48,Don over mrlampham by 8.52,An over Anthony by 35.26
+2023,3,False,Don,172.98,Justin,107.96,Kevin D over Anthony by 9.22,Don over An by 32.92
+2023,4,False,Tommy,168.62,An,78.24,Alex over mrlampham by 5.88,Tommy over Anthony by 49.88
+2023,5,False,Kevin D,148.52,An,72.96,Kevin D over Jason by 9.4,Alex over An by 52.8
+2023,6,False,Anthony,176.42,An,84.36,mrlampham over Justin by 1.78,Anthony over Don by 69.18
+2023,7,False,Anthony,138.58,An,81.76,Anthony over Jason by 2.22,mrlampham over An by 47.38
+2023,8,False,mrlampham,157.62,An,103.06,Jason over Don by 11.56,Alex over Anthony by 32.88
+2023,9,False,An,138.86,Kevin D,96.44,Justin over Jason by 4.74,An over Kevin D by 42.42
+2023,10,False,Dexter,182.38,mrlampham,93.78,Anthony over mrlampham by 8.24,An over Tommy by 72.22
+2023,11,False,Dexter,165.5,Justin,89.24,mrlampham over Don by 7.26,Tommy over Kevin D by 52.52
+2023,12,False,Justin,164.96,Tommy,104.16,An over Don by 4.52,Justin over Tommy by 60.8
+2023,13,False,mrlampham,157.14,Jason,73.92,Don over Kevin D by 0.8,An over Jason by 49.14
+2023,14,False,Alex,153.92,Kevin D,72.54,Don over Tommy by 6.18,Jason over Kevin D by 58.34
+2023,15,True,Don,139.0,Dexter,102.26,Kevin D over Tommy by 18.28,Don over Dexter by 36.74
+2023,16,True,mrlampham,158.7,Anthony,86.02,Alex over Kevin D by 11.24,mrlampham over Don by 59.5
+2023,17,True,Kevin D,151.84,Justin,76.14,Jason over Justin by 9.64,Kevin D over Don by 23.84

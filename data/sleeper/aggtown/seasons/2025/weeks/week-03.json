@@ -1,0 +1,317 @@
+{
+ "season": 2025,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 128.14,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Cee Deez Chubb in ya mouf",
+     "manager": "donblood",
+     "points": 122.92,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "I Gibbs the Dicker",
+     "manager": "Odeh1121",
+     "points": 122.34,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Parkland Hospital",
+     "manager": "kholabear",
+     "points": 105.8,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Pablo Torre Scores Out",
+     "manager": "DVTV",
+     "points": 97.8,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Mac Daddy",
+     "manager": "jimbo817",
+     "points": 105.62,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "We bleed blue",
+     "manager": "keveezy",
+     "points": 120.86,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Knuck if U Buck",
+     "manager": "wabaki (Lan Doan)",
+     "points": 99.02,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 82.82,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 114.42,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "ABCeeDee U Lost 2 Me",
+     "manager": "oooEcho",
+     "points": 113.76,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Van Jefferson III",
+     "manager": "anth0nyng",
+     "points": 112.56,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "oooEcho"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "bvincenttt",
+   "team": "Shake 'n Blake ",
+   "points": 128.14
+  },
+  "low_score": {
+   "manager": "lmphm",
+   "team": "Vegas",
+   "points": 82.82
+  },
+  "closest_game": {
+   "winner": "oooEcho",
+   "winner_points": 113.76,
+   "loser": "anth0nyng",
+   "loser_points": 112.56,
+   "margin": 1.2
+  },
+  "biggest_blowout": {
+   "winner": "PutItOnYa",
+   "winner_points": 114.42,
+   "loser": "lmphm",
+   "loser_points": 82.82,
+   "margin": 31.6
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "bvincenttt",
+   "team": "Shake 'n Blake ",
+   "record": "3-0",
+   "points_for": 347.46,
+   "points_against": 291.58,
+   "streak": "W3",
+   "week_points": 128.14,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 2,
+   "manager": "keveezy",
+   "team": "We bleed blue",
+   "record": "2-1",
+   "points_for": 363.38,
+   "points_against": 338.38,
+   "streak": "W1",
+   "week_points": 120.86,
+   "week_result": "W",
+   "opponent": "wabaki (Lan Doan)"
+  },
+  {
+   "rank": 3,
+   "manager": "DVTV",
+   "team": "Pablo Torre Scores Out",
+   "record": "2-1",
+   "points_for": 361.5,
+   "points_against": 321.94,
+   "streak": "L1",
+   "week_points": 97.8,
+   "week_result": "L",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 4,
+   "manager": "oooEcho",
+   "team": "ABCeeDee U Lost 2 Me",
+   "record": "2-1",
+   "points_for": 341.36,
+   "points_against": 331.8,
+   "streak": "W2",
+   "week_points": 113.76,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 5,
+   "manager": "jimbo817",
+   "team": "Mac Daddy",
+   "record": "2-1",
+   "points_for": 340.1,
+   "points_against": 334.72,
+   "streak": "W2",
+   "week_points": 105.62,
+   "week_result": "W",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 6,
+   "manager": "PutItOnYa",
+   "team": "PutItOnYa",
+   "record": "2-1",
+   "points_for": 339.6,
+   "points_against": 312.92,
+   "streak": "W1",
+   "week_points": 114.42,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 7,
+   "manager": "Odeh1121",
+   "team": "I Gibbs the Dicker",
+   "record": "2-1",
+   "points_for": 335.0,
+   "points_against": 318.66,
+   "streak": "W1",
+   "week_points": 122.34,
+   "week_result": "W",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 8,
+   "manager": "donblood",
+   "team": "Cee Deez Chubb in ya mouf",
+   "record": "1-2",
+   "points_for": 376.88,
+   "points_against": 361.94,
+   "streak": "L1",
+   "week_points": 122.92,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 9,
+   "manager": "kholabear",
+   "team": "Parkland Hospital",
+   "record": "1-2",
+   "points_for": 343.54,
+   "points_against": 363.34,
+   "streak": "L2",
+   "week_points": 105.8,
+   "week_result": "L",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 10,
+   "manager": "anth0nyng",
+   "team": "Van Jefferson III",
+   "record": "1-2",
+   "points_for": 338.82,
+   "points_against": 344.92,
+   "streak": "L1",
+   "week_points": 112.56,
+   "week_result": "L",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 11,
+   "manager": "wabaki (Lan Doan)",
+   "team": "Knuck if U Buck",
+   "record": "0-3",
+   "points_for": 309.74,
+   "points_against": 379.68,
+   "streak": "L3",
+   "week_points": 99.02,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 12,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "0-3",
+   "points_for": 260.1,
+   "points_against": 357.6,
+   "streak": "L3",
+   "week_points": 82.82,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  }
+ ]
+}

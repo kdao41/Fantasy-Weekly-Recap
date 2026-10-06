@@ -1,0 +1,270 @@
+{
+ "season": 2020,
+ "week": 5,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Champs to chumps",
+     "manager": "Kevin D",
+     "points": 103.8,
+     "projected": 118.54,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Wtf am I doing here",
+     "manager": "An",
+     "points": 91.54,
+     "projected": 124.35,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "FREE WIN",
+     "manager": "Dexter",
+     "points": 118.5,
+     "projected": 133.07,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Dry Szn",
+     "manager": "Alex",
+     "points": 109.56,
+     "projected": 120.6,
+     "won": false
+    }
+   ],
+   "winner": "Dexter"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "DYNAHMIGHHHH",
+     "manager": "Tommy",
+     "points": 131.96,
+     "projected": 124.47,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 148.6,
+     "projected": 134.36,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "simp.",
+     "manager": "mrlampham",
+     "points": 172.6,
+     "projected": 148.46,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "CeeDeez Nutz",
+     "manager": "Don",
+     "points": 133.24,
+     "projected": 134.07,
+     "won": false
+    }
+   ],
+   "winner": "mrlampham"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "This was Chris Lake",
+     "manager": "Jason",
+     "points": 122.46,
+     "projected": 123.39,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Jigs",
+     "manager": "Justin",
+     "points": 120.6,
+     "projected": 136.55,
+     "won": false
+    }
+   ],
+   "winner": "Jason"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "mrlampham",
+   "team": "simp.",
+   "points": 172.6
+  },
+  "low_score": {
+   "manager": "An",
+   "team": "Wtf am I doing here",
+   "points": 91.54
+  },
+  "closest_game": {
+   "winner": "Jason",
+   "winner_points": 122.46,
+   "loser": "Justin",
+   "loser_points": 120.6,
+   "margin": 1.86
+  },
+  "biggest_blowout": {
+   "winner": "mrlampham",
+   "winner_points": 172.6,
+   "loser": "Don",
+   "loser_points": 133.24,
+   "margin": 39.36
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Don",
+   "team": "CeeDeez Nutz",
+   "record": "4-1",
+   "points_for": 772.64,
+   "points_against": 608.7,
+   "streak": "L1",
+   "week_points": 133.24,
+   "week_result": "L",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 2,
+   "manager": "mrlampham",
+   "team": "simp.",
+   "record": "4-1",
+   "points_for": 726.02,
+   "points_against": 657.24,
+   "streak": "W3",
+   "week_points": 172.6,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 3,
+   "manager": "Anthony",
+   "team": "Princess Jelly",
+   "record": "3-2",
+   "points_for": 670.84,
+   "points_against": 690.06,
+   "streak": "W1",
+   "week_points": 148.6,
+   "week_result": "W",
+   "opponent": "Tommy"
+  },
+  {
+   "rank": 4,
+   "manager": "Justin",
+   "team": "Jigs",
+   "record": "3-2",
+   "points_for": 634.06,
+   "points_against": 640.58,
+   "streak": "L1",
+   "week_points": 120.6,
+   "week_result": "L",
+   "opponent": "Jason"
+  },
+  {
+   "rank": 5,
+   "manager": "Tommy",
+   "team": "DYNAHMIGHHHH",
+   "record": "2-3",
+   "points_for": 686.5,
+   "points_against": 637.98,
+   "streak": "L1",
+   "week_points": 131.96,
+   "week_result": "L",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 6,
+   "manager": "Dexter",
+   "team": "FREE WIN",
+   "record": "2-3",
+   "points_for": 645.4,
+   "points_against": 683.84,
+   "streak": "W1",
+   "week_points": 118.5,
+   "week_result": "W",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 7,
+   "manager": "Jason",
+   "team": "This was Chris Lake",
+   "record": "2-3",
+   "points_for": 635.34,
+   "points_against": 654.76,
+   "streak": "W2",
+   "week_points": 122.46,
+   "week_result": "W",
+   "opponent": "Justin"
+  },
+  {
+   "rank": 8,
+   "manager": "Kevin D",
+   "team": "Champs to chumps",
+   "record": "2-3",
+   "points_for": 610.84,
+   "points_against": 660.5,
+   "streak": "W1",
+   "week_points": 103.8,
+   "week_result": "W",
+   "opponent": "An"
+  },
+  {
+   "rank": 9,
+   "manager": "An",
+   "team": "Wtf am I doing here",
+   "record": "2-3",
+   "points_for": 593.28,
+   "points_against": 661.58,
+   "streak": "L3",
+   "week_points": 91.54,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 10,
+   "manager": "Alex",
+   "team": "Dry Szn",
+   "record": "1-4",
+   "points_for": 589.74,
+   "points_against": 669.42,
+   "streak": "L2",
+   "week_points": 109.56,
+   "week_result": "L",
+   "opponent": "Dexter"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2016,1,False,Ramzi,159.18,Daniel Vu,104.8,Ahmad over Don by 2.42,Ramzi over Cody by 40.76
+2016,2,False,Ahmad,150.16,Muso (Lan Doan),76.96,mrlampham over Anthony by 13.62,Kevin D over Cody by 44.3
+2016,3,False,Anthony,147.26,Don,80.12,mrlampham over Khoa by 8.22,Ramzi over Don by 60.82
+2016,4,False,mrlampham,140.82,Khoa,72.02,Ramzi over Ahmad by 0.94,Cody over Anthony by 53.12
+2016,5,False,Ramzi,184.66,Cody,74.58,Blake over Don by 8.1,Ramzi over Jimmy by 68.38
+2016,6,False,mrlampham,154.94,Muso (Lan Doan),84.5,Don over Anthony by 22.92,mrlampham over Daniel Vu by 63.7
+2016,7,False,Ramzi,198.34,Khoa,91.76,mrlampham over Don by 3.86,Ramzi over Kevin D by 66.0
+2016,8,False,Don,181.02,Anthony,95.92,Blake over Ramzi by 2.12,Don over Muso (Lan Doan) by 64.96
+2016,9,False,Ramzi,173.8,Muso (Lan Doan),91.46,Kevin D over Blake by 8.24,Ramzi over Anthony by 47.62
+2016,10,False,Blake,166.7,Cody,92.42,Daniel Vu over Don by 8.82,Blake over Khoa by 73.32
+2016,11,False,Kevin D,151.54,Ahmad,88.68,Anthony over Blake by 1.68,Don over Khoa by 40.16
+2016,12,False,Jimmy,173.64,Anthony,84.84,mrlampham over Blake by 12.7,Ramzi over Cody by 69.38
+2016,13,False,mrlampham,162.86,Khoa,74.5,Ahmad over Khoa by 4.36,Kevin D over Cody by 67.72
+2016,14,True,mrlampham,167.14,Don,74.3,Blake over Ahmad by 18.64,mrlampham over Anthony by 72.14
+2016,15,True,mrlampham,137.92,Jimmy,86.7,Don over Ramzi by 1.8,Kevin D over Jimmy by 39.48
+2016,16,True,Blake,158.82,Ahmad,98.06,Blake over Jimmy by 16.9,Ramzi over Ahmad by 29.82

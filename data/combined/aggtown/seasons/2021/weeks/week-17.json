@@ -1,0 +1,125 @@
+{
+ "season": 2021,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "We\u2019re Allen This Together",
+     "manager": "donblood",
+     "points": 134.4,
+     "projected": 140.12,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Herb-a-Derp",
+     "manager": "PutItOnYa",
+     "points": 124.58,
+     "projected": 136.33,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "I Love Me Some ME",
+     "manager": "jimbo817",
+     "points": 107.22,
+     "projected": 138.98,
+     "won": false
+    },
+    {
+     "team_id": 3,
+     "team": "Chubby Wood",
+     "manager": "Odeh1121",
+     "points": 171.94,
+     "projected": 123.68,
+     "won": true
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Usher Bucks",
+     "manager": "kholabear",
+     "points": 118.06,
+     "projected": 140.8,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 101.08,
+     "projected": 126.44,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 109.04,
+     "projected": 100.46,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "dalvin COOKED me",
+     "manager": "keveezy",
+     "points": 104.06,
+     "projected": 120.31,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Odeh1121",
+   "team": "Chubby Wood",
+   "points": 171.94
+  },
+  "low_score": {
+   "manager": "anth0nyng",
+   "team": "Princess Jelly",
+   "points": 101.08
+  },
+  "closest_game": {
+   "winner": "bvincenttt",
+   "winner_points": 109.04,
+   "loser": "keveezy",
+   "loser_points": 104.06,
+   "margin": 4.98
+  },
+  "biggest_blowout": {
+   "winner": "Odeh1121",
+   "winner_points": 171.94,
+   "loser": "jimbo817",
+   "loser_points": 107.22,
+   "margin": 64.72
+  }
+ }
+}

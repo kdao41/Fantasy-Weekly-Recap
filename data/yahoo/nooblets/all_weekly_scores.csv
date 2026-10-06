@@ -1,0 +1,791 @@
+season,week,is_playoffs,is_consolation,manager,team,points,opponent_manager,opponent_team,opponent_points,result
+2019,1,False,False,Kevin D,Champ is here,107.16,Alex,TheYayThatGotAway,166.4,L
+2019,1,False,False,Alex,TheYayThatGotAway,166.4,Kevin D,Champ is here,107.16,W
+2019,1,False,False,mrlampham,Houston drivers,131.94,Jason,Is This Chris Lake?,130.52,W
+2019,1,False,False,Jason,Is This Chris Lake?,130.52,mrlampham,Houston drivers,131.94,L
+2019,1,False,False,Justin,Jigs,90.92,Don,Poopoo Philly Co. 🌯,121.32,L
+2019,1,False,False,Don,Poopoo Philly Co. 🌯,121.32,Justin,Jigs,90.92,W
+2019,1,False,False,Anthony,Princess Jelly,113.4,Tommy,HOUSE YCK,117.04,L
+2019,1,False,False,Tommy,HOUSE YCK,117.04,Anthony,Princess Jelly,113.4,W
+2019,1,False,False,Dexter,FREE WIN,130.6,An,Wtf am I doing here,157.62,L
+2019,1,False,False,An,Wtf am I doing here,157.62,Dexter,FREE WIN,130.6,W
+2019,2,False,False,Kevin D,Champ is here,144.42,mrlampham,Houston drivers,100.82,W
+2019,2,False,False,mrlampham,Houston drivers,100.82,Kevin D,Champ is here,144.42,L
+2019,2,False,False,Alex,TheYayThatGotAway,77.12,An,Wtf am I doing here,133.04,L
+2019,2,False,False,An,Wtf am I doing here,133.04,Alex,TheYayThatGotAway,77.12,W
+2019,2,False,False,Justin,Jigs,141.16,Jason,Is This Chris Lake?,109.56,W
+2019,2,False,False,Jason,Is This Chris Lake?,109.56,Justin,Jigs,141.16,L
+2019,2,False,False,Anthony,Princess Jelly,149.3,Don,Poopoo Philly Co. 🌯,102.92,W
+2019,2,False,False,Don,Poopoo Philly Co. 🌯,102.92,Anthony,Princess Jelly,149.3,L
+2019,2,False,False,Dexter,FREE WIN,123.86,Tommy,HOUSE YCK,137.7,L
+2019,2,False,False,Tommy,HOUSE YCK,137.7,Dexter,FREE WIN,123.86,W
+2019,3,False,False,Kevin D,Champ is here,137.82,Justin,Jigs,121.48,W
+2019,3,False,False,Justin,Jigs,121.48,Kevin D,Champ is here,137.82,L
+2019,3,False,False,Alex,TheYayThatGotAway,160.02,mrlampham,Houston drivers,79.22,W
+2019,3,False,False,mrlampham,Houston drivers,79.22,Alex,TheYayThatGotAway,160.02,L
+2019,3,False,False,Anthony,Princess Jelly,118.24,Jason,Is This Chris Lake?,137.5,L
+2019,3,False,False,Jason,Is This Chris Lake?,137.5,Anthony,Princess Jelly,118.24,W
+2019,3,False,False,Dexter,FREE WIN,123.14,Don,Poopoo Philly Co. 🌯,134.26,L
+2019,3,False,False,Don,Poopoo Philly Co. 🌯,134.26,Dexter,FREE WIN,123.14,W
+2019,3,False,False,Tommy,HOUSE YCK,143.86,An,Wtf am I doing here,143.72,W
+2019,3,False,False,An,Wtf am I doing here,143.72,Tommy,HOUSE YCK,143.86,L
+2019,4,False,False,Kevin D,Champ is here,160.8,Anthony,Princess Jelly,123.9,W
+2019,4,False,False,Anthony,Princess Jelly,123.9,Kevin D,Champ is here,160.8,L
+2019,4,False,False,Alex,TheYayThatGotAway,93.72,Justin,Jigs,104.08,L
+2019,4,False,False,Justin,Jigs,104.08,Alex,TheYayThatGotAway,93.72,W
+2019,4,False,False,mrlampham,Houston drivers,114.94,An,Wtf am I doing here,100.2,W
+2019,4,False,False,An,Wtf am I doing here,100.2,mrlampham,Houston drivers,114.94,L
+2019,4,False,False,Dexter,FREE WIN,106.92,Jason,Is This Chris Lake?,115.48,L
+2019,4,False,False,Jason,Is This Chris Lake?,115.48,Dexter,FREE WIN,106.92,W
+2019,4,False,False,Tommy,HOUSE YCK,140.28,Don,Poopoo Philly Co. 🌯,80.8,W
+2019,4,False,False,Don,Poopoo Philly Co. 🌯,80.8,Tommy,HOUSE YCK,140.28,L
+2019,5,False,False,Kevin D,Champ is here,156.14,Dexter,FREE WIN,159.02,L
+2019,5,False,False,Dexter,FREE WIN,159.02,Kevin D,Champ is here,156.14,W
+2019,5,False,False,Alex,TheYayThatGotAway,138.3,Anthony,Princess Jelly,106.62,W
+2019,5,False,False,Anthony,Princess Jelly,106.62,Alex,TheYayThatGotAway,138.3,L
+2019,5,False,False,mrlampham,Houston drivers,100.4,Justin,Jigs,74.94,W
+2019,5,False,False,Justin,Jigs,74.94,mrlampham,Houston drivers,100.4,L
+2019,5,False,False,Tommy,HOUSE YCK,141.9,Jason,Is This Chris Lake?,170.16,L
+2019,5,False,False,Jason,Is This Chris Lake?,170.16,Tommy,HOUSE YCK,141.9,W
+2019,5,False,False,Don,Poopoo Philly Co. 🌯,113.14,An,Wtf am I doing here,147.06,L
+2019,5,False,False,An,Wtf am I doing here,147.06,Don,Poopoo Philly Co. 🌯,113.14,W
+2019,6,False,False,Kevin D,Champ is here,125.3,Tommy,HOUSE YCK,134.14,L
+2019,6,False,False,Tommy,HOUSE YCK,134.14,Kevin D,Champ is here,125.3,W
+2019,6,False,False,Alex,TheYayThatGotAway,73.02,Dexter,FREE WIN,160.62,L
+2019,6,False,False,Dexter,FREE WIN,160.62,Alex,TheYayThatGotAway,73.02,W
+2019,6,False,False,mrlampham,Houston drivers,83.72,Anthony,Princess Jelly,173.9,L
+2019,6,False,False,Anthony,Princess Jelly,173.9,mrlampham,Houston drivers,83.72,W
+2019,6,False,False,Justin,Jigs,110.84,An,Wtf am I doing here,81.44,W
+2019,6,False,False,An,Wtf am I doing here,81.44,Justin,Jigs,110.84,L
+2019,6,False,False,Don,Poopoo Philly Co. 🌯,114.02,Jason,Is This Chris Lake?,116.0,L
+2019,6,False,False,Jason,Is This Chris Lake?,116.0,Don,Poopoo Philly Co. 🌯,114.02,W
+2019,7,False,False,Kevin D,Champ is here,141.66,Don,Poopoo Philly Co. 🌯,95.84,W
+2019,7,False,False,Don,Poopoo Philly Co. 🌯,95.84,Kevin D,Champ is here,141.66,L
+2019,7,False,False,Alex,TheYayThatGotAway,97.68,Tommy,HOUSE YCK,90.66,W
+2019,7,False,False,Tommy,HOUSE YCK,90.66,Alex,TheYayThatGotAway,97.68,L
+2019,7,False,False,mrlampham,Houston drivers,118.42,Dexter,FREE WIN,90.66,W
+2019,7,False,False,Dexter,FREE WIN,90.66,mrlampham,Houston drivers,118.42,L
+2019,7,False,False,Justin,Jigs,112.32,Anthony,Princess Jelly,89.34,W
+2019,7,False,False,Anthony,Princess Jelly,89.34,Justin,Jigs,112.32,L
+2019,7,False,False,Jason,Is This Chris Lake?,76.86,An,Wtf am I doing here,121.04,L
+2019,7,False,False,An,Wtf am I doing here,121.04,Jason,Is This Chris Lake?,76.86,W
+2019,8,False,False,Kevin D,Champ is here,133.94,Jason,Is This Chris Lake?,129.3,W
+2019,8,False,False,Jason,Is This Chris Lake?,129.3,Kevin D,Champ is here,133.94,L
+2019,8,False,False,Alex,TheYayThatGotAway,124.36,Don,Poopoo Philly Co. 🌯,135.26,L
+2019,8,False,False,Don,Poopoo Philly Co. 🌯,135.26,Alex,TheYayThatGotAway,124.36,W
+2019,8,False,False,mrlampham,Houston drivers,106.98,Tommy,HOUSE YCK,114.94,L
+2019,8,False,False,Tommy,HOUSE YCK,114.94,mrlampham,Houston drivers,106.98,W
+2019,8,False,False,Justin,Jigs,177.46,Dexter,FREE WIN,101.8,W
+2019,8,False,False,Dexter,FREE WIN,101.8,Justin,Jigs,177.46,L
+2019,8,False,False,Anthony,Princess Jelly,145.08,An,Wtf am I doing here,134.88,W
+2019,8,False,False,An,Wtf am I doing here,134.88,Anthony,Princess Jelly,145.08,L
+2019,9,False,False,Kevin D,Champ is here,91.26,An,Wtf am I doing here,78.96,W
+2019,9,False,False,An,Wtf am I doing here,78.96,Kevin D,Champ is here,91.26,L
+2019,9,False,False,Alex,TheYayThatGotAway,108.0,Jason,Is This Chris Lake?,98.84,W
+2019,9,False,False,Jason,Is This Chris Lake?,98.84,Alex,TheYayThatGotAway,108.0,L
+2019,9,False,False,mrlampham,Houston drivers,124.14,Don,Poopoo Philly Co. 🌯,149.7,L
+2019,9,False,False,Don,Poopoo Philly Co. 🌯,149.7,mrlampham,Houston drivers,124.14,W
+2019,9,False,False,Justin,Jigs,138.84,Tommy,HOUSE YCK,129.4,W
+2019,9,False,False,Tommy,HOUSE YCK,129.4,Justin,Jigs,138.84,L
+2019,9,False,False,Anthony,Princess Jelly,138.52,Dexter,FREE WIN,110.98,W
+2019,9,False,False,Dexter,FREE WIN,110.98,Anthony,Princess Jelly,138.52,L
+2019,10,False,False,Kevin D,Champ is here,104.28,Alex,TheYayThatGotAway,103.48,W
+2019,10,False,False,Alex,TheYayThatGotAway,103.48,Kevin D,Champ is here,104.28,L
+2019,10,False,False,mrlampham,Houston drivers,100.5,Jason,Is This Chris Lake?,152.76,L
+2019,10,False,False,Jason,Is This Chris Lake?,152.76,mrlampham,Houston drivers,100.5,W
+2019,10,False,False,Justin,Jigs,128.72,Don,Poopoo Philly Co. 🌯,142.64,L
+2019,10,False,False,Don,Poopoo Philly Co. 🌯,142.64,Justin,Jigs,128.72,W
+2019,10,False,False,Anthony,Princess Jelly,112.38,Tommy,HOUSE YCK,124.32,L
+2019,10,False,False,Tommy,HOUSE YCK,124.32,Anthony,Princess Jelly,112.38,W
+2019,10,False,False,Dexter,FREE WIN,99.88,An,Wtf am I doing here,145.38,L
+2019,10,False,False,An,Wtf am I doing here,145.38,Dexter,FREE WIN,99.88,W
+2019,11,False,False,Kevin D,Champ is here,127.52,mrlampham,Houston drivers,116.16,W
+2019,11,False,False,mrlampham,Houston drivers,116.16,Kevin D,Champ is here,127.52,L
+2019,11,False,False,Alex,TheYayThatGotAway,133.52,An,Wtf am I doing here,94.68,W
+2019,11,False,False,An,Wtf am I doing here,94.68,Alex,TheYayThatGotAway,133.52,L
+2019,11,False,False,Justin,Jigs,113.9,Jason,Is This Chris Lake?,141.1,L
+2019,11,False,False,Jason,Is This Chris Lake?,141.1,Justin,Jigs,113.9,W
+2019,11,False,False,Anthony,Princess Jelly,117.86,Don,Poopoo Philly Co. 🌯,81.88,W
+2019,11,False,False,Don,Poopoo Philly Co. 🌯,81.88,Anthony,Princess Jelly,117.86,L
+2019,11,False,False,Dexter,FREE WIN,100.56,Tommy,HOUSE YCK,133.22,L
+2019,11,False,False,Tommy,HOUSE YCK,133.22,Dexter,FREE WIN,100.56,W
+2019,12,False,False,Kevin D,Champ is here,155.68,Justin,Jigs,102.26,W
+2019,12,False,False,Justin,Jigs,102.26,Kevin D,Champ is here,155.68,L
+2019,12,False,False,Alex,TheYayThatGotAway,135.84,mrlampham,Houston drivers,108.62,W
+2019,12,False,False,mrlampham,Houston drivers,108.62,Alex,TheYayThatGotAway,135.84,L
+2019,12,False,False,Anthony,Princess Jelly,110.7,Jason,Is This Chris Lake?,121.66,L
+2019,12,False,False,Jason,Is This Chris Lake?,121.66,Anthony,Princess Jelly,110.7,W
+2019,12,False,False,Dexter,FREE WIN,93.18,Don,Poopoo Philly Co. 🌯,60.5,W
+2019,12,False,False,Don,Poopoo Philly Co. 🌯,60.5,Dexter,FREE WIN,93.18,L
+2019,12,False,False,Tommy,HOUSE YCK,148.02,An,Wtf am I doing here,127.84,W
+2019,12,False,False,An,Wtf am I doing here,127.84,Tommy,HOUSE YCK,148.02,L
+2019,13,False,False,Kevin D,Champ is here,110.24,Anthony,Princess Jelly,120.9,L
+2019,13,False,False,Anthony,Princess Jelly,120.9,Kevin D,Champ is here,110.24,W
+2019,13,False,False,Alex,TheYayThatGotAway,108.46,Justin,Jigs,101.1,W
+2019,13,False,False,Justin,Jigs,101.1,Alex,TheYayThatGotAway,108.46,L
+2019,13,False,False,mrlampham,Houston drivers,130.2,An,Wtf am I doing here,102.76,W
+2019,13,False,False,An,Wtf am I doing here,102.76,mrlampham,Houston drivers,130.2,L
+2019,13,False,False,Dexter,FREE WIN,106.9,Jason,Is This Chris Lake?,117.22,L
+2019,13,False,False,Jason,Is This Chris Lake?,117.22,Dexter,FREE WIN,106.9,W
+2019,13,False,False,Tommy,HOUSE YCK,110.22,Don,Poopoo Philly Co. 🌯,98.1,W
+2019,13,False,False,Don,Poopoo Philly Co. 🌯,98.1,Tommy,HOUSE YCK,110.22,L
+2019,14,True,False,Alex,TheYayThatGotAway,141.96,Anthony,Princess Jelly,98.0,W
+2019,14,True,False,Anthony,Princess Jelly,98.0,Alex,TheYayThatGotAway,141.96,L
+2019,14,True,False,Justin,Jigs,105.1,Jason,Is This Chris Lake?,114.3,L
+2019,14,True,False,Jason,Is This Chris Lake?,114.3,Justin,Jigs,105.1,W
+2019,15,True,False,Kevin D,Champ is here,167.28,Jason,Is This Chris Lake?,147.36,W
+2019,15,True,False,Jason,Is This Chris Lake?,147.36,Kevin D,Champ is here,167.28,L
+2019,15,True,False,Alex,TheYayThatGotAway,135.98,Tommy,HOUSE YCK,146.32,L
+2019,15,True,False,Tommy,HOUSE YCK,146.32,Alex,TheYayThatGotAway,135.98,W
+2019,15,True,True,mrlampham,Houston drivers,80.06,Don,Poopoo Philly Co. 🌯,135.2,L
+2019,15,True,True,Don,Poopoo Philly Co. 🌯,135.2,mrlampham,Houston drivers,80.06,W
+2019,15,True,False,Justin,Jigs,123.58,Anthony,Princess Jelly,133.64,L
+2019,15,True,False,Anthony,Princess Jelly,133.64,Justin,Jigs,123.58,W
+2019,15,True,True,Dexter,FREE WIN,109.78,An,Wtf am I doing here,119.36,L
+2019,15,True,True,An,Wtf am I doing here,119.36,Dexter,FREE WIN,109.78,W
+2019,16,True,False,Kevin D,Champ is here,138.36,Tommy,HOUSE YCK,106.7,W
+2019,16,True,False,Tommy,HOUSE YCK,106.7,Kevin D,Champ is here,138.36,L
+2019,16,True,False,Alex,TheYayThatGotAway,110.66,Jason,Is This Chris Lake?,134.82,L
+2019,16,True,False,Jason,Is This Chris Lake?,134.82,Alex,TheYayThatGotAway,110.66,W
+2019,16,True,True,mrlampham,Houston drivers,96.42,Dexter,FREE WIN,81.4,W
+2019,16,True,True,Dexter,FREE WIN,81.4,mrlampham,Houston drivers,96.42,L
+2019,16,True,True,Don,Poopoo Philly Co. 🌯,134.24,An,Wtf am I doing here,115.38,W
+2019,16,True,True,An,Wtf am I doing here,115.38,Don,Poopoo Philly Co. 🌯,134.24,L
+2020,1,False,False,Kevin D,Champs to chumps,143.7,Alex,Dry Szn,118.42,W
+2020,1,False,False,Alex,Dry Szn,118.42,Kevin D,Champs to chumps,143.7,L
+2020,1,False,False,Dexter,FREE WIN,129.68,Justin,Jigs,139.0,L
+2020,1,False,False,Justin,Jigs,139.0,Dexter,FREE WIN,129.68,W
+2020,1,False,False,Tommy,DYNAHMIGHHHH,107.66,mrlampham,simp.,145.34,L
+2020,1,False,False,mrlampham,simp.,145.34,Tommy,DYNAHMIGHHHH,107.66,W
+2020,1,False,False,Jason,This was Chris Lake,85.68,Don,CeeDeez Nutz,152.24,L
+2020,1,False,False,Don,CeeDeez Nutz,152.24,Jason,This was Chris Lake,85.68,W
+2020,1,False,False,Anthony,Princess Jelly,129.58,An,Wtf am I doing here,152.5,L
+2020,1,False,False,An,Wtf am I doing here,152.5,Anthony,Princess Jelly,129.58,W
+2020,2,False,False,Kevin D,Champs to chumps,132.28,Justin,Jigs,153.86,L
+2020,2,False,False,Justin,Jigs,153.86,Kevin D,Champs to chumps,132.28,W
+2020,2,False,False,Dexter,FREE WIN,154.22,Tommy,DYNAHMIGHHHH,129.54,W
+2020,2,False,False,Tommy,DYNAHMIGHHHH,129.54,Dexter,FREE WIN,154.22,L
+2020,2,False,False,mrlampham,simp.,134.58,Anthony,Princess Jelly,154.74,L
+2020,2,False,False,Anthony,Princess Jelly,154.74,mrlampham,simp.,134.58,W
+2020,2,False,False,Jason,This was Chris Lake,120.06,An,Wtf am I doing here,125.62,L
+2020,2,False,False,An,Wtf am I doing here,125.62,Jason,This was Chris Lake,120.06,W
+2020,2,False,False,Don,CeeDeez Nutz,181.0,Alex,Dry Szn,102.0,W
+2020,2,False,False,Alex,Dry Szn,102.0,Don,CeeDeez Nutz,181.0,L
+2020,3,False,False,Kevin D,Champs to chumps,131.32,Don,CeeDeez Nutz,140.98,L
+2020,3,False,False,Don,CeeDeez Nutz,140.98,Kevin D,Champs to chumps,131.32,W
+2020,3,False,False,Dexter,FREE WIN,140.5,Anthony,Princess Jelly,143.4,L
+2020,3,False,False,Anthony,Princess Jelly,143.4,Dexter,FREE WIN,140.5,W
+2020,3,False,False,Tommy,DYNAHMIGHHHH,161.64,Justin,Jigs,90.08,W
+2020,3,False,False,Justin,Jigs,90.08,Tommy,DYNAHMIGHHHH,161.64,L
+2020,3,False,False,mrlampham,simp.,153.8,Jason,This was Chris Lake,144.8,W
+2020,3,False,False,Jason,This was Chris Lake,144.8,mrlampham,simp.,153.8,L
+2020,3,False,False,Alex,Dry Szn,142.96,An,Wtf am I doing here,106.52,W
+2020,3,False,False,An,Wtf am I doing here,106.52,Alex,Dry Szn,142.96,L
+2020,4,False,False,Kevin D,Champs to chumps,99.74,Tommy,DYNAHMIGHHHH,155.7,L
+2020,4,False,False,Tommy,DYNAHMIGHHHH,155.7,Kevin D,Champs to chumps,99.74,W
+2020,4,False,False,Dexter,FREE WIN,102.5,Jason,This was Chris Lake,162.34,L
+2020,4,False,False,Jason,This was Chris Lake,162.34,Dexter,FREE WIN,102.5,W
+2020,4,False,False,mrlampham,simp.,119.7,Alex,Dry Szn,116.8,W
+2020,4,False,False,Alex,Dry Szn,116.8,mrlampham,simp.,119.7,L
+2020,4,False,False,Justin,Jigs,130.52,Anthony,Princess Jelly,94.52,W
+2020,4,False,False,Anthony,Princess Jelly,94.52,Justin,Jigs,130.52,L
+2020,4,False,False,Don,CeeDeez Nutz,165.18,An,Wtf am I doing here,117.1,W
+2020,4,False,False,An,Wtf am I doing here,117.1,Don,CeeDeez Nutz,165.18,L
+2020,5,False,False,Kevin D,Champs to chumps,103.8,An,Wtf am I doing here,91.54,W
+2020,5,False,False,An,Wtf am I doing here,91.54,Kevin D,Champs to chumps,103.8,L
+2020,5,False,False,Dexter,FREE WIN,118.5,Alex,Dry Szn,109.56,W
+2020,5,False,False,Alex,Dry Szn,109.56,Dexter,FREE WIN,118.5,L
+2020,5,False,False,Tommy,DYNAHMIGHHHH,131.96,Anthony,Princess Jelly,148.6,L
+2020,5,False,False,Anthony,Princess Jelly,148.6,Tommy,DYNAHMIGHHHH,131.96,W
+2020,5,False,False,mrlampham,simp.,172.6,Don,CeeDeez Nutz,133.24,W
+2020,5,False,False,Don,CeeDeez Nutz,133.24,mrlampham,simp.,172.6,L
+2020,5,False,False,Jason,This was Chris Lake,122.46,Justin,Jigs,120.6,W
+2020,5,False,False,Justin,Jigs,120.6,Jason,This was Chris Lake,122.46,L
+2020,6,False,False,Kevin D,Champs to chumps,129.44,Anthony,Princess Jelly,123.72,W
+2020,6,False,False,Anthony,Princess Jelly,123.72,Kevin D,Champs to chumps,129.44,L
+2020,6,False,False,Dexter,FREE WIN,109.22,Don,CeeDeez Nutz,114.06,L
+2020,6,False,False,Don,CeeDeez Nutz,114.06,Dexter,FREE WIN,109.22,W
+2020,6,False,False,Tommy,DYNAHMIGHHHH,84.44,Jason,This was Chris Lake,78.52,W
+2020,6,False,False,Jason,This was Chris Lake,78.52,Tommy,DYNAHMIGHHHH,84.44,L
+2020,6,False,False,mrlampham,simp.,128.8,An,Wtf am I doing here,120.64,W
+2020,6,False,False,An,Wtf am I doing here,120.64,mrlampham,simp.,128.8,L
+2020,6,False,False,Justin,Jigs,163.74,Alex,Dry Szn,126.5,W
+2020,6,False,False,Alex,Dry Szn,126.5,Justin,Jigs,163.74,L
+2020,7,False,False,Kevin D,Champs to chumps,168.96,mrlampham,simp.,121.5,W
+2020,7,False,False,mrlampham,simp.,121.5,Kevin D,Champs to chumps,168.96,L
+2020,7,False,False,Dexter,FREE WIN,154.02,An,Wtf am I doing here,121.02,W
+2020,7,False,False,An,Wtf am I doing here,121.02,Dexter,FREE WIN,154.02,L
+2020,7,False,False,Tommy,DYNAHMIGHHHH,128.52,Alex,Dry Szn,159.5,L
+2020,7,False,False,Alex,Dry Szn,159.5,Tommy,DYNAHMIGHHHH,128.52,W
+2020,7,False,False,Jason,This was Chris Lake,120.58,Anthony,Princess Jelly,121.9,L
+2020,7,False,False,Anthony,Princess Jelly,121.9,Jason,This was Chris Lake,120.58,W
+2020,7,False,False,Justin,Jigs,181.34,Don,CeeDeez Nutz,98.1,W
+2020,7,False,False,Don,CeeDeez Nutz,98.1,Justin,Jigs,181.34,L
+2020,8,False,False,Kevin D,Champs to chumps,114.86,Jason,This was Chris Lake,100.82,W
+2020,8,False,False,Jason,This was Chris Lake,100.82,Kevin D,Champs to chumps,114.86,L
+2020,8,False,False,Dexter,FREE WIN,131.94,mrlampham,simp.,154.34,L
+2020,8,False,False,mrlampham,simp.,154.34,Dexter,FREE WIN,131.94,W
+2020,8,False,False,Tommy,DYNAHMIGHHHH,73.18,Don,CeeDeez Nutz,132.82,L
+2020,8,False,False,Don,CeeDeez Nutz,132.82,Tommy,DYNAHMIGHHHH,73.18,W
+2020,8,False,False,Justin,Jigs,131.22,An,Wtf am I doing here,85.62,W
+2020,8,False,False,An,Wtf am I doing here,85.62,Justin,Jigs,131.22,L
+2020,8,False,False,Anthony,Princess Jelly,119.44,Alex,Dry Szn,92.64,W
+2020,8,False,False,Alex,Dry Szn,92.64,Anthony,Princess Jelly,119.44,L
+2020,9,False,False,Kevin D,Champs to chumps,93.46,Dexter,FREE WIN,113.5,L
+2020,9,False,False,Dexter,FREE WIN,113.5,Kevin D,Champs to chumps,93.46,W
+2020,9,False,False,Tommy,DYNAHMIGHHHH,155.94,An,Wtf am I doing here,97.26,W
+2020,9,False,False,An,Wtf am I doing here,97.26,Tommy,DYNAHMIGHHHH,155.94,L
+2020,9,False,False,mrlampham,simp.,140.28,Justin,Jigs,128.5,W
+2020,9,False,False,Justin,Jigs,128.5,mrlampham,simp.,140.28,L
+2020,9,False,False,Jason,This was Chris Lake,91.44,Alex,Dry Szn,115.74,L
+2020,9,False,False,Alex,Dry Szn,115.74,Jason,This was Chris Lake,91.44,W
+2020,9,False,False,Don,CeeDeez Nutz,141.82,Anthony,Princess Jelly,88.6,W
+2020,9,False,False,Anthony,Princess Jelly,88.6,Don,CeeDeez Nutz,141.82,L
+2020,10,False,False,Kevin D,Champs to chumps,108.34,Alex,Dry Szn,99.52,W
+2020,10,False,False,Alex,Dry Szn,99.52,Kevin D,Champs to chumps,108.34,L
+2020,10,False,False,Dexter,FREE WIN,73.32,Justin,Jigs,104.56,L
+2020,10,False,False,Justin,Jigs,104.56,Dexter,FREE WIN,73.32,W
+2020,10,False,False,Tommy,DYNAHMIGHHHH,99.34,mrlampham,simp.,60.78,W
+2020,10,False,False,mrlampham,simp.,60.78,Tommy,DYNAHMIGHHHH,99.34,L
+2020,10,False,False,Jason,This was Chris Lake,126.58,Don,CeeDeez Nutz,126.18,W
+2020,10,False,False,Don,CeeDeez Nutz,126.18,Jason,This was Chris Lake,126.58,L
+2020,10,False,False,Anthony,Princess Jelly,114.2,An,Wtf am I doing here,99.52,W
+2020,10,False,False,An,Wtf am I doing here,99.52,Anthony,Princess Jelly,114.2,L
+2020,11,False,False,Kevin D,Champs to chumps,87.04,Justin,Jigs,128.94,L
+2020,11,False,False,Justin,Jigs,128.94,Kevin D,Champs to chumps,87.04,W
+2020,11,False,False,Dexter,FREE WIN,130.78,Tommy,DYNAHMIGHHHH,123.88,W
+2020,11,False,False,Tommy,DYNAHMIGHHHH,123.88,Dexter,FREE WIN,130.78,L
+2020,11,False,False,mrlampham,simp.,130.68,Anthony,Princess Jelly,139.46,L
+2020,11,False,False,Anthony,Princess Jelly,139.46,mrlampham,simp.,130.68,W
+2020,11,False,False,Jason,This was Chris Lake,126.44,An,Wtf am I doing here,132.78,L
+2020,11,False,False,An,Wtf am I doing here,132.78,Jason,This was Chris Lake,126.44,W
+2020,11,False,False,Don,CeeDeez Nutz,110.56,Alex,Dry Szn,148.36,L
+2020,11,False,False,Alex,Dry Szn,148.36,Don,CeeDeez Nutz,110.56,W
+2020,12,False,False,Kevin D,Champs to chumps,91.9,Don,CeeDeez Nutz,102.22,L
+2020,12,False,False,Don,CeeDeez Nutz,102.22,Kevin D,Champs to chumps,91.9,W
+2020,12,False,False,Dexter,FREE WIN,143.4,Anthony,Princess Jelly,110.6,W
+2020,12,False,False,Anthony,Princess Jelly,110.6,Dexter,FREE WIN,143.4,L
+2020,12,False,False,Tommy,DYNAHMIGHHHH,123.44,Justin,Jigs,148.78,L
+2020,12,False,False,Justin,Jigs,148.78,Tommy,DYNAHMIGHHHH,123.44,W
+2020,12,False,False,mrlampham,simp.,161.18,Jason,This was Chris Lake,153.74,W
+2020,12,False,False,Jason,This was Chris Lake,153.74,mrlampham,simp.,161.18,L
+2020,12,False,False,Alex,Dry Szn,112.52,An,Wtf am I doing here,110.4,W
+2020,12,False,False,An,Wtf am I doing here,110.4,Alex,Dry Szn,112.52,L
+2020,13,False,False,Kevin D,Champs to chumps,149.9,Tommy,DYNAHMIGHHHH,151.3,L
+2020,13,False,False,Tommy,DYNAHMIGHHHH,151.3,Kevin D,Champs to chumps,149.9,W
+2020,13,False,False,Dexter,FREE WIN,124.62,Jason,This was Chris Lake,100.76,W
+2020,13,False,False,Jason,This was Chris Lake,100.76,Dexter,FREE WIN,124.62,L
+2020,13,False,False,mrlampham,simp.,113.02,Alex,Dry Szn,102.34,W
+2020,13,False,False,Alex,Dry Szn,102.34,mrlampham,simp.,113.02,L
+2020,13,False,False,Justin,Jigs,160.06,Anthony,Princess Jelly,113.12,W
+2020,13,False,False,Anthony,Princess Jelly,113.12,Justin,Jigs,160.06,L
+2020,13,False,False,Don,CeeDeez Nutz,147.68,An,Wtf am I doing here,63.8,W
+2020,13,False,False,An,Wtf am I doing here,63.8,Don,CeeDeez Nutz,147.68,L
+2020,14,True,False,Dexter,FREE WIN,128.04,Anthony,Princess Jelly,142.5,L
+2020,14,True,False,Anthony,Princess Jelly,142.5,Dexter,FREE WIN,128.04,W
+2020,14,True,False,Tommy,DYNAHMIGHHHH,134.6,mrlampham,simp.,162.52,L
+2020,14,True,False,mrlampham,simp.,162.52,Tommy,DYNAHMIGHHHH,134.6,W
+2020,15,True,True,Kevin D,Champs to chumps,115.52,An,Wtf am I doing here,102.8,W
+2020,15,True,True,An,Wtf am I doing here,102.8,Kevin D,Champs to chumps,115.52,L
+2020,15,True,False,Dexter,FREE WIN,94.14,Tommy,DYNAHMIGHHHH,104.38,L
+2020,15,True,False,Tommy,DYNAHMIGHHHH,104.38,Dexter,FREE WIN,94.14,W
+2020,15,True,False,mrlampham,simp.,103.36,Don,CeeDeez Nutz,142.0,L
+2020,15,True,False,Don,CeeDeez Nutz,142.0,mrlampham,simp.,103.36,W
+2020,15,True,True,Jason,This was Chris Lake,113.46,Alex,Dry Szn,89.32,W
+2020,15,True,True,Alex,Dry Szn,89.32,Jason,This was Chris Lake,113.46,L
+2020,15,True,False,Justin,Jigs,154.22,Anthony,Princess Jelly,136.62,W
+2020,15,True,False,Anthony,Princess Jelly,136.62,Justin,Jigs,154.22,L
+2020,16,True,True,Kevin D,Champs to chumps,147.4,Jason,This was Chris Lake,162.82,L
+2020,16,True,True,Jason,This was Chris Lake,162.82,Kevin D,Champs to chumps,147.4,W
+2020,16,True,False,mrlampham,simp.,100.32,Anthony,Princess Jelly,124.24,L
+2020,16,True,False,Anthony,Princess Jelly,124.24,mrlampham,simp.,100.32,W
+2020,16,True,False,Justin,Jigs,147.92,Don,CeeDeez Nutz,135.98,W
+2020,16,True,False,Don,CeeDeez Nutz,135.98,Justin,Jigs,147.92,L
+2020,16,True,True,Alex,Dry Szn,103.26,An,Wtf am I doing here,66.9,W
+2020,16,True,True,An,Wtf am I doing here,66.9,Alex,Dry Szn,103.26,L
+2021,1,False,False,Kevin D,Win will I get a when,127.0,An,Drier than a Popeyes biscuit,164.96,L
+2021,1,False,False,An,Drier than a Popeyes biscuit,164.96,Kevin D,Win will I get a when,127.0,W
+2021,1,False,False,Don,CREASING MY SECRET SANTA GIFT,150.08,Dexter,Dex_lab,124.86,W
+2021,1,False,False,Dexter,Dex_lab,124.86,Don,CREASING MY SECRET SANTA GIFT,150.08,L
+2021,1,False,False,Alex,Shrooms,135.68,Tommy,Boards,125.58,W
+2021,1,False,False,Tommy,Boards,125.58,Alex,Shrooms,135.68,L
+2021,1,False,False,Justin,Washed,102.12,Anthony,Queen Jelly,165.96,L
+2021,1,False,False,Anthony,Queen Jelly,165.96,Justin,Washed,102.12,W
+2021,1,False,False,mrlampham,Fuck an,110.18,Jason,0.02 points,108.8,W
+2021,1,False,False,Jason,0.02 points,108.8,mrlampham,Fuck an,110.18,L
+2021,2,False,False,Kevin D,Win will I get a when,132.56,Tommy,Boards,184.32,L
+2021,2,False,False,Tommy,Boards,184.32,Kevin D,Win will I get a when,132.56,W
+2021,2,False,False,Don,CREASING MY SECRET SANTA GIFT,123.42,An,Drier than a Popeyes biscuit,117.22,W
+2021,2,False,False,An,Drier than a Popeyes biscuit,117.22,Don,CREASING MY SECRET SANTA GIFT,123.42,L
+2021,2,False,False,Alex,Shrooms,106.82,Justin,Washed,133.78,L
+2021,2,False,False,Justin,Washed,133.78,Alex,Shrooms,106.82,W
+2021,2,False,False,Dexter,Dex_lab,127.0,mrlampham,Fuck an,115.08,W
+2021,2,False,False,mrlampham,Fuck an,115.08,Dexter,Dex_lab,127.0,L
+2021,2,False,False,Anthony,Queen Jelly,147.44,Jason,0.02 points,134.66,W
+2021,2,False,False,Jason,0.02 points,134.66,Anthony,Queen Jelly,147.44,L
+2021,3,False,False,Kevin D,Win will I get a when,99.68,Alex,Shrooms,135.04,L
+2021,3,False,False,Alex,Shrooms,135.04,Kevin D,Win will I get a when,99.68,W
+2021,3,False,False,Don,CREASING MY SECRET SANTA GIFT,108.4,Tommy,Boards,137.02,L
+2021,3,False,False,Tommy,Boards,137.02,Don,CREASING MY SECRET SANTA GIFT,108.4,W
+2021,3,False,False,Dexter,Dex_lab,118.54,Anthony,Queen Jelly,136.68,L
+2021,3,False,False,Anthony,Queen Jelly,136.68,Dexter,Dex_lab,118.54,W
+2021,3,False,False,Justin,Washed,133.52,Jason,0.02 points,118.92,W
+2021,3,False,False,Jason,0.02 points,118.92,Justin,Washed,133.52,L
+2021,3,False,False,mrlampham,Fuck an,133.24,An,Drier than a Popeyes biscuit,113.22,W
+2021,3,False,False,An,Drier than a Popeyes biscuit,113.22,mrlampham,Fuck an,133.24,L
+2021,4,False,False,Kevin D,Win will I get a when,109.64,Don,CREASING MY SECRET SANTA GIFT,136.62,L
+2021,4,False,False,Don,CREASING MY SECRET SANTA GIFT,136.62,Kevin D,Win will I get a when,109.64,W
+2021,4,False,False,Alex,Shrooms,137.18,Jason,0.02 points,129.22,W
+2021,4,False,False,Jason,0.02 points,129.22,Alex,Shrooms,137.18,L
+2021,4,False,False,Tommy,Boards,137.0,mrlampham,Fuck an,101.44,W
+2021,4,False,False,mrlampham,Fuck an,101.44,Tommy,Boards,137.0,L
+2021,4,False,False,Dexter,Dex_lab,119.92,Justin,Washed,100.02,W
+2021,4,False,False,Justin,Washed,100.02,Dexter,Dex_lab,119.92,L
+2021,4,False,False,Anthony,Queen Jelly,124.06,An,Drier than a Popeyes biscuit,86.06,W
+2021,4,False,False,An,Drier than a Popeyes biscuit,86.06,Anthony,Queen Jelly,124.06,L
+2021,5,False,False,Kevin D,Win will I get a when,154.98,mrlampham,Fuck an,136.58,W
+2021,5,False,False,mrlampham,Fuck an,136.58,Kevin D,Win will I get a when,154.98,L
+2021,5,False,False,Don,CREASING MY SECRET SANTA GIFT,158.68,Alex,Shrooms,192.12,L
+2021,5,False,False,Alex,Shrooms,192.12,Don,CREASING MY SECRET SANTA GIFT,158.68,W
+2021,5,False,False,Tommy,Boards,129.0,Anthony,Queen Jelly,146.04,L
+2021,5,False,False,Anthony,Queen Jelly,146.04,Tommy,Boards,129.0,W
+2021,5,False,False,Dexter,Dex_lab,101.36,Jason,0.02 points,111.3,L
+2021,5,False,False,Jason,0.02 points,111.3,Dexter,Dex_lab,101.36,W
+2021,5,False,False,Justin,Washed,155.48,An,Drier than a Popeyes biscuit,144.68,W
+2021,5,False,False,An,Drier than a Popeyes biscuit,144.68,Justin,Washed,155.48,L
+2021,6,False,False,Kevin D,Win will I get a when,128.58,Anthony,Queen Jelly,164.58,L
+2021,6,False,False,Anthony,Queen Jelly,164.58,Kevin D,Win will I get a when,128.58,W
+2021,6,False,False,Don,CREASING MY SECRET SANTA GIFT,176.88,mrlampham,Fuck an,145.14,W
+2021,6,False,False,mrlampham,Fuck an,145.14,Don,CREASING MY SECRET SANTA GIFT,176.88,L
+2021,6,False,False,Alex,Shrooms,121.7,Dexter,Dex_lab,125.66,L
+2021,6,False,False,Dexter,Dex_lab,125.66,Alex,Shrooms,121.7,W
+2021,6,False,False,Tommy,Boards,138.24,Justin,Washed,144.8,L
+2021,6,False,False,Justin,Washed,144.8,Tommy,Boards,138.24,W
+2021,6,False,False,Jason,0.02 points,126.42,An,Drier than a Popeyes biscuit,99.36,W
+2021,6,False,False,An,Drier than a Popeyes biscuit,99.36,Jason,0.02 points,126.42,L
+2021,7,False,False,Kevin D,Win will I get a when,106.88,Justin,Washed,160.04,L
+2021,7,False,False,Justin,Washed,160.04,Kevin D,Win will I get a when,106.88,W
+2021,7,False,False,Don,CREASING MY SECRET SANTA GIFT,144.24,Anthony,Queen Jelly,146.34,L
+2021,7,False,False,Anthony,Queen Jelly,146.34,Don,CREASING MY SECRET SANTA GIFT,144.24,W
+2021,7,False,False,Alex,Shrooms,124.24,mrlampham,Fuck an,98.5,W
+2021,7,False,False,mrlampham,Fuck an,98.5,Alex,Shrooms,124.24,L
+2021,7,False,False,Tommy,Boards,104.66,Jason,0.02 points,115.18,L
+2021,7,False,False,Jason,0.02 points,115.18,Tommy,Boards,104.66,W
+2021,7,False,False,Dexter,Dex_lab,137.14,An,Drier than a Popeyes biscuit,84.94,W
+2021,7,False,False,An,Drier than a Popeyes biscuit,84.94,Dexter,Dex_lab,137.14,L
+2021,8,False,False,Kevin D,Win will I get a when,106.94,Jason,0.02 points,104.82,W
+2021,8,False,False,Jason,0.02 points,104.82,Kevin D,Win will I get a when,106.94,L
+2021,8,False,False,Don,CREASING MY SECRET SANTA GIFT,105.1,Justin,Washed,93.5,W
+2021,8,False,False,Justin,Washed,93.5,Don,CREASING MY SECRET SANTA GIFT,105.1,L
+2021,8,False,False,Alex,Shrooms,109.32,An,Drier than a Popeyes biscuit,125.54,L
+2021,8,False,False,An,Drier than a Popeyes biscuit,125.54,Alex,Shrooms,109.32,W
+2021,8,False,False,Tommy,Boards,67.0,Dexter,Dex_lab,95.46,L
+2021,8,False,False,Dexter,Dex_lab,95.46,Tommy,Boards,67.0,W
+2021,8,False,False,Anthony,Queen Jelly,178.3,mrlampham,Fuck an,136.8,W
+2021,8,False,False,mrlampham,Fuck an,136.8,Anthony,Queen Jelly,178.3,L
+2021,9,False,False,Kevin D,Win will I get a when,99.74,Dexter,Dex_lab,106.3,L
+2021,9,False,False,Dexter,Dex_lab,106.3,Kevin D,Win will I get a when,99.74,W
+2021,9,False,False,Don,CREASING MY SECRET SANTA GIFT,97.04,Jason,0.02 points,89.46,W
+2021,9,False,False,Jason,0.02 points,89.46,Don,CREASING MY SECRET SANTA GIFT,97.04,L
+2021,9,False,False,Alex,Shrooms,115.84,Anthony,Queen Jelly,128.68,L
+2021,9,False,False,Anthony,Queen Jelly,128.68,Alex,Shrooms,115.84,W
+2021,9,False,False,Tommy,Boards,93.96,An,Drier than a Popeyes biscuit,172.28,L
+2021,9,False,False,An,Drier than a Popeyes biscuit,172.28,Tommy,Boards,93.96,W
+2021,9,False,False,Justin,Washed,91.88,mrlampham,Fuck an,78.42,W
+2021,9,False,False,mrlampham,Fuck an,78.42,Justin,Washed,91.88,L
+2021,10,False,False,Kevin D,Win will I get a when,86.12,An,Drier than a Popeyes biscuit,102.34,L
+2021,10,False,False,An,Drier than a Popeyes biscuit,102.34,Kevin D,Win will I get a when,86.12,W
+2021,10,False,False,Don,CREASING MY SECRET SANTA GIFT,154.54,Dexter,Dex_lab,101.5,W
+2021,10,False,False,Dexter,Dex_lab,101.5,Don,CREASING MY SECRET SANTA GIFT,154.54,L
+2021,10,False,False,Alex,Shrooms,104.9,Tommy,Boards,98.52,W
+2021,10,False,False,Tommy,Boards,98.52,Alex,Shrooms,104.9,L
+2021,10,False,False,Justin,Washed,116.44,Anthony,Queen Jelly,108.6,W
+2021,10,False,False,Anthony,Queen Jelly,108.6,Justin,Washed,116.44,L
+2021,10,False,False,mrlampham,Fuck an,116.88,Jason,0.02 points,125.04,L
+2021,10,False,False,Jason,0.02 points,125.04,mrlampham,Fuck an,116.88,W
+2021,11,False,False,Kevin D,Win will I get a when,107.94,Tommy,Boards,156.34,L
+2021,11,False,False,Tommy,Boards,156.34,Kevin D,Win will I get a when,107.94,W
+2021,11,False,False,Don,CREASING MY SECRET SANTA GIFT,92.9,An,Drier than a Popeyes biscuit,212.58,L
+2021,11,False,False,An,Drier than a Popeyes biscuit,212.58,Don,CREASING MY SECRET SANTA GIFT,92.9,W
+2021,11,False,False,Alex,Shrooms,162.28,Justin,Washed,117.94,W
+2021,11,False,False,Justin,Washed,117.94,Alex,Shrooms,162.28,L
+2021,11,False,False,Dexter,Dex_lab,114.66,mrlampham,Fuck an,113.32,W
+2021,11,False,False,mrlampham,Fuck an,113.32,Dexter,Dex_lab,114.66,L
+2021,11,False,False,Anthony,Queen Jelly,137.08,Jason,0.02 points,107.26,W
+2021,11,False,False,Jason,0.02 points,107.26,Anthony,Queen Jelly,137.08,L
+2021,12,False,False,Kevin D,Win will I get a when,89.1,Alex,Shrooms,121.82,L
+2021,12,False,False,Alex,Shrooms,121.82,Kevin D,Win will I get a when,89.1,W
+2021,12,False,False,Don,CREASING MY SECRET SANTA GIFT,156.68,Tommy,Boards,136.54,W
+2021,12,False,False,Tommy,Boards,136.54,Don,CREASING MY SECRET SANTA GIFT,156.68,L
+2021,12,False,False,Dexter,Dex_lab,85.68,Anthony,Queen Jelly,137.24,L
+2021,12,False,False,Anthony,Queen Jelly,137.24,Dexter,Dex_lab,85.68,W
+2021,12,False,False,Justin,Washed,103.2,Jason,0.02 points,131.9,L
+2021,12,False,False,Jason,0.02 points,131.9,Justin,Washed,103.2,W
+2021,12,False,False,mrlampham,Fuck an,96.42,An,Drier than a Popeyes biscuit,99.98,L
+2021,12,False,False,An,Drier than a Popeyes biscuit,99.98,mrlampham,Fuck an,96.42,W
+2021,13,False,False,Kevin D,Win will I get a when,97.22,Don,CREASING MY SECRET SANTA GIFT,121.06,L
+2021,13,False,False,Don,CREASING MY SECRET SANTA GIFT,121.06,Kevin D,Win will I get a when,97.22,W
+2021,13,False,False,Alex,Shrooms,125.88,Jason,0.02 points,91.3,W
+2021,13,False,False,Jason,0.02 points,91.3,Alex,Shrooms,125.88,L
+2021,13,False,False,Tommy,Boards,147.4,mrlampham,Fuck an,95.76,W
+2021,13,False,False,mrlampham,Fuck an,95.76,Tommy,Boards,147.4,L
+2021,13,False,False,Dexter,Dex_lab,149.72,Justin,Washed,146.12,W
+2021,13,False,False,Justin,Washed,146.12,Dexter,Dex_lab,149.72,L
+2021,13,False,False,Anthony,Queen Jelly,148.42,An,Drier than a Popeyes biscuit,133.34,W
+2021,13,False,False,An,Drier than a Popeyes biscuit,133.34,Anthony,Queen Jelly,148.42,L
+2021,14,False,False,Kevin D,Win will I get a when,111.98,mrlampham,Fuck an,99.92,W
+2021,14,False,False,mrlampham,Fuck an,99.92,Kevin D,Win will I get a when,111.98,L
+2021,14,False,False,Don,CREASING MY SECRET SANTA GIFT,134.72,Alex,Shrooms,112.7,W
+2021,14,False,False,Alex,Shrooms,112.7,Don,CREASING MY SECRET SANTA GIFT,134.72,L
+2021,14,False,False,Tommy,Boards,122.28,Anthony,Queen Jelly,166.82,L
+2021,14,False,False,Anthony,Queen Jelly,166.82,Tommy,Boards,122.28,W
+2021,14,False,False,Dexter,Dex_lab,142.42,Jason,0.02 points,125.82,W
+2021,14,False,False,Jason,0.02 points,125.82,Dexter,Dex_lab,142.42,L
+2021,14,False,False,Justin,Washed,148.44,An,Drier than a Popeyes biscuit,106.4,W
+2021,14,False,False,An,Drier than a Popeyes biscuit,106.4,Justin,Washed,148.44,L
+2021,15,True,False,Alex,Shrooms,109.34,An,Drier than a Popeyes biscuit,109.66,L
+2021,15,True,False,An,Drier than a Popeyes biscuit,109.66,Alex,Shrooms,109.34,W
+2021,15,True,False,Dexter,Dex_lab,85.58,Justin,Washed,73.98,W
+2021,15,True,False,Justin,Washed,73.98,Dexter,Dex_lab,85.58,L
+2021,16,True,True,Kevin D,Win will I get a when,71.4,Jason,0.02 points,116.16,L
+2021,16,True,True,Jason,0.02 points,116.16,Kevin D,Win will I get a when,71.4,W
+2021,16,True,False,Don,CREASING MY SECRET SANTA GIFT,120.52,Dexter,Dex_lab,124.8,L
+2021,16,True,False,Dexter,Dex_lab,124.8,Don,CREASING MY SECRET SANTA GIFT,120.52,W
+2021,16,True,False,Alex,Shrooms,101.14,Justin,Washed,135.7,L
+2021,16,True,False,Justin,Washed,135.7,Alex,Shrooms,101.14,W
+2021,16,True,True,Tommy,Boards,77.88,mrlampham,Fuck an,94.44,L
+2021,16,True,True,mrlampham,Fuck an,94.44,Tommy,Boards,77.88,W
+2021,16,True,False,Anthony,Queen Jelly,180.46,An,Drier than a Popeyes biscuit,151.14,W
+2021,16,True,False,An,Drier than a Popeyes biscuit,151.14,Anthony,Queen Jelly,180.46,L
+2021,17,True,True,Kevin D,Win will I get a when,78.1,Tommy,Boards,72.46,W
+2021,17,True,True,Tommy,Boards,72.46,Kevin D,Win will I get a when,78.1,L
+2021,17,True,False,Don,CREASING MY SECRET SANTA GIFT,131.66,An,Drier than a Popeyes biscuit,128.74,W
+2021,17,True,False,An,Drier than a Popeyes biscuit,128.74,Don,CREASING MY SECRET SANTA GIFT,131.66,L
+2021,17,True,False,Dexter,Dex_lab,100.42,Anthony,Queen Jelly,157.1,L
+2021,17,True,False,Anthony,Queen Jelly,157.1,Dexter,Dex_lab,100.42,W
+2021,17,True,True,mrlampham,Fuck an,74.1,Jason,0.02 points,91.4,L
+2021,17,True,True,Jason,0.02 points,91.4,mrlampham,Fuck an,74.1,W
+2022,1,False,False,Kevin D,Free money,150.0,Jason,Felon,108.7,W
+2022,1,False,False,Jason,Felon,108.7,Kevin D,Free money,150.0,L
+2022,1,False,False,Don,my team ass,159.38,Justin,Washed,95.76,W
+2022,1,False,False,Justin,Washed,95.76,Don,my team ass,159.38,L
+2022,1,False,False,Alex,Sports Betting,126.42,mrlampham,lmphm,117.72,W
+2022,1,False,False,mrlampham,lmphm,117.72,Alex,Sports Betting,126.42,L
+2022,1,False,False,Tommy,y c k y,114.92,Dexter,SCENE INFILTRATED,127.62,L
+2022,1,False,False,Dexter,SCENE INFILTRATED,127.62,Tommy,y c k y,114.92,W
+2022,1,False,False,Anthony,🏆 Champion Jelly 🏆,134.2,An,Drier than a Popeyes biscuit,116.88,W
+2022,1,False,False,An,Drier than a Popeyes biscuit,116.88,Anthony,🏆 Champion Jelly 🏆,134.2,L
+2022,2,False,False,Kevin D,Free money,88.16,Anthony,🏆 Champion Jelly 🏆,111.0,L
+2022,2,False,False,Anthony,🏆 Champion Jelly 🏆,111.0,Kevin D,Free money,88.16,W
+2022,2,False,False,Don,my team ass,139.28,Alex,Sports Betting,165.08,L
+2022,2,False,False,Alex,Sports Betting,165.08,Don,my team ass,139.28,W
+2022,2,False,False,Tommy,y c k y,58.66,Jason,Felon,162.98,L
+2022,2,False,False,Jason,Felon,162.98,Tommy,y c k y,58.66,W
+2022,2,False,False,Dexter,SCENE INFILTRATED,143.52,mrlampham,lmphm,113.62,W
+2022,2,False,False,mrlampham,lmphm,113.62,Dexter,SCENE INFILTRATED,143.52,L
+2022,2,False,False,Justin,Washed,137.86,An,Drier than a Popeyes biscuit,162.64,L
+2022,2,False,False,An,Drier than a Popeyes biscuit,162.64,Justin,Washed,137.86,W
+2022,3,False,False,Kevin D,Free money,93.06,Justin,Washed,117.58,L
+2022,3,False,False,Justin,Washed,117.58,Kevin D,Free money,93.06,W
+2022,3,False,False,Don,my team ass,103.5,mrlampham,lmphm,108.2,L
+2022,3,False,False,mrlampham,lmphm,108.2,Don,my team ass,103.5,W
+2022,3,False,False,Alex,Sports Betting,105.86,An,Drier than a Popeyes biscuit,99.9,W
+2022,3,False,False,An,Drier than a Popeyes biscuit,99.9,Alex,Sports Betting,105.86,L
+2022,3,False,False,Tommy,y c k y,113.8,Anthony,🏆 Champion Jelly 🏆,102.58,W
+2022,3,False,False,Anthony,🏆 Champion Jelly 🏆,102.58,Tommy,y c k y,113.8,L
+2022,3,False,False,Dexter,SCENE INFILTRATED,109.02,Jason,Felon,122.56,L
+2022,3,False,False,Jason,Felon,122.56,Dexter,SCENE INFILTRATED,109.02,W
+2022,4,False,False,Kevin D,Free money,129.34,Alex,Sports Betting,141.18,L
+2022,4,False,False,Alex,Sports Betting,141.18,Kevin D,Free money,129.34,W
+2022,4,False,False,Don,my team ass,117.12,Dexter,SCENE INFILTRATED,153.36,L
+2022,4,False,False,Dexter,SCENE INFILTRATED,153.36,Don,my team ass,117.12,W
+2022,4,False,False,Tommy,y c k y,115.08,Justin,Washed,143.1,L
+2022,4,False,False,Justin,Washed,143.1,Tommy,y c k y,115.08,W
+2022,4,False,False,Anthony,🏆 Champion Jelly 🏆,101.46,Jason,Felon,126.7,L
+2022,4,False,False,Jason,Felon,126.7,Anthony,🏆 Champion Jelly 🏆,101.46,W
+2022,4,False,False,mrlampham,lmphm,70.16,An,Drier than a Popeyes biscuit,126.8,L
+2022,4,False,False,An,Drier than a Popeyes biscuit,126.8,mrlampham,lmphm,70.16,W
+2022,5,False,False,Kevin D,Free money,131.68,mrlampham,lmphm,107.36,W
+2022,5,False,False,mrlampham,lmphm,107.36,Kevin D,Free money,131.68,L
+2022,5,False,False,Don,my team ass,128.36,An,Drier than a Popeyes biscuit,133.14,L
+2022,5,False,False,An,Drier than a Popeyes biscuit,133.14,Don,my team ass,128.36,W
+2022,5,False,False,Alex,Sports Betting,123.9,Tommy,y c k y,119.38,W
+2022,5,False,False,Tommy,y c k y,119.38,Alex,Sports Betting,123.9,L
+2022,5,False,False,Dexter,SCENE INFILTRATED,146.28,Anthony,🏆 Champion Jelly 🏆,116.38,W
+2022,5,False,False,Anthony,🏆 Champion Jelly 🏆,116.38,Dexter,SCENE INFILTRATED,146.28,L
+2022,5,False,False,Justin,Washed,122.42,Jason,Felon,141.56,L
+2022,5,False,False,Jason,Felon,141.56,Justin,Washed,122.42,W
+2022,6,False,False,Kevin D,Free money,119.54,Don,my team ass,112.96,W
+2022,6,False,False,Don,my team ass,112.96,Kevin D,Free money,119.54,L
+2022,6,False,False,Alex,Sports Betting,112.98,Jason,Felon,114.68,L
+2022,6,False,False,Jason,Felon,114.68,Alex,Sports Betting,112.98,W
+2022,6,False,False,Tommy,y c k y,130.3,mrlampham,lmphm,137.2,L
+2022,6,False,False,mrlampham,lmphm,137.2,Tommy,y c k y,130.3,W
+2022,6,False,False,Dexter,SCENE INFILTRATED,146.0,An,Drier than a Popeyes biscuit,66.52,W
+2022,6,False,False,An,Drier than a Popeyes biscuit,66.52,Dexter,SCENE INFILTRATED,146.0,L
+2022,6,False,False,Justin,Washed,83.86,Anthony,🏆 Champion Jelly 🏆,103.42,L
+2022,6,False,False,Anthony,🏆 Champion Jelly 🏆,103.42,Justin,Washed,83.86,W
+2022,7,False,False,Kevin D,Free money,148.76,An,Drier than a Popeyes biscuit,125.0,W
+2022,7,False,False,An,Drier than a Popeyes biscuit,125.0,Kevin D,Free money,148.76,L
+2022,7,False,False,Don,my team ass,111.34,Tommy,y c k y,139.94,L
+2022,7,False,False,Tommy,y c k y,139.94,Don,my team ass,111.34,W
+2022,7,False,False,Alex,Sports Betting,112.66,Anthony,🏆 Champion Jelly 🏆,112.02,W
+2022,7,False,False,Anthony,🏆 Champion Jelly 🏆,112.02,Alex,Sports Betting,112.66,L
+2022,7,False,False,Dexter,SCENE INFILTRATED,117.7,Justin,Washed,132.84,L
+2022,7,False,False,Justin,Washed,132.84,Dexter,SCENE INFILTRATED,117.7,W
+2022,7,False,False,mrlampham,lmphm,111.44,Jason,Felon,89.58,W
+2022,7,False,False,Jason,Felon,89.58,mrlampham,lmphm,111.44,L
+2022,8,False,False,Kevin D,Free money,126.92,Dexter,SCENE INFILTRATED,118.82,W
+2022,8,False,False,Dexter,SCENE INFILTRATED,118.82,Kevin D,Free money,126.92,L
+2022,8,False,False,Don,my team ass,154.12,Jason,Felon,129.94,W
+2022,8,False,False,Jason,Felon,129.94,Don,my team ass,154.12,L
+2022,8,False,False,Alex,Sports Betting,129.14,Justin,Washed,135.32,L
+2022,8,False,False,Justin,Washed,135.32,Alex,Sports Betting,129.14,W
+2022,8,False,False,Tommy,y c k y,125.28,An,Drier than a Popeyes biscuit,130.2,L
+2022,8,False,False,An,Drier than a Popeyes biscuit,130.2,Tommy,y c k y,125.28,W
+2022,8,False,False,Anthony,🏆 Champion Jelly 🏆,142.24,mrlampham,lmphm,119.84,W
+2022,8,False,False,mrlampham,lmphm,119.84,Anthony,🏆 Champion Jelly 🏆,142.24,L
+2022,9,False,False,Kevin D,Free money,85.64,Tommy,y c k y,90.24,L
+2022,9,False,False,Tommy,y c k y,90.24,Kevin D,Free money,85.64,W
+2022,9,False,False,Don,my team ass,171.1,Anthony,🏆 Champion Jelly 🏆,120.94,W
+2022,9,False,False,Anthony,🏆 Champion Jelly 🏆,120.94,Don,my team ass,171.1,L
+2022,9,False,False,Alex,Sports Betting,145.0,Dexter,SCENE INFILTRATED,92.82,W
+2022,9,False,False,Dexter,SCENE INFILTRATED,92.82,Alex,Sports Betting,145.0,L
+2022,9,False,False,Justin,Washed,111.52,mrlampham,lmphm,117.42,L
+2022,9,False,False,mrlampham,lmphm,117.42,Justin,Washed,111.52,W
+2022,9,False,False,Jason,Felon,129.5,An,Drier than a Popeyes biscuit,93.1,W
+2022,9,False,False,An,Drier than a Popeyes biscuit,93.1,Jason,Felon,129.5,L
+2022,10,False,False,Kevin D,Free money,124.76,Jason,Felon,116.8,W
+2022,10,False,False,Jason,Felon,116.8,Kevin D,Free money,124.76,L
+2022,10,False,False,Don,my team ass,87.1,Justin,Washed,110.38,L
+2022,10,False,False,Justin,Washed,110.38,Don,my team ass,87.1,W
+2022,10,False,False,Alex,Sports Betting,122.06,mrlampham,lmphm,76.7,W
+2022,10,False,False,mrlampham,lmphm,76.7,Alex,Sports Betting,122.06,L
+2022,10,False,False,Tommy,y c k y,149.74,Dexter,SCENE INFILTRATED,140.48,W
+2022,10,False,False,Dexter,SCENE INFILTRATED,140.48,Tommy,y c k y,149.74,L
+2022,10,False,False,Anthony,🏆 Champion Jelly 🏆,108.04,An,Drier than a Popeyes biscuit,112.98,L
+2022,10,False,False,An,Drier than a Popeyes biscuit,112.98,Anthony,🏆 Champion Jelly 🏆,108.04,W
+2022,11,False,False,Kevin D,Free money,117.58,Anthony,🏆 Champion Jelly 🏆,132.06,L
+2022,11,False,False,Anthony,🏆 Champion Jelly 🏆,132.06,Kevin D,Free money,117.58,W
+2022,11,False,False,Don,my team ass,106.18,Alex,Sports Betting,127.92,L
+2022,11,False,False,Alex,Sports Betting,127.92,Don,my team ass,106.18,W
+2022,11,False,False,Tommy,y c k y,129.0,Jason,Felon,156.64,L
+2022,11,False,False,Jason,Felon,156.64,Tommy,y c k y,129.0,W
+2022,11,False,False,Dexter,SCENE INFILTRATED,109.76,mrlampham,lmphm,104.2,W
+2022,11,False,False,mrlampham,lmphm,104.2,Dexter,SCENE INFILTRATED,109.76,L
+2022,11,False,False,Justin,Washed,165.94,An,Drier than a Popeyes biscuit,82.4,W
+2022,11,False,False,An,Drier than a Popeyes biscuit,82.4,Justin,Washed,165.94,L
+2022,12,False,False,Kevin D,Free money,122.76,Justin,Washed,85.3,W
+2022,12,False,False,Justin,Washed,85.3,Kevin D,Free money,122.76,L
+2022,12,False,False,Don,my team ass,127.62,mrlampham,lmphm,100.72,W
+2022,12,False,False,mrlampham,lmphm,100.72,Don,my team ass,127.62,L
+2022,12,False,False,Alex,Sports Betting,134.78,An,Drier than a Popeyes biscuit,120.22,W
+2022,12,False,False,An,Drier than a Popeyes biscuit,120.22,Alex,Sports Betting,134.78,L
+2022,12,False,False,Tommy,y c k y,107.8,Anthony,🏆 Champion Jelly 🏆,119.9,L
+2022,12,False,False,Anthony,🏆 Champion Jelly 🏆,119.9,Tommy,y c k y,107.8,W
+2022,12,False,False,Dexter,SCENE INFILTRATED,194.3,Jason,Felon,103.84,W
+2022,12,False,False,Jason,Felon,103.84,Dexter,SCENE INFILTRATED,194.3,L
+2022,13,False,False,Kevin D,Free money,124.5,Alex,Sports Betting,128.76,L
+2022,13,False,False,Alex,Sports Betting,128.76,Kevin D,Free money,124.5,W
+2022,13,False,False,Don,my team ass,148.72,Dexter,SCENE INFILTRATED,113.64,W
+2022,13,False,False,Dexter,SCENE INFILTRATED,113.64,Don,my team ass,148.72,L
+2022,13,False,False,Tommy,y c k y,121.94,Justin,Washed,129.5,L
+2022,13,False,False,Justin,Washed,129.5,Tommy,y c k y,121.94,W
+2022,13,False,False,Anthony,🏆 Champion Jelly 🏆,79.22,Jason,Felon,127.1,L
+2022,13,False,False,Jason,Felon,127.1,Anthony,🏆 Champion Jelly 🏆,79.22,W
+2022,13,False,False,mrlampham,lmphm,129.9,An,Drier than a Popeyes biscuit,126.48,W
+2022,13,False,False,An,Drier than a Popeyes biscuit,126.48,mrlampham,lmphm,129.9,L
+2022,14,False,False,Kevin D,Free money,99.78,mrlampham,lmphm,181.48,L
+2022,14,False,False,mrlampham,lmphm,181.48,Kevin D,Free money,99.78,W
+2022,14,False,False,Don,my team ass,109.58,An,Drier than a Popeyes biscuit,130.3,L
+2022,14,False,False,An,Drier than a Popeyes biscuit,130.3,Don,my team ass,109.58,W
+2022,14,False,False,Alex,Sports Betting,92.86,Tommy,y c k y,66.96,W
+2022,14,False,False,Tommy,y c k y,66.96,Alex,Sports Betting,92.86,L
+2022,14,False,False,Dexter,SCENE INFILTRATED,106.72,Anthony,🏆 Champion Jelly 🏆,106.38,W
+2022,14,False,False,Anthony,🏆 Champion Jelly 🏆,106.38,Dexter,SCENE INFILTRATED,106.72,L
+2022,14,False,False,Justin,Washed,98.02,Jason,Felon,106.76,L
+2022,14,False,False,Jason,Felon,106.76,Justin,Washed,98.02,W
+2022,15,True,False,Kevin D,Free money,105.82,Justin,Washed,136.58,L
+2022,15,True,False,Justin,Washed,136.58,Kevin D,Free money,105.82,W
+2022,15,True,False,Dexter,SCENE INFILTRATED,130.48,An,Drier than a Popeyes biscuit,127.3,W
+2022,15,True,False,An,Drier than a Popeyes biscuit,127.3,Dexter,SCENE INFILTRATED,130.48,L
+2022,16,True,False,Kevin D,Free money,98.1,An,Drier than a Popeyes biscuit,155.06,L
+2022,16,True,False,An,Drier than a Popeyes biscuit,155.06,Kevin D,Free money,98.1,W
+2022,16,True,True,Don,my team ass,124.78,Anthony,🏆 Champion Jelly 🏆,111.36,W
+2022,16,True,True,Anthony,🏆 Champion Jelly 🏆,111.36,Don,my team ass,124.78,L
+2022,16,True,False,Alex,Sports Betting,115.76,Justin,Washed,91.16,W
+2022,16,True,False,Justin,Washed,91.16,Alex,Sports Betting,115.76,L
+2022,16,True,True,Tommy,y c k y,102.0,mrlampham,lmphm,108.8,L
+2022,16,True,True,mrlampham,lmphm,108.8,Tommy,y c k y,102.0,W
+2022,16,True,False,Dexter,SCENE INFILTRATED,105.64,Jason,Felon,132.5,L
+2022,16,True,False,Jason,Felon,132.5,Dexter,SCENE INFILTRATED,105.64,W
+2022,17,True,True,Don,my team ass,71.9,mrlampham,lmphm,66.6,W
+2022,17,True,True,mrlampham,lmphm,66.6,Don,my team ass,71.9,L
+2022,17,True,False,Alex,Sports Betting,112.28,Jason,Felon,144.1,L
+2022,17,True,False,Jason,Felon,144.1,Alex,Sports Betting,112.28,W
+2022,17,True,True,Tommy,y c k y,72.9,Anthony,🏆 Champion Jelly 🏆,93.12,L
+2022,17,True,True,Anthony,🏆 Champion Jelly 🏆,93.12,Tommy,y c k y,72.9,W
+2022,17,True,False,Dexter,SCENE INFILTRATED,120.76,Justin,Washed,72.56,W
+2022,17,True,False,Justin,Washed,72.56,Dexter,SCENE INFILTRATED,120.76,L
+2023,1,False,False,Kevin D,Ra-Dogged,99.36,Justin,Jiggly,111.84,L
+2023,1,False,False,Justin,Jiggly,111.84,Kevin D,Ra-Dogged,99.36,W
+2023,1,False,False,Don,Waddleburger Pattymelt,105.14,Dexter,Dex,109.74,L
+2023,1,False,False,Dexter,Dex,109.74,Don,Waddleburger Pattymelt,105.14,W
+2023,1,False,False,Alex,Sports Betting,113.74,Jason,Felon,63.0,W
+2023,1,False,False,Jason,Felon,63.0,Alex,Sports Betting,113.74,L
+2023,1,False,False,Tommy,y c k y,164.66,An,Drier than a Popeyes biscuit,107.46,W
+2023,1,False,False,An,Drier than a Popeyes biscuit,107.46,Tommy,y c k y,164.66,L
+2023,1,False,False,Anthony,🏆 Champion Jelly 🏆,100.76,mrlampham,lmphm,140.58,L
+2023,1,False,False,mrlampham,lmphm,140.58,Anthony,🏆 Champion Jelly 🏆,100.76,W
+2023,2,False,False,Kevin D,Ra-Dogged,85.6,Tommy,y c k y,112.4,L
+2023,2,False,False,Tommy,y c k y,112.4,Kevin D,Ra-Dogged,85.6,W
+2023,2,False,False,Don,Waddleburger Pattymelt,137.7,mrlampham,lmphm,129.18,W
+2023,2,False,False,mrlampham,lmphm,129.18,Don,Waddleburger Pattymelt,137.7,L
+2023,2,False,False,Alex,Sports Betting,99.24,Justin,Jiggly,112.44,L
+2023,2,False,False,Justin,Jiggly,112.44,Alex,Sports Betting,99.24,W
+2023,2,False,False,Dexter,Dex,136.66,Jason,Felon,156.92,L
+2023,2,False,False,Jason,Felon,156.92,Dexter,Dex,136.66,W
+2023,2,False,False,Anthony,🏆 Champion Jelly 🏆,71.48,An,Drier than a Popeyes biscuit,106.74,L
+2023,2,False,False,An,Drier than a Popeyes biscuit,106.74,Anthony,🏆 Champion Jelly 🏆,71.48,W
+2023,3,False,False,Kevin D,Ra-Dogged,131.4,Anthony,🏆 Champion Jelly 🏆,122.18,W
+2023,3,False,False,Anthony,🏆 Champion Jelly 🏆,122.18,Kevin D,Ra-Dogged,131.4,L
+2023,3,False,False,Don,Waddleburger Pattymelt,172.98,An,Drier than a Popeyes biscuit,140.06,W
+2023,3,False,False,An,Drier than a Popeyes biscuit,140.06,Don,Waddleburger Pattymelt,172.98,L
+2023,3,False,False,Alex,Sports Betting,144.08,Dexter,Dex,130.98,W
+2023,3,False,False,Dexter,Dex,130.98,Alex,Sports Betting,144.08,L
+2023,3,False,False,Tommy,y c k y,120.26,Justin,Jiggly,107.96,W
+2023,3,False,False,Justin,Jiggly,107.96,Tommy,y c k y,120.26,L
+2023,3,False,False,mrlampham,lmphm,111.06,Jason,Felon,120.28,L
+2023,3,False,False,Jason,Felon,120.28,mrlampham,lmphm,111.06,W
+2023,4,False,False,Kevin D,Ra-Dogged,126.78,Don,Waddleburger Pattymelt,104.32,W
+2023,4,False,False,Don,Waddleburger Pattymelt,104.32,Kevin D,Ra-Dogged,126.78,L
+2023,4,False,False,Alex,Sports Betting,95.06,mrlampham,lmphm,89.18,W
+2023,4,False,False,mrlampham,lmphm,89.18,Alex,Sports Betting,95.06,L
+2023,4,False,False,Tommy,y c k y,168.62,Anthony,🏆 Champion Jelly 🏆,118.74,W
+2023,4,False,False,Anthony,🏆 Champion Jelly 🏆,118.74,Tommy,y c k y,168.62,L
+2023,4,False,False,Dexter,Dex,117.8,Justin,Jiggly,133.44,L
+2023,4,False,False,Justin,Jiggly,133.44,Dexter,Dex,117.8,W
+2023,4,False,False,Jason,Felon,117.76,An,Drier than a Popeyes biscuit,78.24,W
+2023,4,False,False,An,Drier than a Popeyes biscuit,78.24,Jason,Felon,117.76,L
+2023,5,False,False,Kevin D,Ra-Dogged,148.52,Jason,Felon,139.12,W
+2023,5,False,False,Jason,Felon,139.12,Kevin D,Ra-Dogged,148.52,L
+2023,5,False,False,Don,Waddleburger Pattymelt,120.34,Tommy,y c k y,142.58,L
+2023,5,False,False,Tommy,y c k y,142.58,Don,Waddleburger Pattymelt,120.34,W
+2023,5,False,False,Alex,Sports Betting,125.76,An,Drier than a Popeyes biscuit,72.96,W
+2023,5,False,False,An,Drier than a Popeyes biscuit,72.96,Alex,Sports Betting,125.76,L
+2023,5,False,False,Dexter,Dex,113.46,mrlampham,lmphm,134.78,L
+2023,5,False,False,mrlampham,lmphm,134.78,Dexter,Dex,113.46,W
+2023,5,False,False,Justin,Jiggly,99.18,Anthony,🏆 Champion Jelly 🏆,126.64,L
+2023,5,False,False,Anthony,🏆 Champion Jelly 🏆,126.64,Justin,Jiggly,99.18,W
+2023,6,False,False,Kevin D,Ra-Dogged,142.48,Alex,Sports Betting,100.72,W
+2023,6,False,False,Alex,Sports Betting,100.72,Kevin D,Ra-Dogged,142.48,L
+2023,6,False,False,Don,Waddleburger Pattymelt,107.24,Anthony,🏆 Champion Jelly 🏆,176.42,L
+2023,6,False,False,Anthony,🏆 Champion Jelly 🏆,176.42,Don,Waddleburger Pattymelt,107.24,W
+2023,6,False,False,Tommy,y c k y,98.9,Jason,Felon,118.8,L
+2023,6,False,False,Jason,Felon,118.8,Tommy,y c k y,98.9,W
+2023,6,False,False,Dexter,Dex,112.46,An,Drier than a Popeyes biscuit,84.36,W
+2023,6,False,False,An,Drier than a Popeyes biscuit,84.36,Dexter,Dex,112.46,L
+2023,6,False,False,Justin,Jiggly,122.32,mrlampham,lmphm,124.1,L
+2023,6,False,False,mrlampham,lmphm,124.1,Justin,Jiggly,122.32,W
+2023,7,False,False,Kevin D,Ra-Dogged,126.56,Dexter,Dex,96.8,W
+2023,7,False,False,Dexter,Dex,96.8,Kevin D,Ra-Dogged,126.56,L
+2023,7,False,False,Don,Waddleburger Pattymelt,131.76,Justin,Jiggly,117.96,W
+2023,7,False,False,Justin,Jiggly,117.96,Don,Waddleburger Pattymelt,131.76,L
+2023,7,False,False,Alex,Sports Betting,119.06,Tommy,y c k y,114.28,W
+2023,7,False,False,Tommy,y c k y,114.28,Alex,Sports Betting,119.06,L
+2023,7,False,False,Anthony,🏆 Champion Jelly 🏆,138.58,Jason,Felon,136.36,W
+2023,7,False,False,Jason,Felon,136.36,Anthony,🏆 Champion Jelly 🏆,138.58,L
+2023,7,False,False,mrlampham,lmphm,129.14,An,Drier than a Popeyes biscuit,81.76,W
+2023,7,False,False,An,Drier than a Popeyes biscuit,81.76,mrlampham,lmphm,129.14,L
+2023,8,False,False,Kevin D,Ra-Dogged,135.92,mrlampham,lmphm,157.62,L
+2023,8,False,False,mrlampham,lmphm,157.62,Kevin D,Ra-Dogged,135.92,W
+2023,8,False,False,Don,Waddleburger Pattymelt,111.5,Jason,Felon,123.06,L
+2023,8,False,False,Jason,Felon,123.06,Don,Waddleburger Pattymelt,111.5,W
+2023,8,False,False,Alex,Sports Betting,146.36,Anthony,🏆 Champion Jelly 🏆,113.48,W
+2023,8,False,False,Anthony,🏆 Champion Jelly 🏆,113.48,Alex,Sports Betting,146.36,L
+2023,8,False,False,Tommy,y c k y,118.6,Dexter,Dex,140.06,L
+2023,8,False,False,Dexter,Dex,140.06,Tommy,y c k y,118.6,W
+2023,8,False,False,Justin,Jiggly,134.88,An,Drier than a Popeyes biscuit,103.06,W
+2023,8,False,False,An,Drier than a Popeyes biscuit,103.06,Justin,Jiggly,134.88,L
+2023,9,False,False,Kevin D,Ra-Dogged,96.44,An,Drier than a Popeyes biscuit,138.86,L
+2023,9,False,False,An,Drier than a Popeyes biscuit,138.86,Kevin D,Ra-Dogged,96.44,W
+2023,9,False,False,Don,Waddleburger Pattymelt,113.1,Alex,Sports Betting,103.8,W
+2023,9,False,False,Alex,Sports Betting,103.8,Don,Waddleburger Pattymelt,113.1,L
+2023,9,False,False,Tommy,y c k y,101.7,mrlampham,lmphm,128.52,L
+2023,9,False,False,mrlampham,lmphm,128.52,Tommy,y c k y,101.7,W
+2023,9,False,False,Dexter,Dex,131.12,Anthony,🏆 Champion Jelly 🏆,123.58,W
+2023,9,False,False,Anthony,🏆 Champion Jelly 🏆,123.58,Dexter,Dex,131.12,L
+2023,9,False,False,Justin,Jiggly,109.12,Jason,Felon,104.38,W
+2023,9,False,False,Jason,Felon,104.38,Justin,Jiggly,109.12,L
+2023,10,False,False,Kevin D,Ra-Dogged,150.42,Justin,Jiggly,133.14,W
+2023,10,False,False,Justin,Jiggly,133.14,Kevin D,Ra-Dogged,150.42,L
+2023,10,False,False,Don,Waddleburger Pattymelt,127.72,Dexter,Dex,182.38,L
+2023,10,False,False,Dexter,Dex,182.38,Don,Waddleburger Pattymelt,127.72,W
+2023,10,False,False,Alex,Sports Betting,125.08,Jason,Felon,97.46,W
+2023,10,False,False,Jason,Felon,97.46,Alex,Sports Betting,125.08,L
+2023,10,False,False,Tommy,y c k y,96.44,An,Drier than a Popeyes biscuit,168.66,L
+2023,10,False,False,An,Drier than a Popeyes biscuit,168.66,Tommy,y c k y,96.44,W
+2023,10,False,False,Anthony,🏆 Champion Jelly 🏆,102.02,mrlampham,lmphm,93.78,W
+2023,10,False,False,mrlampham,lmphm,93.78,Anthony,🏆 Champion Jelly 🏆,102.02,L
+2023,11,False,False,Kevin D,Ra-Dogged,109.7,Tommy,y c k y,162.22,L
+2023,11,False,False,Tommy,y c k y,162.22,Kevin D,Ra-Dogged,109.7,W
+2023,11,False,False,Don,Waddleburger Pattymelt,100.88,mrlampham,lmphm,108.14,L
+2023,11,False,False,mrlampham,lmphm,108.14,Don,Waddleburger Pattymelt,100.88,W
+2023,11,False,False,Alex,Sports Betting,101.44,Justin,Jiggly,89.24,W
+2023,11,False,False,Justin,Jiggly,89.24,Alex,Sports Betting,101.44,L
+2023,11,False,False,Dexter,Dex,165.5,Jason,Felon,128.8,W
+2023,11,False,False,Jason,Felon,128.8,Dexter,Dex,165.5,L
+2023,11,False,False,Anthony,🏆 Champion Jelly 🏆,96.46,An,Drier than a Popeyes biscuit,119.36,L
+2023,11,False,False,An,Drier than a Popeyes biscuit,119.36,Anthony,🏆 Champion Jelly 🏆,96.46,W
+2023,12,False,False,Kevin D,Ra-Dogged,120.48,Anthony,🏆 Champion Jelly 🏆,107.58,W
+2023,12,False,False,Anthony,🏆 Champion Jelly 🏆,107.58,Kevin D,Ra-Dogged,120.48,L
+2023,12,False,False,Don,Waddleburger Pattymelt,130.22,An,Drier than a Popeyes biscuit,134.74,L
+2023,12,False,False,An,Drier than a Popeyes biscuit,134.74,Don,Waddleburger Pattymelt,130.22,W
+2023,12,False,False,Alex,Sports Betting,104.38,Dexter,Dex,164.76,L
+2023,12,False,False,Dexter,Dex,164.76,Alex,Sports Betting,104.38,W
+2023,12,False,False,Tommy,y c k y,104.16,Justin,Jiggly,164.96,L
+2023,12,False,False,Justin,Jiggly,164.96,Tommy,y c k y,104.16,W
+2023,12,False,False,mrlampham,lmphm,143.7,Jason,Felon,118.4,W
+2023,12,False,False,Jason,Felon,118.4,mrlampham,lmphm,143.7,L
+2023,13,False,False,Kevin D,Ra-Dogged,121.7,Don,Waddleburger Pattymelt,122.5,L
+2023,13,False,False,Don,Waddleburger Pattymelt,122.5,Kevin D,Ra-Dogged,121.7,W
+2023,13,False,False,Alex,Sports Betting,130.08,mrlampham,lmphm,157.14,L
+2023,13,False,False,mrlampham,lmphm,157.14,Alex,Sports Betting,130.08,W
+2023,13,False,False,Tommy,y c k y,146.96,Anthony,🏆 Champion Jelly 🏆,112.28,W
+2023,13,False,False,Anthony,🏆 Champion Jelly 🏆,112.28,Tommy,y c k y,146.96,L
+2023,13,False,False,Dexter,Dex,143.84,Justin,Jiggly,119.06,W
+2023,13,False,False,Justin,Jiggly,119.06,Dexter,Dex,143.84,L
+2023,13,False,False,Jason,Felon,73.92,An,Drier than a Popeyes biscuit,123.06,L
+2023,13,False,False,An,Drier than a Popeyes biscuit,123.06,Jason,Felon,73.92,W
+2023,14,False,False,Kevin D,Ra-Dogged,72.54,Jason,Felon,130.88,L
+2023,14,False,False,Jason,Felon,130.88,Kevin D,Ra-Dogged,72.54,W
+2023,14,False,False,Don,Waddleburger Pattymelt,114.6,Tommy,y c k y,108.42,W
+2023,14,False,False,Tommy,y c k y,108.42,Don,Waddleburger Pattymelt,114.6,L
+2023,14,False,False,Alex,Sports Betting,153.92,An,Drier than a Popeyes biscuit,110.54,W
+2023,14,False,False,An,Drier than a Popeyes biscuit,110.54,Alex,Sports Betting,153.92,L
+2023,14,False,False,Dexter,Dex,115.02,mrlampham,lmphm,139.96,L
+2023,14,False,False,mrlampham,lmphm,139.96,Dexter,Dex,115.02,W
+2023,14,False,False,Justin,Jiggly,90.84,Anthony,🏆 Champion Jelly 🏆,136.26,L
+2023,14,False,False,Anthony,🏆 Champion Jelly 🏆,136.26,Justin,Jiggly,90.84,W
+2023,15,True,False,Kevin D,Ra-Dogged,133.46,Tommy,y c k y,115.18,W
+2023,15,True,False,Tommy,y c k y,115.18,Kevin D,Ra-Dogged,133.46,L
+2023,15,True,False,Don,Waddleburger Pattymelt,139.0,Dexter,Dex,102.26,W
+2023,15,True,False,Dexter,Dex,102.26,Don,Waddleburger Pattymelt,139.0,L
+2023,16,True,False,Kevin D,Ra-Dogged,128.36,Alex,Sports Betting,139.6,L
+2023,16,True,False,Alex,Sports Betting,139.6,Kevin D,Ra-Dogged,128.36,W
+2023,16,True,False,Don,Waddleburger Pattymelt,99.2,mrlampham,lmphm,158.7,L
+2023,16,True,False,mrlampham,lmphm,158.7,Don,Waddleburger Pattymelt,99.2,W
+2023,16,True,False,Tommy,y c k y,107.2,Dexter,Dex,123.98,L
+2023,16,True,False,Dexter,Dex,123.98,Tommy,y c k y,107.2,W
+2023,16,True,True,Justin,Jiggly,105.48,Anthony,🏆 Champion Jelly 🏆,86.02,W
+2023,16,True,True,Anthony,🏆 Champion Jelly 🏆,86.02,Justin,Jiggly,105.48,L
+2023,16,True,True,Jason,Felon,151.54,An,Drier than a Popeyes biscuit,130.82,W
+2023,16,True,True,An,Drier than a Popeyes biscuit,130.82,Jason,Felon,151.54,L
+2023,17,True,False,Kevin D,Ra-Dogged,151.84,Don,Waddleburger Pattymelt,128.0,W
+2023,17,True,False,Don,Waddleburger Pattymelt,128.0,Kevin D,Ra-Dogged,151.84,L
+2023,17,True,False,Alex,Sports Betting,112.82,mrlampham,lmphm,102.58,W
+2023,17,True,False,mrlampham,lmphm,102.58,Alex,Sports Betting,112.82,L
+2023,17,True,True,Justin,Jiggly,76.14,Jason,Felon,85.78,L
+2023,17,True,True,Jason,Felon,85.78,Justin,Jiggly,76.14,W
+2023,17,True,True,Anthony,🏆 Champion Jelly 🏆,124.36,An,Drier than a Popeyes biscuit,106.8,W
+2023,17,True,True,An,Drier than a Popeyes biscuit,106.8,Anthony,🏆 Champion Jelly 🏆,124.36,L

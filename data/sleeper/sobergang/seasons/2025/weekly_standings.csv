@@ -1,0 +1,141 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2025,1,1,anth0nyng,Honeymoon Fund 2026,1-0,143.68,95.24,W1,143.68,W,keveezy
+2025,1,2,yckyb,yckyb,1-0,139.72,112.3,W1,139.72,W,dexclusive
+2025,1,3,jasonle,Tuten and bootin,1-0,133.98,98.82,W1,133.98,W,PutItOnYa
+2025,1,4,jigri,jigri,1-0,125.36,95.22,W1,125.36,W,Abadahh
+2025,1,5,lmphm,JJ & the AFC,1-0,116.46,88.52,W1,116.46,W,donblood
+2025,1,6,dexclusive,dexclusive,0-1,112.3,139.72,L1,112.3,L,yckyb
+2025,1,7,PutItOnYa,PutItOnYa,0-1,98.82,133.98,L1,98.82,L,jasonle
+2025,1,8,keveezy,Fly cant mosquito ,0-1,95.24,143.68,L1,95.24,L,anth0nyng
+2025,1,9,Abadahh,LANK,0-1,95.22,125.36,L1,95.22,L,jigri
+2025,1,10,donblood,Pickens Noses Diggs Asses,0-1,88.52,116.46,L1,88.52,L,lmphm
+2025,2,1,yckyb,yckyb,2-0,285.12,234.9,W2,145.4,W,anth0nyng
+2025,2,2,jigri,jigri,2-0,267.06,233.6,W2,141.7,W,PutItOnYa
+2025,2,3,jasonle,Tuten and bootin,2-0,259.12,205.46,W2,125.14,W,Abadahh
+2025,2,4,anth0nyng,Honeymoon Fund 2026,1-1,266.28,240.64,L1,122.6,L,yckyb
+2025,2,5,dexclusive,dexclusive,1-1,240.36,265.3,W1,128.06,W,donblood
+2025,2,6,keveezy,Fly cant mosquito ,1-1,202.48,225.7,W1,107.24,W,lmphm
+2025,2,7,lmphm,JJ & the AFC,1-1,198.48,195.76,L1,82.02,L,keveezy
+2025,2,8,PutItOnYa,PutItOnYa,0-2,237.2,275.68,L2,138.38,L,jigri
+2025,2,9,donblood,Pickens Noses Diggs Asses,0-2,214.1,244.52,L2,125.58,L,dexclusive
+2025,2,10,Abadahh,LANK,0-2,201.86,250.5,L2,106.64,L,jasonle
+2025,3,1,jigri,jigri,3-0,410.68,361.54,W3,143.62,W,jasonle
+2025,3,2,yckyb,yckyb,3-0,398.14,338.56,W3,113.02,W,donblood
+2025,3,3,jasonle,Tuten and bootin,2-1,387.06,349.08,L1,127.94,L,jigri
+2025,3,4,anth0nyng,Honeymoon Fund 2026,2-1,384.0,335.76,W1,117.72,W,lmphm
+2025,3,5,dexclusive,dexclusive,2-1,352.64,371.22,W2,112.28,W,keveezy
+2025,3,6,PutItOnYa,PutItOnYa,1-2,360.92,369.78,W1,123.72,W,Abadahh
+2025,3,7,keveezy,Fly cant mosquito ,1-2,308.4,337.98,L1,105.92,L,dexclusive
+2025,3,8,lmphm,JJ & the AFC,1-2,293.6,313.48,L2,95.12,L,anth0nyng
+2025,3,9,donblood,Pickens Noses Diggs Asses,0-3,317.76,357.54,L3,103.66,L,yckyb
+2025,3,10,Abadahh,LANK,0-3,295.96,374.22,L3,94.1,L,PutItOnYa
+2025,4,1,yckyb,yckyb,4-0,543.72,453.64,W4,145.58,W,Abadahh
+2025,4,2,anth0nyng,Honeymoon Fund 2026,3-1,519.76,438.58,W2,135.76,W,dexclusive
+2025,4,3,jigri,jigri,3-1,500.66,516.48,L1,89.98,L,keveezy
+2025,4,4,jasonle,Tuten and bootin,2-2,517.36,512.98,L2,130.3,L,donblood
+2025,4,5,keveezy,Fly cant mosquito ,2-2,463.34,427.96,W1,154.94,W,jigri
+2025,4,6,dexclusive,dexclusive,2-2,455.46,506.98,L1,102.82,L,anth0nyng
+2025,4,7,lmphm,JJ & the AFC,2-2,410.56,427.46,W1,116.96,W,PutItOnYa
+2025,4,8,donblood,Pickens Noses Diggs Asses,1-3,481.66,487.84,W1,163.9,W,jasonle
+2025,4,9,PutItOnYa,PutItOnYa,1-3,474.9,486.74,L1,113.98,L,lmphm
+2025,4,10,Abadahh,LANK,0-4,411.04,519.8,L4,115.08,L,yckyb
+2025,5,1,yckyb,yckyb,4-1,653.26,598.42,L1,109.54,L,keveezy
+2025,5,2,jigri,jigri,4-1,627.98,631.58,W1,127.32,W,anth0nyng
+2025,5,3,jasonle,Tuten and bootin,3-2,647.96,624.1,W1,130.6,W,lmphm
+2025,5,4,anth0nyng,Honeymoon Fund 2026,3-2,634.86,565.9,L1,115.1,L,jigri
+2025,5,5,keveezy,Fly cant mosquito ,3-2,608.12,537.5,W2,144.78,W,yckyb
+2025,5,6,dexclusive,dexclusive,3-2,600.74,613.26,W1,145.28,W,Abadahh
+2025,5,7,donblood,Pickens Noses Diggs Asses,2-3,614.38,618.96,W2,132.72,W,PutItOnYa
+2025,5,8,lmphm,JJ & the AFC,2-3,521.68,558.06,L1,111.12,L,jasonle
+2025,5,9,PutItOnYa,PutItOnYa,1-4,606.02,619.46,L2,131.12,L,donblood
+2025,5,10,Abadahh,LANK,0-5,517.32,665.08,L5,106.28,L,dexclusive
+2025,6,1,yckyb,yckyb,5-1,768.8,699.02,W1,115.54,W,lmphm
+2025,6,2,anth0nyng,Honeymoon Fund 2026,4-2,760.2,686.02,W1,125.34,W,jasonle
+2025,6,3,jigri,jigri,4-2,740.02,754.12,L1,112.04,L,dexclusive
+2025,6,4,keveezy,Fly cant mosquito ,4-2,731.88,641.86,W3,123.76,W,PutItOnYa
+2025,6,5,dexclusive,dexclusive,4-2,723.28,725.3,W2,122.54,W,jigri
+2025,6,6,jasonle,Tuten and bootin,3-3,768.08,749.44,L1,120.12,L,anth0nyng
+2025,6,7,donblood,Pickens Noses Diggs Asses,2-4,741.86,754.86,L1,127.48,L,Abadahh
+2025,6,8,lmphm,JJ & the AFC,2-4,622.28,673.6,L2,100.6,L,yckyb
+2025,6,9,PutItOnYa,PutItOnYa,1-5,710.38,743.22,L3,104.36,L,keveezy
+2025,6,10,Abadahh,LANK,1-5,653.22,792.56,W1,135.9,W,donblood
+2025,7,1,anth0nyng,Honeymoon Fund 2026,5-2,893.42,794.66,W2,133.22,W,PutItOnYa
+2025,7,2,keveezy,Fly cant mosquito ,5-2,868.94,765.7,W4,137.06,W,donblood
+2025,7,3,dexclusive,dexclusive,5-2,862.54,860.04,W3,139.26,W,jasonle
+2025,7,4,yckyb,yckyb,5-2,853.74,797.1,L1,84.94,L,jigri
+2025,7,5,jigri,jigri,5-2,838.1,839.06,W1,98.08,W,yckyb
+2025,7,6,jasonle,Tuten and bootin,3-4,902.82,888.7,L2,134.74,L,dexclusive
+2025,7,7,donblood,Pickens Noses Diggs Asses,2-5,865.7,891.92,L2,123.84,L,keveezy
+2025,7,8,Abadahh,LANK,2-5,766.0,901.46,W2,112.78,W,lmphm
+2025,7,9,lmphm,JJ & the AFC,2-5,731.18,786.38,L3,108.9,L,Abadahh
+2025,7,10,PutItOnYa,PutItOnYa,1-6,819.02,876.44,L4,108.64,L,anth0nyng
+2025,8,1,keveezy,Fly cant mosquito ,6-2,1013.72,838.72,W5,144.78,W,Abadahh
+2025,8,2,jigri,jigri,6-2,1005.78,965.44,W2,167.68,W,lmphm
+2025,8,3,yckyb,yckyb,6-2,1004.32,877.56,W1,150.58,W,jasonle
+2025,8,4,anth0nyng,Honeymoon Fund 2026,6-2,998.3,897.82,W3,104.88,W,donblood
+2025,8,5,dexclusive,dexclusive,5-3,976.86,1009.4,L1,114.32,L,PutItOnYa
+2025,8,6,jasonle,Tuten and bootin,3-5,983.28,1039.28,L3,80.46,L,yckyb
+2025,8,7,donblood,Pickens Noses Diggs Asses,2-6,968.86,996.8,L3,103.16,L,anth0nyng
+2025,8,8,PutItOnYa,PutItOnYa,2-6,968.38,990.76,W1,149.36,W,dexclusive
+2025,8,9,lmphm,JJ & the AFC,2-6,857.56,954.06,L4,126.38,L,jigri
+2025,8,10,Abadahh,LANK,2-6,839.02,1046.24,L1,73.02,L,keveezy
+2025,9,1,anth0nyng,Honeymoon Fund 2026,7-2,1153.96,1036.36,W4,155.66,W,Abadahh
+2025,9,2,keveezy,Fly cant mosquito ,7-2,1133.44,945.76,W6,119.72,W,jasonle
+2025,9,3,jigri,jigri,7-2,1120.34,1075.94,W3,114.56,W,donblood
+2025,9,4,yckyb,yckyb,6-3,1119.68,996.08,L1,115.36,L,PutItOnYa
+2025,9,5,dexclusive,dexclusive,6-3,1113.46,1145.82,W1,136.6,W,lmphm
+2025,9,6,jasonle,Tuten and bootin,3-6,1090.32,1159.0,L4,107.04,L,keveezy
+2025,9,7,PutItOnYa,PutItOnYa,3-6,1086.9,1106.12,W2,118.52,W,yckyb
+2025,9,8,donblood,Pickens Noses Diggs Asses,2-7,1079.36,1111.36,L4,110.5,L,jigri
+2025,9,9,lmphm,JJ & the AFC,2-7,993.98,1090.66,L5,136.42,L,dexclusive
+2025,9,10,Abadahh,LANK,2-7,977.56,1201.9,L2,138.54,L,anth0nyng
+2025,10,1,anth0nyng,Honeymoon Fund 2026,8-2,1303.96,1148.26,W5,150.0,W,keveezy
+2025,10,2,jigri,jigri,8-2,1287.18,1200.32,W4,166.84,W,Abadahh
+2025,10,3,keveezy,Fly cant mosquito ,7-3,1245.34,1095.76,L1,111.9,L,anth0nyng
+2025,10,4,dexclusive,dexclusive,7-3,1215.66,1221.62,W2,102.2,W,yckyb
+2025,10,5,yckyb,yckyb,6-4,1195.48,1098.28,L2,75.8,L,dexclusive
+2025,10,6,PutItOnYa,PutItOnYa,4-6,1232.4,1240.34,W3,145.5,W,jasonle
+2025,10,7,jasonle,Tuten and bootin,3-7,1224.54,1304.5,L5,134.22,L,PutItOnYa
+2025,10,8,lmphm,JJ & the AFC,3-7,1108.22,1193.78,W1,114.24,W,donblood
+2025,10,9,donblood,Pickens Noses Diggs Asses,2-8,1182.48,1225.6,L5,103.12,L,lmphm
+2025,10,10,Abadahh,LANK,2-8,1101.94,1368.74,L3,124.38,L,jigri
+2025,11,1,anth0nyng,Honeymoon Fund 2026,9-2,1453.48,1253.96,W6,149.52,W,yckyb
+2025,11,2,jigri,jigri,9-2,1399.9,1284.92,W5,112.72,W,PutItOnYa
+2025,11,3,keveezy,Fly cant mosquito ,7-4,1327.14,1275.54,L2,81.8,L,lmphm
+2025,11,4,dexclusive,dexclusive,7-4,1292.12,1349.56,L1,76.46,L,donblood
+2025,11,5,yckyb,yckyb,6-5,1301.18,1247.8,L3,105.7,L,anth0nyng
+2025,11,6,PutItOnYa,PutItOnYa,4-7,1317.0,1353.06,L1,84.6,L,jigri
+2025,11,7,lmphm,JJ & the AFC,4-7,1288.0,1275.58,W2,179.78,W,keveezy
+2025,11,8,donblood,Pickens Noses Diggs Asses,3-8,1310.42,1302.06,W1,127.94,W,dexclusive
+2025,11,9,jasonle,Tuten and bootin,3-8,1308.74,1433.52,L6,84.2,L,Abadahh
+2025,11,10,Abadahh,LANK,3-8,1230.96,1452.94,W1,129.02,W,jasonle
+2025,12,1,anth0nyng,Honeymoon Fund 2026,10-2,1592.42,1354.78,W7,138.94,W,lmphm
+2025,12,2,jigri,jigri,9-3,1518.02,1438.58,L1,118.12,L,jasonle
+2025,12,3,dexclusive,dexclusive,8-4,1412.78,1415.78,W1,120.66,W,keveezy
+2025,12,4,keveezy,Fly cant mosquito ,7-5,1393.36,1396.2,L3,66.22,L,dexclusive
+2025,12,5,yckyb,yckyb,6-6,1433.14,1386.08,L4,131.96,L,donblood
+2025,12,6,PutItOnYa,PutItOnYa,5-7,1481.12,1471.84,W1,164.12,W,Abadahh
+2025,12,7,jasonle,Tuten and bootin,4-8,1462.4,1551.64,W1,153.66,W,jigri
+2025,12,8,donblood,Pickens Noses Diggs Asses,4-8,1448.7,1434.02,W2,138.28,W,yckyb
+2025,12,9,lmphm,JJ & the AFC,4-8,1388.82,1414.52,L1,100.82,L,anth0nyng
+2025,12,10,Abadahh,LANK,3-9,1349.74,1617.06,L1,118.78,L,PutItOnYa
+2025,13,1,anth0nyng,Honeymoon Fund 2026,11-2,1711.18,1465.98,W8,118.76,W,dexclusive
+2025,13,2,jigri,jigri,9-4,1594.36,1542.82,L2,76.34,L,keveezy
+2025,13,3,dexclusive,dexclusive,8-5,1523.98,1534.54,L1,111.2,L,anth0nyng
+2025,13,4,keveezy,Fly cant mosquito ,8-5,1497.6,1472.54,W1,104.24,W,jigri
+2025,13,5,PutItOnYa,PutItOnYa,6-7,1590.74,1567.76,W2,109.62,W,lmphm
+2025,13,6,yckyb,yckyb,6-7,1549.08,1517.74,L5,115.94,L,Abadahh
+2025,13,7,donblood,Pickens Noses Diggs Asses,5-8,1590.84,1523.42,W3,142.14,W,jasonle
+2025,13,8,jasonle,Tuten and bootin,4-9,1551.8,1693.78,L1,89.4,L,donblood
+2025,13,9,lmphm,JJ & the AFC,4-9,1484.74,1524.14,L2,95.92,L,PutItOnYa
+2025,13,10,Abadahh,LANK,4-9,1481.4,1733.0,W1,131.66,W,yckyb
+2025,14,1,anth0nyng,Honeymoon Fund 2026,11-3,1847.54,1613.34,L1,136.36,L,jigri
+2025,14,2,jigri,jigri,10-4,1741.72,1679.18,W1,147.36,W,anth0nyng
+2025,14,3,dexclusive,dexclusive,9-5,1631.82,1618.04,W1,107.84,W,Abadahh
+2025,14,4,keveezy,Fly cant mosquito ,8-6,1603.38,1596.3,L1,105.78,L,yckyb
+2025,14,5,PutItOnYa,PutItOnYa,7-7,1730.58,1657.06,W3,139.84,W,donblood
+2025,14,6,yckyb,yckyb,7-7,1672.84,1623.52,W1,123.76,W,keveezy
+2025,14,7,donblood,Pickens Noses Diggs Asses,5-9,1680.14,1663.26,L1,89.3,L,PutItOnYa
+2025,14,8,lmphm,JJ & the AFC,5-9,1592.78,1604.04,W1,108.04,W,jasonle
+2025,14,9,jasonle,Tuten and bootin,4-10,1631.7,1801.82,L2,79.9,L,lmphm
+2025,14,10,Abadahh,LANK,4-10,1564.9,1840.84,L1,83.5,L,dexclusive

@@ -1,0 +1,79 @@
+{
+ "season": 2019,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "TheYayThatGotAway",
+     "manager": "PutItOnYa",
+     "points": 141.96,
+     "projected": 128.8,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 98.0,
+     "projected": 121.35,
+     "won": false
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Jigs",
+     "manager": "jigri",
+     "points": 105.1,
+     "projected": 124.85,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Is This Chris Lake?",
+     "manager": "jasonle",
+     "points": 114.3,
+     "projected": 127.97,
+     "won": true
+    }
+   ],
+   "winner": "jasonle"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "PutItOnYa",
+   "team": "TheYayThatGotAway",
+   "points": 141.96
+  },
+  "low_score": {
+   "manager": "anth0nyng",
+   "team": "Princess Jelly",
+   "points": 98.0
+  },
+  "closest_game": {
+   "winner": "jasonle",
+   "winner_points": 114.3,
+   "loser": "jigri",
+   "loser_points": 105.1,
+   "margin": 9.2
+  },
+  "biggest_blowout": {
+   "winner": "PutItOnYa",
+   "winner_points": 141.96,
+   "loser": "anth0nyng",
+   "loser_points": 98.0,
+   "margin": 43.96
+  }
+ }
+}

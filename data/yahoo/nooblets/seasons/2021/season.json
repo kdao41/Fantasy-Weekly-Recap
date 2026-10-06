@@ -1,0 +1,426 @@
+{
+ "season": 2021,
+ "league": "Nooblets Season 2",
+ "finished": true,
+ "champion": {
+  "team_id": 7,
+  "team": "Queen Jelly",
+  "manager": "Anthony",
+  "final_rank": 1,
+  "playoff_seed": 1,
+  "wins": 13,
+  "losses": 1,
+  "ties": 0,
+  "points_for": 2036.24,
+  "points_against": 1660.84
+ },
+ "championship_game": {
+  "week": 17,
+  "winner": "Anthony",
+  "winner_team": "Queen Jelly",
+  "winner_points": 157.1,
+  "loser": "Dexter",
+  "loser_team": "Dex_lab",
+  "loser_points": 100.42
+ },
+ "runner_up": {
+  "team_id": 5,
+  "team": "Dex_lab",
+  "manager": "Dexter",
+  "final_rank": 2,
+  "playoff_seed": 4,
+  "wins": 9,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1650.22,
+  "points_against": 1663.58
+ },
+ "third_place": {
+  "team_id": 2,
+  "team": "CREASING MY SECRET SANTA GIFT",
+  "manager": "Don",
+  "final_rank": 3,
+  "playoff_seed": 2,
+  "wins": 10,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1860.36,
+  "points_against": 1815.84
+ },
+ "last_place": {
+  "team_id": 4,
+  "team": "Boards",
+  "manager": "Tommy",
+  "final_rank": 10,
+  "playoff_seed": 7,
+  "wins": 5,
+  "losses": 9,
+  "ties": 0,
+  "points_for": 1777.86,
+  "points_against": 1783.94
+ },
+ "regular_season_winner": {
+  "team_id": 7,
+  "team": "Queen Jelly",
+  "manager": "Anthony",
+  "final_rank": 1,
+  "playoff_seed": 1,
+  "wins": 13,
+  "losses": 1,
+  "ties": 0,
+  "points_for": 2036.24,
+  "points_against": 1660.84
+ },
+ "most_points": {
+  "team_id": 7,
+  "team": "Queen Jelly",
+  "manager": "Anthony",
+  "final_rank": 1,
+  "playoff_seed": 1,
+  "wins": 13,
+  "losses": 1,
+  "ties": 0,
+  "points_for": 2036.24,
+  "points_against": 1660.84
+ },
+ "settings": {
+  "league_key": "406.l.109270",
+  "num_teams": 10,
+  "start_week": 1,
+  "end_week": 17,
+  "playoff_week_start": 15,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "live",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R/T",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   },
+   {
+    "position": "IR",
+    "count": 2
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 7,
+   "team": "Queen Jelly",
+   "manager": "Anthony",
+   "final_rank": 1,
+   "playoff_seed": 1,
+   "wins": 13,
+   "losses": 1,
+   "ties": 0,
+   "points_for": 2036.24,
+   "points_against": 1660.84
+  },
+  {
+   "team_id": 5,
+   "team": "Dex_lab",
+   "manager": "Dexter",
+   "final_rank": 2,
+   "playoff_seed": 4,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1650.22,
+   "points_against": 1663.58
+  },
+  {
+   "team_id": 2,
+   "team": "CREASING MY SECRET SANTA GIFT",
+   "manager": "Don",
+   "final_rank": 3,
+   "playoff_seed": 2,
+   "wins": 10,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1860.36,
+   "points_against": 1815.84
+  },
+  {
+   "team_id": 10,
+   "team": "Drier than a Popeyes biscuit",
+   "manager": "An",
+   "final_rank": 4,
+   "playoff_seed": 6,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1762.9,
+   "points_against": 1702.34
+  },
+  {
+   "team_id": 6,
+   "team": "Washed",
+   "manager": "Justin",
+   "final_rank": 5,
+   "playoff_seed": 5,
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1747.28,
+   "points_against": 1743.84
+  },
+  {
+   "team_id": 3,
+   "team": "Shrooms",
+   "manager": "Alex",
+   "final_rank": 6,
+   "playoff_seed": 3,
+   "wins": 9,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1805.52,
+   "points_against": 1656.9
+  },
+  {
+   "team_id": 9,
+   "team": "0.02 points",
+   "manager": "Jason",
+   "final_rank": 7,
+   "playoff_seed": 8,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1620.1,
+   "points_against": 1663.14
+  },
+  {
+   "team_id": 8,
+   "team": "Fuck an",
+   "manager": "mrlampham",
+   "final_rank": 8,
+   "playoff_seed": 10,
+   "wins": 2,
+   "losses": 12,
+   "ties": 0,
+   "points_for": 1577.68,
+   "points_against": 1811.36
+  },
+  {
+   "team_id": 1,
+   "team": "Win will I get a when",
+   "manager": "Kevin D",
+   "final_rank": 9,
+   "playoff_seed": 9,
+   "wins": 3,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1558.36,
+   "points_against": 1894.74
+  },
+  {
+   "team_id": 4,
+   "team": "Boards",
+   "manager": "Tommy",
+   "final_rank": 10,
+   "playoff_seed": 7,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1777.86,
+   "points_against": 1783.94
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shrooms",
+     "manager": "Alex",
+     "points": 109.34,
+     "projected": 113.38,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 109.66,
+     "projected": 134.28,
+     "won": true
+    }
+   ],
+   "winner": "An"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "Dexter",
+     "points": 85.58,
+     "projected": 137.92,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 73.98,
+     "projected": 136.17,
+     "won": false
+    }
+   ],
+   "winner": "Dexter"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "CREASING MY SECRET SANTA GIFT",
+     "manager": "Don",
+     "points": 120.52,
+     "projected": 137.66,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "Dexter",
+     "points": 124.8,
+     "projected": 126.61,
+     "won": true
+    }
+   ],
+   "winner": "Dexter"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shrooms",
+     "manager": "Alex",
+     "points": 101.14,
+     "projected": 117.24,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 135.7,
+     "projected": 134.3,
+     "won": true
+    }
+   ],
+   "winner": "Justin"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Queen Jelly",
+     "manager": "Anthony",
+     "points": 180.46,
+     "projected": 138.51,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 151.14,
+     "projected": 132.35,
+     "won": false
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "CREASING MY SECRET SANTA GIFT",
+     "manager": "Don",
+     "points": 131.66,
+     "projected": 139.57,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 128.74,
+     "projected": 137.57,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "week": 17,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Dex_lab",
+     "manager": "Dexter",
+     "points": 100.42,
+     "projected": 132.88,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Queen Jelly",
+     "manager": "Anthony",
+     "points": 157.1,
+     "projected": 157.95,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  }
+ ]
+}

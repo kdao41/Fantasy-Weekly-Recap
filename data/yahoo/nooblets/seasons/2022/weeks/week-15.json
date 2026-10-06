@@ -1,0 +1,79 @@
+{
+ "season": 2022,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Free money",
+     "manager": "Kevin D",
+     "points": 105.82,
+     "projected": 126.99,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 136.58,
+     "projected": 121.66,
+     "won": true
+    }
+   ],
+   "winner": "Justin"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "Dexter",
+     "points": 130.48,
+     "projected": 120.14,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 127.3,
+     "projected": 124.99,
+     "won": false
+    }
+   ],
+   "winner": "Dexter"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Justin",
+   "team": "Washed",
+   "points": 136.58
+  },
+  "low_score": {
+   "manager": "Kevin D",
+   "team": "Free money",
+   "points": 105.82
+  },
+  "closest_game": {
+   "winner": "Dexter",
+   "winner_points": 130.48,
+   "loser": "An",
+   "loser_points": 127.3,
+   "margin": 3.18
+  },
+  "biggest_blowout": {
+   "winner": "Justin",
+   "winner_points": 136.58,
+   "loser": "Kevin D",
+   "loser_points": 105.82,
+   "margin": 30.76
+  }
+ }
+}

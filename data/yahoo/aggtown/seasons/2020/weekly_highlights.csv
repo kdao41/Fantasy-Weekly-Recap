@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2020,1,False,Kevin D,160.6,Don,81.96,Alex over Blake by 8.94,Kevin D over Don by 78.64
+2020,2,False,Ramzi,174.68,Alex,90.4,Blake over Ahmad by 11.72,Kevin D over Alex by 74.92
+2020,3,False,Kevin D,182.22,Cody,93.38,Khoa over Jimmy by 5.66,Kevin D over Ahmad by 50.64
+2020,4,False,Anthony,168.42,mrlampham,81.1,Don over Cody by 6.64,Khoa over mrlampham by 55.52
+2020,5,False,Ramzi,154.2,Cody,91.7,Anthony over Khoa by 3.08,Blake over Daniel Vu by 20.52
+2020,6,False,Alex,175.1,Anthony,96.72,Khoa over Don by 0.14,Alex over Jimmy by 38.7
+2020,7,False,Kevin D,170.32,Don,90.06,Blake over Cody by 2.26,Kevin D over Ramzi by 53.42
+2020,8,False,Blake,170.24,Cody,81.72,Alex over Anthony by 4.74,Blake over Jimmy by 64.8
+2020,9,False,Khoa,155.9,Don,80.44,Daniel Vu over Cody by 12.04,Anthony over Ahmad by 58.78
+2020,10,False,Khoa,160.36,Ahmad,68.58,Cody over Ramzi by 8.98,Don over Ahmad by 51.56
+2020,11,False,Alex,150.66,Don,96.48,Jimmy over Ramzi by 3.02,Blake over Don by 28.4
+2020,12,False,Alex,181.42,Kevin D,80.02,Daniel Vu over Anthony by 0.24,Jimmy over Cody by 63.04
+2020,13,False,Ramzi,158.26,Daniel Vu,88.16,Blake over Ahmad by 6.32,Alex over Kevin D by 30.7
+2020,14,True,Jimmy,150.9,Blake,109.14,Anthony over Ramzi by 0.74,Jimmy over Khoa by 10.38
+2020,15,True,Ramzi,149.46,Anthony,94.24,Ramzi over Alex by 20.64,Kevin D over Anthony by 43.22
+2020,16,True,Kevin D,161.38,Anthony,101.78,Alex over Blake by 8.56,Daniel Vu over Anthony by 28.46

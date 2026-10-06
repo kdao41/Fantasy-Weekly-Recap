@@ -1,0 +1,317 @@
+{
+ "season": 2017,
+ "week": 11,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Dakstreet Boys",
+     "manager": "Don",
+     "points": 80.3,
+     "projected": 120.61,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "Khoa",
+     "points": 116.48,
+     "projected": 106.31,
+     "won": true
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Ahmad",
+     "points": 113.5,
+     "projected": 121.51,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "Daniel Vu",
+     "points": 87.9,
+     "projected": 118.36,
+     "won": false
+    }
+   ],
+   "winner": "Ahmad"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Dak & Yak",
+     "manager": "Jimmy",
+     "points": 126.38,
+     "projected": 106.51,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 106.6,
+     "projected": 125.64,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "Ramzi",
+     "points": 127.52,
+     "projected": 118.69,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "Muso (Lan Doan)",
+     "points": 164.02,
+     "projected": 107.97,
+     "won": true
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "The end is near.",
+     "manager": "Kevin D",
+     "points": 141.1,
+     "projected": 114.59,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 73.64,
+     "projected": 109.05,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 139.9,
+     "projected": 114.5,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "Anthony",
+     "points": 151.86,
+     "projected": 126.35,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Muso (Lan Doan)",
+   "team": "Wabaki 88",
+   "points": 164.02
+  },
+  "low_score": {
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "points": 73.64
+  },
+  "closest_game": {
+   "winner": "Anthony",
+   "winner_points": 151.86,
+   "loser": "Blake",
+   "loser_points": 139.9,
+   "margin": 11.96
+  },
+  "biggest_blowout": {
+   "winner": "Kevin D",
+   "winner_points": 141.1,
+   "loser": "mrlampham",
+   "loser_points": 73.64,
+   "margin": 67.46
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Ramzi",
+   "team": "Leonard's booty gang",
+   "record": "8-3",
+   "points_for": 1379.78,
+   "points_against": 1152.54,
+   "streak": "L1",
+   "week_points": 127.52,
+   "week_result": "L",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 2,
+   "manager": "Muso (Lan Doan)",
+   "team": "Wabaki 88",
+   "record": "8-3",
+   "points_for": 1334.04,
+   "points_against": 1214.32,
+   "streak": "W5",
+   "week_points": 164.02,
+   "week_result": "W",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 3,
+   "manager": "Ahmad",
+   "team": "Jerk Goff",
+   "record": "8-3",
+   "points_for": 1210.98,
+   "points_against": 1089.24,
+   "streak": "W2",
+   "week_points": 113.5,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 4,
+   "manager": "Anthony",
+   "team": "Prince of Plano",
+   "record": "6-5",
+   "points_for": 1386.6,
+   "points_against": 1284.68,
+   "streak": "W2",
+   "week_points": 151.86,
+   "week_result": "W",
+   "opponent": "Blake"
+  },
+  {
+   "rank": 5,
+   "manager": "Khoa",
+   "team": "Lavar Ballers",
+   "record": "6-5",
+   "points_for": 1328.02,
+   "points_against": 1282.88,
+   "streak": "W2",
+   "week_points": 116.48,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 6,
+   "manager": "Daniel Vu",
+   "team": "The Spearmint Rhinos",
+   "record": "6-5",
+   "points_for": 1283.12,
+   "points_against": 1299.86,
+   "streak": "L2",
+   "week_points": 87.9,
+   "week_result": "L",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 7,
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "record": "5-6",
+   "points_for": 1244.56,
+   "points_against": 1362.06,
+   "streak": "L2",
+   "week_points": 106.6,
+   "week_result": "L",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 8,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "5-6",
+   "points_for": 1178.88,
+   "points_against": 1152.48,
+   "streak": "L4",
+   "week_points": 73.64,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 9,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "4-7",
+   "points_for": 1273.1,
+   "points_against": 1415.24,
+   "streak": "L4",
+   "week_points": 139.9,
+   "week_result": "L",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 10,
+   "manager": "Jimmy",
+   "team": "Dak & Yak",
+   "record": "4-7",
+   "points_for": 1138.18,
+   "points_against": 1194.88,
+   "streak": "W1",
+   "week_points": 126.38,
+   "week_result": "W",
+   "opponent": "Cody"
+  },
+  {
+   "rank": 11,
+   "manager": "Kevin D",
+   "team": "The end is near.",
+   "record": "3-8",
+   "points_for": 1137.4,
+   "points_against": 1356.26,
+   "streak": "W1",
+   "week_points": 141.1,
+   "week_result": "W",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 12,
+   "manager": "Don",
+   "team": "The Dakstreet Boys",
+   "record": "3-8",
+   "points_for": 1112.56,
+   "points_against": 1202.78,
+   "streak": "L1",
+   "week_points": 80.3,
+   "week_result": "L",
+   "opponent": "Khoa"
+  }
+ ]
+}

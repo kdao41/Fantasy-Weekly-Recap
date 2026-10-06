@@ -1,0 +1,125 @@
+{
+ "season": 2022,
+ "week": 17,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "The Adam's Family",
+     "manager": "Odeh1121",
+     "points": 91.8,
+     "projected": 119.68,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "King Koopa",
+     "manager": "ramzz",
+     "points": 123.12,
+     "projected": 114.38,
+     "won": true
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Cancun Booking Agency",
+     "manager": "kholabear",
+     "points": 74.7,
+     "projected": 122.8,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 71.1,
+     "projected": 103.42,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "KissMahomies",
+     "manager": "wabaki (Lan Doan)",
+     "points": 109.18,
+     "projected": 119.27,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 78.16,
+     "projected": 117.09,
+     "won": false
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+     "manager": "keveezy",
+     "points": 84.48,
+     "projected": 97.68,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 111.4,
+     "projected": 111.3,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "ramzz",
+   "team": "King Koopa",
+   "points": 123.12
+  },
+  "low_score": {
+   "manager": "lmphm",
+   "team": "Vegas",
+   "points": 71.1
+  },
+  "closest_game": {
+   "winner": "kholabear",
+   "winner_points": 74.7,
+   "loser": "lmphm",
+   "loser_points": 71.1,
+   "margin": 3.6
+  },
+  "biggest_blowout": {
+   "winner": "ramzz",
+   "winner_points": 123.12,
+   "loser": "Odeh1121",
+   "loser_points": 91.8,
+   "margin": 31.32
+  }
+ }
+}

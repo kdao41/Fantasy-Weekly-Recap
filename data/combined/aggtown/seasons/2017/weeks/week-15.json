@@ -1,0 +1,125 @@
+{
+ "season": 2017,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Odeh1121",
+     "points": 91.0,
+     "projected": 121.28,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "DVTV",
+     "points": 107.92,
+     "projected": 123.35,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "ramzz",
+     "points": 121.04,
+     "projected": 108.24,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "anth0nyng",
+     "points": 117.08,
+     "projected": 130.74,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 124.38,
+     "projected": 116.19,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "kholabear",
+     "points": 141.94,
+     "projected": 119.71,
+     "won": true
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 103.44,
+     "projected": 118.21,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 175.34,
+     "projected": 126.22,
+     "won": true
+    }
+   ],
+   "winner": "oooEcho"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "points": 175.34
+  },
+  "low_score": {
+   "manager": "Odeh1121",
+   "team": "Jerk Goff",
+   "points": 91.0
+  },
+  "closest_game": {
+   "winner": "ramzz",
+   "winner_points": 121.04,
+   "loser": "anth0nyng",
+   "loser_points": 117.08,
+   "margin": 3.96
+  },
+  "biggest_blowout": {
+   "winner": "oooEcho",
+   "winner_points": 175.34,
+   "loser": "wabaki (Lan Doan)",
+   "loser_points": 103.44,
+   "margin": 71.9
+  }
+ }
+}

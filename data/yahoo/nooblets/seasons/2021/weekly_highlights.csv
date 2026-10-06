@@ -1,0 +1,18 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2021,1,False,Anthony,165.96,Justin,102.12,mrlampham over Jason by 1.38,Anthony over Justin by 63.84
+2021,2,False,Tommy,184.32,Alex,106.82,Don over An by 6.2,Tommy over Kevin D by 51.76
+2021,3,False,Tommy,137.02,Kevin D,99.68,Justin over Jason by 14.6,Alex over Kevin D by 35.36
+2021,4,False,Alex,137.18,An,86.06,Alex over Jason by 7.96,Anthony over An by 38.0
+2021,5,False,Alex,192.12,Dexter,101.36,Jason over Dexter by 9.94,Alex over Don by 33.44
+2021,6,False,Don,176.88,An,99.36,Dexter over Alex by 3.96,Anthony over Kevin D by 36.0
+2021,7,False,Justin,160.04,An,84.94,Anthony over Don by 2.1,Justin over Kevin D by 53.16
+2021,8,False,Anthony,178.3,Tommy,67.0,Kevin D over Jason by 2.12,Anthony over mrlampham by 41.5
+2021,9,False,An,172.28,mrlampham,78.42,Dexter over Kevin D by 6.56,An over Tommy by 78.32
+2021,10,False,Don,154.54,Kevin D,86.12,Alex over Tommy by 6.38,Don over Dexter by 53.04
+2021,11,False,An,212.58,Don,92.9,Dexter over mrlampham by 1.34,An over Don by 119.68
+2021,12,False,Don,156.68,Dexter,85.68,An over mrlampham by 3.56,Anthony over Dexter by 51.56
+2021,13,False,Dexter,149.72,Jason,91.3,Dexter over Justin by 3.6,Tommy over mrlampham by 51.64
+2021,14,False,Anthony,166.82,mrlampham,99.92,Kevin D over mrlampham by 12.06,Anthony over Tommy by 44.54
+2021,15,True,An,109.66,Justin,73.98,An over Alex by 0.32,Dexter over Justin by 11.6
+2021,16,True,Anthony,180.46,Kevin D,71.4,Dexter over Don by 4.28,Jason over Kevin D by 44.76
+2021,17,True,Anthony,157.1,Tommy,72.46,Don over An by 2.92,Anthony over Dexter by 56.68

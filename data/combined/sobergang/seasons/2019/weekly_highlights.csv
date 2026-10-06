@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2019,1,False,PutItOnYa,166.4,jigri,90.92,lmphm over jasonle by 1.42,PutItOnYa over keveezy by 59.24
+2019,2,False,anth0nyng,149.3,PutItOnYa,77.12,yckyb over dexclusive by 13.84,Abadahh over PutItOnYa by 55.92
+2019,3,False,PutItOnYa,160.02,lmphm,79.22,yckyb over Abadahh by 0.14,PutItOnYa over lmphm by 80.8
+2019,4,False,keveezy,160.8,donblood,80.8,jasonle over dexclusive by 8.56,yckyb over donblood by 59.48
+2019,5,False,jasonle,170.16,jigri,74.94,dexclusive over keveezy by 2.88,Abadahh over donblood by 33.92
+2019,6,False,anth0nyng,173.9,PutItOnYa,73.02,jasonle over donblood by 1.98,anth0nyng over lmphm by 90.18
+2019,7,False,keveezy,141.66,jasonle,76.86,PutItOnYa over yckyb by 7.02,keveezy over donblood by 45.82
+2019,8,False,jigri,177.46,dexclusive,101.8,keveezy over jasonle by 4.64,jigri over dexclusive by 75.66
+2019,9,False,donblood,149.7,Abadahh,78.96,PutItOnYa over jasonle by 9.16,anth0nyng over dexclusive by 27.54
+2019,10,False,jasonle,152.76,dexclusive,99.88,keveezy over PutItOnYa by 0.8,jasonle over lmphm by 52.26
+2019,11,False,jasonle,141.1,donblood,81.88,keveezy over lmphm by 11.36,PutItOnYa over Abadahh by 38.84
+2019,12,False,keveezy,155.68,donblood,60.5,jasonle over anth0nyng by 10.96,keveezy over jigri by 53.42
+2019,13,False,lmphm,130.2,donblood,98.1,PutItOnYa over jigri by 7.36,lmphm over Abadahh by 27.44
+2019,14,True,PutItOnYa,141.96,anth0nyng,98.0,jasonle over jigri by 9.2,PutItOnYa over anth0nyng by 43.96
+2019,15,True,keveezy,167.28,lmphm,80.06,Abadahh over dexclusive by 9.58,donblood over lmphm by 55.14
+2019,16,True,keveezy,138.36,dexclusive,81.4,lmphm over dexclusive by 15.02,keveezy over yckyb by 31.66

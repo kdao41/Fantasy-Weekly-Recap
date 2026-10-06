@@ -1,0 +1,317 @@
+{
+ "season": 2020,
+ "week": 2,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Golladay Inn Express",
+     "manager": "donblood",
+     "points": 168.88,
+     "projected": 127.56,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 101.84,
+     "projected": 125.21,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "SponsoredByStatefarm",
+     "manager": "jimbo817",
+     "points": 129.2,
+     "projected": 133.05,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 103.78,
+     "projected": 104.7,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Hide and Zeke",
+     "manager": "Odeh1121",
+     "points": 138.4,
+     "projected": 135.5,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 150.12,
+     "projected": 123.73,
+     "won": true
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "OnlyPain",
+     "manager": "kholabear",
+     "points": 149.8,
+     "projected": 133.94,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 91.26,
+     "projected": 116.99,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Winry fan club",
+     "manager": "ramzz",
+     "points": 174.68,
+     "projected": 136.5,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 113.44,
+     "projected": 130.75,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Boom or Bust",
+     "manager": "keveezy",
+     "points": 165.32,
+     "projected": 141.06,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "I Want You Davant Me",
+     "manager": "PutItOnYa",
+     "points": 90.4,
+     "projected": 132.23,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "ramzz",
+   "team": "Winry fan club",
+   "points": 174.68
+  },
+  "low_score": {
+   "manager": "PutItOnYa",
+   "team": "I Want You Davant Me",
+   "points": 90.4
+  },
+  "closest_game": {
+   "winner": "bvincenttt",
+   "winner_points": 150.12,
+   "loser": "Odeh1121",
+   "loser_points": 138.4,
+   "margin": 11.72
+  },
+  "biggest_blowout": {
+   "winner": "keveezy",
+   "winner_points": 165.32,
+   "loser": "PutItOnYa",
+   "loser_points": 90.4,
+   "margin": 74.92
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "keveezy",
+   "team": "Boom or Bust",
+   "record": "2-0",
+   "points_for": 325.92,
+   "points_against": 172.36,
+   "streak": "W2",
+   "week_points": 165.32,
+   "week_result": "W",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 2,
+   "manager": "ramzz",
+   "team": "Winry fan club",
+   "record": "2-0",
+   "points_for": 323.02,
+   "points_against": 237.32,
+   "streak": "W2",
+   "week_points": 174.68,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 3,
+   "manager": "jimbo817",
+   "team": "SponsoredByStatefarm",
+   "record": "2-0",
+   "points_for": 275.3,
+   "points_against": 217.28,
+   "streak": "W2",
+   "week_points": 129.2,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 4,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "1-1",
+   "points_for": 286.2,
+   "points_against": 283.42,
+   "streak": "W1",
+   "week_points": 150.12,
+   "week_result": "W",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 5,
+   "manager": "kholabear",
+   "team": "OnlyPain",
+   "record": "1-1",
+   "points_for": 273.68,
+   "points_against": 239.6,
+   "streak": "W1",
+   "week_points": 149.8,
+   "week_result": "W",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 6,
+   "manager": "Odeh1121",
+   "team": "Hide and Zeke",
+   "record": "1-1",
+   "points_for": 255.64,
+   "points_against": 241.12,
+   "streak": "L1",
+   "week_points": 138.4,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 7,
+   "manager": "donblood",
+   "team": "Golladay Inn Express",
+   "record": "1-1",
+   "points_for": 250.84,
+   "points_against": 262.44,
+   "streak": "W1",
+   "week_points": 168.88,
+   "week_result": "W",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 8,
+   "manager": "PutItOnYa",
+   "team": "I Want You Davant Me",
+   "record": "1-1",
+   "points_for": 235.42,
+   "points_against": 301.4,
+   "streak": "L1",
+   "week_points": 90.4,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 9,
+   "manager": "DVTV",
+   "team": "GOD TIER",
+   "record": "1-1",
+   "points_for": 234.42,
+   "points_against": 282.18,
+   "streak": "L1",
+   "week_points": 101.84,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 10,
+   "manager": "anth0nyng",
+   "team": "Prince of Mahomes",
+   "record": "0-2",
+   "points_for": 226.74,
+   "points_against": 307.26,
+   "streak": "L2",
+   "week_points": 113.44,
+   "week_result": "L",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 11,
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "record": "0-2",
+   "points_for": 204.76,
+   "points_against": 295.9,
+   "streak": "L2",
+   "week_points": 91.26,
+   "week_result": "L",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 12,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "0-2",
+   "points_for": 194.78,
+   "points_against": 246.44,
+   "streak": "L2",
+   "week_points": 103.78,
+   "week_result": "L",
+   "opponent": "jimbo817"
+  }
+ ]
+}

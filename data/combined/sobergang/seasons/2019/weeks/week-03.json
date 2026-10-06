@@ -1,0 +1,270 @@
+{
+ "season": 2019,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Champ is here",
+     "manager": "keveezy",
+     "points": 137.82,
+     "projected": 137.21,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Jigs",
+     "manager": "jigri",
+     "points": 121.48,
+     "projected": 134.35,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "TheYayThatGotAway",
+     "manager": "PutItOnYa",
+     "points": 160.02,
+     "projected": 126.78,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "Houston drivers",
+     "manager": "lmphm",
+     "points": 79.22,
+     "projected": 120.99,
+     "won": false
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 118.24,
+     "projected": 135.02,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Is This Chris Lake?",
+     "manager": "jasonle",
+     "points": 137.5,
+     "projected": 133.53,
+     "won": true
+    }
+   ],
+   "winner": "jasonle"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "FREE WIN",
+     "manager": "dexclusive",
+     "points": 123.14,
+     "projected": 135.35,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Poopoo Philly Co. \ud83c\udf2f",
+     "manager": "donblood",
+     "points": 134.26,
+     "projected": 137.87,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "HOUSE YCK",
+     "manager": "yckyb",
+     "points": 143.86,
+     "projected": 132.11,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Wtf am I doing here",
+     "manager": "Abadahh",
+     "points": 143.72,
+     "projected": 133.91,
+     "won": false
+    }
+   ],
+   "winner": "yckyb"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "PutItOnYa",
+   "team": "TheYayThatGotAway",
+   "points": 160.02
+  },
+  "low_score": {
+   "manager": "lmphm",
+   "team": "Houston drivers",
+   "points": 79.22
+  },
+  "closest_game": {
+   "winner": "yckyb",
+   "winner_points": 143.86,
+   "loser": "Abadahh",
+   "loser_points": 143.72,
+   "margin": 0.14
+  },
+  "biggest_blowout": {
+   "winner": "PutItOnYa",
+   "winner_points": 160.02,
+   "loser": "lmphm",
+   "loser_points": 79.22,
+   "margin": 80.8
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "yckyb",
+   "team": "HOUSE YCK",
+   "record": "3-0",
+   "points_for": 398.6,
+   "points_against": 380.98,
+   "streak": "W3",
+   "week_points": 143.86,
+   "week_result": "W",
+   "opponent": "Abadahh"
+  },
+  {
+   "rank": 2,
+   "manager": "Abadahh",
+   "team": "Wtf am I doing here",
+   "record": "2-1",
+   "points_for": 434.38,
+   "points_against": 351.58,
+   "streak": "L1",
+   "week_points": 143.72,
+   "week_result": "L",
+   "opponent": "yckyb"
+  },
+  {
+   "rank": 3,
+   "manager": "PutItOnYa",
+   "team": "TheYayThatGotAway",
+   "record": "2-1",
+   "points_for": 403.54,
+   "points_against": 319.42,
+   "streak": "W1",
+   "week_points": 160.02,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 4,
+   "manager": "keveezy",
+   "team": "Champ is here",
+   "record": "2-1",
+   "points_for": 389.4,
+   "points_against": 388.7,
+   "streak": "W2",
+   "week_points": 137.82,
+   "week_result": "W",
+   "opponent": "jigri"
+  },
+  {
+   "rank": 5,
+   "manager": "donblood",
+   "team": "Poopoo Philly Co. \ud83c\udf2f",
+   "record": "2-1",
+   "points_for": 358.5,
+   "points_against": 363.36,
+   "streak": "W1",
+   "week_points": 134.26,
+   "week_result": "W",
+   "opponent": "dexclusive"
+  },
+  {
+   "rank": 6,
+   "manager": "anth0nyng",
+   "team": "Princess Jelly",
+   "record": "1-2",
+   "points_for": 380.94,
+   "points_against": 357.46,
+   "streak": "L1",
+   "week_points": 118.24,
+   "week_result": "L",
+   "opponent": "jasonle"
+  },
+  {
+   "rank": 7,
+   "manager": "jasonle",
+   "team": "Is This Chris Lake?",
+   "record": "1-2",
+   "points_for": 377.58,
+   "points_against": 391.34,
+   "streak": "W1",
+   "week_points": 137.5,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 8,
+   "manager": "jigri",
+   "team": "Jigs",
+   "record": "1-2",
+   "points_for": 353.56,
+   "points_against": 368.7,
+   "streak": "L1",
+   "week_points": 121.48,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 9,
+   "manager": "lmphm",
+   "team": "Houston drivers",
+   "record": "1-2",
+   "points_for": 311.98,
+   "points_against": 434.96,
+   "streak": "L2",
+   "week_points": 79.22,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 10,
+   "manager": "dexclusive",
+   "team": "FREE WIN",
+   "record": "0-3",
+   "points_for": 377.6,
+   "points_against": 429.58,
+   "streak": "L3",
+   "week_points": 123.14,
+   "week_result": "L",
+   "opponent": "donblood"
+  }
+ ]
+}

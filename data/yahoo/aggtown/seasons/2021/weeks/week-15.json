@@ -1,0 +1,125 @@
+{
+ "season": 2021,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "We\u2019re Allen This Together",
+     "manager": "Don",
+     "points": 135.2,
+     "projected": 139.06,
+     "won": true
+    },
+    {
+     "team_id": 2,
+     "team": "I Love Me Some ME",
+     "manager": "Jimmy",
+     "points": 114.72,
+     "projected": 133.68,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Chubby Wood",
+     "manager": "Ahmad",
+     "points": 90.68,
+     "projected": 131.63,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Herb-a-Derp",
+     "manager": "Alex",
+     "points": 106.04,
+     "projected": 125.52,
+     "won": true
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Usher Bucks",
+     "manager": "Khoa",
+     "points": 123.46,
+     "projected": 131.43,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "dalvin COOKED me",
+     "manager": "Kevin D",
+     "points": 109.0,
+     "projected": 134.32,
+     "won": false
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 114.88,
+     "projected": 123.3,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 98.34,
+     "projected": 96.95,
+     "won": false
+    }
+   ],
+   "winner": "Anthony"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Don",
+   "team": "We\u2019re Allen This Together",
+   "points": 135.2
+  },
+  "low_score": {
+   "manager": "Ahmad",
+   "team": "Chubby Wood",
+   "points": 90.68
+  },
+  "closest_game": {
+   "winner": "Khoa",
+   "winner_points": 123.46,
+   "loser": "Kevin D",
+   "loser_points": 109.0,
+   "margin": 14.46
+  },
+  "biggest_blowout": {
+   "winner": "Don",
+   "winner_points": 135.2,
+   "loser": "Jimmy",
+   "loser_points": 114.72,
+   "margin": 20.48
+  }
+ }
+}

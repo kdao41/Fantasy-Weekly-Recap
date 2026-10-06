@@ -1,0 +1,125 @@
+{
+ "season": 2018,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Two Gurleys One Cup",
+     "manager": "donblood",
+     "points": 127.42,
+     "projected": 138.49,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 136.1,
+     "projected": 122.51,
+     "won": true
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Ligma",
+     "manager": "jimbo817",
+     "points": 129.06,
+     "projected": 124.02,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "God Zuerline",
+     "manager": "kholabear",
+     "points": 142.18,
+     "projected": 137.11,
+     "won": true
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Small town Gurl",
+     "manager": "ramzz",
+     "points": 96.06,
+     "projected": 87.66,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "The Asa Akiras",
+     "manager": "DVTV",
+     "points": 174.14,
+     "projected": 127.96,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Like a Brees",
+     "manager": "keveezy",
+     "points": 148.48,
+     "projected": 124.87,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 100.16,
+     "projected": 126.75,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "DVTV",
+   "team": "The Asa Akiras",
+   "points": 174.14
+  },
+  "low_score": {
+   "manager": "ramzz",
+   "team": "Small town Gurl",
+   "points": 96.06
+  },
+  "closest_game": {
+   "winner": "wabaki (Lan Doan)",
+   "winner_points": 136.1,
+   "loser": "donblood",
+   "loser_points": 127.42,
+   "margin": 8.68
+  },
+  "biggest_blowout": {
+   "winner": "DVTV",
+   "winner_points": 174.14,
+   "loser": "ramzz",
+   "loser_points": 96.06,
+   "margin": 78.08
+  }
+ }
+}

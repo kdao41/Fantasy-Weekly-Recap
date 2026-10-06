@@ -1,0 +1,52 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2023,1,False,lmphm,149.44,jimbo817,77.34,PutItOnYa over keveezy by 2.6,lmphm over donblood by 65.04
+2023,2,False,keveezy,154.78,Odeh1121,92.18,bvincenttt over jimbo817 by 1.54,PutItOnYa over kholabear by 50.94
+2023,3,False,jimbo817,178.48,lmphm,95.26,bvincenttt over oooEcho by 1.4,jimbo817 over ramzz by 41.78
+2023,4,False,bvincenttt,184.38,jimbo817,85.72,Odeh1121 over anth0nyng by 3.3,PutItOnYa over jimbo817 by 64.06
+2023,5,False,jimbo817,162.04,bvincenttt,88.76,kholabear over Odeh1121 by 2.96,jimbo817 over keveezy by 63.62
+2023,6,False,DVTV,144.44,keveezy,80.72,donblood over keveezy by 8.58,DVTV over bvincenttt by 37.9
+2023,7,False,jimbo817,162.76,bvincenttt,94.06,oooEcho over kholabear by 10.56,DVTV over ramzz by 38.38
+2023,8,False,oooEcho,163.56,kholabear,95.68,anth0nyng over donblood by 7.6,oooEcho over Odeh1121 by 61.24
+2023,9,False,kholabear,147.44,jimbo817,79.1,Odeh1121 over jimbo817 by 10.32,kholabear over donblood by 61.26
+2023,10,False,keveezy,144.22,Odeh1121,79.18,anth0nyng over ramzz by 11.04,keveezy over Odeh1121 by 65.04
+2023,11,False,ramzz,145.42,PutItOnYa,96.24,lmphm over oooEcho by 2.78,donblood over jimbo817 by 40.92
+2023,12,False,Odeh1121,154.46,jimbo817,85.62,lmphm over donblood by 4.68,oooEcho over jimbo817 by 50.88
+2023,13,False,anth0nyng,176.36,kholabear,80.02,ramzz over oooEcho by 0.78,PutItOnYa over kholabear by 50.68
+2023,14,False,keveezy,185.34,jimbo817,59.04,oooEcho over bvincenttt by 0.52,keveezy over kholabear by 120.4
+2023,15,True,donblood,139.46,bvincenttt,88.76,lmphm over bvincenttt by 7.28,oooEcho over DVTV by 34.12
+2023,16,True,keveezy,149.88,oooEcho,86.4,bvincenttt over Odeh1121 by 7.52,keveezy over oooEcho by 63.48
+2023,17,True,ramzz,138.6,PutItOnYa,94.24,anth0nyng over donblood by 3.28,lmphm over PutItOnYa by 33.38
+2024,1,False,DVTV,128.48,Odeh1121,83.72,DVTV over jimbo817 by 3.72,keveezy over Odeh1121 by 39.38
+2024,2,False,lmphm,161.76,kholabear,80.86,PutItOnYa over Odeh1121 by 0.24,lmphm over keveezy by 51.66
+2024,3,False,anth0nyng,136.12,bAnmly (Bryan),70.2,PutItOnYa over keveezy by 2.4,oooEcho over bAnmly (Bryan) by 42.08
+2024,4,False,donblood,134.1,anth0nyng,63.1,bvincenttt over lmphm by 2.78,keveezy over anth0nyng by 67.86
+2024,5,False,kholabear,161.54,anth0nyng,92.04,donblood over jimbo817 by 0.46,kholabear over keveezy by 64.38
+2024,6,False,oooEcho,153.6,bvincenttt,85.02,keveezy over jimbo817 by 2.58,oooEcho over lmphm by 58.02
+2024,7,False,DVTV,161.0,anth0nyng,66.94,bAnmly (Bryan) over anth0nyng by 12.7,DVTV over keveezy by 53.2
+2024,8,False,PutItOnYa,165.34,bAnmly (Bryan),84.3,bvincenttt over keveezy by 0.46,Odeh1121 over bAnmly (Bryan) by 68.56
+2024,9,False,Odeh1121,138.28,bAnmly (Bryan),69.44,donblood over anth0nyng by 0.74,keveezy over bAnmly (Bryan) by 49.56
+2024,10,False,PutItOnYa,152.98,bvincenttt,71.34,DVTV over bAnmly (Bryan) by 0.88,jimbo817 over bvincenttt by 39.68
+2024,11,False,lmphm,167.28,PutItOnYa,73.94,oooEcho over Odeh1121 by 0.28,anth0nyng over PutItOnYa by 72.24
+2024,12,False,donblood,144.56,bAnmly (Bryan),81.08,PutItOnYa over lmphm by 3.64,bvincenttt over bAnmly (Bryan) by 62.92
+2024,13,False,anth0nyng,160.62,kholabear,93.8,bvincenttt over oooEcho by 9.2,anth0nyng over jimbo817 by 61.16
+2024,14,False,oooEcho,175.84,lmphm,82.78,bvincenttt over donblood by 1.36,kholabear over jimbo817 by 86.22
+2024,15,True,lmphm,161.0,DVTV,81.7,lmphm over keveezy by 5.18,bvincenttt over DVTV by 52.56
+2024,16,True,jimbo817,156.58,anth0nyng,70.46,lmphm over PutItOnYa by 2.08,bvincenttt over anth0nyng by 41.72
+2024,17,True,oooEcho,146.18,bAnmly (Bryan),88.4,PutItOnYa over anth0nyng by 4.24,kholabear over bAnmly (Bryan) by 43.78
+2025,1,False,PutItOnYa,143.16,lmphm,86.64,Odeh1121 over oooEcho by 6.9,DVTV over wabaki (Lan Doan) by 43.0
+2025,2,False,oooEcho,137.18,PutItOnYa,82.02,DVTV over keveezy by 4.38,donblood over lmphm by 45.86
+2025,3,False,bvincenttt,128.14,lmphm,82.82,oooEcho over anth0nyng by 1.2,PutItOnYa over lmphm by 31.6
+2025,4,False,bvincenttt,185.4,DVTV,87.62,anth0nyng over wabaki (Lan Doan) by 4.06,bvincenttt over keveezy by 38.2
+2025,5,False,jimbo817,158.32,wabaki (Lan Doan),77.34,Odeh1121 over PutItOnYa by 0.96,kholabear over wabaki (Lan Doan) by 80.4
+2025,6,False,anth0nyng,144.1,kholabear,98.5,anth0nyng over jimbo817 by 3.46,wabaki (Lan Doan) over donblood by 14.44
+2025,7,False,Odeh1121,171.46,donblood,80.84,oooEcho over lmphm by 12.18,Odeh1121 over bvincenttt by 70.92
+2025,8,False,anth0nyng,162.98,jimbo817,65.18,keveezy over PutItOnYa by 10.1,donblood over jimbo817 by 84.84
+2025,9,False,keveezy,164.04,lmphm,79.72,bvincenttt over anth0nyng by 10.42,DVTV over Odeh1121 by 75.3
+2025,10,False,anth0nyng,160.8,oooEcho,82.78,bvincenttt over DVTV by 9.52,anth0nyng over donblood by 60.76
+2025,11,False,oooEcho,141.74,donblood,82.62,bvincenttt over wabaki (Lan Doan) by 0.46,oooEcho over jimbo817 by 40.24
+2025,12,False,Odeh1121,187.96,lmphm,77.42,DVTV over wabaki (Lan Doan) by 4.52,Odeh1121 over oooEcho by 58.88
+2025,13,False,oooEcho,132.24,kholabear,70.52,lmphm over donblood by 2.8,oooEcho over kholabear by 61.72
+2025,14,False,donblood,146.96,wabaki (Lan Doan),74.96,jimbo817 over DVTV by 0.12,anth0nyng over oooEcho by 67.46
+2025,15,True,donblood,158.9,PutItOnYa,90.62,oooEcho over kholabear by 14.62,jimbo817 over PutItOnYa by 45.2
+2025,16,True,bvincenttt,155.7,lmphm,87.28,Odeh1121 over jimbo817 by 1.8,keveezy over anth0nyng by 34.92
+2025,17,True,lmphm,115.72,kholabear,71.58,lmphm over wabaki (Lan Doan) by 14.48,keveezy over Odeh1121 by 32.78

@@ -1,0 +1,148 @@
+{
+ "season": 2020,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Champs to chumps",
+     "manager": "Kevin D",
+     "points": 115.52,
+     "projected": 125.68,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Wtf am I doing here",
+     "manager": "An",
+     "points": 102.8,
+     "projected": 96.96,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "FREE WIN",
+     "manager": "Dexter",
+     "points": 94.14,
+     "projected": 125.76,
+     "won": false
+    },
+    {
+     "team_id": 3,
+     "team": "DYNAHMIGHHHH",
+     "manager": "Tommy",
+     "points": 104.38,
+     "projected": 116.22,
+     "won": true
+    }
+   ],
+   "winner": "Tommy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "simp.",
+     "manager": "mrlampham",
+     "points": 103.36,
+     "projected": 121.07,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "CeeDeez Nutz",
+     "manager": "Don",
+     "points": 142.0,
+     "projected": 132.76,
+     "won": true
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "This was Chris Lake",
+     "manager": "Jason",
+     "points": 113.46,
+     "projected": 104.58,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Dry Szn",
+     "manager": "Alex",
+     "points": 89.32,
+     "projected": 85.72,
+     "won": false
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Jigs",
+     "manager": "Justin",
+     "points": 154.22,
+     "projected": 157.88,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 136.62,
+     "projected": 129.97,
+     "won": false
+    }
+   ],
+   "winner": "Justin"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Justin",
+   "team": "Jigs",
+   "points": 154.22
+  },
+  "low_score": {
+   "manager": "Alex",
+   "team": "Dry Szn",
+   "points": 89.32
+  },
+  "closest_game": {
+   "winner": "Tommy",
+   "winner_points": 104.38,
+   "loser": "Dexter",
+   "loser_points": 94.14,
+   "margin": 10.24
+  },
+  "biggest_blowout": {
+   "winner": "Don",
+   "winner_points": 142.0,
+   "loser": "mrlampham",
+   "loser_points": 103.36,
+   "margin": 38.64
+  }
+ }
+}

@@ -1,0 +1,317 @@
+{
+ "season": 2021,
+ "week": 6,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "We\u2019re Allen This Together",
+     "manager": "Don",
+     "points": 150.92,
+     "projected": 138.13,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Herb-a-Derp",
+     "manager": "Alex",
+     "points": 132.3,
+     "projected": 136.65,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "I Love Me Some ME",
+     "manager": "Jimmy",
+     "points": 104.2,
+     "projected": 136.02,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "dalvin COOKED me",
+     "manager": "Kevin D",
+     "points": 134.88,
+     "projected": 135.63,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Chubby Wood",
+     "manager": "Ahmad",
+     "points": 121.6,
+     "projected": 122.24,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 155.42,
+     "projected": 117.48,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Usher Bucks",
+     "manager": "Khoa",
+     "points": 152.44,
+     "projected": 127.26,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 86.18,
+     "projected": 130.89,
+     "won": false
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "silky dingleberry",
+     "manager": "Ramzi",
+     "points": 140.86,
+     "projected": 125.79,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 97.88,
+     "projected": 136.67,
+     "won": false
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 123.56,
+     "projected": 131.65,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 103.44,
+     "projected": 112.12,
+     "won": false
+    }
+   ],
+   "winner": "Blake"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Anthony",
+   "team": "Princess Jelly",
+   "points": 155.42
+  },
+  "low_score": {
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "points": 86.18
+  },
+  "closest_game": {
+   "winner": "Don",
+   "winner_points": 150.92,
+   "loser": "Alex",
+   "loser_points": 132.3,
+   "margin": 18.62
+  },
+  "biggest_blowout": {
+   "winner": "Khoa",
+   "winner_points": 152.44,
+   "loser": "mrlampham",
+   "loser_points": 86.18,
+   "margin": 66.26
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Anthony",
+   "team": "Princess Jelly",
+   "record": "4-2",
+   "points_for": 855.32,
+   "points_against": 727.82,
+   "streak": "W3",
+   "week_points": 155.42,
+   "week_result": "W",
+   "opponent": "Ahmad"
+  },
+  {
+   "rank": 2,
+   "manager": "Khoa",
+   "team": "Usher Bucks",
+   "record": "4-2",
+   "points_for": 766.62,
+   "points_against": 616.02,
+   "streak": "W4",
+   "week_points": 152.44,
+   "week_result": "W",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 3,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "4-2",
+   "points_for": 760.9,
+   "points_against": 767.66,
+   "streak": "W1",
+   "week_points": 123.56,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 4,
+   "manager": "Kevin D",
+   "team": "dalvin COOKED me",
+   "record": "4-2",
+   "points_for": 753.68,
+   "points_against": 760.18,
+   "streak": "W1",
+   "week_points": 134.88,
+   "week_result": "W",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 5,
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "record": "3-3",
+   "points_for": 827.06,
+   "points_against": 777.96,
+   "streak": "L1",
+   "week_points": 97.88,
+   "week_result": "L",
+   "opponent": "Ramzi"
+  },
+  {
+   "rank": 6,
+   "manager": "Alex",
+   "team": "Herb-a-Derp",
+   "record": "3-3",
+   "points_for": 808.64,
+   "points_against": 754.88,
+   "streak": "L1",
+   "week_points": 132.3,
+   "week_result": "L",
+   "opponent": "Don"
+  },
+  {
+   "rank": 7,
+   "manager": "Ramzi",
+   "team": "silky dingleberry",
+   "record": "3-3",
+   "points_for": 789.64,
+   "points_against": 682.02,
+   "streak": "W1",
+   "week_points": 140.86,
+   "week_result": "W",
+   "opponent": "Cody"
+  },
+  {
+   "rank": 8,
+   "manager": "Jimmy",
+   "team": "I Love Me Some ME",
+   "record": "3-3",
+   "points_for": 741.24,
+   "points_against": 755.74,
+   "streak": "L1",
+   "week_points": 104.2,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 9,
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "record": "3-3",
+   "points_for": 686.08,
+   "points_against": 807.54,
+   "streak": "L2",
+   "week_points": 86.18,
+   "week_result": "L",
+   "opponent": "Khoa"
+  },
+  {
+   "rank": 10,
+   "manager": "Ahmad",
+   "team": "Chubby Wood",
+   "record": "2-4",
+   "points_for": 775.12,
+   "points_against": 855.6,
+   "streak": "L1",
+   "week_points": 121.6,
+   "week_result": "L",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 11,
+   "manager": "Don",
+   "team": "We\u2019re Allen This Together",
+   "record": "2-4",
+   "points_for": 756.22,
+   "points_against": 833.52,
+   "streak": "W1",
+   "week_points": 150.92,
+   "week_result": "W",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 12,
+   "manager": "Daniel Vu",
+   "team": "GOD TIER",
+   "record": "1-5",
+   "points_for": 630.52,
+   "points_against": 812.1,
+   "streak": "L2",
+   "week_points": 103.44,
+   "week_result": "L",
+   "opponent": "Blake"
+  }
+ ]
+}

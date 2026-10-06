@@ -1,0 +1,125 @@
+{
+ "season": 2016,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Daks Out for Harambe",
+     "manager": "Don",
+     "points": 74.3,
+     "projected": 118.89,
+     "won": false
+    },
+    {
+     "team_id": 3,
+     "team": "Ding Ding Sauce",
+     "manager": "Jimmy",
+     "points": 96.1,
+     "projected": 141.34,
+     "won": true
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Harambe's Ghost",
+     "manager": "Ahmad",
+     "points": 87.6,
+     "projected": 113.21,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 106.24,
+     "projected": 122.17,
+     "won": true
+    }
+   ],
+   "winner": "Blake"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Gordon Ramzi",
+     "manager": "Ramzi",
+     "points": 78.24,
+     "projected": 139.89,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "AnyHolesTheGoal",
+     "manager": "Kevin D",
+     "points": 125.74,
+     "projected": 117.58,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "The Nick Folks",
+     "manager": "Anthony",
+     "points": 95.0,
+     "projected": 120.59,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 167.14,
+     "projected": 132.83,
+     "won": true
+    }
+   ],
+   "winner": "mrlampham"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "mrlampham",
+   "team": "Vegas",
+   "points": 167.14
+  },
+  "low_score": {
+   "manager": "Don",
+   "team": "Daks Out for Harambe",
+   "points": 74.3
+  },
+  "closest_game": {
+   "winner": "Blake",
+   "winner_points": 106.24,
+   "loser": "Ahmad",
+   "loser_points": 87.6,
+   "margin": 18.64
+  },
+  "biggest_blowout": {
+   "winner": "mrlampham",
+   "winner_points": 167.14,
+   "loser": "Anthony",
+   "loser_points": 95.0,
+   "margin": 72.14
+  }
+ }
+}

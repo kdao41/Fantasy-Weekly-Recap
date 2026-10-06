@@ -1,0 +1,125 @@
+{
+ "season": 2020,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "SponsoredByStatefarm",
+     "manager": "Jimmy",
+     "points": 144.34,
+     "projected": 137.27,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Boom or Bust",
+     "manager": "Kevin D",
+     "points": 161.38,
+     "projected": 138.8,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "OnlyPain",
+     "manager": "Khoa",
+     "points": 106.8,
+     "projected": 120.14,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Winry fan club",
+     "manager": "Ramzi",
+     "points": 130.62,
+     "projected": 118.34,
+     "won": true
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "Anthony",
+     "points": 101.78,
+     "projected": 118.15,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "Daniel Vu",
+     "points": 130.24,
+     "projected": 126.59,
+     "won": true
+    }
+   ],
+   "winner": "Daniel Vu"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 128.8,
+     "projected": 121.75,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "I Want You Davant Me",
+     "manager": "Alex",
+     "points": 137.36,
+     "projected": 124.97,
+     "won": true
+    }
+   ],
+   "winner": "Alex"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Kevin D",
+   "team": "Boom or Bust",
+   "points": 161.38
+  },
+  "low_score": {
+   "manager": "Anthony",
+   "team": "Prince of Mahomes",
+   "points": 101.78
+  },
+  "closest_game": {
+   "winner": "Alex",
+   "winner_points": 137.36,
+   "loser": "Blake",
+   "loser_points": 128.8,
+   "margin": 8.56
+  },
+  "biggest_blowout": {
+   "winner": "Daniel Vu",
+   "winner_points": 130.24,
+   "loser": "Anthony",
+   "loser_points": 101.78,
+   "margin": 28.46
+  }
+ }
+}

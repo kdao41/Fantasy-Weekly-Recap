@@ -1,0 +1,169 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2022,1,1,keveezy,🐧🐧🐧🐧,1-0,159.86,143.02,W1,159.86,W,anth0nyng
+2022,1,2,DVTV,GOD TIER,1-0,136.18,123.8,W1,136.18,W,bvincenttt
+2022,1,3,wabaki (Lan Doan),KissMahomies,1-0,126.9,98.4,W1,126.9,W,jimbo817
+2022,1,4,donblood,Wolf of Waller Street,1-0,123.02,120.22,W1,123.02,W,Odeh1121
+2022,1,5,lmphm,Vegas,1-0,122.92,103.1,W1,122.92,W,kholabear
+2022,1,6,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,1-0,103.0,95.76,W1,103.0,W,ramzz
+2022,1,7,anth0nyng,Princess Jelly,0-1,143.02,159.86,L1,143.02,L,keveezy
+2022,1,8,bvincenttt,Shake n Blake,0-1,123.8,136.18,L1,123.8,L,DVTV
+2022,1,9,Odeh1121,The Adam's Family,0-1,120.22,123.02,L1,120.22,L,donblood
+2022,1,10,kholabear,Cancun Booking Agency,0-1,103.1,122.92,L1,103.1,L,lmphm
+2022,1,11,jimbo817,Aaron Earned an Iron Urn,0-1,98.4,126.9,L1,98.4,L,wabaki (Lan Doan)
+2022,1,12,ramzz,King Koopa,0-1,95.76,103.0,L1,95.76,L,PutItOnYa
+2022,2,1,keveezy,🐧🐧🐧🐧,2-0,290.12,258.58,W2,130.26,W,PutItOnYa
+2022,2,2,donblood,Wolf of Waller Street,2-0,277.04,269.7,W2,154.02,W,ramzz
+2022,2,3,wabaki (Lan Doan),KissMahomies,2-0,270.8,212.68,W2,143.9,W,anth0nyng
+2022,2,4,lmphm,Vegas,2-0,234.24,178.88,W2,111.32,W,DVTV
+2022,2,5,kholabear,Cancun Booking Agency,1-1,243.46,253.1,W1,140.36,W,jimbo817
+2022,2,6,bvincenttt,Shake n Blake,1-1,234.58,229.14,W1,110.78,W,Odeh1121
+2022,2,7,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,1-1,218.56,226.02,L1,115.56,L,keveezy
+2022,2,8,DVTV,GOD TIER,1-1,211.96,235.12,L1,75.78,L,lmphm
+2022,2,9,anth0nyng,Princess Jelly,0-2,257.3,303.76,L2,114.28,L,wabaki (Lan Doan)
+2022,2,10,ramzz,King Koopa,0-2,245.24,257.02,L2,149.48,L,donblood
+2022,2,11,jimbo817,Aaron Earned an Iron Urn,0-2,228.58,267.26,L2,130.18,L,kholabear
+2022,2,12,Odeh1121,The Adam's Family,0-2,213.18,233.8,L2,92.96,L,bvincenttt
+2022,3,1,keveezy,🐧🐧🐧🐧,3-0,403.9,361.62,W3,113.78,W,ramzz
+2022,3,2,donblood,Wolf of Waller Street,3-0,401.96,372.26,W3,124.92,W,bvincenttt
+2022,3,3,lmphm,Vegas,3-0,382.54,307.28,W3,148.3,W,Odeh1121
+2022,3,4,kholabear,Cancun Booking Agency,2-1,360.62,310.06,W2,117.16,W,anth0nyng
+2022,3,5,wabaki (Lan Doan),KissMahomies,2-1,354.78,338.84,L1,83.98,L,PutItOnYa
+2022,3,6,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,2-1,344.72,310.0,W1,126.16,W,wabaki (Lan Doan)
+2022,3,7,DVTV,GOD TIER,2-1,315.06,326.44,W1,103.1,W,jimbo817
+2022,3,8,bvincenttt,Shake n Blake,1-2,337.14,354.06,L1,102.56,L,donblood
+2022,3,9,ramzz,King Koopa,0-3,348.28,370.8,L3,103.04,L,keveezy
+2022,3,10,Odeh1121,The Adam's Family,0-3,341.58,382.1,L3,128.4,L,lmphm
+2022,3,11,jimbo817,Aaron Earned an Iron Urn,0-3,319.9,370.36,L3,91.32,L,DVTV
+2022,3,12,anth0nyng,Princess Jelly,0-3,314.26,420.92,L3,56.96,L,kholabear
+2022,4,1,donblood,Wolf of Waller Street,4-0,553.62,481.86,W4,151.66,W,keveezy
+2022,4,2,lmphm,Vegas,4-0,493.1,396.74,W4,110.56,W,bvincenttt
+2022,4,3,keveezy,🐧🐧🐧🐧,3-1,513.5,513.28,L1,109.6,L,donblood
+2022,4,4,kholabear,Cancun Booking Agency,3-1,488.4,412.8,W3,127.78,W,PutItOnYa
+2022,4,5,wabaki (Lan Doan),KissMahomies,3-1,487.94,465.04,W1,133.16,W,ramzz
+2022,4,6,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,2-2,447.46,437.78,L1,102.74,L,kholabear
+2022,4,7,DVTV,GOD TIER,2-2,412.68,496.72,L1,97.62,L,anth0nyng
+2022,4,8,Odeh1121,The Adam's Family,1-3,491.96,457.12,W1,150.38,W,jimbo817
+2022,4,9,anth0nyng,Princess Jelly,1-3,484.54,518.54,W1,170.28,W,DVTV
+2022,4,10,bvincenttt,Shake n Blake,1-3,426.6,464.62,L2,89.46,L,lmphm
+2022,4,11,ramzz,King Koopa,0-4,474.48,503.96,L4,126.2,L,wabaki (Lan Doan)
+2022,4,12,jimbo817,Aaron Earned an Iron Urn,0-4,394.92,520.74,L4,75.02,L,Odeh1121
+2022,5,1,lmphm,Vegas,5-0,626.76,520.6,W5,133.66,W,donblood
+2022,5,2,donblood,Wolf of Waller Street,4-1,677.48,615.52,L1,123.86,L,lmphm
+2022,5,3,kholabear,Cancun Booking Agency,4-1,620.76,520.42,W4,132.36,W,ramzz
+2022,5,4,wabaki (Lan Doan),KissMahomies,4-1,604.22,568.76,W2,116.28,W,keveezy
+2022,5,5,keveezy,🐧🐧🐧🐧,3-2,617.22,629.56,L2,103.72,L,wabaki (Lan Doan)
+2022,5,6,DVTV,GOD TIER,3-2,567.84,608.6,W1,155.16,W,PutItOnYa
+2022,5,7,Odeh1121,The Adam's Family,2-3,624.44,558.04,W2,132.48,W,anth0nyng
+2022,5,8,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,2-3,559.34,592.94,L2,111.88,L,DVTV
+2022,5,9,bvincenttt,Shake n Blake,2-3,554.82,541.76,W1,128.22,W,jimbo817
+2022,5,10,anth0nyng,Princess Jelly,1-4,585.46,651.02,L1,100.92,L,Odeh1121
+2022,5,11,ramzz,King Koopa,0-5,582.1,636.32,L5,107.62,L,kholabear
+2022,5,12,jimbo817,Aaron Earned an Iron Urn,0-5,472.06,648.96,L5,77.14,L,bvincenttt
+2022,6,1,lmphm,Vegas,6-0,729.86,611.04,W6,103.1,W,jimbo817
+2022,6,2,donblood,Wolf of Waller Street,5-1,793.08,715.34,W1,115.6,W,wabaki (Lan Doan)
+2022,6,3,kholabear,Cancun Booking Agency,5-1,730.68,628.94,W5,109.92,W,keveezy
+2022,6,4,wabaki (Lan Doan),KissMahomies,4-2,704.04,684.36,L1,99.82,L,donblood
+2022,6,5,Odeh1121,The Adam's Family,3-3,730.44,654.08,W3,106.0,W,PutItOnYa
+2022,6,6,keveezy,🐧🐧🐧🐧,3-3,725.74,739.48,L3,108.52,L,kholabear
+2022,6,7,bvincenttt,Shake n Blake,3-3,683.84,641.24,W2,129.02,W,anth0nyng
+2022,6,8,DVTV,GOD TIER,3-3,658.5,701.38,L1,90.66,L,ramzz
+2022,6,9,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,2-4,655.38,698.94,L3,96.04,L,Odeh1121
+2022,6,10,anth0nyng,Princess Jelly,1-5,684.94,780.04,L2,99.48,L,bvincenttt
+2022,6,11,ramzz,King Koopa,1-5,674.88,726.98,W1,92.78,W,DVTV
+2022,6,12,jimbo817,Aaron Earned an Iron Urn,0-6,562.5,752.06,L6,90.44,L,lmphm
+2022,7,1,donblood,Wolf of Waller Street,6-1,936.28,836.36,W2,143.2,W,jimbo817
+2022,7,2,lmphm,Vegas,6-1,800.8,723.5,L1,70.94,L,anth0nyng
+2022,7,3,wabaki (Lan Doan),KissMahomies,5-2,819.16,763.54,W1,115.12,W,kholabear
+2022,7,4,kholabear,Cancun Booking Agency,5-2,809.86,744.06,L1,79.18,L,wabaki (Lan Doan)
+2022,7,5,Odeh1121,The Adam's Family,4-3,896.08,778.78,W4,165.64,W,ramzz
+2022,7,6,keveezy,🐧🐧🐧🐧,4-3,828.66,839.0,W1,102.92,W,DVTV
+2022,7,7,bvincenttt,Shake n Blake,4-3,826.8,739.2,W3,142.96,W,PutItOnYa
+2022,7,8,DVTV,GOD TIER,3-4,758.02,804.3,L2,99.52,L,keveezy
+2022,7,9,anth0nyng,Princess Jelly,2-5,797.4,850.98,W1,112.46,W,lmphm
+2022,7,10,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,2-5,753.34,841.9,L4,97.96,L,bvincenttt
+2022,7,11,ramzz,King Koopa,1-6,799.58,892.62,L1,124.7,L,Odeh1121
+2022,7,12,jimbo817,Aaron Earned an Iron Urn,0-7,683.52,895.26,L7,121.02,L,donblood
+2022,8,1,lmphm,Vegas,7-1,970.0,890.28,W1,169.2,W,PutItOnYa
+2022,8,2,donblood,Wolf of Waller Street,6-2,1041.2,956.26,L1,104.92,L,kholabear
+2022,8,3,kholabear,Cancun Booking Agency,6-2,929.76,848.98,W1,119.9,W,donblood
+2022,8,4,keveezy,🐧🐧🐧🐧,5-3,976.24,962.58,W2,147.58,W,Odeh1121
+2022,8,5,wabaki (Lan Doan),KissMahomies,5-3,911.7,859.86,L1,92.54,L,DVTV
+2022,8,6,Odeh1121,The Adam's Family,4-4,1019.66,926.36,L1,123.58,L,keveezy
+2022,8,7,bvincenttt,Shake n Blake,4-4,922.02,876.18,L1,95.22,L,ramzz
+2022,8,8,DVTV,GOD TIER,4-4,854.34,896.84,W1,96.32,W,wabaki (Lan Doan)
+2022,8,9,anth0nyng,Princess Jelly,3-5,926.64,977.2,W2,129.24,W,jimbo817
+2022,8,10,ramzz,King Koopa,2-6,936.56,987.84,W1,136.98,W,bvincenttt
+2022,8,11,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,2-6,920.12,1011.1,L5,166.78,L,lmphm
+2022,8,12,jimbo817,Aaron Earned an Iron Urn,0-8,809.74,1024.5,L8,126.22,L,anth0nyng
+2022,9,1,lmphm,Vegas,8-1,1135.22,1022.68,W2,165.22,W,ramzz
+2022,9,2,donblood,Wolf of Waller Street,7-2,1169.72,1081.16,W1,128.52,W,anth0nyng
+2022,9,3,kholabear,Cancun Booking Agency,7-2,1041.98,959.68,W2,112.22,W,DVTV
+2022,9,4,keveezy,🐧🐧🐧🐧,6-3,1087.64,1061.44,W3,111.4,W,bvincenttt
+2022,9,5,wabaki (Lan Doan),KissMahomies,6-3,1075.74,980.8,W1,164.04,W,Odeh1121
+2022,9,6,Odeh1121,The Adam's Family,4-5,1140.6,1090.4,L2,120.94,L,wabaki (Lan Doan)
+2022,9,7,bvincenttt,Shake n Blake,4-5,1020.88,987.58,L2,98.86,L,keveezy
+2022,9,8,DVTV,GOD TIER,4-5,965.04,1009.06,L1,110.7,L,kholabear
+2022,9,9,anth0nyng,Princess Jelly,3-6,1051.54,1105.72,L1,124.9,L,donblood
+2022,9,10,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,3-6,1007.26,1082.98,W1,87.14,W,jimbo817
+2022,9,11,ramzz,King Koopa,2-7,1068.96,1153.06,L1,132.4,L,lmphm
+2022,9,12,jimbo817,Aaron Earned an Iron Urn,0-9,881.62,1111.64,L9,71.88,L,PutItOnYa
+2022,10,1,lmphm,Vegas,9-1,1253.22,1107.12,W3,118.0,W,keveezy
+2022,10,2,donblood,Wolf of Waller Street,8-2,1262.8,1173.26,W2,93.08,W,DVTV
+2022,10,3,kholabear,Cancun Booking Agency,8-2,1203.36,1050.44,W3,161.38,W,Odeh1121
+2022,10,4,wabaki (Lan Doan),KissMahomies,6-4,1179.58,1096.04,L1,103.84,L,bvincenttt
+2022,10,5,keveezy,🐧🐧🐧🐧,6-4,1172.08,1179.44,L1,84.44,L,lmphm
+2022,10,6,bvincenttt,Shake n Blake,5-5,1136.12,1091.42,W1,115.24,W,wabaki (Lan Doan)
+2022,10,7,Odeh1121,The Adam's Family,4-6,1231.36,1251.78,L3,90.76,L,kholabear
+2022,10,8,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,4-6,1135.12,1208.02,W2,127.86,W,anth0nyng
+2022,10,9,DVTV,GOD TIER,4-6,1057.14,1102.14,L2,92.1,L,donblood
+2022,10,10,anth0nyng,Princess Jelly,3-7,1176.58,1233.58,L2,125.04,L,PutItOnYa
+2022,10,11,ramzz,King Koopa,2-8,1157.36,1253.26,L2,88.4,L,jimbo817
+2022,10,12,jimbo817,Aaron Earned an Iron Urn,1-9,981.82,1200.04,W1,100.2,W,ramzz
+2022,11,1,lmphm,Vegas,10-1,1414.72,1211.38,W4,161.5,W,wabaki (Lan Doan)
+2022,11,2,donblood,Wolf of Waller Street,8-3,1335.06,1282.54,L1,72.26,L,PutItOnYa
+2022,11,3,kholabear,Cancun Booking Agency,8-3,1305.28,1158.38,L1,101.92,L,bvincenttt
+2022,11,4,wabaki (Lan Doan),KissMahomies,6-5,1283.84,1257.54,L2,104.26,L,lmphm
+2022,11,5,keveezy,🐧🐧🐧🐧,6-5,1264.84,1289.58,L2,92.76,L,jimbo817
+2022,11,6,bvincenttt,Shake n Blake,6-5,1244.06,1193.34,W2,107.94,W,kholabear
+2022,11,7,Odeh1121,The Adam's Family,5-6,1410.16,1365.16,W1,178.8,W,DVTV
+2022,11,8,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,5-6,1244.4,1280.28,W3,109.28,W,donblood
+2022,11,9,anth0nyng,Princess Jelly,4-7,1309.5,1268.68,W1,132.92,W,ramzz
+2022,11,10,DVTV,GOD TIER,4-7,1170.52,1280.94,L3,113.38,L,Odeh1121
+2022,11,11,ramzz,King Koopa,2-9,1192.46,1386.18,L3,35.1,L,anth0nyng
+2022,11,12,jimbo817,Aaron Earned an Iron Urn,2-9,1091.96,1292.8,W2,110.14,W,keveezy
+2022,12,1,lmphm,Vegas,10-2,1531.64,1344.72,L1,116.92,L,kholabear
+2022,12,2,donblood,Wolf of Waller Street,9-3,1476.52,1383.74,W1,141.46,W,Odeh1121
+2022,12,3,kholabear,Cancun Booking Agency,9-3,1438.62,1275.3,W1,133.34,W,lmphm
+2022,12,4,wabaki (Lan Doan),KissMahomies,7-5,1425.84,1354.6,W1,142.0,W,jimbo817
+2022,12,5,keveezy,🐧🐧🐧🐧,6-6,1390.0,1426.96,L3,125.16,L,anth0nyng
+2022,12,6,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,6-6,1378.84,1398.0,W4,134.44,W,ramzz
+2022,12,7,bvincenttt,Shake n Blake,6-6,1335.42,1324.36,L1,91.36,L,DVTV
+2022,12,8,Odeh1121,The Adam's Family,5-7,1511.36,1506.62,L1,101.2,L,donblood
+2022,12,9,anth0nyng,Princess Jelly,5-7,1446.88,1393.84,W2,137.38,W,keveezy
+2022,12,10,DVTV,GOD TIER,5-7,1301.54,1372.3,W1,131.02,W,bvincenttt
+2022,12,11,ramzz,King Koopa,2-10,1310.18,1520.62,L4,117.72,L,PutItOnYa
+2022,12,12,jimbo817,Aaron Earned an Iron Urn,2-10,1189.02,1434.8,L1,97.06,L,wabaki (Lan Doan)
+2022,13,1,lmphm,Vegas,11-2,1691.64,1465.14,W1,160.0,W,DVTV
+2022,13,2,kholabear,Cancun Booking Agency,10-3,1578.52,1368.1,W2,139.9,W,jimbo817
+2022,13,3,donblood,Wolf of Waller Street,9-4,1540.46,1480.52,L1,63.94,L,ramzz
+2022,13,4,wabaki (Lan Doan),KissMahomies,8-5,1600.06,1457.4,W2,174.22,W,anth0nyng
+2022,13,5,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,7-6,1502.5,1489.0,W5,123.66,W,keveezy
+2022,13,6,bvincenttt,Shake n Blake,7-6,1478.0,1454.5,W1,142.58,W,Odeh1121
+2022,13,7,keveezy,🐧🐧🐧🐧,6-7,1481.0,1550.62,L4,91.0,L,PutItOnYa
+2022,13,8,Odeh1121,The Adam's Family,5-8,1641.5,1649.2,L2,130.14,L,bvincenttt
+2022,13,9,anth0nyng,Princess Jelly,5-8,1549.68,1568.06,L1,102.8,L,wabaki (Lan Doan)
+2022,13,10,DVTV,GOD TIER,5-8,1421.96,1532.3,L1,120.42,L,lmphm
+2022,13,11,ramzz,King Koopa,3-10,1406.96,1584.56,W1,96.78,W,donblood
+2022,13,12,jimbo817,Aaron Earned an Iron Urn,2-11,1281.82,1574.7,L2,92.8,L,kholabear
+2022,14,1,lmphm,Vegas,12-2,1835.02,1557.8,W2,143.38,W,Odeh1121
+2022,14,2,kholabear,Cancun Booking Agency,11-3,1677.78,1453.66,W3,99.26,W,anth0nyng
+2022,14,3,wabaki (Lan Doan),KissMahomies,9-5,1723.14,1544.48,W3,123.08,W,PutItOnYa
+2022,14,4,donblood,Wolf of Waller Street,9-5,1646.18,1623.42,L2,105.72,L,bvincenttt
+2022,14,5,bvincenttt,Shake n Blake,8-6,1620.9,1560.22,W2,142.9,W,donblood
+2022,14,6,PutItOnYa,🔥🔥🔥FIRE SALE🔥🔥🔥,7-7,1589.58,1612.08,L1,87.08,L,wabaki (Lan Doan)
+2022,14,7,keveezy,🐧🐧🐧🐧,7-7,1587.88,1646.58,W1,106.88,W,ramzz
+2022,14,8,DVTV,GOD TIER,6-8,1533.64,1641.2,W1,111.68,W,jimbo817
+2022,14,9,Odeh1121,The Adam's Family,5-9,1734.16,1792.58,L3,92.66,L,lmphm
+2022,14,10,anth0nyng,Princess Jelly,5-9,1635.24,1667.32,L2,85.56,L,kholabear
+2022,14,11,ramzz,King Koopa,3-11,1502.92,1691.44,L1,95.96,L,keveezy
+2022,14,12,jimbo817,Aaron Earned an Iron Urn,2-12,1390.72,1686.38,L3,108.9,L,DVTV

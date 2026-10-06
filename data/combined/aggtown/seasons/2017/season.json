@@ -1,0 +1,566 @@
+{
+ "season": 2017,
+ "league": "Aggtown FFL",
+ "finished": true,
+ "champion": {
+  "team_id": 11,
+  "team": "The Spearmint Rhinos",
+  "manager": "DVTV",
+  "final_rank": 1,
+  "playoff_seed": 7,
+  "wins": 6,
+  "losses": 7,
+  "ties": 0,
+  "points_for": 1498.72,
+  "points_against": 1583.32
+ },
+ "championship_game": {
+  "week": 16,
+  "winner": "DVTV",
+  "winner_team": "The Spearmint Rhinos",
+  "winner_points": 101.26,
+  "loser": "ramzz",
+  "loser_team": "Leonard's booty gang",
+  "loser_points": 100.68
+ },
+ "runner_up": {
+  "team_id": 4,
+  "team": "Leonard's booty gang",
+  "manager": "ramzz",
+  "final_rank": 2,
+  "playoff_seed": 1,
+  "wins": 9,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1601.48,
+  "points_against": 1410.8
+ },
+ "third_place": {
+  "team_id": 7,
+  "team": "Prince of Plano",
+  "manager": "anth0nyng",
+  "final_rank": 3,
+  "playoff_seed": 5,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1620.34,
+  "points_against": 1553.02
+ },
+ "last_place": {
+  "team_id": 1,
+  "team": "The Dakstreet Boys",
+  "manager": "donblood",
+  "final_rank": 12,
+  "playoff_seed": null,
+  "wins": 4,
+  "losses": 9,
+  "ties": 0,
+  "points_for": 1286.5,
+  "points_against": 1398.88
+ },
+ "regular_season_winner": {
+  "team_id": 4,
+  "team": "Leonard's booty gang",
+  "manager": "ramzz",
+  "final_rank": 2,
+  "playoff_seed": 1,
+  "wins": 9,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1601.48,
+  "points_against": 1410.8
+ },
+ "most_points": {
+  "team_id": 7,
+  "team": "Prince of Plano",
+  "manager": "anth0nyng",
+  "final_rank": 3,
+  "playoff_seed": 5,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1620.34,
+  "points_against": 1553.02
+ },
+ "settings": {
+  "league_key": "371.l.330758",
+  "num_teams": 12,
+  "start_week": 1,
+  "end_week": 16,
+  "playoff_week_start": 14,
+  "num_playoff_teams": 8,
+  "scoring_type": "head",
+  "draft_type": "self",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R/T",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 11,
+   "team": "The Spearmint Rhinos",
+   "manager": "DVTV",
+   "final_rank": 1,
+   "playoff_seed": 7,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1498.72,
+   "points_against": 1583.32
+  },
+  {
+   "team_id": 4,
+   "team": "Leonard's booty gang",
+   "manager": "ramzz",
+   "final_rank": 2,
+   "playoff_seed": 1,
+   "wins": 9,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1601.48,
+   "points_against": 1410.8
+  },
+  {
+   "team_id": 7,
+   "team": "Prince of Plano",
+   "manager": "anth0nyng",
+   "final_rank": 3,
+   "playoff_seed": 5,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1620.34,
+   "points_against": 1553.02
+  },
+  {
+   "team_id": 2,
+   "team": "Jerk Goff",
+   "manager": "Odeh1121",
+   "final_rank": 4,
+   "playoff_seed": 3,
+   "wins": 9,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1442.18,
+   "points_against": 1245.34
+  },
+  {
+   "team_id": 10,
+   "team": "oOo Cody",
+   "manager": "oooEcho",
+   "final_rank": 5,
+   "playoff_seed": 6,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1518.66,
+   "points_against": 1614.02
+  },
+  {
+   "team_id": 12,
+   "team": "Lavar Ballers",
+   "manager": "kholabear",
+   "final_rank": 6,
+   "playoff_seed": 4,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1604.14,
+   "points_against": 1485.3
+  },
+  {
+   "team_id": 8,
+   "team": "Vegas",
+   "manager": "lmphm",
+   "final_rank": 7,
+   "playoff_seed": 8,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1405.5,
+   "points_against": 1396.18
+  },
+  {
+   "team_id": 9,
+   "team": "Wabaki 88",
+   "manager": "wabaki (Lan Doan)",
+   "final_rank": 8,
+   "playoff_seed": 2,
+   "wins": 9,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1589.64,
+   "points_against": 1441.68
+  },
+  {
+   "team_id": 6,
+   "team": "Shake n Blake",
+   "manager": "bvincenttt",
+   "final_rank": 9,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1508.2,
+   "points_against": 1639.18
+  },
+  {
+   "team_id": 3,
+   "team": "Dak & Yak",
+   "manager": "jimbo817",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1382.02,
+   "points_against": 1436.64
+  },
+  {
+   "team_id": 5,
+   "team": "The end is near.",
+   "manager": "keveezy",
+   "final_rank": 11,
+   "playoff_seed": null,
+   "wins": 4,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1376.82,
+   "points_against": 1629.84
+  },
+  {
+   "team_id": 1,
+   "team": "The Dakstreet Boys",
+   "manager": "donblood",
+   "final_rank": 12,
+   "playoff_seed": null,
+   "wins": 4,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1286.5,
+   "points_against": 1398.88
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Odeh1121",
+     "points": 137.06,
+     "projected": 119.62,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 104.14,
+     "projected": 122.27,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "ramzz",
+     "points": 146.14,
+     "projected": 111.15,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 101.26,
+     "projected": 110.29,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "anth0nyng",
+     "points": 100.78,
+     "projected": 123.62,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "kholabear",
+     "points": 88.84,
+     "projected": 119.47,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 113.02,
+     "projected": 118.76,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "DVTV",
+     "points": 122.32,
+     "projected": 111.37,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Odeh1121",
+     "points": 91.0,
+     "projected": 121.28,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "DVTV",
+     "points": 107.92,
+     "projected": 123.35,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "ramzz",
+     "points": 121.04,
+     "projected": 108.24,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "anth0nyng",
+     "points": 117.08,
+     "projected": 130.74,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 124.38,
+     "projected": 116.19,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "kholabear",
+     "points": 141.94,
+     "projected": 119.71,
+     "won": true
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 103.44,
+     "projected": 118.21,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 175.34,
+     "projected": 126.22,
+     "won": true
+    }
+   ],
+   "winner": "oooEcho"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Odeh1121",
+     "points": 90.84,
+     "projected": 115.48,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "anth0nyng",
+     "points": 118.94,
+     "projected": 129.64,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "ramzz",
+     "points": 100.68,
+     "projected": 119.77,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "DVTV",
+     "points": 101.26,
+     "projected": 120.97,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 111.4,
+     "projected": 98.51,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 65.16,
+     "projected": 94.85,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 152.96,
+     "projected": 134.35,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "kholabear",
+     "points": 114.36,
+     "projected": 127.47,
+     "won": false
+    }
+   ],
+   "winner": "oooEcho"
+  }
+ ]
+}

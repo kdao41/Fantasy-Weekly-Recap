@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2015,1,False,Don,159.92,Kevin D,99.42,Blake over --hidden-- by 3.82,Anthony over Ramzi by 24.74
+2015,2,False,mrlampham,153.6,Anthony,100.04,Don over Ramzi by 0.44,mrlampham over Ahmad by 45.46
+2015,3,False,Ramzi,191.0,Blake,92.58,--hidden-- over Kevin D by 10.2,mrlampham over Blake by 55.56
+2015,4,False,Jimmy,144.86,Blake,77.16,Ahmad over Don by 8.98,Anthony over Blake by 46.22
+2015,5,False,mrlampham,153.6,Kevin D,81.56,Ahmad over Jimmy by 1.5,Anthony over Kevin D by 52.66
+2015,6,False,Anthony,158.04,Ahmad,87.0,Blake over Jimmy by 0.52,Ramzi over Ahmad by 51.78
+2015,7,False,Muso (Lan Doan),175.98,Blake,74.18,Kevin D over Jimmy by 1.26,Ramzi over Blake by 72.02
+2015,8,False,mrlampham,164.94,--hidden--,95.14,Muso (Lan Doan) over Blake by 12.28,mrlampham over Jimmy by 62.06
+2015,9,False,Don,183.36,Kevin D,89.62,Anthony over Jimmy by 4.42,Don over --hidden-- by 57.84
+2015,10,False,Don,141.86,Muso (Lan Doan),92.88,Kevin D over Ahmad by 2.28,Don over Jimmy by 48.34
+2015,11,False,Kevin D,143.2,mrlampham,67.22,Ramzi over Don by 0.76,Kevin D over Blake by 66.94
+2015,12,False,Anthony,187.9,Blake,81.54,Muso (Lan Doan) over Don by 0.42,Anthony over Ahmad by 64.0
+2015,13,False,Ramzi,175.48,Muso (Lan Doan),95.2,Kevin D over mrlampham by 0.02,Ramzi over --hidden-- by 65.8
+2015,14,True,Anthony,152.48,Kevin D,80.62,Ramzi over --hidden-- by 8.62,Anthony over Kevin D by 71.86
+2015,15,True,Ramzi,182.0,mrlampham,95.56,Ahmad over Anthony by 7.6,Ramzi over Don by 32.92
+2015,16,True,Muso (Lan Doan),163.24,Kevin D,73.06,Anthony over Don by 16.32,Muso (Lan Doan) over Kevin D by 90.18

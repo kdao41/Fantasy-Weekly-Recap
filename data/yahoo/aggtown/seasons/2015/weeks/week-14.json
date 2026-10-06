@@ -1,0 +1,125 @@
+{
+ "season": 2015,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "Don",
+     "points": 110.44,
+     "projected": 132.58,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Wabaki 88",
+     "manager": "Muso (Lan Doan)",
+     "points": 81.36,
+     "projected": 123.57,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Charizarkandrick",
+     "manager": "Ramzi",
+     "points": 130.0,
+     "projected": 138.47,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "DuuuuuhhhhhHelloooo",
+     "manager": "--hidden--",
+     "points": 121.38,
+     "projected": 133.57,
+     "won": false
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "8====D",
+     "manager": "Ahmad",
+     "points": 148.2,
+     "projected": 114.66,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 128.4,
+     "projected": 127.98,
+     "won": false
+    }
+   ],
+   "winner": "Ahmad"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Lost cause.",
+     "manager": "Kevin D",
+     "points": 80.62,
+     "projected": 134.64,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "The Nick Folks",
+     "manager": "Anthony",
+     "points": 152.48,
+     "projected": 133.84,
+     "won": true
+    }
+   ],
+   "winner": "Anthony"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Anthony",
+   "team": "The Nick Folks",
+   "points": 152.48
+  },
+  "low_score": {
+   "manager": "Kevin D",
+   "team": "Lost cause.",
+   "points": 80.62
+  },
+  "closest_game": {
+   "winner": "Ramzi",
+   "winner_points": 130.0,
+   "loser": "--hidden--",
+   "loser_points": 121.38,
+   "margin": 8.62
+  },
+  "biggest_blowout": {
+   "winner": "Anthony",
+   "winner_points": 152.48,
+   "loser": "Kevin D",
+   "loser_points": 80.62,
+   "margin": 71.86
+  }
+ }
+}

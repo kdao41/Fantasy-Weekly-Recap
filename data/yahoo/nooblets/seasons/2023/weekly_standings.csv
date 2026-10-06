@@ -1,0 +1,141 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2023,1,1,Tommy,y c k y,1-0,164.66,107.46,W1,164.66,W,An
+2023,1,2,mrlampham,lmphm,1-0,140.58,100.76,W1,140.58,W,Anthony
+2023,1,3,Alex,Sports Betting,1-0,113.74,63.0,W1,113.74,W,Jason
+2023,1,4,Justin,Jiggly,1-0,111.84,99.36,W1,111.84,W,Kevin D
+2023,1,5,Dexter,Dex,1-0,109.74,105.14,W1,109.74,W,Don
+2023,1,6,An,Drier than a Popeyes biscuit,0-1,107.46,164.66,L1,107.46,L,Tommy
+2023,1,7,Don,Waddleburger Pattymelt,0-1,105.14,109.74,L1,105.14,L,Dexter
+2023,1,8,Anthony,🏆 Champion Jelly 🏆,0-1,100.76,140.58,L1,100.76,L,mrlampham
+2023,1,9,Kevin D,Ra-Dogged,0-1,99.36,111.84,L1,99.36,L,Justin
+2023,1,10,Jason,Felon,0-1,63.0,113.74,L1,63.0,L,Alex
+2023,2,1,Tommy,y c k y,2-0,277.06,193.06,W2,112.4,W,Kevin D
+2023,2,2,Justin,Jiggly,2-0,224.28,198.6,W2,112.44,W,Alex
+2023,2,3,mrlampham,lmphm,1-1,269.76,238.46,L1,129.18,L,Don
+2023,2,4,Dexter,Dex,1-1,246.4,262.06,L1,136.66,L,Jason
+2023,2,5,Don,Waddleburger Pattymelt,1-1,242.84,238.92,W1,137.7,W,mrlampham
+2023,2,6,Jason,Felon,1-1,219.92,250.4,W1,156.92,W,Dexter
+2023,2,7,An,Drier than a Popeyes biscuit,1-1,214.2,236.14,W1,106.74,W,Anthony
+2023,2,8,Alex,Sports Betting,1-1,212.98,175.44,L1,99.24,L,Justin
+2023,2,9,Kevin D,Ra-Dogged,0-2,184.96,224.24,L2,85.6,L,Tommy
+2023,2,10,Anthony,🏆 Champion Jelly 🏆,0-2,172.24,247.32,L2,71.48,L,An
+2023,3,1,Tommy,y c k y,3-0,397.32,301.02,W3,120.26,W,Justin
+2023,3,2,Don,Waddleburger Pattymelt,2-1,415.82,378.98,W2,172.98,W,An
+2023,3,3,Alex,Sports Betting,2-1,357.06,306.42,W1,144.08,W,Dexter
+2023,3,4,Jason,Felon,2-1,340.2,361.46,W2,120.28,W,mrlampham
+2023,3,5,Justin,Jiggly,2-1,332.24,318.86,L1,107.96,L,Tommy
+2023,3,6,mrlampham,lmphm,1-2,380.82,358.74,L2,111.06,L,Jason
+2023,3,7,Dexter,Dex,1-2,377.38,406.14,L2,130.98,L,Alex
+2023,3,8,An,Drier than a Popeyes biscuit,1-2,354.26,409.12,L1,140.06,L,Don
+2023,3,9,Kevin D,Ra-Dogged,1-2,316.36,346.42,W1,131.4,W,Anthony
+2023,3,10,Anthony,🏆 Champion Jelly 🏆,0-3,294.42,378.72,L3,122.18,L,Kevin D
+2023,4,1,Tommy,y c k y,4-0,565.94,419.76,W4,168.62,W,Anthony
+2023,4,2,Justin,Jiggly,3-1,465.68,436.66,W1,133.44,W,Dexter
+2023,4,3,Jason,Felon,3-1,457.96,439.7,W3,117.76,W,An
+2023,4,4,Alex,Sports Betting,3-1,452.12,395.6,W2,95.06,W,mrlampham
+2023,4,5,Don,Waddleburger Pattymelt,2-2,520.14,505.76,L1,104.32,L,Kevin D
+2023,4,6,Kevin D,Ra-Dogged,2-2,443.14,450.74,W2,126.78,W,Don
+2023,4,7,Dexter,Dex,1-3,495.18,539.58,L3,117.8,L,Justin
+2023,4,8,mrlampham,lmphm,1-3,470.0,453.8,L3,89.18,L,Alex
+2023,4,9,An,Drier than a Popeyes biscuit,1-3,432.5,526.88,L2,78.24,L,Jason
+2023,4,10,Anthony,🏆 Champion Jelly 🏆,0-4,413.16,547.34,L4,118.74,L,Tommy
+2023,5,1,Tommy,y c k y,5-0,708.52,540.1,W5,142.58,W,Don
+2023,5,2,Alex,Sports Betting,4-1,577.88,468.56,W3,125.76,W,An
+2023,5,3,Jason,Felon,3-2,597.08,588.22,L1,139.12,L,Kevin D
+2023,5,4,Kevin D,Ra-Dogged,3-2,591.66,589.86,W3,148.52,W,Jason
+2023,5,5,Justin,Jiggly,3-2,564.86,563.3,L1,99.18,L,Anthony
+2023,5,6,Don,Waddleburger Pattymelt,2-3,640.48,648.34,L2,120.34,L,Tommy
+2023,5,7,mrlampham,lmphm,2-3,604.78,567.26,W1,134.78,W,Dexter
+2023,5,8,Dexter,Dex,1-4,608.64,674.36,L4,113.46,L,mrlampham
+2023,5,9,Anthony,🏆 Champion Jelly 🏆,1-4,539.8,646.52,W1,126.64,W,Justin
+2023,5,10,An,Drier than a Popeyes biscuit,1-4,505.46,652.64,L3,72.96,L,Alex
+2023,6,1,Tommy,y c k y,5-1,807.42,658.9,L1,98.9,L,Jason
+2023,6,2,Kevin D,Ra-Dogged,4-2,734.14,690.58,W4,142.48,W,Alex
+2023,6,3,Jason,Felon,4-2,715.88,687.12,W1,118.8,W,Tommy
+2023,6,4,Alex,Sports Betting,4-2,678.6,611.04,L1,100.72,L,Kevin D
+2023,6,5,mrlampham,lmphm,3-3,728.88,689.58,W2,124.1,W,Justin
+2023,6,6,Justin,Jiggly,3-3,687.18,687.4,L2,122.32,L,mrlampham
+2023,6,7,Don,Waddleburger Pattymelt,2-4,747.72,824.76,L3,107.24,L,Anthony
+2023,6,8,Dexter,Dex,2-4,721.1,758.72,W1,112.46,W,An
+2023,6,9,Anthony,🏆 Champion Jelly 🏆,2-4,716.22,753.76,W2,176.42,W,Don
+2023,6,10,An,Drier than a Popeyes biscuit,1-5,589.82,765.1,L4,84.36,L,Dexter
+2023,7,1,Tommy,y c k y,5-2,921.7,777.96,L2,114.28,L,Alex
+2023,7,2,Kevin D,Ra-Dogged,5-2,860.7,787.38,W5,126.56,W,Dexter
+2023,7,3,Alex,Sports Betting,5-2,797.66,725.32,W1,119.06,W,Tommy
+2023,7,4,mrlampham,lmphm,4-3,858.02,771.34,W3,129.14,W,An
+2023,7,5,Jason,Felon,4-3,852.24,825.7,L1,136.36,L,Anthony
+2023,7,6,Don,Waddleburger Pattymelt,3-4,879.48,942.72,W1,131.76,W,Justin
+2023,7,7,Anthony,🏆 Champion Jelly 🏆,3-4,854.8,890.12,W3,138.58,W,Jason
+2023,7,8,Justin,Jiggly,3-4,805.14,819.16,L3,117.96,L,Don
+2023,7,9,Dexter,Dex,2-5,817.9,885.28,L1,96.8,L,Kevin D
+2023,7,10,An,Drier than a Popeyes biscuit,1-6,671.58,894.24,L5,81.76,L,mrlampham
+2023,8,1,Alex,Sports Betting,6-2,944.02,838.8,W2,146.36,W,Anthony
+2023,8,2,Tommy,y c k y,5-3,1040.3,918.02,L3,118.6,L,Dexter
+2023,8,3,mrlampham,lmphm,5-3,1015.64,907.26,W4,157.62,W,Kevin D
+2023,8,4,Kevin D,Ra-Dogged,5-3,996.62,945.0,L1,135.92,L,mrlampham
+2023,8,5,Jason,Felon,5-3,975.3,937.2,W1,123.06,W,Don
+2023,8,6,Justin,Jiggly,4-4,940.02,922.22,W1,134.88,W,An
+2023,8,7,Don,Waddleburger Pattymelt,3-5,990.98,1065.78,L1,111.5,L,Jason
+2023,8,8,Anthony,🏆 Champion Jelly 🏆,3-5,968.28,1036.48,L1,113.48,L,Alex
+2023,8,9,Dexter,Dex,3-5,957.96,1003.88,W1,140.06,W,Tommy
+2023,8,10,An,Drier than a Popeyes biscuit,1-7,774.64,1029.12,L6,103.06,L,Justin
+2023,9,1,mrlampham,lmphm,6-3,1144.16,1008.96,W5,128.52,W,Tommy
+2023,9,2,Alex,Sports Betting,6-3,1047.82,951.9,L1,103.8,L,Don
+2023,9,3,Tommy,y c k y,5-4,1142.0,1046.54,L4,101.7,L,mrlampham
+2023,9,4,Kevin D,Ra-Dogged,5-4,1093.06,1083.86,L2,96.44,L,An
+2023,9,5,Jason,Felon,5-4,1079.68,1046.32,L1,104.38,L,Justin
+2023,9,6,Justin,Jiggly,5-4,1049.14,1026.6,W2,109.12,W,Jason
+2023,9,7,Don,Waddleburger Pattymelt,4-5,1104.08,1169.58,W1,113.1,W,Alex
+2023,9,8,Dexter,Dex,4-5,1089.08,1127.46,W2,131.12,W,Anthony
+2023,9,9,Anthony,🏆 Champion Jelly 🏆,3-6,1091.86,1167.6,L2,123.58,L,Dexter
+2023,9,10,An,Drier than a Popeyes biscuit,2-7,913.5,1125.56,W1,138.86,W,Kevin D
+2023,10,1,Alex,Sports Betting,7-3,1172.9,1049.36,W1,125.08,W,Jason
+2023,10,2,Kevin D,Ra-Dogged,6-4,1243.48,1217.0,W1,150.42,W,Justin
+2023,10,3,mrlampham,lmphm,6-4,1237.94,1110.98,L1,93.78,L,Anthony
+2023,10,4,Dexter,Dex,5-5,1271.46,1255.18,W3,182.38,W,Don
+2023,10,5,Tommy,y c k y,5-5,1238.44,1215.2,L5,96.44,L,An
+2023,10,6,Justin,Jiggly,5-5,1182.28,1177.02,L1,133.14,L,Kevin D
+2023,10,7,Jason,Felon,5-5,1177.14,1171.4,L2,97.46,L,Alex
+2023,10,8,Don,Waddleburger Pattymelt,4-6,1231.8,1351.96,L1,127.72,L,Dexter
+2023,10,9,Anthony,🏆 Champion Jelly 🏆,4-6,1193.88,1261.38,W1,102.02,W,mrlampham
+2023,10,10,An,Drier than a Popeyes biscuit,3-7,1082.16,1222.0,W2,168.66,W,Tommy
+2023,11,1,Alex,Sports Betting,8-3,1274.34,1138.6,W2,101.44,W,Justin
+2023,11,2,mrlampham,lmphm,7-4,1346.08,1211.86,W1,108.14,W,Don
+2023,11,3,Dexter,Dex,6-5,1436.96,1383.98,W4,165.5,W,Jason
+2023,11,4,Tommy,y c k y,6-5,1400.66,1324.9,W1,162.22,W,Kevin D
+2023,11,5,Kevin D,Ra-Dogged,6-5,1353.18,1379.22,L1,109.7,L,Tommy
+2023,11,6,Jason,Felon,5-6,1305.94,1336.9,L3,128.8,L,Dexter
+2023,11,7,Justin,Jiggly,5-6,1271.52,1278.46,L2,89.24,L,Alex
+2023,11,8,Don,Waddleburger Pattymelt,4-7,1332.68,1460.1,L2,100.88,L,mrlampham
+2023,11,9,Anthony,🏆 Champion Jelly 🏆,4-7,1290.34,1380.74,L1,96.46,L,An
+2023,11,10,An,Drier than a Popeyes biscuit,4-7,1201.52,1318.46,W3,119.36,W,Anthony
+2023,12,1,mrlampham,lmphm,8-4,1489.78,1330.26,W2,143.7,W,Jason
+2023,12,2,Alex,Sports Betting,8-4,1378.72,1303.36,L1,104.38,L,Dexter
+2023,12,3,Dexter,Dex,7-5,1601.72,1488.36,W5,164.76,W,Alex
+2023,12,4,Kevin D,Ra-Dogged,7-5,1473.66,1486.8,W1,120.48,W,Anthony
+2023,12,5,Tommy,y c k y,6-6,1504.82,1489.86,L1,104.16,L,Justin
+2023,12,6,Justin,Jiggly,6-6,1436.48,1382.62,W1,164.96,W,Tommy
+2023,12,7,Jason,Felon,5-7,1424.34,1480.6,L4,118.4,L,mrlampham
+2023,12,8,An,Drier than a Popeyes biscuit,5-7,1336.26,1448.68,W4,134.74,W,Don
+2023,12,9,Don,Waddleburger Pattymelt,4-8,1462.9,1594.84,L3,130.22,L,An
+2023,12,10,Anthony,🏆 Champion Jelly 🏆,4-8,1397.92,1501.22,L2,107.58,L,Kevin D
+2023,13,1,mrlampham,lmphm,9-4,1646.92,1460.34,W3,157.14,W,Alex
+2023,13,2,Dexter,Dex,8-5,1745.56,1607.42,W6,143.84,W,Justin
+2023,13,3,Alex,Sports Betting,8-5,1508.8,1460.5,L2,130.08,L,mrlampham
+2023,13,4,Tommy,y c k y,7-6,1651.78,1602.14,W1,146.96,W,Anthony
+2023,13,5,Kevin D,Ra-Dogged,7-6,1595.36,1609.3,L1,121.7,L,Don
+2023,13,6,Justin,Jiggly,6-7,1555.54,1526.46,L1,119.06,L,Dexter
+2023,13,7,An,Drier than a Popeyes biscuit,6-7,1459.32,1522.6,W5,123.06,W,Jason
+2023,13,8,Don,Waddleburger Pattymelt,5-8,1585.4,1716.54,W1,122.5,W,Kevin D
+2023,13,9,Jason,Felon,5-8,1498.26,1603.66,L5,73.92,L,An
+2023,13,10,Anthony,🏆 Champion Jelly 🏆,4-9,1510.2,1648.18,L3,112.28,L,Tommy
+2023,14,1,mrlampham,lmphm,10-4,1786.88,1575.36,W4,139.96,W,Dexter
+2023,14,2,Alex,Sports Betting,9-5,1662.72,1571.04,W1,153.92,W,An
+2023,14,3,Dexter,Dex,8-6,1860.58,1747.38,L1,115.02,L,mrlampham
+2023,14,4,Tommy,y c k y,7-7,1760.2,1716.74,L1,108.42,L,Don
+2023,14,5,Kevin D,Ra-Dogged,7-7,1667.9,1740.18,L2,72.54,L,Jason
+2023,14,6,Don,Waddleburger Pattymelt,6-8,1700.0,1824.96,W2,114.6,W,Tommy
+2023,14,7,Justin,Jiggly,6-8,1646.38,1662.72,L2,90.84,L,Anthony
+2023,14,8,Jason,Felon,6-8,1629.14,1676.2,W1,130.88,W,Kevin D
+2023,14,9,An,Drier than a Popeyes biscuit,6-8,1569.86,1676.52,L1,110.54,L,Alex
+2023,14,10,Anthony,🏆 Champion Jelly 🏆,5-9,1646.46,1739.02,W1,136.26,W,Justin

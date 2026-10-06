@@ -1,0 +1,317 @@
+{
+ "season": 2023,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Shake 'n Blake ",
+     "manager": "bvincenttt",
+     "points": 97.46,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "ABCeeDee U Lost 2 Me",
+     "manager": "oooEcho",
+     "points": 96.06,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Pukachu",
+     "manager": "Odeh1121",
+     "points": 116.86,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 95.26,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "JOVE DIRECTOR OF VIBEZ",
+     "manager": "DVTV",
+     "points": 134.12,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Gibbs and Receive",
+     "manager": "donblood",
+     "points": 138.28,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Renegade renegade ",
+     "manager": "keveezy",
+     "points": 118.38,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Cancun Tours",
+     "manager": "kholabear",
+     "points": 134.4,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "himzi",
+     "manager": "ramzz",
+     "points": 136.7,
+     "projected": null,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Chase Mahomies",
+     "manager": "jimbo817",
+     "points": 178.48,
+     "projected": null,
+     "won": true
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "am i cursed? ",
+     "manager": "anth0nyng",
+     "points": 147.72,
+     "projected": null,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "PutItOnYa",
+     "manager": "PutItOnYa",
+     "points": 123.42,
+     "projected": null,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "jimbo817",
+   "team": "Chase Mahomies",
+   "points": 178.48
+  },
+  "low_score": {
+   "manager": "lmphm",
+   "team": "Vegas",
+   "points": 95.26
+  },
+  "closest_game": {
+   "winner": "bvincenttt",
+   "winner_points": 97.46,
+   "loser": "oooEcho",
+   "loser_points": 96.06,
+   "margin": 1.4
+  },
+  "biggest_blowout": {
+   "winner": "jimbo817",
+   "winner_points": 178.48,
+   "loser": "ramzz",
+   "loser_points": 136.7,
+   "margin": 41.78
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "bvincenttt",
+   "team": "Shake 'n Blake ",
+   "record": "3-0",
+   "points_for": 344.04,
+   "points_against": 304.82,
+   "streak": "W3",
+   "week_points": 97.46,
+   "week_result": "W",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 2,
+   "manager": "PutItOnYa",
+   "team": "PutItOnYa",
+   "record": "2-1",
+   "points_for": 364.52,
+   "points_against": 335.28,
+   "streak": "L1",
+   "week_points": 123.42,
+   "week_result": "L",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 3,
+   "manager": "DVTV",
+   "team": "JOVE DIRECTOR OF VIBEZ",
+   "record": "2-1",
+   "points_for": 359.56,
+   "points_against": 333.5,
+   "streak": "L1",
+   "week_points": 134.12,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 4,
+   "manager": "kholabear",
+   "team": "Cancun Tours",
+   "record": "2-1",
+   "points_for": 358.16,
+   "points_against": 376.16,
+   "streak": "W1",
+   "week_points": 134.4,
+   "week_result": "W",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 5,
+   "manager": "donblood",
+   "team": "Gibbs and Receive",
+   "record": "2-1",
+   "points_for": 352.2,
+   "points_against": 375.74,
+   "streak": "W2",
+   "week_points": 138.28,
+   "week_result": "W",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 6,
+   "manager": "anth0nyng",
+   "team": "am i cursed? ",
+   "record": "1-2",
+   "points_for": 389.62,
+   "points_against": 408.26,
+   "streak": "W1",
+   "week_points": 147.72,
+   "week_result": "W",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 7,
+   "manager": "jimbo817",
+   "team": "Chase Mahomies",
+   "record": "1-2",
+   "points_for": 371.92,
+   "points_against": 341.86,
+   "streak": "W1",
+   "week_points": 178.48,
+   "week_result": "W",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 8,
+   "manager": "keveezy",
+   "team": "Renegade renegade ",
+   "record": "1-2",
+   "points_for": 367.02,
+   "points_against": 359.62,
+   "streak": "L1",
+   "week_points": 118.38,
+   "week_result": "L",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 9,
+   "manager": "ramzz",
+   "team": "himzi",
+   "record": "1-2",
+   "points_for": 361.3,
+   "points_against": 428.32,
+   "streak": "L1",
+   "week_points": 136.7,
+   "week_result": "L",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 10,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "1-2",
+   "points_for": 349.24,
+   "points_against": 324.08,
+   "streak": "L2",
+   "week_points": 95.26,
+   "week_result": "L",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 11,
+   "manager": "oooEcho",
+   "team": "ABCeeDee U Lost 2 Me",
+   "record": "1-2",
+   "points_for": 304.48,
+   "points_against": 306.74,
+   "streak": "L2",
+   "week_points": 96.06,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 12,
+   "manager": "Odeh1121",
+   "team": "Pukachu",
+   "record": "1-2",
+   "points_for": 299.72,
+   "points_against": 327.4,
+   "streak": "W1",
+   "week_points": 116.86,
+   "week_result": "W",
+   "opponent": "lmphm"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2018,1,False,Blake,169.22,Cody,95.78,Khoa over Daniel Vu by 0.32,Blake over Cody by 73.44
+2018,2,False,Muso (Lan Doan),178.38,Kevin D,93.22,Anthony over Blake by 17.04,Ahmad over Don by 56.36
+2018,3,False,Kevin D,174.74,Cody,83.62,mrlampham over Ramzi by 0.26,Kevin D over Anthony by 68.46
+2018,4,False,mrlampham,183.26,Blake,68.08,Ramzi over Don by 6.36,Khoa over Jimmy by 62.04
+2018,5,False,Muso (Lan Doan),166.8,Cody,95.24,Jimmy over Ramzi by 4.56,Khoa over Ahmad by 29.14
+2018,6,False,Ramzi,179.06,Ahmad,76.62,Khoa over Muso (Lan Doan) by 1.54,Ramzi over Ahmad by 102.44
+2018,7,False,Don,149.92,Ahmad,97.34,Daniel Vu over Muso (Lan Doan) by 1.76,Jimmy over Anthony by 28.22
+2018,8,False,Ramzi,155.5,Cody,101.66,Jimmy over Blake by 2.82,Ahmad over Anthony by 28.56
+2018,9,False,Blake,157.8,Anthony,80.84,Kevin D over Jimmy by 6.1,Khoa over Anthony by 70.84
+2018,10,False,Daniel Vu,179.32,Cody,74.06,Anthony over Ramzi by 18.68,Daniel Vu over Jimmy by 74.7
+2018,11,False,Khoa,163.98,Cody,61.42,Muso (Lan Doan) over Don by 7.24,Anthony over Cody by 54.88
+2018,12,False,Daniel Vu,163.28,Cody,90.52,Ramzi over Kevin D by 2.2,mrlampham over Ahmad by 32.5
+2018,13,False,mrlampham,163.84,Blake,98.1,Daniel Vu over Ramzi by 2.02,mrlampham over Khoa by 44.94
+2018,14,True,Khoa,154.1,Ramzi,87.92,Don over mrlampham by 2.7,Khoa over Ramzi by 66.18
+2018,15,True,Jimmy,156.8,Ramzi,67.24,mrlampham over Daniel Vu by 0.62,Jimmy over Don by 30.98
+2018,16,True,Daniel Vu,174.14,Ramzi,96.06,Muso (Lan Doan) over Don by 8.68,Daniel Vu over Ramzi by 78.08

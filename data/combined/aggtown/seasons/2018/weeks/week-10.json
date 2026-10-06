@@ -1,0 +1,317 @@
+{
+ "season": 2018,
+ "week": 10,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Two Gurleys One Cup",
+     "manager": "donblood",
+     "points": 144.76,
+     "projected": 142.5,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 110.6,
+     "projected": 127.78,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Ligma",
+     "manager": "jimbo817",
+     "points": 104.62,
+     "projected": 115.99,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "The Asa Akiras",
+     "manager": "DVTV",
+     "points": 179.32,
+     "projected": 132.5,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Kissing Cousins",
+     "manager": "Odeh1121",
+     "points": 127.22,
+     "projected": 120.11,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Like a Brees",
+     "manager": "keveezy",
+     "points": 155.04,
+     "projected": 126.57,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "God Zuerline",
+     "manager": "kholabear",
+     "points": 152.92,
+     "projected": 146.49,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 98.44,
+     "projected": 131.02,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Small town Gurl",
+     "manager": "ramzz",
+     "points": 109.84,
+     "projected": 130.64,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "anth0nyng",
+     "points": 128.52,
+     "projected": 105.55,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 74.06,
+     "projected": 117.97,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 141.22,
+     "projected": 127.46,
+     "won": true
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "DVTV",
+   "team": "The Asa Akiras",
+   "points": 179.32
+  },
+  "low_score": {
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "points": 74.06
+  },
+  "closest_game": {
+   "winner": "anth0nyng",
+   "winner_points": 128.52,
+   "loser": "ramzz",
+   "loser_points": 109.84,
+   "margin": 18.68
+  },
+  "biggest_blowout": {
+   "winner": "DVTV",
+   "winner_points": 179.32,
+   "loser": "jimbo817",
+   "loser_points": 104.62,
+   "margin": 74.7
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "kholabear",
+   "team": "God Zuerline",
+   "record": "8-2",
+   "points_for": 1409.02,
+   "points_against": 1184.44,
+   "streak": "W3",
+   "week_points": 152.92,
+   "week_result": "W",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 2,
+   "manager": "donblood",
+   "team": "Two Gurleys One Cup",
+   "record": "7-3",
+   "points_for": 1314.36,
+   "points_against": 1219.08,
+   "streak": "W2",
+   "week_points": 144.76,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 3,
+   "manager": "keveezy",
+   "team": "Like a Brees",
+   "record": "7-3",
+   "points_for": 1311.44,
+   "points_against": 1177.9,
+   "streak": "W3",
+   "week_points": 155.04,
+   "week_result": "W",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 4,
+   "manager": "DVTV",
+   "team": "The Asa Akiras",
+   "record": "6-4",
+   "points_for": 1375.36,
+   "points_against": 1201.08,
+   "streak": "W1",
+   "week_points": 179.32,
+   "week_result": "W",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 5,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "6-4",
+   "points_for": 1277.16,
+   "points_against": 1293.26,
+   "streak": "L1",
+   "week_points": 110.6,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 6,
+   "manager": "wabaki (Lan Doan)",
+   "team": "Wabaki 88",
+   "record": "5-5",
+   "points_for": 1415.44,
+   "points_against": 1338.54,
+   "streak": "W1",
+   "week_points": 141.22,
+   "week_result": "W",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 7,
+   "manager": "jimbo817",
+   "team": "Ligma",
+   "record": "5-5",
+   "points_for": 1220.28,
+   "points_against": 1350.32,
+   "streak": "L2",
+   "week_points": 104.62,
+   "week_result": "L",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 8,
+   "manager": "ramzz",
+   "team": "Small town Gurl",
+   "record": "4-6",
+   "points_for": 1263.08,
+   "points_against": 1210.28,
+   "streak": "L2",
+   "week_points": 109.84,
+   "week_result": "L",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 9,
+   "manager": "Odeh1121",
+   "team": "Kissing Cousins",
+   "record": "3-7",
+   "points_for": 1231.22,
+   "points_against": 1390.04,
+   "streak": "L2",
+   "week_points": 127.22,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 10,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "3-7",
+   "points_for": 1229.14,
+   "points_against": 1237.34,
+   "streak": "L1",
+   "week_points": 98.44,
+   "week_result": "L",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 11,
+   "manager": "anth0nyng",
+   "team": "Prince of Plano",
+   "record": "3-7",
+   "points_for": 1109.86,
+   "points_against": 1338.94,
+   "streak": "W1",
+   "week_points": 128.52,
+   "week_result": "W",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 12,
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "record": "3-7",
+   "points_for": 1035.72,
+   "points_against": 1250.86,
+   "streak": "L1",
+   "week_points": 74.06,
+   "week_result": "L",
+   "opponent": "wabaki (Lan Doan)"
+  }
+ ]
+}

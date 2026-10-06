@@ -1,0 +1,270 @@
+{
+ "season": 2022,
+ "week": 4,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Free money",
+     "manager": "Kevin D",
+     "points": 129.34,
+     "projected": 129.4,
+     "won": false
+    },
+    {
+     "team_id": 3,
+     "team": "Sports Betting",
+     "manager": "Alex",
+     "points": 141.18,
+     "projected": 125.42,
+     "won": true
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "my team ass",
+     "manager": "Don",
+     "points": 117.12,
+     "projected": 126.95,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "SCENE INFILTRATED",
+     "manager": "Dexter",
+     "points": 153.36,
+     "projected": 126.55,
+     "won": true
+    }
+   ],
+   "winner": "Dexter"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "y c k y",
+     "manager": "Tommy",
+     "points": 115.08,
+     "projected": 123.72,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Washed",
+     "manager": "Justin",
+     "points": 143.1,
+     "projected": 122.7,
+     "won": true
+    }
+   ],
+   "winner": "Justin"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+     "manager": "Anthony",
+     "points": 101.46,
+     "projected": 119.78,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Felon",
+     "manager": "Jason",
+     "points": 126.7,
+     "projected": 124.43,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "lmphm",
+     "manager": "mrlampham",
+     "points": 70.16,
+     "projected": 105.81,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "Drier than a Popeyes biscuit",
+     "manager": "An",
+     "points": 126.8,
+     "projected": 122.43,
+     "won": true
+    }
+   ],
+   "winner": "An"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Dexter",
+   "team": "SCENE INFILTRATED",
+   "points": 153.36
+  },
+  "low_score": {
+   "manager": "mrlampham",
+   "team": "lmphm",
+   "points": 70.16
+  },
+  "closest_game": {
+   "winner": "Alex",
+   "winner_points": 141.18,
+   "loser": "Kevin D",
+   "loser_points": 129.34,
+   "margin": 11.84
+  },
+  "biggest_blowout": {
+   "winner": "An",
+   "winner_points": 126.8,
+   "loser": "mrlampham",
+   "loser_points": 70.16,
+   "margin": 56.64
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Alex",
+   "team": "Sports Betting",
+   "record": "4-0",
+   "points_for": 538.54,
+   "points_against": 486.24,
+   "streak": "W4",
+   "week_points": 141.18,
+   "week_result": "W",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 2,
+   "manager": "Dexter",
+   "team": "SCENE INFILTRATED",
+   "record": "3-1",
+   "points_for": 533.52,
+   "points_against": 468.22,
+   "streak": "W1",
+   "week_points": 153.36,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 3,
+   "manager": "Jason",
+   "team": "Felon",
+   "record": "3-1",
+   "points_for": 520.94,
+   "points_against": 419.14,
+   "streak": "W3",
+   "week_points": 126.7,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 4,
+   "manager": "An",
+   "team": "Drier than a Popeyes biscuit",
+   "record": "2-2",
+   "points_for": 506.22,
+   "points_against": 448.08,
+   "streak": "W1",
+   "week_points": 126.8,
+   "week_result": "W",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 5,
+   "manager": "Justin",
+   "team": "Washed",
+   "record": "2-2",
+   "points_for": 494.3,
+   "points_against": 530.16,
+   "streak": "W2",
+   "week_points": 143.1,
+   "week_result": "W",
+   "opponent": "Tommy"
+  },
+  {
+   "rank": 6,
+   "manager": "Anthony",
+   "team": "\ud83c\udfc6 Champion Jelly \ud83c\udfc6",
+   "record": "2-2",
+   "points_for": 449.24,
+   "points_against": 445.54,
+   "streak": "L2",
+   "week_points": 101.46,
+   "week_result": "L",
+   "opponent": "Jason"
+  },
+  {
+   "rank": 7,
+   "manager": "Don",
+   "team": "my team ass",
+   "record": "1-3",
+   "points_for": 519.28,
+   "points_against": 522.4,
+   "streak": "L3",
+   "week_points": 117.12,
+   "week_result": "L",
+   "opponent": "Dexter"
+  },
+  {
+   "rank": 8,
+   "manager": "Kevin D",
+   "team": "Free money",
+   "record": "1-3",
+   "points_for": 460.56,
+   "points_against": 478.46,
+   "streak": "L3",
+   "week_points": 129.34,
+   "week_result": "L",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 9,
+   "manager": "mrlampham",
+   "team": "lmphm",
+   "record": "1-3",
+   "points_for": 409.7,
+   "points_against": 500.24,
+   "streak": "L1",
+   "week_points": 70.16,
+   "week_result": "L",
+   "opponent": "An"
+  },
+  {
+   "rank": 10,
+   "manager": "Tommy",
+   "team": "y c k y",
+   "record": "1-3",
+   "points_for": 402.46,
+   "points_against": 536.28,
+   "streak": "L1",
+   "week_points": 115.08,
+   "week_result": "L",
+   "opponent": "Justin"
+  }
+ ]
+}

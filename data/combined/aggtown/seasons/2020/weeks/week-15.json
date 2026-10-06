@@ -1,0 +1,125 @@
+{
+ "season": 2020,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "SponsoredByStatefarm",
+     "manager": "jimbo817",
+     "points": 136.82,
+     "projected": 135.43,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 105.96,
+     "projected": 119.43,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "OnlyPain",
+     "manager": "kholabear",
+     "points": 140.46,
+     "projected": 118.43,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 112.84,
+     "projected": 111.18,
+     "won": false
+    }
+   ],
+   "winner": "kholabear"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Winry fan club",
+     "manager": "ramzz",
+     "points": 149.46,
+     "projected": 128.69,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "I Want You Davant Me",
+     "manager": "PutItOnYa",
+     "points": 128.82,
+     "projected": 132.53,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 94.24,
+     "projected": 128.44,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Boom or Bust",
+     "manager": "keveezy",
+     "points": 137.46,
+     "projected": 136.53,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "ramzz",
+   "team": "Winry fan club",
+   "points": 149.46
+  },
+  "low_score": {
+   "manager": "anth0nyng",
+   "team": "Prince of Mahomes",
+   "points": 94.24
+  },
+  "closest_game": {
+   "winner": "ramzz",
+   "winner_points": 149.46,
+   "loser": "PutItOnYa",
+   "loser_points": 128.82,
+   "margin": 20.64
+  },
+  "biggest_blowout": {
+   "winner": "keveezy",
+   "winner_points": 137.46,
+   "loser": "anth0nyng",
+   "loser_points": 94.24,
+   "margin": 43.22
+  }
+ }
+}

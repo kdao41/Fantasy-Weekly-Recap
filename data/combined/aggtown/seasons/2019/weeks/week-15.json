@@ -1,0 +1,125 @@
+{
+ "season": 2019,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "donblood",
+     "points": 133.62,
+     "projected": 127.59,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "PutItOnYa",
+     "points": 142.46,
+     "projected": 114.68,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "jimbo817",
+     "points": 171.28,
+     "projected": 140.11,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 129.8,
+     "projected": 138.05,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "ramzz",
+     "points": 125.12,
+     "projected": 144.98,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 113.0,
+     "projected": 122.77,
+     "won": false
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "keveezy",
+     "points": 96.02,
+     "projected": 121.67,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 141.46,
+     "projected": 101.22,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "jimbo817",
+   "team": "Run CMC",
+   "points": 171.28
+  },
+  "low_score": {
+   "manager": "keveezy",
+   "team": "Loading FAILED.",
+   "points": 96.02
+  },
+  "closest_game": {
+   "winner": "PutItOnYa",
+   "winner_points": 142.46,
+   "loser": "donblood",
+   "loser_points": 133.62,
+   "margin": 8.84
+  },
+  "biggest_blowout": {
+   "winner": "DVTV",
+   "winner_points": 141.46,
+   "loser": "keveezy",
+   "loser_points": 96.02,
+   "margin": 45.44
+  }
+ }
+}

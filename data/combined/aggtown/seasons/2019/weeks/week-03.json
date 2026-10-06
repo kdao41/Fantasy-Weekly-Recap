@@ -1,0 +1,317 @@
+{
+ "season": 2019,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Lights Kamara ACTION",
+     "manager": "donblood",
+     "points": 197.54,
+     "projected": 127.94,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "Chubby Johnson",
+     "manager": "ramzz",
+     "points": 131.44,
+     "projected": 145.42,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Run CMC",
+     "manager": "jimbo817",
+     "points": 117.48,
+     "projected": 136.09,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Saquanda Forever!",
+     "manager": "PutItOnYa",
+     "points": 124.22,
+     "projected": 132.52,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Hide and Zeke",
+     "manager": "Odeh1121",
+     "points": 138.14,
+     "projected": 134.91,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 132.86,
+     "projected": 116.36,
+     "won": false
+    }
+   ],
+   "winner": "Odeh1121"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "King Goffrey",
+     "manager": "kholabear",
+     "points": 103.32,
+     "projected": 129.77,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Mahomes",
+     "manager": "anth0nyng",
+     "points": 166.26,
+     "projected": 143.47,
+     "won": true
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 85.28,
+     "projected": 131.04,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Loading FAILED.",
+     "manager": "keveezy",
+     "points": 100.1,
+     "projected": 127.89,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 148.12,
+     "projected": 121.36,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 120.56,
+     "projected": 113.94,
+     "won": false
+    }
+   ],
+   "winner": "DVTV"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "donblood",
+   "team": "Lights Kamara ACTION",
+   "points": 197.54
+  },
+  "low_score": {
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "points": 85.28
+  },
+  "closest_game": {
+   "winner": "Odeh1121",
+   "winner_points": 138.14,
+   "loser": "oooEcho",
+   "loser_points": 132.86,
+   "margin": 5.28
+  },
+  "biggest_blowout": {
+   "winner": "donblood",
+   "winner_points": 197.54,
+   "loser": "ramzz",
+   "loser_points": 131.44,
+   "margin": 66.1
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "anth0nyng",
+   "team": "Prince of Mahomes",
+   "record": "3-0",
+   "points_for": 472.5,
+   "points_against": 310.7,
+   "streak": "W3",
+   "week_points": 166.26,
+   "week_result": "W",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 2,
+   "manager": "donblood",
+   "team": "Lights Kamara ACTION",
+   "record": "2-1",
+   "points_for": 433.24,
+   "points_against": 392.08,
+   "streak": "W1",
+   "week_points": 197.54,
+   "week_result": "W",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 3,
+   "manager": "ramzz",
+   "team": "Chubby Johnson",
+   "record": "2-1",
+   "points_for": 415.6,
+   "points_against": 423.26,
+   "streak": "L1",
+   "week_points": 131.44,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 4,
+   "manager": "keveezy",
+   "team": "Loading FAILED.",
+   "record": "2-1",
+   "points_for": 382.08,
+   "points_against": 295.48,
+   "streak": "W2",
+   "week_points": 100.1,
+   "week_result": "W",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 5,
+   "manager": "DVTV",
+   "team": "GOD TIER",
+   "record": "2-1",
+   "points_for": 381.36,
+   "points_against": 416.08,
+   "streak": "W2",
+   "week_points": 148.12,
+   "week_result": "W",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 6,
+   "manager": "jimbo817",
+   "team": "Run CMC",
+   "record": "2-1",
+   "points_for": 373.36,
+   "points_against": 326.76,
+   "streak": "L1",
+   "week_points": 117.48,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  },
+  {
+   "rank": 7,
+   "manager": "PutItOnYa",
+   "team": "Saquanda Forever!",
+   "record": "2-1",
+   "points_for": 347.58,
+   "points_against": 305.28,
+   "streak": "W2",
+   "week_points": 124.22,
+   "week_result": "W",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 8,
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "record": "1-2",
+   "points_for": 364.12,
+   "points_against": 368.36,
+   "streak": "L2",
+   "week_points": 132.86,
+   "week_result": "L",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 9,
+   "manager": "Odeh1121",
+   "team": "Hide and Zeke",
+   "record": "1-2",
+   "points_for": 358.6,
+   "points_against": 424.78,
+   "streak": "W1",
+   "week_points": 138.14,
+   "week_result": "W",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 10,
+   "manager": "kholabear",
+   "team": "King Goffrey",
+   "record": "1-2",
+   "points_for": 315.78,
+   "points_against": 388.84,
+   "streak": "L2",
+   "week_points": 103.32,
+   "week_result": "L",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 11,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "0-3",
+   "points_for": 305.3,
+   "points_against": 375.72,
+   "streak": "L3",
+   "week_points": 85.28,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 12,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "0-3",
+   "points_for": 299.76,
+   "points_against": 421.94,
+   "streak": "L3",
+   "week_points": 120.56,
+   "week_result": "L",
+   "opponent": "DVTV"
+  }
+ ]
+}

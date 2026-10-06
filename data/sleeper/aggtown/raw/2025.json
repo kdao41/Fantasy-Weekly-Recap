@@ -1,0 +1,3873 @@
+{
+ "source": "sleeper",
+ "league_key": "1257116455862808576",
+ "name": "AGGTOWN FANTASY LEAGUE",
+ "season": 2025,
+ "num_teams": 12,
+ "start_week": 1,
+ "end_week": 17,
+ "is_finished": true,
+ "scoring_type": "head",
+ "draft_type": "snake",
+ "playoff_week_start": 15,
+ "num_playoff_teams": 6,
+ "roster_positions": [
+  {
+   "position": "QB",
+   "count": 1
+  },
+  {
+   "position": "RB",
+   "count": 2
+  },
+  {
+   "position": "WR",
+   "count": 2
+  },
+  {
+   "position": "TE",
+   "count": 1
+  },
+  {
+   "position": "FLEX",
+   "count": 1
+  },
+  {
+   "position": "K",
+   "count": 1
+  },
+  {
+   "position": "DEF",
+   "count": 1
+  },
+  {
+   "position": "BN",
+   "count": 6
+  }
+ ],
+ "teams": [
+  {
+   "team_id": 5,
+   "team_key": "1257116455862808576.5",
+   "name": "We bleed blue",
+   "manager": "keveezy",
+   "manager_guid": "sleeper:474757173759438848",
+   "wins": 11,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1823.24,
+   "points_against": 1577.52,
+   "playoff_seed": 2,
+   "rank": 1
+  },
+  {
+   "team_id": 2,
+   "team_key": "1257116455862808576.2",
+   "name": "I Gibbs the Dicker",
+   "manager": "Odeh1121",
+   "manager_guid": "sleeper:475523933588680704",
+   "wins": 12,
+   "losses": 2,
+   "ties": 0,
+   "points_for": 1773.99,
+   "points_against": 1579.12,
+   "playoff_seed": 1,
+   "rank": 2
+  },
+  {
+   "team_id": 10,
+   "team_key": "1257116455862808576.10",
+   "name": "Mac Daddy",
+   "manager": "jimbo817",
+   "manager_guid": "sleeper:1000993388889473024",
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1612.14,
+   "points_against": 1646.32,
+   "playoff_seed": 5,
+   "rank": 3
+  },
+  {
+   "team_id": 9,
+   "team_key": "1257116455862808576.9",
+   "name": "Van Jefferson III",
+   "manager": "anth0nyng",
+   "manager_guid": "sleeper:474747797476732928",
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1775.54,
+   "points_against": 1668.06,
+   "playoff_seed": 6,
+   "rank": 4
+  },
+  {
+   "team_id": 1,
+   "team_key": "1257116455862808576.1",
+   "name": "Shake 'n Blake ",
+   "manager": "bvincenttt",
+   "manager_guid": "sleeper:1000974267158200320",
+   "wins": 11,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1732.82,
+   "points_against": 1653.72,
+   "playoff_seed": 3,
+   "rank": 5
+  },
+  {
+   "team_id": 11,
+   "team_key": "1257116455862808576.11",
+   "name": "PutItOnYa",
+   "manager": "PutItOnYa",
+   "manager_guid": "sleeper:1001319142718353408",
+   "wins": 8,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1653.38,
+   "points_against": 1584.64,
+   "playoff_seed": 4,
+   "rank": 6
+  },
+  {
+   "team_id": 8,
+   "team_key": "1257116455862808576.8",
+   "name": "Knuck if U Buck",
+   "manager": "wabaki",
+   "manager_guid": "sleeper:79158635816960000",
+   "wins": 2,
+   "losses": 12,
+   "ties": 0,
+   "points_for": 1486.64,
+   "points_against": 1739.64,
+   "playoff_seed": null,
+   "rank": 7
+  },
+  {
+   "team_id": 6,
+   "team_key": "1257116455862808576.6",
+   "name": "Vegas",
+   "manager": "lmphm",
+   "manager_guid": "sleeper:611931062569877504",
+   "wins": 3,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1348.08,
+   "points_against": 1698.2,
+   "playoff_seed": null,
+   "rank": 8
+  },
+  {
+   "team_id": 12,
+   "team_key": "1257116455862808576.12",
+   "name": "Parkland Hospital",
+   "manager": "kholabear",
+   "manager_guid": "sleeper:460318625119596544",
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1524.86,
+   "points_against": 1508.38,
+   "playoff_seed": null,
+   "rank": 9
+  },
+  {
+   "team_id": 3,
+   "team_key": "1257116455862808576.3",
+   "name": "Pablo Torre Scores Out",
+   "manager": "DVTV",
+   "manager_guid": "sleeper:1000972647678697472",
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1632.2,
+   "points_against": 1472.26,
+   "playoff_seed": null,
+   "rank": 10
+  },
+  {
+   "team_id": 7,
+   "team_key": "1257116455862808576.7",
+   "name": "ABCeeDee U Lost 2 Me",
+   "manager": "oooEcho",
+   "manager_guid": "sleeper:1000975030345342976",
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1549.8,
+   "points_against": 1680.72,
+   "playoff_seed": null,
+   "rank": 11
+  },
+  {
+   "team_id": 4,
+   "team_key": "1257116455862808576.4",
+   "name": "Cee Deez Chubb in ya mouf",
+   "manager": "donblood",
+   "manager_guid": "sleeper:869705442488688640",
+   "wins": 3,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1601.08,
+   "points_against": 1705.2,
+   "playoff_seed": null,
+   "rank": 12
+  }
+ ],
+ "weeks": {
+  "1": [
+   {
+    "roster_id": 1,
+    "matchup_id": 4,
+    "points": 106.68,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 4,
+    "points": 86.64,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 97.32,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 1,
+    "points": 90.42,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 5,
+    "points": 137.82,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 94.82,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 3,
+    "points": 117.46,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 3,
+    "points": 143.16,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 6,
+    "points": 121.02,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 6,
+    "points": 113.48,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 2,
+    "points": 103.82,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 2,
+    "points": 115.82,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "2": [
+   {
+    "roster_id": 1,
+    "matchup_id": 4,
+    "points": 112.64,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 4,
+    "points": 82.02,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 115.34,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 1,
+    "points": 122.44,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 6,
+    "points": 125.88,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 6,
+    "points": 121.5,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 3,
+    "points": 136.5,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 3,
+    "points": 90.64,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 137.18,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 2,
+    "points": 121.92,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 115.9,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 5,
+    "points": 121.0,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "3": [
+   {
+    "roster_id": 1,
+    "matchup_id": 3,
+    "points": 128.14,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 3,
+    "points": 122.92,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 122.34,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 1,
+    "points": 105.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 6,
+    "points": 97.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 6,
+    "points": 105.62,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 5,
+    "points": 120.86,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 99.02,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 4,
+    "points": 82.82,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 4,
+    "points": 114.42,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 113.76,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 2,
+    "points": 112.56,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   }
+  ],
+  "4": [
+   {
+    "roster_id": 1,
+    "matchup_id": 6,
+    "points": 185.4,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 6,
+    "points": 147.2,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 130.76,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 1,
+    "points": 111.48,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 4,
+    "points": 87.62,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 95.98,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 5,
+    "points": 108.84,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 5,
+    "points": 145.36,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 111.4,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 2,
+    "points": 129.76,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 3,
+    "points": 136.32,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 140.38,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "5": [
+   {
+    "roster_id": 1,
+    "matchup_id": 6,
+    "points": 104.7,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 6,
+    "points": 158.32,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 123.18,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 1,
+    "points": 122.22,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 3,
+    "points": 107.64,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 124.18,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 2,
+    "points": 106.12,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 114.42,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 5,
+    "points": 145.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 5,
+    "points": 98.98,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 4,
+    "points": 77.34,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 157.74,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "6": [
+   {
+    "roster_id": 1,
+    "matchup_id": 2,
+    "points": 112.22,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 107.88,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 125.24,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 1,
+    "points": 111.76,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 6,
+    "points": 111.76,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 6,
+    "points": 103.7,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 5,
+    "points": 101.3,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 115.74,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 4,
+    "points": 104.14,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 98.5,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 144.1,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 3,
+    "points": 140.64,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   }
+  ],
+  "7": [
+   {
+    "roster_id": 1,
+    "matchup_id": 1,
+    "points": 100.54,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 171.46,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 5,
+    "points": 128.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 5,
+    "points": 80.84,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 3,
+    "points": 167.28,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 129.52,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 2,
+    "points": 97.76,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 109.94,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 6,
+    "points": 124.74,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 6,
+    "points": 158.96,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 4,
+    "points": 111.72,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 97.52,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   }
+  ],
+  "8": [
+   {
+    "roster_id": 1,
+    "matchup_id": 4,
+    "points": 120.72,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 88.86,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 130.72,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 1,
+    "points": 116.18,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 2,
+    "points": 135.18,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 97.46,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 5,
+    "points": 150.02,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 5,
+    "points": 65.18,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 6,
+    "points": 135.02,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 6,
+    "points": 124.92,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 3,
+    "points": 86.68,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 162.98,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "9": [
+   {
+    "roster_id": 1,
+    "matchup_id": 3,
+    "points": 139.7,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 129.28,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 85.9,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 1,
+    "points": 161.2,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 5,
+    "points": 126.66,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 5,
+    "points": 164.04,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 4,
+    "points": 79.72,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 111.4,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 105.2,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 2,
+    "points": 123.44,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 6,
+    "points": 120.46,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 6,
+    "points": 94.32,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   }
+  ],
+  "10": [
+   {
+    "roster_id": 1,
+    "matchup_id": 6,
+    "points": 133.02,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 6,
+    "points": 123.5,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 140.92,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 1,
+    "points": 104.9,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 3,
+    "points": 100.04,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 160.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 2,
+    "points": 140.7,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 82.78,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 5,
+    "points": 108.7,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 92.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 4,
+    "points": 115.24,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 89.92,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   }
+  ],
+  "11": [
+   {
+    "roster_id": 1,
+    "matchup_id": 6,
+    "points": 109.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 6,
+    "points": 109.34,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 99.02,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 1,
+    "points": 88.3,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 5,
+    "points": 97.44,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 5,
+    "points": 109.3,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 4,
+    "points": 82.62,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 121.66,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 141.74,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 2,
+    "points": 101.5,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 3,
+    "points": 115.24,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 3,
+    "points": 137.48,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "12": [
+   {
+    "roster_id": 1,
+    "matchup_id": 4,
+    "points": 136.26,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 4,
+    "points": 77.42,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 187.96,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 1,
+    "points": 129.08,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 5,
+    "points": 107.18,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 102.66,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 3,
+    "points": 110.82,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 3,
+    "points": 119.22,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 6,
+    "points": 131.12,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 6,
+    "points": 102.96,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 2,
+    "points": 97.64,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 2,
+    "points": 123.26,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "13": [
+   {
+    "roster_id": 1,
+    "matchup_id": 4,
+    "points": 130.5,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 4,
+    "points": 101.92,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 107.8,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 1,
+    "points": 88.84,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 6,
+    "points": 115.44,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 6,
+    "points": 122.22,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 3,
+    "points": 107.34,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 3,
+    "points": 110.14,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 132.24,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 2,
+    "points": 70.52,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 103.38,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 5,
+    "points": 125.94,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "14": [
+   {
+    "roster_id": 1,
+    "matchup_id": 3,
+    "points": 112.5,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 3,
+    "points": 146.96,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 136.04,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 1,
+    "points": 125.96,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 6,
+    "points": 94.94,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 6,
+    "points": 95.06,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 5,
+    "points": 114.04,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 5,
+    "points": 74.96,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 4,
+    "points": 98.68,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 4,
+    "points": 106.04,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 2,
+    "points": 76.3,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 2,
+    "points": 143.76,
+    "projected": null,
+    "is_playoffs": false,
+    "is_consolation": false,
+    "won": true
+   }
+  ],
+  "15": [
+   {
+    "roster_id": 1,
+    "matchup_id": 2,
+    "points": 96.7,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 2,
+    "points": 124.8,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 5,
+    "points": 129.56,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 5,
+    "points": 158.9,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 4,
+    "points": 134.16,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 119.54,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 1,
+    "points": 135.82,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 1,
+    "points": 90.62,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": false
+   }
+  ],
+  "16": [
+   {
+    "roster_id": 1,
+    "matchup_id": 3,
+    "points": 155.7,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 11,
+    "matchup_id": 3,
+    "points": 134.4,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 124.96,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 1,
+    "points": 123.16,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 5,
+    "points": 91.42,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": true
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 5,
+    "points": 87.28,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": false
+   },
+   {
+    "roster_id": 4,
+    "matchup_id": 6,
+    "points": 128.24,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": true
+   },
+   {
+    "roster_id": 7,
+    "matchup_id": 6,
+    "points": 102.28,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": false
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 2,
+    "points": 155.08,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 2,
+    "points": 120.16,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 4,
+    "points": 117.5,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": false
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 4,
+    "points": 137.52,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": true
+   }
+  ],
+  "17": [
+   {
+    "roster_id": 2,
+    "matchup_id": 1,
+    "points": 81.98,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 5,
+    "matchup_id": 1,
+    "points": 114.76,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": true
+   },
+   {
+    "roster_id": 3,
+    "matchup_id": 5,
+    "points": 92.78,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": true
+   },
+   {
+    "roster_id": 12,
+    "matchup_id": 5,
+    "points": 71.58,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": false
+   },
+   {
+    "roster_id": 6,
+    "matchup_id": 4,
+    "points": 115.72,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": true
+   },
+   {
+    "roster_id": 8,
+    "matchup_id": 4,
+    "points": 101.24,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": true,
+    "won": false
+   },
+   {
+    "roster_id": 9,
+    "matchup_id": 2,
+    "points": 90.1,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": false
+   },
+   {
+    "roster_id": 10,
+    "matchup_id": 2,
+    "points": 112.28,
+    "projected": null,
+    "is_playoffs": true,
+    "is_consolation": false,
+    "won": true
+   }
+  ]
+ },
+ "week_info": {
+  "1": {
+   "is_playoffs": false
+  },
+  "2": {
+   "is_playoffs": false
+  },
+  "3": {
+   "is_playoffs": false
+  },
+  "4": {
+   "is_playoffs": false
+  },
+  "5": {
+   "is_playoffs": false
+  },
+  "6": {
+   "is_playoffs": false
+  },
+  "7": {
+   "is_playoffs": false
+  },
+  "8": {
+   "is_playoffs": false
+  },
+  "9": {
+   "is_playoffs": false
+  },
+  "10": {
+   "is_playoffs": false
+  },
+  "11": {
+   "is_playoffs": false
+  },
+  "12": {
+   "is_playoffs": false
+  },
+  "13": {
+   "is_playoffs": false
+  },
+  "14": {
+   "is_playoffs": false
+  },
+  "15": {
+   "is_playoffs": true
+  },
+  "16": {
+   "is_playoffs": true
+  },
+  "17": {
+   "is_playoffs": true
+  }
+ },
+ "draft": [
+  {
+   "round": 1,
+   "pick": 1,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.7564",
+   "player": "Ja'Marr Chase",
+   "position": "WR",
+   "nfl_team": "CIN"
+  },
+  {
+   "round": 1,
+   "pick": 2,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.9509",
+   "player": "Bijan Robinson",
+   "position": "RB",
+   "nfl_team": "ATL"
+  },
+  {
+   "round": 1,
+   "pick": 3,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.4866",
+   "player": "Saquon Barkley",
+   "position": "RB",
+   "nfl_team": "PHI"
+  },
+  {
+   "round": 1,
+   "pick": 4,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.9221",
+   "player": "Jahmyr Gibbs",
+   "position": "RB",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 1,
+   "pick": 5,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.6853",
+   "player": "Van Jefferson",
+   "position": "WR",
+   "nfl_team": "TEN"
+  },
+  {
+   "round": 1,
+   "pick": 6,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.6786",
+   "player": "CeeDee Lamb",
+   "position": "WR",
+   "nfl_team": "DAL"
+  },
+  {
+   "round": 1,
+   "pick": 7,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.4034",
+   "player": "Christian McCaffrey",
+   "position": "RB",
+   "nfl_team": "SF"
+  },
+  {
+   "round": 1,
+   "pick": 8,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.3198",
+   "player": "Derrick Henry",
+   "position": "RB",
+   "nfl_team": "BAL"
+  },
+  {
+   "round": 1,
+   "pick": 9,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.7547",
+   "player": "Amon-Ra St. Brown",
+   "position": "WR",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 1,
+   "pick": 10,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.9493",
+   "player": "Puka Nacua",
+   "position": "WR",
+   "nfl_team": "LAR"
+  },
+  {
+   "round": 1,
+   "pick": 11,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.9226",
+   "player": "De'Von Achane",
+   "position": "RB",
+   "nfl_team": "MIA"
+  },
+  {
+   "round": 1,
+   "pick": 12,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.6794",
+   "player": "Justin Jefferson",
+   "position": "WR",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 2,
+   "pick": 13,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.11632",
+   "player": "Malik Nabers",
+   "position": "WR",
+   "nfl_team": "NYG"
+  },
+  {
+   "round": 2,
+   "pick": 14,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.5850",
+   "player": "Josh Jacobs",
+   "position": "RB",
+   "nfl_team": "GB"
+  },
+  {
+   "round": 2,
+   "pick": 15,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.12527",
+   "player": "Ashton Jeanty",
+   "position": "RB",
+   "nfl_team": "LV"
+  },
+  {
+   "round": 2,
+   "pick": 16,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.5859",
+   "player": "A.J. Brown",
+   "position": "WR",
+   "nfl_team": "PHI"
+  },
+  {
+   "round": 2,
+   "pick": 17,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.11631",
+   "player": "Brian Thomas",
+   "position": "WR",
+   "nfl_team": "JAX"
+  },
+  {
+   "round": 2,
+   "pick": 18,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.6813",
+   "player": "Jonathan Taylor",
+   "position": "RB",
+   "nfl_team": "IND"
+  },
+  {
+   "round": 2,
+   "pick": 19,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.7569",
+   "player": "Nico Collins",
+   "position": "WR",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 2,
+   "pick": 20,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.8112",
+   "player": "Drake London",
+   "position": "WR",
+   "nfl_team": "ATL"
+  },
+  {
+   "round": 2,
+   "pick": 21,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.11635",
+   "player": "Ladd McConkey",
+   "position": "WR",
+   "nfl_team": "LAC"
+  },
+  {
+   "round": 2,
+   "pick": 22,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.9224",
+   "player": "Chase Brown",
+   "position": "RB",
+   "nfl_team": "CIN"
+  },
+  {
+   "round": 2,
+   "pick": 23,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.8150",
+   "player": "Kyren Williams",
+   "position": "RB",
+   "nfl_team": "LAR"
+  },
+  {
+   "round": 2,
+   "pick": 24,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.11604",
+   "player": "Brock Bowers",
+   "position": "TE",
+   "nfl_team": "LV"
+  },
+  {
+   "round": 3,
+   "pick": 25,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.7594",
+   "player": "Chuba Hubbard",
+   "position": "RB",
+   "nfl_team": "CAR"
+  },
+  {
+   "round": 3,
+   "pick": 26,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.2216",
+   "player": "Mike Evans",
+   "position": "WR",
+   "nfl_team": "TB"
+  },
+  {
+   "round": 3,
+   "pick": 27,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.4881",
+   "player": "Lamar Jackson",
+   "position": "QB",
+   "nfl_team": "BAL"
+  },
+  {
+   "round": 3,
+   "pick": 28,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.8138",
+   "player": "James Cook",
+   "position": "RB",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 3,
+   "pick": 29,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.11584",
+   "player": "Bucky Irving",
+   "position": "RB",
+   "nfl_team": "TB"
+  },
+  {
+   "round": 3,
+   "pick": 30,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.4035",
+   "player": "Alvin Kamara",
+   "position": "RB",
+   "nfl_team": "NO"
+  },
+  {
+   "round": 3,
+   "pick": 31,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.3321",
+   "player": "Tyreek Hill",
+   "position": "WR",
+   "nfl_team": "MIA"
+  },
+  {
+   "round": 3,
+   "pick": 32,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.4984",
+   "player": "Josh Allen",
+   "position": "QB",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 3,
+   "pick": 33,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.8151",
+   "player": "Kenneth Walker",
+   "position": "RB",
+   "nfl_team": "SEA"
+  },
+  {
+   "round": 3,
+   "pick": 34,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.6904",
+   "player": "Jalen Hurts",
+   "position": "QB",
+   "nfl_team": "PHI"
+  },
+  {
+   "round": 3,
+   "pick": 35,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.8130",
+   "player": "Trey McBride",
+   "position": "TE",
+   "nfl_team": "ARI"
+  },
+  {
+   "round": 3,
+   "pick": 36,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.9488",
+   "player": "Jaxon Smith-Njigba",
+   "position": "WR",
+   "nfl_team": "SEA"
+  },
+  {
+   "round": 4,
+   "pick": 37,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.4217",
+   "player": "George Kittle",
+   "position": "TE",
+   "nfl_team": "SF"
+  },
+  {
+   "round": 4,
+   "pick": 38,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.6801",
+   "player": "Tee Higgins",
+   "position": "WR",
+   "nfl_team": "CIN"
+  },
+  {
+   "round": 4,
+   "pick": 39,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.8155",
+   "player": "Breece Hall",
+   "position": "RB",
+   "nfl_team": "NYJ"
+  },
+  {
+   "round": 4,
+   "pick": 40,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.4137",
+   "player": "James Conner",
+   "position": "RB",
+   "nfl_team": "ARI"
+  },
+  {
+   "round": 4,
+   "pick": 41,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.12507",
+   "player": "Omarion Hampton",
+   "position": "RB",
+   "nfl_team": "LAC"
+  },
+  {
+   "round": 4,
+   "pick": 42,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.11628",
+   "player": "Marvin Harrison",
+   "position": "WR",
+   "nfl_team": "ARI"
+  },
+  {
+   "round": 4,
+   "pick": 43,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.5927",
+   "player": "Terry McLaurin",
+   "position": "WR",
+   "nfl_team": "WAS"
+  },
+  {
+   "round": 4,
+   "pick": 44,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.11566",
+   "player": "Jayden Daniels",
+   "position": "QB",
+   "nfl_team": "WAS"
+  },
+  {
+   "round": 4,
+   "pick": 45,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.5846",
+   "player": "DK Metcalf",
+   "position": "WR",
+   "nfl_team": "PIT"
+  },
+  {
+   "round": 4,
+   "pick": 46,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.2133",
+   "player": "Davante Adams",
+   "position": "WR",
+   "nfl_team": "LAR"
+  },
+  {
+   "round": 4,
+   "pick": 47,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.11624",
+   "player": "Xavier Worthy",
+   "position": "WR",
+   "nfl_team": "KC"
+  },
+  {
+   "round": 4,
+   "pick": 48,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.12529",
+   "player": "TreVeyon Henderson",
+   "position": "RB",
+   "nfl_team": "NE"
+  },
+  {
+   "round": 5,
+   "pick": 49,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.12489",
+   "player": "RJ Harvey",
+   "position": "RB",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 5,
+   "pick": 50,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.10859",
+   "player": "Sam LaPorta",
+   "position": "TE",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 5,
+   "pick": 51,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.8146",
+   "player": "Garrett Wilson",
+   "position": "WR",
+   "nfl_team": "NYJ"
+  },
+  {
+   "round": 5,
+   "pick": 52,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.5844",
+   "player": "T.J. Hockenson",
+   "position": "TE",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 5,
+   "pick": 53,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.4983",
+   "player": "DJ Moore",
+   "position": "WR",
+   "nfl_team": "CHI"
+  },
+  {
+   "round": 5,
+   "pick": 54,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.8205",
+   "player": "Isiah Pacheco",
+   "position": "RB",
+   "nfl_team": "KC"
+  },
+  {
+   "round": 5,
+   "pick": 55,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.6790",
+   "player": "D'Andre Swift",
+   "position": "RB",
+   "nfl_team": "CHI"
+  },
+  {
+   "round": 5,
+   "pick": 56,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.5045",
+   "player": "Courtland Sutton",
+   "position": "WR",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 5,
+   "pick": 57,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.1466",
+   "player": "Travis Kelce",
+   "position": "TE",
+   "nfl_team": "KC"
+  },
+  {
+   "round": 5,
+   "pick": 58,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.5892",
+   "player": "David Montgomery",
+   "position": "RB",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 5,
+   "pick": 59,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.6770",
+   "player": "Joe Burrow",
+   "position": "QB",
+   "nfl_team": "CIN"
+  },
+  {
+   "round": 5,
+   "pick": 60,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.12504",
+   "player": "Kaleb Johnson",
+   "position": "RB",
+   "nfl_team": "PIT"
+  },
+  {
+   "round": 6,
+   "pick": 61,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.5967",
+   "player": "Tony Pollard",
+   "position": "RB",
+   "nfl_team": "TEN"
+  },
+  {
+   "round": 6,
+   "pick": 62,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.9997",
+   "player": "Zay Flowers",
+   "position": "WR",
+   "nfl_team": "BAL"
+  },
+  {
+   "round": 6,
+   "pick": 63,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.8137",
+   "player": "George Pickens",
+   "position": "WR",
+   "nfl_team": "DAL"
+  },
+  {
+   "round": 6,
+   "pick": 64,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.4046",
+   "player": "Patrick Mahomes",
+   "position": "QB",
+   "nfl_team": "KC"
+  },
+  {
+   "round": 6,
+   "pick": 65,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.12526",
+   "player": "Tetairoa McMillan",
+   "position": "WR",
+   "nfl_team": "CAR"
+  },
+  {
+   "round": 6,
+   "pick": 66,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.4981",
+   "player": "Calvin Ridley",
+   "position": "WR",
+   "nfl_team": "TEN"
+  },
+  {
+   "round": 6,
+   "pick": 67,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.11563",
+   "player": "Bo Nix",
+   "position": "QB",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 6,
+   "pick": 68,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.11655",
+   "player": "Tyrone Tracy",
+   "position": "RB",
+   "nfl_team": "NYG"
+  },
+  {
+   "round": 6,
+   "pick": 69,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.7525",
+   "player": "DeVonta Smith",
+   "position": "WR",
+   "nfl_team": "PHI"
+  },
+  {
+   "round": 6,
+   "pick": 70,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.8148",
+   "player": "Jameson Williams",
+   "position": "WR",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 6,
+   "pick": 71,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.4892",
+   "player": "Baker Mayfield",
+   "position": "QB",
+   "nfl_team": "TB"
+  },
+  {
+   "round": 6,
+   "pick": 72,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.12514",
+   "player": "Emeka Egbuka",
+   "position": "WR",
+   "nfl_team": "TB"
+  },
+  {
+   "round": 7,
+   "pick": 73,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.11638",
+   "player": "Ricky Pearsall",
+   "position": "WR",
+   "nfl_team": "SF"
+  },
+  {
+   "round": 7,
+   "pick": 74,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.10229",
+   "player": "Rashee Rice",
+   "position": "WR",
+   "nfl_team": "KC"
+  },
+  {
+   "round": 7,
+   "pick": 75,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.2309",
+   "player": "Amari Cooper",
+   "position": "WR",
+   "nfl_team": "LV"
+  },
+  {
+   "round": 7,
+   "pick": 76,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.3294",
+   "player": "Dak Prescott",
+   "position": "QB",
+   "nfl_team": "DAL"
+  },
+  {
+   "round": 7,
+   "pick": 77,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.4199",
+   "player": "Aaron Jones",
+   "position": "RB",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 7,
+   "pick": 78,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.4066",
+   "player": "Evan Engram",
+   "position": "TE",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 7,
+   "pick": 79,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.12530",
+   "player": "Travis Hunter",
+   "position": "WR",
+   "nfl_team": "JAX"
+  },
+  {
+   "round": 7,
+   "pick": 80,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.8144",
+   "player": "Chris Olave",
+   "position": "WR",
+   "nfl_team": "NO"
+  },
+  {
+   "round": 7,
+   "pick": 81,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.6783",
+   "player": "Jerry Jeudy",
+   "position": "WR",
+   "nfl_team": "CLE"
+  },
+  {
+   "round": 7,
+   "pick": 82,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.5012",
+   "player": "Mark Andrews",
+   "position": "TE",
+   "nfl_team": "BAL"
+  },
+  {
+   "round": 7,
+   "pick": 83,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.7526",
+   "player": "Jaylen Waddle",
+   "position": "WR",
+   "nfl_team": "MIA"
+  },
+  {
+   "round": 7,
+   "pick": 84,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.8408",
+   "player": "Jordan Mason",
+   "position": "RB",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 8,
+   "pick": 85,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.8228",
+   "player": "Jaylen Warren",
+   "position": "RB",
+   "nfl_team": "PIT"
+  },
+  {
+   "round": 8,
+   "pick": 86,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.4033",
+   "player": "David Njoku",
+   "position": "TE",
+   "nfl_team": "CLE"
+  },
+  {
+   "round": 8,
+   "pick": 87,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.11620",
+   "player": "Rome Odunze",
+   "position": "WR",
+   "nfl_team": "CHI"
+  },
+  {
+   "round": 8,
+   "pick": 88,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.2449",
+   "player": "Stefon Diggs",
+   "position": "WR",
+   "nfl_team": "NE"
+  },
+  {
+   "round": 8,
+   "pick": 89,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.12518",
+   "player": "Tyler Warren",
+   "position": "TE",
+   "nfl_team": "IND"
+  },
+  {
+   "round": 8,
+   "pick": 90,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.5849",
+   "player": "Kyler Murray",
+   "position": "QB",
+   "nfl_team": "ARI"
+  },
+  {
+   "round": 8,
+   "pick": 91,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.5947",
+   "player": "Jakobi Meyers",
+   "position": "WR",
+   "nfl_team": "LV"
+  },
+  {
+   "round": 8,
+   "pick": 92,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.12501",
+   "player": "Matthew Golden",
+   "position": "WR",
+   "nfl_team": "GB"
+  },
+  {
+   "round": 8,
+   "pick": 93,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.8110",
+   "player": "Jake Ferguson",
+   "position": "TE",
+   "nfl_team": "DAL"
+  },
+  {
+   "round": 8,
+   "pick": 94,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.4663",
+   "player": "Austin Ekeler",
+   "position": "RB",
+   "nfl_team": "WAS"
+  },
+  {
+   "round": 8,
+   "pick": 95,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.12481",
+   "player": "Cam Skattebo",
+   "position": "RB",
+   "nfl_team": "NYG"
+  },
+  {
+   "round": 8,
+   "pick": 96,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.7049",
+   "player": "Jauan Jennings",
+   "position": "WR",
+   "nfl_team": "SF"
+  },
+  {
+   "round": 9,
+   "pick": 97,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.8134",
+   "player": "Khalil Shakir",
+   "position": "WR",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 9,
+   "pick": 98,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.5872",
+   "player": "Deebo Samuel",
+   "position": "WR",
+   "nfl_team": "WAS"
+  },
+  {
+   "round": 9,
+   "pick": 99,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.4018",
+   "player": "Joe Mixon",
+   "position": "RB",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 9,
+   "pick": 100,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.4039",
+   "player": "Cooper Kupp",
+   "position": "WR",
+   "nfl_team": "SEA"
+  },
+  {
+   "round": 9,
+   "pick": 101,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.7543",
+   "player": "Travis Etienne",
+   "position": "RB",
+   "nfl_team": "JAX"
+  },
+  {
+   "round": 9,
+   "pick": 102,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.9753",
+   "player": "Zach Charbonnet",
+   "position": "RB",
+   "nfl_team": "SEA"
+  },
+  {
+   "round": 9,
+   "pick": 103,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.7553",
+   "player": "Kyle Pitts",
+   "position": "TE",
+   "nfl_team": "ATL"
+  },
+  {
+   "round": 9,
+   "pick": 104,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.12512",
+   "player": "Quinshon Judkins",
+   "position": "RB",
+   "nfl_team": "CLE"
+  },
+  {
+   "round": 9,
+   "pick": 105,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.4988",
+   "player": "Nick Chubb",
+   "position": "RB",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 9,
+   "pick": 106,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.PHI",
+   "player": "Philadelphia Eagles",
+   "position": "DEF",
+   "nfl_team": "PHI"
+  },
+  {
+   "round": 9,
+   "pick": 107,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.6819",
+   "player": "Michael Pittman",
+   "position": "WR",
+   "nfl_team": "IND"
+  },
+  {
+   "round": 9,
+   "pick": 108,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.12533",
+   "player": "Jacory Croskey-Merritt",
+   "position": "RB",
+   "nfl_team": "WAS"
+  },
+  {
+   "round": 10,
+   "pick": 109,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.7588",
+   "player": "Javonte Williams",
+   "position": "RB",
+   "nfl_team": "DAL"
+  },
+  {
+   "round": 10,
+   "pick": 110,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.6806",
+   "player": "J.K. Dobbins",
+   "position": "RB",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 10,
+   "pick": 111,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.11533",
+   "player": "Brandon Aubrey",
+   "position": "K",
+   "nfl_team": "DAL"
+  },
+  {
+   "round": 10,
+   "pick": 112,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.12457",
+   "player": "Jaydon Blue",
+   "position": "RB",
+   "nfl_team": "DAL"
+  },
+  {
+   "round": 10,
+   "pick": 113,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.1689",
+   "player": "Adam Thielen",
+   "position": "WR",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 10,
+   "pick": 114,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.7611",
+   "player": "Rhamondre Stevenson",
+   "position": "RB",
+   "nfl_team": "NE"
+  },
+  {
+   "round": 10,
+   "pick": 115,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.10222",
+   "player": "Jayden Reed",
+   "position": "WR",
+   "nfl_team": "GB"
+  },
+  {
+   "round": 10,
+   "pick": 116,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.8154",
+   "player": "Brian Robinson",
+   "position": "RB",
+   "nfl_team": "SF"
+  },
+  {
+   "round": 10,
+   "pick": 117,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.9225",
+   "player": "Tank Bigsby",
+   "position": "RB",
+   "nfl_team": "JAX"
+  },
+  {
+   "round": 10,
+   "pick": 118,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.12517",
+   "player": "Colston Loveland",
+   "position": "TE",
+   "nfl_team": "CHI"
+  },
+  {
+   "round": 10,
+   "pick": 119,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.BAL",
+   "player": "Baltimore Ravens",
+   "position": "DEF",
+   "nfl_team": "BAL"
+  },
+  {
+   "round": 10,
+   "pick": 120,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.8676",
+   "player": "Rashid Shaheed",
+   "position": "WR",
+   "nfl_team": "NO"
+  },
+  {
+   "round": 11,
+   "pick": 121,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.12541",
+   "player": "Dont'e Thornton",
+   "position": "WR",
+   "nfl_team": "LV"
+  },
+  {
+   "round": 11,
+   "pick": 122,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.10236",
+   "player": "Dalton Kincaid",
+   "position": "TE",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 11,
+   "pick": 123,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.11539",
+   "player": "Jake Bates",
+   "position": "K",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 11,
+   "pick": 124,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.8259",
+   "player": "Cameron Dicker",
+   "position": "K",
+   "nfl_team": "LAC"
+  },
+  {
+   "round": 11,
+   "pick": 125,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.9484",
+   "player": "Tucker Kraft",
+   "position": "TE",
+   "nfl_team": "GB"
+  },
+  {
+   "round": 11,
+   "pick": 126,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.DEN",
+   "player": "Denver Broncos",
+   "position": "DEF",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 11,
+   "pick": 127,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.9500",
+   "player": "Josh Downs",
+   "position": "WR",
+   "nfl_team": "IND"
+  },
+  {
+   "round": 11,
+   "pick": 128,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.1945",
+   "player": "Chris Boswell",
+   "position": "K",
+   "nfl_team": "PIT"
+  },
+  {
+   "round": 11,
+   "pick": 129,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.4195",
+   "player": "Jake Elliott",
+   "position": "K",
+   "nfl_team": "PHI"
+  },
+  {
+   "round": 11,
+   "pick": 130,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.4037",
+   "player": "Chris Godwin",
+   "position": "WR",
+   "nfl_team": "TB"
+  },
+  {
+   "round": 11,
+   "pick": 131,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.8183",
+   "player": "Brock Purdy",
+   "position": "QB",
+   "nfl_team": "SF"
+  },
+  {
+   "round": 11,
+   "pick": 132,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.9756",
+   "player": "Jordan Addison",
+   "position": "WR",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 12,
+   "pick": 133,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.11589",
+   "player": "Trey Benson",
+   "position": "RB",
+   "nfl_team": "ARI"
+  },
+  {
+   "round": 12,
+   "pick": 134,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.8143",
+   "player": "Jerome Ford",
+   "position": "RB",
+   "nfl_team": "CLE"
+  },
+  {
+   "round": 12,
+   "pick": 135,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.11637",
+   "player": "Keon Coleman",
+   "position": "WR",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 12,
+   "pick": 136,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.PIT",
+   "player": "Pittsburgh Steelers",
+   "position": "DEF",
+   "nfl_team": "PIT"
+  },
+  {
+   "round": 12,
+   "pick": 137,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.12484",
+   "player": "Jayden Higgins",
+   "position": "WR",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 12,
+   "pick": 138,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.3451",
+   "player": "Ka'imi Fairbairn",
+   "position": "K",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 12,
+   "pick": 139,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.9758",
+   "player": "C.J. Stroud",
+   "position": "QB",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 12,
+   "pick": 140,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.BUF",
+   "player": "Buffalo Bills",
+   "position": "DEF",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 12,
+   "pick": 141,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.9494",
+   "player": "Marvin Mims",
+   "position": "WR",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 12,
+   "pick": 142,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.DET",
+   "player": "Detroit Lions",
+   "position": "DEF",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 12,
+   "pick": 143,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.12495",
+   "player": "Ollie Gordon",
+   "position": "RB",
+   "nfl_team": "MIA"
+  },
+  {
+   "round": 12,
+   "pick": 144,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.11576",
+   "player": "Braelon Allen",
+   "position": "RB",
+   "nfl_team": "NYJ"
+  },
+  {
+   "round": 13,
+   "pick": 145,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.6797",
+   "player": "Justin Herbert",
+   "position": "QB",
+   "nfl_team": "LAC"
+  },
+  {
+   "round": 13,
+   "pick": 146,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.4666",
+   "player": "Younghoe Koo",
+   "position": "K",
+   "nfl_team": "ATL"
+  },
+  {
+   "round": 13,
+   "pick": 147,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.5022",
+   "player": "Dallas Goedert",
+   "position": "TE",
+   "nfl_team": "PHI"
+  },
+  {
+   "round": 13,
+   "pick": 148,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.MIN",
+   "player": "Minnesota Vikings",
+   "position": "DEF",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 13,
+   "pick": 149,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.1479",
+   "player": "Keenan Allen",
+   "position": "WR",
+   "nfl_team": "LAC"
+  },
+  {
+   "round": 13,
+   "pick": 150,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.4227",
+   "player": "Harrison Butker",
+   "position": "K",
+   "nfl_team": "KC"
+  },
+  {
+   "round": 13,
+   "pick": 151,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.6803",
+   "player": "Brandon Aiyuk",
+   "position": "WR",
+   "nfl_team": "SF"
+  },
+  {
+   "round": 13,
+   "pick": 152,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.11575",
+   "player": "Ray Davis",
+   "position": "RB",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 13,
+   "pick": 153,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.7090",
+   "player": "Darnell Mooney",
+   "position": "WR",
+   "nfl_team": "ATL"
+  },
+  {
+   "round": 13,
+   "pick": 154,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.7528",
+   "player": "Najee Harris",
+   "position": "RB",
+   "nfl_team": "LAC"
+  },
+  {
+   "round": 13,
+   "pick": 155,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.11626",
+   "player": "Xavier Legette",
+   "position": "WR",
+   "nfl_team": "CAR"
+  },
+  {
+   "round": 13,
+   "pick": 156,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.11565",
+   "player": "J.J. McCarthy",
+   "position": "QB",
+   "nfl_team": "MIN"
+  },
+  {
+   "round": 14,
+   "pick": 157,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.3678",
+   "player": "Wil Lutz",
+   "position": "K",
+   "nfl_team": "DEN"
+  },
+  {
+   "round": 14,
+   "pick": 158,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.6650",
+   "player": "Chase McLaughlin",
+   "position": "K",
+   "nfl_team": "TB"
+  },
+  {
+   "round": 14,
+   "pick": 159,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.1339",
+   "player": "Zach Ertz",
+   "position": "TE",
+   "nfl_team": "WAS"
+  },
+  {
+   "round": 14,
+   "pick": 160,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.3214",
+   "player": "Hunter Henry",
+   "position": "TE",
+   "nfl_team": "NE"
+  },
+  {
+   "round": 14,
+   "pick": 161,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.6804",
+   "player": "Jordan Love",
+   "position": "QB",
+   "nfl_team": "GB"
+  },
+  {
+   "round": 14,
+   "pick": 162,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.9508",
+   "player": "Tyjae Spears",
+   "position": "RB",
+   "nfl_team": "TEN"
+  },
+  {
+   "round": 14,
+   "pick": 163,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.8136",
+   "player": "Rachaad White",
+   "position": "RB",
+   "nfl_team": "TB"
+  },
+  {
+   "round": 14,
+   "pick": 164,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.7839",
+   "player": "Evan McPherson",
+   "position": "K",
+   "nfl_team": "CIN"
+  },
+  {
+   "round": 14,
+   "pick": 165,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.4950",
+   "player": "Christian Kirk",
+   "position": "WR",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 14,
+   "pick": 166,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.7670",
+   "player": "Joshua Palmer",
+   "position": "WR",
+   "nfl_team": "BUF"
+  },
+  {
+   "round": 14,
+   "pick": 167,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.7571",
+   "player": "Rashod Bateman",
+   "position": "WR",
+   "nfl_team": "BAL"
+  },
+  {
+   "round": 14,
+   "pick": 168,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.11786",
+   "player": "Cam Little",
+   "position": "K",
+   "nfl_team": "JAX"
+  },
+  {
+   "round": 15,
+   "pick": 169,
+   "team_id": 3,
+   "cost": null,
+   "player_key": "sleeper.p.GB",
+   "player": "Green Bay Packers",
+   "position": "DEF",
+   "nfl_team": "GB"
+  },
+  {
+   "round": 15,
+   "pick": 170,
+   "team_id": 10,
+   "cost": null,
+   "player_key": "sleeper.p.3163",
+   "player": "Jared Goff",
+   "position": "QB",
+   "nfl_team": "DET"
+  },
+  {
+   "round": 15,
+   "pick": 171,
+   "team_id": 4,
+   "cost": null,
+   "player_key": "sleeper.p.7591",
+   "player": "Justin Fields",
+   "position": "QB",
+   "nfl_team": "NYJ"
+  },
+  {
+   "round": 15,
+   "pick": 172,
+   "team_id": 2,
+   "cost": null,
+   "player_key": "sleeper.p.7523",
+   "player": "Trevor Lawrence",
+   "position": "QB",
+   "nfl_team": "JAX"
+  },
+  {
+   "round": 15,
+   "pick": 173,
+   "team_id": 8,
+   "cost": null,
+   "player_key": "sleeper.p.12522",
+   "player": "Cam Ward",
+   "position": "QB",
+   "nfl_team": "TEN"
+  },
+  {
+   "round": 15,
+   "pick": 174,
+   "team_id": 6,
+   "cost": null,
+   "player_key": "sleeper.p.4144",
+   "player": "Jonnu Smith",
+   "position": "TE",
+   "nfl_team": "PIT"
+  },
+  {
+   "round": 15,
+   "pick": 175,
+   "team_id": 5,
+   "cost": null,
+   "player_key": "sleeper.p.HOU",
+   "player": "Houston Texans",
+   "position": "DEF",
+   "nfl_team": "HOU"
+  },
+  {
+   "round": 15,
+   "pick": 176,
+   "team_id": 11,
+   "cost": null,
+   "player_key": "sleeper.p.ARI",
+   "player": "Arizona Cardinals",
+   "position": "DEF",
+   "nfl_team": "ARI"
+  },
+  {
+   "round": 15,
+   "pick": 177,
+   "team_id": 7,
+   "cost": null,
+   "player_key": "sleeper.p.12499",
+   "player": "Elic Ayomanor",
+   "position": "WR",
+   "nfl_team": "TEN"
+  },
+  {
+   "round": 15,
+   "pick": 178,
+   "team_id": 1,
+   "cost": null,
+   "player_key": "sleeper.p.11560",
+   "player": "Caleb Williams",
+   "position": "QB",
+   "nfl_team": "CHI"
+  },
+  {
+   "round": 15,
+   "pick": 179,
+   "team_id": 9,
+   "cost": null,
+   "player_key": "sleeper.p.WAS",
+   "player": "Washington Commanders",
+   "position": "DEF",
+   "nfl_team": "WAS"
+  },
+  {
+   "round": 15,
+   "pick": 180,
+   "team_id": 12,
+   "cost": null,
+   "player_key": "sleeper.p.KC",
+   "player": "Kansas City Chiefs",
+   "position": "DEF",
+   "nfl_team": "KC"
+  }
+ ]
+}

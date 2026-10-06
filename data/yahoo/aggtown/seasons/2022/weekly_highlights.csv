@@ -1,0 +1,18 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2022,1,False,Kevin D,159.86,Ramzi,95.76,Don over Ahmad by 2.8,Muso (Lan Doan) over Jimmy by 28.5
+2022,2,False,Don,154.02,Daniel Vu,75.78,Don over Ramzi by 4.54,mrlampham over Daniel Vu by 35.54
+2022,3,False,mrlampham,148.3,Anthony,56.96,Kevin D over Ramzi by 10.74,Khoa over Anthony by 60.2
+2022,4,False,Anthony,170.28,Jimmy,75.02,Muso (Lan Doan) over Ramzi by 6.96,Ahmad over Jimmy by 75.36
+2022,5,False,Daniel Vu,155.16,Jimmy,77.14,mrlampham over Don by 9.8,Blake over Jimmy by 51.08
+2022,6,False,Blake,129.02,Jimmy,90.44,Khoa over Kevin D by 1.4,Blake over Anthony by 29.54
+2022,7,False,Ahmad,165.64,mrlampham,70.94,Kevin D over Daniel Vu by 3.4,Blake over Alex by 45.0
+2022,8,False,mrlampham,169.2,Muso (Lan Doan),92.54,mrlampham over Alex by 2.42,Ramzi over Blake by 41.76
+2022,9,False,mrlampham,165.22,Jimmy,71.88,Khoa over Daniel Vu by 1.52,Muso (Lan Doan) over Ahmad by 43.1
+2022,10,False,Khoa,161.38,Kevin D,84.44,Don over Daniel Vu by 0.98,Khoa over Ahmad by 70.62
+2022,11,False,Ahmad,178.8,Ramzi,35.1,Blake over Khoa by 6.02,Anthony over Ramzi by 97.82
+2022,12,False,Muso (Lan Doan),142.0,Blake,91.36,Anthony over Kevin D by 12.22,Muso (Lan Doan) over Jimmy by 44.94
+2022,13,False,Muso (Lan Doan),174.22,Don,63.94,Blake over Ahmad by 12.44,Muso (Lan Doan) over Anthony by 71.42
+2022,14,False,mrlampham,143.38,Anthony,85.56,Daniel Vu over Jimmy by 2.78,mrlampham over Ahmad by 50.72
+2022,15,True,Ahmad,133.0,Don,97.4,Ramzi over Anthony by 6.94,Muso (Lan Doan) over Alex by 13.3
+2022,16,True,Ramzi,135.3,Don,75.06,Muso (Lan Doan) over Khoa by 7.9,Alex over Don by 34.94
+2022,17,True,Ramzi,123.12,mrlampham,71.1,Khoa over mrlampham by 3.6,Ramzi over Ahmad by 31.32

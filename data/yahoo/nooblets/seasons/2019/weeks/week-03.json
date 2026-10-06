@@ -1,0 +1,270 @@
+{
+ "season": 2019,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Champ is here",
+     "manager": "Kevin D",
+     "points": 137.82,
+     "projected": 137.21,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Jigs",
+     "manager": "Justin",
+     "points": 121.48,
+     "projected": 134.35,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "TheYayThatGotAway",
+     "manager": "Alex",
+     "points": 160.02,
+     "projected": 126.78,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "Houston drivers",
+     "manager": "mrlampham",
+     "points": 79.22,
+     "projected": 120.99,
+     "won": false
+    }
+   ],
+   "winner": "Alex"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Princess Jelly",
+     "manager": "Anthony",
+     "points": 118.24,
+     "projected": 135.02,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Is This Chris Lake?",
+     "manager": "Jason",
+     "points": 137.5,
+     "projected": 133.53,
+     "won": true
+    }
+   ],
+   "winner": "Jason"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "FREE WIN",
+     "manager": "Dexter",
+     "points": 123.14,
+     "projected": 135.35,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Poopoo Philly Co. \ud83c\udf2f",
+     "manager": "Don",
+     "points": 134.26,
+     "projected": 137.87,
+     "won": true
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "HOUSE YCK",
+     "manager": "Tommy",
+     "points": 143.86,
+     "projected": 132.11,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "Wtf am I doing here",
+     "manager": "An",
+     "points": 143.72,
+     "projected": 133.91,
+     "won": false
+    }
+   ],
+   "winner": "Tommy"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Alex",
+   "team": "TheYayThatGotAway",
+   "points": 160.02
+  },
+  "low_score": {
+   "manager": "mrlampham",
+   "team": "Houston drivers",
+   "points": 79.22
+  },
+  "closest_game": {
+   "winner": "Tommy",
+   "winner_points": 143.86,
+   "loser": "An",
+   "loser_points": 143.72,
+   "margin": 0.14
+  },
+  "biggest_blowout": {
+   "winner": "Alex",
+   "winner_points": 160.02,
+   "loser": "mrlampham",
+   "loser_points": 79.22,
+   "margin": 80.8
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Tommy",
+   "team": "HOUSE YCK",
+   "record": "3-0",
+   "points_for": 398.6,
+   "points_against": 380.98,
+   "streak": "W3",
+   "week_points": 143.86,
+   "week_result": "W",
+   "opponent": "An"
+  },
+  {
+   "rank": 2,
+   "manager": "An",
+   "team": "Wtf am I doing here",
+   "record": "2-1",
+   "points_for": 434.38,
+   "points_against": 351.58,
+   "streak": "L1",
+   "week_points": 143.72,
+   "week_result": "L",
+   "opponent": "Tommy"
+  },
+  {
+   "rank": 3,
+   "manager": "Alex",
+   "team": "TheYayThatGotAway",
+   "record": "2-1",
+   "points_for": 403.54,
+   "points_against": 319.42,
+   "streak": "W1",
+   "week_points": 160.02,
+   "week_result": "W",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 4,
+   "manager": "Kevin D",
+   "team": "Champ is here",
+   "record": "2-1",
+   "points_for": 389.4,
+   "points_against": 388.7,
+   "streak": "W2",
+   "week_points": 137.82,
+   "week_result": "W",
+   "opponent": "Justin"
+  },
+  {
+   "rank": 5,
+   "manager": "Don",
+   "team": "Poopoo Philly Co. \ud83c\udf2f",
+   "record": "2-1",
+   "points_for": 358.5,
+   "points_against": 363.36,
+   "streak": "W1",
+   "week_points": 134.26,
+   "week_result": "W",
+   "opponent": "Dexter"
+  },
+  {
+   "rank": 6,
+   "manager": "Anthony",
+   "team": "Princess Jelly",
+   "record": "1-2",
+   "points_for": 380.94,
+   "points_against": 357.46,
+   "streak": "L1",
+   "week_points": 118.24,
+   "week_result": "L",
+   "opponent": "Jason"
+  },
+  {
+   "rank": 7,
+   "manager": "Jason",
+   "team": "Is This Chris Lake?",
+   "record": "1-2",
+   "points_for": 377.58,
+   "points_against": 391.34,
+   "streak": "W1",
+   "week_points": 137.5,
+   "week_result": "W",
+   "opponent": "Anthony"
+  },
+  {
+   "rank": 8,
+   "manager": "Justin",
+   "team": "Jigs",
+   "record": "1-2",
+   "points_for": 353.56,
+   "points_against": 368.7,
+   "streak": "L1",
+   "week_points": 121.48,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 9,
+   "manager": "mrlampham",
+   "team": "Houston drivers",
+   "record": "1-2",
+   "points_for": 311.98,
+   "points_against": 434.96,
+   "streak": "L2",
+   "week_points": 79.22,
+   "week_result": "L",
+   "opponent": "Alex"
+  },
+  {
+   "rank": 10,
+   "manager": "Dexter",
+   "team": "FREE WIN",
+   "record": "0-3",
+   "points_for": 377.6,
+   "points_against": 429.58,
+   "streak": "L3",
+   "week_points": 123.14,
+   "week_result": "L",
+   "opponent": "Don"
+  }
+ ]
+}

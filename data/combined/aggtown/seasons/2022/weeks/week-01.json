@@ -1,0 +1,317 @@
+{
+ "season": 2022,
+ "week": 1,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Wolf of Waller Street",
+     "manager": "donblood",
+     "points": 123.02,
+     "projected": 127.61,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "The Adam's Family",
+     "manager": "Odeh1121",
+     "points": 120.22,
+     "projected": 124.95,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Aaron Earned an Iron Urn",
+     "manager": "jimbo817",
+     "points": 98.4,
+     "projected": 120.95,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "KissMahomies",
+     "manager": "wabaki (Lan Doan)",
+     "points": 126.9,
+     "projected": 127.2,
+     "won": true
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Cancun Booking Agency",
+     "manager": "kholabear",
+     "points": 103.1,
+     "projected": 122.3,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 122.92,
+     "projected": 132.52,
+     "won": true
+    }
+   ],
+   "winner": "lmphm"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "King Koopa",
+     "manager": "ramzz",
+     "points": 95.76,
+     "projected": 128.78,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+     "manager": "PutItOnYa",
+     "points": 103.0,
+     "projected": 131.93,
+     "won": true
+    }
+   ],
+   "winner": "PutItOnYa"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Princess Jelly",
+     "manager": "anth0nyng",
+     "points": 143.02,
+     "projected": 128.45,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+     "manager": "keveezy",
+     "points": 159.86,
+     "projected": 133.63,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 123.8,
+     "projected": 117.34,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "GOD TIER",
+     "manager": "DVTV",
+     "points": 136.18,
+     "projected": 127.28,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "keveezy",
+   "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+   "points": 159.86
+  },
+  "low_score": {
+   "manager": "ramzz",
+   "team": "King Koopa",
+   "points": 95.76
+  },
+  "closest_game": {
+   "winner": "donblood",
+   "winner_points": 123.02,
+   "loser": "Odeh1121",
+   "loser_points": 120.22,
+   "margin": 2.8
+  },
+  "biggest_blowout": {
+   "winner": "wabaki (Lan Doan)",
+   "winner_points": 126.9,
+   "loser": "jimbo817",
+   "loser_points": 98.4,
+   "margin": 28.5
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "keveezy",
+   "team": "\ud83d\udc27\ud83d\udc27\ud83d\udc27\ud83d\udc27",
+   "record": "1-0",
+   "points_for": 159.86,
+   "points_against": 143.02,
+   "streak": "W1",
+   "week_points": 159.86,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 2,
+   "manager": "DVTV",
+   "team": "GOD TIER",
+   "record": "1-0",
+   "points_for": 136.18,
+   "points_against": 123.8,
+   "streak": "W1",
+   "week_points": 136.18,
+   "week_result": "W",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 3,
+   "manager": "wabaki (Lan Doan)",
+   "team": "KissMahomies",
+   "record": "1-0",
+   "points_for": 126.9,
+   "points_against": 98.4,
+   "streak": "W1",
+   "week_points": 126.9,
+   "week_result": "W",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 4,
+   "manager": "donblood",
+   "team": "Wolf of Waller Street",
+   "record": "1-0",
+   "points_for": 123.02,
+   "points_against": 120.22,
+   "streak": "W1",
+   "week_points": 123.02,
+   "week_result": "W",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 5,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "1-0",
+   "points_for": 122.92,
+   "points_against": 103.1,
+   "streak": "W1",
+   "week_points": 122.92,
+   "week_result": "W",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 6,
+   "manager": "PutItOnYa",
+   "team": "\ud83d\udd25\ud83d\udd25\ud83d\udd25FIRE SALE\ud83d\udd25\ud83d\udd25\ud83d\udd25",
+   "record": "1-0",
+   "points_for": 103.0,
+   "points_against": 95.76,
+   "streak": "W1",
+   "week_points": 103.0,
+   "week_result": "W",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 7,
+   "manager": "anth0nyng",
+   "team": "Princess Jelly",
+   "record": "0-1",
+   "points_for": 143.02,
+   "points_against": 159.86,
+   "streak": "L1",
+   "week_points": 143.02,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 8,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "0-1",
+   "points_for": 123.8,
+   "points_against": 136.18,
+   "streak": "L1",
+   "week_points": 123.8,
+   "week_result": "L",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 9,
+   "manager": "Odeh1121",
+   "team": "The Adam's Family",
+   "record": "0-1",
+   "points_for": 120.22,
+   "points_against": 123.02,
+   "streak": "L1",
+   "week_points": 120.22,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 10,
+   "manager": "kholabear",
+   "team": "Cancun Booking Agency",
+   "record": "0-1",
+   "points_for": 103.1,
+   "points_against": 122.92,
+   "streak": "L1",
+   "week_points": 103.1,
+   "week_result": "L",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 11,
+   "manager": "jimbo817",
+   "team": "Aaron Earned an Iron Urn",
+   "record": "0-1",
+   "points_for": 98.4,
+   "points_against": 126.9,
+   "streak": "L1",
+   "week_points": 98.4,
+   "week_result": "L",
+   "opponent": "wabaki (Lan Doan)"
+  },
+  {
+   "rank": 12,
+   "manager": "ramzz",
+   "team": "King Koopa",
+   "record": "0-1",
+   "points_for": 95.76,
+   "points_against": 103.0,
+   "streak": "L1",
+   "week_points": 95.76,
+   "week_result": "L",
+   "opponent": "PutItOnYa"
+  }
+ ]
+}

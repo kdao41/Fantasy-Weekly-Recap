@@ -1,0 +1,317 @@
+{
+ "season": 2016,
+ "week": 4,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Daks Out for Harambe",
+     "manager": "donblood",
+     "points": 135.6,
+     "projected": 124.29,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "AnyHolesTheGoal",
+     "manager": "keveezy",
+     "points": 115.14,
+     "projected": 119.43,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Harambe's Ghost",
+     "manager": "Odeh1121",
+     "points": 131.6,
+     "projected": 123.15,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Gordon Ramzi",
+     "manager": "ramzz",
+     "points": 132.54,
+     "projected": 130.54,
+     "won": true
+    }
+   ],
+   "winner": "ramzz"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Ding Ding Sauce",
+     "manager": "jimbo817",
+     "points": 109.7,
+     "projected": 134.98,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Need Sum Milk",
+     "manager": "kholabear",
+     "points": 72.02,
+     "projected": 123.56,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 83.56,
+     "projected": 114.82,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "Learner of the Drugs",
+     "manager": "DVTV",
+     "points": 123.32,
+     "projected": 125.06,
+     "won": true
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "The Nick Folks",
+     "manager": "anth0nyng",
+     "points": 74.16,
+     "projected": 111.86,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "oooEcho",
+     "points": 127.28,
+     "projected": 115.27,
+     "won": true
+    }
+   ],
+   "winner": "oooEcho"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "lmphm",
+     "points": 140.82,
+     "projected": 131.13,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "wabaki (Lan Doan)",
+     "points": 125.84,
+     "projected": 123.61,
+     "won": false
+    }
+   ],
+   "winner": "lmphm"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "lmphm",
+   "team": "Vegas",
+   "points": 140.82
+  },
+  "low_score": {
+   "manager": "kholabear",
+   "team": "Need Sum Milk",
+   "points": 72.02
+  },
+  "closest_game": {
+   "winner": "ramzz",
+   "winner_points": 132.54,
+   "loser": "Odeh1121",
+   "loser_points": 131.6,
+   "margin": 0.94
+  },
+  "biggest_blowout": {
+   "winner": "oooEcho",
+   "winner_points": 127.28,
+   "loser": "anth0nyng",
+   "loser_points": 74.16,
+   "margin": 53.12
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "ramzz",
+   "team": "Gordon Ramzi",
+   "record": "4-0",
+   "points_for": 573.08,
+   "points_against": 431.7,
+   "streak": "W4",
+   "week_points": 132.54,
+   "week_result": "W",
+   "opponent": "Odeh1121"
+  },
+  {
+   "rank": 2,
+   "manager": "lmphm",
+   "team": "Vegas",
+   "record": "3-1",
+   "points_for": 519.68,
+   "points_against": 493.5,
+   "streak": "W3",
+   "week_points": 140.82,
+   "week_result": "W",
+   "opponent": "wabaki (Lan Doan)"
+  },
+  {
+   "rank": 3,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "3-1",
+   "points_for": 480.48,
+   "points_against": 457.98,
+   "streak": "L1",
+   "week_points": 83.56,
+   "week_result": "L",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 4,
+   "manager": "jimbo817",
+   "team": "Ding Ding Sauce",
+   "record": "3-1",
+   "points_for": 466.76,
+   "points_against": 394.86,
+   "streak": "W2",
+   "week_points": 109.7,
+   "week_result": "W",
+   "opponent": "kholabear"
+  },
+  {
+   "rank": 5,
+   "manager": "Odeh1121",
+   "team": "Harambe's Ghost",
+   "record": "2-2",
+   "points_for": 499.24,
+   "points_against": 483.86,
+   "streak": "L2",
+   "week_points": 131.6,
+   "week_result": "L",
+   "opponent": "ramzz"
+  },
+  {
+   "rank": 6,
+   "manager": "keveezy",
+   "team": "AnyHolesTheGoal",
+   "record": "2-2",
+   "points_for": 480.62,
+   "points_against": 449.7,
+   "streak": "L1",
+   "week_points": 115.14,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 7,
+   "manager": "anth0nyng",
+   "team": "The Nick Folks",
+   "record": "2-2",
+   "points_for": 474.22,
+   "points_against": 491.44,
+   "streak": "L1",
+   "week_points": 74.16,
+   "week_result": "L",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 8,
+   "manager": "donblood",
+   "team": "Daks Out for Harambe",
+   "record": "2-2",
+   "points_for": 449.66,
+   "points_against": 475.4,
+   "streak": "W1",
+   "week_points": 135.6,
+   "week_result": "W",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 9,
+   "manager": "oooEcho",
+   "team": "oOo Cody",
+   "record": "1-3",
+   "points_for": 458.56,
+   "points_against": 499.5,
+   "streak": "W1",
+   "week_points": 127.28,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 10,
+   "manager": "DVTV",
+   "team": "Learner of the Drugs",
+   "record": "1-3",
+   "points_for": 435.54,
+   "points_against": 476.34,
+   "streak": "W1",
+   "week_points": 123.32,
+   "week_result": "W",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 11,
+   "manager": "wabaki (Lan Doan)",
+   "team": "Wabaki 88",
+   "record": "1-3",
+   "points_for": 430.94,
+   "points_against": 524.22,
+   "streak": "L3",
+   "week_points": 125.84,
+   "week_result": "L",
+   "opponent": "lmphm"
+  },
+  {
+   "rank": 12,
+   "manager": "kholabear",
+   "team": "Need Sum Milk",
+   "record": "0-4",
+   "points_for": 419.5,
+   "points_against": 509.78,
+   "streak": "L4",
+   "week_points": 72.02,
+   "week_result": "L",
+   "opponent": "jimbo817"
+  }
+ ]
+}

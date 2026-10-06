@@ -1,0 +1,125 @@
+{
+ "season": 2017,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Jerk Goff",
+     "manager": "Ahmad",
+     "points": 91.0,
+     "projected": 121.28,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "The Spearmint Rhinos",
+     "manager": "Daniel Vu",
+     "points": 107.92,
+     "projected": 123.35,
+     "won": true
+    }
+   ],
+   "winner": "Daniel Vu"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Leonard's booty gang",
+     "manager": "Ramzi",
+     "points": 121.04,
+     "projected": 108.24,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Prince of Plano",
+     "manager": "Anthony",
+     "points": 117.08,
+     "projected": 130.74,
+     "won": false
+    }
+   ],
+   "winner": "Ramzi"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Vegas",
+     "manager": "mrlampham",
+     "points": 124.38,
+     "projected": 116.19,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Lavar Ballers",
+     "manager": "Khoa",
+     "points": 141.94,
+     "projected": 119.71,
+     "won": true
+    }
+   ],
+   "winner": "Khoa"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Wabaki 88",
+     "manager": "Muso (Lan Doan)",
+     "points": 103.44,
+     "projected": 118.21,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "oOo Cody",
+     "manager": "Cody",
+     "points": 175.34,
+     "projected": 126.22,
+     "won": true
+    }
+   ],
+   "winner": "Cody"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Cody",
+   "team": "oOo Cody",
+   "points": 175.34
+  },
+  "low_score": {
+   "manager": "Ahmad",
+   "team": "Jerk Goff",
+   "points": 91.0
+  },
+  "closest_game": {
+   "winner": "Ramzi",
+   "winner_points": 121.04,
+   "loser": "Anthony",
+   "loser_points": 117.08,
+   "margin": 3.96
+  },
+  "biggest_blowout": {
+   "winner": "Cody",
+   "winner_points": 175.34,
+   "loser": "Muso (Lan Doan)",
+   "loser_points": 103.44,
+   "margin": 71.9
+  }
+ }
+}
