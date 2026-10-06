@@ -737,16 +737,16 @@
    "points_against": 1686.68
   },
   "last_place": {
-   "team_id": 5,
-   "team": "Renegade renegade ",
-   "manager": "keveezy",
+   "team_id": 10,
+   "team": "Chase Mahomies",
+   "manager": "jimbo817",
    "final_rank": 12,
    "playoff_seed": null,
-   "wins": 6,
-   "losses": 8,
+   "wins": 4,
+   "losses": 10,
    "ties": 0,
-   "points_for": 1798.12,
-   "points_against": 1663.14
+   "points_for": 1521.99,
+   "points_against": 1737.78
   },
   "regular_season_winner": {
    "team_id": 9,
@@ -764,7 +764,7 @@
    "team_id": 5,
    "team": "Renegade renegade ",
    "manager": "keveezy",
-   "final_rank": 12,
+   "final_rank": 7,
    "playoff_seed": null,
    "wins": 6,
    "losses": 8,
@@ -823,16 +823,16 @@
    "points_against": 1713.24
   },
   "last_place": {
-   "team_id": 2,
-   "team": "Hairy Son",
-   "manager": "Odeh1121",
+   "team_id": 8,
+   "team": "bAnmly",
+   "manager": "bAnmly (Bryan)",
    "final_rank": 12,
    "playoff_seed": null,
-   "wins": 7,
-   "losses": 7,
+   "wins": 5,
+   "losses": 9,
    "ties": 0,
-   "points_for": 1633.7,
-   "points_against": 1499.6
+   "points_for": 1422.5,
+   "points_against": 1680.34
   },
   "regular_season_winner": {
    "team_id": 11,
@@ -909,16 +909,16 @@
    "points_against": 1646.32
   },
   "last_place": {
-   "team_id": 4,
-   "team": "Cee Deez Chubb in ya mouf",
-   "manager": "donblood",
+   "team_id": 8,
+   "team": "Knuck if U Buck",
+   "manager": "wabaki (Lan Doan)",
    "final_rank": 12,
    "playoff_seed": null,
-   "wins": 3,
-   "losses": 11,
+   "wins": 2,
+   "losses": 12,
    "ties": 0,
-   "points_for": 1601.08,
-   "points_against": 1705.2
+   "points_for": 1486.64,
+   "points_against": 1739.64
   },
   "regular_season_winner": {
    "team_id": 2,

@@ -131,32 +131,18 @@
    "rank": 6
   },
   {
-   "team_id": 1,
-   "team_key": "1132430987931144192.1",
-   "name": "Longtendo",
-   "manager": "keveezy",
-   "manager_guid": "sleeper:474757173759438848",
-   "wins": 6,
-   "losses": 8,
-   "ties": 0,
-   "points_for": 1714.96,
-   "points_against": 1723.52,
-   "playoff_seed": null,
-   "rank": 7
-  },
-  {
-   "team_id": 5,
-   "team_key": "1132430987931144192.5",
-   "name": "LANK",
-   "manager": "Abadahh",
-   "manager_guid": "sleeper:1132455967653855232",
+   "team_id": 8,
+   "team_key": "1132430987931144192.8",
+   "name": "dexclusive",
+   "manager": "dexclusive",
+   "manager_guid": "sleeper:1133156876390207488",
    "wins": 5,
    "losses": 9,
    "ties": 0,
-   "points_for": 1602.94,
-   "points_against": 1773.46,
+   "points_for": 1648.12,
+   "points_against": 1822.98,
    "playoff_seed": null,
-   "rank": 8
+   "rank": 7
   },
   {
    "team_id": 4,
@@ -170,19 +156,33 @@
    "points_for": 1598.26,
    "points_against": 1742.74,
    "playoff_seed": null,
-   "rank": 9
+   "rank": 8
   },
   {
-   "team_id": 8,
-   "team_key": "1132430987931144192.8",
-   "name": "dexclusive",
-   "manager": "dexclusive",
-   "manager_guid": "sleeper:1133156876390207488",
+   "team_id": 5,
+   "team_key": "1132430987931144192.5",
+   "name": "LANK",
+   "manager": "Abadahh",
+   "manager_guid": "sleeper:1132455967653855232",
    "wins": 5,
    "losses": 9,
    "ties": 0,
-   "points_for": 1648.12,
-   "points_against": 1822.98,
+   "points_for": 1602.94,
+   "points_against": 1773.46,
+   "playoff_seed": null,
+   "rank": 9
+  },
+  {
+   "team_id": 1,
+   "team_key": "1132430987931144192.1",
+   "name": "Longtendo",
+   "manager": "keveezy",
+   "manager_guid": "sleeper:474757173759438848",
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1714.96,
+   "points_against": 1723.52,
    "playoff_seed": null,
    "rank": 10
   }

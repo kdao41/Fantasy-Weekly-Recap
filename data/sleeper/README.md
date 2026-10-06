@@ -45,10 +45,12 @@ The summary files have the same format as every other summary folder; the refere
   `starters` lists player ids in the order of `league.roster_positions`; `players_points` covers
   every rostered player, so bench points are the non-starters' entries.
 - **Brackets:** each game has `r` (round; week = `settings.playoff_week_start + r - 1`), `m`
-  (game id), `t1`/`t2` (roster ids), `w`/`l` (winner/loser), and `p` on placement games
-  (`p: 1` championship, `p: 3` third place, `p: 5` fifth). `t1_from: {"w": m}` means "winner of
-  game m". In `losers_bracket.json` these Aggtown and Sober Gang brackets advance winners, so its
-  `p: 1` winner finishes just below the playoff teams (7th of 12).
+  (game id), `t1`/`t2` (roster ids), `w`/`l` (the team that advanced / the one that didn't), and
+  `p` on placement games (`p: 1` championship, `p: 3` third place, `p: 5` fifth).
+  `t1_from: {"w": m}` means "the team that advanced from game m". In the winners bracket that is
+  the game's winner. Aggtown's and Sober Gang's `losers_bracket.json` is a **toilet bowl**: there
+  `w` is the team that *lost* the game and moves on, so its `p: 1` `w` finishes last. The bracket
+  JSON looks the same either way; `sleeper_export.py` tells them apart by comparing scores.
 - **`rosters.settings`:** `wins`/`losses`/`ties` are regular season only. Points are split into
   whole and hundredths: `fpts + fpts_decimal / 100` (same for `fpts_against` and `ppts`, the max
   potential points).
@@ -66,8 +68,8 @@ The summary files have the same format as every other summary folder; the refere
 - **Records:** from `rosters.settings` (checked against the weekly games on every build).
 - **Seeds:** regular-season order by win %, then points for; the top `settings.playoff_teams` are
   seeded and checked against the teams in the winners bracket.
-- **Final rank:** winners bracket placement games give 1st to 6th, the consolation bracket 7th
-  to 12th; anyone left unplaced is filled in by regular-season order.
+- **Final rank:** winners bracket placement games give 1st to 6th, the toilet bowl 7th to 12th
+  (its final's `w` is last); anyone left unplaced is filled in by regular-season order.
 - **Weeks:** games are paired by `matchup_id`. In playoff weeks a game is `is_consolation` unless
   its pair is in the winners bracket for that round (playoff-week games outside both brackets are
   treated as consolation).

@@ -44,7 +44,8 @@ After editing, run `combine` again to relabel every file.
 Both platforms are normalized to the same meanings (details in the Yahoo README):
 
 - `final_rank` is the finish after the playoffs. Yahoo reports it; for Sleeper it comes from the
-  winners bracket placement games (1st to 6th) and the consolation bracket (7th and below).
+  winners bracket placement games (1st to 6th) and the toilet bowl (7th and below). In the toilet
+  bowl the team that loses a game moves on, so whoever loses the final finishes last.
 - `playoff_seed`: Yahoo reports it; for Sleeper it is the regular-season order by win %, then
   points for, checked against Sleeper's bracket every season.
 - Placement games (3rd, 5th) count as playoff games; consolation-bracket games don't count toward

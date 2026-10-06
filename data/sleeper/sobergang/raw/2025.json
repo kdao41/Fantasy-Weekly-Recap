@@ -131,32 +131,18 @@
    "rank": 6
   },
   {
-   "team_id": 3,
-   "team_key": "1257434762419650560.3",
-   "name": "Pickens Noses Diggs Asses",
-   "manager": "donblood",
-   "manager_guid": "sleeper:869705442488688640",
-   "wins": 5,
-   "losses": 9,
-   "ties": 0,
-   "points_for": 1680.14,
-   "points_against": 1663.26,
-   "playoff_seed": null,
-   "rank": 7
-  },
-  {
-   "team_id": 7,
-   "team_key": "1257434762419650560.7",
-   "name": "Tuten and bootin",
-   "manager": "jasonle",
-   "manager_guid": "sleeper:873069679030255616",
+   "team_id": 5,
+   "team_key": "1257434762419650560.5",
+   "name": "LANK",
+   "manager": "Abadahh",
+   "manager_guid": "sleeper:1132455967653855232",
    "wins": 4,
    "losses": 10,
    "ties": 0,
-   "points_for": 1631.7,
-   "points_against": 1801.82,
+   "points_for": 1564.9,
+   "points_against": 1840.84,
    "playoff_seed": null,
-   "rank": 8
+   "rank": 7
   },
   {
    "team_id": 4,
@@ -170,19 +156,33 @@
    "points_for": 1592.78,
    "points_against": 1604.04,
    "playoff_seed": null,
-   "rank": 9
+   "rank": 8
   },
   {
-   "team_id": 5,
-   "team_key": "1257434762419650560.5",
-   "name": "LANK",
-   "manager": "Abadahh",
-   "manager_guid": "sleeper:1132455967653855232",
+   "team_id": 7,
+   "team_key": "1257434762419650560.7",
+   "name": "Tuten and bootin",
+   "manager": "jasonle",
+   "manager_guid": "sleeper:873069679030255616",
    "wins": 4,
    "losses": 10,
    "ties": 0,
-   "points_for": 1564.9,
-   "points_against": 1840.84,
+   "points_for": 1631.7,
+   "points_against": 1801.82,
+   "playoff_seed": null,
+   "rank": 9
+  },
+  {
+   "team_id": 3,
+   "team_key": "1257434762419650560.3",
+   "name": "Pickens Noses Diggs Asses",
+   "manager": "donblood",
+   "manager_guid": "sleeper:869705442488688640",
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1680.14,
+   "points_against": 1663.26,
    "playoff_seed": null,
    "rank": 10
   }

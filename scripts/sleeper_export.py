@@ -5,6 +5,7 @@ Leagues come from data/leagues.json. Sleeper's API is public, so no login.
 
 Usage:
   python3 scripts/sleeper_export.py fetch [LEAGUE]     # archive + normalize every finished Sleeper season
+  python3 scripts/sleeper_export.py rebuild [LEAGUE]   # re-normalize the archived seasons, no download
   python3 scripts/sleeper_export.py combine [LEAGUE]   # Yahoo seasons + Sleeper seasons -> one history
   python3 scripts/sleeper_export.py all                # fetch and combine every league in leagues.json
 
@@ -117,7 +118,33 @@ def fetch(league):
     build_dir(out, seasons)
 
 
+def rebuild(league):
+    out = DATA / "sleeper" / league["id"]
+    players = json.loads((DATA / "sleeper" / "players_nfl.json").read_text())
+    for d in sorted((out / "raw" / "sleeper_api").iterdir()):
+        data = normalize(d, players)
+        (out / "raw" / f"{d.name}.json").write_text(json.dumps(data, indent=1))
+        print(f"{d.name}  re-normalized")
+    seasons = [json.loads(p.read_text()) for p in sorted((out / "raw").glob("*.json"))]
+    build_dir(out, seasons)
+
+
 # ---------------- normalize ----------------
+
+def advances_loser(bracket, d, pws):
+    """True when the bracket's "w" teams scored less than their opponents, i.e. losers move on."""
+    lower = higher = 0
+    for m in bracket:
+        f = d / "matchups" / f"week-{pws + m['r'] - 1:02d}.json"
+        if not m.get("w") or not f.exists():
+            continue
+        pts = {x["roster_id"]: x["points"] for x in json.loads(f.read_text())}
+        w, l = pts.get(m["w"]), pts.get(m["l"])
+        if w is not None and l is not None:
+            lower += w < l
+            higher += w > l
+    return lower > higher
+
 
 def normalize(d, players):
     """One archived Sleeper season -> the raw/<season>.json shape league_build expects."""
@@ -156,13 +183,14 @@ def normalize(d, players):
     for m in wb:
         if m.get("p") and m.get("w"):
             rank[m["w"]], rank[m["l"]] = m["p"], m["p"] + 1
-    # A consolation bracket advances winners (its p=1 winner finishes just below the playoff teams);
-    # a toilet bowl advances losers (its p=1 loser finishes last).
-    toilet = any(m.get("t1_from", {}).get("l") or m.get("t2_from", {}).get("l") for m in lb if not m.get("p"))
+    # Sleeper records the team that advanced as "w". A consolation bracket advances game winners (its p=1
+    # "w" finishes just below the playoff teams); a toilet bowl advances game losers (its p=1 "w" finishes last).
+    # Both look the same in the bracket, so compare the scores.
+    toilet = advances_loser(lb, d, pws)
     for m in lb:
         if m.get("p") and m.get("w"):
             if toilet:
-                rank[m["l"]], rank[m["w"]] = n - m["p"] + 1, n - m["p"]
+                rank[m["w"]], rank[m["l"]] = n - m["p"] + 1, n - m["p"]
             else:
                 rank[m["w"]], rank[m["l"]] = n_playoff + m["p"], n_playoff + m["p"] + 1
     free = [r for r in range(1, n + 1) if r not in rank.values()]
@@ -272,11 +300,13 @@ if __name__ == "__main__":
     leagues = [l for l in config() if want in (None, l["id"])]
     if want and not leagues:
         sys.exit(f"No league '{want}' in data/leagues.json.")
-    if cmd not in ("fetch", "combine", "all"):
+    if cmd not in ("fetch", "rebuild", "combine", "all"):
         sys.exit(__doc__)
     for l in leagues:
         print(f"== {l['name']}")
         if cmd in ("fetch", "all"):
             fetch(l)
+        if cmd == "rebuild":
+            rebuild(l)
         if cmd in ("combine", "all"):
             combine(l)

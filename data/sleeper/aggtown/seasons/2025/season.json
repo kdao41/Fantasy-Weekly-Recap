@@ -48,16 +48,16 @@
   "points_against": 1646.32
  },
  "last_place": {
-  "team_id": 4,
-  "team": "Cee Deez Chubb in ya mouf",
-  "manager": "donblood",
+  "team_id": 8,
+  "team": "Knuck if U Buck",
+  "manager": "wabaki (Lan Doan)",
   "final_rank": 12,
   "playoff_seed": null,
-  "wins": 3,
-  "losses": 11,
+  "wins": 2,
+  "losses": 12,
   "ties": 0,
-  "points_for": 1601.08,
-  "points_against": 1705.2
+  "points_for": 1486.64,
+  "points_against": 1739.64
  },
  "regular_season_winner": {
   "team_id": 2,
@@ -201,58 +201,22 @@
    "points_against": 1584.64
   },
   {
-   "team_id": 8,
-   "team": "Knuck if U Buck",
-   "manager": "wabaki (Lan Doan)",
+   "team_id": 4,
+   "team": "Cee Deez Chubb in ya mouf",
+   "manager": "donblood",
    "final_rank": 7,
-   "playoff_seed": null,
-   "wins": 2,
-   "losses": 12,
-   "ties": 0,
-   "points_for": 1486.64,
-   "points_against": 1739.64
-  },
-  {
-   "team_id": 6,
-   "team": "Vegas",
-   "manager": "lmphm",
-   "final_rank": 8,
    "playoff_seed": null,
    "wins": 3,
    "losses": 11,
    "ties": 0,
-   "points_for": 1348.08,
-   "points_against": 1698.2
-  },
-  {
-   "team_id": 12,
-   "team": "Parkland Hospital",
-   "manager": "kholabear",
-   "final_rank": 9,
-   "playoff_seed": null,
-   "wins": 6,
-   "losses": 8,
-   "ties": 0,
-   "points_for": 1524.86,
-   "points_against": 1508.38
-  },
-  {
-   "team_id": 3,
-   "team": "Pablo Torre Scores Out",
-   "manager": "DVTV",
-   "final_rank": 10,
-   "playoff_seed": null,
-   "wins": 7,
-   "losses": 7,
-   "ties": 0,
-   "points_for": 1632.2,
-   "points_against": 1472.26
+   "points_for": 1601.08,
+   "points_against": 1705.2
   },
   {
    "team_id": 7,
    "team": "ABCeeDee U Lost 2 Me",
    "manager": "oooEcho",
-   "final_rank": 11,
+   "final_rank": 8,
    "playoff_seed": null,
    "wins": 6,
    "losses": 8,
@@ -261,16 +225,52 @@
    "points_against": 1680.72
   },
   {
-   "team_id": 4,
-   "team": "Cee Deez Chubb in ya mouf",
-   "manager": "donblood",
-   "final_rank": 12,
+   "team_id": 3,
+   "team": "Pablo Torre Scores Out",
+   "manager": "DVTV",
+   "final_rank": 9,
+   "playoff_seed": null,
+   "wins": 7,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1632.2,
+   "points_against": 1472.26
+  },
+  {
+   "team_id": 12,
+   "team": "Parkland Hospital",
+   "manager": "kholabear",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1524.86,
+   "points_against": 1508.38
+  },
+  {
+   "team_id": 6,
+   "team": "Vegas",
+   "manager": "lmphm",
+   "final_rank": 11,
    "playoff_seed": null,
    "wins": 3,
    "losses": 11,
    "ties": 0,
-   "points_for": 1601.08,
-   "points_against": 1705.2
+   "points_for": 1348.08,
+   "points_against": 1698.2
+  },
+  {
+   "team_id": 8,
+   "team": "Knuck if U Buck",
+   "manager": "wabaki (Lan Doan)",
+   "final_rank": 12,
+   "playoff_seed": null,
+   "wins": 2,
+   "losses": 12,
+   "ties": 0,
+   "points_for": 1486.64,
+   "points_against": 1739.64
   }
  ],
  "playoff_results": [

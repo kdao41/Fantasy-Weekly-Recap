@@ -48,16 +48,16 @@
   "points_against": 1623.52
  },
  "last_place": {
-  "team_id": 5,
-  "team": "LANK",
-  "manager": "Abadahh",
+  "team_id": 3,
+  "team": "Pickens Noses Diggs Asses",
+  "manager": "donblood",
   "final_rank": 10,
   "playoff_seed": null,
-  "wins": 4,
-  "losses": 10,
+  "wins": 5,
+  "losses": 9,
   "ties": 0,
-  "points_for": 1564.9,
-  "points_against": 1840.84
+  "points_for": 1680.14,
+  "points_against": 1663.26
  },
  "regular_season_winner": {
   "team_id": 2,
@@ -201,34 +201,22 @@
    "points_against": 1618.04
   },
   {
-   "team_id": 3,
-   "team": "Pickens Noses Diggs Asses",
-   "manager": "donblood",
+   "team_id": 5,
+   "team": "LANK",
+   "manager": "Abadahh",
    "final_rank": 7,
-   "playoff_seed": null,
-   "wins": 5,
-   "losses": 9,
-   "ties": 0,
-   "points_for": 1680.14,
-   "points_against": 1663.26
-  },
-  {
-   "team_id": 7,
-   "team": "Tuten and bootin",
-   "manager": "jasonle",
-   "final_rank": 8,
    "playoff_seed": null,
    "wins": 4,
    "losses": 10,
    "ties": 0,
-   "points_for": 1631.7,
-   "points_against": 1801.82
+   "points_for": 1564.9,
+   "points_against": 1840.84
   },
   {
    "team_id": 4,
    "team": "JJ & the AFC",
    "manager": "lmphm",
-   "final_rank": 9,
+   "final_rank": 8,
    "playoff_seed": null,
    "wins": 5,
    "losses": 9,
@@ -237,16 +225,28 @@
    "points_against": 1604.04
   },
   {
-   "team_id": 5,
-   "team": "LANK",
-   "manager": "Abadahh",
-   "final_rank": 10,
+   "team_id": 7,
+   "team": "Tuten and bootin",
+   "manager": "jasonle",
+   "final_rank": 9,
    "playoff_seed": null,
    "wins": 4,
    "losses": 10,
    "ties": 0,
-   "points_for": 1564.9,
-   "points_against": 1840.84
+   "points_for": 1631.7,
+   "points_against": 1801.82
+  },
+  {
+   "team_id": 3,
+   "team": "Pickens Noses Diggs Asses",
+   "manager": "donblood",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1680.14,
+   "points_against": 1663.26
   }
  ],
  "playoff_results": [

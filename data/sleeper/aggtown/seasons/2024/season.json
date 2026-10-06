@@ -48,16 +48,16 @@
   "points_against": 1713.24
  },
  "last_place": {
-  "team_id": 2,
-  "team": "Hairy Son",
-  "manager": "Odeh1121",
+  "team_id": 8,
+  "team": "bAnmly",
+  "manager": "bAnmly (Bryan)",
   "final_rank": 12,
   "playoff_seed": null,
-  "wins": 7,
-  "losses": 7,
+  "wins": 5,
+  "losses": 9,
   "ties": 0,
-  "points_for": 1633.7,
-  "points_against": 1499.6
+  "points_for": 1422.5,
+  "points_against": 1680.34
  },
  "regular_season_winner": {
   "team_id": 11,
@@ -201,58 +201,22 @@
    "points_against": 1652.86
   },
   {
-   "team_id": 8,
-   "team": "bAnmly",
-   "manager": "bAnmly (Bryan)",
+   "team_id": 2,
+   "team": "Hairy Son",
+   "manager": "Odeh1121",
    "final_rank": 7,
-   "playoff_seed": null,
-   "wins": 5,
-   "losses": 9,
-   "ties": 0,
-   "points_for": 1422.5,
-   "points_against": 1680.34
-  },
-  {
-   "team_id": 12,
-   "team": "Cancun Tours",
-   "manager": "kholabear",
-   "final_rank": 8,
-   "playoff_seed": null,
-   "wins": 3,
-   "losses": 11,
-   "ties": 0,
-   "points_for": 1613.38,
-   "points_against": 1725.22
-  },
-  {
-   "team_id": 10,
-   "team": "Revenge Tour",
-   "manager": "jimbo817",
-   "final_rank": 9,
-   "playoff_seed": null,
-   "wins": 4,
-   "losses": 10,
-   "ties": 0,
-   "points_for": 1653.92,
-   "points_against": 1786.74
-  },
-  {
-   "team_id": 7,
-   "team": "ABCeeDee U Lost 2 Me",
-   "manager": "oooEcho",
-   "final_rank": 10,
    "playoff_seed": null,
    "wins": 7,
    "losses": 7,
    "ties": 0,
-   "points_for": 1655.8,
-   "points_against": 1561.04
+   "points_for": 1633.7,
+   "points_against": 1499.6
   },
   {
    "team_id": 4,
    "team": "Cee Deez Chubb in ya mouf",
    "manager": "donblood",
-   "final_rank": 11,
+   "final_rank": 8,
    "playoff_seed": null,
    "wins": 7,
    "losses": 7,
@@ -261,16 +225,52 @@
    "points_against": 1693.6
   },
   {
-   "team_id": 2,
-   "team": "Hairy Son",
-   "manager": "Odeh1121",
-   "final_rank": 12,
+   "team_id": 7,
+   "team": "ABCeeDee U Lost 2 Me",
+   "manager": "oooEcho",
+   "final_rank": 9,
    "playoff_seed": null,
    "wins": 7,
    "losses": 7,
    "ties": 0,
-   "points_for": 1633.7,
-   "points_against": 1499.6
+   "points_for": 1655.8,
+   "points_against": 1561.04
+  },
+  {
+   "team_id": 10,
+   "team": "Revenge Tour",
+   "manager": "jimbo817",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 4,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1653.92,
+   "points_against": 1786.74
+  },
+  {
+   "team_id": 12,
+   "team": "Cancun Tours",
+   "manager": "kholabear",
+   "final_rank": 11,
+   "playoff_seed": null,
+   "wins": 3,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1613.38,
+   "points_against": 1725.22
+  },
+  {
+   "team_id": 8,
+   "team": "bAnmly",
+   "manager": "bAnmly (Bryan)",
+   "final_rank": 12,
+   "playoff_seed": null,
+   "wins": 5,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1422.5,
+   "points_against": 1680.34
   }
  ],
  "playoff_results": [

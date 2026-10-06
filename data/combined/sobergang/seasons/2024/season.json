@@ -48,16 +48,16 @@
   "points_against": 1733.52
  },
  "last_place": {
-  "team_id": 8,
-  "team": "dexclusive",
-  "manager": "dexclusive",
+  "team_id": 1,
+  "team": "Longtendo",
+  "manager": "keveezy",
   "final_rank": 10,
   "playoff_seed": null,
-  "wins": 5,
-  "losses": 9,
+  "wins": 6,
+  "losses": 8,
   "ties": 0,
-  "points_for": 1648.12,
-  "points_against": 1822.98
+  "points_for": 1714.96,
+  "points_against": 1723.52
  },
  "regular_season_winner": {
   "team_id": 7,
@@ -201,34 +201,22 @@
    "points_against": 1728.82
   },
   {
-   "team_id": 1,
-   "team": "Longtendo",
-   "manager": "keveezy",
+   "team_id": 8,
+   "team": "dexclusive",
+   "manager": "dexclusive",
    "final_rank": 7,
-   "playoff_seed": null,
-   "wins": 6,
-   "losses": 8,
-   "ties": 0,
-   "points_for": 1714.96,
-   "points_against": 1723.52
-  },
-  {
-   "team_id": 5,
-   "team": "LANK",
-   "manager": "Abadahh",
-   "final_rank": 8,
    "playoff_seed": null,
    "wins": 5,
    "losses": 9,
    "ties": 0,
-   "points_for": 1602.94,
-   "points_against": 1773.46
+   "points_for": 1648.12,
+   "points_against": 1822.98
   },
   {
    "team_id": 4,
    "team": "lmphm",
    "manager": "lmphm",
-   "final_rank": 9,
+   "final_rank": 8,
    "playoff_seed": null,
    "wins": 5,
    "losses": 9,
@@ -237,16 +225,28 @@
    "points_against": 1742.74
   },
   {
-   "team_id": 8,
-   "team": "dexclusive",
-   "manager": "dexclusive",
-   "final_rank": 10,
+   "team_id": 5,
+   "team": "LANK",
+   "manager": "Abadahh",
+   "final_rank": 9,
    "playoff_seed": null,
    "wins": 5,
    "losses": 9,
    "ties": 0,
-   "points_for": 1648.12,
-   "points_against": 1822.98
+   "points_for": 1602.94,
+   "points_against": 1773.46
+  },
+  {
+   "team_id": 1,
+   "team": "Longtendo",
+   "manager": "keveezy",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 6,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1714.96,
+   "points_against": 1723.52
   }
  ],
  "playoff_results": [
