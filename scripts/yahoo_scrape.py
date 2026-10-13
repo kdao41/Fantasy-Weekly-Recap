@@ -48,6 +48,7 @@ import re
 import sys
 import time
 import xml.etree.ElementTree as ET
+from contextlib import closing
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -90,13 +91,11 @@ class BrowserClient:
 
 
 def login():
-    with sync_playwright() as p:
-        ctx = open_browser(p, headless=False)
+    with sync_playwright() as p, closing(open_browser(p, headless=False)) as ctx:
         page = ctx.pages[0] if ctx.pages else ctx.new_page()
         page.goto(HOME_URL)
         print("Sign in to Yahoo in the window that opened, then close the window.")
         page.wait_for_event("close", timeout=0)
-        ctx.close()
     print(f"Saved session to {PROFILE_DIR}")
 
 
@@ -130,8 +129,7 @@ def fetch(name, until=None):
         config["until"] = until
         config_path.write_text(json.dumps(config, indent=1))
     until = config.get("until")
-    with sync_playwright() as p:
-        ctx = open_browser(p)
+    with sync_playwright() as p, closing(open_browser(p)) as ctx:
         c = BrowserClient(ctx)
         try:
             leagues = league_chain(list_leagues(c), name)
@@ -158,7 +156,6 @@ def fetch(name, until=None):
                 continue
             raw.write_text(json.dumps(data, indent=1))
             print(f"{len(data['weeks'])} weeks, {len(data['draft'])} picks")
-        ctx.close()
     build(name)
 
 
@@ -200,8 +197,7 @@ def archive(name):
     seasons = [json.loads(p.read_text()) for p in sorted((out / "raw").glob("*.json"))]
     if not seasons:
         sys.exit(f"Run `fetch` first; archive uses its season list from {out / 'raw'}.")
-    with sync_playwright() as p:
-        ctx = open_browser(p)
+    with sync_playwright() as p, closing(open_browser(p)) as ctx:
         a = Archiver(ctx)
         for s in seasons:
             key, season = s["league_key"], s["season"]
@@ -239,7 +235,6 @@ def archive(name):
             for i in range(0, len(keys), 25):
                 a.save(f"league/{key}/players;player_keys={','.join(keys[i:i + 25])}/stats;type=season",
                        d / "player_season_stats" / f"batch-{i // 25 + 1:03d}.xml")
-        ctx.close()
     print(f"\nDone: {a.fetched} downloaded, {a.skipped} already saved, in {out / 'raw' / 'yahoo_api'}")
 
 
