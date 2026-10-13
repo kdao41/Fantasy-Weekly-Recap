@@ -946,6 +946,8 @@ function renderDispatch(){
   // sidebar
   const mv=d=>d>0?`<span class="up">▲${d}</span>`:d<0?`<span class="down">▼${-d}</span>`:`<span class="flat">–</span>`;
   const power=`<div class="dp-box"><h4>Power top 5</h4>${P.slice(0,5).map((t,i)=>`<div class="dp-row"><span>${i+1}. ${tl(t.name)}</span><span class="r">${rec(t)} ${mv(CUR._move[t.name]||0)}</span></div>`).join("")}</div>`;
+  const weekRow=(k,x)=>`<div class="dp-row"><span><span class="k">${k}</span> ${x.names.map(tl).join(" &amp; ")}</span><span class="r">${n1(x.p)}</span></div>`;
+  const digest=`<div class="dp-box"><h4>Week ${wk} digest</h4>${weekRow("Highest score",Core.weeklyHighs(CUR).find(x=>x.wk===wk))}${weekRow("Lowest score",Core.weeklyLows(CUR).find(x=>x.wk===wk))}</div>`;
   const board=`<div class="dp-box"><h4>Week ${wk} scoreboard</h4>${[...wg].sort((a,b)=>b.hip-a.hip).map(x=>
     `<div class="dp-row"><span>${tl(x.hi)} <span class="lose">over ${tl(x.lo)}</span></span><span class="r"><span class="nw">${n1(x.hip)}–${n1(x.lop)}</span></span></div>`).join("")}</div>`;
   let deck="";
@@ -956,7 +958,7 @@ function renderDispatch(){
   const date=`<div class="dp-date"><span>Week ${wk} edition · ${CUR.lg.season}</span><span>${CUR.lg.name}</span></div>`;
   sec.innerHTML=noteHTML+date+`<h2 class="dp-head">${head}</h2><p class="dp-dek">${lede}</p>
     <div class="dp-tiles">${tiles}</div>
-    <div class="dp-cols"><article class="dispatch">${L.join("")}</article><aside class="dp-side">${deck}${power}${board}</aside></div>`;
+    <div class="dp-cols"><article class="dispatch">${L.join("")}</article><aside class="dp-side">${digest}${deck}${power}${board}</aside></div>`;
 }
 
 // keep=true (the model switch) keeps every section and its content, only adding or dropping the canary tab.

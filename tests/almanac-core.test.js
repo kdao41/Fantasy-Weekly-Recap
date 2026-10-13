@@ -362,6 +362,11 @@ describe("weekly numbers", () => {
     const bye = { rName: { 1: "A", 2: "B", 3: "C" }, weeks: { 1: [m(1, 1, 100), m(2, 1, 80), m(3, null, 80)] } };
     expect(Core.weeklyLows(bye)).toEqual([{ wk: 1, p: 80, rids: [2, 3], names: ["B", "C"] }]);
   });
+  it("lists every week's high score the same way, ties included", () => {
+    expect(Core.weeklyHighs(CUR).map(x => [x.wk, x.p, x.names])).toEqual([[1, 120, ["A"]], [2, 130, ["A"]], [3, 140, ["A"]]]);
+    const tie = { rName: { 1: "A", 2: "B", 3: "C" }, weeks: { 1: [m(1, 1, 100), m(2, 1, 80), m(3, null, 100)] } };
+    expect(Core.weeklyHighs(tie)).toEqual([{ wk: 1, p: 100, rids: [1, 3], names: ["A", "C"] }]);
+  });
   it("picks the standout games, and a tie is never the heartbreak loss", () => {
     const h = Core.gameHighs(CUR._games);
     expect([h.top.hi, h.top.hip, h.blow.hi, h.blow.lo, h.close.wk]).toEqual(["A", 140, "A", "D", 2]);
