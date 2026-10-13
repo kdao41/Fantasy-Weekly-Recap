@@ -1546,7 +1546,7 @@ function openProfile(lab){
       ${aka.length?`<div class="aka">Also played as ${aka.map(esc).join(", ")}</div>`:""}</div>
       <button class="ghost" id="card-x" aria-label="Close">✕</button></div>
     <div class="stats">${stat("Seasons",`${seas.length+(now?1:0)}${seas.length?` <span class="sub">${seas[0].season}–${now?now.season:seas[seas.length-1].season}</span>`:""}`)}
-      ${stat("Titles",titles.length?`<span class="cups">${"🏆".repeat(titles.length)}</span>`:"0")}${stat("Finals",`${titles.length+(+car.runner_ups||0)}`)}
+      ${stat("Titles",titles.length?`<span class="cups">${"🏆".repeat(titles.length)}</span><br><span class="sub">${titles.join(", ")}</span>`:"0")}${stat("Finals",`${titles.length+(+car.runner_ups||0)}`)}
       ${stat("Playoffs",`${car.playoff_appearances??"–"}/${seas.length}`)}${stat("Record",`${w}-${l}${t?"-"+t:""}`)}
       ${stat("Win %",games.length?((w+t/2)/games.length).toFixed(3).replace(/^0/,""):"–")}${stat("Pts / game",n1(ppg))}</div>
     ${live.length?`<p class="sub" style="margin:-4px 0 10px">Includes ${CUR.lg.season} so far (${recH({w:live.filter(g=>g.res==="W").length,l:live.filter(g=>g.res==="L").length,t:live.filter(g=>g.res==="T").length})}). Consolation games don't count.</p>`:""}
