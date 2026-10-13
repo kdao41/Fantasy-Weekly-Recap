@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2012,1,False,Vu Le,166.15,Blake (2012: Tits Mcgee),80.15,Don over Daniel by 0.3,Daniel Vu over matthew by 35.7
+2012,2,False,Blake (2012: Tits Mcgee),145.2,Daniel Vu,76.6,Don over Kevin D by 0.6,Daniel over --hidden-- (2012: GameChanger) by 27.45
+2012,3,False,Don,185.2,--hidden-- (2012: GameChanger),66.25,Kevin D over Daniel by 10.35,Don over Daniel Vu by 73.15
+2012,4,False,Kevin D,147.65,Daniel Vu,89.6,Vu Le over tho by 11.8,Daniel over Daniel Vu by 41.55
+2012,5,False,Vu Le,189.7,--hidden-- (2012: GameChanger),78.95,Blake (2012: Tits Mcgee) over tho by 15.1,matthew over --hidden-- (2012: GameChanger) by 56.85
+2012,6,False,matthew,190.45,--hidden-- (2012: GameChanger),82.15,Daniel over Vu Le by 13.85,Kevin D over Anthony (2010: Team Name Here) by 57.65
+2012,7,False,Vu Le,155.25,Don,77.15,Anthony (2010: Team Name Here) over Daniel Vu by 2.95,tho over --hidden-- (2012: GameChanger) by 41.65
+2012,8,False,Vu Le,147.75,Blake (2012: Tits Mcgee),91.35,--hidden-- (2012: GameChanger) over Anthony (2010: Team Name Here) by 12.75,Vu Le over Daniel Vu by 35.8
+2012,9,False,Kevin D,167.1,--hidden-- (2012: GameChanger),61.0,Daniel Vu over Blake (2012: Tits Mcgee) by 28.35,Don over --hidden-- (2012: GameChanger) by 92.95
+2012,10,False,Kevin D,161.45,Blake (2012: Tits Mcgee),56.75,Kevin D over tho by 1.1,Vu Le over --hidden-- (2012: GameChanger) by 91.45
+2012,11,False,Blake (2012: Tits Mcgee),141.0,tho,74.75,Kevin D over Don by 4.45,Anthony (2010: Team Name Here) over matthew by 46.15
+2012,12,False,Don,169.65,Daniel Vu,79.1,Kevin D over Daniel by 17.45,Don over Daniel Vu by 90.55
+2012,13,False,Vu Le,174.65,--hidden-- (2012: GameChanger),63.2,Anthony (2010: Team Name Here) over Don by 3.45,Kevin D over --hidden-- (2012: GameChanger) by 77.3
+2012,14,True,Don,130.2,Anthony (2010: Team Name Here),76.0,matthew over Anthony (2010: Team Name Here) by 23.1,Don over Blake (2012: Tits Mcgee) by 26.5
+2012,15,True,Don,162.75,Blake (2012: Tits Mcgee),81.85,Daniel over --hidden-- (2012: GameChanger) by 17.9,Vu Le over matthew by 63.15
+2012,16,True,Don,194.9,--hidden-- (2012: GameChanger),80.55,Kevin D over matthew by 23.7,Don over Vu Le by 70.6

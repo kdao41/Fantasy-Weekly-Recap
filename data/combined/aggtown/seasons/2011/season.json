@@ -1,0 +1,542 @@
+{
+ "season": 2011,
+ "league": "Sack em Up!",
+ "finished": true,
+ "champion": {
+  "team_id": 5,
+  "team": "Public Enemy",
+  "manager": "keveezy",
+  "final_rank": 1,
+  "playoff_seed": 5,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1243.96,
+  "points_against": 1261.26
+ },
+ "championship_game": {
+  "week": 16,
+  "winner": "keveezy",
+  "winner_team": "Public Enemy",
+  "winner_points": 116.52,
+  "loser": "anth0nyng",
+  "loser_team": "The Nick Folks",
+  "loser_points": 81.4
+ },
+ "runner_up": {
+  "team_id": 1,
+  "team": "The Nick Folks",
+  "manager": "anth0nyng",
+  "final_rank": 2,
+  "playoff_seed": 2,
+  "wins": 9,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1450.06,
+  "points_against": 1300.18
+ },
+ "third_place": {
+  "team_id": 6,
+  "team": "Screaming Queef Ball",
+  "manager": "donblood",
+  "final_rank": 3,
+  "playoff_seed": 6,
+  "wins": 6,
+  "losses": 7,
+  "ties": 0,
+  "points_for": 1464.16,
+  "points_against": 1447.94
+ },
+ "last_place": {
+  "team_id": 3,
+  "team": "iSuck",
+  "manager": "--hidden-- (2011: iSuck)",
+  "final_rank": 10,
+  "playoff_seed": null,
+  "wins": 3,
+  "losses": 10,
+  "ties": 0,
+  "points_for": 1177.78,
+  "points_against": 1354.86
+ },
+ "regular_season_winner": {
+  "team_id": 10,
+  "team": "BradyOverBitches",
+  "manager": "tho",
+  "final_rank": 7,
+  "playoff_seed": 1,
+  "wins": 9,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1562.66,
+  "points_against": 1299.96
+ },
+ "most_points": {
+  "team_id": 10,
+  "team": "BradyOverBitches",
+  "manager": "tho",
+  "final_rank": 7,
+  "playoff_seed": 1,
+  "wins": 9,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1562.66,
+  "points_against": 1299.96
+ },
+ "settings": {
+  "league_key": "257.l.487737",
+  "num_teams": 10,
+  "start_week": 1,
+  "end_week": 16,
+  "playoff_week_start": 14,
+  "num_playoff_teams": 8,
+  "scoring_type": "head",
+  "draft_type": "live",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 3
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 5,
+   "team": "Public Enemy",
+   "manager": "keveezy",
+   "final_rank": 1,
+   "playoff_seed": 5,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1243.96,
+   "points_against": 1261.26
+  },
+  {
+   "team_id": 1,
+   "team": "The Nick Folks",
+   "manager": "anth0nyng",
+   "final_rank": 2,
+   "playoff_seed": 2,
+   "wins": 9,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1450.06,
+   "points_against": 1300.18
+  },
+  {
+   "team_id": 6,
+   "team": "Screaming Queef Ball",
+   "manager": "donblood",
+   "final_rank": 3,
+   "playoff_seed": 6,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1464.16,
+   "points_against": 1447.94
+  },
+  {
+   "team_id": 2,
+   "team": "RSex",
+   "manager": "wabaki (Lan Doan)",
+   "final_rank": 4,
+   "playoff_seed": 8,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1236.26,
+   "points_against": 1347.22
+  },
+  {
+   "team_id": 4,
+   "team": "heropool",
+   "manager": "DVTV",
+   "final_rank": 5,
+   "playoff_seed": 3,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1251.72,
+   "points_against": 1297.92
+  },
+  {
+   "team_id": 8,
+   "team": "Fat Pepperoni Nipple",
+   "manager": "jimbo817",
+   "final_rank": 6,
+   "playoff_seed": 4,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1384.82,
+   "points_against": 1344.92
+  },
+  {
+   "team_id": 10,
+   "team": "BradyOverBitches",
+   "manager": "tho",
+   "final_rank": 7,
+   "playoff_seed": 1,
+   "wins": 9,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1562.66,
+   "points_against": 1299.96
+  },
+  {
+   "team_id": 9,
+   "team": "Ouchy",
+   "manager": "--hidden-- (2010: Peter'sClap)",
+   "final_rank": 8,
+   "playoff_seed": 7,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1335.7,
+   "points_against": 1229.4
+  },
+  {
+   "team_id": 7,
+   "team": "noob117",
+   "manager": "Kevin",
+   "final_rank": 9,
+   "playoff_seed": null,
+   "wins": 4,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1288.64,
+   "points_against": 1512.1
+  },
+  {
+   "team_id": 3,
+   "team": "iSuck",
+   "manager": "--hidden-- (2011: iSuck)",
+   "final_rank": 10,
+   "playoff_seed": null,
+   "wins": 3,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1177.78,
+   "points_against": 1354.86
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Nick Folks",
+     "manager": "anth0nyng",
+     "points": 126.34,
+     "projected": 119.68,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Ouchy",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 111.68,
+     "projected": 109.55,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "RSex",
+     "manager": "wabaki (Lan Doan)",
+     "points": 135.6,
+     "projected": 95.59,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 118.08,
+     "projected": 97.49,
+     "won": false
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "heropool",
+     "manager": "DVTV",
+     "points": 105.68,
+     "projected": 104.22,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Screaming Queef Ball",
+     "manager": "donblood",
+     "points": 138.34,
+     "projected": 120.35,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Public Enemy",
+     "manager": "keveezy",
+     "points": 116.62,
+     "projected": 106.89,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Fat Pepperoni Nipple",
+     "manager": "jimbo817",
+     "points": 96.98,
+     "projected": 96.41,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Nick Folks",
+     "manager": "anth0nyng",
+     "points": 122.56,
+     "projected": 121.47,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Screaming Queef Ball",
+     "manager": "donblood",
+     "points": 99.2,
+     "projected": 117.16,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "RSex",
+     "manager": "wabaki (Lan Doan)",
+     "points": 81.76,
+     "projected": 94.07,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Public Enemy",
+     "manager": "keveezy",
+     "points": 118.36,
+     "projected": 99.53,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "heropool",
+     "manager": "DVTV",
+     "points": 133.24,
+     "projected": 99.59,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Ouchy",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 118.04,
+     "projected": 115.05,
+     "won": false
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Fat Pepperoni Nipple",
+     "manager": "jimbo817",
+     "points": 114.58,
+     "projected": 105.93,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 114.4,
+     "projected": 111.53,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Nick Folks",
+     "manager": "anth0nyng",
+     "points": 81.4,
+     "projected": 104.39,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Public Enemy",
+     "manager": "keveezy",
+     "points": 116.52,
+     "projected": 102.74,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "RSex",
+     "manager": "wabaki (Lan Doan)",
+     "points": 96.32,
+     "projected": 96.86,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Screaming Queef Ball",
+     "manager": "donblood",
+     "points": 111.94,
+     "projected": 109.18,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "heropool",
+     "manager": "DVTV",
+     "points": 112.22,
+     "projected": 89.94,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Fat Pepperoni Nipple",
+     "manager": "jimbo817",
+     "points": 102.28,
+     "projected": 114.22,
+     "won": false
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Ouchy",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 82.68,
+     "projected": 99.76,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 102.76,
+     "projected": 96.76,
+     "won": true
+    }
+   ],
+   "winner": "tho"
+  }
+ ]
+}

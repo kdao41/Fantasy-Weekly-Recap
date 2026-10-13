@@ -1,0 +1,125 @@
+{
+ "season": 2011,
+ "week": 16,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Nick Folks",
+     "manager": "anth0nyng",
+     "points": 81.4,
+     "projected": 104.39,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Public Enemy",
+     "manager": "keveezy",
+     "points": 116.52,
+     "projected": 102.74,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "RSex",
+     "manager": "wabaki (Lan Doan)",
+     "points": 96.32,
+     "projected": 96.86,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Screaming Queef Ball",
+     "manager": "donblood",
+     "points": 111.94,
+     "projected": 109.18,
+     "won": true
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "heropool",
+     "manager": "DVTV",
+     "points": 112.22,
+     "projected": 89.94,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Fat Pepperoni Nipple",
+     "manager": "jimbo817",
+     "points": 102.28,
+     "projected": 114.22,
+     "won": false
+    }
+   ],
+   "winner": "DVTV"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Ouchy",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 82.68,
+     "projected": 99.76,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 102.76,
+     "projected": 96.76,
+     "won": true
+    }
+   ],
+   "winner": "tho"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "keveezy",
+   "team": "Public Enemy",
+   "points": 116.52
+  },
+  "low_score": {
+   "manager": "anth0nyng",
+   "team": "The Nick Folks",
+   "points": 81.4
+  },
+  "closest_game": {
+   "winner": "DVTV",
+   "winner_points": 112.22,
+   "loser": "jimbo817",
+   "loser_points": 102.28,
+   "margin": 9.94
+  },
+  "biggest_blowout": {
+   "winner": "keveezy",
+   "winner_points": 116.52,
+   "loser": "anth0nyng",
+   "loser_points": 81.4,
+   "margin": 35.12
+  }
+ }
+}

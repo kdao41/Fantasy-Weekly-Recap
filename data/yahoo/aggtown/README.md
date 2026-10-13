@@ -1,9 +1,9 @@
 # Aggtown FFL: Yahoo league history
 
 Complete history of the Aggtown FFL fantasy football league from its Yahoo years,
-**2015 through 2022** (8 played seasons). The league moved to Sleeper afterwards: its
+**2010 through 2022** (13 played seasons). The league moved to Sleeper afterwards: its
 Sleeper seasons are in `data/sleeper/aggtown/`, and `data/combined/aggtown/` merges both into
-one 2015 to 2025 history (start there unless you need Yahoo only). See `data/README.md` for the
+one 2010 to 2025 history (start there unless you need Yahoo only). See `data/README.md` for the
 whole data folder.
 
 This README is also the **file and field reference for every summary folder** (`data/yahoo/*`,
@@ -29,12 +29,15 @@ Everything here was pulled by `scripts/yahoo_scrape.py` from Yahoo's Fantasy v2 
 
 ## Coverage and gaps
 
-- **Seasons:** 2015 to 2022. 2015 had 10 teams; 2016 onward had 12.
+- **Seasons:** 2010 to 2022. Teams: 16 in 2010, 10 in 2011 and 2012, 12 in 2013, 10 in 2014 and
+  2015, 12 from 2016. Playoff teams: 8 in 2010, 2011 and 2015 to 2021; 6 in 2012 to 2014 and from 2022.
 - **Weeks:** 16 per season through 2020 (weeks 1 to 13 regular season, 14 to 16 playoffs);
   17 in 2021 and 2022 (weeks 1 to 14 regular season, 15 to 17 playoffs). The real value is
   `settings.playoff_week_start` in each `season.json`; don't hardcode it.
-- **2014 and earlier:** not available. The 2015 league renews from a 2014 Yahoo league
-  (`331.l.982878`), but this account wasn't in it and Yahoo refuses access.
+- **Before 2015:** the league was recreated under a new name most years: 2010 and 2011 "Sack em Up!", 2012 "Touchdown My Pants", 2013 "Tits and Football" and 2014 "Look at them tits.".
+  Yahoo links only 2010 to 2011 and 2014 to 2015, so the league confirmed the rest from who played.
+  `fetch_config.json` lists the unlinked seasons (`add`) so every fetch includes them. 2010 links to
+  nothing earlier. Scoring rules for 2010 to 2014 aren't documented; compare those points loosely.
 - **2023:** a Yahoo league was created but no games or draft happened. It is in `raw/2023.json`
   and `managers.json`, but deliberately excluded from every built file.
 
@@ -57,8 +60,14 @@ names. Nicknames and team names change between seasons; the guid doesn't.
   `"Nickname (Real Name)"` once `real_name` is filled in. Treat it as the join key across
   seasons; it's consistent across every built file.
 - `real_name` is filled in by hand. After editing, run `build` (below) to relabel everything.
-- One 2015 manager hid their Yahoo profile: nickname `--hidden--`, no guid. Their key is
-  `unknown-2015-team10` (team "DuuuuuhhhhhHelloooo"), and they only appear in 2015.
+- Ten managers show as `--hidden--` (they hid their profile or left Yahoo), each a different person.
+  Seven have no guid and are keyed `unknown-<season>-team<id>`. Labels must be unique, so when
+  managers share one, the most recent keeps it (the 2015 `--hidden--`, team "DuuuuuhhhhhHelloooo")
+  and the others add their first season and team, e.g. `--hidden-- (2010: iSuck)`, the 2010 champion.
+  The league says that 2010 team was Lan Doan (Muso); the combined history credits him for 2010 only,
+  since the same account's 2011 team played beside his.
+  The same rule applies to one person's two accounts here (`Anthony (2010: Team Name Here)`); the
+  combined history merges those through `same_person` in `data/leagues.json`.
 - Team names contain emoji and curly quotes; files are UTF-8.
 
 ## How the results are defined
@@ -156,8 +165,8 @@ by Yahoo `team_id`; weekly rows use `roster_id` (the same team_id, named to mirr
 matchup shape).
 
 ### `raw/yahoo_api/<year>/`: complete Yahoo responses
-Saved byte-for-byte as Yahoo returned them, so nothing has to be re-downloaded (1,933 files,
-about 100 MB; every lineup, transaction page and season-stat batch is present for 2015 to 2022). Contains
+Saved byte-for-byte as Yahoo returned them, so nothing has to be re-downloaded (3,074 files,
+about 156 MB; every lineup, transaction page and season-stat batch is present for 2010 to 2022). Contains
 fields the built files don't use (logos, move/trade counts, injury tags, every stat line).
 
 ```

@@ -1,0 +1,317 @@
+{
+ "season": 2013,
+ "week": 6,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "DonBlood",
+     "manager": "Don",
+     "points": 137.74,
+     "projected": 118.67,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Suck4Luck",
+     "manager": "Kevin D",
+     "points": 153.8,
+     "projected": 102.42,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Pepperoni Nipples",
+     "manager": "Jimmy",
+     "points": 86.6,
+     "projected": 113.26,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Muff Diving Champ",
+     "manager": "Josh",
+     "points": 91.38,
+     "projected": 80.37,
+     "won": true
+    }
+   ],
+   "winner": "Josh"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "69ers",
+     "manager": "Daniel",
+     "points": 125.98,
+     "projected": 106.56,
+     "won": true
+    },
+    {
+     "team_id": 5,
+     "team": "I Make Fuck on You",
+     "manager": "--hidden-- (2013: I Make Fuck on You)",
+     "points": 76.88,
+     "projected": 97.97,
+     "won": false
+    }
+   ],
+   "winner": "Daniel"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Quik Fix",
+     "manager": "Vu Le",
+     "points": 113.84,
+     "projected": 115.69,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Peter's Team",
+     "manager": "Peter",
+     "points": 138.14,
+     "projected": 135.69,
+     "won": true
+    }
+   ],
+   "winner": "Peter"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Dingleberry Pickers",
+     "manager": "Blake (2012: Tits Mcgee)",
+     "points": 97.06,
+     "projected": 86.9,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "AnyHolesDaGoal",
+     "manager": "KevinN",
+     "points": 60.1,
+     "projected": 105.59,
+     "won": false
+    }
+   ],
+   "winner": "Blake (2012: Tits Mcgee)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 9,
+     "team": "Oohhh Kill Em'",
+     "manager": "Muso (Lan Doan)",
+     "points": 153.08,
+     "projected": 107.39,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "FATBOIS",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 86.18,
+     "projected": 94.32,
+     "won": false
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Kevin D",
+   "team": "Suck4Luck",
+   "points": 153.8
+  },
+  "low_score": {
+   "manager": "KevinN",
+   "team": "AnyHolesDaGoal",
+   "points": 60.1
+  },
+  "closest_game": {
+   "winner": "Josh",
+   "winner_points": 91.38,
+   "loser": "Jimmy",
+   "loser_points": 86.6,
+   "margin": 4.78
+  },
+  "biggest_blowout": {
+   "winner": "Muso (Lan Doan)",
+   "winner_points": 153.08,
+   "loser": "Anthony (2010: Team Name Here)",
+   "loser_points": 86.18,
+   "margin": 66.9
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Muso (Lan Doan)",
+   "team": "Oohhh Kill Em'",
+   "record": "6-0",
+   "points_for": 759.52,
+   "points_against": 599.74,
+   "streak": "W6",
+   "week_points": 153.08,
+   "week_result": "W",
+   "opponent": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "rank": 2,
+   "manager": "Peter",
+   "team": "Peter's Team",
+   "record": "5-1",
+   "points_for": 771.12,
+   "points_against": 629.96,
+   "streak": "W1",
+   "week_points": 138.14,
+   "week_result": "W",
+   "opponent": "Vu Le"
+  },
+  {
+   "rank": 3,
+   "manager": "Don",
+   "team": "DonBlood",
+   "record": "4-2",
+   "points_for": 834.02,
+   "points_against": 686.08,
+   "streak": "L1",
+   "week_points": 137.74,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 4,
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "FATBOIS",
+   "record": "4-2",
+   "points_for": 707.84,
+   "points_against": 744.52,
+   "streak": "L1",
+   "week_points": 86.18,
+   "week_result": "L",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 5,
+   "manager": "Kevin D",
+   "team": "Suck4Luck",
+   "record": "3-3",
+   "points_for": 815.72,
+   "points_against": 782.36,
+   "streak": "W2",
+   "week_points": 153.8,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 6,
+   "manager": "Vu Le",
+   "team": "Quik Fix",
+   "record": "3-3",
+   "points_for": 797.24,
+   "points_against": 794.32,
+   "streak": "L1",
+   "week_points": 113.84,
+   "week_result": "L",
+   "opponent": "Peter"
+  },
+  {
+   "rank": 7,
+   "manager": "Jimmy",
+   "team": "Pepperoni Nipples",
+   "record": "3-3",
+   "points_for": 775.36,
+   "points_against": 746.34,
+   "streak": "L1",
+   "week_points": 86.6,
+   "week_result": "L",
+   "opponent": "Josh"
+  },
+  {
+   "rank": 8,
+   "manager": "Daniel",
+   "team": "69ers",
+   "record": "3-3",
+   "points_for": 717.14,
+   "points_against": 661.54,
+   "streak": "W1",
+   "week_points": 125.98,
+   "week_result": "W",
+   "opponent": "--hidden-- (2013: I Make Fuck on You)"
+  },
+  {
+   "rank": 9,
+   "manager": "Blake (2012: Tits Mcgee)",
+   "team": "Dingleberry Pickers",
+   "record": "2-4",
+   "points_for": 627.3,
+   "points_against": 709.54,
+   "streak": "W1",
+   "week_points": 97.06,
+   "week_result": "W",
+   "opponent": "KevinN"
+  },
+  {
+   "rank": 10,
+   "manager": "--hidden-- (2013: I Make Fuck on You)",
+   "team": "I Make Fuck on You",
+   "record": "1-5",
+   "points_for": 668.26,
+   "points_against": 828.76,
+   "streak": "L3",
+   "week_points": 76.88,
+   "week_result": "L",
+   "opponent": "Daniel"
+  },
+  {
+   "rank": 11,
+   "manager": "KevinN",
+   "team": "AnyHolesDaGoal",
+   "record": "1-5",
+   "points_for": 646.32,
+   "points_against": 784.26,
+   "streak": "L2",
+   "week_points": 60.1,
+   "week_result": "L",
+   "opponent": "Blake (2012: Tits Mcgee)"
+  },
+  {
+   "rank": 12,
+   "manager": "Josh",
+   "team": "Muff Diving Champ",
+   "record": "1-5",
+   "points_for": 505.38,
+   "points_against": 657.8,
+   "streak": "W1",
+   "week_points": 91.38,
+   "week_result": "W",
+   "opponent": "Jimmy"
+  }
+ ]
+}

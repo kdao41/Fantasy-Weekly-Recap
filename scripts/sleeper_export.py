@@ -258,11 +258,23 @@ def combine(league):
     ydir, sdir = DATA / "yahoo" / league["yahoo_folder"], DATA / "sleeper" / league["id"]
     out = DATA / "combined" / league["id"]
     ymgr = json.loads((ydir / "managers.json").read_text())
+    # One person's several Yahoo accounts are filed under their newest. An entry with `seasons` covers
+    # only those seasons, for an old account someone else ran in other years.
+    same = league.get("same_person", [])
+    newest = {g: p["yahoo_accounts"][-1] for p in same if "seasons" not in p for g in p["yahoo_accounts"]}
+    def filed_under(guid, season):
+        return next((p["yahoo_accounts"][-1] for p in same if guid in p["yahoo_accounts"] and season in p.get("seasons", [season])), guid)
     by_nick = {}
-    for guid, m in ymgr.items():
+    # Oldest account first, so when two people share a nickname the one who played most recently,
+    # the one who moved to Sleeper, keeps it.
+    for guid, m in sorted(ymgr.items(), key=lambda x: max(x[1]["teams"])):
         for nick in m["nicknames"]:
-            by_nick.setdefault(nick, guid)
+            by_nick[nick] = newest.get(guid, guid)
     yahoo = [json.loads(p.read_text()) for p in sorted((ydir / "raw").glob("*.json"))]
+    for s in yahoo:
+        for t in s["teams"]:
+            if t.get("manager_guid"):
+                t["manager_guid"] = filed_under(t["manager_guid"], s["season"])
     sleeper = [json.loads(p.read_text()) for p in sorted((sdir / "raw").glob("*.json"))]
     if not sleeper:
         sys.exit(f"No Sleeper seasons in {sdir / 'raw'}; run `fetch` first.")
@@ -286,6 +298,7 @@ def combine(league):
     mpath = out / "managers.json"
     merged = json.loads(mpath.read_text()) if mpath.exists() else {}
     for guid, m in ymgr.items():
+        guid = newest.get(guid, guid)
         if m.get("real_name") and not merged.get(guid, {}).get("real_name"):
             merged.setdefault(guid, {"real_name": "", "nicknames": [], "teams": {}})["real_name"] = m["real_name"]
     mpath.write_text(json.dumps(merged, indent=1, sort_keys=True))

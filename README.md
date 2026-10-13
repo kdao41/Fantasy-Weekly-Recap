@@ -21,7 +21,7 @@ Links into a specific league: `index.html?lg=<Sleeper league id>#<tab>`, `histor
 
 | League | Sleeper id | History |
 |---|---|---|
-| Aggtown Fantasy League | `1389331035040260096` | 2015 to 2022 on Yahoo, 2023 on Sleeper |
+| Aggtown Fantasy League | `1389331035040260096` | 2010 to 2022 on Yahoo, 2023 on Sleeper |
 | Sober Gang | `1389735540009500672` | 2019 to 2023 on Yahoo (as "Nooblets"), 2024 on Sleeper |
 | Goodell Haters, 12 Guys 1 Cup, Sea Squad | see `PRESETS` in the Almanac | Sleeper live only |
 
@@ -67,6 +67,55 @@ npm test
 - **Real names:** fill in `real_name` in `data/combined/<league>/managers.json`, then
   `python3 scripts/sleeper_export.py combine`. Names then show as "nickname (Real Name)".
 
+## Pulling a league's Yahoo history
+
+Yahoo's official API refuses unapproved developer apps since 2026, so `scripts/yahoo_export.py` no
+longer works. `scripts/yahoo_scrape.py` reads the same data the way Yahoo's own website does: through
+a signed-in browser. This is how Aggtown (2010 to 2022) and Nooblets (2019 to 2023) were pulled.
+
+You need `uv` and a Yahoo account that was **in the league** for the seasons you want. Yahoo only
+serves seasons that account played in: Aggtown 2010 to 2014 needed a different account than 2015 on.
+
+**Check the setup first:** `uv run --python 3.12 scripts/yahoo_scrape.py check <name>`. It checks
+everything below in order (Chromium installed, Yahoo session still signed in, the browser profile free,
+the league found and which seasons are downloaded or archived, `leagues.json` nicknames that exist), prints
+the fix for anything missing, and says "Ready." when there's nothing left to do. Rerun it after each fix.
+
+1. **Install Chromium** for Playwright (once per machine):
+   `uv run --python 3.12 --with playwright playwright install chromium`
+2. **Sign in** (once, or again when the session expires):
+   `uv run --python 3.12 scripts/yahoo_scrape.py login`.
+   A browser window opens; sign in to Yahoo, then close the window. The session is saved in
+   `~/.yahoo-fantasy-browser`, outside the repo. Only one script can use it at a time.
+3. **Fetch the seasons:** `uv run --python 3.12 scripts/yahoo_scrape.py fetch <name>`.
+   `<name>` is matched against the league names in your Yahoo account (case-insensitive, part of
+   the name is enough), and renamed seasons are followed, so `fetch nooblets` found "Nooblets",
+   "Nooblets Season 2" and "Nooblets Season 5". Output goes to `data/yahoo/<name>/`, and the summary
+   files are built at the end. Rerunning skips finished seasons already downloaded.
+   - If the league was recreated under a new name some years, Yahoo doesn't link those seasons to the
+     rest. `uv run --python 3.12 scripts/yahoo_scrape.py leagues` lists every league-season the account
+     can see with its key; add the missing ones with `--add <key>` (one per season, repeatable; Aggtown
+     2010, 2012 and 2013 needed this). Confirm with the league which ones count, from who played.
+   - If Yahoo kept auto-renewing the league after it moved to Sleeper, add `--until <last real season>`
+     (Nooblets used `--until 2023`). Both are saved in `fetch_config.json`, so later runs match.
+4. **Archive the full detail** (lineups, every player's points, transactions, player stats):
+   `uv run --python 3.12 scripts/yahoo_scrape.py archive <name>`. It is slow, and Yahoo throttles
+   bursts with HTTP 999. The script backs off on its own, and if it stops, rerun it: it resumes and
+   skips files it already has.
+5. **Stitch it onto the Sleeper league** in `data/leagues.json`: set the league's `yahoo_folder` to
+   `<name>`, and in `people` map each Sleeper display name to that person's Yahoo nickname. The
+   nicknames are in `data/yahoo/<name>/managers.json`. Yahoo only shows nicknames, so confirm who's
+   who with the league rather than guessing. Anyone left out stays a separate, Yahoo-only manager.
+   If someone switched Yahoo accounts between seasons, list the account ids (the keys in
+   `managers.json`), oldest first, under `same_person`; the combined history files them under the
+   newest. Add `"seasons": [...]` when the old account was someone else's in other years. `check` notes a nickname that sits on two unmerged accounts.
+6. **Combine:** `python3 scripts/sleeper_export.py all` for a newly added league (it also archives the
+   Sleeper seasons), or `python3 scripts/sleeper_export.py combine <league id>` if the Sleeper side is
+   already saved. Check the History tab and `history.html` locally, then commit `data/`.
+
+`data/yahoo/README.md` has the per-league notes and access limits, and
+`data/yahoo/aggtown/README.md` documents every file and field.
+
 ## Data and scripts
 
 `data/` holds every saved season, summarized and in raw form; start with
@@ -75,7 +124,7 @@ npm test
 | Script | Does | Needs |
 |---|---|---|
 | `scripts/sleeper_export.py` | Archives finished Sleeper seasons and builds the combined Yahoo + Sleeper history | Python 3, no login |
-| `scripts/yahoo_scrape.py` | Pulls Yahoo seasons through a logged-in browser session (`login`, `fetch`, `archive`, `build`) | `uv`, a Yahoo login once |
+| `scripts/yahoo_scrape.py` | Pulls Yahoo seasons through a logged-in browser session (`check`, `login`, `fetch`, `archive`, `build`) | `uv`, a Yahoo login once |
 | `scripts/league_build.py` | Shared builder: turns normalized seasons into the summary files | used by both above |
 | `scripts/yahoo_export.py` | Yahoo's official OAuth API client. Yahoo blocks unapproved apps since 2026, so it only works if Yahoo approves our app; its parsers are reused by `yahoo_scrape.py` | Yahoo app keys in the macOS Keychain |
 

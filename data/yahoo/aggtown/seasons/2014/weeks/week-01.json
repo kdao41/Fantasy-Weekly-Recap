@@ -1,0 +1,270 @@
+{
+ "season": 2014,
+ "week": 1,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "Don",
+     "points": 114.78,
+     "projected": 128.7,
+     "won": false
+    },
+    {
+     "team_id": 2,
+     "team": "Womb Raider",
+     "manager": "Muso (Lan Doan)",
+     "points": 139.44,
+     "projected": 124.69,
+     "won": true
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 147.84,
+     "projected": 123.3,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Anthony's Team",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 87.7,
+     "projected": 103.88,
+     "won": false
+    }
+   ],
+   "winner": "Blake"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Suck Dez Nuts",
+     "manager": "Kevin D",
+     "points": 140.26,
+     "projected": 125.94,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "TDs and beer",
+     "manager": "JP",
+     "points": 119.32,
+     "projected": 130.9,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Blue Waffle",
+     "manager": "Jimmy",
+     "points": 153.5,
+     "projected": 123.15,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "ooooooSexy",
+     "manager": "Cody",
+     "points": 147.36,
+     "projected": 129.86,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Suck a Dick",
+     "manager": "--hidden-- (2014: Suck a Dick)",
+     "points": 101.02,
+     "projected": 133.18,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "peter's Team",
+     "manager": "peter",
+     "points": 104.96,
+     "projected": 129.23,
+     "won": true
+    }
+   ],
+   "winner": "peter"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Jimmy",
+   "team": "Blue Waffle",
+   "points": 153.5
+  },
+  "low_score": {
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "Anthony's Team",
+   "points": 87.7
+  },
+  "closest_game": {
+   "winner": "peter",
+   "winner_points": 104.96,
+   "loser": "--hidden-- (2014: Suck a Dick)",
+   "loser_points": 101.02,
+   "margin": 3.94
+  },
+  "biggest_blowout": {
+   "winner": "Blake",
+   "winner_points": 147.84,
+   "loser": "Anthony (2010: Team Name Here)",
+   "loser_points": 87.7,
+   "margin": 60.14
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Jimmy",
+   "team": "Blue Waffle",
+   "record": "1-0",
+   "points_for": 153.5,
+   "points_against": 147.36,
+   "streak": "W1",
+   "week_points": 153.5,
+   "week_result": "W",
+   "opponent": "Cody"
+  },
+  {
+   "rank": 2,
+   "manager": "Blake",
+   "team": "Shake n Blake",
+   "record": "1-0",
+   "points_for": 147.84,
+   "points_against": 87.7,
+   "streak": "W1",
+   "week_points": 147.84,
+   "week_result": "W",
+   "opponent": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "rank": 3,
+   "manager": "Kevin D",
+   "team": "Suck Dez Nuts",
+   "record": "1-0",
+   "points_for": 140.26,
+   "points_against": 119.32,
+   "streak": "W1",
+   "week_points": 140.26,
+   "week_result": "W",
+   "opponent": "JP"
+  },
+  {
+   "rank": 4,
+   "manager": "Muso (Lan Doan)",
+   "team": "Womb Raider",
+   "record": "1-0",
+   "points_for": 139.44,
+   "points_against": 114.78,
+   "streak": "W1",
+   "week_points": 139.44,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 5,
+   "manager": "peter",
+   "team": "peter's Team",
+   "record": "1-0",
+   "points_for": 104.96,
+   "points_against": 101.02,
+   "streak": "W1",
+   "week_points": 104.96,
+   "week_result": "W",
+   "opponent": "--hidden-- (2014: Suck a Dick)"
+  },
+  {
+   "rank": 6,
+   "manager": "Cody",
+   "team": "ooooooSexy",
+   "record": "0-1",
+   "points_for": 147.36,
+   "points_against": 153.5,
+   "streak": "L1",
+   "week_points": 147.36,
+   "week_result": "L",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 7,
+   "manager": "JP",
+   "team": "TDs and beer",
+   "record": "0-1",
+   "points_for": 119.32,
+   "points_against": 140.26,
+   "streak": "L1",
+   "week_points": 119.32,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 8,
+   "manager": "Don",
+   "team": "donblood",
+   "record": "0-1",
+   "points_for": 114.78,
+   "points_against": 139.44,
+   "streak": "L1",
+   "week_points": 114.78,
+   "week_result": "L",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 9,
+   "manager": "--hidden-- (2014: Suck a Dick)",
+   "team": "Suck a Dick",
+   "record": "0-1",
+   "points_for": 101.02,
+   "points_against": 104.96,
+   "streak": "L1",
+   "week_points": 101.02,
+   "week_result": "L",
+   "opponent": "peter"
+  },
+  {
+   "rank": 10,
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "Anthony's Team",
+   "record": "0-1",
+   "points_for": 87.7,
+   "points_against": 147.84,
+   "streak": "L1",
+   "week_points": 87.7,
+   "week_result": "L",
+   "opponent": "Blake"
+  }
+ ]
+}

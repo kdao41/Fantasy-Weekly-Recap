@@ -20,10 +20,14 @@ def manager_id(team, season):
 
 
 def load_managers(path, seasons):
-    managers = json.loads(path.read_text()) if path.exists() else {}
-    for s in seasons:
+    # Only real_name is hand-edited. Nicknames are rebuilt oldest season first, so the label's
+    # "latest nickname" stays the latest even when older seasons are added later.
+    saved = json.loads(path.read_text()) if path.exists() else {}
+    managers = {}
+    for s in sorted(seasons, key=lambda s: s["season"]):
         for t in s["teams"]:
-            m = managers.setdefault(manager_id(t, s["season"]), {"real_name": "", "nicknames": [], "teams": {}})
+            mid = manager_id(t, s["season"])
+            m = managers.setdefault(mid, {"real_name": saved.get(mid, {}).get("real_name", ""), "nicknames": [], "teams": {}})
             if t["manager"] and t["manager"] not in m["nicknames"]:
                 m["nicknames"].append(t["manager"])
             m["teams"][str(s["season"])] = t["name"]
@@ -31,10 +35,24 @@ def load_managers(path, seasons):
     return managers
 
 
+def base_label(m):
+    nick = m["nicknames"][-1]
+    return f"{nick} ({m['real_name']})" if m.get("real_name") else nick
+
+
 def label(managers, mid):
     m = managers.get(mid, {})
-    nick = m["nicknames"][-1] if m.get("nicknames") else mid
-    return f"{nick} ({m['real_name']})" if m.get("real_name") else nick
+    if not m.get("nicknames"):
+        return mid
+    b = base_label(m)
+    # Labels are the join key in every summary file, so they must be unique. When managers share one
+    # (several "--hidden--" profiles, or one person's two accounts), the most recent keeps it and the
+    # others add their first season and team.
+    recent = lambda i, x: (max(x["teams"]), i)
+    if any(i != mid and o.get("nicknames") and base_label(o) == b and recent(i, o) > recent(mid, m) for i, o in managers.items()):
+        first = min(m["teams"])
+        return f"{b} ({first}: {m['teams'][first]})"
+    return b
 
 
 def week_history(season, weeks_out):

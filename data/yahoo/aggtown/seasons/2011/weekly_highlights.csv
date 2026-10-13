@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2011,1,False,--hidden-- (2010: Peter'sClap),123.76,Don,88.28,Jimmy over Don by 7.88,Anthony (2010: Team Name Here) over Kevin by 29.38
+2011,2,False,tho,166.82,--hidden-- (2010: Peter'sClap),88.48,Daniel Vu over Kevin by 1.88,tho over Don by 49.2
+2011,3,False,--hidden-- (2010: Peter'sClap),163.56,Kevin D,58.84,--hidden-- (2010: iSuck) over Anthony (2010: Team Name Here) by 8.26,--hidden-- (2010: Peter'sClap) over Kevin by 96.12
+2011,4,False,Don,167.52,Muso (Lan Doan),80.54,Daniel Vu over --hidden-- (2010: Peter'sClap) by 2.3,Don over Kevin by 46.74
+2011,5,False,Kevin D,128.7,Daniel Vu,69.46,Kevin D over tho by 6.96,Anthony (2010: Team Name Here) over Daniel Vu by 51.9
+2011,6,False,Jimmy,117.72,--hidden-- (2010: iSuck),84.46,Daniel Vu over Don by 10.78,Jimmy over --hidden-- (2010: iSuck) by 33.26
+2011,7,False,Jimmy,131.3,--hidden-- (2010: Peter'sClap),61.98,Kevin D over --hidden-- (2010: Peter'sClap) by 3.86,Muso (Lan Doan) over Don by 42.94
+2011,8,False,tho,127.12,Muso (Lan Doan),62.0,--hidden-- (2010: Peter'sClap) over Jimmy by 0.18,tho over Muso (Lan Doan) by 65.12
+2011,9,False,Don,141.18,Daniel Vu,82.96,--hidden-- (2010: Peter'sClap) over tho by 0.62,Don over --hidden-- (2010: iSuck) by 52.74
+2011,10,False,Anthony (2010: Team Name Here),143.3,Kevin D,63.82,Daniel Vu over --hidden-- (2010: iSuck) by 11.62,Anthony (2010: Team Name Here) over Don by 27.5
+2011,11,False,Kevin,124.4,--hidden-- (2010: iSuck),54.22,tho over Daniel Vu by 12.26,Kevin D over Anthony (2010: Team Name Here) by 32.48
+2011,12,False,--hidden-- (2010: Peter'sClap),135.2,Kevin,67.92,Daniel Vu over Kevin D by 3.6,--hidden-- (2010: Peter'sClap) over Kevin by 67.28
+2011,13,False,Anthony (2010: Team Name Here),137.26,Kevin D,78.5,Daniel Vu over Jimmy by 11.24,Kevin over Kevin D by 36.88
+2011,14,True,Don,138.34,Jimmy,96.98,Anthony (2010: Team Name Here) over --hidden-- (2010: Peter'sClap) by 14.66,Don over Daniel Vu by 32.66
+2011,15,True,Daniel Vu,133.24,Muso (Lan Doan),81.76,Jimmy over tho by 0.18,Kevin D over Muso (Lan Doan) by 36.6
+2011,16,True,Kevin D,116.52,Anthony (2010: Team Name Here),81.4,Daniel Vu over Jimmy by 9.94,Kevin D over Anthony (2010: Team Name Here) by 35.12

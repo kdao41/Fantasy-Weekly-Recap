@@ -1,0 +1,157 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2013,1,1,Don,DonBlood,1-0,186.58,153.78,W1,186.58,W,Jimmy
+2013,1,2,Daniel,69ers,1-0,164.28,112.82,W1,164.28,W,KevinN
+2013,1,3,Vu Le,Quik Fix,1-0,153.18,112.42,W1,153.18,W,Anthony (2010: Team Name Here)
+2013,1,4,Peter,Peter's Team,1-0,146.96,118.52,W1,146.96,W,Kevin D
+2013,1,5,Muso (Lan Doan),Oohhh Kill Em',1-0,123.06,111.9,W1,123.06,W,--hidden-- (2013: I Make Fuck on You)
+2013,1,6,Blake (2012: Tits Mcgee),Dingleberry Pickers,1-0,103.52,88.7,W1,103.52,W,Josh
+2013,1,7,Jimmy,Pepperoni Nipples,0-1,153.78,186.58,L1,153.78,L,Don
+2013,1,8,Kevin D,Suck4Luck,0-1,118.52,146.96,L1,118.52,L,Peter
+2013,1,9,KevinN,AnyHolesDaGoal,0-1,112.82,164.28,L1,112.82,L,Daniel
+2013,1,10,Anthony (2010: Team Name Here),FATBOIS,0-1,112.42,153.18,L1,112.42,L,Vu Le
+2013,1,11,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,0-1,111.9,123.06,L1,111.9,L,Muso (Lan Doan)
+2013,1,12,Josh,Muff Diving Champ,0-1,88.7,103.52,L1,88.7,L,Blake (2012: Tits Mcgee)
+2013,2,1,Vu Le,Quik Fix,2-0,333.96,239.24,W2,180.78,W,KevinN
+2013,2,2,Peter,Peter's Team,2-0,277.76,208.3,W2,130.8,W,Jimmy
+2013,2,3,Daniel,69ers,2-0,273.7,220.6,W2,109.42,W,Don
+2013,2,4,Muso (Lan Doan),Oohhh Kill Em',2-0,254.52,221.76,W2,131.46,W,Josh
+2013,2,5,Don,DonBlood,1-1,294.36,263.2,L1,107.78,L,Daniel
+2013,2,6,Kevin D,Suck4Luck,1-1,280.02,274.76,W1,161.5,W,Blake (2012: Tits Mcgee)
+2013,2,7,Anthony (2010: Team Name Here),FATBOIS,1-1,238.86,272.36,W1,126.44,W,--hidden-- (2013: I Make Fuck on You)
+2013,2,8,Blake (2012: Tits Mcgee),Dingleberry Pickers,1-1,231.32,250.2,L1,127.8,L,Kevin D
+2013,2,9,Jimmy,Pepperoni Nipples,0-2,243.56,317.38,L2,89.78,L,Peter
+2013,2,10,KevinN,AnyHolesDaGoal,0-2,239.64,345.06,L2,126.82,L,Vu Le
+2013,2,11,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,0-2,231.08,249.5,L2,119.18,L,Anthony (2010: Team Name Here)
+2013,2,12,Josh,Muff Diving Champ,0-2,198.56,234.98,L2,109.86,L,Muso (Lan Doan)
+2013,3,1,Peter,Peter's Team,3-0,429.8,297.5,W3,152.04,W,Blake (2012: Tits Mcgee)
+2013,3,2,Muso (Lan Doan),Oohhh Kill Em',3-0,366.66,319.22,W3,112.14,W,Kevin D
+2013,3,3,Don,DonBlood,2-1,441.84,359.14,W1,147.48,W,Vu Le
+2013,3,4,Vu Le,Quik Fix,2-1,429.9,386.72,L1,95.94,L,Don
+2013,3,5,Daniel,69ers,2-1,363.7,334.36,L1,90.0,L,Jimmy
+2013,3,6,Anthony (2010: Team Name Here),FATBOIS,2-1,354.52,354.68,W2,115.66,W,Josh
+2013,3,7,Kevin D,Suck4Luck,1-2,377.48,386.9,L1,97.46,L,Muso (Lan Doan)
+2013,3,8,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,1-2,362.16,377.0,W1,131.08,W,KevinN
+2013,3,9,Jimmy,Pepperoni Nipples,1-2,357.32,407.38,W1,113.76,W,Daniel
+2013,3,10,Blake (2012: Tits Mcgee),Dingleberry Pickers,1-2,320.52,402.24,L2,89.2,L,Peter
+2013,3,11,KevinN,AnyHolesDaGoal,0-3,367.14,476.14,L3,127.5,L,--hidden-- (2013: I Make Fuck on You)
+2013,3,12,Josh,Muff Diving Champ,0-3,280.88,350.64,L3,82.32,L,Anthony (2010: Team Name Here)
+2013,4,1,Peter,Peter's Team,4-0,549.98,409.38,W4,120.18,W,Daniel
+2013,4,2,Muso (Lan Doan),Oohhh Kill Em',4-0,499.7,430.56,W4,133.04,W,Blake (2012: Tits Mcgee)
+2013,4,3,Don,DonBlood,3-1,590.06,464.16,W2,148.22,W,--hidden-- (2013: I Make Fuck on You)
+2013,4,4,Anthony (2010: Team Name Here),FATBOIS,3-1,507.5,493.06,W3,152.98,W,Kevin D
+2013,4,5,Vu Le,Quik Fix,2-2,553.28,540.6,L2,123.38,L,Jimmy
+2013,4,6,Jimmy,Pepperoni Nipples,2-2,511.2,530.76,W2,153.88,W,Vu Le
+2013,4,7,Daniel,69ers,2-2,475.58,454.54,L2,111.88,L,Peter
+2013,4,8,Kevin D,Suck4Luck,1-3,515.86,539.88,L2,138.38,L,Anthony (2010: Team Name Here)
+2013,4,9,KevinN,AnyHolesDaGoal,1-3,481.48,541.14,W1,114.34,W,Josh
+2013,4,10,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,1-3,467.18,525.22,L1,105.02,L,Don
+2013,4,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,1-3,431.86,535.28,L3,111.34,L,Muso (Lan Doan)
+2013,4,12,Josh,Muff Diving Champ,0-4,345.88,464.98,L4,65.0,L,KevinN
+2013,5,1,Muso (Lan Doan),Oohhh Kill Em',5-0,606.44,513.56,W5,106.74,W,Peter
+2013,5,2,Don,DonBlood,4-1,696.28,532.28,W3,106.22,W,Josh
+2013,5,3,Peter,Peter's Team,4-1,632.98,516.12,L1,83.0,L,Muso (Lan Doan)
+2013,5,4,Anthony (2010: Team Name Here),FATBOIS,4-1,621.66,591.44,W4,114.16,W,Blake (2012: Tits Mcgee)
+2013,5,5,Jimmy,Pepperoni Nipples,3-2,688.76,654.96,W3,177.56,W,--hidden-- (2013: I Make Fuck on You)
+2013,5,6,Vu Le,Quik Fix,3-2,683.4,656.18,W1,130.12,W,Daniel
+2013,5,7,Kevin D,Suck4Luck,2-3,661.92,644.62,W1,146.06,W,KevinN
+2013,5,8,Daniel,69ers,2-3,591.16,584.66,L3,115.58,L,Vu Le
+2013,5,9,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,1-4,591.38,702.78,L2,124.2,L,Jimmy
+2013,5,10,KevinN,AnyHolesDaGoal,1-4,586.22,687.2,L1,104.74,L,Kevin D
+2013,5,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,1-4,530.24,649.44,L4,98.38,L,Anthony (2010: Team Name Here)
+2013,5,12,Josh,Muff Diving Champ,0-5,414.0,571.2,L5,68.12,L,Don
+2013,6,1,Muso (Lan Doan),Oohhh Kill Em',6-0,759.52,599.74,W6,153.08,W,Anthony (2010: Team Name Here)
+2013,6,2,Peter,Peter's Team,5-1,771.12,629.96,W1,138.14,W,Vu Le
+2013,6,3,Don,DonBlood,4-2,834.02,686.08,L1,137.74,L,Kevin D
+2013,6,4,Anthony (2010: Team Name Here),FATBOIS,4-2,707.84,744.52,L1,86.18,L,Muso (Lan Doan)
+2013,6,5,Kevin D,Suck4Luck,3-3,815.72,782.36,W2,153.8,W,Don
+2013,6,6,Vu Le,Quik Fix,3-3,797.24,794.32,L1,113.84,L,Peter
+2013,6,7,Jimmy,Pepperoni Nipples,3-3,775.36,746.34,L1,86.6,L,Josh
+2013,6,8,Daniel,69ers,3-3,717.14,661.54,W1,125.98,W,--hidden-- (2013: I Make Fuck on You)
+2013,6,9,Blake (2012: Tits Mcgee),Dingleberry Pickers,2-4,627.3,709.54,W1,97.06,W,KevinN
+2013,6,10,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,1-5,668.26,828.76,L3,76.88,L,Daniel
+2013,6,11,KevinN,AnyHolesDaGoal,1-5,646.32,784.26,L2,60.1,L,Blake (2012: Tits Mcgee)
+2013,6,12,Josh,Muff Diving Champ,1-5,505.38,657.8,W1,91.38,W,Jimmy
+2013,7,1,Peter,Peter's Team,6-1,939.24,723.08,W2,168.12,W,Anthony (2010: Team Name Here)
+2013,7,2,Muso (Lan Doan),Oohhh Kill Em',6-1,875.82,758.42,L1,116.3,L,KevinN
+2013,7,3,Don,DonBlood,5-2,991.82,757.6,W1,157.8,W,Blake (2012: Tits Mcgee)
+2013,7,4,Kevin D,Suck4Luck,4-3,944.42,894.2,W3,128.7,W,Jimmy
+2013,7,5,Anthony (2010: Team Name Here),FATBOIS,4-3,800.96,912.64,L2,93.12,L,Peter
+2013,7,6,Daniel,69ers,4-3,797.06,725.3,W2,79.92,W,Josh
+2013,7,7,Jimmy,Pepperoni Nipples,3-4,887.2,875.04,L2,111.84,L,Kevin D
+2013,7,8,Vu Le,Quik Fix,3-4,852.04,894.92,L2,54.8,L,--hidden-- (2013: I Make Fuck on You)
+2013,7,9,KevinN,AnyHolesDaGoal,2-5,805.0,900.56,W1,158.68,W,Muso (Lan Doan)
+2013,7,10,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,2-5,768.86,883.56,W1,100.6,W,Vu Le
+2013,7,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,2-5,698.82,867.34,L1,71.52,L,Don
+2013,7,12,Josh,Muff Diving Champ,1-6,569.14,737.72,L1,63.76,L,Daniel
+2013,8,1,Peter,Peter's Team,7-1,1073.94,823.24,W3,134.7,W,--hidden-- (2013: I Make Fuck on You)
+2013,8,2,Don,DonBlood,6-2,1125.6,845.64,W2,133.78,W,Muso (Lan Doan)
+2013,8,3,Muso (Lan Doan),Oohhh Kill Em',6-2,963.86,892.2,L2,88.04,L,Don
+2013,8,4,Kevin D,Suck4Luck,5-3,1082.92,1009.92,W4,138.5,W,Daniel
+2013,8,5,Jimmy,Pepperoni Nipples,4-4,990.16,969.58,W1,102.96,W,Blake (2012: Tits Mcgee)
+2013,8,6,Vu Le,Quik Fix,4-4,985.1,957.76,W1,133.06,W,Josh
+2013,8,7,Daniel,69ers,4-4,912.78,863.8,L1,115.72,L,Kevin D
+2013,8,8,Anthony (2010: Team Name Here),FATBOIS,4-4,896.58,1029.68,L3,95.62,L,KevinN
+2013,8,9,KevinN,AnyHolesDaGoal,3-5,922.04,996.18,W2,117.04,W,Anthony (2010: Team Name Here)
+2013,8,10,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,2-6,869.02,1018.26,L1,100.16,L,Peter
+2013,8,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,2-6,793.36,970.3,L2,94.54,L,Jimmy
+2013,8,12,Josh,Muff Diving Champ,1-7,631.98,870.78,L2,62.84,L,Vu Le
+2013,9,1,Peter,Peter's Team,8-1,1210.88,930.12,W4,136.94,W,KevinN
+2013,9,2,Don,DonBlood,7-2,1246.08,941.86,W3,120.48,W,Anthony (2010: Team Name Here)
+2013,9,3,Muso (Lan Doan),Oohhh Kill Em',6-3,1068.9,1008.96,L3,105.04,L,Jimmy
+2013,9,4,Kevin D,Suck4Luck,5-4,1161.1,1144.9,L1,78.18,L,Vu Le
+2013,9,5,Vu Le,Quik Fix,5-4,1120.08,1035.94,W2,134.98,W,Kevin D
+2013,9,6,Jimmy,Pepperoni Nipples,5-4,1106.92,1074.62,W2,116.76,W,Muso (Lan Doan)
+2013,9,7,Daniel,69ers,5-4,1085.98,946.88,W1,173.2,W,Blake (2012: Tits Mcgee)
+2013,9,8,Anthony (2010: Team Name Here),FATBOIS,4-5,992.8,1150.16,L4,96.22,L,Don
+2013,9,9,KevinN,AnyHolesDaGoal,3-6,1028.92,1133.12,L1,106.88,L,Peter
+2013,9,10,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,3-6,1004.2,1062.02,W1,135.18,W,Josh
+2013,9,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,2-7,876.44,1143.5,L3,83.08,L,Daniel
+2013,9,12,Josh,Muff Diving Champ,1-8,675.74,1005.96,L3,43.76,L,--hidden-- (2013: I Make Fuck on You)
+2013,10,1,Peter,Peter's Team,9-1,1328.52,973.18,W5,117.64,W,Josh
+2013,10,2,Don,DonBlood,7-3,1335.46,1035.88,L1,89.38,L,KevinN
+2013,10,3,Jimmy,Pepperoni Nipples,6-4,1235.12,1180.7,W3,128.2,W,Anthony (2010: Team Name Here)
+2013,10,4,Daniel,69ers,6-4,1231.74,1050.4,W2,145.76,W,Muso (Lan Doan)
+2013,10,5,Vu Le,Quik Fix,6-4,1226.2,1109.6,W3,106.12,W,Blake (2012: Tits Mcgee)
+2013,10,6,Muso (Lan Doan),Oohhh Kill Em',6-4,1172.42,1154.72,L4,103.52,L,Daniel
+2013,10,7,Kevin D,Suck4Luck,5-5,1242.56,1270.38,L2,81.46,L,--hidden-- (2013: I Make Fuck on You)
+2013,10,8,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,4-6,1129.68,1143.48,W2,125.48,W,Kevin D
+2013,10,9,KevinN,AnyHolesDaGoal,4-6,1122.94,1222.5,W1,94.02,W,Don
+2013,10,10,Anthony (2010: Team Name Here),FATBOIS,4-6,1098.88,1278.36,L5,106.08,L,Jimmy
+2013,10,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,2-8,950.1,1249.62,L4,73.66,L,Vu Le
+2013,10,12,Josh,Muff Diving Champ,1-9,718.8,1123.6,L4,43.06,L,Peter
+2013,11,1,Peter,Peter's Team,10-1,1490.78,1106.48,W6,162.26,W,Don
+2013,11,2,Don,DonBlood,7-4,1468.76,1198.14,L2,133.3,L,Peter
+2013,11,3,Muso (Lan Doan),Oohhh Kill Em',7-4,1272.24,1251.64,W1,99.82,W,Vu Le
+2013,11,4,Jimmy,Pepperoni Nipples,6-5,1361.54,1312.82,L1,126.42,L,KevinN
+2013,11,5,Kevin D,Suck4Luck,6-5,1337.5,1345.24,W1,94.94,W,Josh
+2013,11,6,Daniel,69ers,6-5,1327.72,1188.58,L1,95.98,L,Anthony (2010: Team Name Here)
+2013,11,7,Vu Le,Quik Fix,6-5,1323.12,1209.42,L1,96.92,L,Muso (Lan Doan)
+2013,11,8,KevinN,AnyHolesDaGoal,5-6,1255.06,1348.92,W2,132.12,W,Jimmy
+2013,11,9,Anthony (2010: Team Name Here),FATBOIS,5-6,1237.06,1374.34,W1,138.18,W,Daniel
+2013,11,10,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,5-6,1236.08,1241.92,W3,106.4,W,Blake (2012: Tits Mcgee)
+2013,11,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,2-9,1048.54,1356.02,L5,98.44,L,--hidden-- (2013: I Make Fuck on You)
+2013,11,12,Josh,Muff Diving Champ,1-10,793.66,1218.54,L5,74.86,L,Kevin D
+2013,12,1,Peter,Peter's Team,10-2,1598.54,1277.26,L1,107.76,L,Kevin D
+2013,12,2,Don,DonBlood,8-4,1565.48,1281.24,W1,96.72,W,Jimmy
+2013,12,3,Kevin D,Suck4Luck,7-5,1508.28,1453.0,W2,170.78,W,Peter
+2013,12,4,Daniel,69ers,7-5,1486.7,1261.54,W1,158.98,W,KevinN
+2013,12,5,Vu Le,Quik Fix,7-5,1415.88,1299.64,W1,92.76,W,Anthony (2010: Team Name Here)
+2013,12,6,Muso (Lan Doan),Oohhh Kill Em',7-5,1334.72,1357.84,L1,62.48,L,--hidden-- (2013: I Make Fuck on You)
+2013,12,7,Jimmy,Pepperoni Nipples,6-6,1444.64,1409.54,L2,83.1,L,Don
+2013,12,8,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,6-6,1342.28,1304.4,W4,106.2,W,Muso (Lan Doan)
+2013,12,9,KevinN,AnyHolesDaGoal,5-7,1328.02,1507.9,L1,72.96,L,Daniel
+2013,12,10,Anthony (2010: Team Name Here),FATBOIS,5-7,1327.28,1467.1,L1,90.22,L,Vu Le
+2013,12,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,3-9,1157.9,1443.38,W1,109.36,W,Josh
+2013,12,12,Josh,Muff Diving Champ,1-11,881.02,1327.9,L6,87.36,L,Blake (2012: Tits Mcgee)
+2013,13,1,Peter,Peter's Team,10-3,1719.12,1452.38,L2,120.58,L,Jimmy
+2013,13,2,Don,DonBlood,8-5,1667.46,1429.04,L1,101.98,L,Daniel
+2013,13,3,Kevin D,Suck4Luck,8-5,1637.68,1571.34,W3,129.4,W,Blake (2012: Tits Mcgee)
+2013,13,4,Daniel,69ers,8-5,1634.5,1363.52,W2,147.8,W,Don
+2013,13,5,Jimmy,Pepperoni Nipples,7-6,1619.76,1530.12,W1,175.12,W,Peter
+2013,13,6,Vu Le,Quik Fix,7-6,1535.36,1497.64,L1,119.48,L,KevinN
+2013,13,7,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,7-6,1467.88,1378.8,W5,125.6,W,Anthony (2010: Team Name Here)
+2013,13,8,Muso (Lan Doan),Oohhh Kill Em',7-6,1412.5,1439.76,L2,77.78,L,Josh
+2013,13,9,KevinN,AnyHolesDaGoal,6-7,1526.02,1627.38,W1,198.0,W,Vu Le
+2013,13,10,Anthony (2010: Team Name Here),FATBOIS,5-8,1401.68,1592.7,L2,74.4,L,--hidden-- (2013: I Make Fuck on You)
+2013,13,11,Blake (2012: Tits Mcgee),Dingleberry Pickers,3-10,1276.24,1572.78,L1,118.34,L,Kevin D
+2013,13,12,Josh,Muff Diving Champ,2-11,962.94,1405.68,W1,81.92,W,Muso (Lan Doan)

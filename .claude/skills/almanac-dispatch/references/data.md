@@ -41,17 +41,22 @@ all-time score ranks).
 ## Caveats
 
 - Points are scored to the hundredth; write them that way.
-- Aggtown passing TDs were 5 points through 2021, 4 after; playoffs went from 8 teams to 6 in 2022; the
-  league was 10 teams in 2015. Compare old scores loosely.
-- Aggtown has `--hidden--` (a 2015 Yahoo manager who hid their profile) and `bAnmly (Bryan)` (2024 only)
-  in its history; neither is in the current league.
+- Aggtown passing TDs were 5 points through 2021, 4 after; scoring for 2010 to 2014 isn't documented.
+  Teams: 16 in 2010, 10 in 2011, 2012, 2014 and 2015, 12 in 2013 and from 2016. Playoff teams: 8 in 2010,
+  2011 and 2015 to 2021, 6 otherwise. Compare old scores loosely.
+- Aggtown 2010 to 2014 were played under other league names ("Sack em Up!", "Touchdown My Pants",
+  "Tits and Football", "Look at them tits."); it is the same league.
+- Aggtown has ten hidden Yahoo profiles, each a different manager: `--hidden--` (2015) and nine labeled
+  `--hidden-- (<first season>: <team>)`. Never treat them as one person. The 2010 champion is wabaki
+  (Lan Doan), who won it on an older account. They,
+  `bAnmly (Bryan)` (2024 only) and several pre-2015 managers are not in the current league.
 - Sober Gang's 2019 to 2023 seasons were played on Yahoo as "Nooblets".
 - Chrome and Node can differ in the last bit of a floating-point result (a win chance of
   0.6692836162207201 vs …202). It never shows at display precision.
 
 ## League notes
 
-- **Aggtown** (12 teams, 6 make the playoffs, history 2015 on). Stakes for last place in 2026: panhandle in
+- **Aggtown** (12 teams, 6 make the playoffs, history 2010 on). Stakes for last place in 2026: panhandle in
   public with an "I SUCK AT FANTASY FOOTBALL" sign until you've honestly earned $50, or one full day at a bar,
   open to close. The section is "The punishment standings" and whoever is last is "holding the sign".
 - **Sober Gang** (10 teams, 6 make the playoffs, history 2019 on). No known last-place stakes: the section

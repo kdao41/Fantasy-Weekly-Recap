@@ -1,0 +1,131 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2014,1,1,jimbo817,Blue Waffle,1-0,153.5,147.36,W1,153.5,W,oooEcho
+2014,1,2,bvincenttt,Shake n Blake,1-0,147.84,87.7,W1,147.84,W,anth0nyng
+2014,1,3,keveezy,Suck Dez Nuts,1-0,140.26,119.32,W1,140.26,W,JP
+2014,1,4,wabaki (Lan Doan),Womb Raider,1-0,139.44,114.78,W1,139.44,W,donblood
+2014,1,5,peter,peter's Team,1-0,104.96,101.02,W1,104.96,W,--hidden-- (2014: Suck a Dick)
+2014,1,6,oooEcho,ooooooSexy,0-1,147.36,153.5,L1,147.36,L,jimbo817
+2014,1,7,JP,TDs and beer,0-1,119.32,140.26,L1,119.32,L,keveezy
+2014,1,8,donblood,donblood,0-1,114.78,139.44,L1,114.78,L,wabaki (Lan Doan)
+2014,1,9,--hidden-- (2014: Suck a Dick),Suck a Dick,0-1,101.02,104.96,L1,101.02,L,peter
+2014,1,10,anth0nyng,Anthony's Team,0-1,87.7,147.84,L1,87.7,L,bvincenttt
+2014,2,1,peter,peter's Team,2-0,236.4,209.66,W2,131.44,W,wabaki (Lan Doan)
+2014,2,2,bvincenttt,Shake n Blake,1-1,285.22,245.14,L1,137.38,L,donblood
+2014,2,3,donblood,donblood,1-1,272.22,276.82,W1,157.44,W,bvincenttt
+2014,2,4,jimbo817,Blue Waffle,1-1,271.58,270.74,L1,118.08,L,JP
+2014,2,5,wabaki (Lan Doan),Womb Raider,1-1,248.08,246.22,L1,108.64,L,peter
+2014,2,6,JP,TDs and beer,1-1,242.7,258.34,W1,123.38,W,jimbo817
+2014,2,7,keveezy,Suck Dez Nuts,1-1,227.22,217.26,L1,86.96,L,anth0nyng
+2014,2,8,--hidden-- (2014: Suck a Dick),Suck a Dick,1-1,226.56,226.14,W1,125.54,W,oooEcho
+2014,2,9,anth0nyng,Anthony's Team,1-1,185.64,234.8,W1,97.94,W,keveezy
+2014,2,10,oooEcho,ooooooSexy,0-2,268.54,279.04,L2,121.18,L,--hidden-- (2014: Suck a Dick)
+2014,3,1,peter,peter's Team,3-0,350.18,302.18,W3,113.78,W,oooEcho
+2014,3,2,jimbo817,Blue Waffle,2-1,410.98,367.34,W1,139.4,W,anth0nyng
+2014,3,3,--hidden-- (2014: Suck a Dick),Suck a Dick,2-1,363.4,347.06,W2,136.84,W,JP
+2014,3,4,wabaki (Lan Doan),Womb Raider,2-1,343.92,341.04,W1,95.84,W,bvincenttt
+2014,3,5,keveezy,Suck Dez Nuts,2-1,341.88,331.56,W1,114.66,W,donblood
+2014,3,6,donblood,donblood,1-2,386.52,391.48,L1,114.3,L,keveezy
+2014,3,7,bvincenttt,Shake n Blake,1-2,380.04,340.98,L2,94.82,L,wabaki (Lan Doan)
+2014,3,8,JP,TDs and beer,1-2,363.62,395.18,L1,120.92,L,--hidden-- (2014: Suck a Dick)
+2014,3,9,anth0nyng,Anthony's Team,1-2,282.24,374.2,L1,96.6,L,jimbo817
+2014,3,10,oooEcho,ooooooSexy,0-3,361.06,392.82,L3,92.52,L,peter
+2014,4,1,peter,peter's Team,3-1,469.86,453.42,L1,119.68,L,bvincenttt
+2014,4,2,keveezy,Suck Dez Nuts,3-1,424.84,404.48,W2,82.96,W,wabaki (Lan Doan)
+2014,4,3,donblood,donblood,2-2,542.6,506.9,W1,156.08,W,jimbo817
+2014,4,4,bvincenttt,Shake n Blake,2-2,531.28,460.66,W1,151.24,W,peter
+2014,4,5,jimbo817,Blue Waffle,2-2,526.4,523.42,L1,115.42,L,donblood
+2014,4,6,--hidden-- (2014: Suck a Dick),Suck a Dick,2-2,475.42,472.94,L1,112.02,L,anth0nyng
+2014,4,7,wabaki (Lan Doan),Womb Raider,2-2,416.84,424.0,L1,72.92,L,keveezy
+2014,4,8,anth0nyng,Anthony's Team,2-2,408.12,486.22,W1,125.88,W,--hidden-- (2014: Suck a Dick)
+2014,4,9,oooEcho,ooooooSexy,1-3,510.18,537.7,W1,149.12,W,JP
+2014,4,10,JP,TDs and beer,1-3,508.5,544.3,L2,144.88,L,oooEcho
+2014,5,1,peter,peter's Team,4-1,598.3,554.56,W1,128.44,W,JP
+2014,5,2,keveezy,Suck Dez Nuts,4-1,549.84,515.0,W3,125.0,W,bvincenttt
+2014,5,3,jimbo817,Blue Waffle,3-2,648.78,614.36,W1,122.38,W,wabaki (Lan Doan)
+2014,5,4,--hidden-- (2014: Suck a Dick),Suck a Dick,3-2,632.16,607.3,W1,156.74,W,donblood
+2014,5,5,donblood,donblood,2-3,676.96,663.64,L1,134.36,L,--hidden-- (2014: Suck a Dick)
+2014,5,6,oooEcho,ooooooSexy,2-3,662.14,641.4,W2,151.96,W,anth0nyng
+2014,5,7,bvincenttt,Shake n Blake,2-3,641.8,585.66,L1,110.52,L,keveezy
+2014,5,8,anth0nyng,Anthony's Team,2-3,511.82,638.18,L1,103.7,L,oooEcho
+2014,5,9,wabaki (Lan Doan),Womb Raider,2-3,507.78,546.38,L2,90.94,L,jimbo817
+2014,5,10,JP,TDs and beer,1-4,609.64,672.74,L3,101.14,L,peter
+2014,6,1,keveezy,Suck Dez Nuts,5-1,677.08,616.06,W4,127.24,W,peter
+2014,6,2,--hidden-- (2014: Suck a Dick),Suck a Dick,4-2,795.5,708.5,W2,163.34,W,wabaki (Lan Doan)
+2014,6,3,peter,peter's Team,4-2,699.36,681.8,L1,101.06,L,keveezy
+2014,6,4,donblood,donblood,3-3,806.26,790.42,W1,129.3,W,oooEcho
+2014,6,5,jimbo817,Blue Waffle,3-3,766.58,733.7,L1,117.8,L,bvincenttt
+2014,6,6,bvincenttt,Shake n Blake,3-3,761.14,703.46,W1,119.34,W,jimbo817
+2014,6,7,anth0nyng,Anthony's Team,3-3,636.28,754.9,W1,124.46,W,JP
+2014,6,8,oooEcho,ooooooSexy,2-4,788.92,770.7,L1,126.78,L,donblood
+2014,6,9,wabaki (Lan Doan),Womb Raider,2-4,608.98,709.72,L3,101.2,L,--hidden-- (2014: Suck a Dick)
+2014,6,10,JP,TDs and beer,1-5,726.36,797.2,L4,116.72,L,anth0nyng
+2014,7,1,keveezy,Suck Dez Nuts,6-1,819.22,704.52,W5,142.14,W,jimbo817
+2014,7,2,peter,peter's Team,5-2,817.86,766.5,W1,118.5,W,anth0nyng
+2014,7,3,donblood,donblood,4-3,929.02,878.82,W2,122.76,W,JP
+2014,7,4,--hidden-- (2014: Suck a Dick),Suck a Dick,4-3,914.42,854.34,L1,118.92,L,bvincenttt
+2014,7,5,bvincenttt,Shake n Blake,4-3,906.98,822.38,W2,145.84,W,--hidden-- (2014: Suck a Dick)
+2014,7,6,oooEcho,ooooooSexy,3-4,929.44,873.46,W1,140.52,W,wabaki (Lan Doan)
+2014,7,7,jimbo817,Blue Waffle,3-4,855.04,875.84,L2,88.46,L,keveezy
+2014,7,8,anth0nyng,Anthony's Team,3-4,720.98,873.4,L1,84.7,L,peter
+2014,7,9,wabaki (Lan Doan),Womb Raider,2-5,711.74,850.24,L4,102.76,L,oooEcho
+2014,7,10,JP,TDs and beer,1-6,814.76,919.96,L5,88.4,L,donblood
+2014,8,1,peter,peter's Team,6-2,984.98,888.4,W2,167.12,W,jimbo817
+2014,8,2,keveezy,Suck Dez Nuts,6-2,957.78,867.84,L1,138.56,L,--hidden-- (2014: Suck a Dick)
+2014,8,3,bvincenttt,Shake n Blake,5-3,1100.54,975.22,W3,193.56,W,oooEcho
+2014,8,4,donblood,donblood,5-3,1083.18,959.76,W3,154.16,W,anth0nyng
+2014,8,5,--hidden-- (2014: Suck a Dick),Suck a Dick,5-3,1077.74,992.9,W1,163.32,W,keveezy
+2014,8,6,oooEcho,ooooooSexy,3-5,1082.28,1067.02,L1,152.84,L,bvincenttt
+2014,8,7,jimbo817,Blue Waffle,3-5,976.94,1042.96,L3,121.9,L,peter
+2014,8,8,anth0nyng,Anthony's Team,3-5,801.92,1027.56,L2,80.94,L,donblood
+2014,8,9,JP,TDs and beer,2-6,932.5,1027.26,W1,117.74,W,wabaki (Lan Doan)
+2014,8,10,wabaki (Lan Doan),Womb Raider,2-6,819.04,967.98,L5,107.3,L,JP
+2014,9,1,peter,peter's Team,7-2,1122.12,1015.26,W3,137.14,W,donblood
+2014,9,2,keveezy,Suck Dez Nuts,7-2,1065.9,968.56,W1,108.12,W,oooEcho
+2014,9,3,--hidden-- (2014: Suck a Dick),Suck a Dick,6-3,1271.74,1173.26,W2,194.0,W,jimbo817
+2014,9,4,donblood,donblood,5-4,1210.04,1096.9,L1,126.86,L,peter
+2014,9,5,bvincenttt,Shake n Blake,5-4,1197.3,1098.2,L1,96.76,L,JP
+2014,9,6,anth0nyng,Anthony's Team,4-5,899.16,1100.88,W1,97.24,W,wabaki (Lan Doan)
+2014,9,7,oooEcho,ooooooSexy,3-6,1183.0,1175.14,L2,100.72,L,keveezy
+2014,9,8,jimbo817,Blue Waffle,3-6,1157.3,1236.96,L4,180.36,L,--hidden-- (2014: Suck a Dick)
+2014,9,9,JP,TDs and beer,3-6,1055.48,1124.02,W2,122.98,W,bvincenttt
+2014,9,10,wabaki (Lan Doan),Womb Raider,2-7,892.36,1065.22,L6,73.32,L,anth0nyng
+2014,10,1,peter,peter's Team,8-2,1298.22,1152.48,W4,176.1,W,--hidden-- (2014: Suck a Dick)
+2014,10,2,keveezy,Suck Dez Nuts,7-3,1169.04,1096.74,L1,103.14,L,JP
+2014,10,3,--hidden-- (2014: Suck a Dick),Suck a Dick,6-4,1408.96,1349.36,L1,137.22,L,peter
+2014,10,4,bvincenttt,Shake n Blake,6-4,1305.98,1192.34,W1,108.68,W,anth0nyng
+2014,10,5,donblood,donblood,5-5,1348.58,1244.6,L2,138.54,L,wabaki (Lan Doan)
+2014,10,6,oooEcho,ooooooSexy,4-6,1301.6,1286.42,W1,118.6,W,jimbo817
+2014,10,7,JP,TDs and beer,4-6,1183.66,1227.16,W3,128.18,W,keveezy
+2014,10,8,anth0nyng,Anthony's Team,4-6,993.3,1209.56,L1,94.14,L,bvincenttt
+2014,10,9,jimbo817,Blue Waffle,3-7,1268.58,1355.56,L5,111.28,L,oooEcho
+2014,10,10,wabaki (Lan Doan),Womb Raider,3-7,1040.06,1203.76,W1,147.7,W,donblood
+2014,11,1,peter,peter's Team,9-2,1457.76,1253.7,W5,159.54,W,wabaki (Lan Doan)
+2014,11,2,--hidden-- (2014: Suck a Dick),Suck a Dick,7-4,1541.74,1464.22,W1,132.78,W,oooEcho
+2014,11,3,keveezy,Suck Dez Nuts,7-4,1262.02,1212.22,L2,92.98,L,anth0nyng
+2014,11,4,donblood,donblood,6-5,1488.58,1383.12,W1,140.0,W,bvincenttt
+2014,11,5,bvincenttt,Shake n Blake,6-5,1444.5,1332.34,L1,138.52,L,donblood
+2014,11,6,anth0nyng,Anthony's Team,5-6,1108.78,1302.54,W1,115.48,W,keveezy
+2014,11,7,oooEcho,ooooooSexy,4-7,1416.46,1419.2,L1,114.86,L,--hidden-- (2014: Suck a Dick)
+2014,11,8,jimbo817,Blue Waffle,4-7,1380.2,1443.66,W1,111.62,W,JP
+2014,11,9,JP,TDs and beer,4-7,1271.76,1338.78,L1,88.1,L,jimbo817
+2014,11,10,wabaki (Lan Doan),Womb Raider,3-8,1141.28,1363.3,L1,101.22,L,peter
+2014,12,1,peter,peter's Team,9-3,1572.62,1402.98,L1,114.86,L,oooEcho
+2014,12,2,--hidden-- (2014: Suck a Dick),Suck a Dick,7-5,1670.26,1592.92,L1,128.52,L,JP
+2014,12,3,donblood,donblood,7-5,1636.98,1520.68,W2,148.4,W,keveezy
+2014,12,4,keveezy,Suck Dez Nuts,7-5,1399.58,1360.62,L3,137.56,L,donblood
+2014,12,5,bvincenttt,Shake n Blake,6-6,1554.74,1484.1,L2,110.24,L,wabaki (Lan Doan)
+2014,12,6,anth0nyng,Anthony's Team,6-6,1234.22,1414.76,W2,125.44,W,jimbo817
+2014,12,7,oooEcho,ooooooSexy,5-7,1565.74,1534.06,W1,149.28,W,peter
+2014,12,8,JP,TDs and beer,5-7,1400.46,1467.3,W1,128.7,W,--hidden-- (2014: Suck a Dick)
+2014,12,9,jimbo817,Blue Waffle,4-8,1492.42,1569.1,L1,112.22,L,anth0nyng
+2014,12,10,wabaki (Lan Doan),Womb Raider,4-8,1293.04,1473.54,W1,151.76,W,bvincenttt
+2014,13,1,peter,peter's Team,9-4,1663.64,1526.22,L2,91.02,L,bvincenttt
+2014,13,2,--hidden-- (2014: Suck a Dick),Suck a Dick,8-5,1820.26,1666.98,W1,150.0,W,anth0nyng
+2014,13,3,keveezy,Suck Dez Nuts,8-5,1557.08,1511.02,W1,157.5,W,wabaki (Lan Doan)
+2014,13,4,donblood,donblood,7-6,1754.74,1676.38,L1,117.76,L,jimbo817
+2014,13,5,bvincenttt,Shake n Blake,7-6,1677.98,1575.12,W1,123.24,W,peter
+2014,13,6,JP,TDs and beer,6-7,1563.64,1614.86,W2,163.18,W,oooEcho
+2014,13,7,anth0nyng,Anthony's Team,6-7,1308.28,1564.76,L1,74.06,L,--hidden-- (2014: Suck a Dick)
+2014,13,8,oooEcho,ooooooSexy,5-8,1713.3,1697.24,L1,147.56,L,JP
+2014,13,9,jimbo817,Blue Waffle,5-8,1648.12,1686.86,W1,155.7,W,donblood
+2014,13,10,wabaki (Lan Doan),Womb Raider,4-9,1443.44,1631.04,L1,150.4,L,keveezy

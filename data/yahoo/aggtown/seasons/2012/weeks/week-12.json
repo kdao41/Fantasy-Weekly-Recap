@@ -1,0 +1,270 @@
+{
+ "season": 2012,
+ "week": 12,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "Don",
+     "points": 169.65,
+     "projected": 127.43,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Allstar Burns",
+     "manager": "Daniel Vu",
+     "points": 79.1,
+     "projected": 129.16,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Victorious Secret",
+     "manager": "Daniel",
+     "points": 120.7,
+     "projected": 143.29,
+     "won": false
+    },
+    {
+     "team_id": 3,
+     "team": "AnyHolesTheGoal",
+     "manager": "Kevin D",
+     "points": 138.15,
+     "projected": 152.28,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "THE FATBOIS",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 123.55,
+     "projected": 134.16,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 95.85,
+     "projected": 135.97,
+     "won": false
+    }
+   ],
+   "winner": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Multiple Scorgasms",
+     "manager": "Vu Le",
+     "points": 154.25,
+     "projected": 152.77,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 96.7,
+     "projected": 132.3,
+     "won": false
+    }
+   ],
+   "winner": "Vu Le"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Tits Mcgee",
+     "manager": "Blake (2012: Tits Mcgee)",
+     "points": 146.4,
+     "projected": 123.26,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GameChanger",
+     "manager": "--hidden-- (2012: GameChanger)",
+     "points": 111.45,
+     "projected": 80.59,
+     "won": false
+    }
+   ],
+   "winner": "Blake (2012: Tits Mcgee)"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Don",
+   "team": "Jerry Sanduskys",
+   "points": 169.65
+  },
+  "low_score": {
+   "manager": "Daniel Vu",
+   "team": "Allstar Burns",
+   "points": 79.1
+  },
+  "closest_game": {
+   "winner": "Kevin D",
+   "winner_points": 138.15,
+   "loser": "Daniel",
+   "loser_points": 120.7,
+   "margin": 17.45
+  },
+  "biggest_blowout": {
+   "winner": "Don",
+   "winner_points": 169.65,
+   "loser": "Daniel Vu",
+   "loser_points": 79.1,
+   "margin": 90.55
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "Kevin D",
+   "team": "AnyHolesTheGoal",
+   "record": "9-3",
+   "points_for": 1748.55,
+   "points_against": 1521.55,
+   "streak": "W5",
+   "week_points": 138.15,
+   "week_result": "W",
+   "opponent": "Daniel"
+  },
+  {
+   "rank": 2,
+   "manager": "Vu Le",
+   "team": "Multiple Scorgasms",
+   "record": "8-4",
+   "points_for": 1683.1,
+   "points_against": 1502.1,
+   "streak": "W1",
+   "week_points": 154.25,
+   "week_result": "W",
+   "opponent": "matthew"
+  },
+  {
+   "rank": 3,
+   "manager": "Blake (2012: Tits Mcgee)",
+   "team": "Tits Mcgee",
+   "record": "8-4",
+   "points_for": 1393.75,
+   "points_against": 1299.65,
+   "streak": "W2",
+   "week_points": 146.4,
+   "week_result": "W",
+   "opponent": "--hidden-- (2012: GameChanger)"
+  },
+  {
+   "rank": 4,
+   "manager": "Don",
+   "team": "Jerry Sanduskys",
+   "record": "7-5",
+   "points_for": 1645.3,
+   "points_against": 1455.95,
+   "streak": "W1",
+   "week_points": 169.65,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 5,
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "THE FATBOIS",
+   "record": "7-5",
+   "points_for": 1417.15,
+   "points_against": 1332.25,
+   "streak": "W3",
+   "week_points": 123.55,
+   "week_result": "W",
+   "opponent": "tho"
+  },
+  {
+   "rank": 6,
+   "manager": "matthew",
+   "team": "goon squad",
+   "record": "6-6",
+   "points_for": 1534.2,
+   "points_against": 1513.6,
+   "streak": "L2",
+   "week_points": 96.7,
+   "week_result": "L",
+   "opponent": "Vu Le"
+  },
+  {
+   "rank": 7,
+   "manager": "Daniel",
+   "team": "Victorious Secret",
+   "record": "6-6",
+   "points_for": 1482.75,
+   "points_against": 1473.55,
+   "streak": "L2",
+   "week_points": 120.7,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 8,
+   "manager": "Daniel Vu",
+   "team": "Allstar Burns",
+   "record": "4-8",
+   "points_for": 1321.6,
+   "points_against": 1544.15,
+   "streak": "L1",
+   "week_points": 79.1,
+   "week_result": "L",
+   "opponent": "Don"
+  },
+  {
+   "rank": 9,
+   "manager": "tho",
+   "team": "BradyOverBitches",
+   "record": "3-9",
+   "points_for": 1425.55,
+   "points_against": 1587.8,
+   "streak": "L5",
+   "week_points": 95.85,
+   "week_result": "L",
+   "opponent": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "rank": 10,
+   "manager": "--hidden-- (2012: GameChanger)",
+   "team": "GameChanger",
+   "record": "2-10",
+   "points_for": 1163.15,
+   "points_against": 1584.5,
+   "streak": "L1",
+   "week_points": 111.45,
+   "week_result": "L",
+   "opponent": "Blake (2012: Tits Mcgee)"
+  }
+ ]
+}

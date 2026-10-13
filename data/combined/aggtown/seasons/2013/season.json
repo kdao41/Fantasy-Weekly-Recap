@@ -1,0 +1,446 @@
+{
+ "season": 2013,
+ "league": "Tits and Football",
+ "finished": true,
+ "champion": {
+  "team_id": 2,
+  "team": "Pepperoni Nipples",
+  "manager": "jimbo817",
+  "final_rank": 1,
+  "playoff_seed": 5,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1619.76,
+  "points_against": 1530.12
+ },
+ "championship_game": {
+  "week": 16,
+  "winner": "jimbo817",
+  "winner_team": "Pepperoni Nipples",
+  "winner_points": 118.7,
+  "loser": "keveezy",
+  "loser_team": "Suck4Luck",
+  "loser_points": 115.78
+ },
+ "runner_up": {
+  "team_id": 7,
+  "team": "Suck4Luck",
+  "manager": "keveezy",
+  "final_rank": 2,
+  "playoff_seed": 3,
+  "wins": 8,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1637.68,
+  "points_against": 1571.34
+ },
+ "third_place": {
+  "team_id": 12,
+  "team": "Peter's Team",
+  "manager": "peter",
+  "final_rank": 3,
+  "playoff_seed": 1,
+  "wins": 10,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1719.12,
+  "points_against": 1452.38
+ },
+ "last_place": {
+  "team_id": 6,
+  "team": "Muff Diving Champ",
+  "manager": "Josh",
+  "final_rank": 12,
+  "playoff_seed": 12,
+  "wins": 2,
+  "losses": 11,
+  "ties": 0,
+  "points_for": 962.94,
+  "points_against": 1405.68
+ },
+ "regular_season_winner": {
+  "team_id": 12,
+  "team": "Peter's Team",
+  "manager": "peter",
+  "final_rank": 3,
+  "playoff_seed": 1,
+  "wins": 10,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1719.12,
+  "points_against": 1452.38
+ },
+ "most_points": {
+  "team_id": 12,
+  "team": "Peter's Team",
+  "manager": "peter",
+  "final_rank": 3,
+  "playoff_seed": 1,
+  "wins": 10,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1719.12,
+  "points_against": 1452.38
+ },
+ "settings": {
+  "league_key": "314.l.829747",
+  "num_teams": 12,
+  "start_week": 1,
+  "end_week": 16,
+  "playoff_week_start": 14,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "live",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 7
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 2,
+   "team": "Pepperoni Nipples",
+   "manager": "jimbo817",
+   "final_rank": 1,
+   "playoff_seed": 5,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1619.76,
+   "points_against": 1530.12
+  },
+  {
+   "team_id": 7,
+   "team": "Suck4Luck",
+   "manager": "keveezy",
+   "final_rank": 2,
+   "playoff_seed": 3,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1637.68,
+   "points_against": 1571.34
+  },
+  {
+   "team_id": 12,
+   "team": "Peter's Team",
+   "manager": "peter",
+   "final_rank": 3,
+   "playoff_seed": 1,
+   "wins": 10,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1719.12,
+   "points_against": 1452.38
+  },
+  {
+   "team_id": 1,
+   "team": "DonBlood",
+   "manager": "donblood",
+   "final_rank": 4,
+   "playoff_seed": 2,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1667.46,
+   "points_against": 1429.04
+  },
+  {
+   "team_id": 3,
+   "team": "69ers",
+   "manager": "Daniel",
+   "final_rank": 5,
+   "playoff_seed": 4,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1634.5,
+   "points_against": 1363.52
+  },
+  {
+   "team_id": 4,
+   "team": "Quik Fix",
+   "manager": "Vu Le",
+   "final_rank": 6,
+   "playoff_seed": 6,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1535.36,
+   "points_against": 1497.64
+  },
+  {
+   "team_id": 11,
+   "team": "AnyHolesDaGoal",
+   "manager": "KevinN",
+   "final_rank": 7,
+   "playoff_seed": 9,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1526.02,
+   "points_against": 1627.38
+  },
+  {
+   "team_id": 5,
+   "team": "I Make Fuck on You",
+   "manager": "--hidden-- (2013: I Make Fuck on You)",
+   "final_rank": 8,
+   "playoff_seed": 7,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1467.88,
+   "points_against": 1378.8
+  },
+  {
+   "team_id": 10,
+   "team": "FATBOIS",
+   "manager": "anth0nyng",
+   "final_rank": 9,
+   "playoff_seed": 10,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1401.68,
+   "points_against": 1592.7
+  },
+  {
+   "team_id": 9,
+   "team": "Oohhh Kill Em'",
+   "manager": "wabaki (Lan Doan)",
+   "final_rank": 10,
+   "playoff_seed": 8,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1412.5,
+   "points_against": 1439.76
+  },
+  {
+   "team_id": 8,
+   "team": "Dingleberry Pickers",
+   "manager": "bvincenttt",
+   "final_rank": 11,
+   "playoff_seed": 11,
+   "wins": 3,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1276.24,
+   "points_against": 1572.78
+  },
+  {
+   "team_id": 6,
+   "team": "Muff Diving Champ",
+   "manager": "Josh",
+   "final_rank": 12,
+   "playoff_seed": 12,
+   "wins": 2,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 962.94,
+   "points_against": 1405.68
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Pepperoni Nipples",
+     "manager": "jimbo817",
+     "points": 119.08,
+     "projected": 112.89,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "69ers",
+     "manager": "Daniel",
+     "points": 98.84,
+     "projected": 126.42,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Quik Fix",
+     "manager": "Vu Le",
+     "points": 110.36,
+     "projected": 124.54,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Suck4Luck",
+     "manager": "keveezy",
+     "points": 152.32,
+     "projected": 117.01,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "DonBlood",
+     "manager": "donblood",
+     "points": 130.62,
+     "projected": 123.41,
+     "won": false
+    },
+    {
+     "team_id": 7,
+     "team": "Suck4Luck",
+     "manager": "keveezy",
+     "points": 191.7,
+     "projected": 126.8,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Pepperoni Nipples",
+     "manager": "jimbo817",
+     "points": 152.86,
+     "projected": 111.79,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Peter's Team",
+     "manager": "peter",
+     "points": 91.84,
+     "projected": 120.69,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "69ers",
+     "manager": "Daniel",
+     "points": 156.1,
+     "projected": 127.76,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Quik Fix",
+     "manager": "Vu Le",
+     "points": 152.32,
+     "projected": 123.46,
+     "won": false
+    }
+   ],
+   "winner": "Daniel"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "DonBlood",
+     "manager": "donblood",
+     "points": 99.74,
+     "projected": 119.15,
+     "won": false
+    },
+    {
+     "team_id": 12,
+     "team": "Peter's Team",
+     "manager": "peter",
+     "points": 104.0,
+     "projected": 123.32,
+     "won": true
+    }
+   ],
+   "winner": "peter"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Pepperoni Nipples",
+     "manager": "jimbo817",
+     "points": 118.7,
+     "projected": 107.35,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Suck4Luck",
+     "manager": "keveezy",
+     "points": 115.78,
+     "projected": 119.4,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  }
+ ]
+}

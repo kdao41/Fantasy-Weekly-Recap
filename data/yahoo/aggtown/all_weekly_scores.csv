@@ -1,4 +1,878 @@
 season,week,is_playoffs,is_consolation,manager,team,points,opponent_manager,opponent_team,opponent_points,result
+2010,1,False,False,Anthony (2010: Team Name Here),Team Name Here,73.42,Daniel Vu,danielvu,57.78,W
+2010,1,False,False,Daniel Vu,danielvu,57.78,Anthony (2010: Team Name Here),Team Name Here,73.42,L
+2010,1,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,55.68,mrlampham,lampham,106.06,L
+2010,1,False,False,mrlampham,lampham,106.06,--hidden-- (2010: Peter'sClap),Peter'sClap,55.68,W
+2010,1,False,False,Jimmy N,Gig 'Em,80.94,--hidden-- (2010: hail yeah),hail yeah,59.32,W
+2010,1,False,False,--hidden-- (2010: hail yeah),hail yeah,59.32,Jimmy N,Gig 'Em,80.94,L
+2010,1,False,False,Long Nguyen,Sexy beasts,67.86,--hidden-- (2010: Punani),Punani,86.08,L
+2010,1,False,False,--hidden-- (2010: Punani),Punani,86.08,Long Nguyen,Sexy beasts,67.86,W
+2010,1,False,False,Michael Luong,FTW,52.74,--hidden-- (2010: iSuck),iSuck,138.1,L
+2010,1,False,False,--hidden-- (2010: iSuck),iSuck,138.1,Michael Luong,FTW,52.74,W
+2010,1,False,False,Don,Skeetsauce,70.18,--hidden-- (2010: THEshit),THEshit,84.2,L
+2010,1,False,False,--hidden-- (2010: THEshit),THEshit,84.2,Don,Skeetsauce,70.18,W
+2010,1,False,False,Bryan,ShiromaShogun,99.42,--hidden-- (2010: RAINNN),RAINNN,76.12,W
+2010,1,False,False,--hidden-- (2010: RAINNN),RAINNN,76.12,Bryan,ShiromaShogun,99.42,L
+2010,1,False,False,Kevin D,DUUUUUUUDE.,44.92,tho,StankyyyLeggg,78.22,L
+2010,1,False,False,tho,StankyyyLeggg,78.22,Kevin D,DUUUUUUUDE.,44.92,W
+2010,2,False,False,Anthony (2010: Team Name Here),Team Name Here,130.04,--hidden-- (2010: hail yeah),hail yeah,67.2,W
+2010,2,False,False,--hidden-- (2010: hail yeah),hail yeah,67.2,Anthony (2010: Team Name Here),Team Name Here,130.04,L
+2010,2,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,72.98,--hidden-- (2010: Punani),Punani,76.78,L
+2010,2,False,False,--hidden-- (2010: Punani),Punani,76.78,--hidden-- (2010: Peter'sClap),Peter'sClap,72.98,W
+2010,2,False,False,Jimmy N,Gig 'Em,54.9,--hidden-- (2010: iSuck),iSuck,83.66,L
+2010,2,False,False,--hidden-- (2010: iSuck),iSuck,83.66,Jimmy N,Gig 'Em,54.9,W
+2010,2,False,False,Long Nguyen,Sexy beasts,89.2,--hidden-- (2010: THEshit),THEshit,47.92,W
+2010,2,False,False,--hidden-- (2010: THEshit),THEshit,47.92,Long Nguyen,Sexy beasts,89.2,L
+2010,2,False,False,Michael Luong,FTW,74.76,--hidden-- (2010: RAINNN),RAINNN,78.1,L
+2010,2,False,False,--hidden-- (2010: RAINNN),RAINNN,78.1,Michael Luong,FTW,74.76,W
+2010,2,False,False,Don,Skeetsauce,78.56,tho,StankyyyLeggg,48.52,W
+2010,2,False,False,tho,StankyyyLeggg,48.52,Don,Skeetsauce,78.56,L
+2010,2,False,False,Bryan,ShiromaShogun,118.26,Daniel Vu,danielvu,62.66,W
+2010,2,False,False,Daniel Vu,danielvu,62.66,Bryan,ShiromaShogun,118.26,L
+2010,2,False,False,Kevin D,DUUUUUUUDE.,103.4,mrlampham,lampham,114.54,L
+2010,2,False,False,mrlampham,lampham,114.54,Kevin D,DUUUUUUUDE.,103.4,W
+2010,3,False,False,Anthony (2010: Team Name Here),Team Name Here,66.24,--hidden-- (2010: iSuck),iSuck,136.84,L
+2010,3,False,False,--hidden-- (2010: iSuck),iSuck,136.84,Anthony (2010: Team Name Here),Team Name Here,66.24,W
+2010,3,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,57.34,--hidden-- (2010: THEshit),THEshit,40.3,W
+2010,3,False,False,--hidden-- (2010: THEshit),THEshit,40.3,--hidden-- (2010: Peter'sClap),Peter'sClap,57.34,L
+2010,3,False,False,Jimmy N,Gig 'Em,101.28,--hidden-- (2010: RAINNN),RAINNN,68.1,W
+2010,3,False,False,--hidden-- (2010: RAINNN),RAINNN,68.1,Jimmy N,Gig 'Em,101.28,L
+2010,3,False,False,Long Nguyen,Sexy beasts,98.58,tho,StankyyyLeggg,85.88,W
+2010,3,False,False,tho,StankyyyLeggg,85.88,Long Nguyen,Sexy beasts,98.58,L
+2010,3,False,False,Michael Luong,FTW,104.8,Daniel Vu,danielvu,69.26,W
+2010,3,False,False,Daniel Vu,danielvu,69.26,Michael Luong,FTW,104.8,L
+2010,3,False,False,Don,Skeetsauce,77.76,mrlampham,lampham,88.5,L
+2010,3,False,False,mrlampham,lampham,88.5,Don,Skeetsauce,77.76,W
+2010,3,False,False,Bryan,ShiromaShogun,81.0,--hidden-- (2010: hail yeah),hail yeah,67.3,W
+2010,3,False,False,--hidden-- (2010: hail yeah),hail yeah,67.3,Bryan,ShiromaShogun,81.0,L
+2010,3,False,False,Kevin D,DUUUUUUUDE.,76.84,--hidden-- (2010: Punani),Punani,122.5,L
+2010,3,False,False,--hidden-- (2010: Punani),Punani,122.5,Kevin D,DUUUUUUUDE.,76.84,W
+2010,4,False,False,Anthony (2010: Team Name Here),Team Name Here,97.6,mrlampham,lampham,76.06,W
+2010,4,False,False,mrlampham,lampham,76.06,Anthony (2010: Team Name Here),Team Name Here,97.6,L
+2010,4,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,49.88,Daniel Vu,danielvu,51.9,L
+2010,4,False,False,Daniel Vu,danielvu,51.9,--hidden-- (2010: Peter'sClap),Peter'sClap,49.88,W
+2010,4,False,False,Jimmy N,Gig 'Em,80.24,--hidden-- (2010: Punani),Punani,54.18,W
+2010,4,False,False,--hidden-- (2010: Punani),Punani,54.18,Jimmy N,Gig 'Em,80.24,L
+2010,4,False,False,Long Nguyen,Sexy beasts,87.62,--hidden-- (2010: hail yeah),hail yeah,109.6,L
+2010,4,False,False,--hidden-- (2010: hail yeah),hail yeah,109.6,Long Nguyen,Sexy beasts,87.62,W
+2010,4,False,False,Michael Luong,FTW,46.0,--hidden-- (2010: THEshit),THEshit,82.34,L
+2010,4,False,False,--hidden-- (2010: THEshit),THEshit,82.34,Michael Luong,FTW,46.0,W
+2010,4,False,False,Don,Skeetsauce,70.42,--hidden-- (2010: iSuck),iSuck,60.16,W
+2010,4,False,False,--hidden-- (2010: iSuck),iSuck,60.16,Don,Skeetsauce,70.42,L
+2010,4,False,False,Bryan,ShiromaShogun,77.24,tho,StankyyyLeggg,87.52,L
+2010,4,False,False,tho,StankyyyLeggg,87.52,Bryan,ShiromaShogun,77.24,W
+2010,4,False,False,Kevin D,DUUUUUUUDE.,71.54,--hidden-- (2010: RAINNN),RAINNN,57.28,W
+2010,4,False,False,--hidden-- (2010: RAINNN),RAINNN,57.28,Kevin D,DUUUUUUUDE.,71.54,L
+2010,5,False,False,Anthony (2010: Team Name Here),Team Name Here,82.56,--hidden-- (2010: Punani),Punani,53.5,W
+2010,5,False,False,--hidden-- (2010: Punani),Punani,53.5,Anthony (2010: Team Name Here),Team Name Here,82.56,L
+2010,5,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,45.84,--hidden-- (2010: hail yeah),hail yeah,83.0,L
+2010,5,False,False,--hidden-- (2010: hail yeah),hail yeah,83.0,--hidden-- (2010: Peter'sClap),Peter'sClap,45.84,W
+2010,5,False,False,Jimmy N,Gig 'Em,134.68,--hidden-- (2010: THEshit),THEshit,89.24,W
+2010,5,False,False,--hidden-- (2010: THEshit),THEshit,89.24,Jimmy N,Gig 'Em,134.68,L
+2010,5,False,False,Long Nguyen,Sexy beasts,81.76,--hidden-- (2010: iSuck),iSuck,105.46,L
+2010,5,False,False,--hidden-- (2010: iSuck),iSuck,105.46,Long Nguyen,Sexy beasts,81.76,W
+2010,5,False,False,Michael Luong,FTW,94.8,tho,StankyyyLeggg,36.4,W
+2010,5,False,False,tho,StankyyyLeggg,36.4,Michael Luong,FTW,94.8,L
+2010,5,False,False,Don,Skeetsauce,111.64,--hidden-- (2010: RAINNN),RAINNN,43.16,W
+2010,5,False,False,--hidden-- (2010: RAINNN),RAINNN,43.16,Don,Skeetsauce,111.64,L
+2010,5,False,False,Bryan,ShiromaShogun,103.14,Kevin D,DUUUUUUUDE.,79.72,W
+2010,5,False,False,Kevin D,DUUUUUUUDE.,79.72,Bryan,ShiromaShogun,103.14,L
+2010,5,False,False,Daniel Vu,danielvu,101.9,mrlampham,lampham,98.8,W
+2010,5,False,False,mrlampham,lampham,98.8,Daniel Vu,danielvu,101.9,L
+2010,6,False,False,Anthony (2010: Team Name Here),Team Name Here,106.42,--hidden-- (2010: RAINNN),RAINNN,50.98,W
+2010,6,False,False,--hidden-- (2010: RAINNN),RAINNN,50.98,Anthony (2010: Team Name Here),Team Name Here,106.42,L
+2010,6,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,70.6,tho,StankyyyLeggg,59.38,W
+2010,6,False,False,tho,StankyyyLeggg,59.38,--hidden-- (2010: Peter'sClap),Peter'sClap,70.6,L
+2010,6,False,False,Jimmy N,Gig 'Em,72.84,Bryan,ShiromaShogun,71.16,W
+2010,6,False,False,Bryan,ShiromaShogun,71.16,Jimmy N,Gig 'Em,72.84,L
+2010,6,False,False,Long Nguyen,Sexy beasts,88.84,Kevin D,DUUUUUUUDE.,86.52,W
+2010,6,False,False,Kevin D,DUUUUUUUDE.,86.52,Long Nguyen,Sexy beasts,88.84,L
+2010,6,False,False,Michael Luong,FTW,51.8,--hidden-- (2010: hail yeah),hail yeah,48.1,W
+2010,6,False,False,--hidden-- (2010: hail yeah),hail yeah,48.1,Michael Luong,FTW,51.8,L
+2010,6,False,False,Don,Skeetsauce,66.5,--hidden-- (2010: Punani),Punani,67.3,L
+2010,6,False,False,--hidden-- (2010: Punani),Punani,67.3,Don,Skeetsauce,66.5,W
+2010,6,False,False,--hidden-- (2010: iSuck),iSuck,124.72,Daniel Vu,danielvu,72.16,W
+2010,6,False,False,Daniel Vu,danielvu,72.16,--hidden-- (2010: iSuck),iSuck,124.72,L
+2010,6,False,False,--hidden-- (2010: THEshit),THEshit,81.9,mrlampham,lampham,93.18,L
+2010,6,False,False,mrlampham,lampham,93.18,--hidden-- (2010: THEshit),THEshit,81.9,W
+2010,7,False,False,Anthony (2010: Team Name Here),Team Name Here,109.74,Bryan,ShiromaShogun,88.54,W
+2010,7,False,False,Bryan,ShiromaShogun,88.54,Anthony (2010: Team Name Here),Team Name Here,109.74,L
+2010,7,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,35.0,Kevin D,DUUUUUUUDE.,55.0,L
+2010,7,False,False,Kevin D,DUUUUUUUDE.,55.0,--hidden-- (2010: Peter'sClap),Peter'sClap,35.0,W
+2010,7,False,False,Jimmy N,Gig 'Em,90.8,Michael Luong,FTW,105.9,L
+2010,7,False,False,Michael Luong,FTW,105.9,Jimmy N,Gig 'Em,90.8,W
+2010,7,False,False,Long Nguyen,Sexy beasts,87.26,Don,Skeetsauce,49.26,W
+2010,7,False,False,Don,Skeetsauce,49.26,Long Nguyen,Sexy beasts,87.26,L
+2010,7,False,False,--hidden-- (2010: RAINNN),RAINNN,94.88,--hidden-- (2010: iSuck),iSuck,72.58,W
+2010,7,False,False,--hidden-- (2010: iSuck),iSuck,72.58,--hidden-- (2010: RAINNN),RAINNN,94.88,L
+2010,7,False,False,tho,StankyyyLeggg,65.86,mrlampham,lampham,101.88,L
+2010,7,False,False,mrlampham,lampham,101.88,tho,StankyyyLeggg,65.86,W
+2010,7,False,False,--hidden-- (2010: THEshit),THEshit,76.7,--hidden-- (2010: Punani),Punani,96.54,L
+2010,7,False,False,--hidden-- (2010: Punani),Punani,96.54,--hidden-- (2010: THEshit),THEshit,76.7,W
+2010,7,False,False,--hidden-- (2010: hail yeah),hail yeah,58.1,Daniel Vu,danielvu,86.58,L
+2010,7,False,False,Daniel Vu,danielvu,86.58,--hidden-- (2010: hail yeah),hail yeah,58.1,W
+2010,8,False,False,Anthony (2010: Team Name Here),Team Name Here,38.6,Michael Luong,FTW,66.2,L
+2010,8,False,False,Michael Luong,FTW,66.2,Anthony (2010: Team Name Here),Team Name Here,38.6,W
+2010,8,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,58.14,Don,Skeetsauce,80.36,L
+2010,8,False,False,Don,Skeetsauce,80.36,--hidden-- (2010: Peter'sClap),Peter'sClap,58.14,W
+2010,8,False,False,Jimmy N,Gig 'Em,106.3,Daniel Vu,danielvu,78.22,W
+2010,8,False,False,Daniel Vu,danielvu,78.22,Jimmy N,Gig 'Em,106.3,L
+2010,8,False,False,Long Nguyen,Sexy beasts,68.96,mrlampham,lampham,69.5,L
+2010,8,False,False,mrlampham,lampham,69.5,Long Nguyen,Sexy beasts,68.96,W
+2010,8,False,False,Bryan,ShiromaShogun,62.3,--hidden-- (2010: iSuck),iSuck,100.54,L
+2010,8,False,False,--hidden-- (2010: iSuck),iSuck,100.54,Bryan,ShiromaShogun,62.3,W
+2010,8,False,False,Kevin D,DUUUUUUUDE.,63.1,--hidden-- (2010: THEshit),THEshit,32.1,W
+2010,8,False,False,--hidden-- (2010: THEshit),THEshit,32.1,Kevin D,DUUUUUUUDE.,63.1,L
+2010,8,False,False,--hidden-- (2010: RAINNN),RAINNN,71.32,--hidden-- (2010: hail yeah),hail yeah,130.78,L
+2010,8,False,False,--hidden-- (2010: hail yeah),hail yeah,130.78,--hidden-- (2010: RAINNN),RAINNN,71.32,W
+2010,8,False,False,tho,StankyyyLeggg,62.5,--hidden-- (2010: Punani),Punani,34.2,W
+2010,8,False,False,--hidden-- (2010: Punani),Punani,34.2,tho,StankyyyLeggg,62.5,L
+2010,9,False,False,Anthony (2010: Team Name Here),Team Name Here,102.02,Jimmy N,Gig 'Em,79.76,W
+2010,9,False,False,Jimmy N,Gig 'Em,79.76,Anthony (2010: Team Name Here),Team Name Here,102.02,L
+2010,9,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,42.58,Long Nguyen,Sexy beasts,91.96,L
+2010,9,False,False,Long Nguyen,Sexy beasts,91.96,--hidden-- (2010: Peter'sClap),Peter'sClap,42.58,W
+2010,9,False,False,Michael Luong,FTW,42.6,Bryan,ShiromaShogun,85.8,L
+2010,9,False,False,Bryan,ShiromaShogun,85.8,Michael Luong,FTW,42.6,W
+2010,9,False,False,Don,Skeetsauce,76.82,Kevin D,DUUUUUUUDE.,38.96,W
+2010,9,False,False,Kevin D,DUUUUUUUDE.,38.96,Don,Skeetsauce,76.82,L
+2010,9,False,False,--hidden-- (2010: RAINNN),RAINNN,77.76,Daniel Vu,danielvu,59.66,W
+2010,9,False,False,Daniel Vu,danielvu,59.66,--hidden-- (2010: RAINNN),RAINNN,77.76,L
+2010,9,False,False,tho,StankyyyLeggg,56.36,--hidden-- (2010: THEshit),THEshit,63.34,L
+2010,9,False,False,--hidden-- (2010: THEshit),THEshit,63.34,tho,StankyyyLeggg,56.36,W
+2010,9,False,False,--hidden-- (2010: iSuck),iSuck,105.5,--hidden-- (2010: hail yeah),hail yeah,43.9,W
+2010,9,False,False,--hidden-- (2010: hail yeah),hail yeah,43.9,--hidden-- (2010: iSuck),iSuck,105.5,L
+2010,9,False,False,--hidden-- (2010: Punani),Punani,106.62,mrlampham,lampham,91.72,W
+2010,9,False,False,mrlampham,lampham,91.72,--hidden-- (2010: Punani),Punani,106.62,L
+2010,10,False,False,Anthony (2010: Team Name Here),Team Name Here,107.54,tho,StankyyyLeggg,85.3,W
+2010,10,False,False,tho,StankyyyLeggg,85.3,Anthony (2010: Team Name Here),Team Name Here,107.54,L
+2010,10,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,54.66,--hidden-- (2010: RAINNN),RAINNN,77.8,L
+2010,10,False,False,--hidden-- (2010: RAINNN),RAINNN,77.8,--hidden-- (2010: Peter'sClap),Peter'sClap,54.66,W
+2010,10,False,False,Jimmy N,Gig 'Em,86.42,Kevin D,DUUUUUUUDE.,50.84,W
+2010,10,False,False,Kevin D,DUUUUUUUDE.,50.84,Jimmy N,Gig 'Em,86.42,L
+2010,10,False,False,Long Nguyen,Sexy beasts,61.9,Bryan,ShiromaShogun,104.26,L
+2010,10,False,False,Bryan,ShiromaShogun,104.26,Long Nguyen,Sexy beasts,61.9,W
+2010,10,False,False,Michael Luong,FTW,73.3,Don,Skeetsauce,51.28,W
+2010,10,False,False,Don,Skeetsauce,51.28,Michael Luong,FTW,73.3,L
+2010,10,False,False,--hidden-- (2010: iSuck),iSuck,144.12,mrlampham,lampham,106.48,W
+2010,10,False,False,mrlampham,lampham,106.48,--hidden-- (2010: iSuck),iSuck,144.12,L
+2010,10,False,False,--hidden-- (2010: THEshit),THEshit,73.5,Daniel Vu,danielvu,98.18,L
+2010,10,False,False,Daniel Vu,danielvu,98.18,--hidden-- (2010: THEshit),THEshit,73.5,W
+2010,10,False,False,--hidden-- (2010: hail yeah),hail yeah,28.1,--hidden-- (2010: Punani),Punani,119.68,L
+2010,10,False,False,--hidden-- (2010: Punani),Punani,119.68,--hidden-- (2010: hail yeah),hail yeah,28.1,W
+2010,11,False,False,Anthony (2010: Team Name Here),Team Name Here,121.38,Daniel Vu,danielvu,67.36,W
+2010,11,False,False,Daniel Vu,danielvu,67.36,Anthony (2010: Team Name Here),Team Name Here,121.38,L
+2010,11,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,40.46,mrlampham,lampham,99.3,L
+2010,11,False,False,mrlampham,lampham,99.3,--hidden-- (2010: Peter'sClap),Peter'sClap,40.46,W
+2010,11,False,False,Jimmy N,Gig 'Em,77.36,--hidden-- (2010: hail yeah),hail yeah,17.4,W
+2010,11,False,False,--hidden-- (2010: hail yeah),hail yeah,17.4,Jimmy N,Gig 'Em,77.36,L
+2010,11,False,False,Long Nguyen,Sexy beasts,99.34,--hidden-- (2010: Punani),Punani,106.44,L
+2010,11,False,False,--hidden-- (2010: Punani),Punani,106.44,Long Nguyen,Sexy beasts,99.34,W
+2010,11,False,False,Michael Luong,FTW,45.2,--hidden-- (2010: iSuck),iSuck,99.12,L
+2010,11,False,False,--hidden-- (2010: iSuck),iSuck,99.12,Michael Luong,FTW,45.2,W
+2010,11,False,False,Don,Skeetsauce,117.62,--hidden-- (2010: THEshit),THEshit,58.64,W
+2010,11,False,False,--hidden-- (2010: THEshit),THEshit,58.64,Don,Skeetsauce,117.62,L
+2010,11,False,False,Bryan,ShiromaShogun,96.52,--hidden-- (2010: RAINNN),RAINNN,91.94,W
+2010,11,False,False,--hidden-- (2010: RAINNN),RAINNN,91.94,Bryan,ShiromaShogun,96.52,L
+2010,11,False,False,Kevin D,DUUUUUUUDE.,126.54,tho,StankyyyLeggg,74.84,W
+2010,11,False,False,tho,StankyyyLeggg,74.84,Kevin D,DUUUUUUUDE.,126.54,L
+2010,12,False,False,Anthony (2010: Team Name Here),Team Name Here,80.18,--hidden-- (2010: hail yeah),hail yeah,28.0,W
+2010,12,False,False,--hidden-- (2010: hail yeah),hail yeah,28.0,Anthony (2010: Team Name Here),Team Name Here,80.18,L
+2010,12,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,60.02,--hidden-- (2010: Punani),Punani,164.68,L
+2010,12,False,False,--hidden-- (2010: Punani),Punani,164.68,--hidden-- (2010: Peter'sClap),Peter'sClap,60.02,W
+2010,12,False,False,Jimmy N,Gig 'Em,124.5,--hidden-- (2010: iSuck),iSuck,95.92,W
+2010,12,False,False,--hidden-- (2010: iSuck),iSuck,95.92,Jimmy N,Gig 'Em,124.5,L
+2010,12,False,False,Long Nguyen,Sexy beasts,75.3,--hidden-- (2010: THEshit),THEshit,79.96,L
+2010,12,False,False,--hidden-- (2010: THEshit),THEshit,79.96,Long Nguyen,Sexy beasts,75.3,W
+2010,12,False,False,Michael Luong,FTW,29.8,--hidden-- (2010: RAINNN),RAINNN,49.6,L
+2010,12,False,False,--hidden-- (2010: RAINNN),RAINNN,49.6,Michael Luong,FTW,29.8,W
+2010,12,False,False,Don,Skeetsauce,55.62,tho,StankyyyLeggg,94.64,L
+2010,12,False,False,tho,StankyyyLeggg,94.64,Don,Skeetsauce,55.62,W
+2010,12,False,False,Bryan,ShiromaShogun,76.1,Daniel Vu,danielvu,86.76,L
+2010,12,False,False,Daniel Vu,danielvu,86.76,Bryan,ShiromaShogun,76.1,W
+2010,12,False,False,Kevin D,DUUUUUUUDE.,121.06,mrlampham,lampham,58.74,W
+2010,12,False,False,mrlampham,lampham,58.74,Kevin D,DUUUUUUUDE.,121.06,L
+2010,13,False,False,Anthony (2010: Team Name Here),Team Name Here,117.02,--hidden-- (2010: THEshit),THEshit,75.34,W
+2010,13,False,False,--hidden-- (2010: THEshit),THEshit,75.34,Anthony (2010: Team Name Here),Team Name Here,117.02,L
+2010,13,False,False,--hidden-- (2010: Peter'sClap),Peter'sClap,65.44,--hidden-- (2010: iSuck),iSuck,97.98,L
+2010,13,False,False,--hidden-- (2010: iSuck),iSuck,97.98,--hidden-- (2010: Peter'sClap),Peter'sClap,65.44,W
+2010,13,False,False,Jimmy N,Gig 'Em,57.56,tho,StankyyyLeggg,102.74,L
+2010,13,False,False,tho,StankyyyLeggg,102.74,Jimmy N,Gig 'Em,57.56,W
+2010,13,False,False,Long Nguyen,Sexy beasts,91.4,--hidden-- (2010: RAINNN),RAINNN,90.0,W
+2010,13,False,False,--hidden-- (2010: RAINNN),RAINNN,90.0,Long Nguyen,Sexy beasts,91.4,L
+2010,13,False,False,Michael Luong,FTW,70.6,Kevin D,DUUUUUUUDE.,79.92,L
+2010,13,False,False,Kevin D,DUUUUUUUDE.,79.92,Michael Luong,FTW,70.6,W
+2010,13,False,False,Don,Skeetsauce,72.18,Bryan,ShiromaShogun,83.1,L
+2010,13,False,False,Bryan,ShiromaShogun,83.1,Don,Skeetsauce,72.18,W
+2010,13,False,False,--hidden-- (2010: hail yeah),hail yeah,57.0,mrlampham,lampham,78.12,L
+2010,13,False,False,mrlampham,lampham,78.12,--hidden-- (2010: hail yeah),hail yeah,57.0,W
+2010,13,False,False,--hidden-- (2010: Punani),Punani,70.06,Daniel Vu,danielvu,102.24,L
+2010,13,False,False,Daniel Vu,danielvu,102.24,--hidden-- (2010: Punani),Punani,70.06,W
+2010,14,True,False,Anthony (2010: Team Name Here),Team Name Here,122.94,Kevin D,DUUUUUUUDE.,60.94,W
+2010,14,True,False,Kevin D,DUUUUUUUDE.,60.94,Anthony (2010: Team Name Here),Team Name Here,122.94,L
+2010,14,True,False,Jimmy N,Gig 'Em,54.9,mrlampham,lampham,55.12,L
+2010,14,True,False,mrlampham,lampham,55.12,Jimmy N,Gig 'Em,54.9,W
+2010,14,True,False,Long Nguyen,Sexy beasts,30.8,--hidden-- (2010: iSuck),iSuck,138.8,L
+2010,14,True,False,--hidden-- (2010: iSuck),iSuck,138.8,Long Nguyen,Sexy beasts,30.8,W
+2010,14,True,False,Bryan,ShiromaShogun,108.94,--hidden-- (2010: Punani),Punani,97.18,W
+2010,14,True,False,--hidden-- (2010: Punani),Punani,97.18,Bryan,ShiromaShogun,108.94,L
+2010,15,True,False,Anthony (2010: Team Name Here),Team Name Here,79.98,mrlampham,lampham,72.34,W
+2010,15,True,False,mrlampham,lampham,72.34,Anthony (2010: Team Name Here),Team Name Here,79.98,L
+2010,15,True,False,Jimmy N,Gig 'Em,78.52,Kevin D,DUUUUUUUDE.,61.6,W
+2010,15,True,False,Kevin D,DUUUUUUUDE.,61.6,Jimmy N,Gig 'Em,78.52,L
+2010,15,True,False,Long Nguyen,Sexy beasts,62.22,--hidden-- (2010: Punani),Punani,58.66,W
+2010,15,True,False,--hidden-- (2010: Punani),Punani,58.66,Long Nguyen,Sexy beasts,62.22,L
+2010,15,True,False,Bryan,ShiromaShogun,67.12,--hidden-- (2010: iSuck),iSuck,112.38,L
+2010,15,True,False,--hidden-- (2010: iSuck),iSuck,112.38,Bryan,ShiromaShogun,67.12,W
+2010,16,True,False,Anthony (2010: Team Name Here),Team Name Here,61.58,--hidden-- (2010: iSuck),iSuck,97.22,L
+2010,16,True,False,--hidden-- (2010: iSuck),iSuck,97.22,Anthony (2010: Team Name Here),Team Name Here,61.58,W
+2010,16,True,False,Jimmy N,Gig 'Em,90.34,Long Nguyen,Sexy beasts,58.06,W
+2010,16,True,False,Long Nguyen,Sexy beasts,58.06,Jimmy N,Gig 'Em,90.34,L
+2010,16,True,False,Bryan,ShiromaShogun,69.74,mrlampham,lampham,66.68,W
+2010,16,True,False,mrlampham,lampham,66.68,Bryan,ShiromaShogun,69.74,L
+2010,16,True,False,Kevin D,DUUUUUUUDE.,71.76,--hidden-- (2010: Punani),Punani,85.0,L
+2010,16,True,False,--hidden-- (2010: Punani),Punani,85.0,Kevin D,DUUUUUUUDE.,71.76,W
+2011,1,False,False,Anthony (2010: Team Name Here),The Nick Folks,119.78,Kevin,noob117,90.4,W
+2011,1,False,False,Kevin,noob117,90.4,Anthony (2010: Team Name Here),The Nick Folks,119.78,L
+2011,1,False,False,Muso (Lan Doan),RSex,102.3,--hidden-- (2010: Peter'sClap),Ouchy,123.76,L
+2011,1,False,False,--hidden-- (2010: Peter'sClap),Ouchy,123.76,Muso (Lan Doan),RSex,102.3,W
+2011,1,False,False,--hidden-- (2010: iSuck),iSuck,106.46,Kevin D,Public Enemy,92.38,W
+2011,1,False,False,Kevin D,Public Enemy,92.38,--hidden-- (2010: iSuck),iSuck,106.46,L
+2011,1,False,False,Daniel Vu,heropool,117.0,tho,BradyOverBitches,107.98,W
+2011,1,False,False,tho,BradyOverBitches,107.98,Daniel Vu,heropool,117.0,L
+2011,1,False,False,Don,Screaming Queef Ball,88.28,Jimmy,Fat Pepperoni Nipple,96.16,L
+2011,1,False,False,Jimmy,Fat Pepperoni Nipple,96.16,Don,Screaming Queef Ball,88.28,W
+2011,2,False,False,Anthony (2010: Team Name Here),The Nick Folks,121.9,Kevin D,Public Enemy,114.88,W
+2011,2,False,False,Kevin D,Public Enemy,114.88,Anthony (2010: Team Name Here),The Nick Folks,121.9,L
+2011,2,False,False,Muso (Lan Doan),RSex,130.32,Jimmy,Fat Pepperoni Nipple,124.9,W
+2011,2,False,False,Jimmy,Fat Pepperoni Nipple,124.9,Muso (Lan Doan),RSex,130.32,L
+2011,2,False,False,--hidden-- (2010: iSuck),iSuck,130.76,--hidden-- (2010: Peter'sClap),Ouchy,88.48,W
+2011,2,False,False,--hidden-- (2010: Peter'sClap),Ouchy,88.48,--hidden-- (2010: iSuck),iSuck,130.76,L
+2011,2,False,False,Daniel Vu,heropool,108.6,Kevin,noob117,106.72,W
+2011,2,False,False,Kevin,noob117,106.72,Daniel Vu,heropool,108.6,L
+2011,2,False,False,Don,Screaming Queef Ball,117.62,tho,BradyOverBitches,166.82,L
+2011,2,False,False,tho,BradyOverBitches,166.82,Don,Screaming Queef Ball,117.62,W
+2011,3,False,False,Anthony (2010: Team Name Here),The Nick Folks,102.4,--hidden-- (2010: iSuck),iSuck,110.66,L
+2011,3,False,False,--hidden-- (2010: iSuck),iSuck,110.66,Anthony (2010: Team Name Here),The Nick Folks,102.4,W
+2011,3,False,False,Muso (Lan Doan),RSex,97.56,Daniel Vu,heropool,129.72,L
+2011,3,False,False,Daniel Vu,heropool,129.72,Muso (Lan Doan),RSex,97.56,W
+2011,3,False,False,Kevin D,Public Enemy,58.84,Don,Screaming Queef Ball,104.68,L
+2011,3,False,False,Don,Screaming Queef Ball,104.68,Kevin D,Public Enemy,58.84,W
+2011,3,False,False,Kevin,noob117,67.44,--hidden-- (2010: Peter'sClap),Ouchy,163.56,L
+2011,3,False,False,--hidden-- (2010: Peter'sClap),Ouchy,163.56,Kevin,noob117,67.44,W
+2011,3,False,False,Jimmy,Fat Pepperoni Nipple,86.2,tho,BradyOverBitches,126.08,L
+2011,3,False,False,tho,BradyOverBitches,126.08,Jimmy,Fat Pepperoni Nipple,86.2,W
+2011,4,False,False,Anthony (2010: Team Name Here),The Nick Folks,101.44,Muso (Lan Doan),RSex,80.54,W
+2011,4,False,False,Muso (Lan Doan),RSex,80.54,Anthony (2010: Team Name Here),The Nick Folks,101.44,L
+2011,4,False,False,--hidden-- (2010: iSuck),iSuck,92.46,tho,BradyOverBitches,119.74,L
+2011,4,False,False,tho,BradyOverBitches,119.74,--hidden-- (2010: iSuck),iSuck,92.46,W
+2011,4,False,False,Daniel Vu,heropool,104.72,--hidden-- (2010: Peter'sClap),Ouchy,102.42,W
+2011,4,False,False,--hidden-- (2010: Peter'sClap),Ouchy,102.42,Daniel Vu,heropool,104.72,L
+2011,4,False,False,Kevin D,Public Enemy,130.24,Jimmy,Fat Pepperoni Nipple,103.24,W
+2011,4,False,False,Jimmy,Fat Pepperoni Nipple,103.24,Kevin D,Public Enemy,130.24,L
+2011,4,False,False,Don,Screaming Queef Ball,167.52,Kevin,noob117,120.78,W
+2011,4,False,False,Kevin,noob117,120.78,Don,Screaming Queef Ball,167.52,L
+2011,5,False,False,Anthony (2010: Team Name Here),The Nick Folks,121.36,Daniel Vu,heropool,69.46,W
+2011,5,False,False,Daniel Vu,heropool,69.46,Anthony (2010: Team Name Here),The Nick Folks,121.36,L
+2011,5,False,False,Muso (Lan Doan),RSex,81.3,--hidden-- (2010: iSuck),iSuck,70.02,W
+2011,5,False,False,--hidden-- (2010: iSuck),iSuck,70.02,Muso (Lan Doan),RSex,81.3,L
+2011,5,False,False,Kevin D,Public Enemy,128.7,tho,BradyOverBitches,121.74,W
+2011,5,False,False,tho,BradyOverBitches,121.74,Kevin D,Public Enemy,128.7,L
+2011,5,False,False,Don,Screaming Queef Ball,108.24,--hidden-- (2010: Peter'sClap),Ouchy,100.9,W
+2011,5,False,False,--hidden-- (2010: Peter'sClap),Ouchy,100.9,Don,Screaming Queef Ball,108.24,L
+2011,5,False,False,Kevin,noob117,85.5,Jimmy,Fat Pepperoni Nipple,96.26,L
+2011,5,False,False,Jimmy,Fat Pepperoni Nipple,96.26,Kevin,noob117,85.5,W
+2011,6,False,False,Anthony (2010: Team Name Here),The Nick Folks,99.58,--hidden-- (2010: Peter'sClap),Ouchy,86.8,W
+2011,6,False,False,--hidden-- (2010: Peter'sClap),Ouchy,86.8,Anthony (2010: Team Name Here),The Nick Folks,99.58,L
+2011,6,False,False,Muso (Lan Doan),RSex,89.6,tho,BradyOverBitches,114.36,L
+2011,6,False,False,tho,BradyOverBitches,114.36,Muso (Lan Doan),RSex,89.6,W
+2011,6,False,False,--hidden-- (2010: iSuck),iSuck,84.46,Jimmy,Fat Pepperoni Nipple,117.72,L
+2011,6,False,False,Jimmy,Fat Pepperoni Nipple,117.72,--hidden-- (2010: iSuck),iSuck,84.46,W
+2011,6,False,False,Daniel Vu,heropool,95.82,Don,Screaming Queef Ball,85.04,W
+2011,6,False,False,Don,Screaming Queef Ball,85.04,Daniel Vu,heropool,95.82,L
+2011,6,False,False,Kevin D,Public Enemy,104.08,Kevin,noob117,88.42,W
+2011,6,False,False,Kevin,noob117,88.42,Kevin D,Public Enemy,104.08,L
+2011,7,False,False,Anthony (2010: Team Name Here),The Nick Folks,63.64,tho,BradyOverBitches,103.52,L
+2011,7,False,False,tho,BradyOverBitches,103.52,Anthony (2010: Team Name Here),The Nick Folks,63.64,W
+2011,7,False,False,Muso (Lan Doan),RSex,129.64,Don,Screaming Queef Ball,86.7,W
+2011,7,False,False,Don,Screaming Queef Ball,86.7,Muso (Lan Doan),RSex,129.64,L
+2011,7,False,False,--hidden-- (2010: iSuck),iSuck,77.26,Kevin,noob117,104.34,L
+2011,7,False,False,Kevin,noob117,104.34,--hidden-- (2010: iSuck),iSuck,77.26,W
+2011,7,False,False,Daniel Vu,heropool,97.42,Jimmy,Fat Pepperoni Nipple,131.3,L
+2011,7,False,False,Jimmy,Fat Pepperoni Nipple,131.3,Daniel Vu,heropool,97.42,W
+2011,7,False,False,Kevin D,Public Enemy,65.84,--hidden-- (2010: Peter'sClap),Ouchy,61.98,W
+2011,7,False,False,--hidden-- (2010: Peter'sClap),Ouchy,61.98,Kevin D,Public Enemy,65.84,L
+2011,8,False,False,Anthony (2010: Team Name Here),The Nick Folks,124.12,Kevin,noob117,81.68,W
+2011,8,False,False,Kevin,noob117,81.68,Anthony (2010: Team Name Here),The Nick Folks,124.12,L
+2011,8,False,False,Muso (Lan Doan),RSex,62.0,tho,BradyOverBitches,127.12,L
+2011,8,False,False,tho,BradyOverBitches,127.12,Muso (Lan Doan),RSex,62.0,W
+2011,8,False,False,--hidden-- (2010: iSuck),iSuck,108.28,Kevin D,Public Enemy,115.36,L
+2011,8,False,False,Kevin D,Public Enemy,115.36,--hidden-- (2010: iSuck),iSuck,108.28,W
+2011,8,False,False,Daniel Vu,heropool,84.4,Don,Screaming Queef Ball,101.9,L
+2011,8,False,False,Don,Screaming Queef Ball,101.9,Daniel Vu,heropool,84.4,W
+2011,8,False,False,Jimmy,Fat Pepperoni Nipple,88.26,--hidden-- (2010: Peter'sClap),Ouchy,88.44,L
+2011,8,False,False,--hidden-- (2010: Peter'sClap),Ouchy,88.44,Jimmy,Fat Pepperoni Nipple,88.26,W
+2011,9,False,False,Anthony (2010: Team Name Here),The Nick Folks,110.26,Jimmy,Fat Pepperoni Nipple,124.42,L
+2011,9,False,False,Jimmy,Fat Pepperoni Nipple,124.42,Anthony (2010: Team Name Here),The Nick Folks,110.26,W
+2011,9,False,False,Muso (Lan Doan),RSex,93.4,Kevin,noob117,116.9,L
+2011,9,False,False,Kevin,noob117,116.9,Muso (Lan Doan),RSex,93.4,W
+2011,9,False,False,--hidden-- (2010: iSuck),iSuck,88.44,Don,Screaming Queef Ball,141.18,L
+2011,9,False,False,Don,Screaming Queef Ball,141.18,--hidden-- (2010: iSuck),iSuck,88.44,W
+2011,9,False,False,Daniel Vu,heropool,82.96,Kevin D,Public Enemy,96.22,L
+2011,9,False,False,Kevin D,Public Enemy,96.22,Daniel Vu,heropool,82.96,W
+2011,9,False,False,--hidden-- (2010: Peter'sClap),Ouchy,89.3,tho,BradyOverBitches,88.68,W
+2011,9,False,False,tho,BradyOverBitches,88.68,--hidden-- (2010: Peter'sClap),Ouchy,89.3,L
+2011,10,False,False,Anthony (2010: Team Name Here),The Nick Folks,143.3,Don,Screaming Queef Ball,115.8,W
+2011,10,False,False,Don,Screaming Queef Ball,115.8,Anthony (2010: Team Name Here),The Nick Folks,143.3,L
+2011,10,False,False,Muso (Lan Doan),RSex,80.0,Kevin D,Public Enemy,63.82,W
+2011,10,False,False,Kevin D,Public Enemy,63.82,Muso (Lan Doan),RSex,80.0,L
+2011,10,False,False,--hidden-- (2010: iSuck),iSuck,77.94,Daniel Vu,heropool,89.56,L
+2011,10,False,False,Daniel Vu,heropool,89.56,--hidden-- (2010: iSuck),iSuck,77.94,W
+2011,10,False,False,Kevin,noob117,118.76,tho,BradyOverBitches,139.26,L
+2011,10,False,False,tho,BradyOverBitches,139.26,Kevin,noob117,118.76,W
+2011,10,False,False,Jimmy,Fat Pepperoni Nipple,114.18,--hidden-- (2010: Peter'sClap),Ouchy,98.82,W
+2011,10,False,False,--hidden-- (2010: Peter'sClap),Ouchy,98.82,Jimmy,Fat Pepperoni Nipple,114.18,L
+2011,11,False,False,Anthony (2010: Team Name Here),The Nick Folks,86.08,Kevin D,Public Enemy,118.56,L
+2011,11,False,False,Kevin D,Public Enemy,118.56,Anthony (2010: Team Name Here),The Nick Folks,86.08,W
+2011,11,False,False,Muso (Lan Doan),RSex,67.94,Jimmy,Fat Pepperoni Nipple,90.48,L
+2011,11,False,False,Jimmy,Fat Pepperoni Nipple,90.48,Muso (Lan Doan),RSex,67.94,W
+2011,11,False,False,--hidden-- (2010: iSuck),iSuck,54.22,--hidden-- (2010: Peter'sClap),Ouchy,83.18,L
+2011,11,False,False,--hidden-- (2010: Peter'sClap),Ouchy,83.18,--hidden-- (2010: iSuck),iSuck,54.22,W
+2011,11,False,False,Daniel Vu,heropool,86.4,tho,BradyOverBitches,98.66,L
+2011,11,False,False,tho,BradyOverBitches,98.66,Daniel Vu,heropool,86.4,W
+2011,11,False,False,Don,Screaming Queef Ball,104.56,Kevin,noob117,124.4,L
+2011,11,False,False,Kevin,noob117,124.4,Don,Screaming Queef Ball,104.56,W
+2011,12,False,False,Anthony (2010: Team Name Here),The Nick Folks,118.94,--hidden-- (2010: iSuck),iSuck,90.6,W
+2011,12,False,False,--hidden-- (2010: iSuck),iSuck,90.6,Anthony (2010: Team Name Here),The Nick Folks,118.94,L
+2011,12,False,False,Muso (Lan Doan),RSex,121.38,Don,Screaming Queef Ball,111.78,W
+2011,12,False,False,Don,Screaming Queef Ball,111.78,Muso (Lan Doan),RSex,121.38,L
+2011,12,False,False,Daniel Vu,heropool,80.14,Kevin D,Public Enemy,76.54,W
+2011,12,False,False,Kevin D,Public Enemy,76.54,Daniel Vu,heropool,80.14,L
+2011,12,False,False,Kevin,noob117,67.92,--hidden-- (2010: Peter'sClap),Ouchy,135.2,L
+2011,12,False,False,--hidden-- (2010: Peter'sClap),Ouchy,135.2,Kevin,noob117,67.92,W
+2011,12,False,False,Jimmy,Fat Pepperoni Nipple,117.42,tho,BradyOverBitches,131.64,L
+2011,12,False,False,tho,BradyOverBitches,131.64,Jimmy,Fat Pepperoni Nipple,117.42,W
+2011,13,False,False,Anthony (2010: Team Name Here),The Nick Folks,137.26,--hidden-- (2010: Peter'sClap),Ouchy,112.86,W
+2011,13,False,False,--hidden-- (2010: Peter'sClap),Ouchy,112.86,Anthony (2010: Team Name Here),The Nick Folks,137.26,L
+2011,13,False,False,Muso (Lan Doan),RSex,100.28,--hidden-- (2010: iSuck),iSuck,86.22,W
+2011,13,False,False,--hidden-- (2010: iSuck),iSuck,86.22,Muso (Lan Doan),RSex,100.28,L
+2011,13,False,False,Daniel Vu,heropool,105.52,Jimmy,Fat Pepperoni Nipple,94.28,W
+2011,13,False,False,Jimmy,Fat Pepperoni Nipple,94.28,Daniel Vu,heropool,105.52,L
+2011,13,False,False,Kevin D,Public Enemy,78.5,Kevin,noob117,115.38,L
+2011,13,False,False,Kevin,noob117,115.38,Kevin D,Public Enemy,78.5,W
+2011,13,False,False,Don,Screaming Queef Ball,130.86,tho,BradyOverBitches,117.06,W
+2011,13,False,False,tho,BradyOverBitches,117.06,Don,Screaming Queef Ball,130.86,L
+2011,14,True,False,Anthony (2010: Team Name Here),The Nick Folks,126.34,--hidden-- (2010: Peter'sClap),Ouchy,111.68,W
+2011,14,True,False,--hidden-- (2010: Peter'sClap),Ouchy,111.68,Anthony (2010: Team Name Here),The Nick Folks,126.34,L
+2011,14,True,False,Muso (Lan Doan),RSex,135.6,tho,BradyOverBitches,118.08,W
+2011,14,True,False,tho,BradyOverBitches,118.08,Muso (Lan Doan),RSex,135.6,L
+2011,14,True,False,Daniel Vu,heropool,105.68,Don,Screaming Queef Ball,138.34,L
+2011,14,True,False,Don,Screaming Queef Ball,138.34,Daniel Vu,heropool,105.68,W
+2011,14,True,False,Kevin D,Public Enemy,116.62,Jimmy,Fat Pepperoni Nipple,96.98,W
+2011,14,True,False,Jimmy,Fat Pepperoni Nipple,96.98,Kevin D,Public Enemy,116.62,L
+2011,15,True,False,Anthony (2010: Team Name Here),The Nick Folks,122.56,Don,Screaming Queef Ball,99.2,W
+2011,15,True,False,Don,Screaming Queef Ball,99.2,Anthony (2010: Team Name Here),The Nick Folks,122.56,L
+2011,15,True,False,Muso (Lan Doan),RSex,81.76,Kevin D,Public Enemy,118.36,L
+2011,15,True,False,Kevin D,Public Enemy,118.36,Muso (Lan Doan),RSex,81.76,W
+2011,15,True,False,Daniel Vu,heropool,133.24,--hidden-- (2010: Peter'sClap),Ouchy,118.04,W
+2011,15,True,False,--hidden-- (2010: Peter'sClap),Ouchy,118.04,Daniel Vu,heropool,133.24,L
+2011,15,True,False,Jimmy,Fat Pepperoni Nipple,114.58,tho,BradyOverBitches,114.4,W
+2011,15,True,False,tho,BradyOverBitches,114.4,Jimmy,Fat Pepperoni Nipple,114.58,L
+2011,16,True,False,Anthony (2010: Team Name Here),The Nick Folks,81.4,Kevin D,Public Enemy,116.52,L
+2011,16,True,False,Kevin D,Public Enemy,116.52,Anthony (2010: Team Name Here),The Nick Folks,81.4,W
+2011,16,True,False,Muso (Lan Doan),RSex,96.32,Don,Screaming Queef Ball,111.94,L
+2011,16,True,False,Don,Screaming Queef Ball,111.94,Muso (Lan Doan),RSex,96.32,W
+2011,16,True,False,Daniel Vu,heropool,112.22,Jimmy,Fat Pepperoni Nipple,102.28,W
+2011,16,True,False,Jimmy,Fat Pepperoni Nipple,102.28,Daniel Vu,heropool,112.22,L
+2011,16,True,False,--hidden-- (2010: Peter'sClap),Ouchy,82.68,tho,BradyOverBitches,102.76,L
+2011,16,True,False,tho,BradyOverBitches,102.76,--hidden-- (2010: Peter'sClap),Ouchy,82.68,W
+2012,1,False,False,Don,Jerry Sanduskys,142.05,Daniel,Victorious Secret,141.75,W
+2012,1,False,False,Daniel,Victorious Secret,141.75,Don,Jerry Sanduskys,142.05,L
+2012,1,False,False,Kevin D,AnyHolesTheGoal,146.45,tho,BradyOverBitches,148.75,L
+2012,1,False,False,tho,BradyOverBitches,148.75,Kevin D,AnyHolesTheGoal,146.45,W
+2012,1,False,False,Daniel Vu,Allstar Burns,158.45,matthew,goon squad,122.75,W
+2012,1,False,False,matthew,goon squad,122.75,Daniel Vu,Allstar Burns,158.45,L
+2012,1,False,False,Anthony (2010: Team Name Here),THE FATBOIS,106.75,Blake (2012: Tits Mcgee),Tits Mcgee,80.15,W
+2012,1,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,80.15,Anthony (2010: Team Name Here),THE FATBOIS,106.75,L
+2012,1,False,False,Vu Le,Multiple Scorgasms,166.15,--hidden-- (2012: GameChanger),GameChanger,139.6,W
+2012,1,False,False,--hidden-- (2012: GameChanger),GameChanger,139.6,Vu Le,Multiple Scorgasms,166.15,L
+2012,2,False,False,Don,Jerry Sanduskys,124.95,Kevin D,AnyHolesTheGoal,124.35,W
+2012,2,False,False,Kevin D,AnyHolesTheGoal,124.35,Don,Jerry Sanduskys,124.95,L
+2012,2,False,False,Daniel,Victorious Secret,144.25,--hidden-- (2012: GameChanger),GameChanger,116.8,W
+2012,2,False,False,--hidden-- (2012: GameChanger),GameChanger,116.8,Daniel,Victorious Secret,144.25,L
+2012,2,False,False,Daniel Vu,Allstar Burns,76.6,tho,BradyOverBitches,101.95,L
+2012,2,False,False,tho,BradyOverBitches,101.95,Daniel Vu,Allstar Burns,76.6,W
+2012,2,False,False,Anthony (2010: Team Name Here),THE FATBOIS,111.25,matthew,goon squad,137.4,L
+2012,2,False,False,matthew,goon squad,137.4,Anthony (2010: Team Name Here),THE FATBOIS,111.25,W
+2012,2,False,False,Vu Le,Multiple Scorgasms,117.85,Blake (2012: Tits Mcgee),Tits Mcgee,145.2,L
+2012,2,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,145.2,Vu Le,Multiple Scorgasms,117.85,W
+2012,3,False,False,Don,Jerry Sanduskys,185.2,Daniel Vu,Allstar Burns,112.05,W
+2012,3,False,False,Daniel Vu,Allstar Burns,112.05,Don,Jerry Sanduskys,185.2,L
+2012,3,False,False,Daniel,Victorious Secret,92.0,Kevin D,AnyHolesTheGoal,102.35,L
+2012,3,False,False,Kevin D,AnyHolesTheGoal,102.35,Daniel,Victorious Secret,92.0,W
+2012,3,False,False,Anthony (2010: Team Name Here),THE FATBOIS,127.15,tho,BradyOverBitches,83.45,W
+2012,3,False,False,tho,BradyOverBitches,83.45,Anthony (2010: Team Name Here),THE FATBOIS,127.15,L
+2012,3,False,False,Vu Le,Multiple Scorgasms,105.75,matthew,goon squad,167.9,L
+2012,3,False,False,matthew,goon squad,167.9,Vu Le,Multiple Scorgasms,105.75,W
+2012,3,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,115.15,--hidden-- (2012: GameChanger),GameChanger,66.25,W
+2012,3,False,False,--hidden-- (2012: GameChanger),GameChanger,66.25,Blake (2012: Tits Mcgee),Tits Mcgee,115.15,L
+2012,4,False,False,Don,Jerry Sanduskys,147.0,Anthony (2010: Team Name Here),THE FATBOIS,113.45,W
+2012,4,False,False,Anthony (2010: Team Name Here),THE FATBOIS,113.45,Don,Jerry Sanduskys,147.0,L
+2012,4,False,False,Daniel,Victorious Secret,131.15,Daniel Vu,Allstar Burns,89.6,W
+2012,4,False,False,Daniel Vu,Allstar Burns,89.6,Daniel,Victorious Secret,131.15,L
+2012,4,False,False,Kevin D,AnyHolesTheGoal,147.65,--hidden-- (2012: GameChanger),GameChanger,112.7,W
+2012,4,False,False,--hidden-- (2012: GameChanger),GameChanger,112.7,Kevin D,AnyHolesTheGoal,147.65,L
+2012,4,False,False,Vu Le,Multiple Scorgasms,138.45,tho,BradyOverBitches,126.65,W
+2012,4,False,False,tho,BradyOverBitches,126.65,Vu Le,Multiple Scorgasms,138.45,L
+2012,4,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,140.95,matthew,goon squad,126.35,W
+2012,4,False,False,matthew,goon squad,126.35,Blake (2012: Tits Mcgee),Tits Mcgee,140.95,L
+2012,5,False,False,Don,Jerry Sanduskys,134.75,Vu Le,Multiple Scorgasms,189.7,L
+2012,5,False,False,Vu Le,Multiple Scorgasms,189.7,Don,Jerry Sanduskys,134.75,W
+2012,5,False,False,Daniel,Victorious Secret,91.35,Anthony (2010: Team Name Here),THE FATBOIS,138.75,L
+2012,5,False,False,Anthony (2010: Team Name Here),THE FATBOIS,138.75,Daniel,Victorious Secret,91.35,W
+2012,5,False,False,Kevin D,AnyHolesTheGoal,182.65,Daniel Vu,Allstar Burns,128.15,W
+2012,5,False,False,Daniel Vu,Allstar Burns,128.15,Kevin D,AnyHolesTheGoal,182.65,L
+2012,5,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,117.15,tho,BradyOverBitches,102.05,W
+2012,5,False,False,tho,BradyOverBitches,102.05,Blake (2012: Tits Mcgee),Tits Mcgee,117.15,L
+2012,5,False,False,matthew,goon squad,135.8,--hidden-- (2012: GameChanger),GameChanger,78.95,W
+2012,5,False,False,--hidden-- (2012: GameChanger),GameChanger,78.95,matthew,goon squad,135.8,L
+2012,6,False,False,Don,Jerry Sanduskys,108.85,Blake (2012: Tits Mcgee),Tits Mcgee,128.8,L
+2012,6,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,128.8,Don,Jerry Sanduskys,108.85,W
+2012,6,False,False,Daniel,Victorious Secret,116.4,Vu Le,Multiple Scorgasms,102.55,W
+2012,6,False,False,Vu Le,Multiple Scorgasms,102.55,Daniel,Victorious Secret,116.4,L
+2012,6,False,False,Kevin D,AnyHolesTheGoal,190.4,Anthony (2010: Team Name Here),THE FATBOIS,132.75,W
+2012,6,False,False,Anthony (2010: Team Name Here),THE FATBOIS,132.75,Kevin D,AnyHolesTheGoal,190.4,L
+2012,6,False,False,Daniel Vu,Allstar Burns,101.2,--hidden-- (2012: GameChanger),GameChanger,82.15,W
+2012,6,False,False,--hidden-- (2012: GameChanger),GameChanger,82.15,Daniel Vu,Allstar Burns,101.2,L
+2012,6,False,False,matthew,goon squad,190.45,tho,BradyOverBitches,149.15,W
+2012,6,False,False,tho,BradyOverBitches,149.15,matthew,goon squad,190.45,L
+2012,7,False,False,Don,Jerry Sanduskys,77.15,matthew,goon squad,108.9,L
+2012,7,False,False,matthew,goon squad,108.9,Don,Jerry Sanduskys,77.15,W
+2012,7,False,False,Daniel,Victorious Secret,108.35,Blake (2012: Tits Mcgee),Tits Mcgee,134.9,L
+2012,7,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,134.9,Daniel,Victorious Secret,108.35,W
+2012,7,False,False,Kevin D,AnyHolesTheGoal,148.2,Vu Le,Multiple Scorgasms,155.25,L
+2012,7,False,False,Vu Le,Multiple Scorgasms,155.25,Kevin D,AnyHolesTheGoal,148.2,W
+2012,7,False,False,Daniel Vu,Allstar Burns,113.45,Anthony (2010: Team Name Here),THE FATBOIS,116.4,L
+2012,7,False,False,Anthony (2010: Team Name Here),THE FATBOIS,116.4,Daniel Vu,Allstar Burns,113.45,W
+2012,7,False,False,tho,BradyOverBitches,127.1,--hidden-- (2012: GameChanger),GameChanger,85.45,W
+2012,7,False,False,--hidden-- (2012: GameChanger),GameChanger,85.45,tho,BradyOverBitches,127.1,L
+2012,8,False,False,Don,Jerry Sanduskys,142.95,tho,BradyOverBitches,121.3,W
+2012,8,False,False,tho,BradyOverBitches,121.3,Don,Jerry Sanduskys,142.95,L
+2012,8,False,False,Daniel,Victorious Secret,130.1,matthew,goon squad,102.9,W
+2012,8,False,False,matthew,goon squad,102.9,Daniel,Victorious Secret,130.1,L
+2012,8,False,False,Kevin D,AnyHolesTheGoal,110.0,Blake (2012: Tits Mcgee),Tits Mcgee,91.35,W
+2012,8,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,91.35,Kevin D,AnyHolesTheGoal,110.0,L
+2012,8,False,False,Daniel Vu,Allstar Burns,111.95,Vu Le,Multiple Scorgasms,147.75,L
+2012,8,False,False,Vu Le,Multiple Scorgasms,147.75,Daniel Vu,Allstar Burns,111.95,W
+2012,8,False,False,Anthony (2010: Team Name Here),THE FATBOIS,93.45,--hidden-- (2012: GameChanger),GameChanger,106.2,L
+2012,8,False,False,--hidden-- (2012: GameChanger),GameChanger,106.2,Anthony (2010: Team Name Here),THE FATBOIS,93.45,W
+2012,9,False,False,Don,Jerry Sanduskys,153.95,--hidden-- (2012: GameChanger),GameChanger,61.0,W
+2012,9,False,False,--hidden-- (2012: GameChanger),GameChanger,61.0,Don,Jerry Sanduskys,153.95,L
+2012,9,False,False,Daniel,Victorious Secret,163.75,tho,BradyOverBitches,134.2,W
+2012,9,False,False,tho,BradyOverBitches,134.2,Daniel,Victorious Secret,163.75,L
+2012,9,False,False,Kevin D,AnyHolesTheGoal,167.1,matthew,goon squad,129.25,W
+2012,9,False,False,matthew,goon squad,129.25,Kevin D,AnyHolesTheGoal,167.1,L
+2012,9,False,False,Daniel Vu,Allstar Burns,124.3,Blake (2012: Tits Mcgee),Tits Mcgee,95.95,W
+2012,9,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,95.95,Daniel Vu,Allstar Burns,124.3,L
+2012,9,False,False,Anthony (2010: Team Name Here),THE FATBOIS,109.0,Vu Le,Multiple Scorgasms,148.25,L
+2012,9,False,False,Vu Le,Multiple Scorgasms,148.25,Anthony (2010: Team Name Here),THE FATBOIS,109.0,W
+2012,10,False,False,Don,Jerry Sanduskys,133.45,Daniel,Victorious Secret,145.75,L
+2012,10,False,False,Daniel,Victorious Secret,145.75,Don,Jerry Sanduskys,133.45,W
+2012,10,False,False,Kevin D,AnyHolesTheGoal,161.45,tho,BradyOverBitches,160.35,W
+2012,10,False,False,tho,BradyOverBitches,160.35,Kevin D,AnyHolesTheGoal,161.45,L
+2012,10,False,False,Daniel Vu,Allstar Burns,112.35,matthew,goon squad,133.8,L
+2012,10,False,False,matthew,goon squad,133.8,Daniel Vu,Allstar Burns,112.35,W
+2012,10,False,False,Anthony (2010: Team Name Here),THE FATBOIS,116.5,Blake (2012: Tits Mcgee),Tits Mcgee,56.75,W
+2012,10,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,56.75,Anthony (2010: Team Name Here),THE FATBOIS,116.5,L
+2012,10,False,False,Vu Le,Multiple Scorgasms,156.2,--hidden-- (2012: GameChanger),GameChanger,64.75,W
+2012,10,False,False,--hidden-- (2012: GameChanger),GameChanger,64.75,Vu Le,Multiple Scorgasms,156.2,L
+2012,11,False,False,Don,Jerry Sanduskys,125.35,Kevin D,AnyHolesTheGoal,129.8,L
+2012,11,False,False,Kevin D,AnyHolesTheGoal,129.8,Don,Jerry Sanduskys,125.35,W
+2012,11,False,False,Daniel,Victorious Secret,97.2,--hidden-- (2012: GameChanger),GameChanger,137.85,L
+2012,11,False,False,--hidden-- (2012: GameChanger),GameChanger,137.85,Daniel,Victorious Secret,97.2,W
+2012,11,False,False,Daniel Vu,Allstar Burns,114.4,tho,BradyOverBitches,74.75,W
+2012,11,False,False,tho,BradyOverBitches,74.75,Daniel Vu,Allstar Burns,114.4,L
+2012,11,False,False,Anthony (2010: Team Name Here),THE FATBOIS,128.15,matthew,goon squad,82.0,W
+2012,11,False,False,matthew,goon squad,82.0,Anthony (2010: Team Name Here),THE FATBOIS,128.15,L
+2012,11,False,False,Vu Le,Multiple Scorgasms,100.95,Blake (2012: Tits Mcgee),Tits Mcgee,141.0,L
+2012,11,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,141.0,Vu Le,Multiple Scorgasms,100.95,W
+2012,12,False,False,Don,Jerry Sanduskys,169.65,Daniel Vu,Allstar Burns,79.1,W
+2012,12,False,False,Daniel Vu,Allstar Burns,79.1,Don,Jerry Sanduskys,169.65,L
+2012,12,False,False,Daniel,Victorious Secret,120.7,Kevin D,AnyHolesTheGoal,138.15,L
+2012,12,False,False,Kevin D,AnyHolesTheGoal,138.15,Daniel,Victorious Secret,120.7,W
+2012,12,False,False,Anthony (2010: Team Name Here),THE FATBOIS,123.55,tho,BradyOverBitches,95.85,W
+2012,12,False,False,tho,BradyOverBitches,95.85,Anthony (2010: Team Name Here),THE FATBOIS,123.55,L
+2012,12,False,False,Vu Le,Multiple Scorgasms,154.25,matthew,goon squad,96.7,W
+2012,12,False,False,matthew,goon squad,96.7,Vu Le,Multiple Scorgasms,154.25,L
+2012,12,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,146.4,--hidden-- (2012: GameChanger),GameChanger,111.45,W
+2012,12,False,False,--hidden-- (2012: GameChanger),GameChanger,111.45,Blake (2012: Tits Mcgee),Tits Mcgee,146.4,L
+2012,13,False,False,Don,Jerry Sanduskys,130.15,Anthony (2010: Team Name Here),THE FATBOIS,133.6,L
+2012,13,False,False,Anthony (2010: Team Name Here),THE FATBOIS,133.6,Don,Jerry Sanduskys,130.15,W
+2012,13,False,False,Daniel,Victorious Secret,152.9,Daniel Vu,Allstar Burns,142.65,W
+2012,13,False,False,Daniel Vu,Allstar Burns,142.65,Daniel,Victorious Secret,152.9,L
+2012,13,False,False,Kevin D,AnyHolesTheGoal,140.5,--hidden-- (2012: GameChanger),GameChanger,63.2,W
+2012,13,False,False,--hidden-- (2012: GameChanger),GameChanger,63.2,Kevin D,AnyHolesTheGoal,140.5,L
+2012,13,False,False,Vu Le,Multiple Scorgasms,174.65,tho,BradyOverBitches,117.25,W
+2012,13,False,False,tho,BradyOverBitches,117.25,Vu Le,Multiple Scorgasms,174.65,L
+2012,13,False,False,Blake (2012: Tits Mcgee),Tits Mcgee,95.05,matthew,goon squad,109.85,L
+2012,13,False,False,matthew,goon squad,109.85,Blake (2012: Tits Mcgee),Tits Mcgee,95.05,W
+2012,14,True,False,Don,Jerry Sanduskys,130.2,Blake (2012: Tits Mcgee),Tits Mcgee,103.7,W
+2012,14,True,False,Blake (2012: Tits Mcgee),Tits Mcgee,103.7,Don,Jerry Sanduskys,130.2,L
+2012,14,True,False,Anthony (2010: Team Name Here),THE FATBOIS,76.0,matthew,goon squad,99.1,L
+2012,14,True,False,matthew,goon squad,99.1,Anthony (2010: Team Name Here),THE FATBOIS,76.0,W
+2012,15,True,False,Don,Jerry Sanduskys,162.75,Kevin D,AnyHolesTheGoal,121.65,W
+2012,15,True,False,Kevin D,AnyHolesTheGoal,121.65,Don,Jerry Sanduskys,162.75,L
+2012,15,True,True,Daniel,Victorious Secret,120.25,--hidden-- (2012: GameChanger),GameChanger,102.35,W
+2012,15,True,True,--hidden-- (2012: GameChanger),GameChanger,102.35,Daniel,Victorious Secret,120.25,L
+2012,15,True,True,Daniel Vu,Allstar Burns,118.15,tho,BradyOverBitches,138.7,L
+2012,15,True,True,tho,BradyOverBitches,138.7,Daniel Vu,Allstar Burns,118.15,W
+2012,15,True,False,Anthony (2010: Team Name Here),THE FATBOIS,102.25,Blake (2012: Tits Mcgee),Tits Mcgee,81.85,W
+2012,15,True,False,Blake (2012: Tits Mcgee),Tits Mcgee,81.85,Anthony (2010: Team Name Here),THE FATBOIS,102.25,L
+2012,15,True,False,Vu Le,Multiple Scorgasms,151.85,matthew,goon squad,88.7,W
+2012,15,True,False,matthew,goon squad,88.7,Vu Le,Multiple Scorgasms,151.85,L
+2012,16,True,False,Don,Jerry Sanduskys,194.9,Vu Le,Multiple Scorgasms,124.3,W
+2012,16,True,False,Vu Le,Multiple Scorgasms,124.3,Don,Jerry Sanduskys,194.9,L
+2012,16,True,True,Daniel,Victorious Secret,113.9,tho,BradyOverBitches,153.35,L
+2012,16,True,True,tho,BradyOverBitches,153.35,Daniel,Victorious Secret,113.9,W
+2012,16,True,False,Kevin D,AnyHolesTheGoal,143.05,matthew,goon squad,119.35,W
+2012,16,True,False,matthew,goon squad,119.35,Kevin D,AnyHolesTheGoal,143.05,L
+2012,16,True,True,Daniel Vu,Allstar Burns,143.4,--hidden-- (2012: GameChanger),GameChanger,80.55,W
+2012,16,True,True,--hidden-- (2012: GameChanger),GameChanger,80.55,Daniel Vu,Allstar Burns,143.4,L
+2013,1,False,False,Don,DonBlood,186.58,Jimmy,Pepperoni Nipples,153.78,W
+2013,1,False,False,Jimmy,Pepperoni Nipples,153.78,Don,DonBlood,186.58,L
+2013,1,False,False,Daniel,69ers,164.28,KevinN,AnyHolesDaGoal,112.82,W
+2013,1,False,False,KevinN,AnyHolesDaGoal,112.82,Daniel,69ers,164.28,L
+2013,1,False,False,Vu Le,Quik Fix,153.18,Anthony (2010: Team Name Here),FATBOIS,112.42,W
+2013,1,False,False,Anthony (2010: Team Name Here),FATBOIS,112.42,Vu Le,Quik Fix,153.18,L
+2013,1,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,111.9,Muso (Lan Doan),Oohhh Kill Em',123.06,L
+2013,1,False,False,Muso (Lan Doan),Oohhh Kill Em',123.06,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,111.9,W
+2013,1,False,False,Josh,Muff Diving Champ,88.7,Blake (2012: Tits Mcgee),Dingleberry Pickers,103.52,L
+2013,1,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,103.52,Josh,Muff Diving Champ,88.7,W
+2013,1,False,False,Kevin D,Suck4Luck,118.52,Peter,Peter's Team,146.96,L
+2013,1,False,False,Peter,Peter's Team,146.96,Kevin D,Suck4Luck,118.52,W
+2013,2,False,False,Don,DonBlood,107.78,Daniel,69ers,109.42,L
+2013,2,False,False,Daniel,69ers,109.42,Don,DonBlood,107.78,W
+2013,2,False,False,Jimmy,Pepperoni Nipples,89.78,Peter,Peter's Team,130.8,L
+2013,2,False,False,Peter,Peter's Team,130.8,Jimmy,Pepperoni Nipples,89.78,W
+2013,2,False,False,Vu Le,Quik Fix,180.78,KevinN,AnyHolesDaGoal,126.82,W
+2013,2,False,False,KevinN,AnyHolesDaGoal,126.82,Vu Le,Quik Fix,180.78,L
+2013,2,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,119.18,Anthony (2010: Team Name Here),FATBOIS,126.44,L
+2013,2,False,False,Anthony (2010: Team Name Here),FATBOIS,126.44,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,119.18,W
+2013,2,False,False,Josh,Muff Diving Champ,109.86,Muso (Lan Doan),Oohhh Kill Em',131.46,L
+2013,2,False,False,Muso (Lan Doan),Oohhh Kill Em',131.46,Josh,Muff Diving Champ,109.86,W
+2013,2,False,False,Kevin D,Suck4Luck,161.5,Blake (2012: Tits Mcgee),Dingleberry Pickers,127.8,W
+2013,2,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,127.8,Kevin D,Suck4Luck,161.5,L
+2013,3,False,False,Don,DonBlood,147.48,Vu Le,Quik Fix,95.94,W
+2013,3,False,False,Vu Le,Quik Fix,95.94,Don,DonBlood,147.48,L
+2013,3,False,False,Jimmy,Pepperoni Nipples,113.76,Daniel,69ers,90.0,W
+2013,3,False,False,Daniel,69ers,90.0,Jimmy,Pepperoni Nipples,113.76,L
+2013,3,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,131.08,KevinN,AnyHolesDaGoal,127.5,W
+2013,3,False,False,KevinN,AnyHolesDaGoal,127.5,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,131.08,L
+2013,3,False,False,Josh,Muff Diving Champ,82.32,Anthony (2010: Team Name Here),FATBOIS,115.66,L
+2013,3,False,False,Anthony (2010: Team Name Here),FATBOIS,115.66,Josh,Muff Diving Champ,82.32,W
+2013,3,False,False,Kevin D,Suck4Luck,97.46,Muso (Lan Doan),Oohhh Kill Em',112.14,L
+2013,3,False,False,Muso (Lan Doan),Oohhh Kill Em',112.14,Kevin D,Suck4Luck,97.46,W
+2013,3,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,89.2,Peter,Peter's Team,152.04,L
+2013,3,False,False,Peter,Peter's Team,152.04,Blake (2012: Tits Mcgee),Dingleberry Pickers,89.2,W
+2013,4,False,False,Don,DonBlood,148.22,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,105.02,W
+2013,4,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,105.02,Don,DonBlood,148.22,L
+2013,4,False,False,Jimmy,Pepperoni Nipples,153.88,Vu Le,Quik Fix,123.38,W
+2013,4,False,False,Vu Le,Quik Fix,123.38,Jimmy,Pepperoni Nipples,153.88,L
+2013,4,False,False,Daniel,69ers,111.88,Peter,Peter's Team,120.18,L
+2013,4,False,False,Peter,Peter's Team,120.18,Daniel,69ers,111.88,W
+2013,4,False,False,Josh,Muff Diving Champ,65.0,KevinN,AnyHolesDaGoal,114.34,L
+2013,4,False,False,KevinN,AnyHolesDaGoal,114.34,Josh,Muff Diving Champ,65.0,W
+2013,4,False,False,Kevin D,Suck4Luck,138.38,Anthony (2010: Team Name Here),FATBOIS,152.98,L
+2013,4,False,False,Anthony (2010: Team Name Here),FATBOIS,152.98,Kevin D,Suck4Luck,138.38,W
+2013,4,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,111.34,Muso (Lan Doan),Oohhh Kill Em',133.04,L
+2013,4,False,False,Muso (Lan Doan),Oohhh Kill Em',133.04,Blake (2012: Tits Mcgee),Dingleberry Pickers,111.34,W
+2013,5,False,False,Don,DonBlood,106.22,Josh,Muff Diving Champ,68.12,W
+2013,5,False,False,Josh,Muff Diving Champ,68.12,Don,DonBlood,106.22,L
+2013,5,False,False,Jimmy,Pepperoni Nipples,177.56,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,124.2,W
+2013,5,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,124.2,Jimmy,Pepperoni Nipples,177.56,L
+2013,5,False,False,Daniel,69ers,115.58,Vu Le,Quik Fix,130.12,L
+2013,5,False,False,Vu Le,Quik Fix,130.12,Daniel,69ers,115.58,W
+2013,5,False,False,Kevin D,Suck4Luck,146.06,KevinN,AnyHolesDaGoal,104.74,W
+2013,5,False,False,KevinN,AnyHolesDaGoal,104.74,Kevin D,Suck4Luck,146.06,L
+2013,5,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,98.38,Anthony (2010: Team Name Here),FATBOIS,114.16,L
+2013,5,False,False,Anthony (2010: Team Name Here),FATBOIS,114.16,Blake (2012: Tits Mcgee),Dingleberry Pickers,98.38,W
+2013,5,False,False,Muso (Lan Doan),Oohhh Kill Em',106.74,Peter,Peter's Team,83.0,W
+2013,5,False,False,Peter,Peter's Team,83.0,Muso (Lan Doan),Oohhh Kill Em',106.74,L
+2013,6,False,False,Don,DonBlood,137.74,Kevin D,Suck4Luck,153.8,L
+2013,6,False,False,Kevin D,Suck4Luck,153.8,Don,DonBlood,137.74,W
+2013,6,False,False,Jimmy,Pepperoni Nipples,86.6,Josh,Muff Diving Champ,91.38,L
+2013,6,False,False,Josh,Muff Diving Champ,91.38,Jimmy,Pepperoni Nipples,86.6,W
+2013,6,False,False,Daniel,69ers,125.98,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,76.88,W
+2013,6,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,76.88,Daniel,69ers,125.98,L
+2013,6,False,False,Vu Le,Quik Fix,113.84,Peter,Peter's Team,138.14,L
+2013,6,False,False,Peter,Peter's Team,138.14,Vu Le,Quik Fix,113.84,W
+2013,6,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,97.06,KevinN,AnyHolesDaGoal,60.1,W
+2013,6,False,False,KevinN,AnyHolesDaGoal,60.1,Blake (2012: Tits Mcgee),Dingleberry Pickers,97.06,L
+2013,6,False,False,Muso (Lan Doan),Oohhh Kill Em',153.08,Anthony (2010: Team Name Here),FATBOIS,86.18,W
+2013,6,False,False,Anthony (2010: Team Name Here),FATBOIS,86.18,Muso (Lan Doan),Oohhh Kill Em',153.08,L
+2013,7,False,False,Don,DonBlood,157.8,Blake (2012: Tits Mcgee),Dingleberry Pickers,71.52,W
+2013,7,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,71.52,Don,DonBlood,157.8,L
+2013,7,False,False,Jimmy,Pepperoni Nipples,111.84,Kevin D,Suck4Luck,128.7,L
+2013,7,False,False,Kevin D,Suck4Luck,128.7,Jimmy,Pepperoni Nipples,111.84,W
+2013,7,False,False,Daniel,69ers,79.92,Josh,Muff Diving Champ,63.76,W
+2013,7,False,False,Josh,Muff Diving Champ,63.76,Daniel,69ers,79.92,L
+2013,7,False,False,Vu Le,Quik Fix,54.8,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,100.6,L
+2013,7,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,100.6,Vu Le,Quik Fix,54.8,W
+2013,7,False,False,Muso (Lan Doan),Oohhh Kill Em',116.3,KevinN,AnyHolesDaGoal,158.68,L
+2013,7,False,False,KevinN,AnyHolesDaGoal,158.68,Muso (Lan Doan),Oohhh Kill Em',116.3,W
+2013,7,False,False,Anthony (2010: Team Name Here),FATBOIS,93.12,Peter,Peter's Team,168.12,L
+2013,7,False,False,Peter,Peter's Team,168.12,Anthony (2010: Team Name Here),FATBOIS,93.12,W
+2013,8,False,False,Don,DonBlood,133.78,Muso (Lan Doan),Oohhh Kill Em',88.04,W
+2013,8,False,False,Muso (Lan Doan),Oohhh Kill Em',88.04,Don,DonBlood,133.78,L
+2013,8,False,False,Jimmy,Pepperoni Nipples,102.96,Blake (2012: Tits Mcgee),Dingleberry Pickers,94.54,W
+2013,8,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,94.54,Jimmy,Pepperoni Nipples,102.96,L
+2013,8,False,False,Daniel,69ers,115.72,Kevin D,Suck4Luck,138.5,L
+2013,8,False,False,Kevin D,Suck4Luck,138.5,Daniel,69ers,115.72,W
+2013,8,False,False,Vu Le,Quik Fix,133.06,Josh,Muff Diving Champ,62.84,W
+2013,8,False,False,Josh,Muff Diving Champ,62.84,Vu Le,Quik Fix,133.06,L
+2013,8,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,100.16,Peter,Peter's Team,134.7,L
+2013,8,False,False,Peter,Peter's Team,134.7,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,100.16,W
+2013,8,False,False,Anthony (2010: Team Name Here),FATBOIS,95.62,KevinN,AnyHolesDaGoal,117.04,L
+2013,8,False,False,KevinN,AnyHolesDaGoal,117.04,Anthony (2010: Team Name Here),FATBOIS,95.62,W
+2013,9,False,False,Don,DonBlood,120.48,Anthony (2010: Team Name Here),FATBOIS,96.22,W
+2013,9,False,False,Anthony (2010: Team Name Here),FATBOIS,96.22,Don,DonBlood,120.48,L
+2013,9,False,False,Jimmy,Pepperoni Nipples,116.76,Muso (Lan Doan),Oohhh Kill Em',105.04,W
+2013,9,False,False,Muso (Lan Doan),Oohhh Kill Em',105.04,Jimmy,Pepperoni Nipples,116.76,L
+2013,9,False,False,Daniel,69ers,173.2,Blake (2012: Tits Mcgee),Dingleberry Pickers,83.08,W
+2013,9,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,83.08,Daniel,69ers,173.2,L
+2013,9,False,False,Vu Le,Quik Fix,134.98,Kevin D,Suck4Luck,78.18,W
+2013,9,False,False,Kevin D,Suck4Luck,78.18,Vu Le,Quik Fix,134.98,L
+2013,9,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,135.18,Josh,Muff Diving Champ,43.76,W
+2013,9,False,False,Josh,Muff Diving Champ,43.76,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,135.18,L
+2013,9,False,False,KevinN,AnyHolesDaGoal,106.88,Peter,Peter's Team,136.94,L
+2013,9,False,False,Peter,Peter's Team,136.94,KevinN,AnyHolesDaGoal,106.88,W
+2013,10,False,False,Don,DonBlood,89.38,KevinN,AnyHolesDaGoal,94.02,L
+2013,10,False,False,KevinN,AnyHolesDaGoal,94.02,Don,DonBlood,89.38,W
+2013,10,False,False,Jimmy,Pepperoni Nipples,128.2,Anthony (2010: Team Name Here),FATBOIS,106.08,W
+2013,10,False,False,Anthony (2010: Team Name Here),FATBOIS,106.08,Jimmy,Pepperoni Nipples,128.2,L
+2013,10,False,False,Daniel,69ers,145.76,Muso (Lan Doan),Oohhh Kill Em',103.52,W
+2013,10,False,False,Muso (Lan Doan),Oohhh Kill Em',103.52,Daniel,69ers,145.76,L
+2013,10,False,False,Vu Le,Quik Fix,106.12,Blake (2012: Tits Mcgee),Dingleberry Pickers,73.66,W
+2013,10,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,73.66,Vu Le,Quik Fix,106.12,L
+2013,10,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,125.48,Kevin D,Suck4Luck,81.46,W
+2013,10,False,False,Kevin D,Suck4Luck,81.46,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,125.48,L
+2013,10,False,False,Josh,Muff Diving Champ,43.06,Peter,Peter's Team,117.64,L
+2013,10,False,False,Peter,Peter's Team,117.64,Josh,Muff Diving Champ,43.06,W
+2013,11,False,False,Don,DonBlood,133.3,Peter,Peter's Team,162.26,L
+2013,11,False,False,Peter,Peter's Team,162.26,Don,DonBlood,133.3,W
+2013,11,False,False,Jimmy,Pepperoni Nipples,126.42,KevinN,AnyHolesDaGoal,132.12,L
+2013,11,False,False,KevinN,AnyHolesDaGoal,132.12,Jimmy,Pepperoni Nipples,126.42,W
+2013,11,False,False,Daniel,69ers,95.98,Anthony (2010: Team Name Here),FATBOIS,138.18,L
+2013,11,False,False,Anthony (2010: Team Name Here),FATBOIS,138.18,Daniel,69ers,95.98,W
+2013,11,False,False,Vu Le,Quik Fix,96.92,Muso (Lan Doan),Oohhh Kill Em',99.82,L
+2013,11,False,False,Muso (Lan Doan),Oohhh Kill Em',99.82,Vu Le,Quik Fix,96.92,W
+2013,11,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,106.4,Blake (2012: Tits Mcgee),Dingleberry Pickers,98.44,W
+2013,11,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,98.44,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,106.4,L
+2013,11,False,False,Josh,Muff Diving Champ,74.86,Kevin D,Suck4Luck,94.94,L
+2013,11,False,False,Kevin D,Suck4Luck,94.94,Josh,Muff Diving Champ,74.86,W
+2013,12,False,False,Don,DonBlood,96.72,Jimmy,Pepperoni Nipples,83.1,W
+2013,12,False,False,Jimmy,Pepperoni Nipples,83.1,Don,DonBlood,96.72,L
+2013,12,False,False,Daniel,69ers,158.98,KevinN,AnyHolesDaGoal,72.96,W
+2013,12,False,False,KevinN,AnyHolesDaGoal,72.96,Daniel,69ers,158.98,L
+2013,12,False,False,Vu Le,Quik Fix,92.76,Anthony (2010: Team Name Here),FATBOIS,90.22,W
+2013,12,False,False,Anthony (2010: Team Name Here),FATBOIS,90.22,Vu Le,Quik Fix,92.76,L
+2013,12,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,106.2,Muso (Lan Doan),Oohhh Kill Em',62.48,W
+2013,12,False,False,Muso (Lan Doan),Oohhh Kill Em',62.48,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,106.2,L
+2013,12,False,False,Josh,Muff Diving Champ,87.36,Blake (2012: Tits Mcgee),Dingleberry Pickers,109.36,L
+2013,12,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,109.36,Josh,Muff Diving Champ,87.36,W
+2013,12,False,False,Kevin D,Suck4Luck,170.78,Peter,Peter's Team,107.76,W
+2013,12,False,False,Peter,Peter's Team,107.76,Kevin D,Suck4Luck,170.78,L
+2013,13,False,False,Don,DonBlood,101.98,Daniel,69ers,147.8,L
+2013,13,False,False,Daniel,69ers,147.8,Don,DonBlood,101.98,W
+2013,13,False,False,Jimmy,Pepperoni Nipples,175.12,Peter,Peter's Team,120.58,W
+2013,13,False,False,Peter,Peter's Team,120.58,Jimmy,Pepperoni Nipples,175.12,L
+2013,13,False,False,Vu Le,Quik Fix,119.48,KevinN,AnyHolesDaGoal,198.0,L
+2013,13,False,False,KevinN,AnyHolesDaGoal,198.0,Vu Le,Quik Fix,119.48,W
+2013,13,False,False,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,125.6,Anthony (2010: Team Name Here),FATBOIS,74.4,W
+2013,13,False,False,Anthony (2010: Team Name Here),FATBOIS,74.4,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,125.6,L
+2013,13,False,False,Josh,Muff Diving Champ,81.92,Muso (Lan Doan),Oohhh Kill Em',77.78,W
+2013,13,False,False,Muso (Lan Doan),Oohhh Kill Em',77.78,Josh,Muff Diving Champ,81.92,L
+2013,13,False,False,Kevin D,Suck4Luck,129.4,Blake (2012: Tits Mcgee),Dingleberry Pickers,118.34,W
+2013,13,False,False,Blake (2012: Tits Mcgee),Dingleberry Pickers,118.34,Kevin D,Suck4Luck,129.4,L
+2013,14,True,False,Jimmy,Pepperoni Nipples,119.08,Daniel,69ers,98.84,W
+2013,14,True,False,Daniel,69ers,98.84,Jimmy,Pepperoni Nipples,119.08,L
+2013,14,True,False,Vu Le,Quik Fix,110.36,Kevin D,Suck4Luck,152.32,L
+2013,14,True,False,Kevin D,Suck4Luck,152.32,Vu Le,Quik Fix,110.36,W
+2013,14,True,True,Josh,Muff Diving Champ,71.0,KevinN,AnyHolesDaGoal,155.76,L
+2013,14,True,True,KevinN,AnyHolesDaGoal,155.76,Josh,Muff Diving Champ,71.0,W
+2013,14,True,True,Blake (2012: Tits Mcgee),Dingleberry Pickers,112.72,Anthony (2010: Team Name Here),FATBOIS,119.54,L
+2013,14,True,True,Anthony (2010: Team Name Here),FATBOIS,119.54,Blake (2012: Tits Mcgee),Dingleberry Pickers,112.72,W
+2013,15,True,False,Don,DonBlood,130.62,Kevin D,Suck4Luck,191.7,L
+2013,15,True,False,Kevin D,Suck4Luck,191.7,Don,DonBlood,130.62,W
+2013,15,True,False,Jimmy,Pepperoni Nipples,152.86,Peter,Peter's Team,91.84,W
+2013,15,True,False,Peter,Peter's Team,91.84,Jimmy,Pepperoni Nipples,152.86,L
+2013,15,True,False,Daniel,69ers,156.1,Vu Le,Quik Fix,152.32,W
+2013,15,True,False,Vu Le,Quik Fix,152.32,Daniel,69ers,156.1,L
+2013,15,True,True,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,114.24,Anthony (2010: Team Name Here),FATBOIS,89.1,W
+2013,15,True,True,Anthony (2010: Team Name Here),FATBOIS,89.1,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,114.24,L
+2013,15,True,True,Josh,Muff Diving Champ,68.02,Blake (2012: Tits Mcgee),Dingleberry Pickers,76.26,L
+2013,15,True,True,Blake (2012: Tits Mcgee),Dingleberry Pickers,76.26,Josh,Muff Diving Champ,68.02,W
+2013,15,True,True,Muso (Lan Doan),Oohhh Kill Em',83.24,KevinN,AnyHolesDaGoal,105.72,L
+2013,15,True,True,KevinN,AnyHolesDaGoal,105.72,Muso (Lan Doan),Oohhh Kill Em',83.24,W
+2013,16,True,False,Don,DonBlood,99.74,Peter,Peter's Team,104.0,L
+2013,16,True,False,Peter,Peter's Team,104.0,Don,DonBlood,99.74,W
+2013,16,True,False,Jimmy,Pepperoni Nipples,118.7,Kevin D,Suck4Luck,115.78,W
+2013,16,True,False,Kevin D,Suck4Luck,115.78,Jimmy,Pepperoni Nipples,118.7,L
+2013,16,True,True,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,123.92,KevinN,AnyHolesDaGoal,145.14,L
+2013,16,True,True,KevinN,AnyHolesDaGoal,145.14,--hidden-- (2013: I Make Fuck on You),I Make Fuck on You,123.92,W
+2013,16,True,True,Muso (Lan Doan),Oohhh Kill Em',72.44,Anthony (2010: Team Name Here),FATBOIS,78.84,L
+2013,16,True,True,Anthony (2010: Team Name Here),FATBOIS,78.84,Muso (Lan Doan),Oohhh Kill Em',72.44,W
+2014,1,False,False,Don,donblood,114.78,Muso (Lan Doan),Womb Raider,139.44,L
+2014,1,False,False,Muso (Lan Doan),Womb Raider,139.44,Don,donblood,114.78,W
+2014,1,False,False,Blake,Shake n Blake,147.84,Anthony (2010: Team Name Here),Anthony's Team,87.7,W
+2014,1,False,False,Anthony (2010: Team Name Here),Anthony's Team,87.7,Blake,Shake n Blake,147.84,L
+2014,1,False,False,Kevin D,Suck Dez Nuts,140.26,JP,TDs and beer,119.32,W
+2014,1,False,False,JP,TDs and beer,119.32,Kevin D,Suck Dez Nuts,140.26,L
+2014,1,False,False,Jimmy,Blue Waffle,153.5,Cody,ooooooSexy,147.36,W
+2014,1,False,False,Cody,ooooooSexy,147.36,Jimmy,Blue Waffle,153.5,L
+2014,1,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,101.02,peter,peter's Team,104.96,L
+2014,1,False,False,peter,peter's Team,104.96,--hidden-- (2014: Suck a Dick),Suck a Dick,101.02,W
+2014,2,False,False,Don,donblood,157.44,Blake,Shake n Blake,137.38,W
+2014,2,False,False,Blake,Shake n Blake,137.38,Don,donblood,157.44,L
+2014,2,False,False,Muso (Lan Doan),Womb Raider,108.64,peter,peter's Team,131.44,L
+2014,2,False,False,peter,peter's Team,131.44,Muso (Lan Doan),Womb Raider,108.64,W
+2014,2,False,False,Kevin D,Suck Dez Nuts,86.96,Anthony (2010: Team Name Here),Anthony's Team,97.94,L
+2014,2,False,False,Anthony (2010: Team Name Here),Anthony's Team,97.94,Kevin D,Suck Dez Nuts,86.96,W
+2014,2,False,False,Jimmy,Blue Waffle,118.08,JP,TDs and beer,123.38,L
+2014,2,False,False,JP,TDs and beer,123.38,Jimmy,Blue Waffle,118.08,W
+2014,2,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,125.54,Cody,ooooooSexy,121.18,W
+2014,2,False,False,Cody,ooooooSexy,121.18,--hidden-- (2014: Suck a Dick),Suck a Dick,125.54,L
+2014,3,False,False,Don,donblood,114.3,Kevin D,Suck Dez Nuts,114.66,L
+2014,3,False,False,Kevin D,Suck Dez Nuts,114.66,Don,donblood,114.3,W
+2014,3,False,False,Muso (Lan Doan),Womb Raider,95.84,Blake,Shake n Blake,94.82,W
+2014,3,False,False,Blake,Shake n Blake,94.82,Muso (Lan Doan),Womb Raider,95.84,L
+2014,3,False,False,Jimmy,Blue Waffle,139.4,Anthony (2010: Team Name Here),Anthony's Team,96.6,W
+2014,3,False,False,Anthony (2010: Team Name Here),Anthony's Team,96.6,Jimmy,Blue Waffle,139.4,L
+2014,3,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,136.84,JP,TDs and beer,120.92,W
+2014,3,False,False,JP,TDs and beer,120.92,--hidden-- (2014: Suck a Dick),Suck a Dick,136.84,L
+2014,3,False,False,Cody,ooooooSexy,92.52,peter,peter's Team,113.78,L
+2014,3,False,False,peter,peter's Team,113.78,Cody,ooooooSexy,92.52,W
+2014,4,False,False,Don,donblood,156.08,Jimmy,Blue Waffle,115.42,W
+2014,4,False,False,Jimmy,Blue Waffle,115.42,Don,donblood,156.08,L
+2014,4,False,False,Muso (Lan Doan),Womb Raider,72.92,Kevin D,Suck Dez Nuts,82.96,L
+2014,4,False,False,Kevin D,Suck Dez Nuts,82.96,Muso (Lan Doan),Womb Raider,72.92,W
+2014,4,False,False,Blake,Shake n Blake,151.24,peter,peter's Team,119.68,W
+2014,4,False,False,peter,peter's Team,119.68,Blake,Shake n Blake,151.24,L
+2014,4,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,112.02,Anthony (2010: Team Name Here),Anthony's Team,125.88,L
+2014,4,False,False,Anthony (2010: Team Name Here),Anthony's Team,125.88,--hidden-- (2014: Suck a Dick),Suck a Dick,112.02,W
+2014,4,False,False,Cody,ooooooSexy,149.12,JP,TDs and beer,144.88,W
+2014,4,False,False,JP,TDs and beer,144.88,Cody,ooooooSexy,149.12,L
+2014,5,False,False,Don,donblood,134.36,--hidden-- (2014: Suck a Dick),Suck a Dick,156.74,L
+2014,5,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,156.74,Don,donblood,134.36,W
+2014,5,False,False,Muso (Lan Doan),Womb Raider,90.94,Jimmy,Blue Waffle,122.38,L
+2014,5,False,False,Jimmy,Blue Waffle,122.38,Muso (Lan Doan),Womb Raider,90.94,W
+2014,5,False,False,Blake,Shake n Blake,110.52,Kevin D,Suck Dez Nuts,125.0,L
+2014,5,False,False,Kevin D,Suck Dez Nuts,125.0,Blake,Shake n Blake,110.52,W
+2014,5,False,False,Cody,ooooooSexy,151.96,Anthony (2010: Team Name Here),Anthony's Team,103.7,W
+2014,5,False,False,Anthony (2010: Team Name Here),Anthony's Team,103.7,Cody,ooooooSexy,151.96,L
+2014,5,False,False,JP,TDs and beer,101.14,peter,peter's Team,128.44,L
+2014,5,False,False,peter,peter's Team,128.44,JP,TDs and beer,101.14,W
+2014,6,False,False,Don,donblood,129.3,Cody,ooooooSexy,126.78,W
+2014,6,False,False,Cody,ooooooSexy,126.78,Don,donblood,129.3,L
+2014,6,False,False,Muso (Lan Doan),Womb Raider,101.2,--hidden-- (2014: Suck a Dick),Suck a Dick,163.34,L
+2014,6,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,163.34,Muso (Lan Doan),Womb Raider,101.2,W
+2014,6,False,False,Blake,Shake n Blake,119.34,Jimmy,Blue Waffle,117.8,W
+2014,6,False,False,Jimmy,Blue Waffle,117.8,Blake,Shake n Blake,119.34,L
+2014,6,False,False,Kevin D,Suck Dez Nuts,127.24,peter,peter's Team,101.06,W
+2014,6,False,False,peter,peter's Team,101.06,Kevin D,Suck Dez Nuts,127.24,L
+2014,6,False,False,JP,TDs and beer,116.72,Anthony (2010: Team Name Here),Anthony's Team,124.46,L
+2014,6,False,False,Anthony (2010: Team Name Here),Anthony's Team,124.46,JP,TDs and beer,116.72,W
+2014,7,False,False,Don,donblood,122.76,JP,TDs and beer,88.4,W
+2014,7,False,False,JP,TDs and beer,88.4,Don,donblood,122.76,L
+2014,7,False,False,Muso (Lan Doan),Womb Raider,102.76,Cody,ooooooSexy,140.52,L
+2014,7,False,False,Cody,ooooooSexy,140.52,Muso (Lan Doan),Womb Raider,102.76,W
+2014,7,False,False,Blake,Shake n Blake,145.84,--hidden-- (2014: Suck a Dick),Suck a Dick,118.92,W
+2014,7,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,118.92,Blake,Shake n Blake,145.84,L
+2014,7,False,False,Kevin D,Suck Dez Nuts,142.14,Jimmy,Blue Waffle,88.46,W
+2014,7,False,False,Jimmy,Blue Waffle,88.46,Kevin D,Suck Dez Nuts,142.14,L
+2014,7,False,False,Anthony (2010: Team Name Here),Anthony's Team,84.7,peter,peter's Team,118.5,L
+2014,7,False,False,peter,peter's Team,118.5,Anthony (2010: Team Name Here),Anthony's Team,84.7,W
+2014,8,False,False,Don,donblood,154.16,Anthony (2010: Team Name Here),Anthony's Team,80.94,W
+2014,8,False,False,Anthony (2010: Team Name Here),Anthony's Team,80.94,Don,donblood,154.16,L
+2014,8,False,False,Muso (Lan Doan),Womb Raider,107.3,JP,TDs and beer,117.74,L
+2014,8,False,False,JP,TDs and beer,117.74,Muso (Lan Doan),Womb Raider,107.3,W
+2014,8,False,False,Blake,Shake n Blake,193.56,Cody,ooooooSexy,152.84,W
+2014,8,False,False,Cody,ooooooSexy,152.84,Blake,Shake n Blake,193.56,L
+2014,8,False,False,Kevin D,Suck Dez Nuts,138.56,--hidden-- (2014: Suck a Dick),Suck a Dick,163.32,L
+2014,8,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,163.32,Kevin D,Suck Dez Nuts,138.56,W
+2014,8,False,False,Jimmy,Blue Waffle,121.9,peter,peter's Team,167.12,L
+2014,8,False,False,peter,peter's Team,167.12,Jimmy,Blue Waffle,121.9,W
+2014,9,False,False,Don,donblood,126.86,peter,peter's Team,137.14,L
+2014,9,False,False,peter,peter's Team,137.14,Don,donblood,126.86,W
+2014,9,False,False,Muso (Lan Doan),Womb Raider,73.32,Anthony (2010: Team Name Here),Anthony's Team,97.24,L
+2014,9,False,False,Anthony (2010: Team Name Here),Anthony's Team,97.24,Muso (Lan Doan),Womb Raider,73.32,W
+2014,9,False,False,Blake,Shake n Blake,96.76,JP,TDs and beer,122.98,L
+2014,9,False,False,JP,TDs and beer,122.98,Blake,Shake n Blake,96.76,W
+2014,9,False,False,Kevin D,Suck Dez Nuts,108.12,Cody,ooooooSexy,100.72,W
+2014,9,False,False,Cody,ooooooSexy,100.72,Kevin D,Suck Dez Nuts,108.12,L
+2014,9,False,False,Jimmy,Blue Waffle,180.36,--hidden-- (2014: Suck a Dick),Suck a Dick,194.0,L
+2014,9,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,194.0,Jimmy,Blue Waffle,180.36,W
+2014,10,False,False,Don,donblood,138.54,Muso (Lan Doan),Womb Raider,147.7,L
+2014,10,False,False,Muso (Lan Doan),Womb Raider,147.7,Don,donblood,138.54,W
+2014,10,False,False,Blake,Shake n Blake,108.68,Anthony (2010: Team Name Here),Anthony's Team,94.14,W
+2014,10,False,False,Anthony (2010: Team Name Here),Anthony's Team,94.14,Blake,Shake n Blake,108.68,L
+2014,10,False,False,Kevin D,Suck Dez Nuts,103.14,JP,TDs and beer,128.18,L
+2014,10,False,False,JP,TDs and beer,128.18,Kevin D,Suck Dez Nuts,103.14,W
+2014,10,False,False,Jimmy,Blue Waffle,111.28,Cody,ooooooSexy,118.6,L
+2014,10,False,False,Cody,ooooooSexy,118.6,Jimmy,Blue Waffle,111.28,W
+2014,10,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,137.22,peter,peter's Team,176.1,L
+2014,10,False,False,peter,peter's Team,176.1,--hidden-- (2014: Suck a Dick),Suck a Dick,137.22,W
+2014,11,False,False,Don,donblood,140.0,Blake,Shake n Blake,138.52,W
+2014,11,False,False,Blake,Shake n Blake,138.52,Don,donblood,140.0,L
+2014,11,False,False,Muso (Lan Doan),Womb Raider,101.22,peter,peter's Team,159.54,L
+2014,11,False,False,peter,peter's Team,159.54,Muso (Lan Doan),Womb Raider,101.22,W
+2014,11,False,False,Kevin D,Suck Dez Nuts,92.98,Anthony (2010: Team Name Here),Anthony's Team,115.48,L
+2014,11,False,False,Anthony (2010: Team Name Here),Anthony's Team,115.48,Kevin D,Suck Dez Nuts,92.98,W
+2014,11,False,False,Jimmy,Blue Waffle,111.62,JP,TDs and beer,88.1,W
+2014,11,False,False,JP,TDs and beer,88.1,Jimmy,Blue Waffle,111.62,L
+2014,11,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,132.78,Cody,ooooooSexy,114.86,W
+2014,11,False,False,Cody,ooooooSexy,114.86,--hidden-- (2014: Suck a Dick),Suck a Dick,132.78,L
+2014,12,False,False,Don,donblood,148.4,Kevin D,Suck Dez Nuts,137.56,W
+2014,12,False,False,Kevin D,Suck Dez Nuts,137.56,Don,donblood,148.4,L
+2014,12,False,False,Muso (Lan Doan),Womb Raider,151.76,Blake,Shake n Blake,110.24,W
+2014,12,False,False,Blake,Shake n Blake,110.24,Muso (Lan Doan),Womb Raider,151.76,L
+2014,12,False,False,Jimmy,Blue Waffle,112.22,Anthony (2010: Team Name Here),Anthony's Team,125.44,L
+2014,12,False,False,Anthony (2010: Team Name Here),Anthony's Team,125.44,Jimmy,Blue Waffle,112.22,W
+2014,12,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,128.52,JP,TDs and beer,128.7,L
+2014,12,False,False,JP,TDs and beer,128.7,--hidden-- (2014: Suck a Dick),Suck a Dick,128.52,W
+2014,12,False,False,Cody,ooooooSexy,149.28,peter,peter's Team,114.86,W
+2014,12,False,False,peter,peter's Team,114.86,Cody,ooooooSexy,149.28,L
+2014,13,False,False,Don,donblood,117.76,Jimmy,Blue Waffle,155.7,L
+2014,13,False,False,Jimmy,Blue Waffle,155.7,Don,donblood,117.76,W
+2014,13,False,False,Muso (Lan Doan),Womb Raider,150.4,Kevin D,Suck Dez Nuts,157.5,L
+2014,13,False,False,Kevin D,Suck Dez Nuts,157.5,Muso (Lan Doan),Womb Raider,150.4,W
+2014,13,False,False,Blake,Shake n Blake,123.24,peter,peter's Team,91.02,W
+2014,13,False,False,peter,peter's Team,91.02,Blake,Shake n Blake,123.24,L
+2014,13,False,False,--hidden-- (2014: Suck a Dick),Suck a Dick,150.0,Anthony (2010: Team Name Here),Anthony's Team,74.06,W
+2014,13,False,False,Anthony (2010: Team Name Here),Anthony's Team,74.06,--hidden-- (2014: Suck a Dick),Suck a Dick,150.0,L
+2014,13,False,False,Cody,ooooooSexy,147.56,JP,TDs and beer,163.18,L
+2014,13,False,False,JP,TDs and beer,163.18,Cody,ooooooSexy,147.56,W
+2014,14,True,False,Don,donblood,168.7,Blake,Shake n Blake,114.42,W
+2014,14,True,False,Blake,Shake n Blake,114.42,Don,donblood,168.7,L
+2014,14,True,False,Kevin D,Suck Dez Nuts,116.38,JP,TDs and beer,122.3,L
+2014,14,True,False,JP,TDs and beer,122.3,Kevin D,Suck Dez Nuts,116.38,W
+2014,15,True,False,Don,donblood,136.4,peter,peter's Team,97.1,W
+2014,15,True,False,peter,peter's Team,97.1,Don,donblood,136.4,L
+2014,15,True,True,Muso (Lan Doan),Womb Raider,78.82,Anthony (2010: Team Name Here),Anthony's Team,67.0,W
+2014,15,True,True,Anthony (2010: Team Name Here),Anthony's Team,67.0,Muso (Lan Doan),Womb Raider,78.82,L
+2014,15,True,False,Blake,Shake n Blake,102.92,Kevin D,Suck Dez Nuts,113.18,L
+2014,15,True,False,Kevin D,Suck Dez Nuts,113.18,Blake,Shake n Blake,102.92,W
+2014,15,True,True,Jimmy,Blue Waffle,159.68,Cody,ooooooSexy,105.22,W
+2014,15,True,True,Cody,ooooooSexy,105.22,Jimmy,Blue Waffle,159.68,L
+2014,15,True,False,--hidden-- (2014: Suck a Dick),Suck a Dick,104.3,JP,TDs and beer,145.5,L
+2014,15,True,False,JP,TDs and beer,145.5,--hidden-- (2014: Suck a Dick),Suck a Dick,104.3,W
+2014,16,True,False,Don,donblood,170.62,JP,TDs and beer,123.52,W
+2014,16,True,False,JP,TDs and beer,123.52,Don,donblood,170.62,L
+2014,16,True,True,Muso (Lan Doan),Womb Raider,84.92,Jimmy,Blue Waffle,138.56,L
+2014,16,True,True,Jimmy,Blue Waffle,138.56,Muso (Lan Doan),Womb Raider,84.92,W
+2014,16,True,False,--hidden-- (2014: Suck a Dick),Suck a Dick,107.4,peter,peter's Team,80.52,W
+2014,16,True,False,peter,peter's Team,80.52,--hidden-- (2014: Suck a Dick),Suck a Dick,107.4,L
+2014,16,True,True,Cody,ooooooSexy,106.54,Anthony (2010: Team Name Here),Anthony's Team,99.84,W
+2014,16,True,True,Anthony (2010: Team Name Here),Anthony's Team,99.84,Cody,ooooooSexy,106.54,L
 2015,1,False,False,Don,donblood,159.92,Jimmy,Blue Waffle,144.06,W
 2015,1,False,False,Jimmy,Blue Waffle,144.06,Don,donblood,159.92,L
 2015,1,False,False,Ramzi,Charizarkandrick,115.2,Anthony,The Nick Folks,139.94,L

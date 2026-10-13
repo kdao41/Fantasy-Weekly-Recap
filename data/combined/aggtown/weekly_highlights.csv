@@ -1,4 +1,84 @@
 season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2010,1,False,wabaki (Lan Doan),138.1,keveezy,44.92,--hidden-- (2010: THEshit) over donblood by 14.02,wabaki (Lan Doan) over Michael Luong by 85.36
+2010,2,False,anth0nyng,130.04,--hidden-- (2010: THEshit),47.92,--hidden-- (2010: RAINNN) over Michael Luong by 3.34,anth0nyng over --hidden-- (2010: hail yeah) by 62.84
+2010,3,False,wabaki (Lan Doan),136.84,--hidden-- (2010: THEshit),40.3,lmphm over donblood by 10.74,wabaki (Lan Doan) over anth0nyng by 70.6
+2010,4,False,--hidden-- (2010: hail yeah),109.6,Michael Luong,46.0,DVTV over --hidden-- (2010: Peter'sClap) by 2.02,--hidden-- (2010: THEshit) over Michael Luong by 36.34
+2010,5,False,jimbo817,134.68,tho,36.4,DVTV over lmphm by 3.1,donblood over --hidden-- (2010: RAINNN) by 68.48
+2010,6,False,wabaki (Lan Doan),124.72,--hidden-- (2010: hail yeah),48.1,--hidden-- (2010: Punani) over donblood by 0.8,anth0nyng over --hidden-- (2010: RAINNN) by 55.44
+2010,7,False,anth0nyng,109.74,--hidden-- (2010: Peter'sClap),35.0,Michael Luong over jimbo817 by 15.1,Long Nguyen over donblood by 38.0
+2010,8,False,--hidden-- (2010: hail yeah),130.78,--hidden-- (2010: THEshit),32.1,lmphm over Long Nguyen by 0.54,--hidden-- (2010: hail yeah) over --hidden-- (2010: RAINNN) by 59.46
+2010,9,False,--hidden-- (2010: Punani),106.62,keveezy,38.96,--hidden-- (2010: THEshit) over tho by 6.98,wabaki (Lan Doan) over --hidden-- (2010: hail yeah) by 61.6
+2010,10,False,wabaki (Lan Doan),144.12,--hidden-- (2010: hail yeah),28.1,Michael Luong over donblood by 22.02,--hidden-- (2010: Punani) over --hidden-- (2010: hail yeah) by 91.58
+2010,11,False,keveezy,126.54,--hidden-- (2010: hail yeah),17.4,Bryan over --hidden-- (2010: RAINNN) by 4.58,jimbo817 over --hidden-- (2010: hail yeah) by 59.96
+2010,12,False,--hidden-- (2010: Punani),164.68,--hidden-- (2010: hail yeah),28.0,--hidden-- (2010: THEshit) over Long Nguyen by 4.66,--hidden-- (2010: Punani) over --hidden-- (2010: Peter'sClap) by 104.66
+2010,13,False,anth0nyng,117.02,--hidden-- (2010: hail yeah),57.0,Long Nguyen over --hidden-- (2010: RAINNN) by 1.4,tho over jimbo817 by 45.18
+2010,14,True,wabaki (Lan Doan),138.8,Long Nguyen,30.8,lmphm over jimbo817 by 0.22,wabaki (Lan Doan) over Long Nguyen by 108.0
+2010,15,True,wabaki (Lan Doan),112.38,--hidden-- (2010: Punani),58.66,Long Nguyen over --hidden-- (2010: Punani) by 3.56,wabaki (Lan Doan) over Bryan by 45.26
+2010,16,True,wabaki (Lan Doan),97.22,Long Nguyen,58.06,Bryan over lmphm by 3.06,wabaki (Lan Doan) over anth0nyng by 35.64
+2011,1,False,--hidden-- (2010: Peter'sClap),123.76,donblood,88.28,jimbo817 over donblood by 7.88,anth0nyng over Kevin by 29.38
+2011,2,False,tho,166.82,--hidden-- (2010: Peter'sClap),88.48,DVTV over Kevin by 1.88,tho over donblood by 49.2
+2011,3,False,--hidden-- (2010: Peter'sClap),163.56,keveezy,58.84,--hidden-- (2011: iSuck) over anth0nyng by 8.26,--hidden-- (2010: Peter'sClap) over Kevin by 96.12
+2011,4,False,donblood,167.52,wabaki (Lan Doan),80.54,DVTV over --hidden-- (2010: Peter'sClap) by 2.3,donblood over Kevin by 46.74
+2011,5,False,keveezy,128.7,DVTV,69.46,keveezy over tho by 6.96,anth0nyng over DVTV by 51.9
+2011,6,False,jimbo817,117.72,--hidden-- (2011: iSuck),84.46,DVTV over donblood by 10.78,jimbo817 over --hidden-- (2011: iSuck) by 33.26
+2011,7,False,jimbo817,131.3,--hidden-- (2010: Peter'sClap),61.98,keveezy over --hidden-- (2010: Peter'sClap) by 3.86,wabaki (Lan Doan) over donblood by 42.94
+2011,8,False,tho,127.12,wabaki (Lan Doan),62.0,--hidden-- (2010: Peter'sClap) over jimbo817 by 0.18,tho over wabaki (Lan Doan) by 65.12
+2011,9,False,donblood,141.18,DVTV,82.96,--hidden-- (2010: Peter'sClap) over tho by 0.62,donblood over --hidden-- (2011: iSuck) by 52.74
+2011,10,False,anth0nyng,143.3,keveezy,63.82,DVTV over --hidden-- (2011: iSuck) by 11.62,anth0nyng over donblood by 27.5
+2011,11,False,Kevin,124.4,--hidden-- (2011: iSuck),54.22,tho over DVTV by 12.26,keveezy over anth0nyng by 32.48
+2011,12,False,--hidden-- (2010: Peter'sClap),135.2,Kevin,67.92,DVTV over keveezy by 3.6,--hidden-- (2010: Peter'sClap) over Kevin by 67.28
+2011,13,False,anth0nyng,137.26,keveezy,78.5,DVTV over jimbo817 by 11.24,Kevin over keveezy by 36.88
+2011,14,True,donblood,138.34,jimbo817,96.98,anth0nyng over --hidden-- (2010: Peter'sClap) by 14.66,donblood over DVTV by 32.66
+2011,15,True,DVTV,133.24,wabaki (Lan Doan),81.76,jimbo817 over tho by 0.18,keveezy over wabaki (Lan Doan) by 36.6
+2011,16,True,keveezy,116.52,anth0nyng,81.4,DVTV over jimbo817 by 9.94,keveezy over anth0nyng by 35.12
+2012,1,False,Vu Le,166.15,bvincenttt,80.15,donblood over Daniel by 0.3,DVTV over matthew by 35.7
+2012,2,False,bvincenttt,145.2,DVTV,76.6,donblood over keveezy by 0.6,Daniel over --hidden-- (2012: GameChanger) by 27.45
+2012,3,False,donblood,185.2,--hidden-- (2012: GameChanger),66.25,keveezy over Daniel by 10.35,donblood over DVTV by 73.15
+2012,4,False,keveezy,147.65,DVTV,89.6,Vu Le over tho by 11.8,Daniel over DVTV by 41.55
+2012,5,False,Vu Le,189.7,--hidden-- (2012: GameChanger),78.95,bvincenttt over tho by 15.1,matthew over --hidden-- (2012: GameChanger) by 56.85
+2012,6,False,matthew,190.45,--hidden-- (2012: GameChanger),82.15,Daniel over Vu Le by 13.85,keveezy over anth0nyng by 57.65
+2012,7,False,Vu Le,155.25,donblood,77.15,anth0nyng over DVTV by 2.95,tho over --hidden-- (2012: GameChanger) by 41.65
+2012,8,False,Vu Le,147.75,bvincenttt,91.35,--hidden-- (2012: GameChanger) over anth0nyng by 12.75,Vu Le over DVTV by 35.8
+2012,9,False,keveezy,167.1,--hidden-- (2012: GameChanger),61.0,DVTV over bvincenttt by 28.35,donblood over --hidden-- (2012: GameChanger) by 92.95
+2012,10,False,keveezy,161.45,bvincenttt,56.75,keveezy over tho by 1.1,Vu Le over --hidden-- (2012: GameChanger) by 91.45
+2012,11,False,bvincenttt,141.0,tho,74.75,keveezy over donblood by 4.45,anth0nyng over matthew by 46.15
+2012,12,False,donblood,169.65,DVTV,79.1,keveezy over Daniel by 17.45,donblood over DVTV by 90.55
+2012,13,False,Vu Le,174.65,--hidden-- (2012: GameChanger),63.2,anth0nyng over donblood by 3.45,keveezy over --hidden-- (2012: GameChanger) by 77.3
+2012,14,True,donblood,130.2,anth0nyng,76.0,matthew over anth0nyng by 23.1,donblood over bvincenttt by 26.5
+2012,15,True,donblood,162.75,bvincenttt,81.85,Daniel over --hidden-- (2012: GameChanger) by 17.9,Vu Le over matthew by 63.15
+2012,16,True,donblood,194.9,--hidden-- (2012: GameChanger),80.55,keveezy over matthew by 23.7,donblood over Vu Le by 70.6
+2013,1,False,donblood,186.58,Josh,88.7,wabaki (Lan Doan) over --hidden-- (2013: I Make Fuck on You) by 11.16,Daniel over KevinN by 51.46
+2013,2,False,Vu Le,180.78,jimbo817,89.78,Daniel over donblood by 1.64,Vu Le over KevinN by 53.96
+2013,3,False,peter,152.04,Josh,82.32,--hidden-- (2013: I Make Fuck on You) over KevinN by 3.58,peter over bvincenttt by 62.84
+2013,4,False,jimbo817,153.88,Josh,65.0,peter over Daniel by 8.3,KevinN over Josh by 49.34
+2013,5,False,jimbo817,177.56,Josh,68.12,Vu Le over Daniel by 14.54,jimbo817 over --hidden-- (2013: I Make Fuck on You) by 53.36
+2013,6,False,keveezy,153.8,KevinN,60.1,Josh over jimbo817 by 4.78,wabaki (Lan Doan) over anth0nyng by 66.9
+2013,7,False,peter,168.12,Vu Le,54.8,Daniel over Josh by 16.16,donblood over bvincenttt by 86.28
+2013,8,False,keveezy,138.5,Josh,62.84,jimbo817 over bvincenttt by 8.42,Vu Le over Josh by 70.22
+2013,9,False,Daniel,173.2,Josh,43.76,jimbo817 over wabaki (Lan Doan) by 11.72,--hidden-- (2013: I Make Fuck on You) over Josh by 91.42
+2013,10,False,Daniel,145.76,Josh,43.06,KevinN over donblood by 4.64,peter over Josh by 74.58
+2013,11,False,peter,162.26,Josh,74.86,wabaki (Lan Doan) over Vu Le by 2.9,anth0nyng over Daniel by 42.2
+2013,12,False,keveezy,170.78,wabaki (Lan Doan),62.48,Vu Le over anth0nyng by 2.54,Daniel over KevinN by 86.02
+2013,13,False,KevinN,198.0,anth0nyng,74.4,Josh over wabaki (Lan Doan) by 4.14,KevinN over Vu Le by 78.52
+2013,14,True,KevinN,155.76,Josh,71.0,anth0nyng over bvincenttt by 6.82,KevinN over Josh by 84.76
+2013,15,True,keveezy,191.7,Josh,68.02,Daniel over Vu Le by 3.78,keveezy over donblood by 61.08
+2013,16,True,KevinN,145.14,wabaki (Lan Doan),72.44,jimbo817 over keveezy by 2.92,KevinN over --hidden-- (2013: I Make Fuck on You) by 21.22
+2014,1,False,jimbo817,153.5,anth0nyng,87.7,peter over --hidden-- (2014: Suck a Dick) by 3.94,bvincenttt over anth0nyng by 60.14
+2014,2,False,donblood,157.44,keveezy,86.96,--hidden-- (2014: Suck a Dick) over oooEcho by 4.36,peter over wabaki (Lan Doan) by 22.8
+2014,3,False,jimbo817,139.4,oooEcho,92.52,keveezy over donblood by 0.36,jimbo817 over anth0nyng by 42.8
+2014,4,False,donblood,156.08,wabaki (Lan Doan),72.92,oooEcho over JP by 4.24,donblood over jimbo817 by 40.66
+2014,5,False,--hidden-- (2014: Suck a Dick),156.74,wabaki (Lan Doan),90.94,keveezy over bvincenttt by 14.48,oooEcho over anth0nyng by 48.26
+2014,6,False,--hidden-- (2014: Suck a Dick),163.34,peter,101.06,bvincenttt over jimbo817 by 1.54,--hidden-- (2014: Suck a Dick) over wabaki (Lan Doan) by 62.14
+2014,7,False,bvincenttt,145.84,anth0nyng,84.7,bvincenttt over --hidden-- (2014: Suck a Dick) by 26.92,keveezy over jimbo817 by 53.68
+2014,8,False,bvincenttt,193.56,anth0nyng,80.94,JP over wabaki (Lan Doan) by 10.44,donblood over anth0nyng by 73.22
+2014,9,False,--hidden-- (2014: Suck a Dick),194.0,wabaki (Lan Doan),73.32,keveezy over oooEcho by 7.4,JP over bvincenttt by 26.22
+2014,10,False,peter,176.1,anth0nyng,94.14,oooEcho over jimbo817 by 7.32,peter over --hidden-- (2014: Suck a Dick) by 38.88
+2014,11,False,peter,159.54,JP,88.1,donblood over bvincenttt by 1.48,peter over wabaki (Lan Doan) by 58.32
+2014,12,False,wabaki (Lan Doan),151.76,bvincenttt,110.24,JP over --hidden-- (2014: Suck a Dick) by 0.18,wabaki (Lan Doan) over bvincenttt by 41.52
+2014,13,False,JP,163.18,anth0nyng,74.06,keveezy over wabaki (Lan Doan) by 7.1,--hidden-- (2014: Suck a Dick) over anth0nyng by 75.94
+2014,14,True,donblood,168.7,bvincenttt,114.42,JP over keveezy by 5.92,donblood over bvincenttt by 54.28
+2014,15,True,jimbo817,159.68,anth0nyng,67.0,keveezy over bvincenttt by 10.26,jimbo817 over oooEcho by 54.46
+2014,16,True,donblood,170.62,peter,80.52,oooEcho over anth0nyng by 6.7,jimbo817 over wabaki (Lan Doan) by 53.64
 2015,1,False,donblood,159.92,keveezy,99.42,bvincenttt over --hidden-- by 3.82,anth0nyng over ramzz by 24.74
 2015,2,False,lmphm,153.6,anth0nyng,100.04,donblood over ramzz by 0.44,lmphm over Odeh1121 by 45.46
 2015,3,False,ramzz,191.0,bvincenttt,92.58,--hidden-- over keveezy by 10.2,lmphm over bvincenttt by 55.56

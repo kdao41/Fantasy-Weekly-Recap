@@ -1,0 +1,270 @@
+{
+ "season": 2011,
+ "week": 8,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Nick Folks",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 124.12,
+     "projected": 111.08,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "noob117",
+     "manager": "Kevin",
+     "points": 81.68,
+     "projected": 106.2,
+     "won": false
+    }
+   ],
+   "winner": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "RSex",
+     "manager": "Muso (Lan Doan)",
+     "points": 62.0,
+     "projected": 63.21,
+     "won": false
+    },
+    {
+     "team_id": 10,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 127.12,
+     "projected": 118.68,
+     "won": true
+    }
+   ],
+   "winner": "tho"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "iSuck",
+     "manager": "--hidden-- (2010: iSuck)",
+     "points": 108.28,
+     "projected": 96.5,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Public Enemy",
+     "manager": "Kevin D",
+     "points": 115.36,
+     "projected": 103.21,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "heropool",
+     "manager": "Daniel Vu",
+     "points": 84.4,
+     "projected": 85.3,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Screaming Queef Ball",
+     "manager": "Don",
+     "points": 101.9,
+     "projected": 94.14,
+     "won": true
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Fat Pepperoni Nipple",
+     "manager": "Jimmy",
+     "points": 88.26,
+     "projected": 113.76,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "Ouchy",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 88.44,
+     "projected": 85.76,
+     "won": true
+    }
+   ],
+   "winner": "--hidden-- (2010: Peter'sClap)"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "tho",
+   "team": "BradyOverBitches",
+   "points": 127.12
+  },
+  "low_score": {
+   "manager": "Muso (Lan Doan)",
+   "team": "RSex",
+   "points": 62.0
+  },
+  "closest_game": {
+   "winner": "--hidden-- (2010: Peter'sClap)",
+   "winner_points": 88.44,
+   "loser": "Jimmy",
+   "loser_points": 88.26,
+   "margin": 0.18
+  },
+  "biggest_blowout": {
+   "winner": "tho",
+   "winner_points": 127.12,
+   "loser": "Muso (Lan Doan)",
+   "loser_points": 62.0,
+   "margin": 65.12
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "tho",
+   "team": "BradyOverBitches",
+   "record": "6-2",
+   "points_for": 987.36,
+   "points_against": 757.22,
+   "streak": "W3",
+   "week_points": 127.12,
+   "week_result": "W",
+   "opponent": "Muso (Lan Doan)"
+  },
+  {
+   "rank": 2,
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "The Nick Folks",
+   "record": "6-2",
+   "points_for": 854.22,
+   "points_against": 737.94,
+   "streak": "W1",
+   "week_points": 124.12,
+   "week_result": "W",
+   "opponent": "Kevin"
+  },
+  {
+   "rank": 3,
+   "manager": "Kevin D",
+   "team": "Public Enemy",
+   "record": "5-3",
+   "points_for": 810.32,
+   "points_against": 816.7,
+   "streak": "W5",
+   "week_points": 115.36,
+   "week_result": "W",
+   "opponent": "--hidden-- (2010: iSuck)"
+  },
+  {
+   "rank": 4,
+   "manager": "Daniel Vu",
+   "team": "heropool",
+   "record": "5-3",
+   "points_for": 807.14,
+   "points_against": 854.28,
+   "streak": "L2",
+   "week_points": 84.4,
+   "week_result": "L",
+   "opponent": "Don"
+  },
+  {
+   "rank": 5,
+   "manager": "Don",
+   "team": "Screaming Queef Ball",
+   "record": "4-4",
+   "points_for": 859.98,
+   "points_against": 853.36,
+   "streak": "W1",
+   "week_points": 101.9,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 6,
+   "manager": "Jimmy",
+   "team": "Fat Pepperoni Nipple",
+   "record": "4-4",
+   "points_for": 844.04,
+   "points_against": 830.74,
+   "streak": "L1",
+   "week_points": 88.26,
+   "week_result": "L",
+   "opponent": "--hidden-- (2010: Peter'sClap)"
+  },
+  {
+   "rank": 7,
+   "manager": "--hidden-- (2010: Peter'sClap)",
+   "team": "Ouchy",
+   "record": "3-5",
+   "points_for": 816.34,
+   "points_against": 767.14,
+   "streak": "W1",
+   "week_points": 88.44,
+   "week_result": "W",
+   "opponent": "Jimmy"
+  },
+  {
+   "rank": 8,
+   "manager": "--hidden-- (2010: iSuck)",
+   "team": "iSuck",
+   "record": "3-5",
+   "points_for": 780.36,
+   "points_against": 821.72,
+   "streak": "L5",
+   "week_points": 108.28,
+   "week_result": "L",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 9,
+   "manager": "Muso (Lan Doan)",
+   "team": "RSex",
+   "record": "3-5",
+   "points_for": 773.26,
+   "points_against": 878.02,
+   "streak": "L1",
+   "week_points": 62.0,
+   "week_result": "L",
+   "opponent": "tho"
+  },
+  {
+   "rank": 10,
+   "manager": "Kevin",
+   "team": "noob117",
+   "record": "1-7",
+   "points_for": 745.28,
+   "points_against": 961.18,
+   "streak": "L1",
+   "week_points": 81.68,
+   "week_result": "L",
+   "opponent": "Anthony (2010: Team Name Here)"
+  }
+ ]
+}

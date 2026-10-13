@@ -1,5 +1,5 @@
 {
- "_about": "Each league's Sleeper id and the Yahoo history it continues. `people` links a Sleeper display name to that person's Yahoo nickname in the matching Yahoo folder, so one person has one record across both platforms. Used by scripts/sleeper_export.py and index.html (the Almanac).",
+ "_about": "Each league's Sleeper id and the Yahoo history it continues. `people` links a Sleeper display name to that person's Yahoo nickname in the matching Yahoo folder, so one person has one record across both platforms. Used by scripts/sleeper_export.py and index.html (the Almanac). `same_person` lists one person's Yahoo accounts, oldest first, when they switched accounts between seasons; the combined history files them all under the newest. `seasons` limits an entry to those seasons, when an old account was run by someone else in other years. Yahoo shows no real names, so each entry is confirmed by the league.",
  "leagues": [
   {
    "id": "aggtown",
@@ -20,7 +20,47 @@
     "PutItOnYa": "Alex",
     "wabaki": "Muso",
     "ramzz": "Ramzi"
-   }
+   },
+   "same_person": [
+    {
+     "who": "Anthony: 2010 to 2014, then a new account from 2015",
+     "yahoo_accounts": [
+      "TTPYUP27NQTK5RNBIZPWB3Q4SU",
+      "QWKN5UMYN4OIO5EVK4AIYFQXLA"
+     ]
+    },
+    {
+     "who": "Blake: 2012 and 2013, then a new account from 2014",
+     "yahoo_accounts": [
+      "L766CAEOEM33YFXJYJQASNTDWA",
+      "OT2D5QGHWDRIWFWNOCBUUOUGPA"
+     ]
+    },
+    {
+     "who": "Jimmy: \"Jimmy N\" in 2010, then \"Jimmy\" from 2011",
+     "yahoo_accounts": [
+      "A7VZIA77DCC3QEGBGBDQROTJRQ",
+      "OA6RRLQ7ZZK5CVKUSW2XGTGO3A"
+     ]
+    },
+    {
+     "who": "Peter: \"Peter\" in 2013, then \"peter\" in 2014",
+     "yahoo_accounts": [
+      "H4NCMQI2JWU6LDH2MHYJEWZ6DE",
+      "HHV2W5WZN5KCPSDPVDD5IWLT6U"
+     ]
+    },
+    {
+     "who": "Lan Doan: the 2010 \"iSuck\" team (the champion), then Muso from 2011. The same account's 2011 \"iSuck\" team played beside Muso's, so 2011 stays separate.",
+     "yahoo_accounts": [
+      "YQRATISWJZ3VEUY4UWJCZT7RIY",
+      "FJTKXCYCG2EOFJ2AKPRB2HZFWI"
+     ],
+     "seasons": [
+      2010
+     ]
+    }
+   ]
   },
   {
    "id": "sobergang",

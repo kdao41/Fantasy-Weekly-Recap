@@ -1,0 +1,79 @@
+{
+ "season": 2012,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "Don",
+     "points": 130.2,
+     "projected": 143.96,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Tits Mcgee",
+     "manager": "Blake (2012: Tits Mcgee)",
+     "points": 103.7,
+     "projected": 129.76,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "THE FATBOIS",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 76.0,
+     "projected": 133.17,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 99.1,
+     "projected": 117.06,
+     "won": true
+    }
+   ],
+   "winner": "matthew"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Don",
+   "team": "Jerry Sanduskys",
+   "points": 130.2
+  },
+  "low_score": {
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "THE FATBOIS",
+   "points": 76.0
+  },
+  "closest_game": {
+   "winner": "matthew",
+   "winner_points": 99.1,
+   "loser": "Anthony (2010: Team Name Here)",
+   "loser_points": 76.0,
+   "margin": 23.1
+  },
+  "biggest_blowout": {
+   "winner": "Don",
+   "winner_points": 130.2,
+   "loser": "Blake (2012: Tits Mcgee)",
+   "loser_points": 103.7,
+   "margin": 26.5
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "season": 2012,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "donblood",
+     "points": 130.2,
+     "projected": 143.96,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Tits Mcgee",
+     "manager": "bvincenttt",
+     "points": 103.7,
+     "projected": 129.76,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "THE FATBOIS",
+     "manager": "anth0nyng",
+     "points": 76.0,
+     "projected": 133.17,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 99.1,
+     "projected": 117.06,
+     "won": true
+    }
+   ],
+   "winner": "matthew"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "donblood",
+   "team": "Jerry Sanduskys",
+   "points": 130.2
+  },
+  "low_score": {
+   "manager": "anth0nyng",
+   "team": "THE FATBOIS",
+   "points": 76.0
+  },
+  "closest_game": {
+   "winner": "matthew",
+   "winner_points": 99.1,
+   "loser": "anth0nyng",
+   "loser_points": 76.0,
+   "margin": 23.1
+  },
+  "biggest_blowout": {
+   "winner": "donblood",
+   "winner_points": 130.2,
+   "loser": "bvincenttt",
+   "loser_points": 103.7,
+   "margin": 26.5
+  }
+ }
+}

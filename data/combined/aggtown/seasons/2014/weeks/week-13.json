@@ -1,0 +1,270 @@
+{
+ "season": 2014,
+ "week": 13,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "donblood",
+     "points": 117.76,
+     "projected": 141.16,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Blue Waffle",
+     "manager": "jimbo817",
+     "points": 155.7,
+     "projected": 128.78,
+     "won": true
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Womb Raider",
+     "manager": "wabaki (Lan Doan)",
+     "points": 150.4,
+     "projected": 130.27,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Suck Dez Nuts",
+     "manager": "keveezy",
+     "points": 157.5,
+     "projected": 130.27,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shake n Blake",
+     "manager": "bvincenttt",
+     "points": 123.24,
+     "projected": 123.42,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "peter's Team",
+     "manager": "peter",
+     "points": 91.02,
+     "projected": 110.43,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Suck a Dick",
+     "manager": "--hidden-- (2014: Suck a Dick)",
+     "points": 150.0,
+     "projected": 149.0,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Anthony's Team",
+     "manager": "anth0nyng",
+     "points": 74.06,
+     "projected": 112.73,
+     "won": false
+    }
+   ],
+   "winner": "--hidden-- (2014: Suck a Dick)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "ooooooSexy",
+     "manager": "oooEcho",
+     "points": 147.56,
+     "projected": 127.14,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "TDs and beer",
+     "manager": "JP",
+     "points": 163.18,
+     "projected": 141.26,
+     "won": true
+    }
+   ],
+   "winner": "JP"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "JP",
+   "team": "TDs and beer",
+   "points": 163.18
+  },
+  "low_score": {
+   "manager": "anth0nyng",
+   "team": "Anthony's Team",
+   "points": 74.06
+  },
+  "closest_game": {
+   "winner": "keveezy",
+   "winner_points": 157.5,
+   "loser": "wabaki (Lan Doan)",
+   "loser_points": 150.4,
+   "margin": 7.1
+  },
+  "biggest_blowout": {
+   "winner": "--hidden-- (2014: Suck a Dick)",
+   "winner_points": 150.0,
+   "loser": "anth0nyng",
+   "loser_points": 74.06,
+   "margin": 75.94
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "peter",
+   "team": "peter's Team",
+   "record": "9-4",
+   "points_for": 1663.64,
+   "points_against": 1526.22,
+   "streak": "L2",
+   "week_points": 91.02,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  },
+  {
+   "rank": 2,
+   "manager": "--hidden-- (2014: Suck a Dick)",
+   "team": "Suck a Dick",
+   "record": "8-5",
+   "points_for": 1820.26,
+   "points_against": 1666.98,
+   "streak": "W1",
+   "week_points": 150.0,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 3,
+   "manager": "keveezy",
+   "team": "Suck Dez Nuts",
+   "record": "8-5",
+   "points_for": 1557.08,
+   "points_against": 1511.02,
+   "streak": "W1",
+   "week_points": 157.5,
+   "week_result": "W",
+   "opponent": "wabaki (Lan Doan)"
+  },
+  {
+   "rank": 4,
+   "manager": "donblood",
+   "team": "donblood",
+   "record": "7-6",
+   "points_for": 1754.74,
+   "points_against": 1676.38,
+   "streak": "L1",
+   "week_points": 117.76,
+   "week_result": "L",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 5,
+   "manager": "bvincenttt",
+   "team": "Shake n Blake",
+   "record": "7-6",
+   "points_for": 1677.98,
+   "points_against": 1575.12,
+   "streak": "W1",
+   "week_points": 123.24,
+   "week_result": "W",
+   "opponent": "peter"
+  },
+  {
+   "rank": 6,
+   "manager": "JP",
+   "team": "TDs and beer",
+   "record": "6-7",
+   "points_for": 1563.64,
+   "points_against": 1614.86,
+   "streak": "W2",
+   "week_points": 163.18,
+   "week_result": "W",
+   "opponent": "oooEcho"
+  },
+  {
+   "rank": 7,
+   "manager": "anth0nyng",
+   "team": "Anthony's Team",
+   "record": "6-7",
+   "points_for": 1308.28,
+   "points_against": 1564.76,
+   "streak": "L1",
+   "week_points": 74.06,
+   "week_result": "L",
+   "opponent": "--hidden-- (2014: Suck a Dick)"
+  },
+  {
+   "rank": 8,
+   "manager": "oooEcho",
+   "team": "ooooooSexy",
+   "record": "5-8",
+   "points_for": 1713.3,
+   "points_against": 1697.24,
+   "streak": "L1",
+   "week_points": 147.56,
+   "week_result": "L",
+   "opponent": "JP"
+  },
+  {
+   "rank": 9,
+   "manager": "jimbo817",
+   "team": "Blue Waffle",
+   "record": "5-8",
+   "points_for": 1648.12,
+   "points_against": 1686.86,
+   "streak": "W1",
+   "week_points": 155.7,
+   "week_result": "W",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 10,
+   "manager": "wabaki (Lan Doan)",
+   "team": "Womb Raider",
+   "record": "4-9",
+   "points_for": 1443.44,
+   "points_against": 1631.04,
+   "streak": "L1",
+   "week_points": 150.4,
+   "week_result": "L",
+   "opponent": "keveezy"
+  }
+ ]
+}

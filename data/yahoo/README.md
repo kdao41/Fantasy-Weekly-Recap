@@ -6,7 +6,7 @@ reads the same API with the browser's login.)
 
 | Folder | League on Yahoo | Seasons | Continues on Sleeper as |
 |---|---|---|---|
-| `aggtown/` | Aggtown FFL | 2015 to 2022 played (2023 created but never played) | Aggtown (2023 on) |
+| `aggtown/` | Aggtown FFL from 2015; before that 2010 and 2011 "Sack em Up!", 2012 "Touchdown My Pants", 2013 "Tits and Football" and 2014 "Look at them tits." | 2010 to 2022 played (2023 created but never played) | Aggtown (2023 on) |
 | `nooblets/` | Nooblets (2019), Nooblets Season 2 (2020 to 2022), Nooblets Season 5 (2023) | 2019 to 2023 | Sober Gang (2024 on) |
 
 **The full reference for every file, field and definition is
@@ -27,8 +27,8 @@ league and years differ. The combined Yahoo + Sleeper history is in `data/combin
 
 ## Access limits
 
-- Only leagues and seasons the logged-in account was a member of are readable. Aggtown 2014
-  (`331.l.982878`) is refused for that reason.
+- Only leagues and seasons the logged-in account was a member of are readable. Aggtown 2010 to
+  2014 were refused to the account that pulled 2015 on, and were pulled with one that played in them.
 - Yahoo throttles bursts with HTTP 999; the archiver backs off for up to 8 minutes per request.
 - The login lives in a dedicated Chromium profile at `~/.yahoo-fantasy-browser` (outside the repo).
   Only one script can use it at a time. Run `yahoo_scrape.py login` again if it expires.

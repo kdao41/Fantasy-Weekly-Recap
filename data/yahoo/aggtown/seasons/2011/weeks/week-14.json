@@ -1,0 +1,125 @@
+{
+ "season": 2011,
+ "week": 14,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Nick Folks",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 126.34,
+     "projected": 119.68,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Ouchy",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 111.68,
+     "projected": 109.55,
+     "won": false
+    }
+   ],
+   "winner": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "RSex",
+     "manager": "Muso (Lan Doan)",
+     "points": 135.6,
+     "projected": 95.59,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 118.08,
+     "projected": 97.49,
+     "won": false
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "heropool",
+     "manager": "Daniel Vu",
+     "points": 105.68,
+     "projected": 104.22,
+     "won": false
+    },
+    {
+     "team_id": 6,
+     "team": "Screaming Queef Ball",
+     "manager": "Don",
+     "points": 138.34,
+     "projected": 120.35,
+     "won": true
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Public Enemy",
+     "manager": "Kevin D",
+     "points": 116.62,
+     "projected": 106.89,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "Fat Pepperoni Nipple",
+     "manager": "Jimmy",
+     "points": 96.98,
+     "projected": 96.41,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Don",
+   "team": "Screaming Queef Ball",
+   "points": 138.34
+  },
+  "low_score": {
+   "manager": "Jimmy",
+   "team": "Fat Pepperoni Nipple",
+   "points": 96.98
+  },
+  "closest_game": {
+   "winner": "Anthony (2010: Team Name Here)",
+   "winner_points": 126.34,
+   "loser": "--hidden-- (2010: Peter'sClap)",
+   "loser_points": 111.68,
+   "margin": 14.66
+  },
+  "biggest_blowout": {
+   "winner": "Don",
+   "winner_points": 138.34,
+   "loser": "Daniel Vu",
+   "loser_points": 105.68,
+   "margin": 32.66
+  }
+ }
+}

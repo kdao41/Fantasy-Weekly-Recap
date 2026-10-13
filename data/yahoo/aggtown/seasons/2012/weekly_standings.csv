@@ -1,0 +1,131 @@
+season,week,rank,manager,team,record,points_for,points_against,streak,week_points,week_result,opponent
+2012,1,1,Vu Le,Multiple Scorgasms,1-0,166.15,139.6,W1,166.15,W,--hidden-- (2012: GameChanger)
+2012,1,2,Daniel Vu,Allstar Burns,1-0,158.45,122.75,W1,158.45,W,matthew
+2012,1,3,tho,BradyOverBitches,1-0,148.75,146.45,W1,148.75,W,Kevin D
+2012,1,4,Don,Jerry Sanduskys,1-0,142.05,141.75,W1,142.05,W,Daniel
+2012,1,5,Anthony (2010: Team Name Here),THE FATBOIS,1-0,106.75,80.15,W1,106.75,W,Blake (2012: Tits Mcgee)
+2012,1,6,Kevin D,AnyHolesTheGoal,0-1,146.45,148.75,L1,146.45,L,tho
+2012,1,7,Daniel,Victorious Secret,0-1,141.75,142.05,L1,141.75,L,Don
+2012,1,8,--hidden-- (2012: GameChanger),GameChanger,0-1,139.6,166.15,L1,139.6,L,Vu Le
+2012,1,9,matthew,goon squad,0-1,122.75,158.45,L1,122.75,L,Daniel Vu
+2012,1,10,Blake (2012: Tits Mcgee),Tits Mcgee,0-1,80.15,106.75,L1,80.15,L,Anthony (2010: Team Name Here)
+2012,2,1,Don,Jerry Sanduskys,2-0,267.0,266.1,W2,124.95,W,Kevin D
+2012,2,2,tho,BradyOverBitches,2-0,250.7,223.05,W2,101.95,W,Daniel Vu
+2012,2,3,Daniel,Victorious Secret,1-1,286.0,258.85,W1,144.25,W,--hidden-- (2012: GameChanger)
+2012,2,4,Vu Le,Multiple Scorgasms,1-1,284.0,284.8,L1,117.85,L,Blake (2012: Tits Mcgee)
+2012,2,5,matthew,goon squad,1-1,260.15,269.7,W1,137.4,W,Anthony (2010: Team Name Here)
+2012,2,6,Daniel Vu,Allstar Burns,1-1,235.05,224.7,L1,76.6,L,tho
+2012,2,7,Blake (2012: Tits Mcgee),Tits Mcgee,1-1,225.35,224.6,W1,145.2,W,Vu Le
+2012,2,8,Anthony (2010: Team Name Here),THE FATBOIS,1-1,218.0,217.55,L1,111.25,L,matthew
+2012,2,9,Kevin D,AnyHolesTheGoal,0-2,270.8,273.7,L2,124.35,L,Don
+2012,2,10,--hidden-- (2012: GameChanger),GameChanger,0-2,256.4,310.4,L2,116.8,L,Daniel
+2012,3,1,Don,Jerry Sanduskys,3-0,452.2,378.15,W3,185.2,W,Daniel Vu
+2012,3,2,matthew,goon squad,2-1,428.05,375.45,W2,167.9,W,Vu Le
+2012,3,3,Anthony (2010: Team Name Here),THE FATBOIS,2-1,345.15,301.0,W1,127.15,W,tho
+2012,3,4,Blake (2012: Tits Mcgee),Tits Mcgee,2-1,340.5,290.85,W2,115.15,W,--hidden-- (2012: GameChanger)
+2012,3,5,tho,BradyOverBitches,2-1,334.15,350.2,L1,83.45,L,Anthony (2010: Team Name Here)
+2012,3,6,Vu Le,Multiple Scorgasms,1-2,389.75,452.7,L2,105.75,L,matthew
+2012,3,7,Daniel,Victorious Secret,1-2,378.0,361.2,L1,92.0,L,Kevin D
+2012,3,8,Kevin D,AnyHolesTheGoal,1-2,373.15,365.7,W1,102.35,W,Daniel
+2012,3,9,Daniel Vu,Allstar Burns,1-2,347.1,409.9,L2,112.05,L,Don
+2012,3,10,--hidden-- (2012: GameChanger),GameChanger,0-3,322.65,425.55,L3,66.25,L,Blake (2012: Tits Mcgee)
+2012,4,1,Don,Jerry Sanduskys,4-0,599.2,491.6,W4,147.0,W,Anthony (2010: Team Name Here)
+2012,4,2,Blake (2012: Tits Mcgee),Tits Mcgee,3-1,481.45,417.2,W3,140.95,W,matthew
+2012,4,3,matthew,goon squad,2-2,554.4,516.4,L1,126.35,L,Blake (2012: Tits Mcgee)
+2012,4,4,Vu Le,Multiple Scorgasms,2-2,528.2,579.35,W1,138.45,W,tho
+2012,4,5,Kevin D,AnyHolesTheGoal,2-2,520.8,478.4,W2,147.65,W,--hidden-- (2012: GameChanger)
+2012,4,6,Daniel,Victorious Secret,2-2,509.15,450.8,W1,131.15,W,Daniel Vu
+2012,4,7,tho,BradyOverBitches,2-2,460.8,488.65,L2,126.65,L,Vu Le
+2012,4,8,Anthony (2010: Team Name Here),THE FATBOIS,2-2,458.6,448.0,L1,113.45,L,Don
+2012,4,9,Daniel Vu,Allstar Burns,1-3,436.7,541.05,L3,89.6,L,Daniel
+2012,4,10,--hidden-- (2012: GameChanger),GameChanger,0-4,435.35,573.2,L4,112.7,L,Kevin D
+2012,5,1,Don,Jerry Sanduskys,4-1,733.95,681.3,L1,134.75,L,Vu Le
+2012,5,2,Blake (2012: Tits Mcgee),Tits Mcgee,4-1,598.6,519.25,W4,117.15,W,tho
+2012,5,3,Vu Le,Multiple Scorgasms,3-2,717.9,714.1,W2,189.7,W,Don
+2012,5,4,Kevin D,AnyHolesTheGoal,3-2,703.45,606.55,W3,182.65,W,Daniel Vu
+2012,5,5,matthew,goon squad,3-2,690.2,595.35,W1,135.8,W,--hidden-- (2012: GameChanger)
+2012,5,6,Anthony (2010: Team Name Here),THE FATBOIS,3-2,597.35,539.35,W1,138.75,W,Daniel
+2012,5,7,Daniel,Victorious Secret,2-3,600.5,589.55,L1,91.35,L,Anthony (2010: Team Name Here)
+2012,5,8,tho,BradyOverBitches,2-3,562.85,605.8,L3,102.05,L,Blake (2012: Tits Mcgee)
+2012,5,9,Daniel Vu,Allstar Burns,1-4,564.85,723.7,L4,128.15,L,Kevin D
+2012,5,10,--hidden-- (2012: GameChanger),GameChanger,0-5,514.3,709.0,L5,78.95,L,matthew
+2012,6,1,Blake (2012: Tits Mcgee),Tits Mcgee,5-1,727.4,628.1,W5,128.8,W,Don
+2012,6,2,Kevin D,AnyHolesTheGoal,4-2,893.85,739.3,W4,190.4,W,Anthony (2010: Team Name Here)
+2012,6,3,matthew,goon squad,4-2,880.65,744.5,W2,190.45,W,tho
+2012,6,4,Don,Jerry Sanduskys,4-2,842.8,810.1,L2,108.85,L,Blake (2012: Tits Mcgee)
+2012,6,5,Vu Le,Multiple Scorgasms,3-3,820.45,830.5,L1,102.55,L,Daniel
+2012,6,6,Anthony (2010: Team Name Here),THE FATBOIS,3-3,730.1,729.75,L1,132.75,L,Kevin D
+2012,6,7,Daniel,Victorious Secret,3-3,716.9,692.1,W1,116.4,W,Vu Le
+2012,6,8,tho,BradyOverBitches,2-4,712.0,796.25,L4,149.15,L,matthew
+2012,6,9,Daniel Vu,Allstar Burns,2-4,666.05,805.85,W1,101.2,W,--hidden-- (2012: GameChanger)
+2012,6,10,--hidden-- (2012: GameChanger),GameChanger,0-6,596.45,810.2,L6,82.15,L,Daniel Vu
+2012,7,1,Blake (2012: Tits Mcgee),Tits Mcgee,6-1,862.3,736.45,W6,134.9,W,Daniel
+2012,7,2,matthew,goon squad,5-2,989.55,821.65,W3,108.9,W,Don
+2012,7,3,Kevin D,AnyHolesTheGoal,4-3,1042.05,894.55,L1,148.2,L,Vu Le
+2012,7,4,Vu Le,Multiple Scorgasms,4-3,975.7,978.7,W1,155.25,W,Kevin D
+2012,7,5,Don,Jerry Sanduskys,4-3,919.95,919.0,L3,77.15,L,matthew
+2012,7,6,Anthony (2010: Team Name Here),THE FATBOIS,4-3,846.5,843.2,W1,116.4,W,Daniel Vu
+2012,7,7,tho,BradyOverBitches,3-4,839.1,881.7,W1,127.1,W,--hidden-- (2012: GameChanger)
+2012,7,8,Daniel,Victorious Secret,3-4,825.25,827.0,L1,108.35,L,Blake (2012: Tits Mcgee)
+2012,7,9,Daniel Vu,Allstar Burns,2-5,779.5,922.25,L1,113.45,L,Anthony (2010: Team Name Here)
+2012,7,10,--hidden-- (2012: GameChanger),GameChanger,0-7,681.9,937.3,L7,85.45,L,tho
+2012,8,1,Blake (2012: Tits Mcgee),Tits Mcgee,6-2,953.65,846.45,L1,91.35,L,Kevin D
+2012,8,2,Kevin D,AnyHolesTheGoal,5-3,1152.05,985.9,W1,110.0,W,Blake (2012: Tits Mcgee)
+2012,8,3,Vu Le,Multiple Scorgasms,5-3,1123.45,1090.65,W2,147.75,W,Daniel Vu
+2012,8,4,matthew,goon squad,5-3,1092.45,951.75,L1,102.9,L,Daniel
+2012,8,5,Don,Jerry Sanduskys,5-3,1062.9,1040.3,W1,142.95,W,tho
+2012,8,6,Daniel,Victorious Secret,4-4,955.35,929.9,W1,130.1,W,matthew
+2012,8,7,Anthony (2010: Team Name Here),THE FATBOIS,4-4,939.95,949.4,L1,93.45,L,--hidden-- (2012: GameChanger)
+2012,8,8,tho,BradyOverBitches,3-5,960.4,1024.65,L1,121.3,L,Don
+2012,8,9,Daniel Vu,Allstar Burns,2-6,891.45,1070.0,L2,111.95,L,Vu Le
+2012,8,10,--hidden-- (2012: GameChanger),GameChanger,1-7,788.1,1030.75,W1,106.2,W,Anthony (2010: Team Name Here)
+2012,9,1,Kevin D,AnyHolesTheGoal,6-3,1319.15,1115.15,W2,167.1,W,matthew
+2012,9,2,Vu Le,Multiple Scorgasms,6-3,1271.7,1199.65,W3,148.25,W,Anthony (2010: Team Name Here)
+2012,9,3,Don,Jerry Sanduskys,6-3,1216.85,1101.3,W2,153.95,W,--hidden-- (2012: GameChanger)
+2012,9,4,Blake (2012: Tits Mcgee),Tits Mcgee,6-3,1049.6,970.75,L2,95.95,L,Daniel Vu
+2012,9,5,matthew,goon squad,5-4,1221.7,1118.85,L2,129.25,L,Kevin D
+2012,9,6,Daniel,Victorious Secret,5-4,1119.1,1064.1,W2,163.75,W,tho
+2012,9,7,Anthony (2010: Team Name Here),THE FATBOIS,4-5,1048.95,1097.65,L2,109.0,L,Vu Le
+2012,9,8,tho,BradyOverBitches,3-6,1094.6,1188.4,L2,134.2,L,Daniel
+2012,9,9,Daniel Vu,Allstar Burns,3-6,1015.75,1165.95,W1,124.3,W,Blake (2012: Tits Mcgee)
+2012,9,10,--hidden-- (2012: GameChanger),GameChanger,1-8,849.1,1184.7,L1,61.0,L,Don
+2012,10,1,Kevin D,AnyHolesTheGoal,7-3,1480.6,1275.5,W3,161.45,W,tho
+2012,10,2,Vu Le,Multiple Scorgasms,7-3,1427.9,1264.4,W4,156.2,W,--hidden-- (2012: GameChanger)
+2012,10,3,matthew,goon squad,6-4,1355.5,1231.2,W1,133.8,W,Daniel Vu
+2012,10,4,Don,Jerry Sanduskys,6-4,1350.3,1247.05,L1,133.45,L,Daniel
+2012,10,5,Daniel,Victorious Secret,6-4,1264.85,1197.55,W3,145.75,W,Don
+2012,10,6,Blake (2012: Tits Mcgee),Tits Mcgee,6-4,1106.35,1087.25,L3,56.75,L,Anthony (2010: Team Name Here)
+2012,10,7,Anthony (2010: Team Name Here),THE FATBOIS,5-5,1165.45,1154.4,W1,116.5,W,Blake (2012: Tits Mcgee)
+2012,10,8,tho,BradyOverBitches,3-7,1254.95,1349.85,L3,160.35,L,Kevin D
+2012,10,9,Daniel Vu,Allstar Burns,3-7,1128.1,1299.75,L1,112.35,L,matthew
+2012,10,10,--hidden-- (2012: GameChanger),GameChanger,1-9,913.85,1340.9,L2,64.75,L,Vu Le
+2012,11,1,Kevin D,AnyHolesTheGoal,8-3,1610.4,1400.85,W4,129.8,W,Don
+2012,11,2,Vu Le,Multiple Scorgasms,7-4,1528.85,1405.4,L1,100.95,L,Blake (2012: Tits Mcgee)
+2012,11,3,Blake (2012: Tits Mcgee),Tits Mcgee,7-4,1247.35,1188.2,W1,141.0,W,Vu Le
+2012,11,4,Don,Jerry Sanduskys,6-5,1475.65,1376.85,L2,125.35,L,Kevin D
+2012,11,5,matthew,goon squad,6-5,1437.5,1359.35,L1,82.0,L,Anthony (2010: Team Name Here)
+2012,11,6,Daniel,Victorious Secret,6-5,1362.05,1335.4,L1,97.2,L,--hidden-- (2012: GameChanger)
+2012,11,7,Anthony (2010: Team Name Here),THE FATBOIS,6-5,1293.6,1236.4,W2,128.15,W,matthew
+2012,11,8,Daniel Vu,Allstar Burns,4-7,1242.5,1374.5,W1,114.4,W,tho
+2012,11,9,tho,BradyOverBitches,3-8,1329.7,1464.25,L4,74.75,L,Daniel Vu
+2012,11,10,--hidden-- (2012: GameChanger),GameChanger,2-9,1051.7,1438.1,W1,137.85,W,Daniel
+2012,12,1,Kevin D,AnyHolesTheGoal,9-3,1748.55,1521.55,W5,138.15,W,Daniel
+2012,12,2,Vu Le,Multiple Scorgasms,8-4,1683.1,1502.1,W1,154.25,W,matthew
+2012,12,3,Blake (2012: Tits Mcgee),Tits Mcgee,8-4,1393.75,1299.65,W2,146.4,W,--hidden-- (2012: GameChanger)
+2012,12,4,Don,Jerry Sanduskys,7-5,1645.3,1455.95,W1,169.65,W,Daniel Vu
+2012,12,5,Anthony (2010: Team Name Here),THE FATBOIS,7-5,1417.15,1332.25,W3,123.55,W,tho
+2012,12,6,matthew,goon squad,6-6,1534.2,1513.6,L2,96.7,L,Vu Le
+2012,12,7,Daniel,Victorious Secret,6-6,1482.75,1473.55,L2,120.7,L,Kevin D
+2012,12,8,Daniel Vu,Allstar Burns,4-8,1321.6,1544.15,L1,79.1,L,Don
+2012,12,9,tho,BradyOverBitches,3-9,1425.55,1587.8,L5,95.85,L,Anthony (2010: Team Name Here)
+2012,12,10,--hidden-- (2012: GameChanger),GameChanger,2-10,1163.15,1584.5,L1,111.45,L,Blake (2012: Tits Mcgee)
+2012,13,1,Kevin D,AnyHolesTheGoal,10-3,1889.05,1584.75,W6,140.5,W,--hidden-- (2012: GameChanger)
+2012,13,2,Vu Le,Multiple Scorgasms,9-4,1857.75,1619.35,W2,174.65,W,tho
+2012,13,3,Anthony (2010: Team Name Here),THE FATBOIS,8-5,1550.75,1462.4,W4,133.6,W,Don
+2012,13,4,Blake (2012: Tits Mcgee),Tits Mcgee,8-5,1488.8,1409.5,L1,95.05,L,matthew
+2012,13,5,Don,Jerry Sanduskys,7-6,1775.45,1589.55,L1,130.15,L,Anthony (2010: Team Name Here)
+2012,13,6,matthew,goon squad,7-6,1644.05,1608.65,W1,109.85,W,Blake (2012: Tits Mcgee)
+2012,13,7,Daniel,Victorious Secret,7-6,1635.65,1616.2,W1,152.9,W,Daniel Vu
+2012,13,8,Daniel Vu,Allstar Burns,4-9,1464.25,1697.05,L2,142.65,L,Daniel
+2012,13,9,tho,BradyOverBitches,3-10,1542.8,1762.45,L6,117.25,L,Vu Le
+2012,13,10,--hidden-- (2012: GameChanger),GameChanger,2-11,1226.35,1725.0,L2,63.2,L,Kevin D

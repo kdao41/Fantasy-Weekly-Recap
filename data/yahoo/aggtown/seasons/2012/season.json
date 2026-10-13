@@ -1,0 +1,418 @@
+{
+ "season": 2012,
+ "league": "Touchdown My Pants",
+ "finished": true,
+ "champion": {
+  "team_id": 1,
+  "team": "Jerry Sanduskys",
+  "manager": "Don",
+  "final_rank": 1,
+  "playoff_seed": 5,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1775.45,
+  "points_against": 1589.55
+ },
+ "championship_game": {
+  "week": 16,
+  "winner": "Don",
+  "winner_team": "Jerry Sanduskys",
+  "winner_points": 194.9,
+  "loser": "Vu Le",
+  "loser_team": "Multiple Scorgasms",
+  "loser_points": 124.3
+ },
+ "runner_up": {
+  "team_id": 6,
+  "team": "Multiple Scorgasms",
+  "manager": "Vu Le",
+  "final_rank": 2,
+  "playoff_seed": 2,
+  "wins": 9,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1857.75,
+  "points_against": 1619.35
+ },
+ "third_place": {
+  "team_id": 3,
+  "team": "AnyHolesTheGoal",
+  "manager": "Kevin D",
+  "final_rank": 3,
+  "playoff_seed": 1,
+  "wins": 10,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1889.05,
+  "points_against": 1584.75
+ },
+ "last_place": {
+  "team_id": 10,
+  "team": "GameChanger",
+  "manager": "--hidden-- (2012: GameChanger)",
+  "final_rank": 10,
+  "playoff_seed": 10,
+  "wins": 2,
+  "losses": 11,
+  "ties": 0,
+  "points_for": 1226.35,
+  "points_against": 1725.0
+ },
+ "regular_season_winner": {
+  "team_id": 3,
+  "team": "AnyHolesTheGoal",
+  "manager": "Kevin D",
+  "final_rank": 3,
+  "playoff_seed": 1,
+  "wins": 10,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1889.05,
+  "points_against": 1584.75
+ },
+ "most_points": {
+  "team_id": 3,
+  "team": "AnyHolesTheGoal",
+  "manager": "Kevin D",
+  "final_rank": 3,
+  "playoff_seed": 1,
+  "wins": 10,
+  "losses": 3,
+  "ties": 0,
+  "points_for": 1889.05,
+  "points_against": 1584.75
+ },
+ "settings": {
+  "league_key": "273.l.383601",
+  "num_teams": 10,
+  "start_week": 1,
+  "end_week": 16,
+  "playoff_week_start": 14,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "live",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 3
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 1,
+   "team": "Jerry Sanduskys",
+   "manager": "Don",
+   "final_rank": 1,
+   "playoff_seed": 5,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1775.45,
+   "points_against": 1589.55
+  },
+  {
+   "team_id": 6,
+   "team": "Multiple Scorgasms",
+   "manager": "Vu Le",
+   "final_rank": 2,
+   "playoff_seed": 2,
+   "wins": 9,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1857.75,
+   "points_against": 1619.35
+  },
+  {
+   "team_id": 3,
+   "team": "AnyHolesTheGoal",
+   "manager": "Kevin D",
+   "final_rank": 3,
+   "playoff_seed": 1,
+   "wins": 10,
+   "losses": 3,
+   "ties": 0,
+   "points_for": 1889.05,
+   "points_against": 1584.75
+  },
+  {
+   "team_id": 8,
+   "team": "goon squad",
+   "manager": "matthew",
+   "final_rank": 4,
+   "playoff_seed": 6,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1644.05,
+   "points_against": 1608.65
+  },
+  {
+   "team_id": 5,
+   "team": "THE FATBOIS",
+   "manager": "Anthony (2010: Team Name Here)",
+   "final_rank": 5,
+   "playoff_seed": 3,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1550.75,
+   "points_against": 1462.4
+  },
+  {
+   "team_id": 7,
+   "team": "Tits Mcgee",
+   "manager": "Blake (2012: Tits Mcgee)",
+   "final_rank": 6,
+   "playoff_seed": 4,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1488.8,
+   "points_against": 1409.5
+  },
+  {
+   "team_id": 9,
+   "team": "BradyOverBitches",
+   "manager": "tho",
+   "final_rank": 7,
+   "playoff_seed": 9,
+   "wins": 3,
+   "losses": 10,
+   "ties": 0,
+   "points_for": 1542.8,
+   "points_against": 1762.45
+  },
+  {
+   "team_id": 2,
+   "team": "Victorious Secret",
+   "manager": "Daniel",
+   "final_rank": 8,
+   "playoff_seed": 7,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1635.65,
+   "points_against": 1616.2
+  },
+  {
+   "team_id": 4,
+   "team": "Allstar Burns",
+   "manager": "Daniel Vu",
+   "final_rank": 9,
+   "playoff_seed": 8,
+   "wins": 4,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1464.25,
+   "points_against": 1697.05
+  },
+  {
+   "team_id": 10,
+   "team": "GameChanger",
+   "manager": "--hidden-- (2012: GameChanger)",
+   "final_rank": 10,
+   "playoff_seed": 10,
+   "wins": 2,
+   "losses": 11,
+   "ties": 0,
+   "points_for": 1226.35,
+   "points_against": 1725.0
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "Don",
+     "points": 130.2,
+     "projected": 143.96,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Tits Mcgee",
+     "manager": "Blake (2012: Tits Mcgee)",
+     "points": 103.7,
+     "projected": 129.76,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "THE FATBOIS",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 76.0,
+     "projected": 133.17,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 99.1,
+     "projected": 117.06,
+     "won": true
+    }
+   ],
+   "winner": "matthew"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "Don",
+     "points": 162.75,
+     "projected": 131.15,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "AnyHolesTheGoal",
+     "manager": "Kevin D",
+     "points": 121.65,
+     "projected": 139.79,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "THE FATBOIS",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 102.25,
+     "projected": 115.71,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Tits Mcgee",
+     "manager": "Blake (2012: Tits Mcgee)",
+     "points": 81.85,
+     "projected": 98.36,
+     "won": false
+    }
+   ],
+   "winner": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Multiple Scorgasms",
+     "manager": "Vu Le",
+     "points": 151.85,
+     "projected": 169.25,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 88.7,
+     "projected": 116.18,
+     "won": false
+    }
+   ],
+   "winner": "Vu Le"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "Don",
+     "points": 194.9,
+     "projected": 152.47,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Multiple Scorgasms",
+     "manager": "Vu Le",
+     "points": 124.3,
+     "projected": 154.57,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "AnyHolesTheGoal",
+     "manager": "Kevin D",
+     "points": 143.05,
+     "projected": 145.25,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 119.35,
+     "projected": 124.86,
+     "won": false
+    }
+   ],
+   "winner": "Kevin D"
+  }
+ ]
+}

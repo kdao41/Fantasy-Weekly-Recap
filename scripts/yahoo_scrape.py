@@ -10,10 +10,14 @@ the browser's login cookies. This drives a dedicated Chromium profile (kept
 outside the repo) through that endpoint, then reuses yahoo_export.py's parsers.
 
 Usage:
+  uv run scripts/yahoo_scrape.py check [NAME]         # is everything set up? each problem comes with its fix
   uv run scripts/yahoo_scrape.py login               # sign in once in the window, then close it
   uv run scripts/yahoo_scrape.py fetch [NAME]         # download every season (default NAME: aggtown)
   uv run scripts/yahoo_scrape.py fetch NAME --until 2023   # stop at a season, e.g. when the league moved
                                                         # platforms but Yahoo kept auto-renewing it
+  uv run scripts/yahoo_scrape.py fetch NAME --add 314.l.829747   # include a season Yahoo doesn't link to the
+                                                        # rest (the league was recreated under a new name)
+  uv run scripts/yahoo_scrape.py leagues              # every league-season in the account, with its key
   uv run scripts/yahoo_scrape.py build [NAME]         # rebuild organized files from the download
   uv run scripts/yahoo_scrape.py archive [NAME]       # save Yahoo's complete responses, incl. lineups
 
@@ -51,7 +55,7 @@ import xml.etree.ElementTree as ET
 from contextlib import closing
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Error as PlaywrightError, sync_playwright
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from yahoo_export import export_league, list_leagues  # noqa: E402
@@ -99,15 +103,22 @@ def login():
     print(f"Saved session to {PROFILE_DIR}")
 
 
+def leagues():
+    """Every league-season the signed-in account can read, to find a key for `fetch --add`."""
+    with sync_playwright() as p, closing(open_browser(p)) as ctx:
+        for l in list_leagues(BrowserClient(ctx)):
+            print(f"{l['season']}  {l['league_key']:<16} {l['num_teams'] or '?':>2} teams  {l['name']}")
+
+
 def slugify(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
 
 
-def league_chain(leagues, name):
-    """Every season of the league matching `name`, following Yahoo's season-to-season links
-    so a renamed season is still included."""
+def league_chain(leagues, name, added=()):
+    """Every season of the league matching `name` or listed in `added`, following Yahoo's
+    season-to-season links so a renamed season is still included."""
     by_ref = {l["league_key"].replace(".l.", "_"): l for l in leagues}
-    chain = {l["league_key"]: l for l in leagues if name.lower() in (l["name"] or "").lower()}
+    chain = {l["league_key"]: l for l in leagues if name.lower() in (l["name"] or "").lower() or l["league_key"] in added}
     frontier = list(chain.values())
     while frontier:
         l = frontier.pop()
@@ -119,20 +130,27 @@ def league_chain(leagues, name):
     return sorted(chain.values(), key=lambda l: l["season"])
 
 
-def fetch(name, until=None):
+def load_config(out):
+    path = out / "fetch_config.json"
+    return json.loads(path.read_text()) if path.exists() else {}
+
+
+def fetch(name, until=None, add=()):
     out = DATA_DIR / slugify(name)
     (out / "raw").mkdir(parents=True, exist_ok=True)
-    # The cutoff is remembered so later fetches don't pull auto-renewed seasons back in.
-    config_path = out / "fetch_config.json"
-    config = json.loads(config_path.read_text()) if config_path.exists() else {}
+    # The cutoff and added seasons are remembered, so later fetches pull the same league.
+    config = load_config(out)
     if until is not None:
         config["until"] = until
-        config_path.write_text(json.dumps(config, indent=1))
+    if add:
+        config["add"] = sorted(set(config.get("add", [])) | set(add))
+    if until is not None or add:
+        (out / "fetch_config.json").write_text(json.dumps(config, indent=1))
     until = config.get("until")
     with sync_playwright() as p, closing(open_browser(p)) as ctx:
         c = BrowserClient(ctx)
         try:
-            leagues = league_chain(list_leagues(c), name)
+            leagues = league_chain(list_leagues(c), name, config.get("add", ()))
         except RuntimeError as e:
             sys.exit(f"Couldn't list leagues ({e}). Run `login` again if the session expired.")
         if until:
@@ -248,21 +266,135 @@ def build(name):
     build_dir(out, seasons)
 
 
+# ---------------- check ----------------
+
+RUN = "uv run --python 3.12 scripts/yahoo_scrape.py"
+
+
+def say(status, what, fix=None):
+    print(f"{status:<4}  {what}" + (f"\n      fix: {fix}" if fix else ""))
+
+
+def check_access(p):
+    """The browser, the saved session and the account's leagues; later checks need all three."""
+    if not Path(p.chromium.executable_path).exists():
+        say("FAIL", "Chromium for Playwright isn't installed", "uv run --python 3.12 --with playwright playwright install chromium")
+        sys.exit(1)
+    say("ok", "Chromium for Playwright is installed")
+    if not PROFILE_DIR.exists():
+        say("FAIL", f"no Yahoo session saved in {PROFILE_DIR}", f"{RUN} login")
+        sys.exit(1)
+    try:
+        ctx = open_browser(p)
+    except PlaywrightError as e:
+        say("FAIL", f"couldn't open the browser profile: {str(e).splitlines()[0]}",
+            "another yahoo_scrape.py is probably running; wait for it, or close it")
+        sys.exit(1)
+    with closing(ctx):
+        try:
+            leagues = list_leagues(BrowserClient(ctx))
+        except RuntimeError as e:
+            say("FAIL", f"Yahoo refused the saved session ({str(e)[:80]})", f"{RUN} login")
+            sys.exit(1)
+    say("ok", f"signed in to Yahoo; the account has {len(leagues)} NFL league-seasons")
+    return leagues
+
+
+def check_league(leagues, name):
+    """Which seasons `fetch` would pull for `name`, and which are already downloaded and archived."""
+    out = DATA_DIR / slugify(name)
+    config = load_config(out)
+    chain = league_chain(leagues, name, config.get("add", ()))
+    if not chain:
+        say("FAIL", f"no league in this account matches '{name}'; its leagues: "
+            + ", ".join(sorted({l["name"] for l in leagues})), "use part of one of those names")
+        return False
+    names = sorted({l["name"] for l in chain})
+    say("ok", f"'{name}' matches {', '.join(names)}: {chain[0]['season']} to {chain[-1]['season']}")
+    until = config.get("until")
+    seasons = [l["season"] for l in chain if not until or l["season"] <= until]
+    if until:
+        say("note", f"fetch_config.json stops at {until}")
+    raw = {s: json.loads((out / "raw" / f"{s}.json").read_text()) for s in seasons if (out / "raw" / f"{s}.json").exists()}
+    todo = [s for s in seasons if not raw.get(s, {}).get("is_finished")]
+    say("note", f"downloaded: {', '.join(map(str, sorted(raw))) or 'none'}"
+        + (f"; `fetch {name}` would pull {', '.join(map(str, todo))}" if todo else ""))
+    unarchived = [s for s in raw if not (out / "raw" / "yahoo_api" / str(s)).exists()]
+    if unarchived:
+        say("note", f"not archived yet: {', '.join(map(str, unarchived))} (`archive {name}`)")
+    return True
+
+
+def check_links(name):
+    """That every Yahoo nickname in data/leagues.json exists, so the Sleeper stitch links everyone it lists."""
+    folder = slugify(name)
+    linked = [l for l in json.loads((DATA_DIR.parent / "leagues.json").read_text())["leagues"] if l.get("yahoo_folder") == folder]
+    mgr_path = DATA_DIR / folder / "managers.json"
+    if not linked:
+        say("note", f"no league in data/leagues.json has yahoo_folder '{folder}' yet (README step 5)")
+        return True
+    if not mgr_path.exists():
+        say("note", f"{mgr_path} doesn't exist until `fetch {name}` runs")
+        return True
+    managers = json.loads(mgr_path.read_text())
+    nicks = {n for m in managers.values() for n in m["nicknames"]}
+    ok = True
+    for l in linked:
+        missing = [g for p in l.get("same_person", []) for g in p["yahoo_accounts"] if g not in managers]
+        if missing:
+            ok = False
+            say("FAIL", f"{l['id']}: same_person lists accounts that aren't in managers.json: {', '.join(missing)}",
+                "copy the account ids (the keys) from managers.json")
+        unknown = sorted(n for n in l["people"].values() if n not in nicks)
+        if unknown:
+            ok = False
+            say("FAIL", f"{l['id']}: people lists Yahoo nicknames that aren't in managers.json: {', '.join(unknown)}",
+                f"use one of: {', '.join(sorted(nicks))}")
+        else:
+            say("ok", f"{l['id']}: all {len(l['people'])} people match a Yahoo nickname")
+        newest = {g: p["yahoo_accounts"][-1] for p in l.get("same_person", []) if "seasons" not in p for g in p["yahoo_accounts"]}
+        for nick in sorted(set(l["people"].values())):
+            accounts = [g for g, m in managers.items() if nick in m["nicknames"] and g not in newest]
+            if len(accounts) > 1:
+                say("note", f"{l['id']}: '{nick}' is on {len(accounts)} Yahoo accounts and the newest is linked; "
+                    "if they're one person, list them under same_person in data/leagues.json")
+        # an older account in a same_person entry is represented by the newest one
+        yahoo_only = sorted({n for g, m in managers.items() if newest.get(g, g) == g for n in m["nicknames"]} - set(l["people"].values()))
+        if yahoo_only:
+            say("note", f"{l['id']}: Yahoo-only managers (fine if they never joined Sleeper): {', '.join(yahoo_only)}")
+    return ok
+
+
+def check(name):
+    with sync_playwright() as p:
+        leagues = check_access(p)
+    found = check_league(leagues, name)
+    linked = check_links(name)
+    if not (found and linked):
+        sys.exit(1)
+    print("\nReady.")
+
+
 if __name__ == "__main__":
     import argparse
     ap = argparse.ArgumentParser(add_help=False)
     ap.add_argument("cmd", nargs="?", default="")
     ap.add_argument("league", nargs="?", default="aggtown")
     ap.add_argument("--until", type=int, help="last season to fetch")
+    ap.add_argument("--add", action="append", default=[], metavar="LEAGUE_KEY", help="a season Yahoo doesn't link to the rest")
     args = ap.parse_args()
     cmd, league = args.cmd, args.league
     if cmd == "login":
         login()
     elif cmd == "fetch":
-        fetch(league, args.until)
+        fetch(league, args.until, args.add)
     elif cmd == "build":
         build(league)
     elif cmd == "archive":
         archive(league)
+    elif cmd == "check":
+        check(league)
+    elif cmd == "leagues":
+        leagues()
     else:
         print(__doc__)

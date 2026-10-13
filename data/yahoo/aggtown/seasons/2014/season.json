@@ -1,0 +1,422 @@
+{
+ "season": 2014,
+ "league": "Look at them tits.",
+ "finished": true,
+ "champion": {
+  "team_id": 1,
+  "team": "donblood",
+  "manager": "Don",
+  "final_rank": 1,
+  "playoff_seed": 4,
+  "wins": 7,
+  "losses": 6,
+  "ties": 0,
+  "points_for": 1754.74,
+  "points_against": 1676.38
+ },
+ "championship_game": {
+  "week": 16,
+  "winner": "Don",
+  "winner_team": "donblood",
+  "winner_points": 170.62,
+  "loser": "JP",
+  "loser_team": "TDs and beer",
+  "loser_points": 123.52
+ },
+ "runner_up": {
+  "team_id": 8,
+  "team": "TDs and beer",
+  "manager": "JP",
+  "final_rank": 2,
+  "playoff_seed": 6,
+  "wins": 6,
+  "losses": 7,
+  "ties": 0,
+  "points_for": 1563.64,
+  "points_against": 1614.86
+ },
+ "third_place": {
+  "team_id": 6,
+  "team": "Suck a Dick",
+  "manager": "--hidden-- (2014: Suck a Dick)",
+  "final_rank": 3,
+  "playoff_seed": 2,
+  "wins": 8,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1820.26,
+  "points_against": 1666.98
+ },
+ "last_place": {
+  "team_id": 9,
+  "team": "Anthony's Team",
+  "manager": "Anthony (2010: Team Name Here)",
+  "final_rank": 10,
+  "playoff_seed": 7,
+  "wins": 6,
+  "losses": 7,
+  "ties": 0,
+  "points_for": 1308.28,
+  "points_against": 1564.76
+ },
+ "regular_season_winner": {
+  "team_id": 10,
+  "team": "peter's Team",
+  "manager": "peter",
+  "final_rank": 4,
+  "playoff_seed": 1,
+  "wins": 9,
+  "losses": 4,
+  "ties": 0,
+  "points_for": 1663.64,
+  "points_against": 1526.22
+ },
+ "most_points": {
+  "team_id": 6,
+  "team": "Suck a Dick",
+  "manager": "--hidden-- (2014: Suck a Dick)",
+  "final_rank": 3,
+  "playoff_seed": 2,
+  "wins": 8,
+  "losses": 5,
+  "ties": 0,
+  "points_for": 1820.26,
+  "points_against": 1666.98
+ },
+ "settings": {
+  "league_key": "331.l.982878",
+  "num_teams": 10,
+  "start_week": 1,
+  "end_week": 16,
+  "playoff_week_start": 14,
+  "num_playoff_teams": 6,
+  "scoring_type": "head",
+  "draft_type": "live",
+  "roster_positions": [
+   {
+    "position": "QB",
+    "count": 1
+   },
+   {
+    "position": "WR",
+    "count": 2
+   },
+   {
+    "position": "RB",
+    "count": 2
+   },
+   {
+    "position": "TE",
+    "count": 1
+   },
+   {
+    "position": "W/R",
+    "count": 1
+   },
+   {
+    "position": "K",
+    "count": 1
+   },
+   {
+    "position": "DEF",
+    "count": 1
+   },
+   {
+    "position": "BN",
+    "count": 6
+   }
+  ]
+ },
+ "standings": [
+  {
+   "team_id": 1,
+   "team": "donblood",
+   "manager": "Don",
+   "final_rank": 1,
+   "playoff_seed": 4,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1754.74,
+   "points_against": 1676.38
+  },
+  {
+   "team_id": 8,
+   "team": "TDs and beer",
+   "manager": "JP",
+   "final_rank": 2,
+   "playoff_seed": 6,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1563.64,
+   "points_against": 1614.86
+  },
+  {
+   "team_id": 6,
+   "team": "Suck a Dick",
+   "manager": "--hidden-- (2014: Suck a Dick)",
+   "final_rank": 3,
+   "playoff_seed": 2,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1820.26,
+   "points_against": 1666.98
+  },
+  {
+   "team_id": 10,
+   "team": "peter's Team",
+   "manager": "peter",
+   "final_rank": 4,
+   "playoff_seed": 1,
+   "wins": 9,
+   "losses": 4,
+   "ties": 0,
+   "points_for": 1663.64,
+   "points_against": 1526.22
+  },
+  {
+   "team_id": 4,
+   "team": "Suck Dez Nuts",
+   "manager": "Kevin D",
+   "final_rank": 5,
+   "playoff_seed": 3,
+   "wins": 8,
+   "losses": 5,
+   "ties": 0,
+   "points_for": 1557.08,
+   "points_against": 1511.02
+  },
+  {
+   "team_id": 3,
+   "team": "Shake n Blake",
+   "manager": "Blake",
+   "final_rank": 6,
+   "playoff_seed": 5,
+   "wins": 7,
+   "losses": 6,
+   "ties": 0,
+   "points_for": 1677.98,
+   "points_against": 1575.12
+  },
+  {
+   "team_id": 5,
+   "team": "Blue Waffle",
+   "manager": "Jimmy",
+   "final_rank": 7,
+   "playoff_seed": 9,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1648.12,
+   "points_against": 1686.86
+  },
+  {
+   "team_id": 2,
+   "team": "Womb Raider",
+   "manager": "Muso (Lan Doan)",
+   "final_rank": 8,
+   "playoff_seed": 10,
+   "wins": 4,
+   "losses": 9,
+   "ties": 0,
+   "points_for": 1443.44,
+   "points_against": 1631.04
+  },
+  {
+   "team_id": 7,
+   "team": "ooooooSexy",
+   "manager": "Cody",
+   "final_rank": 9,
+   "playoff_seed": 8,
+   "wins": 5,
+   "losses": 8,
+   "ties": 0,
+   "points_for": 1713.3,
+   "points_against": 1697.24
+  },
+  {
+   "team_id": 9,
+   "team": "Anthony's Team",
+   "manager": "Anthony (2010: Team Name Here)",
+   "final_rank": 10,
+   "playoff_seed": 7,
+   "wins": 6,
+   "losses": 7,
+   "ties": 0,
+   "points_for": 1308.28,
+   "points_against": 1564.76
+  }
+ ],
+ "playoff_results": [
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "Don",
+     "points": 168.7,
+     "projected": 138.75,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 114.42,
+     "projected": 133.3,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "week": 14,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Suck Dez Nuts",
+     "manager": "Kevin D",
+     "points": 116.38,
+     "projected": 126.06,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "TDs and beer",
+     "manager": "JP",
+     "points": 122.3,
+     "projected": 141.78,
+     "won": true
+    }
+   ],
+   "winner": "JP"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "Don",
+     "points": 136.4,
+     "projected": 142.16,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "peter's Team",
+     "manager": "peter",
+     "points": 97.1,
+     "projected": 139.92,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 102.92,
+     "projected": 128.56,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Suck Dez Nuts",
+     "manager": "Kevin D",
+     "points": 113.18,
+     "projected": 128.8,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "week": 15,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Suck a Dick",
+     "manager": "--hidden-- (2014: Suck a Dick)",
+     "points": 104.3,
+     "projected": 139.57,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "TDs and beer",
+     "manager": "JP",
+     "points": 145.5,
+     "projected": 150.74,
+     "won": true
+    }
+   ],
+   "winner": "JP"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "Don",
+     "points": 170.62,
+     "projected": 140.03,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "TDs and beer",
+     "manager": "JP",
+     "points": 123.52,
+     "projected": 138.37,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "week": 16,
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Suck a Dick",
+     "manager": "--hidden-- (2014: Suck a Dick)",
+     "points": 107.4,
+     "projected": 122.28,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "peter's Team",
+     "manager": "peter",
+     "points": 80.52,
+     "projected": 129.53,
+     "won": false
+    }
+   ],
+   "winner": "--hidden-- (2014: Suck a Dick)"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fantasy_content xml:lang="en-US" yahoo:uri="http://pub-api-ro.fantasysports.yahoo.com/fantasy/v2/game/314" time="9.7110271453857ms" copyright="Certain Data by Sportradar, Stats Perform and Rotowire" refresh_rate="30" xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" xmlns="http://fantasysports.yahooapis.com/fantasy/v2/base.rng">
+ <game>
+  <game_key>314</game_key>
+  <game_id>314</game_id>
+  <name>Football</name>
+  <code>nfl</code>
+  <type>full</type>
+  <url>https://football.fantasysports.yahoo.com/2013/f1</url>
+  <season>2013</season>
+  <is_registration_over>1</is_registration_over>
+  <is_game_over>1</is_game_over>
+  <is_offseason>1</is_offseason>
+ </game>
+</fantasy_content>
+<!-- fantasy-sports-api- -pub-base-production-use1-6b5588d6fb-bwpp2 Tue Oct 13 14:29:27 UTC 2026 -->

@@ -1,0 +1,270 @@
+{
+ "season": 2012,
+ "week": 3,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "donblood",
+     "points": 185.2,
+     "projected": 139.9,
+     "won": true
+    },
+    {
+     "team_id": 4,
+     "team": "Allstar Burns",
+     "manager": "DVTV",
+     "points": 112.05,
+     "projected": 142.31,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Victorious Secret",
+     "manager": "Daniel",
+     "points": 92.0,
+     "projected": 146.19,
+     "won": false
+    },
+    {
+     "team_id": 3,
+     "team": "AnyHolesTheGoal",
+     "manager": "keveezy",
+     "points": 102.35,
+     "projected": 143.02,
+     "won": true
+    }
+   ],
+   "winner": "keveezy"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "THE FATBOIS",
+     "manager": "anth0nyng",
+     "points": 127.15,
+     "projected": 140.23,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 83.45,
+     "projected": 129.56,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Multiple Scorgasms",
+     "manager": "Vu Le",
+     "points": 105.75,
+     "projected": 144.93,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 167.9,
+     "projected": 137.88,
+     "won": true
+    }
+   ],
+   "winner": "matthew"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Tits Mcgee",
+     "manager": "bvincenttt",
+     "points": 115.15,
+     "projected": 130.84,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GameChanger",
+     "manager": "--hidden-- (2012: GameChanger)",
+     "points": 66.25,
+     "projected": 129.67,
+     "won": false
+    }
+   ],
+   "winner": "bvincenttt"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "donblood",
+   "team": "Jerry Sanduskys",
+   "points": 185.2
+  },
+  "low_score": {
+   "manager": "--hidden-- (2012: GameChanger)",
+   "team": "GameChanger",
+   "points": 66.25
+  },
+  "closest_game": {
+   "winner": "keveezy",
+   "winner_points": 102.35,
+   "loser": "Daniel",
+   "loser_points": 92.0,
+   "margin": 10.35
+  },
+  "biggest_blowout": {
+   "winner": "donblood",
+   "winner_points": 185.2,
+   "loser": "DVTV",
+   "loser_points": 112.05,
+   "margin": 73.15
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "donblood",
+   "team": "Jerry Sanduskys",
+   "record": "3-0",
+   "points_for": 452.2,
+   "points_against": 378.15,
+   "streak": "W3",
+   "week_points": 185.2,
+   "week_result": "W",
+   "opponent": "DVTV"
+  },
+  {
+   "rank": 2,
+   "manager": "matthew",
+   "team": "goon squad",
+   "record": "2-1",
+   "points_for": 428.05,
+   "points_against": 375.45,
+   "streak": "W2",
+   "week_points": 167.9,
+   "week_result": "W",
+   "opponent": "Vu Le"
+  },
+  {
+   "rank": 3,
+   "manager": "anth0nyng",
+   "team": "THE FATBOIS",
+   "record": "2-1",
+   "points_for": 345.15,
+   "points_against": 301.0,
+   "streak": "W1",
+   "week_points": 127.15,
+   "week_result": "W",
+   "opponent": "tho"
+  },
+  {
+   "rank": 4,
+   "manager": "bvincenttt",
+   "team": "Tits Mcgee",
+   "record": "2-1",
+   "points_for": 340.5,
+   "points_against": 290.85,
+   "streak": "W2",
+   "week_points": 115.15,
+   "week_result": "W",
+   "opponent": "--hidden-- (2012: GameChanger)"
+  },
+  {
+   "rank": 5,
+   "manager": "tho",
+   "team": "BradyOverBitches",
+   "record": "2-1",
+   "points_for": 334.15,
+   "points_against": 350.2,
+   "streak": "L1",
+   "week_points": 83.45,
+   "week_result": "L",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 6,
+   "manager": "Vu Le",
+   "team": "Multiple Scorgasms",
+   "record": "1-2",
+   "points_for": 389.75,
+   "points_against": 452.7,
+   "streak": "L2",
+   "week_points": 105.75,
+   "week_result": "L",
+   "opponent": "matthew"
+  },
+  {
+   "rank": 7,
+   "manager": "Daniel",
+   "team": "Victorious Secret",
+   "record": "1-2",
+   "points_for": 378.0,
+   "points_against": 361.2,
+   "streak": "L1",
+   "week_points": 92.0,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 8,
+   "manager": "keveezy",
+   "team": "AnyHolesTheGoal",
+   "record": "1-2",
+   "points_for": 373.15,
+   "points_against": 365.7,
+   "streak": "W1",
+   "week_points": 102.35,
+   "week_result": "W",
+   "opponent": "Daniel"
+  },
+  {
+   "rank": 9,
+   "manager": "DVTV",
+   "team": "Allstar Burns",
+   "record": "1-2",
+   "points_for": 347.1,
+   "points_against": 409.9,
+   "streak": "L2",
+   "week_points": 112.05,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 10,
+   "manager": "--hidden-- (2012: GameChanger)",
+   "team": "GameChanger",
+   "record": "0-3",
+   "points_for": 322.65,
+   "points_against": 425.55,
+   "streak": "L3",
+   "week_points": 66.25,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "season": 2011,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "The Nick Folks",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 122.56,
+     "projected": 121.47,
+     "won": true
+    },
+    {
+     "team_id": 6,
+     "team": "Screaming Queef Ball",
+     "manager": "Don",
+     "points": 99.2,
+     "projected": 117.16,
+     "won": false
+    }
+   ],
+   "winner": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "RSex",
+     "manager": "Muso (Lan Doan)",
+     "points": 81.76,
+     "projected": 94.07,
+     "won": false
+    },
+    {
+     "team_id": 5,
+     "team": "Public Enemy",
+     "manager": "Kevin D",
+     "points": 118.36,
+     "projected": 99.53,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "heropool",
+     "manager": "Daniel Vu",
+     "points": 133.24,
+     "projected": 99.59,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Ouchy",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 118.04,
+     "projected": 115.05,
+     "won": false
+    }
+   ],
+   "winner": "Daniel Vu"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 8,
+     "team": "Fat Pepperoni Nipple",
+     "manager": "Jimmy",
+     "points": 114.58,
+     "projected": 105.93,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 114.4,
+     "projected": 111.53,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Daniel Vu",
+   "team": "heropool",
+   "points": 133.24
+  },
+  "low_score": {
+   "manager": "Muso (Lan Doan)",
+   "team": "RSex",
+   "points": 81.76
+  },
+  "closest_game": {
+   "winner": "Jimmy",
+   "winner_points": 114.58,
+   "loser": "tho",
+   "loser_points": 114.4,
+   "margin": 0.18
+  },
+  "biggest_blowout": {
+   "winner": "Kevin D",
+   "winner_points": 118.36,
+   "loser": "Muso (Lan Doan)",
+   "loser_points": 81.76,
+   "margin": 36.6
+  }
+ }
+}

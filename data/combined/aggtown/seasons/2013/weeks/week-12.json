@@ -1,0 +1,317 @@
+{
+ "season": 2013,
+ "week": 12,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "DonBlood",
+     "manager": "donblood",
+     "points": 96.72,
+     "projected": 116.05,
+     "won": true
+    },
+    {
+     "team_id": 2,
+     "team": "Pepperoni Nipples",
+     "manager": "jimbo817",
+     "points": 83.1,
+     "projected": 101.34,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "69ers",
+     "manager": "Daniel",
+     "points": 158.98,
+     "projected": 129.62,
+     "won": true
+    },
+    {
+     "team_id": 11,
+     "team": "AnyHolesDaGoal",
+     "manager": "KevinN",
+     "points": 72.96,
+     "projected": 97.42,
+     "won": false
+    }
+   ],
+   "winner": "Daniel"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Quik Fix",
+     "manager": "Vu Le",
+     "points": 92.76,
+     "projected": 105.7,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "FATBOIS",
+     "manager": "anth0nyng",
+     "points": 90.22,
+     "projected": 81.12,
+     "won": false
+    }
+   ],
+   "winner": "Vu Le"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "I Make Fuck on You",
+     "manager": "--hidden-- (2013: I Make Fuck on You)",
+     "points": 106.2,
+     "projected": 95.83,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Oohhh Kill Em'",
+     "manager": "wabaki (Lan Doan)",
+     "points": 62.48,
+     "projected": 88.87,
+     "won": false
+    }
+   ],
+   "winner": "--hidden-- (2013: I Make Fuck on You)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Muff Diving Champ",
+     "manager": "Josh",
+     "points": 87.36,
+     "projected": 89.81,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "Dingleberry Pickers",
+     "manager": "bvincenttt",
+     "points": 109.36,
+     "projected": 89.6,
+     "won": true
+    }
+   ],
+   "winner": "bvincenttt"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "Suck4Luck",
+     "manager": "keveezy",
+     "points": 170.78,
+     "projected": 112.95,
+     "won": true
+    },
+    {
+     "team_id": 12,
+     "team": "Peter's Team",
+     "manager": "peter",
+     "points": 107.76,
+     "projected": 102.83,
+     "won": false
+    }
+   ],
+   "winner": "keveezy"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "keveezy",
+   "team": "Suck4Luck",
+   "points": 170.78
+  },
+  "low_score": {
+   "manager": "wabaki (Lan Doan)",
+   "team": "Oohhh Kill Em'",
+   "points": 62.48
+  },
+  "closest_game": {
+   "winner": "Vu Le",
+   "winner_points": 92.76,
+   "loser": "anth0nyng",
+   "loser_points": 90.22,
+   "margin": 2.54
+  },
+  "biggest_blowout": {
+   "winner": "Daniel",
+   "winner_points": 158.98,
+   "loser": "KevinN",
+   "loser_points": 72.96,
+   "margin": 86.02
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "peter",
+   "team": "Peter's Team",
+   "record": "10-2",
+   "points_for": 1598.54,
+   "points_against": 1277.26,
+   "streak": "L1",
+   "week_points": 107.76,
+   "week_result": "L",
+   "opponent": "keveezy"
+  },
+  {
+   "rank": 2,
+   "manager": "donblood",
+   "team": "DonBlood",
+   "record": "8-4",
+   "points_for": 1565.48,
+   "points_against": 1281.24,
+   "streak": "W1",
+   "week_points": 96.72,
+   "week_result": "W",
+   "opponent": "jimbo817"
+  },
+  {
+   "rank": 3,
+   "manager": "keveezy",
+   "team": "Suck4Luck",
+   "record": "7-5",
+   "points_for": 1508.28,
+   "points_against": 1453.0,
+   "streak": "W2",
+   "week_points": 170.78,
+   "week_result": "W",
+   "opponent": "peter"
+  },
+  {
+   "rank": 4,
+   "manager": "Daniel",
+   "team": "69ers",
+   "record": "7-5",
+   "points_for": 1486.7,
+   "points_against": 1261.54,
+   "streak": "W1",
+   "week_points": 158.98,
+   "week_result": "W",
+   "opponent": "KevinN"
+  },
+  {
+   "rank": 5,
+   "manager": "Vu Le",
+   "team": "Quik Fix",
+   "record": "7-5",
+   "points_for": 1415.88,
+   "points_against": 1299.64,
+   "streak": "W1",
+   "week_points": 92.76,
+   "week_result": "W",
+   "opponent": "anth0nyng"
+  },
+  {
+   "rank": 6,
+   "manager": "wabaki (Lan Doan)",
+   "team": "Oohhh Kill Em'",
+   "record": "7-5",
+   "points_for": 1334.72,
+   "points_against": 1357.84,
+   "streak": "L1",
+   "week_points": 62.48,
+   "week_result": "L",
+   "opponent": "--hidden-- (2013: I Make Fuck on You)"
+  },
+  {
+   "rank": 7,
+   "manager": "jimbo817",
+   "team": "Pepperoni Nipples",
+   "record": "6-6",
+   "points_for": 1444.64,
+   "points_against": 1409.54,
+   "streak": "L2",
+   "week_points": 83.1,
+   "week_result": "L",
+   "opponent": "donblood"
+  },
+  {
+   "rank": 8,
+   "manager": "--hidden-- (2013: I Make Fuck on You)",
+   "team": "I Make Fuck on You",
+   "record": "6-6",
+   "points_for": 1342.28,
+   "points_against": 1304.4,
+   "streak": "W4",
+   "week_points": 106.2,
+   "week_result": "W",
+   "opponent": "wabaki (Lan Doan)"
+  },
+  {
+   "rank": 9,
+   "manager": "KevinN",
+   "team": "AnyHolesDaGoal",
+   "record": "5-7",
+   "points_for": 1328.02,
+   "points_against": 1507.9,
+   "streak": "L1",
+   "week_points": 72.96,
+   "week_result": "L",
+   "opponent": "Daniel"
+  },
+  {
+   "rank": 10,
+   "manager": "anth0nyng",
+   "team": "FATBOIS",
+   "record": "5-7",
+   "points_for": 1327.28,
+   "points_against": 1467.1,
+   "streak": "L1",
+   "week_points": 90.22,
+   "week_result": "L",
+   "opponent": "Vu Le"
+  },
+  {
+   "rank": 11,
+   "manager": "bvincenttt",
+   "team": "Dingleberry Pickers",
+   "record": "3-9",
+   "points_for": 1157.9,
+   "points_against": 1443.38,
+   "streak": "W1",
+   "week_points": 109.36,
+   "week_result": "W",
+   "opponent": "Josh"
+  },
+  {
+   "rank": 12,
+   "manager": "Josh",
+   "team": "Muff Diving Champ",
+   "record": "1-11",
+   "points_for": 881.02,
+   "points_against": 1327.9,
+   "streak": "L6",
+   "week_points": 87.36,
+   "week_result": "L",
+   "opponent": "bvincenttt"
+  }
+ ]
+}

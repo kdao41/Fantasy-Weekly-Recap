@@ -1,0 +1,148 @@
+{
+ "season": 2012,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Jerry Sanduskys",
+     "manager": "donblood",
+     "points": 162.75,
+     "projected": 131.15,
+     "won": true
+    },
+    {
+     "team_id": 3,
+     "team": "AnyHolesTheGoal",
+     "manager": "keveezy",
+     "points": 121.65,
+     "projected": 139.79,
+     "won": false
+    }
+   ],
+   "winner": "donblood"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Victorious Secret",
+     "manager": "Daniel",
+     "points": 120.25,
+     "projected": 139.97,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "GameChanger",
+     "manager": "--hidden-- (2012: GameChanger)",
+     "points": 102.35,
+     "projected": 76.31,
+     "won": false
+    }
+   ],
+   "winner": "Daniel"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Allstar Burns",
+     "manager": "DVTV",
+     "points": 118.15,
+     "projected": 127.9,
+     "won": false
+    },
+    {
+     "team_id": 9,
+     "team": "BradyOverBitches",
+     "manager": "tho",
+     "points": 138.7,
+     "projected": 112.66,
+     "won": true
+    }
+   ],
+   "winner": "tho"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "THE FATBOIS",
+     "manager": "anth0nyng",
+     "points": 102.25,
+     "projected": 115.71,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "Tits Mcgee",
+     "manager": "bvincenttt",
+     "points": 81.85,
+     "projected": 98.36,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Multiple Scorgasms",
+     "manager": "Vu Le",
+     "points": 151.85,
+     "projected": 169.25,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "goon squad",
+     "manager": "matthew",
+     "points": 88.7,
+     "projected": 116.18,
+     "won": false
+    }
+   ],
+   "winner": "Vu Le"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "donblood",
+   "team": "Jerry Sanduskys",
+   "points": 162.75
+  },
+  "low_score": {
+   "manager": "bvincenttt",
+   "team": "Tits Mcgee",
+   "points": 81.85
+  },
+  "closest_game": {
+   "winner": "Daniel",
+   "winner_points": 120.25,
+   "loser": "--hidden-- (2012: GameChanger)",
+   "loser_points": 102.35,
+   "margin": 17.9
+  },
+  "biggest_blowout": {
+   "winner": "Vu Le",
+   "winner_points": 151.85,
+   "loser": "matthew",
+   "loser_points": 88.7,
+   "margin": 63.15
+  }
+ }
+}

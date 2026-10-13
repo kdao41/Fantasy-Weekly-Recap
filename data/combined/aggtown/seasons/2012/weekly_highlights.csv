@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2012,1,False,Vu Le,166.15,bvincenttt,80.15,donblood over Daniel by 0.3,DVTV over matthew by 35.7
+2012,2,False,bvincenttt,145.2,DVTV,76.6,donblood over keveezy by 0.6,Daniel over --hidden-- (2012: GameChanger) by 27.45
+2012,3,False,donblood,185.2,--hidden-- (2012: GameChanger),66.25,keveezy over Daniel by 10.35,donblood over DVTV by 73.15
+2012,4,False,keveezy,147.65,DVTV,89.6,Vu Le over tho by 11.8,Daniel over DVTV by 41.55
+2012,5,False,Vu Le,189.7,--hidden-- (2012: GameChanger),78.95,bvincenttt over tho by 15.1,matthew over --hidden-- (2012: GameChanger) by 56.85
+2012,6,False,matthew,190.45,--hidden-- (2012: GameChanger),82.15,Daniel over Vu Le by 13.85,keveezy over anth0nyng by 57.65
+2012,7,False,Vu Le,155.25,donblood,77.15,anth0nyng over DVTV by 2.95,tho over --hidden-- (2012: GameChanger) by 41.65
+2012,8,False,Vu Le,147.75,bvincenttt,91.35,--hidden-- (2012: GameChanger) over anth0nyng by 12.75,Vu Le over DVTV by 35.8
+2012,9,False,keveezy,167.1,--hidden-- (2012: GameChanger),61.0,DVTV over bvincenttt by 28.35,donblood over --hidden-- (2012: GameChanger) by 92.95
+2012,10,False,keveezy,161.45,bvincenttt,56.75,keveezy over tho by 1.1,Vu Le over --hidden-- (2012: GameChanger) by 91.45
+2012,11,False,bvincenttt,141.0,tho,74.75,keveezy over donblood by 4.45,anth0nyng over matthew by 46.15
+2012,12,False,donblood,169.65,DVTV,79.1,keveezy over Daniel by 17.45,donblood over DVTV by 90.55
+2012,13,False,Vu Le,174.65,--hidden-- (2012: GameChanger),63.2,anth0nyng over donblood by 3.45,keveezy over --hidden-- (2012: GameChanger) by 77.3
+2012,14,True,donblood,130.2,anth0nyng,76.0,matthew over anth0nyng by 23.1,donblood over bvincenttt by 26.5
+2012,15,True,donblood,162.75,bvincenttt,81.85,Daniel over --hidden-- (2012: GameChanger) by 17.9,Vu Le over matthew by 63.15
+2012,16,True,donblood,194.9,--hidden-- (2012: GameChanger),80.55,keveezy over matthew by 23.7,donblood over Vu Le by 70.6

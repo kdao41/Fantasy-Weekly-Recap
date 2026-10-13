@@ -9,7 +9,7 @@ Built by `python3 scripts/sleeper_export.py combine <league>` from:
 
 | Folder | Seasons | From Yahoo | From Sleeper |
 |---|---|---|---|
-| `aggtown/` | 11 | 2015 to 2022 | 2023 to 2025 |
+| `aggtown/` | 16 | 2010 to 2022 | 2023 to 2025 |
 | `sobergang/` | 7 | 2019 to 2023 (as "Nooblets") | 2024 to 2025 |
 
 If a year exists on both platforms (Yahoo auto-renews leagues nobody plays), the Sleeper season
@@ -30,7 +30,8 @@ like `1257116455862808576`.
 `managers.json` is keyed by one id per person:
 
 - Yahoo-era people: their Yahoo guid (e.g. `4O3C5BHIQCYX5O7EKHWFWKINKU`). Their Sleeper seasons
-  are attached to the same guid through `leagues.json` `people`.
+  are attached to the same guid through `leagues.json` `people`. Someone who switched Yahoo
+  accounts is filed under their newest guid (`leagues.json` `same_person`).
 - Sleeper-only people: `sleeper:<user_id>` (e.g. Aggtown's `bAnmly`, Bryan, 2024 only).
 - A Yahoo manager who hid their profile: `unknown-<season>-team<id>`.
 

@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2011,1,False,--hidden-- (2010: Peter'sClap),123.76,donblood,88.28,jimbo817 over donblood by 7.88,anth0nyng over Kevin by 29.38
+2011,2,False,tho,166.82,--hidden-- (2010: Peter'sClap),88.48,DVTV over Kevin by 1.88,tho over donblood by 49.2
+2011,3,False,--hidden-- (2010: Peter'sClap),163.56,keveezy,58.84,--hidden-- (2011: iSuck) over anth0nyng by 8.26,--hidden-- (2010: Peter'sClap) over Kevin by 96.12
+2011,4,False,donblood,167.52,wabaki (Lan Doan),80.54,DVTV over --hidden-- (2010: Peter'sClap) by 2.3,donblood over Kevin by 46.74
+2011,5,False,keveezy,128.7,DVTV,69.46,keveezy over tho by 6.96,anth0nyng over DVTV by 51.9
+2011,6,False,jimbo817,117.72,--hidden-- (2011: iSuck),84.46,DVTV over donblood by 10.78,jimbo817 over --hidden-- (2011: iSuck) by 33.26
+2011,7,False,jimbo817,131.3,--hidden-- (2010: Peter'sClap),61.98,keveezy over --hidden-- (2010: Peter'sClap) by 3.86,wabaki (Lan Doan) over donblood by 42.94
+2011,8,False,tho,127.12,wabaki (Lan Doan),62.0,--hidden-- (2010: Peter'sClap) over jimbo817 by 0.18,tho over wabaki (Lan Doan) by 65.12
+2011,9,False,donblood,141.18,DVTV,82.96,--hidden-- (2010: Peter'sClap) over tho by 0.62,donblood over --hidden-- (2011: iSuck) by 52.74
+2011,10,False,anth0nyng,143.3,keveezy,63.82,DVTV over --hidden-- (2011: iSuck) by 11.62,anth0nyng over donblood by 27.5
+2011,11,False,Kevin,124.4,--hidden-- (2011: iSuck),54.22,tho over DVTV by 12.26,keveezy over anth0nyng by 32.48
+2011,12,False,--hidden-- (2010: Peter'sClap),135.2,Kevin,67.92,DVTV over keveezy by 3.6,--hidden-- (2010: Peter'sClap) over Kevin by 67.28
+2011,13,False,anth0nyng,137.26,keveezy,78.5,DVTV over jimbo817 by 11.24,Kevin over keveezy by 36.88
+2011,14,True,donblood,138.34,jimbo817,96.98,anth0nyng over --hidden-- (2010: Peter'sClap) by 14.66,donblood over DVTV by 32.66
+2011,15,True,DVTV,133.24,wabaki (Lan Doan),81.76,jimbo817 over tho by 0.18,keveezy over wabaki (Lan Doan) by 36.6
+2011,16,True,keveezy,116.52,anth0nyng,81.4,DVTV over jimbo817 by 9.94,keveezy over anth0nyng by 35.12

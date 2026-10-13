@@ -1,0 +1,11 @@
+season,manager,team,final_rank,playoff_seed,made_playoffs,regular_season_record,playoff_record,consolation_record,total_record,total_wins,total_losses,total_ties,regular_wins,regular_losses,regular_ties,playoff_wins,playoff_losses,points_for,points_against
+2012,Don,Jerry Sanduskys,1,5,True,7-6,3-0,0-0,10-6,10,6,0,7,6,0,3,0,1775.45,1589.55
+2012,Vu Le,Multiple Scorgasms,2,2,True,9-4,1-1,0-0,10-5,10,5,0,9,4,0,1,1,1857.75,1619.35
+2012,Kevin D,AnyHolesTheGoal,3,1,True,10-3,1-1,0-0,11-4,11,4,0,10,3,0,1,1,1889.05,1584.75
+2012,matthew,goon squad,4,6,True,7-6,1-2,0-0,8-8,8,8,0,7,6,0,1,2,1644.05,1608.65
+2012,Anthony (2010: Team Name Here),THE FATBOIS,5,3,True,8-5,1-1,0-0,9-6,9,6,0,8,5,0,1,1,1550.75,1462.4
+2012,Blake (2012: Tits Mcgee),Tits Mcgee,6,4,True,8-5,0-2,0-0,8-7,8,7,0,8,5,0,0,2,1488.8,1409.5
+2012,tho,BradyOverBitches,7,9,False,3-10,0-0,2-0,3-10,3,10,0,3,10,0,0,0,1542.8,1762.45
+2012,Daniel,Victorious Secret,8,7,False,7-6,0-0,1-1,7-6,7,6,0,7,6,0,0,0,1635.65,1616.2
+2012,Daniel Vu,Allstar Burns,9,8,False,4-9,0-0,1-1,4-9,4,9,0,4,9,0,0,0,1464.25,1697.05
+2012,--hidden-- (2012: GameChanger),GameChanger,10,10,False,2-11,0-0,0-2,2-11,2,11,0,2,11,0,0,0,1226.35,1725.0

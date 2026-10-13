@@ -1,0 +1,17 @@
+season,week,is_playoffs,high_score_manager,high_score,low_score_manager,low_score,closest_game,biggest_blowout
+2014,1,False,Jimmy,153.5,Anthony (2010: Team Name Here),87.7,peter over --hidden-- (2014: Suck a Dick) by 3.94,Blake over Anthony (2010: Team Name Here) by 60.14
+2014,2,False,Don,157.44,Kevin D,86.96,--hidden-- (2014: Suck a Dick) over Cody by 4.36,peter over Muso (Lan Doan) by 22.8
+2014,3,False,Jimmy,139.4,Cody,92.52,Kevin D over Don by 0.36,Jimmy over Anthony (2010: Team Name Here) by 42.8
+2014,4,False,Don,156.08,Muso (Lan Doan),72.92,Cody over JP by 4.24,Don over Jimmy by 40.66
+2014,5,False,--hidden-- (2014: Suck a Dick),156.74,Muso (Lan Doan),90.94,Kevin D over Blake by 14.48,Cody over Anthony (2010: Team Name Here) by 48.26
+2014,6,False,--hidden-- (2014: Suck a Dick),163.34,peter,101.06,Blake over Jimmy by 1.54,--hidden-- (2014: Suck a Dick) over Muso (Lan Doan) by 62.14
+2014,7,False,Blake,145.84,Anthony (2010: Team Name Here),84.7,Blake over --hidden-- (2014: Suck a Dick) by 26.92,Kevin D over Jimmy by 53.68
+2014,8,False,Blake,193.56,Anthony (2010: Team Name Here),80.94,JP over Muso (Lan Doan) by 10.44,Don over Anthony (2010: Team Name Here) by 73.22
+2014,9,False,--hidden-- (2014: Suck a Dick),194.0,Muso (Lan Doan),73.32,Kevin D over Cody by 7.4,JP over Blake by 26.22
+2014,10,False,peter,176.1,Anthony (2010: Team Name Here),94.14,Cody over Jimmy by 7.32,peter over --hidden-- (2014: Suck a Dick) by 38.88
+2014,11,False,peter,159.54,JP,88.1,Don over Blake by 1.48,peter over Muso (Lan Doan) by 58.32
+2014,12,False,Muso (Lan Doan),151.76,Blake,110.24,JP over --hidden-- (2014: Suck a Dick) by 0.18,Muso (Lan Doan) over Blake by 41.52
+2014,13,False,JP,163.18,Anthony (2010: Team Name Here),74.06,Kevin D over Muso (Lan Doan) by 7.1,--hidden-- (2014: Suck a Dick) over Anthony (2010: Team Name Here) by 75.94
+2014,14,True,Don,168.7,Blake,114.42,JP over Kevin D by 5.92,Don over Blake by 54.28
+2014,15,True,Jimmy,159.68,Anthony (2010: Team Name Here),67.0,Kevin D over Blake by 10.26,Jimmy over Cody by 54.46
+2014,16,True,Don,170.62,peter,80.52,Cody over Anthony (2010: Team Name Here) by 6.7,Jimmy over Muso (Lan Doan) by 53.64

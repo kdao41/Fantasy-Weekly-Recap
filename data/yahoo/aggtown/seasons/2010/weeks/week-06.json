@@ -1,0 +1,411 @@
+{
+ "season": 2010,
+ "week": 6,
+ "is_playoffs": false,
+ "matchups": [
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Team Name Here",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 106.42,
+     "projected": 91.52,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "RAINNN",
+     "manager": "--hidden-- (2010: RAINNN)",
+     "points": 50.98,
+     "projected": 61.18,
+     "won": false
+    }
+   ],
+   "winner": "Anthony (2010: Team Name Here)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Peter'sClap",
+     "manager": "--hidden-- (2010: Peter'sClap)",
+     "points": 70.6,
+     "projected": 75.21,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "StankyyyLeggg",
+     "manager": "tho",
+     "points": 59.38,
+     "projected": 86.99,
+     "won": false
+    }
+   ],
+   "winner": "--hidden-- (2010: Peter'sClap)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Gig 'Em",
+     "manager": "Jimmy N",
+     "points": 72.84,
+     "projected": 80.55,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "ShiromaShogun",
+     "manager": "Bryan",
+     "points": 71.16,
+     "projected": 92.01,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy N"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Sexy beasts",
+     "manager": "Long Nguyen",
+     "points": 88.84,
+     "projected": 81.76,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "DUUUUUUUDE.",
+     "manager": "Kevin D",
+     "points": 86.52,
+     "projected": 73.54,
+     "won": false
+    }
+   ],
+   "winner": "Long Nguyen"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "FTW",
+     "manager": "Michael Luong",
+     "points": 51.8,
+     "projected": 52.49,
+     "won": true
+    },
+    {
+     "team_id": 13,
+     "team": "hail yeah",
+     "manager": "--hidden-- (2010: hail yeah)",
+     "points": 48.1,
+     "projected": 58.72,
+     "won": false
+    }
+   ],
+   "winner": "Michael Luong"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Skeetsauce",
+     "manager": "Don",
+     "points": 66.5,
+     "projected": 69.38,
+     "won": false
+    },
+    {
+     "team_id": 14,
+     "team": "Punani",
+     "manager": "--hidden-- (2010: Punani)",
+     "points": 67.3,
+     "projected": 76.58,
+     "won": true
+    }
+   ],
+   "winner": "--hidden-- (2010: Punani)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 11,
+     "team": "iSuck",
+     "manager": "--hidden-- (2010: iSuck)",
+     "points": 124.72,
+     "projected": 95.5,
+     "won": true
+    },
+    {
+     "team_id": 15,
+     "team": "danielvu",
+     "manager": "Daniel Vu",
+     "points": 72.16,
+     "projected": 76.08,
+     "won": false
+    }
+   ],
+   "winner": "--hidden-- (2010: iSuck)"
+  },
+  {
+   "is_playoffs": false,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 12,
+     "team": "THEshit",
+     "manager": "--hidden-- (2010: THEshit)",
+     "points": 81.9,
+     "projected": 84.9,
+     "won": false
+    },
+    {
+     "team_id": 16,
+     "team": "lampham",
+     "manager": "mrlampham",
+     "points": 93.18,
+     "projected": 87.7,
+     "won": true
+    }
+   ],
+   "winner": "mrlampham"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "--hidden-- (2010: iSuck)",
+   "team": "iSuck",
+   "points": 124.72
+  },
+  "low_score": {
+   "manager": "--hidden-- (2010: hail yeah)",
+   "team": "hail yeah",
+   "points": 48.1
+  },
+  "closest_game": {
+   "winner": "--hidden-- (2010: Punani)",
+   "winner_points": 67.3,
+   "loser": "Don",
+   "loser_points": 66.5,
+   "margin": 0.8
+  },
+  "biggest_blowout": {
+   "winner": "Anthony (2010: Team Name Here)",
+   "winner_points": 106.42,
+   "loser": "--hidden-- (2010: RAINNN)",
+   "loser_points": 50.98,
+   "margin": 55.44
+  }
+ },
+ "standings_after_week": [
+  {
+   "rank": 1,
+   "manager": "--hidden-- (2010: iSuck)",
+   "team": "iSuck",
+   "record": "5-1",
+   "points_for": 648.94,
+   "points_against": 398.22,
+   "streak": "W2",
+   "week_points": 124.72,
+   "week_result": "W",
+   "opponent": "Daniel Vu"
+  },
+  {
+   "rank": 2,
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "Team Name Here",
+   "record": "5-1",
+   "points_for": 556.28,
+   "points_against": 442.36,
+   "streak": "W3",
+   "week_points": 106.42,
+   "week_result": "W",
+   "opponent": "--hidden-- (2010: RAINNN)"
+  },
+  {
+   "rank": 3,
+   "manager": "Jimmy N",
+   "team": "Gig 'Em",
+   "record": "5-1",
+   "points_for": 524.88,
+   "points_against": 425.66,
+   "streak": "W4",
+   "week_points": 72.84,
+   "week_result": "W",
+   "opponent": "Bryan"
+  },
+  {
+   "rank": 4,
+   "manager": "mrlampham",
+   "team": "lampham",
+   "record": "4-2",
+   "points_for": 577.14,
+   "points_against": 518.24,
+   "streak": "W1",
+   "week_points": 93.18,
+   "week_result": "W",
+   "opponent": "--hidden-- (2010: THEshit)"
+  },
+  {
+   "rank": 5,
+   "manager": "Bryan",
+   "team": "ShiromaShogun",
+   "record": "4-2",
+   "points_for": 550.22,
+   "points_against": 446.16,
+   "streak": "L1",
+   "week_points": 71.16,
+   "week_result": "L",
+   "opponent": "Jimmy N"
+  },
+  {
+   "rank": 6,
+   "manager": "--hidden-- (2010: Punani)",
+   "team": "Punani",
+   "record": "4-2",
+   "points_for": 460.34,
+   "points_against": 446.98,
+   "streak": "W1",
+   "week_points": 67.3,
+   "week_result": "W",
+   "opponent": "Don"
+  },
+  {
+   "rank": 7,
+   "manager": "Long Nguyen",
+   "team": "Sexy beasts",
+   "record": "3-3",
+   "points_for": 513.86,
+   "points_against": 521.46,
+   "streak": "W1",
+   "week_points": 88.84,
+   "week_result": "W",
+   "opponent": "Kevin D"
+  },
+  {
+   "rank": 8,
+   "manager": "Don",
+   "team": "Skeetsauce",
+   "record": "3-3",
+   "points_for": 475.06,
+   "points_against": 391.84,
+   "streak": "L1",
+   "week_points": 66.5,
+   "week_result": "L",
+   "opponent": "--hidden-- (2010: Punani)"
+  },
+  {
+   "rank": 9,
+   "manager": "Michael Luong",
+   "team": "FTW",
+   "record": "3-3",
+   "points_for": 424.9,
+   "points_against": 452.3,
+   "streak": "W2",
+   "week_points": 51.8,
+   "week_result": "W",
+   "opponent": "--hidden-- (2010: hail yeah)"
+  },
+  {
+   "rank": 10,
+   "manager": "--hidden-- (2010: hail yeah)",
+   "team": "hail yeah",
+   "record": "2-4",
+   "points_for": 434.52,
+   "points_against": 477.24,
+   "streak": "L1",
+   "week_points": 48.1,
+   "week_result": "L",
+   "opponent": "Michael Luong"
+  },
+  {
+   "rank": 11,
+   "manager": "--hidden-- (2010: THEshit)",
+   "team": "THEshit",
+   "record": "2-4",
+   "points_for": 425.9,
+   "points_against": 490.58,
+   "streak": "L2",
+   "week_points": 81.9,
+   "week_result": "L",
+   "opponent": "mrlampham"
+  },
+  {
+   "rank": 12,
+   "manager": "Daniel Vu",
+   "team": "danielvu",
+   "record": "2-4",
+   "points_for": 415.66,
+   "points_against": 569.88,
+   "streak": "L1",
+   "week_points": 72.16,
+   "week_result": "L",
+   "opponent": "--hidden-- (2010: iSuck)"
+  },
+  {
+   "rank": 13,
+   "manager": "tho",
+   "team": "StankyyyLeggg",
+   "record": "2-4",
+   "points_for": 395.92,
+   "points_against": 464.7,
+   "streak": "L2",
+   "week_points": 59.38,
+   "week_result": "L",
+   "opponent": "--hidden-- (2010: Peter'sClap)"
+  },
+  {
+   "rank": 14,
+   "manager": "--hidden-- (2010: Peter'sClap)",
+   "team": "Peter'sClap",
+   "record": "2-4",
+   "points_for": 352.32,
+   "points_against": 417.42,
+   "streak": "W1",
+   "week_points": 70.6,
+   "week_result": "W",
+   "opponent": "tho"
+  },
+  {
+   "rank": 15,
+   "manager": "Kevin D",
+   "team": "DUUUUUUUDE.",
+   "record": "1-5",
+   "points_for": 462.94,
+   "points_against": 564.52,
+   "streak": "L2",
+   "week_points": 86.52,
+   "week_result": "L",
+   "opponent": "Long Nguyen"
+  },
+  {
+   "rank": 16,
+   "manager": "--hidden-- (2010: RAINNN)",
+   "team": "RAINNN",
+   "record": "1-5",
+   "points_for": 373.74,
+   "points_against": 565.06,
+   "streak": "L4",
+   "week_points": 50.98,
+   "week_result": "L",
+   "opponent": "Anthony (2010: Team Name Here)"
+  }
+ ]
+}

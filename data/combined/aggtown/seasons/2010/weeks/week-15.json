@@ -1,0 +1,125 @@
+{
+ "season": 2010,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "Team Name Here",
+     "manager": "anth0nyng",
+     "points": 79.98,
+     "projected": 91.19,
+     "won": true
+    },
+    {
+     "team_id": 16,
+     "team": "lampham",
+     "manager": "lmphm",
+     "points": 72.34,
+     "projected": 71.79,
+     "won": false
+    }
+   ],
+   "winner": "anth0nyng"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Gig 'Em",
+     "manager": "jimbo817",
+     "points": 78.52,
+     "projected": 80.9,
+     "won": true
+    },
+    {
+     "team_id": 8,
+     "team": "DUUUUUUUDE.",
+     "manager": "keveezy",
+     "points": 61.6,
+     "projected": 55.92,
+     "won": false
+    }
+   ],
+   "winner": "jimbo817"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 4,
+     "team": "Sexy beasts",
+     "manager": "Long Nguyen",
+     "points": 62.22,
+     "projected": 60.52,
+     "won": true
+    },
+    {
+     "team_id": 14,
+     "team": "Punani",
+     "manager": "--hidden-- (2010: Punani)",
+     "points": 58.66,
+     "projected": 88.06,
+     "won": false
+    }
+   ],
+   "winner": "Long Nguyen"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 7,
+     "team": "ShiromaShogun",
+     "manager": "Bryan",
+     "points": 67.12,
+     "projected": 82.91,
+     "won": false
+    },
+    {
+     "team_id": 11,
+     "team": "iSuck",
+     "manager": "wabaki (Lan Doan)",
+     "points": 112.38,
+     "projected": 112.96,
+     "won": true
+    }
+   ],
+   "winner": "wabaki (Lan Doan)"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "wabaki (Lan Doan)",
+   "team": "iSuck",
+   "points": 112.38
+  },
+  "low_score": {
+   "manager": "--hidden-- (2010: Punani)",
+   "team": "Punani",
+   "points": 58.66
+  },
+  "closest_game": {
+   "winner": "Long Nguyen",
+   "winner_points": 62.22,
+   "loser": "--hidden-- (2010: Punani)",
+   "loser_points": 58.66,
+   "margin": 3.56
+  },
+  "biggest_blowout": {
+   "winner": "wabaki (Lan Doan)",
+   "winner_points": 112.38,
+   "loser": "Bryan",
+   "loser_points": 67.12,
+   "margin": 45.26
+  }
+ }
+}

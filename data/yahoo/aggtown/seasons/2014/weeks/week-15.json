@@ -1,0 +1,148 @@
+{
+ "season": 2014,
+ "week": 15,
+ "is_playoffs": true,
+ "matchups": [
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 1,
+     "team": "donblood",
+     "manager": "Don",
+     "points": 136.4,
+     "projected": 142.16,
+     "won": true
+    },
+    {
+     "team_id": 10,
+     "team": "peter's Team",
+     "manager": "peter",
+     "points": 97.1,
+     "projected": 139.92,
+     "won": false
+    }
+   ],
+   "winner": "Don"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 2,
+     "team": "Womb Raider",
+     "manager": "Muso (Lan Doan)",
+     "points": 78.82,
+     "projected": 128.76,
+     "won": true
+    },
+    {
+     "team_id": 9,
+     "team": "Anthony's Team",
+     "manager": "Anthony (2010: Team Name Here)",
+     "points": 67.0,
+     "projected": 67.26,
+     "won": false
+    }
+   ],
+   "winner": "Muso (Lan Doan)"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 3,
+     "team": "Shake n Blake",
+     "manager": "Blake",
+     "points": 102.92,
+     "projected": 128.56,
+     "won": false
+    },
+    {
+     "team_id": 4,
+     "team": "Suck Dez Nuts",
+     "manager": "Kevin D",
+     "points": 113.18,
+     "projected": 128.8,
+     "won": true
+    }
+   ],
+   "winner": "Kevin D"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": true,
+   "teams": [
+    {
+     "team_id": 5,
+     "team": "Blue Waffle",
+     "manager": "Jimmy",
+     "points": 159.68,
+     "projected": 129.48,
+     "won": true
+    },
+    {
+     "team_id": 7,
+     "team": "ooooooSexy",
+     "manager": "Cody",
+     "points": 105.22,
+     "projected": 128.23,
+     "won": false
+    }
+   ],
+   "winner": "Jimmy"
+  },
+  {
+   "is_playoffs": true,
+   "is_consolation": false,
+   "teams": [
+    {
+     "team_id": 6,
+     "team": "Suck a Dick",
+     "manager": "--hidden-- (2014: Suck a Dick)",
+     "points": 104.3,
+     "projected": 139.57,
+     "won": false
+    },
+    {
+     "team_id": 8,
+     "team": "TDs and beer",
+     "manager": "JP",
+     "points": 145.5,
+     "projected": 150.74,
+     "won": true
+    }
+   ],
+   "winner": "JP"
+  }
+ ],
+ "highlights": {
+  "high_score": {
+   "manager": "Jimmy",
+   "team": "Blue Waffle",
+   "points": 159.68
+  },
+  "low_score": {
+   "manager": "Anthony (2010: Team Name Here)",
+   "team": "Anthony's Team",
+   "points": 67.0
+  },
+  "closest_game": {
+   "winner": "Kevin D",
+   "winner_points": 113.18,
+   "loser": "Blake",
+   "loser_points": 102.92,
+   "margin": 10.26
+  },
+  "biggest_blowout": {
+   "winner": "Jimmy",
+   "winner_points": 159.68,
+   "loser": "Cody",
+   "loser_points": 105.22,
+   "margin": 54.46
+  }
+ }
+}
