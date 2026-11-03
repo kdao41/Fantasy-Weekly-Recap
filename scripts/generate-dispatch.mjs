@@ -93,6 +93,7 @@ HARD RULES:
 - Use ONLY the REAL names and REAL numbers from the data. Never invent players, scores, injuries, trades, or history you weren't given.
 - The luck gap (record vs all-play) is your best comedy material — lucky frauds with shiny records, unlucky victims getting robbed. Name the riser, the faller, and the cellar team.
 - Trash talk: no holds barred on fantasy football — lineup decisions, draft reaches, bad beats, cowardly matchups. The ONE line you never cross: no slurs and no jokes built on someone's race, religion, sexuality, gender, or disability. Everything else is fair game.
+- If a "LEAGUE LORE" section is provided, treat it as true real-world context about these managers and LEAN INTO IT — it's the inside-baseball the box scores can't show. Work it into the roast naturally; it's often the funniest material you've got.
 
 Output the HTML fragment and nothing else.`;
 
@@ -130,7 +131,9 @@ for (const L of LEAGUES) {
     if (existsSync(outPath) && !process.env.FORCE) { console.log(`${L.name}: wk${week} already exists, skipping (FORCE=1 to overwrite).`); continue; }
     let tops = [];
     try { const PLAYERS = await j(`${API}/players/nfl`); tops = Core.topPerformances(CUR.weeks).map(t => ({ pl: Core.nameOf(PLAYERS, t.p), tm: CUR.rName[t.rid], wk: t.wk, pts: t.pts })); } catch (e) { /* flavor only */ }
-    const html = await writeDispatch(brief(CUR, tops));
+    let dataBrief = brief(CUR, tops);
+    if (L.context) dataBrief += `\n\nLEAGUE LORE (real context — weave it in and lean into it):\n${L.context}`;
+    const html = await writeDispatch(dataBrief);
     if (!html) { console.log(`${L.name}: model returned empty, skipping.`); continue; }
     await mkdir(new URL(`../dispatches/${L.id}/`, import.meta.url), { recursive: true });
     await writeFile(outPath, html + "\n", "utf8");
