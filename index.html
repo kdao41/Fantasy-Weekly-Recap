@@ -470,6 +470,10 @@
 </div>
 </div>
 
+<!-- Firebase (compat build) — powers the shared "paid" tracking on the Parlay tab. Harmless if unconfigured. -->
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth-compat.js"></script>
 <script src="lib/almanac-core.js"></script>
 <script>
 //============ CONFIG ============
@@ -508,8 +512,44 @@ const PARLAY_LEAGUES = ["1389735540009500672"]; // Sober Gang
 // The lowest score each week owes that week's parlay. Key = the manager's EXACT Sleeper name (case-insensitive).
 // A number N marks that manager's N most-recent owed weeks as paid.
 const PARLAY_PAID = {
-  "1389735540009500672": { "Abadahh": 2 },   // Sober Gang — Abadahh has paid his last 2 weeks
+  "1389735540009500672": { "Abadahh": 2 },   // Sober Gang — fallback seed if the Firebase backend below isn't set up
 };
+
+/* ============================================================
+   FIREBASE — powers the shared "mark as paid" dropdown on the Parlay tab.
+   Paste your Firebase web config here (Firebase console → Project settings →
+   your web app → SDK setup → Config). Leave apiKey "" to disable the backend,
+   in which case the Parlay tab falls back to the PARLAY_PAID seed above (read-only).
+   Database rules suggestion (read public, only you can write):
+     { "rules": { ".read": true,
+       ".write": "auth != null && auth.token.email == 'YOUR_EMAIL'" } }
+   ============================================================ */
+const FIREBASE_CONFIG = {
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  appId: ""
+};
+let fbdb=null, fbUser=null, fbPaid={}, _fbWatch=null;
+const fbConfigured=()=>!!FIREBASE_CONFIG.apiKey && typeof firebase!=="undefined";
+const fbReady=()=>!!fbdb;
+function initFirebase(){
+  if(!fbConfigured()) return;
+  try{
+    firebase.initializeApp(FIREBASE_CONFIG);
+    fbdb=firebase.database();
+    firebase.auth().onAuthStateChanged(u=>{fbUser=u; if(CUR&&PARLAY_LEAGUES.includes(CUR.id)&&document.querySelector("#sec-parlay")) renderParlay();});
+  }catch(e){ console.warn("Firebase init failed:",e); fbdb=null; }
+}
+// Live-subscribe to one league's paid weeks; re-render the Parlay tab whenever anyone updates them.
+function watchParlayPaid(id){
+  if(!fbReady()) return;
+  if(_fbWatch){ _fbWatch.ref.off("value",_fbWatch.cb); _fbWatch=null; }
+  const ref=fbdb.ref("parlay/"+id+"/paidWeeks");
+  const cb=snap=>{ fbPaid[id]=snap.val()||{}; if(CUR&&CUR.id===id&&document.querySelector("#sec-parlay")) renderParlay(); };
+  ref.on("value",cb); _fbWatch={ref,cb};
+}
 const API="https://api.sleeper.app/v1";
 const $=s=>document.querySelector(s);
 const n1=x=>Math.round(x*10)/10;
@@ -668,7 +708,7 @@ function renderCore(){
   renderDispatch();
   if(CANARY) renderCanary();
   if(SHOTGUN_LEAGUES.includes(CUR.id)) renderShotgun();
-  if(PARLAY_LEAGUES.includes(CUR.id)) renderParlay();
+  if(PARLAY_LEAGUES.includes(CUR.id)){ watchParlayPaid(CUR.id); renderParlay(); }
   if(historyFor(CUR.id)) renderHistory();
 }
 
@@ -706,26 +746,39 @@ function parlayData(){
   const log=Core.weeklyLows(CUR);               // [{wk,p,rids,names}] — lowest each week owes that week's parlay
   const owedWeeks={};                            // name -> [wk,...]
   log.forEach(x=>x.names.forEach(nm=>{(owedWeeks[nm]=owedWeeks[nm]||[]).push(x.wk);}));
-  const paidCfg=PARLAY_PAID[CUR.id]||{};
+  // Which WEEKS are paid. Firebase (shared, everyone sees it) is the source of truth when connected;
+  // otherwise fall back to the baked PARLAY_PAID seed (each manager's N most-recent owed weeks).
+  const paidWk=new Set();
+  if(fbReady()){
+    const fp=fbPaid[CUR.id]||{}; Object.keys(fp).forEach(w=>{ if(fp[w]) paidWk.add(Number(w)); });
+  } else {
+    const cfg=PARLAY_PAID[CUR.id]||{};
+    Object.keys(owedWeeks).forEach(nm=>{
+      const key=Object.keys(cfg).find(k=>nm.toLowerCase()===k.toLowerCase());
+      const n=key?cfg[key]:0;
+      [...owedWeeks[nm]].sort((a,b)=>b-a).slice(0,n).forEach(w=>paidWk.add(w));
+    });
+  }
   const paidCount={};                            // name -> how many of their owed weeks are paid
-  const paidWeeks=new Set();                     // "name@wk" for the specific weeks marked paid
-  Object.keys(owedWeeks).forEach(nm=>{
-    const key=Object.keys(paidCfg).find(k=>nm.toLowerCase()===k.toLowerCase());
-    const n=key?paidCfg[key]:0; paidCount[nm]=n;
-    [...owedWeeks[nm]].sort((a,b)=>b-a).slice(0,n).forEach(w=>paidWeeks.add(nm+"@"+w)); // most-recent N are paid
-  });
-  return {log,owedWeeks,paidCount,paidWeeks};
+  Object.keys(owedWeeks).forEach(nm=>{ paidCount[nm]=owedWeeks[nm].filter(w=>paidWk.has(w)).length; });
+  return {log,owedWeeks,paidCount,paidWk};
+}
+function parlayAdminBar(){
+  if(!fbConfigured()) return `<p class="sub">Showing the built-in paid list. (To mark paid from the site, add the Firebase config — see the comment in index.html.)</p>`;
+  if(!fbReady())      return `<p class="sub">Connecting to the paid tracker…</p>`;
+  if(fbUser)          return `<div class="note" style="margin:10px 0"><label>🔓 COMMISSIONER MODE</label>Signed in as ${esc(fbUser.email||"admin")} — use the <b>Paid</b> dropdowns below; changes show for everyone instantly. <button id="pq-logout" class="tl">Log out</button></div>`;
+  return `<p class="sub"><button id="pq-login" class="tl">🔒 Commissioner login</button> &nbsp;to mark parlays paid (updates the shared board live).</p>`;
 }
 function renderParlay(){
   const sec=$("#sec-parlay"); if(!sec) return;
-  const {log,owedWeeks,paidCount,paidWeeks}=parlayData();
-  if(!log.length){sec.innerHTML="<h2>🎰 Parlay tab</h2><p class='sub'>No completed weeks yet.</p>";return;}
+  const {log,owedWeeks,paidCount,paidWk}=parlayData();
   const paidTag='<span class="badge" style="background:var(--go)">PAID</span>';
   const owesTag=n=>`<span class="badge" style="background:var(--bad)">OWES ${n}</span>`;
-  // board: everyone who's ever owed, most parlays first
+  let h=`<h2>🎰 Parlay tab</h2><p class="sub">Lowest score each week pays for the league parlay. Running tab, live from the box scores.</p>`;
+  h+=parlayAdminBar();
+  if(!log.length){ sec.innerHTML=h+"<p class='sub'>No completed weeks yet.</p>"; wireParlayAdmin(); return; }
   const board=Object.keys(owedWeeks).map(nm=>({nm,owed:owedWeeks[nm].length,paid:paidCount[nm]||0}))
     .sort((a,b)=>b.owed-a.owed||b.paid-a.paid);
-  let h=`<h2>🎰 Parlay tab</h2><p class="sub">Lowest score each week pays for the league parlay. Running tab, live from the box scores — "PAID" means they've settled up.</p>`;
   h+=`<table><thead><tr><th>Manager</th><th class="n">Parlays owed</th><th>Status</th></tr></thead><tbody>`;
   board.forEach(b=>{const square=b.paid>=b.owed;
     const status=square?paidTag:(b.paid>0?`${paidTag} ×${b.paid} · ${owesTag(b.owed-b.paid)}`:owesTag(b.owed));
@@ -733,12 +786,31 @@ function renderParlay(){
   h+="</tbody></table>";
   const clean=Object.keys(CUR.rName).map(r=>CUR.rName[r]).filter(nm=>!owedWeeks[nm]);
   if(clean.length) h+=`<p class="sub">Never been lowest (no parlay owed): ${clean.join(", ")}.</p>`;
+  const canEdit=fbReady()&&fbUser;
   h+=`<h2 style="margin-top:18px">Week by week</h2><table><thead><tr><th>Week</th><th>Owes the parlay</th><th class="n">Score</th><th>Paid?</th></tr></thead><tbody>`;
-  [...log].reverse().forEach(x=>{const names=x.names.join(", ");
-    const allPaid=x.names.every(nm=>paidWeeks.has(nm+"@"+x.wk));
-    h+=`<tr${me(x.names.find(n=>n===CUR.mine))}><td>Week ${x.wk}</td><td>${names}</td><td class="n">${n1(x.p)}</td><td>${allPaid?paidTag:'<span class="sub">—</span>'}</td></tr>`;});
+  [...log].reverse().forEach(x=>{const names=x.names.join(", ");const paid=paidWk.has(x.wk);
+    const cell = canEdit
+      ? `<select class="paidsel" data-wk="${x.wk}"><option value="0"${paid?"":" selected"}>Unpaid</option><option value="1"${paid?" selected":""}>Paid ✅</option></select>`
+      : (paid?paidTag:'<span class="sub">—</span>');
+    h+=`<tr${me(x.names.find(n=>n===CUR.mine))}><td>Week ${x.wk}</td><td>${names}</td><td class="n">${n1(x.p)}</td><td>${cell}</td></tr>`;});
   h+="</tbody></table>";
   sec.innerHTML=h;
+  wireParlayAdmin();
+}
+function parlayLogin(){
+  const email=prompt("Commissioner email:"); if(!email) return;
+  const pw=prompt("Password:"); if(!pw) return;
+  firebase.auth().signInWithEmailAndPassword(email.trim(),pw).catch(e=>alert("Login failed: "+e.message));
+}
+function wireParlayAdmin(){
+  const li=$("#pq-login");  if(li) li.onclick=parlayLogin;
+  const lo=$("#pq-logout"); if(lo) lo.onclick=()=>firebase.auth().signOut();
+  document.querySelectorAll(".paidsel").forEach(s=>s.onchange=()=>{
+    if(!fbReady()) return;
+    const wk=s.dataset.wk, val=s.value==="1";
+    fbdb.ref("parlay/"+CUR.id+"/paidWeeks/"+wk).set(val?true:null)
+      .catch(e=>alert("Couldn't save (are you logged in as the commissioner?): "+e.message));
+  });
 }
 
 //============ 🔮 SELF-GRADING PICKS (no storage: replay each week using only prior data) ============
@@ -1755,6 +1827,7 @@ $("#copylink").addEventListener("click",()=>{
   else prompt("Copy this link:",url);
 });
 
+initFirebase();
 fillLeagueSelect();
 // A shared link like ...?lg=1389331035040260096 opens straight to that league. Otherwise fall back to last-viewed, then the first preset.
 const urlId=leagueFromURL();
