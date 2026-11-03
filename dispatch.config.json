@@ -1,0 +1,7 @@
+{
+  "model": "claude-sonnet-5-5",
+  "leagues": [
+    { "id": "1389331035040260096", "name": "Aggtown Fantasy League" },
+    { "id": "1377490959020855296", "name": "Sea Squad" }
+  ]
+}
