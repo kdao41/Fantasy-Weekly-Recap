@@ -502,6 +502,14 @@ const SHOTGUN_LEAGUES = ["1377490959020855296"]; // Sea Squad
 const SHOTGUN_EXEMPT = {
   "1377490959020855296": ["kenz"],   // Sea Squad — kenz is inactive
 };
+// Leagues that run the "lowest score pays for the league parlay" rule → get the Parlay tab.
+const PARLAY_LEAGUES = ["1389735540009500672"]; // Sober Gang
+// How many of each manager's owed parlays have been PAID (real-world info — edit as people settle up).
+// The lowest score each week owes that week's parlay. Matched by Sleeper name, case-insensitive, substring.
+// A number N marks that manager's N most-recent owed weeks as paid.
+const PARLAY_PAID = {
+  "1389735540009500672": { "An": 2 },   // Sober Gang — An has paid his last 2 weeks
+};
 const API="https://api.sleeper.app/v1";
 const $=s=>document.querySelector(s);
 const n1=x=>Math.round(x*10)/10;
@@ -660,6 +668,7 @@ function renderCore(){
   renderDispatch();
   if(CANARY) renderCanary();
   if(SHOTGUN_LEAGUES.includes(CUR.id)) renderShotgun();
+  if(PARLAY_LEAGUES.includes(CUR.id)) renderParlay();
   if(historyFor(CUR.id)) renderHistory();
 }
 
@@ -688,6 +697,46 @@ function renderShotgun(){
   if(exempt&&exempt.length) h+=`<p class="sub">🚫 Exempt (inactive): ${exempt.join(", ")} — if they post the week's low, it rolls to the next-lowest active team.</p>`;
   h+=`<h2 style="margin-top:18px">Week by week</h2><table><thead><tr><th>Week</th><th>Shotgunned</th><th class="n">Score</th></tr></thead><tbody>`;
   [...log].reverse().forEach(x=>h+=`<tr${me(x.names.find(n=>n===CUR.mine))}><td>Week ${x.wk}</td><td>${x.names.join(", ")}</td><td class="n">${n1(x.p)}</td></tr>`);
+  h+="</tbody></table>";
+  sec.innerHTML=h;
+}
+
+//============ 🎰 PARLAY (lowest score each week pays for the league parlay) ============
+function parlayData(){
+  const log=Core.weeklyLows(CUR);               // [{wk,p,rids,names}] — lowest each week owes that week's parlay
+  const owedWeeks={};                            // name -> [wk,...]
+  log.forEach(x=>x.names.forEach(nm=>{(owedWeeks[nm]=owedWeeks[nm]||[]).push(x.wk);}));
+  const paidCfg=PARLAY_PAID[CUR.id]||{};
+  const paidCount={};                            // name -> how many of their owed weeks are paid
+  const paidWeeks=new Set();                     // "name@wk" for the specific weeks marked paid
+  Object.keys(owedWeeks).forEach(nm=>{
+    const key=Object.keys(paidCfg).find(k=>nm.toLowerCase().includes(k.toLowerCase()));
+    const n=key?paidCfg[key]:0; paidCount[nm]=n;
+    [...owedWeeks[nm]].sort((a,b)=>b-a).slice(0,n).forEach(w=>paidWeeks.add(nm+"@"+w)); // most-recent N are paid
+  });
+  return {log,owedWeeks,paidCount,paidWeeks};
+}
+function renderParlay(){
+  const sec=$("#sec-parlay"); if(!sec) return;
+  const {log,owedWeeks,paidCount,paidWeeks}=parlayData();
+  if(!log.length){sec.innerHTML="<h2>🎰 Parlay tab</h2><p class='sub'>No completed weeks yet.</p>";return;}
+  const paidTag='<span class="badge" style="background:var(--go)">PAID</span>';
+  const owesTag=n=>`<span class="badge" style="background:var(--bad)">OWES ${n}</span>`;
+  // board: everyone who's ever owed, most parlays first
+  const board=Object.keys(owedWeeks).map(nm=>({nm,owed:owedWeeks[nm].length,paid:paidCount[nm]||0}))
+    .sort((a,b)=>b.owed-a.owed||b.paid-a.paid);
+  let h=`<h2>🎰 Parlay tab</h2><p class="sub">Lowest score each week pays for the league parlay. Running tab, live from the box scores — "PAID" means they've settled up.</p>`;
+  h+=`<table><thead><tr><th>Manager</th><th class="n">Parlays owed</th><th>Status</th></tr></thead><tbody>`;
+  board.forEach(b=>{const square=b.paid>=b.owed;
+    const status=square?paidTag:(b.paid>0?`${paidTag} ×${b.paid} · ${owesTag(b.owed-b.paid)}`:owesTag(b.owed));
+    h+=`<tr${me(b.nm)}><td>${b.nm}</td><td class="n">${"🎰".repeat(Math.min(b.owed,10))} ${b.owed}</td><td>${status}</td></tr>`;});
+  h+="</tbody></table>";
+  const clean=Object.keys(CUR.rName).map(r=>CUR.rName[r]).filter(nm=>!owedWeeks[nm]);
+  if(clean.length) h+=`<p class="sub">Never been lowest (no parlay owed): ${clean.join(", ")}.</p>`;
+  h+=`<h2 style="margin-top:18px">Week by week</h2><table><thead><tr><th>Week</th><th>Owes the parlay</th><th class="n">Score</th><th>Paid?</th></tr></thead><tbody>`;
+  [...log].reverse().forEach(x=>{const names=x.names.join(", ");
+    const allPaid=x.names.every(nm=>paidWeeks.has(nm+"@"+x.wk));
+    h+=`<tr${me(x.names.find(n=>n===CUR.mine))}><td>Week ${x.wk}</td><td>${names}</td><td class="n">${n1(x.p)}</td><td>${allPaid?paidTag:'<span class="sub">—</span>'}</td></tr>`;});
   h+="</tbody></table>";
   sec.innerHTML=h;
 }
@@ -977,6 +1026,7 @@ function buildTabs(keep){
   const tabs=[["dispatch","📰 Dispatch"],["standings","Standings"],["luck","Luck Map"],["scores","Scores"],["power","Power"],["odds","Playoff Odds"],
     ["hardware","The Hardware"],["matchup","Matchup"],["picks","🔮 Picks"],["coach","Coach Ratings"],["draft","Draft & Moves"]];
   if(SHOTGUN_LEAGUES.includes(CUR.id)) tabs.splice(1,0,["shotgun","🥤 Shotgun"]);
+  if(PARLAY_LEAGUES.includes(CUR.id)) tabs.splice(1,0,["parlay","🎰 Parlay"]);
   if(CANARY) tabs.splice(1,0,["canary","🐤 Canary vs live"]);
   if(historyFor(CUR.id)) tabs.push(["history","🏛 History"]);
   // the open tab lives in the URL hash, so refreshes and shared links land on the same tab
