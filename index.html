@@ -1019,6 +1019,21 @@ function renderDispatch(){
   sec.innerHTML=noteHTML+date+`<h2 class="dp-head">${head}</h2><p class="dp-dek">${lede}</p>
     <div class="dp-tiles">${tiles}</div>
     <div class="dp-cols"><article class="dispatch">${L.join("")}</article><aside class="dp-side">${digest}${deck}${power}${board}</aside></div>`;
+  // If a written edition for this week has been committed, swap it into the story column (tiles & sidebar stay live).
+  tryRemoteDispatch(CUR.id, wk);
+}
+// Loads dispatches/<leagueId>/wk<week>.html if the weekly job (or you) committed one, and drops it into the
+// main story column. Same origin, no CORS. If there's no file yet, the auto-written column already shown stays.
+async function tryRemoteDispatch(id, wk){
+  if(!wk) return;
+  try{
+    const r=await fetch(`dispatches/${id}/wk${wk}.html`,{cache:"no-store"});
+    if(!r.ok || CUR.id!==id) return;
+    const html=(await r.text()).trim();
+    if(!html || CUR.id!==id) return;
+    const art=document.querySelector("#sec-dispatch .dispatch");
+    if(art){ art.innerHTML=html; art.classList.add("written"); }
+  }catch(e){ /* no committed edition yet — keep the live auto column */ }
 }
 
 // keep=true (the model switch) keeps every section and its content, only adding or dropping the canary tab.
