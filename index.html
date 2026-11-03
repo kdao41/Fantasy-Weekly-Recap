@@ -496,6 +496,12 @@ Commissioner's note of the week goes right here. Edit this block on GitHub and c
 
 // Leagues that run the weekly "lowest score shotguns" rule → get the Shotgun tab.
 const SHOTGUN_LEAGUES = ["1377490959020855296"]; // Sea Squad
+// Managers EXEMPT from the shotgun (inactive players). If an exempt manager posts the week's low,
+// the shotgun rolls down to the next-lowest ACTIVE team. Matched by Sleeper name, case-insensitive,
+// substring — add or remove names here as people go inactive or come back.
+const SHOTGUN_EXEMPT = {
+  "1377490959020855296": ["kenz"],   // Sea Squad — kenz is inactive
+};
 const API="https://api.sleeper.app/v1";
 const $=s=>document.querySelector(s);
 const n1=x=>Math.round(x*10)/10;
@@ -658,13 +664,17 @@ function renderCore(){
 }
 
 function shotgunData(){
-  const count={};Object.values(CUR.rName).forEach(nm=>count[nm]=0);
-  const log=Core.weeklyLows(CUR);log.forEach(x=>x.names.forEach(nm=>count[nm]++));
-  return {log,count};
+  // Resolve exempt names → roster_ids for this league, so the low rolls past inactive managers.
+  const want=(SHOTGUN_EXEMPT[CUR.id]||[]).map(s=>s.toLowerCase());
+  const exRids=new Set(Object.keys(CUR.rName).filter(r=>want.some(e=>String(CUR.rName[r]).toLowerCase().includes(e))));
+  const exempt=[...exRids].map(r=>CUR.rName[r]);
+  const count={};Object.values(CUR.rName).forEach(nm=>{if(!exempt.includes(nm))count[nm]=0;});
+  const log=Core.weeklyLows(CUR,exRids);log.forEach(x=>x.names.forEach(nm=>{if(nm in count)count[nm]++;}));
+  return {log,count,exempt};
 }
 function renderShotgun(){
   const sec=$("#sec-shotgun"); if(!sec) return;
-  const {log,count}=shotgunData();
+  const {log,count,exempt}=shotgunData();
   if(!log.length){sec.innerHTML="<h2>🥤 Shotgun counter</h2><p class='sub'>No completed weeks yet.</p>";return;}
   const board=Object.entries(count).sort((a,b)=>b[1]-a[1]);
   const leader=board[0];
@@ -675,6 +685,7 @@ function renderShotgun(){
   h+="</tbody></table>";
   const dry=board.filter(([n,c])=>c===0).map(([n])=>n);
   if(dry.length) h+=`<p class="sub">Still stone-cold sober: ${dry.join(", ")}.</p>`;
+  if(exempt&&exempt.length) h+=`<p class="sub">🚫 Exempt (inactive): ${exempt.join(", ")} — if they post the week's low, it rolls to the next-lowest active team.</p>`;
   h+=`<h2 style="margin-top:18px">Week by week</h2><table><thead><tr><th>Week</th><th>Shotgunned</th><th class="n">Score</th></tr></thead><tbody>`;
   [...log].reverse().forEach(x=>h+=`<tr${me(x.names.find(n=>n===CUR.mine))}><td>Week ${x.wk}</td><td>${x.names.join(", ")}</td><td class="n">${n1(x.p)}</td></tr>`);
   h+="</tbody></table>";

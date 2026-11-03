@@ -362,6 +362,12 @@ describe("weekly numbers", () => {
     const bye = { rName: { 1: "A", 2: "B", 3: "C" }, weeks: { 1: [m(1, 1, 100), m(2, 1, 80), m(3, null, 80)] } };
     expect(Core.weeklyLows(bye)).toEqual([{ wk: 1, p: 80, rids: [2, 3], names: ["B", "C"] }]);
   });
+  it("rolls the low past exempt teams (inactive managers sit out the shotgun)", () => {
+    const cId = Object.keys(CUR.rName).find(r => CUR.rName[r] === "C");
+    // C owns wk1 (90) and wk2 (95) lows; exempt C and the low rolls to the next-lowest active team.
+    const got = Core.weeklyLows(CUR, new Set([cId])).map(x => [x.wk, x.p, [...x.names].sort()]);
+    expect(got).toEqual([[1, 100, ["B"]], [2, 105, ["B", "D"]], [3, 80, ["D"]]]);
+  });
   it("lists every week's high score the same way, ties included", () => {
     expect(Core.weeklyHighs(CUR).map(x => [x.wk, x.p, x.names])).toEqual([[1, 120, ["A"]], [2, 130, ["A"]], [3, 140, ["A"]]]);
     const tie = { rName: { 1: "A", 2: "B", 3: "C" }, weeks: { 1: [m(1, 1, 100), m(2, 1, 80), m(3, null, 100)] } };
