@@ -38,21 +38,12 @@ jobs:
           FORCE: ${{ github.event.inputs.force == 'true' && '1' || '' }}
         run: node generate-dispatch.mjs
 
-      - name: Open pull request with the new dispatch(es)
+      - name: Publish dispatches straight to the site
         if: steps.gen.outputs.wrote != '0' && steps.gen.outputs.wrote != ''
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -e
-          TAG=$(date -u +%Y%m%d-%H%M)
-          BRANCH="dispatch/$TAG"
           git config user.name "dispatch-bot"
           git config user.email "actions@github.com"
-          git checkout -b "$BRANCH"
           git add dispatches
-          git commit -m "Weekly dispatch draft ($TAG)"
-          git push origin "$BRANCH"
-          gh pr create \
-            --title "📰 Weekly dispatch draft — $TAG" \
-            --body "Auto-written from this week's Sleeper data, using lib/almanac-core.js so the numbers match the site. Read the diff, tweak any wording, then **Merge** to publish. Close it to discard." \
-            --base main --head "$BRANCH"
+          git commit -m "Weekly dispatch — auto-published $(date -u +%Y-%m-%d)"
+          git push origin HEAD:main
