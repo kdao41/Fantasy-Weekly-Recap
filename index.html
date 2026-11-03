@@ -505,10 +505,10 @@ const SHOTGUN_EXEMPT = {
 // Leagues that run the "lowest score pays for the league parlay" rule → get the Parlay tab.
 const PARLAY_LEAGUES = ["1389735540009500672"]; // Sober Gang
 // How many of each manager's owed parlays have been PAID (real-world info — edit as people settle up).
-// The lowest score each week owes that week's parlay. Matched by Sleeper name, case-insensitive, substring.
+// The lowest score each week owes that week's parlay. Key = the manager's EXACT Sleeper name (case-insensitive).
 // A number N marks that manager's N most-recent owed weeks as paid.
 const PARLAY_PAID = {
-  "1389735540009500672": { "An": 2 },   // Sober Gang — An has paid his last 2 weeks
+  "1389735540009500672": { "An": 2 },   // Sober Gang — An has paid his last 2 weeks (confirm exact Sleeper handle)
 };
 const API="https://api.sleeper.app/v1";
 const $=s=>document.querySelector(s);
@@ -710,7 +710,7 @@ function parlayData(){
   const paidCount={};                            // name -> how many of their owed weeks are paid
   const paidWeeks=new Set();                     // "name@wk" for the specific weeks marked paid
   Object.keys(owedWeeks).forEach(nm=>{
-    const key=Object.keys(paidCfg).find(k=>nm.toLowerCase().includes(k.toLowerCase()));
+    const key=Object.keys(paidCfg).find(k=>nm.toLowerCase()===k.toLowerCase());
     const n=key?paidCfg[key]:0; paidCount[nm]=n;
     [...owedWeeks[nm]].sort((a,b)=>b-a).slice(0,n).forEach(w=>paidWeeks.add(nm+"@"+w)); // most-recent N are paid
   });
