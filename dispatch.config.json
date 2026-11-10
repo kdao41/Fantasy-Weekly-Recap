@@ -2,10 +2,6 @@
   "model": "claude-sonnet-5-5",
   "leagues": [
     { "id": "1389331035040260096", "name": "Aggtown Fantasy League" },
-    {
-      "id": "1377490959020855296",
-      "name": "Sea Squad",
-      "context": "kenz quit the league mid-season and went inactive — he abandoned his team, which now just sits there rotting and losing on autopilot. He's been officially exempted from the weekly shotgun punishment because he bailed. Clown him relentlessly for quitting on the league and leaving his roster for dead. This league also runs a weekly shotgun: the lowest score each week has to take a shotgun (kenz is exempt now that he's gone)."
-    }
+    { "id": "1377490959020855296", "name": "Sea Squad" }
   ]
 }
