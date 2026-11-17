@@ -1,10 +1,13 @@
 name: Weekly Dispatch
 
-# Tuesday 14:00 UTC (~8am Central) — after Monday Night Football.
-# Also runnable by hand from the Actions tab.
+# Tuesdays after Monday Night Football. Also runnable by hand from the Actions tab.
+# Two times on purpose: GitHub often drops top-of-the-hour scheduled jobs, so the
+# afternoon run is a safety net. It's a no-op if the morning run already wrote the
+# week (the generator skips weeks that already exist), so nothing double-posts.
 on:
   schedule:
-    - cron: "0 14 * * 2"
+    - cron: "37 14 * * 2"   # ~8:37am Central
+    - cron: "37 18 * * 2"   # ~12:37pm Central — backup, only acts if the morning run was dropped
   workflow_dispatch:
     inputs:
       only_league:
