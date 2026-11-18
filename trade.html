@@ -152,6 +152,18 @@
         </select></label>
       <label>I'm shopping for
         <select id="k-target"><option value="ANY">Any position</option><option>QB</option><option>RB</option><option>WR</option><option>TE</option></select></label>
+      <label>Trade shape (you give → you get)
+        <select id="k-shape">
+          <option value="any">Any shape</option>
+          <option value="1-1">1-for-1</option>
+          <option value="2-1">2-for-1 · you consolidate</option>
+          <option value="3-1">3-for-1 · you consolidate big</option>
+          <option value="1-2">1-for-2 · you sell a stud for depth</option>
+          <option value="1-3">1-for-3 · you sell a stud for depth</option>
+          <option value="2-2">2-for-2</option>
+        </select></label>
+      <label>Trade with
+        <select id="k-partner"><option value="all">Every team</option></select></label>
       <label>Max players per side
         <select id="k-max"><option value="1">1-for-1 only</option><option value="2" selected>Up to 2</option><option value="3">Up to 3 (slower)</option></select></label>
       <label>Vegas weight <b id="k-vw-v"></b>
@@ -231,9 +243,10 @@ const VEG_PO_RANK={};Object.keys(VEGAS).sort((a,b)=>VEGAS[b].po-VEGAS[a].po).for
 const sigmoid=z=>1/(1+Math.exp(-z));
 
 //================= SETTINGS =================
-const DEF_SET={mode:"winwin",target:"ANY",max:2,vw:0.5,po:1.5,blend:0.65,kdef:false};
+const DEF_SET={mode:"winwin",target:"ANY",shape:"any",max:2,vw:0.5,po:1.5,blend:0.65,kdef:false};
 let SET=Object.assign({},DEF_SET,LS.get("tm_settings",{}));
 function syncKnobs(){
+  $("#k-shape").value=SET.shape;$("#k-max").disabled=SET.shape!=="any";
   $("#k-mode").value=SET.mode;$("#k-target").value=SET.target;$("#k-max").value=String(SET.max);
   $("#k-vw").value=SET.vw;$("#k-po").value=SET.po;$("#k-blend").value=SET.blend;$("#k-kdef").checked=SET.kdef;
   $("#k-vw-v").textContent=Math.round(SET.vw*100)+"%";
@@ -241,7 +254,8 @@ function syncKnobs(){
   $("#k-blend-v").textContent=Math.round(SET.blend*100)+"% Sleeper / "+Math.round((1-SET.blend)*100)+"% actual";
 }
 function readKnobs(){
-  SET.mode=$("#k-mode").value;SET.target=$("#k-target").value;SET.max=+$("#k-max").value;
+  SET.mode=$("#k-mode").value;SET.shape=$("#k-shape").value;
+  if(RAW&&M&&$("#k-partner").options.length>1){PARTNER=$("#k-partner").value;LS.set("tm_partner_"+RAW.id,PARTNER);}SET.target=$("#k-target").value;SET.max=+$("#k-max").value;
   SET.vw=+$("#k-vw").value;SET.po=+$("#k-po").value;SET.blend=+$("#k-blend").value;SET.kdef=$("#k-kdef").checked;
   LS.set("tm_settings",SET);syncKnobs();
 }
@@ -498,7 +512,10 @@ function evalTrade(me,them,give,get){
     myReg:a.reg-me.base.reg,thReg:b.reg-them.base.reg,ratio,mIn,mOut,accept:p,myAfter,thAfter};
 }
 function scoreTrade(t){
-  const n=t.give.length+t.get.length;const cx=0.12*(n-2);
+  const n=t.give.length+t.get.length;
+  const ids=t.give.concat(t.get);const top=Math.max(...ids.map(id=>M.P[id].market));
+  const filler=ids.filter(id=>M.P[id].market<0.15*top).length; // a scrub tacked on to make it "work"
+  const cx=0.12*(n-2)+0.45*filler;
   if(SET.mode==="winwin"){
     if(t.myGain<0.15||t.thGain<0.1)return null;
     return Math.min(t.myGain,t.thGain)+0.35*(t.myGain+t.thGain)+0.6*(t.accept-0.5)-cx;
@@ -513,7 +530,13 @@ function tradeable(p,mine){
   if(mine&&LOCK.has(p.id))return false;
   return true;
 }
-let LOCK=new Set(),SHOP=new Set();
+let LOCK=new Set(),SHOP=new Set(),PARTNER="all";
+function fillPartners(){
+  const sel=$("#k-partner");const others=M.teams.filter(t=>t.rid!==MYRID).sort((a,b)=>a.user.localeCompare(b.user));
+  if(PARTNER!=="all"&&!others.find(t=>String(t.rid)===String(PARTNER)))PARTNER="all";
+  sel.innerHTML=`<option value="all">Every team</option>`+others.map(t=>`<option value="${t.rid}">${esc(t.user)} (${t.w}-${t.l})</option>`).join("");
+  sel.value=String(PARTNER);
+}
 let LAST_RUN=0,LAST_PULL=0,_deb=null;
 function rerun(){clearTimeout(_deb);_deb=setTimeout(()=>{if(!RAW)return;readKnobs();buildModel();renderShell();runSearch();},350);}
 function lockKey(){return "tm_lock_"+RAW.id;}
@@ -522,25 +545,32 @@ async function findTrades(onProgress){
   const me=M.teams.find(t=>t.rid===MYRID);if(!me)return [];
   const mine=me.players.map(id=>M.P[id]).filter(p=>tradeable(p,true)).sort((a,b)=>b.market-a.market);
   const maxK=SET.max;
-  const myCombos={};for(let k=1;k<=maxK;k++){
+  let shapes=[];
+  if(SET.shape!=="any"){const [g,r]=SET.shape.split("-").map(Number);shapes=[[g,r]];}
+  else for(let g=1;g<=maxK;g++)for(let r=1;r<=maxK;r++)if(!(Math.abs(g-r)>1&&maxK<3))shapes.push([g,r]);
+  const kMax=Math.max(...shapes.flat());
+  const myCombos={};for(let k=1;k<=kMax;k++){
     const pool=k===3?mine.slice(0,9):mine;
     myCombos[k]=combos(pool.map(p=>p.id),k).filter(c=>!SHOP.size||c.some(id=>SHOP.has(id)));}
-  const all=[];const others=M.teams.filter(t=>t.rid!==me.rid);
+  const all=[];const others=M.teams.filter(t=>t.rid!==me.rid&&(PARTNER==="all"||String(t.rid)===String(PARTNER)));
   for(let ti=0;ti<others.length;ti++){
     const th=others[ti];
     const theirs=th.players.map(id=>M.P[id]).filter(p=>tradeable(p,false)).sort((a,b)=>b.market-a.market);
-    for(let kGet=1;kGet<=maxK;kGet++){
-      const pool=kGet===3?theirs.slice(0,9):theirs;
-      let getCombos=combos(pool.map(p=>p.id),kGet);
-      if(SET.target!=="ANY")getCombos=getCombos.filter(c=>c.some(id=>M.P[id].pos===SET.target));
-      for(let kGive=1;kGive<=maxK;kGive++){
-        if(Math.abs(kGet-kGive)>1&&maxK<3)continue;
+    const getCache={};
+    for(const [kGive,kGet] of shapes){
+      if(!getCache[kGet]){const pool=kGet===3?theirs.slice(0,9):theirs;
+        let gc=combos(pool.map(p=>p.id),kGet);
+        if(SET.target!=="ANY")gc=gc.filter(c=>c.some(id=>M.P[id].pos===SET.target));getCache[kGet]=gc;}
+      const getCombos=getCache[kGet];
+      // the side getting the best player can fairly ask for more back (stud premium)
+      const hiCap=kGive>kGet?2.9:2.3,loCap=kGet>kGive?0.4:0.55;
+      {
         for(const get of getCombos){
           const mIn=get.reduce((s,id)=>s+M.P[id].market,0);
           for(const give of myCombos[kGive]){
             const mOut=give.reduce((s,id)=>s+M.P[id].market,0);
             const ratio=mOut/Math.max(0.01,mIn);
-            if(ratio<0.55||ratio>2.3)continue; // nobody accepts a fleece; nobody should send an overpay
+            if(ratio<loCap||ratio>hiCap)continue; // nobody accepts a fleece; nobody should send an overpay
             const t=evalTrade(me,th,give,get);
             const s=scoreTrade(t);if(s==null)continue;
             // "shopping for RB" means an RB who actually moves your RB starters, not a throw-in
@@ -557,13 +587,13 @@ async function findTrades(onProgress){
   all.sort((a,b)=>b.score-a.score);
   // diversify: cap per partner and per headline player so the list isn't 20 versions of one deal
   const out=[];const perTeam={},perGet={},perGive={},seen=new Set();
-  const capT=SET.mode==="winwin"?3:4;
+  const capT=PARTNER!=="all"?25:SET.mode==="winwin"?3:4;
   for(const t of all){
     const key=t.them.rid+"|"+[...t.give].sort()+"|"+[...t.get].sort();if(seen.has(key))continue;
     const head=[...t.get].sort((a,b)=>M.P[b].market-M.P[a].market)[0];
     const headG=[...t.give].sort((a,b)=>M.P[b].market-M.P[a].market)[0];
     const core=t.them.rid+"|"+head+"|"+headG; // same headline swap with a different throw-in = same deal
-    if(seen.has(core)||(perTeam[t.them.rid]||0)>=capT||(perGet[head]||0)>=2||(perGive[headG]||0)>=4)continue;
+    if(seen.has(core)||(perTeam[t.them.rid]||0)>=capT||(perGet[head]||0)>=(PARTNER!=="all"?4:2)||(perGive[headG]||0)>=(PARTNER!=="all"?6:4))continue;
     seen.add(key);seen.add(core);perTeam[t.them.rid]=(perTeam[t.them.rid]||0)+1;perGet[head]=(perGet[head]||0)+1;perGive[headG]=(perGive[headG]||0)+1;
     out.push(t);if(out.length>=25)break;
   }
@@ -623,7 +653,7 @@ function card(t,i){
   const rec=`${t.them.w}-${t.them.l}${t.them.t?"-"+t.them.t:""}`;
   const id="c"+i+"_"+Math.random().toString(36).slice(2,7);
   return `<div class="tc">
-    <div class="top"><div class="with"><span class="rank">#${i+1}</span>with ${esc(t.them.user)}<small>${esc(t.them.team)} · ${rec}</small></div>
+    <div class="top"><div class="with"><span class="rank">#${i+1}</span><span class="tag" style="font:600 11px var(--body);vertical-align:3px;margin-right:6px">${t.give.length}-for-${t.get.length}</span>with ${esc(t.them.user)}<small>${esc(t.them.team)} · ${rec}</small></div>
       <div class="facts"><span>Accept odds <b>${Math.round(t.accept*100)}%</b></span></div></div>
     <div class="sides">
       <div class="side"><div class="lab"><span>You get</span><span>${gradeChip(t.myGain)}</span></div>
@@ -654,6 +684,7 @@ function afterLoad(){
   const def=M.teams.find(t=>String(t.rid)===String(saved))||M.teams.find(t=>(t.user||"").toLowerCase()===DEFAULT_USER)||M.teams[0];
   MYRID=def.rid;
   $("#me").innerHTML=users.slice().sort((a,b)=>a.user.localeCompare(b.user)).map(t=>`<option value="${t.rid}"${t.rid===MYRID?" selected":""}>${esc(t.user)}</option>`).join("");
+  PARTNER=LS.get("tm_partner_"+RAW.id,"all");fillPartners();
   LOCK=new Set(LS.get(lockKey(),[]));SHOP=new Set(LS.get("tm_shop_"+RAW.id,[]));
   renderShell();
   runSearch();
@@ -691,7 +722,7 @@ function showTab(t){
 async function runSearch(){
   const el=$("#s-trades");if(!el||!M)return;
   const me=M.teams.find(t=>t.rid===MYRID);
-  el.innerHTML=`<h2>Best trades for ${esc(me.user)}</h2><p class="sub">Scanning every ${SET.max===3?"deal up to 3-for-3":SET.max===2?"1-for-1, 2-for-1 and 2-for-2":"1-for-1"} with ${M.N-1} teams…</p><div class="progress"><i id="prog"></i></div>`;
+  el.innerHTML=`<h2>Best trades for ${esc(me.user)}</h2><p class="sub">Scanning ${SET.shape!=="any"?"every "+SET.shape.replace("-","-for-")+" deal":"every "+(SET.max===3?"deal up to 3-for-3":SET.max===2?"1-for-1, 2-for-1 and 2-for-2":"1-for-1")} with ${PARTNER==="all"?(M.N-1)+" teams":esc((M.teams.find(t=>String(t.rid)===String(PARTNER))||{}).user)}…</p><div class="progress"><i id="prog"></i></div>`;
   $("#run").disabled=true;
   const t0=performance.now();
   const forModel=M;
@@ -822,11 +853,11 @@ function fillLeagues(){
 function init(){
   fillLeagues();syncKnobs();
   $("#league").onchange=()=>{LS.set("tm_last",$("#league").value);BUILD=null;load($("#league").value);};
-  $("#me").onchange=()=>{MYRID=+$("#me").value;LS.set("tm_me_"+RAW.id,MYRID);BUILD=null;RESULTS=null;renderShell();runSearch();};
+  $("#me").onchange=()=>{MYRID=+$("#me").value;LS.set("tm_me_"+RAW.id,MYRID);BUILD=null;RESULTS=null;fillPartners();renderShell();runSearch();};
   $("#run").onclick=()=>{readKnobs();buildModel();renderShell();runSearch();};
   $("#reload").onclick=()=>{try{localStorage.removeItem("tm_players");}catch(e){}load($("#league").value,true);};
   ["#k-vw","#k-po","#k-blend"].forEach(s=>{$(s).oninput=()=>readKnobs();$(s).onchange=rerun;});
-  ["#k-mode","#k-target","#k-max","#k-kdef"].forEach(s=>$(s).onchange=rerun);
+  ["#k-mode","#k-target","#k-max","#k-kdef","#k-shape","#k-partner"].forEach(s=>$(s).onchange=rerun);
   // keep it fresh: re-pull Sleeper every 10 minutes while open, and on return to the tab if it's gone stale
   const stale=()=>RAW&&Date.now()-LAST_PULL>10*60e3;
   setInterval(()=>{if(document.visibilityState==="visible"&&stale())load($("#league").value);},60e3);
