@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Trade Machine · League Almanac</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161a21; --panel-2:#1c212a; --line:#272d37;
+    --ink:#e9ebee; --muted:#8a929e; --faint:#5d6571;
+    --gold:#d8aa3c; --gold-soft:rgba(216,170,60,.12);
+    --win:#56b985; --loss:#e26a6a; --cyan:#5fb4c9; --warn:#e0a24a;
+    --head:"Avenir Next Condensed","Roboto Condensed","Arial Narrow","Helvetica Neue",Arial,sans-serif;
+    --body:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    --r:10px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{
+      --bg:#f3f2ee; --panel:#ffffff; --panel-2:#f8f7f3; --line:#e2dfd7;
+      --ink:#15181d; --muted:#5f6670; --faint:#9aa0a8;
+      --gold:#9c7210; --gold-soft:rgba(156,114,16,.10); --win:#2b8656; --loss:#c03b3b; --cyan:#1f7a8c; --warn:#a86a10;
+    }
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);font-variant-numeric:tabular-nums}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 16px 80px}
+  a{color:var(--gold)}
+  header{padding:30px 0 14px}
+  .kicker{font:600 12px/1 var(--head);letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}
+  h1{font:700 clamp(32px,6.5vw,54px)/.95 var(--head);text-transform:uppercase;letter-spacing:-.01em;margin:10px 0 0}
+  .bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:16px}
+  .meta{color:var(--muted);font-size:13px;flex-basis:100%}
+  select,button,input[type=text],input[type=number]{font:600 13px/1 var(--body);padding:9px 12px;border-radius:8px;border:1px solid var(--line);background:var(--panel);color:var(--ink)}
+  select{padding-right:30px;appearance:none;cursor:pointer;
+    background-image:linear-gradient(45deg,transparent 50%,var(--muted) 50%),linear-gradient(135deg,var(--muted) 50%,transparent 50%);
+    background-position:calc(100% - 16px) 52%,calc(100% - 11px) 52%;background-size:5px 5px;background-repeat:no-repeat}
+  button{cursor:pointer;background:var(--gold);color:var(--bg);border-color:var(--gold)}
+  button.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+  button:hover{filter:brightness(1.1)} button.ghost:hover{border-color:var(--muted)}
+  button.mini{padding:5px 9px;font-size:12px}
+  button:disabled{opacity:.5;cursor:default}
+  .knobs{margin-top:12px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px}
+  .knobs summary{cursor:pointer;font:700 13px/1 var(--head);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .kgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px 18px;margin-top:12px}
+  .kgrid label{display:flex;flex-direction:column;gap:5px;font-size:12px;color:var(--muted)}
+  .kgrid label b{color:var(--ink);font-weight:600}
+  .kgrid input[type=range]{width:100%;accent-color:var(--gold)}
+  .chk{flex-direction:row!important;align-items:center;gap:8px!important}
+  .nav{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);margin:10px -16px 0;padding:0 16px}
+  .tabs{display:flex;flex-wrap:wrap;gap:2px;overflow-x:auto}
+  .tabs button{flex:0 0 auto;background:none;border:0;border-radius:0;color:var(--muted);padding:13px 12px 11px;
+    font:700 14px/1 var(--head);letter-spacing:.04em;text-transform:uppercase;border-bottom:3px solid transparent}
+  .tabs button:hover{color:var(--ink);filter:none}
+  .tabs button.on{color:var(--ink);border-bottom-color:var(--gold)}
+  section{display:none;padding:20px 0 4px} section.on{display:block}
+  h2{font:700 22px/1.1 var(--head);text-transform:uppercase;letter-spacing:.03em;margin:26px 0 4px}
+  section>h2:first-child{margin-top:4px}
+  p.sub{color:var(--muted);font-size:13px;margin:2px 0 14px}
+  .status{padding:40px 0;color:var(--muted);text-align:center}
+  .err{background:var(--panel);border:1px solid var(--loss);border-radius:var(--r);padding:16px;margin:20px 0}
+  .warnbox{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:8px;padding:10px 14px;margin:10px 0;font-size:13px;color:var(--muted)}
+  .warnbox b{color:var(--ink)}
+  .spin{display:inline-block;width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--gold);border-radius:50%;animation:sp 0.8s linear infinite;vertical-align:-2px;margin-right:8px}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  table{width:100%;border-collapse:separate;border-spacing:0;font-size:13px;margin:8px 0 4px;background:var(--panel);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+  th{font:600 11px/1 var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:left;padding:11px 10px 9px;background:var(--panel-2);border-bottom:1px solid var(--line);white-space:nowrap}
+  th.n,td.n{text-align:right}
+  td{padding:8px 10px;border-bottom:1px solid var(--line)}
+  tr:last-child td{border-bottom:0}
+  tr.me td{background:var(--gold-soft);font-weight:700}
+  .tblwrap{overflow-x:auto}
+
+  /* trade cards */
+  .tc{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:14px 16px;margin:10px 0}
+  .tc .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .tc .with{font:700 18px/1.1 var(--head);text-transform:uppercase;letter-spacing:.02em}
+  .tc .with small{font:400 12px var(--body);color:var(--muted);text-transform:none;letter-spacing:0;margin-left:6px}
+  .tc .rank{font:700 13px var(--head);color:var(--gold);margin-right:8px}
+  .sides{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px}
+  @media(max-width:640px){.sides{grid-template-columns:1fr}}
+  .side{background:var(--panel-2);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+  .side .lab{font:600 11px/1 var(--head);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+  .pl{display:flex;align-items:center;gap:7px;padding:5px 0;font-size:14px}
+  .pl .nm{font-weight:600;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .pl .v{font-size:12px;color:var(--muted);white-space:nowrap}
+  .pos{font:700 10px/1 var(--head);letter-spacing:.06em;padding:3px 5px;border-radius:4px;min-width:28px;text-align:center;color:#fff}
+  .pos.QB{background:#c2577a}.pos.RB{background:#3f9e78}.pos.WR{background:#3f7fc0}.pos.TE{background:#c08a2e}.pos.K{background:#7a6fb0}.pos.DEF{background:#6b7280}
+  .vchip{font:600 11px/1 var(--body);padding:2px 5px;border-radius:4px;border:1px solid var(--line)}
+  .vchip.g{color:var(--win);border-color:color-mix(in srgb,var(--win) 50%,transparent)}
+  .vchip.r{color:var(--loss);border-color:color-mix(in srgb,var(--loss) 50%,transparent)}
+  .vchip.m{color:var(--muted)}
+  .inj{font:700 10px/1 var(--body);color:var(--loss);border:1px solid var(--loss);border-radius:3px;padding:2px 3px}
+  .grade{display:inline-flex;align-items:center;justify-content:center;min-width:38px;height:30px;padding:0 6px;border-radius:7px;font:800 17px/1 var(--head);color:#fff}
+  .gA{background:#2f9e6a}.gB{background:#5f9e3a}.gC{background:#a8892c}.gD{background:#c4682f}.gF{background:#c03b3b}
+  .delta{font-size:12px;color:var(--muted);margin-top:6px;line-height:1.45}
+  .delta b.up{color:var(--win)} .delta b.dn{color:var(--loss)}
+  .meter{height:8px;border-radius:5px;background:var(--line);position:relative;overflow:hidden;margin-top:4px}
+  .meter i{position:absolute;top:0;bottom:0;left:0;background:var(--gold);border-radius:5px}
+  .meter .mid{position:absolute;top:-2px;bottom:-2px;left:50%;width:2px;background:var(--muted)}
+  .facts{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px;font-size:12px;color:var(--muted);align-items:center}
+  .facts b{color:var(--ink)}
+  .why{margin-top:8px;font-size:13.5px;color:var(--ink)}
+  .acts{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+  .pitch{display:none;margin-top:8px;background:var(--panel-2);border:1px dashed var(--line);border-radius:8px;padding:10px;font-size:13px;white-space:pre-wrap}
+  .pitch.on{display:block}
+
+  /* needs grid */
+  .heat td.cell{text-align:center;font-weight:700;font-size:13px}
+  .heat td.cell small{display:block;font-weight:400;font-size:10.5px;color:var(--muted)}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin:6px 0}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .legend i{width:14px;height:10px;border-radius:3px;display:inline-block}
+  .partner{display:grid;grid-template-columns:1fr auto;gap:6px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:6px 0;font-size:13.5px}
+  .partner .nm{font-weight:700}
+  .tag{display:inline-block;font-size:11px;padding:2px 6px;border-radius:4px;margin:2px 3px 0 0;border:1px solid var(--line)}
+  .tag.need{color:var(--loss);border-color:color-mix(in srgb,var(--loss) 45%,transparent)}
+  .tag.have{color:var(--win);border-color:color-mix(in srgb,var(--win) 45%,transparent)}
+  .toggle{font-size:11px;padding:4px 7px;border-radius:5px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer;font-weight:600}
+  .toggle.lock.on{background:var(--loss);border-color:var(--loss);color:#fff}
+  .toggle.shop.on{background:var(--win);border-color:var(--win);color:#fff}
+  .build .pick{display:flex;align-items:center;gap:8px;padding:5px 2px;border-bottom:1px solid var(--line);font-size:13.5px;cursor:pointer}
+  .build .pick:last-child{border-bottom:0}
+  .build .pick input{accent-color:var(--gold)}
+  .muted{color:var(--muted)} .small{font-size:12px}
+  .how p,.how li{font-size:14px;color:var(--ink)} .how li{margin:4px 0}
+  .how code{font-size:12px;background:var(--panel-2);padding:1px 4px;border-radius:4px}
+  .progress{height:4px;background:var(--line);border-radius:3px;overflow:hidden;margin:12px 0}
+  .progress i{display:block;height:100%;background:var(--gold);width:0;transition:width .15s}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">League Almanac · Deadline Desk</div>
+  <h1>Trade Machine</h1>
+  <div class="bar">
+    <select id="league" aria-label="League"></select>
+    <select id="me" aria-label="Your team"></select>
+    <button id="run" type="button">Find trades</button>
+    <button id="reload" type="button" class="ghost">Refresh data</button>
+    <a href="index.html" class="small">← Almanac</a>
+    <div class="meta" id="meta">Loading…</div>
+  </div>
+  <details class="knobs" id="knobs">
+    <summary>Dials</summary>
+    <div class="kgrid">
+      <label>Strategy
+        <select id="k-mode">
+          <option value="winwin">Win-win (both teams improve)</option>
+          <option value="me">Me first (best for me they'd still take)</option>
+        </select></label>
+      <label>I'm shopping for
+        <select id="k-target"><option value="ANY">Any position</option><option>QB</option><option>RB</option><option>WR</option><option>TE</option></select></label>
+      <label>Max players per side
+        <select id="k-max"><option value="1">1-for-1 only</option><option value="2" selected>Up to 2</option><option value="3">Up to 3 (slower)</option></select></label>
+      <label>Vegas weight <b id="k-vw-v"></b>
+        <input id="k-vw" type="range" min="0" max="1" step="0.05"></label>
+      <label>Playoff weeks count <b id="k-po-v"></b>
+        <input id="k-po" type="range" min="1" max="3" step="0.25"></label>
+      <label>Sleeper projection vs season-to-date <b id="k-blend-v"></b>
+        <input id="k-blend" type="range" min="0" max="1" step="0.05"></label>
+      <label class="chk"><input id="k-kdef" type="checkbox"> Allow trading K / DEF</label>
+    </div>
+  </details>
+  <nav class="nav"><div class="tabs" id="tabs">
+    <button data-t="trades" class="on">Trades</button>
+    <button data-t="needs">Team needs</button>
+    <button data-t="roster">My roster</button>
+    <button data-t="build">Build a trade</button>
+    <button data-t="vegas">Vegas</button>
+    <button data-t="how">How it works</button>
+  </div></nav>
+</header>
+<main id="app"><div class="status"><span class="spin"></span>Pulling live data from Sleeper…</div></main>
+</div>
+
+<script>
+"use strict";
+//================= CONFIG =================
+const PRESETS=[
+  {name:"Aggtown Fantasy League", id:"1389331035040260096"},
+  {name:"Sober Gang", id:"1389735540009500672"},
+  {name:"Sea Squad", id:"1377490959020855296"},
+  {name:"Goodell Haters", id:"1383644864339525632"},
+  {name:"12 Guys 1 Cup", id:"1382479927399419904"},
+];
+const DEFAULT_USER="keveezy";
+const API="https://api.sleeper.app/v1";
+const PROJ_HOSTS=["https://api.sleeper.com","https://api.sleeper.app"];
+
+/* ============================================================
+   VEGAS — implied team points, from consensus sportsbook spreads and
+   totals (DraftKings, FanDuel, BetMGM, Fanatics, Caesars) via Sharp
+   Football Analysis's implied team totals tool.
+   ros = implied points per game over the rest of the season
+   po  = implied points for Weeks 15+16+17 combined (fantasy playoffs)
+   w   = single-week implied totals where posted
+   Update these numbers each week (or ask Claude to) — everything else is live.
+   ============================================================ */
+const VEGAS_UPDATED="Nov 16, 2026, 11:01 PM ET";
+const VEGAS={
+  BUF:{ros:26.4,po:79.00,w:{11:31.0}}, CIN:{ros:26.0,po:77.25,w:{11:29.5}}, DAL:{ros:25.9,po:77.25,w:{11:31.25}},
+  LAR:{ros:25.8,po:78.00}, DET:{ros:25.4,po:75.00,w:{11:26.5}}, CHI:{ros:24.9,po:73.25,w:{11:30.25}},
+  KC:{ros:24.1,po:71.00,w:{11:28.75}}, SF:{ros:24.1,po:68.50,w:{11:24.75}}, GB:{ros:24.1,po:72.75},
+  JAX:{ros:23.8,po:70.00,w:{11:26.25}}, BAL:{ros:23.6,po:73.00}, SEA:{ros:23.5,po:68.00},
+  WAS:{ros:23.4,po:69.75,w:{11:23.0}}, NE:{ros:23.4,po:67.25}, LAC:{ros:22.8,po:73.75},
+  DEN:{ros:22.3,po:64.75,w:{11:25.25}}, TB:{ros:22.3,po:69.25,w:{11:20.0}}, IND:{ros:22.3,po:70.75,w:{11:16.5}},
+  PHI:{ros:22.2,po:63.50,w:{11:17.0}}, MIN:{ros:22.1,po:67.50,w:{11:21.75}}, HOU:{ros:22.0,po:59.25,w:{11:28.0}},
+  NYG:{ros:21.0,po:65.50,w:{11:20.25}}, ATL:{ros:20.9,po:66.25}, NO:{ros:20.8,po:65.25,w:{11:18.75}},
+  CAR:{ros:20.7,po:58.50}, TEN:{ros:20.3,po:61.75,w:{11:23.25}}, PIT:{ros:20.2,po:63.25,w:{11:21.5}},
+  CLE:{ros:18.7,po:52.50}, ARI:{ros:18.6,po:60.00,w:{11:12.75}}, LV:{ros:18.5,po:61.25,w:{11:15.25}},
+  NYJ:{ros:18.2,po:55.25}, MIA:{ros:17.8,po:55.25,w:{11:14.5}},
+};
+// Remaining 2026 byes, used only if Sleeper's weekly projections can't be reached.
+const BYE_FALLBACK={ATL:11,LAR:11,SEA:11,GB:11,NE:11,CLE:11,IND:13,NYJ:13,LV:13,DAL:14,ARI:14};
+
+//================= SMALL HELPERS =================
+const $=s=>document.querySelector(s);
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const r1=x=>(Math.round(x*10)/10).toFixed(1);
+const sgn=x=>(x>=0?"+":"−")+r1(Math.abs(x));
+const LS={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v);}catch(e){return d;}},
+          set(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
+async function j(u){const r=await fetch(u);if(!r.ok)throw new Error(u.replace(/^https:\/\/[^/]+/,"")+" → "+r.status);return r.json();}
+const FLEXDEF={FLEX:["RB","WR","TE"],WRRB_FLEX:["RB","WR"],REC_FLEX:["WR","TE"],SUPER_FLEX:["QB","RB","WR","TE"]};
+const SKILL=["QB","RB","WR","TE"];
+const VEG_AVG=Object.values(VEGAS).reduce((a,v)=>a+v.ros,0)/Object.keys(VEGAS).length;
+const VEG_RANK={};Object.keys(VEGAS).sort((a,b)=>VEGAS[b].ros-VEGAS[a].ros).forEach((t,i)=>VEG_RANK[t]=i+1);
+const VEG_PO_RANK={};Object.keys(VEGAS).sort((a,b)=>VEGAS[b].po-VEGAS[a].po).forEach((t,i)=>VEG_PO_RANK[t]=i+1);
+const sigmoid=z=>1/(1+Math.exp(-z));
+
+//================= SETTINGS =================
+const DEF_SET={mode:"winwin",target:"ANY",max:2,vw:0.5,po:1.5,blend:0.65,kdef:false};
+let SET=Object.assign({},DEF_SET,LS.get("tm_settings",{}));
+function syncKnobs(){
+  $("#k-mode").value=SET.mode;$("#k-target").value=SET.target;$("#k-max").value=String(SET.max);
+  $("#k-vw").value=SET.vw;$("#k-po").value=SET.po;$("#k-blend").value=SET.blend;$("#k-kdef").checked=SET.kdef;
+  $("#k-vw-v").textContent=Math.round(SET.vw*100)+"%";
+  $("#k-po-v").textContent=SET.po.toFixed(2).replace(/0$/,"")+"×";
+  $("#k-blend-v").textContent=Math.round(SET.blend*100)+"% Sleeper / "+Math.round((1-SET.blend)*100)+"% actual";
+}
+function readKnobs(){
+  SET.mode=$("#k-mode").value;SET.target=$("#k-target").value;SET.max=+$("#k-max").value;
+  SET.vw=+$("#k-vw").value;SET.po=+$("#k-po").value;SET.blend=+$("#k-blend").value;SET.kdef=$("#k-kdef").checked;
+  LS.set("tm_settings",SET);syncKnobs();
+}
+
+//================= DATA LOAD =================
+let RAW=null;      // raw Sleeper pulls for the current league
+let M=null;        // the model built from RAW + settings
+let RESULTS=null;  // last trade search
+let LOADTOKEN=0;
+
+async function loadPlayers(){
+  const cache=LS.get("tm_players",null);
+  if(cache&&cache.t&&Date.now()-cache.t<12*3600e3&&cache.p)return cache.p;
+  const all=await j(`${API}/players/nfl`);
+  const p={};
+  for(const id in all){const x=all[id];const pos=x.position||(x.fantasy_positions||[])[0];
+    if(!["QB","RB","WR","TE","K","DEF"].includes(pos))continue;
+    if(pos!=="DEF"&&!x.team&&!x.active)continue;
+    p[id]=[pos==="DEF"?`${x.first_name||id} ${x.last_name||""}`.trim():(x.full_name||`${x.first_name||""} ${x.last_name||""}`.trim()),
+           pos,x.team||(pos==="DEF"?id:null),x.injury_status||null];}
+  LS.set("tm_players",{t:Date.now(),p});
+  return p;
+}
+async function loadProjections(season,week){
+  const qs="season_type=regular&order_by=pts_ppr"+["QB","RB","WR","TE","K","DEF"].map(p=>`&position[]=${p}`).join("");
+  for(const h of PROJ_HOSTS){
+    try{const r=await fetch(`${h}/projections/nfl/${season}/${week}?${qs}`);if(!r.ok)continue;
+      const rows=await r.json();if(Array.isArray(rows)&&rows.length)return rows;}catch(e){}
+  }
+  return null;
+}
+async function load(id,force){
+  const tok=++LOADTOKEN;
+  $("#app").innerHTML='<div class="status"><span class="spin"></span>Pulling live data from Sleeper…</div>';
+  try{
+    const [lg,users,rosters,state]=await Promise.all([j(`${API}/league/${id}`),j(`${API}/league/${id}/users`),
+      j(`${API}/league/${id}/rosters`),j(`${API}/state/nfl`).catch(()=>null)]);
+    if(tok!==LOADTOKEN)return;
+    const season=lg.season;
+    const inSeason=state&&state.season===season&&state.season_type==="regular";
+    const pwk=(lg.settings&&lg.settings.playoff_week_start)||15;
+    const lastWk=Math.min(18,pwk+2);
+    const curWk=inSeason?Math.max(1,state.week):(state&&state.season_type==="pre"?1:lastWk+1);
+    $("#app").innerHTML='<div class="status"><span class="spin"></span>Loading players, results and Sleeper projections…</div>';
+    const ytdWeeks=[];for(let w=1;w<curWk&&w<pwk;w++)ytdWeeks.push(w);
+    const projWeeks=[];for(let w=curWk;w<=lastWk;w++)projWeeks.push(w);
+    const [players,mups,projs]=await Promise.all([
+      loadPlayers(),
+      Promise.all(ytdWeeks.map(w=>j(`${API}/league/${id}/matchups/${w}`).catch(()=>null))),
+      Promise.all(projWeeks.map(w=>loadProjections(season,w)))]);
+    if(tok!==LOADTOKEN)return;
+    const proj={};projWeeks.forEach((w,i)=>{if(projs[i])proj[w]=projs[i];});
+    RAW={id,lg,users,rosters,state,players,mups:Object.fromEntries(ytdWeeks.map((w,i)=>[w,mups[i]])),proj,curWk,pwk,lastWk,inSeason};
+    afterLoad();
+  }catch(e){
+    if(tok!==LOADTOKEN)return;
+    $("#app").innerHTML=`<div class="err"><b>Couldn't load.</b> ${esc(e.message)}<br><br>
+      If this says "Failed to fetch", the browser blocked the request to Sleeper. Open the page from the Almanac's GitHub Pages link
+      or in a normal Chrome/Safari tab (not an in-app preview) and hit Refresh data.</div>`;
+  }
+}
+
+//================= MODEL =================
+const PTS_KEY=rec=>rec>=0.99?"pts_ppr":rec>=0.49?"pts_half_ppr":"pts_std";
+const OFF_KEYS=new Set(["pass_yd","pass_td","rush_yd","rush_td","rec","rec_yd","rec_td","pass_int","fum_lost","pass_2pt","rush_2pt","rec_2pt"]);
+function scoreStats(st,sc,pos){
+  if(!st)return null;
+  const fb=st[PTS_KEY(sc.rec||0)];
+  if(pos==="K"||pos==="DEF")return fb!=null?fb:null;
+  let tot=0,hit=false;
+  for(const k in st){const v=st[k];if(typeof v!=="number")continue;
+    if(sc[k]!=null){tot+=v*sc[k];if(OFF_KEYS.has(k))hit=true;}}
+  const rec=st.rec||0;
+  if(pos==="TE"&&sc.bonus_rec_te)tot+=rec*sc.bonus_rec_te;
+  if(pos==="RB"&&sc.bonus_rec_rb)tot+=rec*sc.bonus_rec_rb;
+  if(pos==="WR"&&sc.bonus_rec_wr)tot+=rec*sc.bonus_rec_wr;
+  if(!hit)return fb!=null?fb:null;
+  return tot;
+}
+function teamLabel(users,r){const u=users.find(x=>x.user_id===r.owner_id);
+  return {user:u?u.display_name:("Team "+r.roster_id),team:(u&&u.metadata&&u.metadata.team_name)||""};}
+
+function buildModel(){
+  const {lg,users,rosters,players,mups,proj,curWk,pwk,lastWk}=RAW;
+  const sc=lg.scoring_settings||{};
+  const slots=(lg.roster_positions||[]).filter(s=>!["BN","IR","TAXI"].includes(s));
+  const fixed={};const flexSlots=[];
+  slots.forEach(s=>{if(FLEXDEF[s])flexSlots.push(s);else fixed[s]=(fixed[s]||0)+1;});
+  const fOrder={REC_FLEX:0,WRRB_FLEX:1,FLEX:2,SUPER_FLEX:3};
+  flexSlots.sort((a,b)=>fOrder[a]-fOrder[b]);
+  const weeks=[];for(let w=curWk;w<=lastWk;w++)weeks.push(w);
+  // the week in progress gets partial weight: a trade accepted midweek still has to clear review
+  const wt=weeks.map(w=>(w>=pwk?SET.po:1)*(w===curWk&&RAW.inSeason?0.6:1));
+  const sumWt=wt.reduce((a,b)=>a+b,0)||1;
+  const poIdx=weeks.map((w,i)=>w>=pwk?i:-1).filter(i=>i>=0);
+  const regIdx=weeks.map((w,i)=>w<pwk?i:-1).filter(i=>i>=0);
+
+  // season-to-date from league matchups (already in this league's scoring)
+  const ytd={};
+  for(const w in mups){const m=mups[w];if(!m)continue;
+    m.forEach(t=>{const pp=t.players_points||{};for(const pid in pp){const v=pp[pid];
+      if(v==null)continue;const o=ytd[pid]||(ytd[pid]={tot:0,gp:0});if(v!==0){o.tot+=v;o.gp++;}}});}
+
+  // Sleeper projections → this league's scoring
+  const pj={};const projOK={};
+  for(const w of weeks){const rows=proj[w];if(!rows)continue;projOK[w]=rows.length>200;
+    pj[w]={};rows.forEach(row=>{const pid=String(row.player_id||(row.player&&row.player.player_id)||"");if(!pid)return;
+      const pos=(players[pid]&&players[pid][1])||(row.player&&row.player.position)||row.position;
+      const v=scoreStats(row.stats||row,sc,pos);if(v!=null)pj[w][pid]=v;});}
+  const anyProj=Object.keys(projOK).length>0;
+
+  // everyone rostered in the league
+  const teams=rosters.map(r=>{const lab=teamLabel(users,r);const st=r.settings||{};
+    return {rid:r.roster_id,owner:r.owner_id,user:lab.user,team:lab.team,players:(r.players||[]).map(String),
+      reserve:new Set((r.reserve||[]).map(String)),w:st.wins||0,l:st.losses||0,t:st.ties||0,
+      pf:(st.fpts||0)+(st.fpts_decimal||0)/100};});
+  const P={};
+  teams.forEach(t=>t.players.forEach(pid=>{
+    const d=players[pid]||[pid,"?",null,null];
+    const pos=d[1],nfl=d[2],inj=d[3];
+    const y=ytd[pid];const ytdPPG=y&&y.gp?y.tot/y.gp:null;
+    const a=(y&&y.gp>=4)?SET.blend:Math.max(SET.blend,0.85);
+    const pts=new Float64Array(weeks.length);const sleeper=new Float64Array(weeks.length);
+    const veg=VEGAS[nfl];
+    weeks.forEach((w,i)=>{
+      let base;
+      const hasProj=projOK[w];
+      if(hasProj){
+        const pv=pj[w][pid];
+        if(pv==null||pv<=0.05){base=0;sleeper[i]=0;}            // bye, out, or not expected to play
+        else{sleeper[i]=pv;base=ytdPPG!=null?a*pv+(1-a)*ytdPPG:pv;}
+      }else{
+        const bye=BYE_FALLBACK[nfl]===w;
+        const out=(inj==="Out"&&w===RAW.curWk)||(["IR","PUP","Sus"].includes(inj)&&w<RAW.curWk+4);
+        base=bye||out?0:(ytdPPG||0);sleeper[i]=NaN;
+      }
+      // Vegas tilt: scale by how much the offense is expected to score vs league average
+      let mult=1;
+      if(veg&&pos!=="DEF"&&SET.vw>0){
+        const imp=w>=pwk?veg.po/3:(veg.w&&veg.w[w]!=null?veg.w[w]:veg.ros);
+        mult=Math.min(1.18,Math.max(0.82,1+SET.vw*(imp/VEG_AVG-1)));
+      }
+      pts[i]=base*mult;
+    });
+    let s=0,sp=0,np=0,sr=0,nr=0;
+    weeks.forEach((w,i)=>{s+=pts[i]*wt[i];});
+    poIdx.forEach(i=>{sp+=pts[i];np++;});regIdx.forEach(i=>{sr+=pts[i];nr++;});
+    P[pid]={id:pid,name:d[0],pos,nfl,inj,ytd:ytdPPG,gp:y?y.gp:0,pts,sleeper,
+      ros:s/sumWt,po:np?sp/np:null,reg:nr?sr/nr:null,owner:t.rid,ir:t.reserve.has(pid)};
+  }));
+
+  // replacement level + market value (convex, so one stud > two mid guys — the KTC-style consolidation premium)
+  const N=teams.length;const need={QB:0,RB:0,WR:0,TE:0,K:0,DEF:0};
+  Object.entries(fixed).forEach(([s,c])=>{if(need[s]!=null)need[s]+=c*N;});
+  flexSlots.forEach(s=>{if(s==="SUPER_FLEX"){need.QB+=0.85*N;need.RB+=0.06*N;need.WR+=0.07*N;need.TE+=0.02*N;}
+    else if(s==="FLEX"){need.RB+=0.42*N;need.WR+=0.48*N;need.TE+=0.10*N;}
+    else if(s==="WRRB_FLEX"){need.RB+=0.45*N;need.WR+=0.55*N;}
+    else if(s==="REC_FLEX"){need.WR+=0.8*N;need.TE+=0.2*N;}});
+  const repl={};const startCut={};
+  ["QB","RB","WR","TE","K","DEF"].forEach(pos=>{
+    const v=Object.values(P).filter(p=>p.pos===pos).map(p=>p.ros).sort((a,b)=>b-a);
+    const k=Math.max(1,Math.round(need[pos]));
+    repl[pos]=v.length?v[Math.min(v.length-1,k)]||0:0;
+    const fixedCount=(fixed[pos]||0)*N;startCut[pos]=v.length?v[Math.min(v.length-1,Math.max(0,fixedCount-1))]||0:0;
+  });
+  Object.values(P).forEach(p=>{const over=Math.max(0,p.ros-(repl[p.pos]||0));p.vorp=p.ros-(repl[p.pos]||0);p.market=Math.pow(over,1.4)+0.25;});
+  const mMax=Math.max(1,...Object.values(P).map(p=>p.market));
+  Object.values(P).forEach(p=>p.mkt100=Math.round(100*p.market/mMax));
+
+  M={sc,slots,fixed,flexSlots,weeks,wt,sumWt,poIdx,regIdx,teams,P,repl,startCut,N,anyProj,projOK,pwk,curWk};
+  teams.forEach(t=>{t.base=teamScore(t.players);t.detail=lineupDetail(t.players);});
+  computeNeeds();
+  return M;
+}
+
+//================= LINEUP ENGINE =================
+const DEPTH1=0.10,DEPTH2=0.04; // small credit for the best bench bodies (injury insurance)
+function lineupWeek(ids,wi,detail){
+  const arr=[];for(const id of ids){const p=M.P[id];if(!p||p.ir)continue;arr.push(p);}
+  arr.sort((a,b)=>b.pts[wi]-a.pts[wi]);
+  const need=Object.assign({},M.fixed);const used=new Uint8Array(arr.length);let tot=0;
+  for(let i=0;i<arr.length;i++){const p=arr[i];if(need[p.pos]>0){need[p.pos]--;used[i]=1;tot+=p.pts[wi];if(detail)detail[p.pos]=(detail[p.pos]||0)+p.pts[wi];}}
+  for(const fs of M.flexSlots){const ok=FLEXDEF[fs];
+    for(let i=0;i<arr.length;i++){const p=arr[i];if(used[i]||!ok.includes(p.pos))continue;used[i]=1;tot+=p.pts[wi];
+      if(detail)detail[p.pos]=(detail[p.pos]||0)+p.pts[wi];break;}}
+  let d1=0,d2=0;
+  for(let i=0;i<arr.length;i++){const p=arr[i];if(used[i]||!SKILL.includes(p.pos)||p.pos==="QB")continue;
+    if(!d1)d1=p.pts[wi];else{d2=p.pts[wi];break;}}
+  return tot+DEPTH1*d1+DEPTH2*d2;
+}
+function teamScore(ids){
+  let s=0,po=0,reg=0;const wk=new Float64Array(M.weeks.length);
+  for(let i=0;i<M.weeks.length;i++){const v=lineupWeek(ids,i);wk[i]=v;s+=v*M.wt[i];}
+  M.poIdx.forEach(i=>po+=wk[i]);M.regIdx.forEach(i=>reg+=wk[i]);
+  return {w:s/M.sumWt,po:M.poIdx.length?po/M.poIdx.length:0,reg:M.regIdx.length?reg/M.regIdx.length:0,wk};
+}
+function lineupDetail(ids){ // avg starter points by position across remaining weeks
+  const d={};for(let i=0;i<M.weeks.length;i++)lineupWeek(ids,i,d);
+  for(const k in d)d[k]/=M.weeks.length;return d;
+}
+
+//================= TEAM NEEDS =================
+function computeNeeds(){
+  const pos=["QB","RB","WR","TE"].filter(p=>(M.fixed[p]||0)>0||M.flexSlots.length);
+  M.needPos=pos;
+  pos.forEach(p=>{
+    const order=[...M.teams].sort((a,b)=>(b.detail[p]||0)-(a.detail[p]||0));
+    order.forEach((t,i)=>{(t.rank=t.rank||{})[p]=i+1;});
+  });
+  M.teams.forEach(t=>{
+    t.needs=[];t.surplus=[];t.surplusPl={};
+    pos.forEach(p=>{
+      if(t.rank[p]>Math.ceil(M.N*0.6))t.needs.push(p);
+      // bench players at p who would start for a typical team
+      const mine=t.players.map(id=>M.P[id]).filter(x=>x&&x.pos===p&&!x.ir).sort((a,b)=>b.ros-a.ros);
+      const keep=(M.fixed[p]||0)+(p==="QB"?(M.flexSlots.includes("SUPER_FLEX")?1:0):(M.flexSlots.length?1:0));
+      const extra=mine.slice(keep).filter(x=>x.ros>=M.startCut[p]*0.85&&x.ros>2);
+      if(extra.length){t.surplus.push(p);t.surplusPl[p]=extra;}
+    });
+    t.needScore={};pos.forEach(p=>{t.needScore[p]=(t.rank[p]-1)/Math.max(1,M.N-1);}); // 0 strong … 1 weakest
+  });
+}
+
+//================= TRADE ENGINE =================
+function combos(arr,k){const out=[];const rec=(s,c)=>{if(c.length===k){out.push(c.slice());return;}
+  for(let i=s;i<arr.length;i++){c.push(arr[i]);rec(i+1,c);c.pop();}};rec(0,[]);return out;}
+function dropFor(t,afterIds,incoming,k){ // who a team cuts to make room
+  if(k<=0)return [];
+  const inc=new Set(incoming);
+  const cand=afterIds.filter(id=>!inc.has(id)&&M.P[id]&&!M.P[id].ir).map(id=>M.P[id]);
+  const cnt={};cand.forEach(p=>cnt[p.pos]=(cnt[p.pos]||0)+1);
+  cand.sort((a,b)=>a.ros-b.ros);
+  const out=[];for(const p of cand){if(out.length>=k)break;if(cnt[p.pos]<=1&&(p.pos==="K"||p.pos==="DEF"||p.pos==="QB"||p.pos==="TE"))continue;
+    out.push(p.id);cnt[p.pos]--;}
+  return out;
+}
+function evalTrade(me,them,give,get){
+  const giveS=new Set(give),getS=new Set(get);
+  let myAfter=me.players.filter(id=>!giveS.has(id)).concat(get);
+  let thAfter=them.players.filter(id=>!getS.has(id)).concat(give);
+  const myDrop=dropFor(me,myAfter,get,get.length-give.length);
+  const thDrop=dropFor(them,thAfter,give,give.length-get.length);
+  if(myDrop.length){const s=new Set(myDrop);myAfter=myAfter.filter(id=>!s.has(id));}
+  if(thDrop.length){const s=new Set(thDrop);thAfter=thAfter.filter(id=>!s.has(id));}
+  const a=teamScore(myAfter),b=teamScore(thAfter);
+  const mOut=give.reduce((s,id)=>s+M.P[id].market,0),mIn=get.reduce((s,id)=>s+M.P[id].market,0);
+  const myGain=a.w-me.base.w,thGain=b.w-them.base.w;
+  const ratio=mOut/Math.max(0.01,mIn); // what THEY receive ÷ what they give, by market value
+  // acceptance: their lineup gain + whether it "looks fair" to them, minus the endowment effect
+  const p=sigmoid(-0.45+0.85*thGain+2.6*(Math.min(ratio,1.6)-1));
+  return {me,them,give,get,myDrop,thDrop,myGain,thGain,myPO:a.po-me.base.po,thPO:b.po-them.base.po,
+    myReg:a.reg-me.base.reg,thReg:b.reg-them.base.reg,ratio,mIn,mOut,accept:p,myAfter,thAfter};
+}
+function scoreTrade(t){
+  const n=t.give.length+t.get.length;const cx=0.12*(n-2);
+  if(SET.mode==="winwin"){
+    if(t.myGain<0.15||t.thGain<0.1)return null;
+    return Math.min(t.myGain,t.thGain)+0.35*(t.myGain+t.thGain)+0.6*(t.accept-0.5)-cx;
+  }
+  if(t.myGain<0.15||t.thGain<-0.6||t.accept<0.35)return null; // they can lose a little on paper, not a lot
+  return t.myGain*(0.65+0.35*t.accept)-cx;
+}
+function tradeable(p,mine){
+  if(!p)return false;
+  if(!SET.kdef&&(p.pos==="K"||p.pos==="DEF"))return false;
+  if(p.ros<1.5&&!(mine&&SHOP.has(p.id)))return false;
+  if(mine&&LOCK.has(p.id))return false;
+  return true;
+}
+let LOCK=new Set(),SHOP=new Set();
+function lockKey(){return "tm_lock_"+RAW.id;}
+async function findTrades(onProgress){
+  const me=M.teams.find(t=>t.rid===MYRID);if(!me)return [];
+  const mine=me.players.map(id=>M.P[id]).filter(p=>tradeable(p,true)).sort((a,b)=>b.market-a.market);
+  const maxK=SET.max;
+  const myCombos={};for(let k=1;k<=maxK;k++){
+    const pool=k===3?mine.slice(0,9):mine;
+    myCombos[k]=combos(pool.map(p=>p.id),k).filter(c=>!SHOP.size||c.some(id=>SHOP.has(id)));}
+  const all=[];const others=M.teams.filter(t=>t.rid!==me.rid);
+  for(let ti=0;ti<others.length;ti++){
+    const th=others[ti];
+    const theirs=th.players.map(id=>M.P[id]).filter(p=>tradeable(p,false)).sort((a,b)=>b.market-a.market);
+    for(let kGet=1;kGet<=maxK;kGet++){
+      const pool=kGet===3?theirs.slice(0,9):theirs;
+      let getCombos=combos(pool.map(p=>p.id),kGet);
+      if(SET.target!=="ANY")getCombos=getCombos.filter(c=>c.some(id=>M.P[id].pos===SET.target));
+      for(let kGive=1;kGive<=maxK;kGive++){
+        if(Math.abs(kGet-kGive)>1&&maxK<3)continue;
+        for(const get of getCombos){
+          const mIn=get.reduce((s,id)=>s+M.P[id].market,0);
+          for(const give of myCombos[kGive]){
+            const mOut=give.reduce((s,id)=>s+M.P[id].market,0);
+            const ratio=mOut/Math.max(0.01,mIn);
+            if(ratio<0.55||ratio>2.3)continue; // nobody accepts a fleece; nobody should send an overpay
+            const t=evalTrade(me,th,give,get);
+            const s=scoreTrade(t);if(s==null)continue;
+            // "shopping for RB" means an RB who actually moves your RB starters, not a throw-in
+            if(SET.target!=="ANY"){const d=lineupDetail(t.myAfter)[SET.target]||0;if(d-(me.detail[SET.target]||0)<0.5)continue;}
+            t.score=s;all.push(t);
+          }
+        }
+      }
+    }
+    onProgress&&onProgress((ti+1)/others.length);
+    await new Promise(r=>setTimeout(r,0));
+  }
+  all.sort((a,b)=>b.score-a.score);
+  // diversify: cap per partner and per headline player so the list isn't 20 versions of one deal
+  const out=[];const perTeam={},perGet={},perGive={},seen=new Set();
+  const capT=SET.mode==="winwin"?3:4;
+  for(const t of all){
+    const key=t.them.rid+"|"+[...t.give].sort()+"|"+[...t.get].sort();if(seen.has(key))continue;
+    const head=[...t.get].sort((a,b)=>M.P[b].market-M.P[a].market)[0];
+    const headG=[...t.give].sort((a,b)=>M.P[b].market-M.P[a].market)[0];
+    const core=t.them.rid+"|"+head+"|"+headG; // same headline swap with a different throw-in = same deal
+    if(seen.has(core)||(perTeam[t.them.rid]||0)>=capT||(perGet[head]||0)>=2||(perGive[headG]||0)>=4)continue;
+    seen.add(key);seen.add(core);perTeam[t.them.rid]=(perTeam[t.them.rid]||0)+1;perGet[head]=(perGet[head]||0)+1;perGive[headG]=(perGive[headG]||0)+1;
+    out.push(t);if(out.length>=25)break;
+  }
+  return out;
+}
+
+//================= GRADES & WORDS =================
+function grade(g){
+  const L=[[3.5,"A+"],[2.5,"A"],[1.8,"A-"],[1.2,"B+"],[0.7,"B"],[0.3,"B-"],[0.05,"C+"],[-0.25,"C"],[-0.6,"C-"],[-1.2,"D"]];
+  for(const [c,l] of L)if(g>=c)return l;return "F";
+}
+const gcls=l=>"g"+l[0];
+function gradeChip(g){const l=grade(g);return `<span class="grade ${gcls(l)}" title="${sgn(g)} pts/week to the starting lineup">${l}</span>`;}
+function vchip(p){
+  const v=VEGAS[p.nfl];if(!v||p.pos==="DEF")return "";
+  const rk=VEG_RANK[p.nfl],prk=VEG_PO_RANK[p.nfl];
+  const c=prk<=8?"g":prk>=25?"r":"m";
+  return `<span class="vchip ${c}" title="Vegas: ${p.nfl} implied ${v.ros} pts/game rest of season (#${rk}), ${r1(v.po/3)}/game in Weeks 15-17 (#${prk})">V${r1(v.po/3)}</span>`;
+}
+function injChip(p){return p.inj&&p.inj!=="Active"?`<span class="inj" title="${esc(p.inj)}">${esc(p.inj==="Questionable"?"Q":p.inj==="Doubtful"?"D":p.inj)}</span>`:"";}
+function plRow(id,showOwnerVal){
+  const p=M.P[id];
+  return `<div class="pl"><span class="pos ${p.pos}">${p.pos}</span><span class="nm">${esc(p.name)} <span class="muted small">${esc(p.nfl||"FA")}</span></span>${injChip(p)}${vchip(p)}
+    <span class="v" title="Model points/week, rest of season · playoff weeks">${r1(p.ros)}${p.po!=null?` · <b>${r1(p.po)}</b>`:""}</span></div>`;
+}
+function posDelta(beforeIds,afterIds){
+  const a=lineupDetail(beforeIds),b=lineupDetail(afterIds);const parts=[];
+  ["QB","RB","WR","TE","K","DEF"].forEach(p=>{const d=(b[p]||0)-(a[p]||0);if(Math.abs(d)>=0.3)parts.push([p,d]);});
+  parts.sort((x,y)=>Math.abs(y[1])-Math.abs(x[1]));
+  return parts;
+}
+function deltaHTML(parts){return parts.length?parts.map(([p,d])=>`${p} <b class="${d>0?"up":"dn"}">${sgn(d)}</b>`).join(" · "):"no lineup change";}
+function whyText(t){
+  const mine=posDelta(t.me.players,t.myAfter),theirs=posDelta(t.them.players,t.thAfter);
+  const myUp=mine.filter(x=>x[1]>0)[0],thUp=theirs.filter(x=>x[1]>0)[0];
+  const s=[];
+  if(myUp)s.push(`Your ${myUp[0]} starters gain ${r1(myUp[1])} pts/week`+(t.me.needs.includes(myUp[0])?` — a spot where you rank ${ord(t.me.rank[myUp[0]])} of ${M.N}.`:"."));
+  if(thUp)s.push(`${esc(t.them.user)}'s ${thUp[0]} room goes up ${r1(thUp[1])}`+(t.them.needs.includes(thUp[0])?` (they're ${ord(t.them.rank[thUp[0]])} at ${thUp[0]}).`:"."));
+  const myDown=mine.filter(x=>x[1]<0)[0];
+  if(myDown)s.push(`Cost: your ${myDown[0]} spot dips ${r1(-myDown[1])}.`);
+  return s.join(" ");
+}
+const ord=n=>n+(["th","st","nd","rd"][((n%100-20)%10)]||["th","st","nd","rd"][n%100]||"th");
+function pitchText(t){
+  const nm=ids=>ids.map(id=>M.P[id].name).join(" + ");
+  const theirs=posDelta(t.them.players,t.thAfter).filter(x=>x[1]>0)[0];
+  let s=`Hey ${t.them.user} — trade idea before the deadline:\n\nYou get: ${nm(t.give)}\nI get: ${nm(t.get)}\n\n`;
+  if(theirs)s+=`By my numbers it bumps your ${theirs[0]} starters about ${r1(theirs[1])} pts a week the rest of the way`+(M.poIdx.length?`, and ${sgn(t.thPO)} a week in the playoff weeks`:"")+`.`;
+  else s+=`It evens out your roster and frees up a spot.`;
+  if(t.thDrop.length)s+=` (You'd have to cut ${nm(t.thDrop)}.)`;
+  s+=`\n\nOpen to tweaks if you want to counter.`;
+  return s;
+}
+function card(t,i){
+  const fair=Math.max(0,Math.min(1,t.ratio/2));
+  const fairTxt=t.ratio>=1.12?"they win on paper":t.ratio<=0.88?"you win on paper":"even on paper";
+  const rec=`${t.them.w}-${t.them.l}${t.them.t?"-"+t.them.t:""}`;
+  const id="c"+i+"_"+Math.random().toString(36).slice(2,7);
+  return `<div class="tc">
+    <div class="top"><div class="with"><span class="rank">#${i+1}</span>with ${esc(t.them.user)}<small>${esc(t.them.team)} · ${rec}</small></div>
+      <div class="facts"><span>Accept odds <b>${Math.round(t.accept*100)}%</b></span></div></div>
+    <div class="sides">
+      <div class="side"><div class="lab"><span>You get</span><span>${gradeChip(t.myGain)}</span></div>
+        ${t.get.map(id=>plRow(id)).join("")}
+        <div class="delta">Your lineup: <b class="${t.myGain>=0?"up":"dn"}">${sgn(t.myGain)}</b>/wk · playoffs <b class="${t.myPO>=0?"up":"dn"}">${sgn(t.myPO)}</b><br>${deltaHTML(posDelta(t.me.players,t.myAfter))}
+        ${t.myDrop.length?`<br>You'd cut: ${t.myDrop.map(id=>esc(M.P[id].name)).join(", ")}`:""}</div></div>
+      <div class="side"><div class="lab"><span>You give</span><span title="${esc(t.them.user)}'s grade">${gradeChip(t.thGain)}</span></div>
+        ${t.give.map(id=>plRow(id)).join("")}
+        <div class="delta">Their lineup: <b class="${t.thGain>=0?"up":"dn"}">${sgn(t.thGain)}</b>/wk · playoffs <b class="${t.thPO>=0?"up":"dn"}">${sgn(t.thPO)}</b><br>${deltaHTML(posDelta(t.them.players,t.thAfter))}
+        ${t.thDrop.length?`<br>They'd cut: ${t.thDrop.map(id=>esc(M.P[id].name)).join(", ")}`:""}</div></div>
+    </div>
+    <div class="facts"><span style="flex:1;min-width:180px">Market value: <b>${fairTxt}</b>
+      <div class="meter" title="Left = you get more market value, right = they do"><i style="width:${Math.round(fair*100)}%"></i><span class="mid"></span></div>
+      <div class="small muted" style="display:flex;justify-content:space-between"><span>you</span><span>even</span><span>them</span></div></span></div>
+    <div class="why">${whyText(t)}</div>
+    <div class="acts"><button class="ghost mini" data-pitch="${id}" type="button">Write the pitch</button>
+      <button class="ghost mini" data-open="${i}" type="button">Open in builder</button></div>
+    <div class="pitch" id="${id}">${esc(pitchText(t))}<div class="acts"><button class="mini" data-copy="${id}" type="button">Copy</button></div></div>
+  </div>`;
+}
+
+//================= RENDER =================
+let MYRID=null;
+function afterLoad(){
+  readKnobs();buildModel();
+  const users=M.teams.map(t=>t);
+  const saved=LS.get("tm_me_"+RAW.id,null);
+  const def=M.teams.find(t=>String(t.rid)===String(saved))||M.teams.find(t=>(t.user||"").toLowerCase()===DEFAULT_USER)||M.teams[0];
+  MYRID=def.rid;
+  $("#me").innerHTML=users.slice().sort((a,b)=>a.user.localeCompare(b.user)).map(t=>`<option value="${t.rid}"${t.rid===MYRID?" selected":""}>${esc(t.user)}</option>`).join("");
+  LOCK=new Set(LS.get(lockKey(),[]));SHOP=new Set(LS.get("tm_shop_"+RAW.id,[]));
+  renderShell();
+  runSearch();
+}
+function metaLine(){
+  const {lg,curWk,pwk}=RAW;const dl=lg.settings&&lg.settings.trade_deadline;
+  const projN=Object.keys(M.projOK).length;
+  let s=`${esc(lg.name)} · ${lg.season} · ${M.N} teams · ${lg.scoring_settings.rec||0} PPR · valuing Weeks ${M.weeks[0]}–${M.weeks[M.weeks.length-1]}`;
+  if(dl)s+=` · trade deadline Week ${dl}`;
+  s+=` · Sleeper projections ${projN?"live for "+projN+" weeks":"unavailable (season-to-date only)"} · Vegas as of ${VEGAS_UPDATED}`;
+  return s;
+}
+function renderShell(){
+  $("#meta").innerHTML=metaLine();
+  const dl=RAW.lg.settings&&RAW.lg.settings.trade_deadline;
+  const past=dl&&RAW.inSeason&&RAW.curWk>dl;
+  $("#app").innerHTML=`
+    ${past?`<div class="warnbox"><b>The trade deadline (Week ${dl}) has passed in this league.</b> Results are for reference.</div>`:""}
+    ${!M.anyProj?`<div class="warnbox"><b>Sleeper's weekly projections didn't load,</b> so values are season-to-date per game with Vegas tilt only.</div>`:""}
+    <section id="s-trades" class="on"></section>
+    <section id="s-needs"></section>
+    <section id="s-roster"></section>
+    <section id="s-build"></section>
+    <section id="s-vegas"></section>
+    <section id="s-how"></section>`;
+  showTab(location.hash.replace("#","")||"trades");
+  renderNeeds();renderRoster();renderBuild();renderVegas();renderHow();
+}
+function showTab(t){
+  if(!$("#s-"+t))t="trades";
+  document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("on",b.dataset.t===t));
+  document.querySelectorAll("main section").forEach(s=>s.classList.toggle("on",s.id==="s-"+t));
+}
+async function runSearch(){
+  const el=$("#s-trades");if(!el)return;
+  const me=M.teams.find(t=>t.rid===MYRID);
+  el.innerHTML=`<h2>Best trades for ${esc(me.user)}</h2><p class="sub">Scanning every ${SET.max===3?"deal up to 3-for-3":SET.max===2?"1-for-1, 2-for-1 and 2-for-2":"1-for-1"} with ${M.N-1} teams…</p><div class="progress"><i id="prog"></i></div>`;
+  $("#run").disabled=true;
+  const t0=performance.now();
+  RESULTS=await findTrades(f=>{const p=$("#prog");if(p)p.style.width=Math.round(f*100)+"%";});
+  $("#run").disabled=false;
+  const secs=((performance.now()-t0)/1000).toFixed(1);
+  const modeTxt=SET.mode==="winwin"?"both lineups improve":"your lineup improves most, with deals they'd plausibly accept";
+  el.innerHTML=`<h2>Best trades for ${esc(me.user)}</h2>
+    <p class="sub">Ranked so ${modeTxt}. Grades are each side's change in projected starting-lineup points per week, Weeks ${M.weeks[0]}–${M.weeks[M.weeks.length-1]}, playoff weeks counted ${SET.po}×. Numbers next to players: model pts/week rest of season · <b>playoff weeks</b>. ${secs}s.</p>
+    ${myNeedsBlurb(me)}
+    ${RESULTS.length?RESULTS.map(card).join(""):`<div class="warnbox"><b>No trades cleared the bar.</b> Try "Me first", raise max players, turn off untouchables, or set "shopping for" to Any.</div>`}`;
+  bindCards(el,RESULTS);
+}
+function myNeedsBlurb(me){
+  const need=me.needs.map(p=>`<span class="tag need">${p} · ${ord(me.rank[p])}</span>`).join("")||`<span class="muted small">no glaring holes</span>`;
+  const have=me.surplus.map(p=>`<span class="tag have">${p}: ${me.surplusPl[p].map(x=>esc(x.name)).join(", ")}</span>`).join("")||`<span class="muted small">no clear surplus</span>`;
+  return `<div class="warnbox" style="border-left-color:var(--gold)"><b>Your needs:</b> ${need}<br><b>Your trade bait:</b> ${have}</div>`;
+}
+function bindCards(root,list){
+  root.querySelectorAll("[data-pitch]").forEach(b=>b.onclick=()=>$("#"+b.dataset.pitch).classList.toggle("on"));
+  root.querySelectorAll("[data-copy]").forEach(b=>b.onclick=async()=>{
+    const txt=$("#"+b.dataset.copy).firstChild.textContent;
+    try{await navigator.clipboard.writeText(txt);b.textContent="Copied";}catch(e){b.textContent="Select & copy manually";}});
+  root.querySelectorAll("[data-open]").forEach(b=>b.onclick=()=>{const t=list[+b.dataset.open];
+    BUILD={rid:t.them.rid,give:new Set(t.give),get:new Set(t.get)};renderBuild();showTab("build");location.hash="build";});
+}
+function renderNeeds(){
+  const el=$("#s-needs");const pos=M.needPos;
+  const me=M.teams.find(t=>t.rid===MYRID);
+  const col=(r)=>{const x=(r-1)/Math.max(1,M.N-1);
+    const g=x<0.34?"color-mix(in srgb,var(--win) 30%,transparent)":x>0.66?"color-mix(in srgb,var(--loss) 30%,transparent)":"transparent";return g;};
+  const rows=[...M.teams].sort((a,b)=>b.base.w-a.base.w).map((t,i)=>`<tr class="${t.rid===MYRID?"me":""}">
+      <td>${i+1}</td><td>${esc(t.user)} <span class="muted small">${t.w}-${t.l}</span></td><td class="n">${r1(t.base.w)}</td>
+      ${pos.map(p=>`<td class="cell" style="background:${col(t.rank[p])}">${ord(t.rank[p])}<small>${r1(t.detail[p]||0)}${t.surplus.includes(p)?` · +${t.surplusPl[p].length}`:""}</small></td>`).join("")}</tr>`).join("");
+  // partner fit
+  const fit=M.teams.filter(t=>t.rid!==MYRID).map(t=>{
+    let s=0;const why=[];
+    pos.forEach(p=>{if(me.needs.includes(p)&&t.surplus.includes(p)){s+=1+me.needScore[p];why.push(`<span class="tag have">they have ${p}</span>`);}
+      if(t.needs.includes(p)&&me.surplus.includes(p)){s+=1+t.needScore[p];why.push(`<span class="tag need">they need ${p}</span>`);}});
+    const best=(RESULTS||[]).filter(x=>x.them.rid===t.rid)[0];
+    return {t,s,why,best};}).sort((a,b)=>b.s-a.s||((b.best?b.best.score:-9)-(a.best?a.best.score:-9)));
+  el.innerHTML=`<h2>Who needs what</h2>
+    <p class="sub">Each cell is a team's rank at that position by projected starting points per week, rest of season (1st = best). Green = top third, red = bottom third. "+N" = bench players there who'd start for a typical team — their trade bait.</p>
+    <div class="tblwrap"><table class="heat"><thead><tr><th>#</th><th>Team</th><th class="n">Proj/wk</th>${pos.map(p=>`<th style="text-align:center">${p}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table></div>
+    <h2>Best trade partners for you</h2>
+    <p class="sub">Teams whose surplus matches your holes and whose holes match your surplus. "Best deal" comes from the last search.</p>
+    ${fit.map(f=>`<div class="partner"><div><span class="nm">${esc(f.t.user)}</span> <span class="muted small">${f.t.w}-${f.t.l} · needs ${f.t.needs.join(", ")||"nothing obvious"}</span><br>${f.why.join("")||`<span class="muted small">no natural fit</span>`}
+      ${f.best?`<div class="small" style="margin-top:4px">Best deal: you get <b>${f.best.get.map(id=>esc(M.P[id].name)).join(" + ")}</b> for <b>${f.best.give.map(id=>esc(M.P[id].name)).join(" + ")}</b></div>`:""}</div>
+      <div style="text-align:right">${f.best?gradeChip(f.best.myGain)+" "+gradeChip(f.best.thGain):""}</div></div>`).join("")}`;
+}
+function renderRoster(){
+  const el=$("#s-roster");const me=M.teams.find(t=>t.rid===MYRID);
+  const list=me.players.map(id=>M.P[id]).filter(Boolean).sort((a,b)=>SKILL.indexOf(a.pos)-SKILL.indexOf(b.pos)||b.ros-a.ros);
+  el.innerHTML=`<h2>${esc(me.user)}'s roster</h2>
+    <p class="sub">🔒 = untouchable (never offered). 🛒 = shop him (every suggestion must include at least one 🛒 player). Saved in this browser. Value is a 0–100 market scale with a stud premium, the way trade calculators price consolidation.</p>
+    <div class="tblwrap"><table><thead><tr><th>Player</th><th></th><th class="n">YTD/g</th><th class="n">Sleeper ROS</th><th class="n">Model ROS</th><th class="n">Playoffs</th><th class="n">Value</th><th>Mark</th></tr></thead><tbody>
+    ${list.map(p=>{const sl=[...p.sleeper].filter(x=>!isNaN(x));const slAvg=sl.length?sl.reduce((a,b)=>a+b,0)/sl.length:null;
+      return `<tr><td><span class="pos ${p.pos}">${p.pos}</span> <b>${esc(p.name)}</b> <span class="muted small">${esc(p.nfl||"")}</span> ${injChip(p)}${p.ir?' <span class="tag">IR slot</span>':""}</td>
+      <td>${vchip(p)}</td><td class="n">${p.ytd!=null?r1(p.ytd)+` <span class="muted small">(${p.gp})</span>`:"–"}</td>
+      <td class="n">${slAvg!=null?r1(slAvg):"–"}</td><td class="n"><b>${r1(p.ros)}</b></td><td class="n">${p.po!=null?r1(p.po):"–"}</td><td class="n">${p.mkt100}</td>
+      <td><button class="toggle lock${LOCK.has(p.id)?" on":""}" data-lock="${p.id}" type="button">🔒</button> <button class="toggle shop${SHOP.has(p.id)?" on":""}" data-shop="${p.id}" type="button">🛒</button></td></tr>`;}).join("")}
+    </tbody></table></div>
+    <p class="sub">Model ROS blends Sleeper's weekly projections with this season's actual points per game, then tilts by Vegas. Bye weeks and expected absences count as zero, which is why it can sit below the per-game numbers.</p>`;
+  el.querySelectorAll("[data-lock]").forEach(b=>b.onclick=()=>{const id=b.dataset.lock;LOCK.has(id)?LOCK.delete(id):(LOCK.add(id),SHOP.delete(id));
+    LS.set(lockKey(),[...LOCK]);LS.set("tm_shop_"+RAW.id,[...SHOP]);renderRoster();});
+  el.querySelectorAll("[data-shop]").forEach(b=>b.onclick=()=>{const id=b.dataset.shop;SHOP.has(id)?SHOP.delete(id):(SHOP.add(id),LOCK.delete(id));
+    LS.set(lockKey(),[...LOCK]);LS.set("tm_shop_"+RAW.id,[...SHOP]);renderRoster();});
+}
+let BUILD=null;
+function renderBuild(){
+  const el=$("#s-build");const me=M.teams.find(t=>t.rid===MYRID);
+  const others=M.teams.filter(t=>t.rid!==MYRID);
+  if(!BUILD||BUILD.rid===MYRID||!others.find(t=>t.rid===BUILD.rid))BUILD={rid:others[0].rid,give:new Set(),get:new Set()};
+  const th=M.teams.find(t=>t.rid===BUILD.rid);
+  const lst=(t,set,key)=>t.players.map(id=>M.P[id]).filter(Boolean).sort((a,b)=>b.market-a.market).map(p=>
+    `<label class="pick"><input type="checkbox" data-${key}="${p.id}"${set.has(p.id)?" checked":""}><span class="pos ${p.pos}">${p.pos}</span><span style="flex:1">${esc(p.name)} <span class="muted small">${esc(p.nfl||"")}</span></span>${injChip(p)}<span class="muted small">${r1(p.ros)}</span></label>`).join("");
+  let res="";
+  if(BUILD.give.size&&BUILD.get.size){const t=evalTrade(me,th,[...BUILD.give],[...BUILD.get]);res=card(t,0).replace('<span class="rank">#1</span>',"");}
+  else res=`<div class="warnbox">Tick at least one player on each side to grade the deal.</div>`;
+  el.innerHTML=`<h2>Build a trade</h2><p class="sub">Test any offer, including ones you've been sent. Same grading as the suggestions.</p>
+    <div class="bar" style="margin:0 0 10px"><select id="b-team">${others.map(t=>`<option value="${t.rid}"${t.rid===BUILD.rid?" selected":""}>${esc(t.user)}</option>`).join("")}</select></div>
+    <div id="b-res">${res}</div>
+    <div class="sides build"><div class="side"><div class="lab"><span>You give (${esc(me.user)})</span></div>${lst(me,BUILD.give,"give")}</div>
+      <div class="side"><div class="lab"><span>You get (${esc(th.user)})</span></div>${lst(th,BUILD.get,"get")}</div></div>`;
+  $("#b-team").onchange=e=>{BUILD={rid:+e.target.value,give:BUILD.give,get:new Set()};renderBuild();};
+  el.querySelectorAll("[data-give]").forEach(c=>c.onchange=()=>{c.checked?BUILD.give.add(c.dataset.give):BUILD.give.delete(c.dataset.give);renderBuild();});
+  el.querySelectorAll("[data-get]").forEach(c=>c.onchange=()=>{c.checked?BUILD.get.add(c.dataset.get):BUILD.get.delete(c.dataset.get);renderBuild();});
+  const r=$("#b-res");if(r&&BUILD.give.size&&BUILD.get.size)bindCards(r,[evalTrade(me,th,[...BUILD.give],[...BUILD.get])]);
+}
+function renderVegas(){
+  const el=$("#s-vegas");
+  const mineTeams={};const me=M.teams.find(t=>t.rid===MYRID);
+  me.players.forEach(id=>{const p=M.P[id];if(p&&p.nfl&&p.pos!=="DEF")(mineTeams[p.nfl]=mineTeams[p.nfl]||[]).push(p.name);});
+  const rows=Object.keys(VEGAS).sort((a,b)=>VEGAS[b].po-VEGAS[a].po).map((t,i)=>{const v=VEGAS[t];
+    const tilt=1+SET.vw*(v.po/3/VEG_AVG-1);
+    return `<tr${mineTeams[t]?' class="me"':""}><td>${i+1}</td><td><b>${t}</b></td><td class="n">${r1(v.ros)}</td><td class="n">${v.w&&v.w[RAW.curWk]!=null?r1(v.w[RAW.curWk]):"–"}</td>
+      <td class="n"><b>${r1(v.po/3)}</b></td><td class="n">${sgn((tilt-1)*100)}%</td><td class="small">${(mineTeams[t]||[]).map(esc).join(", ")}</td></tr>`;}).join("");
+  el.innerHTML=`<h2>Vegas scoring environment</h2>
+    <p class="sub">Implied team points from consensus sportsbook spreads and totals (Sharp Football Analysis), last updated ${VEGAS_UPDATED}. Sorted by the fantasy playoffs, Weeks 15–17. "Tilt" is how much the model nudges that team's players in playoff weeks at the current Vegas weight (${Math.round(SET.vw*100)}%). Highlighted rows hold your players.</p>
+    <div class="tblwrap"><table><thead><tr><th>#</th><th>Team</th><th class="n">ROS pts/g</th><th class="n">Wk ${RAW.curWk}</th><th class="n">Wk 15–17 pts/g</th><th class="n">Tilt</th><th>Your players</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+function renderHow(){
+  $("#s-how").innerHTML=`<div class="how"><h2>How it works</h2>
+  <p>It borrows the best parts of the big trade tools and runs them on your actual league:</p>
+  <ul>
+    <li><b>Lineup impact, not name value</b> (FantasyPros Trade Finder / Draft Sharks Trade Navigator). Every candidate deal is graded by re-setting both teams' best legal lineup — your league's exact slots, flex and superflex — for every remaining week, before and after. A player only adds value if he'd actually start.</li>
+    <li><b>Team needs and trade partners</b> (FantasyPros Trade Central, Draft Sharks Partner Finder). Positional ranks across the league plus bench players who'd start elsewhere find teams whose surplus is your hole and vice versa.</li>
+    <li><b>Consolidation premium</b> (KeepTradeCut-style value adjustment). Market value grows faster than points, so two mid players don't add up to a stud. That drives the "on paper" meter and the accept odds, because the other manager judges an offer by names.</li>
+    <li><b>Accept odds</b> combine their lineup gain with how fair it looks to them, with a built-in discount because managers overrate their own players.</li>
+  </ul>
+  <p><b>Player values.</b> Each remaining week = Sleeper's weekly projection for that player (re-scored with your league's exact scoring) blended with his actual points per game this season in your league, then tilted by Vegas: a player whose offense is implied to score above the league average (${r1(VEG_AVG)}) gets a bump, below gets a haircut. Playoff weeks use the Weeks 15–17 implied totals. Byes and players Sleeper projects at zero count as zero.</p>
+  <p><b>Grades.</b> Change in projected starting-lineup points per week (playoff weeks weighted ${SET.po}×): A+ ≥ +3.5 · A ≥ +2.5 · A- ≥ +1.8 · B+ ≥ +1.2 · B ≥ +0.7 · B- ≥ +0.3 · C+ ≥ 0 · C ≈ even · D/F = you get worse. A small bench-depth credit means a team that gives up its only backup feels it.</p>
+  <p><b>Roster spots.</b> When a side takes back more players than it sends, the model cuts its lowest-value bench player and shows who.</p>
+  <p><b>Limits.</b> Projections are projections. It doesn't know about injuries Sleeper hasn't tagged, managers who never set lineups, or who's out of the playoff race. Vegas numbers are hard-coded at the top of the file and need a weekly refresh.</p></div>`;
+}
+
+//================= WIRING =================
+function fillLeagues(){
+  const sel=$("#league");sel.innerHTML=PRESETS.map(l=>`<option value="${l.id}">${esc(l.name)}</option>`).join("");
+  const q=new URLSearchParams(location.search).get("lg");
+  const last=q||LS.get("tm_last",null);if(last&&PRESETS.find(l=>l.id===last))sel.value=last;
+}
+function init(){
+  fillLeagues();syncKnobs();
+  $("#league").onchange=()=>{LS.set("tm_last",$("#league").value);BUILD=null;load($("#league").value);};
+  $("#me").onchange=()=>{MYRID=+$("#me").value;LS.set("tm_me_"+RAW.id,MYRID);BUILD=null;renderShell();runSearch();};
+  $("#run").onclick=()=>{readKnobs();buildModel();renderShell();runSearch();};
+  $("#reload").onclick=()=>{try{localStorage.removeItem("tm_players");}catch(e){}load($("#league").value,true);};
+  ["#k-vw","#k-po","#k-blend"].forEach(s=>$(s).oninput=()=>{readKnobs();});
+  $("#tabs").onclick=e=>{const b=e.target.closest("button");if(!b||!M)return;showTab(b.dataset.t);location.hash=b.dataset.t;
+    if(b.dataset.t==="needs")renderNeeds();};
+  load($("#league").value);
+}
+init();
+</script>
+</body>
+</html>
