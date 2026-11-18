@@ -137,7 +137,7 @@
   <div class="bar">
     <select id="league" aria-label="League"></select>
     <select id="me" aria-label="Your team"></select>
-    <button id="run" type="button">Find trades</button>
+    <button id="run" type="button">Re-run</button>
     <button id="reload" type="button" class="ghost">Refresh data</button>
     <a href="index.html" class="small">← Almanac</a>
     <div class="meta" id="meta">Loading…</div>
@@ -275,6 +275,7 @@ async function loadProjections(season,week){
 }
 async function load(id,force){
   const tok=++LOADTOKEN;
+  RESULTS=null;BUILD=null;M=null;
   $("#app").innerHTML='<div class="status"><span class="spin"></span>Pulling live data from Sleeper…</div>';
   try{
     const [lg,users,rosters,state]=await Promise.all([j(`${API}/league/${id}`),j(`${API}/league/${id}/users`),
@@ -294,6 +295,7 @@ async function load(id,force){
       Promise.all(projWeeks.map(w=>loadProjections(season,w)))]);
     if(tok!==LOADTOKEN)return;
     const proj={};projWeeks.forEach((w,i)=>{if(projs[i])proj[w]=projs[i];});
+    LAST_PULL=Date.now();
     RAW={id,lg,users,rosters,state,players,mups:Object.fromEntries(ytdWeeks.map((w,i)=>[w,mups[i]])),proj,curWk,pwk,lastWk,inSeason};
     afterLoad();
   }catch(e){
@@ -512,8 +514,11 @@ function tradeable(p,mine){
   return true;
 }
 let LOCK=new Set(),SHOP=new Set();
+let LAST_RUN=0,LAST_PULL=0,_deb=null;
+function rerun(){clearTimeout(_deb);_deb=setTimeout(()=>{if(!RAW)return;readKnobs();buildModel();renderShell();runSearch();},350);}
 function lockKey(){return "tm_lock_"+RAW.id;}
 async function findTrades(onProgress){
+  const model=M;if(!model)return null;
   const me=M.teams.find(t=>t.rid===MYRID);if(!me)return [];
   const mine=me.players.map(id=>M.P[id]).filter(p=>tradeable(p,true)).sort((a,b)=>b.market-a.market);
   const maxK=SET.max;
@@ -547,6 +552,7 @@ async function findTrades(onProgress){
     }
     onProgress&&onProgress((ti+1)/others.length);
     await new Promise(r=>setTimeout(r,0));
+    if(M!==model)return null; // a newer league/settings load replaced this one
   }
   all.sort((a,b)=>b.score-a.score);
   // diversify: cap per partner and per headline player so the list isn't 20 versions of one deal
@@ -657,6 +663,7 @@ function metaLine(){
   const projN=Object.keys(M.projOK).length;
   let s=`${esc(lg.name)} · ${lg.season} · ${M.N} teams · ${lg.scoring_settings.rec||0} PPR · valuing Weeks ${M.weeks[0]}–${M.weeks[M.weeks.length-1]}`;
   if(dl)s+=` · trade deadline Week ${dl}`;
+  s+=` · pulled ${new Date(LAST_PULL).toLocaleTimeString([],{hour:"numeric",minute:"2-digit"})}, auto-refreshes`;
   s+=` · Sleeper projections ${projN?"live for "+projN+" weeks":"unavailable (season-to-date only)"} · Vegas as of ${VEGAS_UPDATED}`;
   return s;
 }
@@ -682,12 +689,15 @@ function showTab(t){
   document.querySelectorAll("main section").forEach(s=>s.classList.toggle("on",s.id==="s-"+t));
 }
 async function runSearch(){
-  const el=$("#s-trades");if(!el)return;
+  const el=$("#s-trades");if(!el||!M)return;
   const me=M.teams.find(t=>t.rid===MYRID);
   el.innerHTML=`<h2>Best trades for ${esc(me.user)}</h2><p class="sub">Scanning every ${SET.max===3?"deal up to 3-for-3":SET.max===2?"1-for-1, 2-for-1 and 2-for-2":"1-for-1"} with ${M.N-1} teams…</p><div class="progress"><i id="prog"></i></div>`;
   $("#run").disabled=true;
   const t0=performance.now();
-  RESULTS=await findTrades(f=>{const p=$("#prog");if(p)p.style.width=Math.round(f*100)+"%";});
+  const forModel=M;
+  const found=await findTrades(f=>{const p=$("#prog");if(p)p.style.width=Math.round(f*100)+"%";});
+  if(!found||M!==forModel)return; // league or settings changed mid-search; the newer search wins
+  RESULTS=found;
   $("#run").disabled=false;
   const secs=((performance.now()-t0)/1000).toFixed(1);
   const modeTxt=SET.mode==="winwin"?"both lineups improve":"your lineup improves most, with deals they'd plausibly accept";
@@ -696,6 +706,8 @@ async function runSearch(){
     ${myNeedsBlurb(me)}
     ${RESULTS.length?RESULTS.map(card).join(""):`<div class="warnbox"><b>No trades cleared the bar.</b> Try "Me first", raise max players, turn off untouchables, or set "shopping for" to Any.</div>`}`;
   bindCards(el,RESULTS);
+  renderNeeds(); // partners tab picks up the fresh best deals
+  LAST_RUN=Date.now();
 }
 function myNeedsBlurb(me){
   const need=me.needs.map(p=>`<span class="tag need">${p} · ${ord(me.rank[p])}</span>`).join("")||`<span class="muted small">no glaring holes</span>`;
@@ -723,7 +735,7 @@ function renderNeeds(){
     let s=0;const why=[];
     pos.forEach(p=>{if(me.needs.includes(p)&&t.surplus.includes(p)){s+=1+me.needScore[p];why.push(`<span class="tag have">they have ${p}</span>`);}
       if(t.needs.includes(p)&&me.surplus.includes(p)){s+=1+t.needScore[p];why.push(`<span class="tag need">they need ${p}</span>`);}});
-    const best=(RESULTS||[]).filter(x=>x.them.rid===t.rid)[0];
+    const best=(RESULTS||[]).filter(x=>x.them.rid===t.rid&&x.get.concat(x.give).every(id=>M.P[id]))[0];
     return {t,s,why,best};}).sort((a,b)=>b.s-a.s||((b.best?b.best.score:-9)-(a.best?a.best.score:-9)));
   el.innerHTML=`<h2>Who needs what</h2>
     <p class="sub">Each cell is a team's rank at that position by projected starting points per week, rest of season (1st = best). Green = top third, red = bottom third. "+N" = bench players there who'd start for a typical team — their trade bait.</p>
@@ -748,10 +760,11 @@ function renderRoster(){
     </tbody></table></div>
     <p class="sub">Model ROS blends Sleeper's weekly projections with this season's actual points per game, then tilts by Vegas. Bye weeks and expected absences count as zero, which is why it can sit below the per-game numbers.</p>`;
   el.querySelectorAll("[data-lock]").forEach(b=>b.onclick=()=>{const id=b.dataset.lock;LOCK.has(id)?LOCK.delete(id):(LOCK.add(id),SHOP.delete(id));
-    LS.set(lockKey(),[...LOCK]);LS.set("tm_shop_"+RAW.id,[...SHOP]);renderRoster();});
+    LS.set(lockKey(),[...LOCK]);LS.set("tm_shop_"+RAW.id,[...SHOP]);renderRoster();rerunSearchOnly();});
   el.querySelectorAll("[data-shop]").forEach(b=>b.onclick=()=>{const id=b.dataset.shop;SHOP.has(id)?SHOP.delete(id):(SHOP.add(id),LOCK.delete(id));
-    LS.set(lockKey(),[...LOCK]);LS.set("tm_shop_"+RAW.id,[...SHOP]);renderRoster();});
+    LS.set(lockKey(),[...LOCK]);LS.set("tm_shop_"+RAW.id,[...SHOP]);renderRoster();rerunSearchOnly();});
 }
+function rerunSearchOnly(){clearTimeout(_deb);_deb=setTimeout(()=>runSearch(),350);}
 let BUILD=null;
 function renderBuild(){
   const el=$("#s-build");const me=M.teams.find(t=>t.rid===MYRID);
@@ -809,10 +822,15 @@ function fillLeagues(){
 function init(){
   fillLeagues();syncKnobs();
   $("#league").onchange=()=>{LS.set("tm_last",$("#league").value);BUILD=null;load($("#league").value);};
-  $("#me").onchange=()=>{MYRID=+$("#me").value;LS.set("tm_me_"+RAW.id,MYRID);BUILD=null;renderShell();runSearch();};
+  $("#me").onchange=()=>{MYRID=+$("#me").value;LS.set("tm_me_"+RAW.id,MYRID);BUILD=null;RESULTS=null;renderShell();runSearch();};
   $("#run").onclick=()=>{readKnobs();buildModel();renderShell();runSearch();};
   $("#reload").onclick=()=>{try{localStorage.removeItem("tm_players");}catch(e){}load($("#league").value,true);};
-  ["#k-vw","#k-po","#k-blend"].forEach(s=>$(s).oninput=()=>{readKnobs();});
+  ["#k-vw","#k-po","#k-blend"].forEach(s=>{$(s).oninput=()=>readKnobs();$(s).onchange=rerun;});
+  ["#k-mode","#k-target","#k-max","#k-kdef"].forEach(s=>$(s).onchange=rerun);
+  // keep it fresh: re-pull Sleeper every 10 minutes while open, and on return to the tab if it's gone stale
+  const stale=()=>RAW&&Date.now()-LAST_PULL>10*60e3;
+  setInterval(()=>{if(document.visibilityState==="visible"&&stale())load($("#league").value);},60e3);
+  document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible"&&stale())load($("#league").value);});
   $("#tabs").onclick=e=>{const b=e.target.closest("button");if(!b||!M)return;showTab(b.dataset.t);location.hash=b.dataset.t;
     if(b.dataset.t==="needs")renderNeeds();};
   load($("#league").value);
