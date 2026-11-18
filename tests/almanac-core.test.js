@@ -135,6 +135,21 @@ describe("playoff odds", () => {
     expect(sum("title")).toBeCloseTo(1);
     expect(odds.find(o => o.name === "A").title).toBe(Math.max(...odds.map(o => o.title)));
   });
+  it("spots override changes how many teams make it", () => {
+    const odds = Core.playoffOdds(league(), { spots: 3 });
+    expect(odds.reduce((a, o) => a + o.playoff, 0)).toBeCloseTo(3);
+  });
+  it("eliminates a team: forced out of contention, zero playoff/1-seed/title odds, spots still fill", () => {
+    const L = league();
+    const aIdx = L._T.findIndex(t => t.name === "A"); // A is the strongest team
+    const odds = Core.playoffOdds(L, { elim: new Set([aIdx]) });
+    const A = odds.find(o => o.name === "A");
+    expect(A.playoff).toBe(0);
+    expect(A.top).toBe(0);
+    expect(A.title).toBe(0);
+    expect(odds.reduce((a, o) => a + o.playoff, 0)).toBeCloseTo(2); // the two spots still get filled
+    expect(odds.reduce((a, o) => a + o.title, 0)).toBeCloseTo(1);
+  });
 });
 
 describe("coach ratings", () => {
