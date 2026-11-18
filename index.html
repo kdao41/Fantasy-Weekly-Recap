@@ -506,6 +506,13 @@ const SHOTGUN_LEAGUES = ["1377490959020855296"]; // Sea Squad
 const SHOTGUN_EXEMPT = {
   "1377490959020855296": ["kenz"],   // Sea Squad — kenz is inactive
 };
+// Playoff-odds overrides, for when the real format differs from Sleeper's settings (e.g. a manager quit).
+// spots: force the number of playoff teams (the 1st-seed bye is automatic — 7 spots → 1 bye).
+// eliminated: names (case-insensitive, substring) forced OUT of contention — they lose their remaining
+//   games and can never take a seed, so the rest race as a smaller league.
+const PLAYOFF_OVERRIDE = {
+  "1377490959020855296": { spots: 7, eliminated: ["kenz"] },  // Sea Squad — kenz quit: 13 teams for 7 spots, 1 bye
+};
 // Leagues that run the "lowest score pays for the league parlay" rule → get the Parlay tab.
 const PARLAY_LEAGUES = ["1389735540009500672"]; // Sober Gang
 // How many of each manager's owed parlays have been PAID (real-world info — edit as people settle up).
@@ -1349,16 +1356,36 @@ function renderBrackets(){
         :"The teams that miss. Winners keep climbing toward the best spot outside the playoffs.",CUR.lb,false,CUR.toilet);
 }
 
+// Resolves PLAYOFF_OVERRIDE for the current league into {spots, elim, note}, or null if none applies.
+function playoffOpts(){
+  const o=PLAYOFF_OVERRIDE[CUR.id]; if(!o) return null;
+  const opts={};
+  if(o.spots) opts.spots=o.spots;
+  const outNames=[];
+  if(o.eliminated&&o.eliminated.length){
+    const want=o.eliminated.map(s=>s.toLowerCase());
+    const elim=new Set();
+    CUR._T.forEach((t,i)=>{ if(want.some(w=>String(t.name).toLowerCase().includes(w))){elim.add(i);outNames.push(t.name);} });
+    if(elim.size) opts.elim=elim;
+  }
+  if(!opts.spots&&!opts.elim) return null;
+  const sp=opts.spots||Core.playoffSpots(CUR), byes=nextPow2(sp)-sp, live=CUR._T.length-(opts.elim?opts.elim.size:0);
+  opts.note=`Run as a ${live}-team race${outNames.length?` — ${outNames.join(", ")} out of contention (quit/inactive, loses out)`:""}, top ${sp} make it${byes?` (${byes===1?"1 seed gets a bye":byes+" seeds get byes"})`:""}.`;
+  return opts;
+}
 function renderOdds(){
   $("#sec-odds").innerHTML=`<h2>Playoff &amp; title odds</h2><p class="sub"><span class="spin"></span>Running 4,000 simulated seasons in your browser…</p>`;
   const cur=CUR;
   setTimeout(()=>{
     if(cur!==CUR||!$("#sec-odds"))return; // league changed while waiting
-    const spots=Core.playoffSpots(CUR);
-    const res=Core.playoffOdds(CUR);
+    const opts=playoffOpts();
+    const spots=(opts&&opts.spots)||Core.playoffSpots(CUR);
+    const liveTeams=CUR._T.length-((opts&&opts.elim)?opts.elim.size:0);
+    const res=Core.playoffOdds(CUR,opts);
     CUR._odds={};res.forEach(r=>CUR._odds[r.name]=r);
     res.sort((a,b)=>b.playoff-a.playoff);
-    let h=`<h2>Playoff &amp; title odds</h2><p class="sub">${spots} of ${CUR._T.length} make the playoffs. 4,000 simulated seasons that play out the real remaining schedule. A forecast, not a promise.</p>
+    let h=`<h2>Playoff &amp; title odds</h2><p class="sub">${spots} of ${liveTeams} make the playoffs. 4,000 simulated seasons that play out the real remaining schedule. A forecast, not a promise.</p>
+    ${opts&&opts.note?`<p class="sub">⚙️ ${opts.note}</p>`:""}
     <p class="sub"><span class="swin"></span>Shaded: the ${spots} likeliest playoff teams.</p>
     <table class="odds-table"><thead><tr><th>Team</th><th class="n">Playoffs</th><th class="n">1 seed</th><th class="n">Title</th></tr></thead><tbody>`;
     // every column shares one 0-100% scale, so a bar half as long is half as likely
@@ -1372,7 +1399,13 @@ function renderOdds(){
       `<li class="${[i<spots?"in":"",CUR.mine===r.name?"me":""].join(" ").trim()}"><div class="ol-top"><span>${tl(r.name)}<span class="ol-rec">${recstr(byName[r.name])}</span></span><b>${pct(r.playoff)}%</b></div>
       <span class="ol-bar" role="img" aria-label="Playoff chance ${pct(r.playoff)}%"><i style="width:${Math.max(r.playoff>0?1.5:0,r.playoff*100)}%"></i></span>
       <div class="ol-sub">1 seed ${pct(r.top)}% · Title ${pct(r.title)}%</div></li>`).join("")+`</ol>`;
-    $("#sec-odds").innerHTML=h+renderBrackets();
+    // With an override active, Sleeper's own projected bracket (from its raw settings) would contradict the
+    // odds above — so hide it until the real playoffs start, when the bracket shows actual results.
+    const poStarted=Object.keys(CUR.poWeeks).some(w=>CUR.poWeeks[w].some(x=>x.points>0))||(CUR.wb||[]).some(g=>g.w!=null);
+    const bracketOut=(opts&&!poStarted)
+      ? `<p class="sub" style="margin-top:14px">The projected bracket is hidden here: Sleeper still seeds it from its original settings, which don't match this league's real format above. The live bracket returns once the playoffs begin.</p>`
+      : renderBrackets();
+    $("#sec-odds").innerHTML=h+bracketOut;
   },30);
 }
 
